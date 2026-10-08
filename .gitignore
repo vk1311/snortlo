@@ -3,3 +3,4 @@ engine/*.wav
 engine/timing.json
 engine/still_*.png
 __pycache__/
+engine/sounds/raw/

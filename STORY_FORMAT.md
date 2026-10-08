@@ -40,3 +40,22 @@ Stage layout: ground is y=1180. Kitchen fridge at x 350-580, stove/counter x 680
 - A meme sound every one or two lines; vary them. Visual punch (zoom/shake) on the big moments.
 - Original stories only: real threads can inspire the premise, but rewrite everything, change the details, use no real names, and never copy text.
 - Keep it light: no politics, no punching down, nothing hateful or sexual, no real private people.
+
+## New sets
+`bedroom` (state: `dark`, `phone` = blue phone glow, `clock`), `classroom` (`board` = "LINE1|LINE2", `clock`), `street` (`night`), `living` (`tv` = "TEXT|TEXT", `dark`). `closeup` also takes `show: "text"` with `big` ("YOU|TOO?!") and `color`.
+
+## Sounds (63, see engine/sounds/CREDITS.md)
+Any name below works in `sfx`. Use `random:punch` / `random:accent` to let the engine pick. Every use gets a slight random pitch/volume change so repeats never sound identical.
+- **Punchline** (lands after the line, or as a silent shot appears): vineboom, bruh, fahh, huh, oof, nooo, waitwhat, rimshot, sadtrombone, airhorn, crickets, dundun, metalpipe, bonk, sadviolin, recordscratch, laughtrack, ooh, aww, gasp, gong, applause, crowdcheer, boo, buzzer, success, fanfare, sting, goat, evillaugh, yay, angelchoir, thunder, glass, carcrash, slap, cashregister
+- **Accent** (on the line): pop, ding, tick, whoosh, boing, scratch, slideup, slidedown, riser, heartbeat, shutter, cork, splash, tirescreech, doorslam, drumroll, meow, bark, chicken, crunch, gulp, whistle, squeak, alarm, sparkle, typebell
+- Never add ripped audio from shows, films, songs or other creators. New sounds must be CC0 (Freesound filter "Creative Commons 0"), synthesized, or voiced by our own TTS, and get a line in CREDITS.md.
+
+# Meme format (memes/<slug>.json)
+Short (6–16 s) recreations of well-known meme formats, drawn with our cast. Top level adds `"format": "meme"` and usually `"music": false`; no `part`, no minimum length.
+- Layout: white caption band on top, scene below, karaoke captions near the bottom.
+- `top_text`: the meme caption for that beat ("Nobody:", "Me at 3 AM:", "POV: …"; `|` = new line).
+- `text` may be empty for a silent reaction shot; then set `hold` (seconds). A punch `sfx` on a silent shot hits as the shot appears.
+- `voice` per beat lets characters sound different (e.g. mom = af_bella).
+- `meme: "deepfry"` = crushed, oversaturated, grainy look from the punch onwards. Use on the final punch only.
+- Recreate the *format*, never the original image, clip or character. No copyrighted characters, no real people.
+- Examples: memes/3am-snack.json, memes/you-too.json.

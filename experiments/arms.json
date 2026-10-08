@@ -1,0 +1,24 @@
+{
+ "_about": "Variables we test. pick.py chooses one arm per variable each night: mostly the best performer so far, sometimes a random one to keep learning. Add arms freely; remove losers only after 10+ samples.",
+ "explore_rate": 0.3,
+ "min_samples": 3,
+ "metric": "views_72h",
+ "story": {
+  "hook_style": ["shock_statement", "question", "pov", "number_list", "in_media_res"],
+  "narrator_voice": ["af_heart", "am_puck", "af_bella", "am_michael"],
+  "speed": [1.15, 1.25],
+  "music": [true, false],
+  "title_style": ["emoji_end", "all_lowercase", "caps_word", "quote_from_story"],
+  "part1_hour": [9, 12, 17],
+  "theme": ["work", "roommates", "family", "school", "customers", "neighbours", "dating", "pets"]
+ },
+ "meme": {
+  "format": ["nobody_me", "pov", "expectation_reality", "me_vs_mom", "when_you", "teacher_class", "x_years_later", "starter_pack"],
+  "punch_sound": ["fahh", "metalpipe", "vineboom", "bruh", "random:punch"],
+  "length": ["short_6_9s", "long_12_16s"],
+  "voiced": [true, false],
+  "deepfry": [true, false],
+  "post_hour": [8, 13, 20],
+  "theme": ["work", "school", "family", "food", "sleep", "phone", "money", "friends"]
+ }
+}

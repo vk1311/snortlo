@@ -388,9 +388,75 @@ def set_closeup(c, t, st):
     elif what == "note":
         lunchbox(c, 540, 900, 5.0, label=False)
         draw_prop(c, dict(type="note", rot=-0.06 + 0.02 * math.sin(t * 2), lines=st.get("note_lines")), 540, 800, t)
+    elif what == "text":  # big reaction text, e.g. "3:00 AM" or "???"
+        c.save(); c.translate(540, 820); sc = 1 + 0.04 * math.sin(t * 5); c.scale(sc, sc)
+        for i, l in enumerate(st.get("big", "???").split("|")): text(c, l, 0, (i - (len(st.get("big", "").split("|")) - 1) / 2) * 190, 170, hexc(st.get("color", "#E0453A")), outline=INKC)
+        c.restore()
     elif what == "part2":
         draw_prop(c, dict(type="note", rot=-0.1), 540, 760, t)
         c.save(); c.translate(540, 760); c.scale(2.4, 2.4); text(c, "?", 0, 0, 120, hexc("#E0453A"), weight=cairo.FONT_WEIGHT_BOLD, outline=INKC); c.restore()
 
+def _floor(c, wall, floor):
+    c.set_source_rgb(*hexc(wall)); c.paint()
+    c.set_source_rgb(*hexc(floor)); c.rectangle(-1500, GROUND, W + 3000, H * 2); c.fill(); line(c, (-1500, GROUND), (W + 1500, GROUND), 8)
+
+def _dark(c, glow=None):
+    c.set_source_rgba(0.04, 0.04, 0.14, 0.72); c.paint()
+    if glow:
+        gx, gy, r = glow; pat = cairo.RadialGradient(gx, gy, 20, gx, gy, r)
+        pat.add_color_stop_rgba(0, .75, .9, 1, .55); pat.add_color_stop_rgba(1, .75, .9, 1, 0); c.set_source(pat); c.paint()
+
+def set_bedroom(c, t, st):
+    """state: dark (bool), phone (bool: blue phone glow on the bed), clock ('3:00')"""
+    _floor(c, "#E8E1F7", "#B9A9D6")
+    rrect(c, 640, 300, 300, 240, 10); fill_stroke(c, "#1E2A4A" if st.get("dark") else "#BFE6FF", INKC, 8)
+    line(c, (790, 300), (790, 540), 6); line(c, (640, 420), (940, 420), 6)
+    if st.get("dark"): c.new_path(); c.arc(860, 360, 30, 0, 2 * math.pi); c.set_source_rgb(1, .97, .8); c.fill()
+    rrect(c, 60, 960, 560, 120, 18); fill_stroke(c, "#7FB2FF", INKC, 8)       # bed
+    rrect(c, 60, 900, 130, 80, 30); fill_stroke(c, "#FFFFFF", INKC, 7)       # pillow
+    rrect(c, 40, 860, 40, 320, 8); fill_stroke(c, "#9B7B5B", INKC, 7)
+    line(c, (90, 1080), (90, GROUND), 12); line(c, (590, 1080), (590, GROUND), 12)
+    rrect(c, 700, 1040, 140, 140, 8); fill_stroke(c, "#9B7B5B", INKC, 7)     # nightstand
+    rrect(c, 720, 985, 100, 55, 8); fill_stroke(c, "#2E3440", INKC, 5)
+    text(c, st.get("clock", "3:00"), 770, 1013, 30, hexc("#FF5A4E"))
+    if st.get("dark"): _dark(c, (340, 900, 420) if st.get("phone") else None)
+
+def set_classroom(c, t, st):
+    """state: board ('LINE1|LINE2' on the chalkboard)"""
+    _floor(c, "#F6EBD3", "#C9B48E")
+    rrect(c, 120, 300, 840, 380, 12); fill_stroke(c, "#2F5D50", INKC, 10)
+    for i, l in enumerate(st.get("board", "2 + 2 = ?").split("|")): text(c, l, 540, 400 + i * 90, 70, (0.97, 0.97, 0.95))
+    for x in (160, 640):
+        rrect(c, x, 1010, 300, 26, 6); fill_stroke(c, "#C98B4F", INKC, 7)
+        line(c, (x + 30, 1036), (x + 30, GROUND), 10); line(c, (x + 270, 1036), (x + 270, GROUND), 10)
+    clock(c, 960, 230, st.get("clock", "2:59"))
+
+def set_street(c, t, st):
+    """state: night (bool)"""
+    night = st.get("night")
+    c.set_source_rgb(*hexc("#1B2340" if night else "#BFE6FF")); c.paint()
+    for i, (x, w_, h_, col) in enumerate([(-200, 300, 600, "#F2B880"), (130, 260, 760, "#A8C686"), (420, 320, 540, "#F28F8F"), (770, 280, 700, "#9BB7E0"), (1070, 300, 620, "#E6C36A")]):
+        rrect(c, x, GROUND - 120 - h_, w_, h_, 6); fill_stroke(c, col, INKC, 8)
+        for r in range(int(h_ / 140)):
+            for q in range(2):
+                rrect(c, x + 40 + q * (w_ / 2 - 10), GROUND - 80 - h_ + r * 140, w_ / 2 - 70, 80, 6)
+                fill_stroke(c, "#FFE9A0" if night and (r + q + i) % 3 else "#E8F6FF", INKC, 5)
+    c.set_source_rgb(*hexc("#9AA0A6")); c.rectangle(-1500, GROUND - 120, W + 3000, 120); c.fill(); line(c, (-1500, GROUND - 120), (W + 1500, GROUND - 120), 8)
+    c.set_source_rgb(*hexc("#5A5F66")); c.rectangle(-1500, GROUND, W + 3000, H * 2); c.fill(); line(c, (-1500, GROUND), (W + 1500, GROUND), 8)
+    if night: c.set_source_rgba(0.05, 0.05, 0.2, 0.35); c.paint()
+    else: c.new_path(); c.arc(960, 180, 70, 0, 2 * math.pi); fill_stroke(c, "#FFD23F", INKC, 6)
+
+def set_living(c, t, st):
+    """state: tv ('TEXT' on the TV screen), dark (bool)"""
+    _floor(c, "#FBE3D3", "#D9A98A")
+    rrect(c, 80, 940, 520, 160, 30); fill_stroke(c, "#E0453A", INKC, 8)       # couch
+    rrect(c, 60, 880, 90, 260, 30); fill_stroke(c, "#C93A30", INKC, 8); rrect(c, 530, 880, 90, 260, 30); fill_stroke(c, "#C93A30", INKC, 8)
+    rrect(c, 700, 660, 330, 220, 12); fill_stroke(c, "#20242C", INKC, 10)    # TV
+    if st.get("tv"):
+        for i, l in enumerate(st["tv"].split("|")): text(c, l, 865, 740 + i * 60, 46, (1, 1, 1))
+    rrect(c, 760, 880, 210, 300, 8); fill_stroke(c, "#9B7B5B", INKC, 8)
+    if st.get("dark"): _dark(c, (865, 770, 520))
+
 SETS = {"kitchen": set_kitchen, "night": lambda c, t, st: set_kitchen(c, t, st, dark=True),
-        "office": set_office, "desk": set_desk, "closeup": set_closeup}
+        "office": set_office, "desk": set_desk, "closeup": set_closeup,
+        "bedroom": set_bedroom, "classroom": set_classroom, "street": set_street, "living": set_living}

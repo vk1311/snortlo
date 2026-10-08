@@ -12,7 +12,16 @@ story, timing = json.load(open(STORY)), json.load(open("timing.json"))
 B, T = story["beats"], timing["beats"]
 DUR = max(timing["duration"] + 0.4, story.get("min_seconds", 0))
 N = int(DUR * FPS)
-PUNCH = {"vineboom", "bruh", "rimshot", "sadtrombone", "airhorn", "crickets", "dundun"}
+PUNCH = sfx.PUNCH
+MEME = story.get("format") == "meme"
+YOFF = 300 if MEME else 0  # memes: scene sits lower, classic white caption band on top
+import zlib
+SEED = zlib.crc32((os.path.basename(STORY) + json.dumps(story.get("beats", [])[:1])).encode())
+rng_fx = np.random.default_rng(SEED)
+# resolve random sound picks once, so voice gaps, camera punches and audio agree
+for _b in story["beats"]:
+    if str(_b.get("sfx", "")).startswith("random:"):
+        _b["sfx"], _ = sfx.get(_b["sfx"], rng_fx)
 YEL, WHITE = A.hexc("#FFD23F"), (1, 1, 1)
 
 # voice energy -> mouth
@@ -28,6 +37,10 @@ def beat_index(t):
 
 chars = {n: A.Char(n, A.CAST_LOOKS[n]) for n in A.CAST_LOOKS}
 state = dict(set=None, cam=[540.0, 820.0, 1.0], red={}, beat=-1)
+
+def punch_at(b, tb):
+    """Punchline sounds land after a spoken line; on a silent reaction shot they land as the shot appears."""
+    return tb["start"] + 0.05 if not b.get("text", "").strip() else tb["end"] + 0.02
 
 def walk_pose(base, ph, amt=1.0):
     p = dict(base); s = math.sin(ph)
@@ -50,8 +63,9 @@ def frame(n, surf):
     elif "at" in cam: fx, fy = cam["at"]
     # punch zoom + shake for meme moments
     extra, shake = 0.0, 0.0
-    if b.get("sfx") in PUNCH and t > tb["end"]:
-        dt = t - tb["end"]; extra = 0.22 * math.exp(-dt * 2.5); shake = 14 * math.exp(-dt * 6)
+    pa = punch_at(b, tb)
+    if b.get("sfx") in PUNCH and t > pa:
+        dt = t - pa; extra = 0.22 * math.exp(-dt * 2.5); shake = 14 * math.exp(-dt * 6)
     if b.get("meme") == "shake": shake = max(shake, 7)
     if b.get("meme") == "slowzoom": z *= 1 + 0.12 * min(1, bt / max(blen, .1))
     k = 1.0 if snap else 0.14
@@ -60,7 +74,7 @@ def frame(n, surf):
     sx, sy = (random.uniform(-shake, shake), random.uniform(-shake, shake)) if shake else (0, 0)
     # ---- world
     c.save()
-    c.translate(W / 2 + sx, 820 + sy); c.scale(cz, cz); c.translate(-cx, -cy)
+    c.translate(W / 2 + sx, 820 + YOFF + sy); c.scale(cz, cz); c.translate(-cx, -cy)
     st = dict(b.get("state", {})); st["t0"] = tb["start"]
     c.save(); c.translate(-2000, 0); c.restore()
     A.SETS[b["set"]](c, t, st)
@@ -109,9 +123,38 @@ def frame(n, surf):
             A.text(c, txt, 0, 30, 80); c.restore()
     c.restore()
     # ---- overlay: header, captions, progress
+    if MEME: draw_band(c, b.get("top_text", ""), bt)
+    elif b.get("top_text"): draw_top_text(c, b["top_text"], bt)
     draw_header(c, b)
     draw_captions(c, t)
+    state["fry"] = b.get("meme") == "deepfry" and t > punch_at(b, tb) - 0.05
     c.set_source_rgb(*YEL); c.rectangle(0, 0, W * n / N, 10); c.fill()
+
+def draw_band(c, txt, bt):
+    """Meme layout: solid white band across the top with big black caption text."""
+    top = 520
+    c.set_source_rgb(1, 1, 1); c.rectangle(0, 0, W, top); c.fill()
+    c.set_source_rgb(0.06, 0.05, 0.09); c.rectangle(0, top - 6, W, 6); c.fill()
+    if not txt: return
+    lines = txt.split("|"); size = 84
+    c.select_font_face(A.FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); c.set_font_size(size)
+    wmax = max(c.text_extents(l)[4] for l in lines); sc = min(1, (W - 120) / max(wmax, 1)); sz = size * sc
+    y0 = 240 + (top - 240) / 2 - (len(lines) - 1) * sz * 0.6
+    pop = 1 + 0.06 * max(0, 1 - bt * 5)
+    for i, l in enumerate(lines):
+        c.save(); c.translate(W / 2, y0 + i * sz * 1.2); c.scale(pop, pop); A.text(c, l, 0, 0, sz, (0.05, 0.05, 0.07)); c.restore()
+
+def draw_top_text(c, txt, bt):
+    """Classic meme caption: white card at the top with black text. '|' = new line."""
+    lines = txt.split("|"); size = 74
+    c.select_font_face(A.FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); c.set_font_size(size)
+    wmax = max(c.text_extents(l)[4] for l in lines); sc = min(1, (W - 140) / max(wmax, 1))
+    hh = (len(lines) * size * 1.18 + 50) * sc; s = max(0.01, A.spring(bt, 14, 18))
+    c.save(); c.translate(W / 2, 250 + hh / 2); c.scale(s, s)
+    A.rrect(c, -W / 2 + 40, -hh / 2, W - 80, hh, 26); A.fill_stroke(c, "#FFFFFF", A.INKC, 6)
+    for i, l in enumerate(lines):
+        A.text(c, l, 0, -hh / 2 + (25 + size * 1.18 * (i + 0.62)) * sc, size * sc, (0.05, 0.05, 0.07))
+    c.restore()
 
 def draw_header(c, b):
     label = story["channel"] + ("  ·  " + story["part"] if story.get("part") else "")
@@ -138,7 +181,7 @@ def draw_captions(c, t):
     total = sum(widths) + space * (len(toks) - 1)
     s = 0.8 + 0.2 * A.spring(t - ch[0]["s"] + 0.04, 16, 22)
     if total * s > W - 80: s *= (W - 80) / (total * s)
-    c.save(); c.translate(W / 2, 1470); c.scale(s, s)
+    c.save(); c.translate(W / 2, 1470 + (250 if MEME else 0)); c.scale(s, s)
     x = -total / 2
     cur_i = max([i for i, w in enumerate(ch) if w["s"] - 0.02 <= t] or [0])
     for i, (tk, wd, w) in enumerate(zip(toks, widths, ch)):
@@ -152,8 +195,13 @@ def draw_captions(c, t):
 surf = cairo.ImageSurface(cairo.FORMAT_RGB24, W, H)
 def render_frame(n):
     frame(n, surf); surf.flush()
-    a = np.ndarray((H, W, 4), np.uint8, buffer=surf.get_data())
-    return a[:, :, [2, 1, 0]]
+    a = np.ndarray((H, W, 4), np.uint8, buffer=surf.get_data())[:, :, [2, 1, 0]]
+    if state.get("fry"):  # deep-fried meme look: crushed contrast, oversaturated, warm, grainy
+        f = a.astype(np.float32); g = f.mean(axis=2, keepdims=True)
+        f = (f - g) * 2.2 + g; f = (f - 128) * 1.6 + 128; f[:, :, 0] += 30; f[:, :, 2] -= 25
+        f += np.random.default_rng(n).normal(0, 14, f.shape[:2])[:, :, None]
+        return np.clip(f, 0, 255).astype(np.uint8)
+    return a
 
 if os.environ.get("STILLS"):
     from PIL import Image
@@ -168,10 +216,10 @@ fx = np.zeros(int(DUR * sfx.SR) + sfx.SR * 4)
 for b, tb in zip(B, T):
     name = b.get("sfx")
     if not name: continue
-    s = sfx.BANK[name](); at = tb["end"] + 0.02 if name in PUNCH else tb["start"] - 0.05
+    _, s = sfx.get(name, rng_fx); at = punch_at(b, tb) if name in PUNCH else tb["start"] - 0.05
     i = int(max(0, at) * sfx.SR); fx[i:i + len(s)] += s[:len(fx) - i] * (0.8 if name in PUNCH else 0.5)
 sf.write("fx.wav", fx[:int(DUR * sfx.SR)], sfx.SR)
-sf.write("music.wav", sfx.music(DUR, bpm=96), sfx.SR)
+sf.write("music.wav", sfx.music(DUR, bpm=story.get("bpm", 96)) * (1 if story.get("music", True) else 0), sfx.SR)
 enc = subprocess.Popen([
     "ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
     "-i", "voice.wav", "-i", "fx.wav", "-i", "music.wav", "-filter_complex",

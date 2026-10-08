@@ -158,3 +158,40 @@ def bruh():
 BANK.update({"vineboom": vineboom, "scratch": scratch, "sadtrombone": sadtrombone, "dundun": dundun,
              "rimshot": rimshot, "slideup": slidewhistle, "slidedown": lambda: slidewhistle(False),
              "airhorn": airhorn, "riser": riser, "heartbeat": heartbeat, "crickets": crickets, "bruh": bruh})
+
+# ---------- recorded sounds (public domain / CC0, see sounds/CREDITS.md) + our voiced shouts ----------
+import os, glob
+HERE = os.path.dirname(os.path.abspath(__file__))
+
+def _load(path):
+    def f():
+        x, r = sf.read(path)
+        if x.ndim > 1: x = x.mean(axis=1)
+        if r != SR: x = np.interp(np.arange(0, len(x), r / SR), np.arange(len(x)), x)
+        return x * 0.9
+    return f
+
+for _p in sorted(glob.glob(os.path.join(HERE, "sounds", "*.wav"))):
+    BANK[os.path.splitext(os.path.basename(_p))[0]] = _load(_p)
+
+SHOUTS = ["fahh", "huh", "oof", "nooo", "waitwhat"]  # written by voice2.py into the working dir as shout_<name>.wav
+for _s in SHOUTS:
+    BANK[_s] = (lambda s: (lambda: _load(f"shout_{s}.wav")() if os.path.exists(f"shout_{s}.wav") else vineboom()))(_s)
+
+# Punchline sounds land just after the line, with a pause and a camera punch. Everything else is an accent at the line start.
+PUNCH = {"vineboom", "bruh", "rimshot", "sadtrombone", "airhorn", "crickets", "dundun", "fahh", "huh", "oof", "nooo",
+         "waitwhat", "metalpipe", "bonk", "sadviolin", "recordscratch", "laughtrack", "ooh", "aww", "gasp", "gong",
+         "applause", "crowdcheer", "boo", "buzzer", "success", "fanfare", "sting", "goat", "evillaugh", "yay",
+         "angelchoir", "thunder", "glass", "carcrash", "slap", "cashregister"}
+
+def get(name, rng=None):
+    """Sound by name, with a little random pitch/speed so repeats never sound identical.
+    name may be 'random:punch' or 'random:accent' to let the engine pick."""
+    rng = rng or np.random.default_rng()
+    if name.startswith("random:"):
+        pool = sorted(PUNCH) if name.endswith("punch") else sorted(set(BANK) - PUNCH)
+        name = pool[rng.integers(len(pool))]
+    s = BANK[name]()
+    k = rng.uniform(0.94, 1.06)  # +-6% pitch/speed
+    s = np.interp(np.arange(0, len(s), k), np.arange(len(s)), s)
+    return name, s * rng.uniform(0.85, 1.0)

@@ -1,0 +1,14 @@
+{"channel": "Snortlo", "format": "meme", "voice": "am_puck", "speed": 1.15, "music": false,
+ "beats": [
+  {"text": "Enjoy your meal!", "voice": "af_bella", "top_text": "Waiter:", "set": "office", "state": {"table": true, "cooler": false, "whiteboard": "TODAY'S|SPECIAL"},
+   "speaker": "co2", "sfx": "ding",
+   "cast": [{"who": "co2", "x": 820, "facing": -1, "pose": "talk", "act": "talk", "hold": "sandwich", "face": {"eyes": "happy", "mouth": "smile"}},
+            {"who": "me", "x": 380, "facing": 1, "pose": "stand", "face": {"eyes": "dot", "mouth": "smile"}}], "cam": {"zoom": 1.1, "at": [600, 820]}},
+  {"text": "Thanks, you too!", "top_text": "Me:", "set": "office", "state": {"table": true, "cooler": false, "whiteboard": "TODAY'S|SPECIAL"},
+   "speaker": "me", "sfx": "pop",
+   "cast": [{"who": "co2", "x": 820, "facing": -1, "pose": "stand", "face": {"eyes": "dot", "mouth": "smile"}},
+            {"who": "me", "x": 380, "facing": 1, "pose": "celebrate", "act": "bounce", "face": {"eyes": "happy", "mouth": "grin"}}], "cam": {"zoom": 1.35, "on": "me"}},
+  {"text": "", "hold": 1.4, "top_text": "Me, realizing:", "set": "closeup", "state": {"show": "text", "big": "YOU|TOO?!", "bg1": "#FFE0E0", "bg2": "#F28F8F"}, "sfx": "fahh", "meme": "deepfry"},
+  {"text": "", "hold": 1.6, "top_text": "Me, 10 years later, at 2 AM:", "set": "bedroom", "state": {"dark": true, "phone": true, "clock": "2:13"}, "sfx": "sadviolin",
+   "cast": [{"who": "me", "x": 340, "facing": 1, "pose": "facepalm", "face": {"eyes": "closed", "mouth": "frown"}}], "cam": {"zoom": 1.4, "on": "me"}}
+ ]}
