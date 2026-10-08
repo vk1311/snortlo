@@ -1,0 +1,495 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 3",
+ "voice": "af_heart",
+ "speed": 1.2,
+ "beats": [
+  {
+   "text": "Quick recap: lunch thief, ghost peppers, written warning. And now... a note.",
+   "set": "closeup",
+   "sfx": "whoosh",
+   "state": {
+    "show": "note",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  },
+  {
+   "text": "I slowly peel it off the lid. My hands are actually shaking.",
+   "set": "night",
+   "sfx": "heartbeat",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": []
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "hold",
+     "act": "shake",
+     "face": {
+      "eyes": "wide",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Is this a threat? An apology? Is he suing me?",
+   "set": "night",
+   "sfx": "slideup",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": []
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "shocked",
+     "act": "shake",
+     "face": {
+      "eyes": "worried",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Do I need a lawyer? Do I need to move countries?",
+   "set": "night",
+   "sfx": "pop",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": []
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Okay. Deep breath. Just read the note.",
+   "set": "night",
+   "sfx": "whoosh",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": []
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "I open it up. And it says...",
+   "set": "closeup",
+   "sfx": "riser",
+   "slow": true,
+   "meme": "slowzoom",
+   "state": {
+    "show": "note",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  },
+  {
+   "text": "Respect. That chili almost ended me.",
+   "set": "closeup",
+   "sfx": "pop",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "Respect.",
+     "That chili almost",
+     "ended me.",
+     ""
+    ],
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "Can I get the recipe? Signed, Dave. Your manager.",
+   "set": "closeup",
+   "sfx": "vineboom",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "Respect.",
+     "That chili almost",
+     "ended me.",
+     "Recipe?? - Dave"
+    ],
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "I did not see that coming.",
+   "set": "desk",
+   "sfx": "bruh",
+   "slow": true,
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  },
+  {
+   "text": "My man went from lunch thief to chili fan in one week.",
+   "set": "desk",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "So Monday, I bring in two containers. One for me. And one for Dave.",
+   "set": "kitchen",
+   "sfx": "pop",
+   "cards": [
+    "ME",
+    "DAVE"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": 1,
+     "pose": "hold",
+     "hold": "lunch",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "He takes one bite. Turns bright red. Gives me a thumbs up. Then cries a little.",
+   "set": "office",
+   "sfx": "airhorn",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 560,
+     "facing": -1,
+     "pose": "celebrate",
+     "act": "bounce",
+     "face": {
+      "eyes": "happy",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "The regional director asks for a bowl too. She doesn't even sweat. She's built different.",
+   "set": "office",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 540,
+     "facing": 1,
+     "pose": "eat",
+     "hold": "cup",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co3"
+   }
+  },
+  {
+   "text": "Now every Friday is chili day. The whole office joins in.",
+   "set": "office",
+   "sfx": "rimshot",
+   "state": {
+    "table": true,
+    "whiteboard": "FRIDAY|CHILI DAY"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 180,
+     "facing": 1,
+     "pose": "laugh",
+     "act": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 380,
+     "facing": 1,
+     "pose": "eat",
+     "hold": "cup",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "laugh",
+     "act": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "fx": {
+      "red": 0.7,
+      "sweat": true
+     }
+    },
+    {
+     "who": "me",
+     "x": 820,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Someone keeps a gallon of milk in the fridge now. Just in case.",
+   "set": "kitchen",
+   "sfx": "pop",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "cup",
+     "lunch"
+    ]
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 780,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.15,
+    "at": [
+     600,
+     800
+    ]
+   }
+  },
+  {
+   "text": "Dave even made a new sign for the fridge.",
+   "set": "kitchen",
+   "sfx": "pop",
+   "state": {
+    "sign": "WARNING|DO NOT TOUCH|THE CHILI.|- Dave"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 780,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     560,
+     800
+    ]
+   }
+  },
+  {
+   "text": "It says: do not touch the chili. Trust me. I learned the hard way.",
+   "set": "kitchen",
+   "sfx": "rimshot",
+   "state": {
+    "sign": "WARNING|DO NOT TOUCH|THE CHILI.|- Dave"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 780,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "at": [
+     460,
+     700
+    ]
+   }
+  },
+  {
+   "text": "And my lunch? Never stolen again.",
+   "set": "office",
+   "sfx": "ding",
+   "state": {
+    "cooler": false
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "eat",
+     "hold": "sandwich",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Dave even labels his own lunch now. Extra spicy. Do not eat.",
+   "set": "kitchen",
+   "sfx": "slideup",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 720,
+     "facing": -1,
+     "pose": "hold",
+     "hold": "lunch",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Well... almost never. But that's a whole other story. Follow so you don't miss it.",
+   "set": "office",
+   "sfx": "dundun",
+   "slow": true,
+   "meme": "slowzoom",
+   "state": {
+    "cooler": false
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "me"
+   }
+  }
+ ]
+}

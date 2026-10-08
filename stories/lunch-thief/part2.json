@@ -1,0 +1,589 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 2",
+ "voice": "af_heart",
+ "speed": 1.2,
+ "beats": [
+  {
+   "text": "Last time: my manager kept stealing my lunch, so I loaded it with ghost peppers.",
+   "set": "closeup",
+   "sfx": "whoosh",
+   "state": {
+    "show": "pepper",
+    "bg1": "#FFE2B8",
+    "bg2": "#FF7A3D"
+   }
+  },
+  {
+   "text": "Now he's red, sweating, and staring right at me.",
+   "set": "office",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "He storms across the room, points right at me, and yells,",
+   "set": "office",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "to": 520,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true,
+      "steam": true
+     }
+    }
+   ]
+  },
+  {
+   "text": "You poisoned me!",
+   "set": "office",
+   "sfx": "vineboom",
+   "meme": "shake",
+   "speaker": "boss",
+   "bubble": {
+    "text": "YOU POISONED ME!",
+    "x": 560,
+    "y": 520,
+    "tail": -20
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 520,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     420,
+     780
+    ]
+   }
+  },
+  {
+   "text": "Coffee cups freeze mid-air. Somebody drops a donut.",
+   "set": "office",
+   "sfx": "pop",
+   "state": {
+    "table": true
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 220,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 440,
+     "facing": 1,
+     "pose": "hold",
+     "hold": "cup",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "The whole room goes dead silent.",
+   "set": "office",
+   "sfx": "crickets",
+   "state": {
+    "table": true
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 220,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 420,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 640,
+     "facing": 1,
+     "pose": "hold",
+     "hold": "cup",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Then the regional director asks, very calmly... poisoned you how?",
+   "set": "office",
+   "sfx": "pop",
+   "speaker": "co3",
+   "bubble": {
+    "text": "Poisoned you... how?",
+    "x": 740,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true,
+      "steam": true
+     }
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "And he goes: I ate the chili from the fridge!",
+   "set": "office",
+   "sfx": "tick",
+   "speaker": "boss",
+   "bubble": {
+    "text": "I ate the chili from the fridge!",
+    "x": 360,
+    "y": 520,
+    "tail": -20
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true,
+      "steam": true
+     }
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Then it hits him. He just confessed. In front of the regional director.",
+   "set": "office",
+   "sfx": "bruh",
+   "slow": true,
+   "meme": "slowzoom",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Bro really played himself.",
+   "set": "office",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  },
+  {
+   "text": "So I hold up the container. My label. My name. And in tiny letters: extra spicy, do not eat.",
+   "set": "closeup",
+   "sfx": "scratch",
+   "state": {
+    "show": "label",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "The director looks at him. Looks at the label. Then back at him.",
+   "set": "office",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "red": 0.6,
+      "sweat": true
+     }
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "co3"
+   }
+  },
+  {
+   "text": "You could hear a pin drop. You could hear Dave sweating.",
+   "set": "office",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "act": "shake",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "red": 0.7,
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "And slowly, four other people raise their hands. They'd been losing lunches too.",
+   "set": "office",
+   "sfx": "slideup",
+   "state": {
+    "table": true
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 420,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 640,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "HR gets called. He gets a written warning.",
+   "set": "desk",
+   "sfx": "sadtrombone",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "slump",
+     "hold": "paper",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "And me? I get a brand new mini fridge. With a lock.",
+   "set": "desk",
+   "sfx": "airhorn",
+   "state": {
+    "minifridge": true,
+    "desk": false
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "celebrate",
+     "act": "bounce",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "It has a padlock. It has a code. It probably has a security guard.",
+   "set": "desk",
+   "sfx": "pop",
+   "state": {
+    "minifridge": true,
+    "desk": false
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     700,
+     820
+    ]
+   }
+  },
+  {
+   "text": "Honestly? I thought that was the end of it.",
+   "set": "desk",
+   "sfx": "pop",
+   "state": {
+    "minifridge": true,
+    "desk": false
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Then Friday, I open my fridge. My lunch is sitting there. Untouched.",
+   "set": "night",
+   "sfx": "heartbeat",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "lunch"
+    ]
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     600,
+     800
+    ]
+   }
+  },
+  {
+   "text": "And taped to the lid... is a note. In his handwriting.",
+   "set": "closeup",
+   "sfx": "riser",
+   "slow": true,
+   "meme": "slowzoom",
+   "state": {
+    "show": "note",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  },
+  {
+   "text": "What it says? Part three.",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "part2",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  }
+ ]
+}

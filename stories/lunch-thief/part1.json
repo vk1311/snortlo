@@ -1,0 +1,668 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 1",
+ "voice": "af_heart",
+ "speed": 1.2,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "My manager was stealing my lunch. Every. Single. Day.",
+   "set": "kitchen",
+   "sfx": "vineboom",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": []
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 700,
+     "to": 1000,
+     "facing": 1,
+     "pose": "sneak",
+     "hold": "lunch",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.15,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Labeled container. Top shelf. My name on it. Gone by noon.",
+   "set": "kitchen",
+   "sfx": "tick",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [],
+    "clock": "12:00"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.1,
+    "at": [
+     620,
+     800
+    ]
+   }
+  },
+  {
+   "text": "So I put a sign on the fridge. Label your food. He stole the sign.",
+   "set": "kitchen",
+   "sfx": "vineboom",
+   "state": {
+    "fridge_open": false
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     560,
+     780
+    ]
+   }
+  },
+  {
+   "text": "So I asked him. Like a normal adult.",
+   "set": "office",
+   "sfx": "pop",
+   "speaker": "me",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "And he looks me dead in the eye and goes,",
+   "set": "office",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Maybe the cleaners took it.",
+   "set": "office",
+   "sfx": "pop",
+   "speaker": "boss",
+   "bubble": {
+    "text": "Maybe the cleaners took it?",
+    "x": 620,
+    "y": 520,
+    "tail": 40
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.25,
+    "at": [
+     560,
+     760
+    ]
+   }
+  },
+  {
+   "text": "The cleaners. Come in. At six p.m.",
+   "set": "office",
+   "sfx": "bruh",
+   "slow": true,
+   "meme": "slowzoom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Okay. So that's how we're playing it.",
+   "set": "office",
+   "sfx": "scratch",
+   "speaker": "me",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "angry",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "to": 1250,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "If he wants my lunch that bad... he can have it.",
+   "set": "office",
+   "sfx": "slideup",
+   "speaker": "me",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "evil",
+     "act": "laugh",
+     "face": {
+      "eyes": "angry",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "That weekend, I bought ghost peppers. The hottest thing the store legally sells.",
+   "set": "closeup",
+   "sfx": "vineboom",
+   "state": {
+    "show": "pepper",
+    "bg1": "#FFE2B8",
+    "bg2": "#FF7A3D"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "The cashier asked if I was okay. I said, no. But my manager won't be.",
+   "set": "closeup",
+   "sfx": "rimshot",
+   "state": {
+    "show": "pepper",
+    "bg1": "#FFE2B8",
+    "bg2": "#FF7A3D"
+   }
+  },
+  {
+   "text": "Monday, chili. Tuesday, chili. Wednesday? You already know.",
+   "set": "kitchen",
+   "sfx": "rimshot",
+   "cards": [
+    "MON",
+    "TUE",
+    "WED"
+   ],
+   "props": [
+    {
+     "type": "pot",
+     "x": 880,
+     "y": 890
+    }
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": 1,
+     "pose": "stir",
+     "act": "stir",
+     "face": {
+      "eyes": "angry",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Every container labeled. Top shelf. And every day at noon... gone.",
+   "set": "kitchen",
+   "sfx": "heartbeat",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "lunch"
+    ],
+    "clock": "12:00"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.1,
+    "at": [
+     620,
+     800
+    ]
+   }
+  },
+  {
+   "text": "Wednesday, we're in a big meeting with the regional director.",
+   "set": "office",
+   "sfx": "whoosh",
+   "state": {
+    "table": true
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 460,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "And my manager's face goes from pink, to red, to tomato.",
+   "set": "office",
+   "sfx": "slideup",
+   "state": {
+    "table": true
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 460,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "He's sweating. He's wheezing. He's chugging from the water cooler like a camel in a drought.",
+   "set": "office",
+   "sfx": "airhorn",
+   "meme": "shake",
+   "state": {
+    "table": true
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 460,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 700,
+     "to": 770,
+     "facing": 1,
+     "pose": "drink",
+     "act": "drink",
+     "hold": "cup",
+     "face": {
+      "eyes": "closed",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.15,
+    "at": [
+     620,
+     800
+    ]
+   }
+  },
+  {
+   "text": "Everyone's panicking. Somebody's googling milk.",
+   "set": "office",
+   "sfx": "pop",
+   "state": {
+    "table": true
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "shocked",
+     "act": "bounce",
+     "face": {
+      "eyes": "worried",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 460,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 770,
+     "facing": 1,
+     "pose": "drink",
+     "act": "drink",
+     "hold": "cup",
+     "face": {
+      "eyes": "closed",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true,
+      "steam": true
+     }
+    }
+   ]
+  },
+  {
+   "text": "The regional director slowly slides her coffee away from him.",
+   "set": "office",
+   "sfx": "crickets",
+   "state": {
+    "table": true
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 330,
+     "facing": 1,
+     "pose": "hold",
+     "hold": "cup",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 770,
+     "facing": -1,
+     "pose": "drink",
+     "act": "drink",
+     "hold": "cup",
+     "face": {
+      "eyes": "closed",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 1.0,
+      "sweat": true,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     540,
+     800
+    ]
+   }
+  },
+  {
+   "text": "And me? Quietly eating a sandwich in the corner.",
+   "set": "office",
+   "sfx": "rimshot",
+   "state": {
+    "table": true,
+    "cooler": false
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 820,
+     "facing": -1,
+     "pose": "eat",
+     "hold": "sandwich",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Then he turns around. Looks right at me. And I realize... he knows.",
+   "set": "office",
+   "sfx": "riser",
+   "slow": true,
+   "meme": "slowzoom",
+   "state": {
+    "table": true
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 770,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 1.0,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.1,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "What he did next? Part two.",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "part2",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  }
+ ]
+}
