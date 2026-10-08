@@ -1,4 +1,4 @@
-engine/models/
+engine/models
 engine/*.wav
 engine/timing.json
 engine/still_*.png
