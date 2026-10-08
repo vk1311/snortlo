@@ -4,3 +4,5 @@ engine/timing.json
 engine/still_*.png
 __pycache__/
 engine/sounds/raw/
+media/long-*[0-9].mp4
+media/_gov/
