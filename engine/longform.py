@@ -28,7 +28,12 @@ import soundfile as sf
 from scipy.signal import butter, lfilter, lfilter_zi
 import cairocffi as cairo
 
-from anim import rrect, fill_stroke, line, text, hexc, INKC
+from anim import rrect, line, text, hexc
+import anim as _A
+# softer outlines than the shorts: a muted lavender ink and ~30% thinner lines (owner feedback, Oct 8)
+INKC = hexc("#4D4768")
+def fill_stroke(c, fill, stroke=None, lw=8):
+    _A.fill_stroke(c, fill, INKC if stroke is not None else None, lw * 0.7)
 
 SR = 24000                 # Kokoro native rate; the mix is resampled to 48 kHz at the end
 W, H = 1920, 1080
@@ -116,6 +121,51 @@ def chime():
     out *= np.minimum(1, (t[-1] - t) / 0.6)            # fade to silence inside the block
     return (out / np.abs(out).max() * 0.10).astype(np.float32)
 
+# ---- tiny, sleep-safe room sounds: slow attacks, low-passed, very quiet, sparse (one every ~40-90 s)
+def _env(n, att, rel):
+    t = np.arange(n) / SR; e = np.minimum(1, t / att) * np.minimum(1, (t[-1] - t) / rel)
+    return np.clip(e, 0, 1)
+
+def _lp(x, f):
+    b, a = butter(2, f / (SR / 2), "low"); return lfilter(b, a, x)
+
+def snd_windchime(rng):
+    n = int(4.5 * SR); t = np.arange(n) / SR; out = np.zeros(n)
+    for k in range(rng.integers(2, 5)):
+        f = rng.choice([1046.5, 1174.7, 1318.5, 1568.0, 1760.0]); t0 = rng.uniform(0, 1.6); tt = np.clip(t - t0, 0, None)
+        out += (t >= t0) * np.sin(2 * np.pi * f * tt) * np.exp(-tt / 1.4) * np.minimum(tt / .03, 1) * rng.uniform(.5, 1)
+    return _lp(out, 2600) * _env(n, .05, 1.0) * 0.022
+
+def snd_owl(rng):
+    out = []
+    for f, d in ((392, .55), (0, .25), (370, .9)):
+        n = int(d * SR); t = np.arange(n) / SR
+        out.append(np.zeros(n) if not f else (np.sin(2 * np.pi * f * t) + .25 * np.sin(4 * np.pi * f * t)) * _env(n, .18, .3))
+    return _lp(np.concatenate(out), 1200) * 0.016
+
+def snd_purr(rng):
+    n = int(3.2 * SR); t = np.arange(n) / SR
+    x = _lp(rng.standard_normal(n), 220) * (0.55 + 0.45 * np.sin(2 * np.pi * 24 * t)) * (0.6 + 0.4 * np.sin(2 * np.pi * .7 * t))
+    return x / (np.abs(x).max() + 1e-9) * _env(n, .8, 1.0) * 0.03
+
+def snd_page(rng):
+    n = int(0.9 * SR); t = np.arange(n) / SR
+    b, a = butter(2, [900 / (SR / 2), 3800 / (SR / 2)], "band")
+    x = lfilter(b, a, rng.standard_normal(n)) * np.sin(np.pi * t / t[-1]) ** 2
+    return x / (np.abs(x).max() + 1e-9) * 0.018
+
+def snd_thunder(rng):
+    n = int(6 * SR); t = np.arange(n) / SR
+    x = _lp(rng.standard_normal(n), 110) * np.sin(np.pi * t / t[-1]) ** 3
+    return x / (np.abs(x).max() + 1e-9) * 0.05
+
+def snd_spoon(rng):
+    n = int(1.2 * SR); t = np.arange(n) / SR
+    x = sum(np.sin(2 * np.pi * f * t) * np.exp(-t / .25) for f in (2350, 3120)) * np.minimum(t / .004, 1)
+    return _lp(x, 3000) * 0.008
+
+ROOM_SOUNDS = [snd_windchime, snd_owl, snd_purr, snd_page, snd_spoon, snd_thunder]
+
 class Bed:
     """Rain (filtered noise, stereo-decorrelated, slow swells) + very soft two-chord pad.
     Generated block by block with carried filter state, so any length costs O(block) memory."""
@@ -126,6 +176,12 @@ class Bed:
         self.pb, self.pa = butter(2, 1400 / (SR / 2), "low")
         zb, zl, zp = lfilter_zi(self.bb, self.ba), lfilter_zi(self.lb, self.la), lfilter_zi(self.pb, self.pa)
         self.zb = [zb * 0, zb * 0]; self.zl = [zl * 0, zl * 0]; self.zp = zp * 0
+        er = np.random.default_rng(seed + 1); self.events, at = [], 25.0
+        while at < total - 20:
+            fn = ROOM_SOUNDS[er.integers(len(ROOM_SOUNDS) - (0 if rain else 1))]
+            x = fn(er).astype(np.float64); pan = er.uniform(.3, .7)
+            self.events.append((int(at * SR), np.stack([x * (1 - pan) * 1.4, x * pan * 1.4], 1)))
+            at += er.uniform(40, 90)
         self.chA = [146.83, 220.00, 277.18, 329.63]          # Dmaj7-ish
         self.chB = [123.47, 185.00, 246.94, 293.66]          # Bm
 
@@ -151,6 +207,9 @@ class Bed:
         pad, self.zp = lfilter(self.pb, self.pa, pad, zi=self.zp)
         pad *= 0.0019
         out[:, 0] += pad; out[:, 1] += pad
+        for st, x in self.events:   # sparse room sounds that overlap this block
+            a, b = max(st, i0), min(st + len(x), i0 + n)
+            if a < b: out[a - i0:b - i0] += x[a - st:b - st]
         fade = np.minimum(1, np.minimum(t / 6.0, (self.total - t) / 9.0)).clip(0, 1)
         return out * fade[:, None]
 

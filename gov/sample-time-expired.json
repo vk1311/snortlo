@@ -1,4 +1,22 @@
-{"day": "20260916", "start": 3024.5, "end": 3038.2, "end_on_word": "expired", "tail": 0.3,
- "top_text": "When you're about to make|your BEST point and the timer hits 0:",
- "sfx": [{"at_word": "expired", "name": "recordscratch", "delay": 0.0}, {"at_word": "expired", "name": "bruh", "delay": 0.9}],
- "hold_end": 1.6}
+{
+ "day": "20260916",
+ "start": 3024.5,
+ "end": 3038.2,
+ "end_on_word": "expired",
+ "tail": 0.3,
+ "top_text": "Me explaining why I got home at 4 AM|vs. my wife, 10 seconds in:",
+ "sfx": [
+  {
+   "at_word": "expired",
+   "name": "vineboom",
+   "delay": 0.0
+  },
+  {
+   "at_word": "expired",
+   "name": "laughtrack",
+   "delay": 0.7,
+   "gain": 0.55
+  }
+ ],
+ "hold_end": 2.2
+}
