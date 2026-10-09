@@ -1,4 +1,4 @@
-# Proposed next version of the nightly task (waiting for owner approval)
+# Nightly task schedule (APPLIED Oct 8, 2026; the live prompt is in the scheduled task)
 
 Adds to the current nightly run (stories + memes when memes/ENABLED exists):
 - **Weekly compilation, Sundays 12:00:** the week's stories joined into one long video, posted to YouTube and Facebook (engine/compile.py). Every story also gets a full cut every night, but the full cut is posted on Wednesdays only.
