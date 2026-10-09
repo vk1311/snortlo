@@ -1,5 +1,5 @@
 # Snortlo experiment scoreboard
-_updated 2026-10-08 · score = average log(1 + views_72h) on YouTube, higher is better_
+_updated 2026-10-09 · score = average log(1 + views_72h) on YouTube, higher is better_
 
 ## stories
 

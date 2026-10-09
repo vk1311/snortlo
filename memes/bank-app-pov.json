@@ -1,0 +1,83 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "POV: your wife opened the|bank app before you did",
+   "set": "kitchen",
+   "state": {
+    "fridge_open": false
+   },
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "hold": "paper",
+     "fx": {
+      "red": 0.6,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.35,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "\"Babe. What is this.\"",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "DOORDASH|x14",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "sfx": "bruh",
+   "meme": "shake"
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "Me:",
+   "set": "kitchen",
+   "state": {
+    "fridge_open": false
+   },
+   "sfx": "gulp",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  }
+ ]
+}

@@ -1,0 +1,424 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 1",
+ "voice": "af_heart",
+ "speed": 1.25,
+ "music": true,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "The new guy has not been to a single meeting in eight months. And he just got promoted.",
+   "set": "office",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 620,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "cup"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   },
+   "state": {
+    "whiteboard": "EMPLOYEE OF|THE MONTH"
+   }
+  },
+  {
+   "text": "Meanwhile I'm in eleven meetings a day. Eleven. One of them was about having fewer meetings.",
+   "set": "office",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co2",
+     "x": 880,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "state": {
+    "table": true,
+    "whiteboard": "MEETING ABOUT|MEETINGS"
+   },
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "text": "So I check his calendar. Every single day, nine to five, it just says...",
+   "set": "desk",
+   "sfx": "typebell",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Focus time.",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "text",
+    "big": "FOCUS|TIME",
+    "bg1": "#DDEBFF",
+    "bg2": "#6E9BE8"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Focus on what? Nobody knows. Nobody has ever seen him focus.",
+   "set": "office",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 700,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "dot",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "He doesn't have a desk. He doesn't have a team. He has a lanyard and a really confident walk.",
+   "set": "office",
+   "sfx": "boing",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "cup"
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "I asked around. Accounting thinks he works in marketing.",
+   "set": "office",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co2",
+     "x": 700,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "bubble": {
+    "text": "Marketing?",
+    "x": 700,
+    "y": 520,
+    "tail": 30
+   }
+  },
+  {
+   "text": "Marketing thinks he works in accounting. My boss thinks he's a genius.",
+   "set": "office",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 640,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   },
+   "bubble": {
+    "text": "Total genius!",
+    "x": 640,
+    "y": 500,
+    "tail": 30
+   }
+  },
+  {
+   "text": "So I did what any normal, healthy adult would do. I followed him.",
+   "set": "street",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 400,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "to": 900
+    },
+    {
+     "who": "me",
+     "x": 120,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "to": 380
+    }
+   ]
+  },
+  {
+   "text": "Ten a.m. He grabs a coffee, looks left, looks right...",
+   "set": "office",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "cup"
+    }
+   ],
+   "state": {
+    "cooler": true
+   },
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "And walks straight into the supply closet. And closes the door.",
+   "set": "office",
+   "sfx": "doorslam",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "to": 1250,
+     "hold": "cup"
+    },
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "meme": "shake"
+  },
+  {
+   "text": "I waited. Ten minutes. Thirty minutes. Two hours. He never came out.",
+   "set": "office",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cards": [
+    "10 MIN",
+    "30 MIN",
+    "2 HRS"
+   ]
+  },
+  {
+   "text": "Who stays in a supply closet for two hours? What is he doing in there? Is he okay?",
+   "set": "office",
+   "sfx": "waitwhat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "wide",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "I put my ear on the door. Silence. Then, a tiny little hum. Like a mini fridge.",
+   "set": "office",
+   "sfx": "squeak",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "So at noon, I walked up, took a deep breath, and opened the door.",
+   "set": "office",
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "to": 900
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     800,
+     800
+    ]
+   },
+   "slow": true
+  },
+  {
+   "text": "And what I saw in that closet... changed my whole career.",
+   "set": "closeup",
+   "sfx": "gasp",
+   "state": {
+    "show": "text",
+    "big": "WHAT IS|IN THERE?",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   },
+   "meme": "slowzoom"
+  },
+  {
+   "text": "Part two is on my profile.",
+   "set": "closeup",
+   "sfx": "sting",
+   "state": {
+    "show": "part2",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  }
+ ]
+}

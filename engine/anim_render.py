@@ -27,7 +27,7 @@ YEL, WHITE = A.hexc("#FFD23F"), (1, 1, 1)
 # voice energy -> mouth
 v, vsr = sf.read("voice.wav"); hop = vsr // FPS
 rms = np.array([np.sqrt(np.mean(v[i * hop:(i + 1) * hop] ** 2)) if i * hop < len(v) else 0 for i in range(N)])
-rms = np.clip(rms / (np.percentile(rms[rms > 0], 92) + 1e-6), 0, 1.3)
+rms = np.clip(rms / ((np.percentile(rms[rms > 0], 92) if np.any(rms > 0) else 1.0) + 1e-6), 0, 1.3)  # fully silent memes have no voice
 
 def beat_index(t):
     i = 0

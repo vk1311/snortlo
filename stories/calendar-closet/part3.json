@@ -1,0 +1,485 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 3",
+ "voice": "af_heart",
+ "speed": 1.25,
+ "music": true,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Quick recap: secret closet, zero meetings, and the boss just caught us both.",
+   "set": "closeup",
+   "sfx": "whoosh",
+   "state": {
+    "show": "text",
+    "big": "CAUGHT.",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  },
+  {
+   "text": "He stares at the lamp. The pillow. The mini fridge. My chart, taped to the wall.",
+   "set": "desk",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 820,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "cam": {
+    "zoom": 1.3,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "I'm already writing my resignation letter in my head.",
+   "set": "desk",
+   "sfx": "sadviolin",
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Then he leans in, and whispers,",
+   "set": "desk",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Rookies. You're using the small closet.",
+   "set": "desk",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "speaker": "boss",
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "bubble": {
+    "text": "Rookies. You're using the small closet.",
+    "x": 620,
+    "y": 480,
+    "tail": 30
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Wait, what?",
+   "set": "desk",
+   "sfx": "waitwhat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 180,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  },
+  {
+   "text": "He grabs his coffee and says, follow me. And bring the pillow.",
+   "set": "office",
+   "sfx": "slideup",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 500,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "to": 900
+    },
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "He walks us down the hall to the big storage room. And inside? Three directors. On beanbags.",
+   "set": "living",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    },
+    {
+     "who": "co3",
+     "x": 520,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 820,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "state": {
+    "tv": "FOCUS|TIME"
+   }
+  },
+  {
+   "text": "One of them is playing video games. One is asleep. One is ordering sushi.",
+   "set": "living",
+   "sfx": "crunch",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "sandwich"
+    },
+    {
+     "who": "co3",
+     "x": 520,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "state": {
+    "tv": "FOCUS|TIME"
+   },
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     380,
+     820
+    ]
+   }
+  },
+  {
+   "text": "Their calendars? All focus time. Their charts? All the same chart.",
+   "set": "closeup",
+   "sfx": "bruh",
+   "state": {
+    "show": "text",
+    "big": "SAME|CHART",
+    "bg1": "#DDEBFF",
+    "bg2": "#6E9BE8"
+   }
+  },
+  {
+   "text": "One chart. Since twenty nineteen. It's a pie chart. Of nothing.",
+   "set": "closeup",
+   "sfx": "sadtrombone",
+   "state": {
+    "show": "text",
+    "big": "PIE CHART|OF NOTHING",
+    "bg1": "#FFE0E0",
+    "bg2": "#F28F8F"
+   }
+  },
+  {
+   "text": "Turns out the new guy didn't invent the system. He learned it from the boss. Who learned it from them.",
+   "set": "office",
+   "sfx": "dundun",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "text": "So who's actually doing the work? I asked. Everyone just looked at each other.",
+   "set": "living",
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 520,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 820,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "state": {
+    "tv": "FOCUS|TIME"
+   }
+  },
+  {
+   "text": "And that's when I realized. The only person going to all those meetings... was me.",
+   "set": "office",
+   "sfx": "nooo",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "state": {
+    "table": true,
+    "whiteboard": "MEETING ABOUT|MEETINGS"
+   },
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   },
+   "meme": "slowzoom"
+  },
+  {
+   "text": "So now I'm in the big closet too. And honestly? Best quarter the company ever had.",
+   "set": "living",
+   "sfx": "applause",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "cup"
+    },
+    {
+     "who": "co1",
+     "x": 600,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 860,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "state": {
+    "tv": "BEST|QUARTER"
+   }
+  },
+  {
+   "text": "Nobody knows who's doing the work. Nobody asks. Focus time.",
+   "set": "closeup",
+   "sfx": "rimshot",
+   "state": {
+    "show": "text",
+    "big": "FOCUS|TIME",
+    "bg1": "#DDEBFF",
+    "bg2": "#6E9BE8"
+   }
+  },
+  {
+   "text": "But next Monday, a new invite shows up. From the CEO. And that's a whole other story. Follow so you don't miss it.",
+   "set": "desk",
+   "sfx": "sting",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "hold": "cup"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  }
+ ]
+}

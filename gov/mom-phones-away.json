@@ -1,0 +1,24 @@
+{
+ "day": "20260915",
+ "start": 45071.2,
+ "end": 45092.8,
+ "end_on_word": "floor",
+ "tail": 0.3,
+ "top_text": "Mom asking us to put our phones away|at dinner, attempt #7:",
+ "sfx": [
+  {
+   "at_word": "floor",
+   "name": "crickets",
+   "delay": 0.2,
+   "gain": 0.8
+  },
+  {
+   "at_word": "floor",
+   "name": "laughtrack",
+   "delay": 1.0,
+   "gain": 0.45
+  }
+ ],
+ "hold_end": 2.6,
+ "post_trim_start": 29.1
+}

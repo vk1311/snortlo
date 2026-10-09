@@ -1,0 +1,460 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 2",
+ "voice": "af_heart",
+ "speed": 1.25,
+ "music": true,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Last time: the new guy skips every meeting, and I just opened the supply closet he hides in.",
+   "set": "office",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Inside? A tiny desk. A mini fridge. A lamp. A plant. A neck pillow.",
+   "set": "desk",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 520,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "cam": {
+    "zoom": 1.2,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "Bro built a studio apartment between the paper towels and the printer toner.",
+   "set": "desk",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 520,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "cam": {
+    "zoom": 1.5,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "There's a doormat. It says welcome. He has a doormat in a closet.",
+   "set": "desk",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 520,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     520,
+     1000
+    ]
+   }
+  },
+  {
+   "text": "He looks up at me, completely calm, and says,",
+   "set": "desk",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 520,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 880,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   }
+  },
+  {
+   "text": "Close the door. You're letting the meetings in.",
+   "set": "desk",
+   "sfx": "fahh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 520,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 880,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "speaker": "co1",
+   "bubble": {
+    "text": "Close the door. You're letting the meetings in.",
+    "x": 520,
+    "y": 480,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "So I close the door. And he explains his whole system.",
+   "set": "desk",
+   "sfx": "scratch",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 520,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 820,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   }
+  },
+  {
+   "text": "Step one. Block your whole calendar as focus time. Nobody can invite you to anything.",
+   "set": "closeup",
+   "sfx": "ding",
+   "state": {
+    "show": "text",
+    "big": "STEP 1:|FOCUS TIME",
+    "bg1": "#DDEBFF",
+    "bg2": "#6E9BE8"
+   }
+  },
+  {
+   "text": "Step two. Once a week, send the boss a long email full of charts. Nobody reads it. Everybody loves it.",
+   "set": "closeup",
+   "sfx": "cashregister",
+   "state": {
+    "show": "text",
+    "big": "STEP 2:|CHARTS",
+    "bg1": "#E7FFE0",
+    "bg2": "#7CCB6B"
+   }
+  },
+  {
+   "text": "Step three. Never, ever be seen walking without a coffee. Coffee means you're busy.",
+   "set": "office",
+   "sfx": "gulp",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 500,
+     "facing": 1,
+     "pose": "drink",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     },
+     "hold": "cup",
+     "act": "drink"
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "That's it. That's the whole job. Eight months. Zero meetings. One promotion.",
+   "set": "desk",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 520,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "cards": [
+    "8 MONTHS",
+    "0 MEETINGS",
+    "1 PROMO"
+   ]
+  },
+  {
+   "text": "I should have reported him. Instead I said, teach me.",
+   "set": "desk",
+   "sfx": "dundun",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "angry",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   },
+   "meme": "slowzoom"
+  },
+  {
+   "text": "Monday, my calendar goes solid focus time. Tuesday, I send a chart.",
+   "set": "desk",
+   "sfx": "typebell",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ],
+   "cards": [
+    "MON",
+    "TUE"
+   ]
+  },
+  {
+   "text": "Wednesday, I'm in the closet with my own neck pillow and a little lamp.",
+   "set": "desk",
+   "sfx": "sparkle",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 380,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "cup"
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   }
+  },
+  {
+   "text": "Nobody noticed. My boss replied to my chart with three fire emojis.",
+   "set": "desk",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   }
+  },
+  {
+   "text": "Best week of my life. Then Friday, we hear footsteps.",
+   "set": "desk",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 380,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "state": {
+    "minifridge": true,
+    "desk": true
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "The handle turns. The door creaks open. And standing there... is the boss.",
+   "set": "office",
+   "sfx": "recordscratch",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 900,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "fx": {
+      "red": 0.4
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "boss"
+   },
+   "slow": true
+  },
+  {
+   "text": "What he says next? Part three.",
+   "set": "closeup",
+   "sfx": "sting",
+   "state": {
+    "show": "part2",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  }
+ ]
+}

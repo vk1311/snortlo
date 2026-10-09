@@ -1,0 +1,123 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Me at 18 with my|first paycheck:",
+   "set": "living",
+   "state": {
+    "tv": "PAYDAY|!!!"
+   },
+   "sfx": "cashregister",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce",
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Mom: \"Save some of it.\"|Me:",
+   "set": "living",
+   "state": {
+    "tv": "PAYDAY|!!!"
+   },
+   "sfx": "laughtrack",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 820,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh",
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.1,
+    "at": [
+     600,
+     820
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "10 years later:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BALANCE:|$4.12",
+    "bg1": "#FFE0E0",
+    "bg2": "#F28F8F"
+   },
+   "sfx": "bruh",
+   "meme": "shake"
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Me calling mom to|\"borrow\" $40 till Friday:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "11:48"
+   },
+   "sfx": "sadviolin",
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  }
+ ]
+}
