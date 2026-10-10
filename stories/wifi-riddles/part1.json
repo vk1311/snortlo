@@ -1,0 +1,424 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 1",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "What would you do if your dad changed the Wi-Fi password every single night?",
+   "set": "living",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "state": {
+    "tv": "NO WIFI|FOR YOU"
+   },
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Because mine does. Every night at nine, the internet just dies. No warning.",
+   "set": "bedroom",
+   "sfx": "nooo",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "9:00"
+   },
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "text": "And on the fridge, there's a sticky note with a riddle.",
+   "set": "kitchen",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "dot",
+      "mouth": "o"
+     }
+    }
+   ],
+   "state": {
+    "sign": "RIDDLE OF|THE NIGHT"
+   }
+  },
+  {
+   "text": "Solve the riddle, get the password. Those are the house rules.",
+   "set": "kitchen",
+   "sfx": "dundun",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "state": {
+    "sign": "RIDDLE OF|THE NIGHT"
+   },
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   },
+   "bubble": {
+    "text": "House rules.",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   }
+  },
+  {
+   "text": "My little sister and I have not slept properly in three weeks.",
+   "set": "bedroom",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 340,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "state": {
+    "dark": true,
+    "clock": "1:12"
+   }
+  },
+  {
+   "text": "Monday's riddle was, what has keys but can't open locks?",
+   "set": "closeup",
+   "sfx": "tick",
+   "state": {
+    "show": "text",
+    "big": "KEYS BUT|NO LOCKS?",
+    "bg1": "#DDEBFF",
+    "bg2": "#6E9BE8"
+   }
+  },
+  {
+   "text": "A piano. Easy. The password was piano one two three. We felt like geniuses.",
+   "set": "living",
+   "sfx": "success",
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "text": "Tuesday's riddle was in Latin.",
+   "set": "closeup",
+   "sfx": "huh",
+   "state": {
+    "show": "text",
+    "big": "IN|LATIN?!",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Wednesday's riddle was just a drawing of a goat.",
+   "set": "closeup",
+   "sfx": "goat",
+   "state": {
+    "show": "text",
+    "big": "IT'S|A GOAT",
+    "bg1": "#E6FFE0",
+    "bg2": "#8FD08A"
+   }
+  },
+  {
+   "text": "Thursday's riddle was, what does Dad want for his birthday? The answer was respect.",
+   "set": "closeup",
+   "sfx": "oof",
+   "state": {
+    "show": "text",
+    "big": "RESPECT",
+    "bg1": "#E8E0FF",
+    "bg2": "#9C88E0"
+   }
+  },
+  {
+   "text": "We still don't know the answer to Wednesday. We never will.",
+   "set": "living",
+   "sfx": "sadviolin",
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Mom just shrugs. She's on her phone data, and she's at peace.",
+   "set": "kitchen",
+   "sfx": "aww",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 700,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co3"
+   }
+  },
+  {
+   "text": "And Dad just sits in his chair, sipping tea, looking way too relaxed for a man with no internet.",
+   "set": "living",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "So last night, my sister had a plan. Wait until Dad's asleep, then check the router ourselves.",
+   "set": "bedroom",
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 600,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "state": {
+    "dark": true,
+    "clock": "1:58"
+   },
+   "cam": {
+    "zoom": 1.5,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "Two in the morning. We sneak downstairs.",
+   "set": "living",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "to": 520
+    },
+    {
+     "who": "co1",
+     "x": 120,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "to": 320
+    }
+   ],
+   "state": {
+    "dark": true
+   }
+  },
+  {
+   "text": "I open the Wi-Fi list on my phone, and there it is.",
+   "set": "living",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 520,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "state": {
+    "dark": true
+   },
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "My heart was pounding. My sister grabbed my arm.",
+   "set": "living",
+   "sfx": "gulp",
+   "cast": [
+    {
+     "who": "me",
+     "x": 460,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "state": {
+    "dark": true
+   }
+  },
+  {
+   "text": "A second network. Full bars. No riddle.",
+   "set": "closeup",
+   "sfx": "waitwhat",
+   "state": {
+    "show": "text",
+    "big": "NEW NETWORK|FOUND",
+    "bg1": "#E8E0FF",
+    "bg2": "#9C88E0"
+   }
+  },
+  {
+   "text": "And it's called, Dad's Secret Wi-Fi. Do not touch.",
+   "set": "closeup",
+   "sfx": "vineboom",
+   "state": {
+    "show": "text",
+    "big": "DAD'S SECRET|WIFI",
+    "bg1": "#FFE0E0",
+    "bg2": "#F28F8F"
+   },
+   "meme": "shake",
+   "pause": 0.8
+  }
+ ]
+}

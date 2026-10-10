@@ -1,0 +1,417 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 3",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Last time: Dad's been gaming on his secret Wi-Fi all night, and he's my online nemesis.",
+   "set": "living",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "cup"
+    }
+   ],
+   "state": {
+    "dark": true,
+    "tv": "XX_DADBOD_XX|47 WINS"
+   }
+  },
+  {
+   "text": "I flicked on the lights. Dad froze like a raccoon in a trash can.",
+   "set": "living",
+   "sfx": "recordscratch",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "state": {
+    "tv": "PAUSED"
+   },
+   "cam": {
+    "zoom": 1.7,
+    "on": "boss"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "He said, this isn't what it looks like. It was exactly what it looked like.",
+   "set": "living",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 660,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "state": {
+    "tv": "PAUSED"
+   },
+   "bubble": {
+    "text": "It's not what it looks like",
+    "x": 660,
+    "y": 500,
+    "tail": 30
+   }
+  },
+  {
+   "text": "Turns out the riddles started because he wanted us off our phones.",
+   "set": "living",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ],
+   "state": {
+    "tv": "PAUSED"
+   }
+  },
+  {
+   "text": "Then one night he got bored, tried one game, and three weeks later he's ranked top one hundred.",
+   "set": "closeup",
+   "sfx": "fanfare",
+   "state": {
+    "show": "text",
+    "big": "TOP 100|DAD",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "My sister said, so the rules are for us, but not for you?",
+   "set": "living",
+   "sfx": "ooh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 0.4
+     }
+    },
+    {
+     "who": "boss",
+     "x": 720,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "state": {
+    "tv": "PAUSED"
+   },
+   "bubble": {
+    "text": "Rules for us. Not for you?",
+    "x": 360,
+    "y": 500,
+    "tail": 30
+   }
+  },
+  {
+   "text": "And then the stairs creaked. Mom.",
+   "set": "living",
+   "sfx": "dundun",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 180,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "to": 360,
+     "fx": {
+      "steam": true
+     }
+    }
+   ],
+   "state": {
+    "tv": "PAUSED"
+   },
+   "cam": {
+    "zoom": 1.5,
+    "on": "co3"
+   }
+  },
+  {
+   "text": "She'd heard everything. And she was holding the router.",
+   "set": "living",
+   "sfx": "gasp",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 360,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "boss",
+     "x": 720,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "state": {
+    "tv": "PAUSED"
+   }
+  },
+  {
+   "text": "She unplugged it. Both of them. The whole house went silent.",
+   "set": "closeup",
+   "sfx": "sadtrombone",
+   "state": {
+    "show": "text",
+    "big": "NO WIFI|FOR ANYONE",
+    "bg1": "#E0E0E0",
+    "bg2": "#7A7A7A"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Now there's one network, and Mom is the only one who knows the password. She changes it every night.",
+   "set": "kitchen",
+   "sfx": "cashregister",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 700,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "cup"
+    }
+   ],
+   "state": {
+    "sign": "MOM'S|WIFI"
+   },
+   "cam": {
+    "zoom": 1.4,
+    "on": "co3"
+   }
+  },
+  {
+   "text": "Every night, the whole family lines up at the fridge for a riddle. Dad included.",
+   "set": "kitchen",
+   "sfx": "laughtrack",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 520,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "state": {
+    "sign": "RIDDLE OF|THE NIGHT"
+   }
+  },
+  {
+   "text": "Dad tried to bribe her with breakfast in bed. She ate the breakfast. Still no password.",
+   "set": "kitchen",
+   "sfx": "crunch",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 640,
+     "facing": -1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "sandwich"
+    },
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Mom's riddles are brutal. Last night's was one word. Dishes.",
+   "set": "closeup",
+   "sfx": "metalpipe",
+   "state": {
+    "show": "text",
+    "big": "DISHES.",
+    "bg1": "#DDEBFF",
+    "bg2": "#6E9BE8"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "That's not a riddle. That's a chore. The password only works once they're done.",
+   "set": "kitchen",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 520,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "text": "And yes, I finally beat Dad online. He says I cheated. I didn't. I just did the dishes faster.",
+   "set": "living",
+   "sfx": "applause",
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "state": {
+    "tv": "YOU WIN!"
+   }
+  },
+  {
+   "text": "Follow for the next story. If Mom lets me post it.",
+   "set": "living",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "state": {
+    "tv": "FOLLOW|FOR MORE"
+   },
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  }
+ ]
+}

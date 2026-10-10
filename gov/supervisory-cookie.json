@@ -1,0 +1,14 @@
+{
+ "day": "20260914",
+ "start": 28573.77,
+ "end": 28596.39,
+ "end_on_word": "me",
+ "tail": 0.1,
+ "top_text": "Mom: \"Who ate the last cookie?\"|Me:",
+ "sfx": [
+  {"at_word": "me", "name": "bruh", "delay": 0.2, "gain": 0.8},
+  {"at_word": "me", "name": "laughtrack", "delay": 0.9, "gain": 0.45}
+ ],
+ "hold_end": 2.4,
+ "source": "https://houseliveprod-f9h4cpb9dyb8gegg.a01.azurefd.net (House floor feed, 2026-09-14), H.R. 8278 debate, caption clock 28573.77-28596.39; tongue-twister flub, no partisan content in clip"
+}

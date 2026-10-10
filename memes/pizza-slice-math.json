@@ -1,0 +1,112 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Teacher: \"Who can solve this?\"",
+   "set": "classroom",
+   "state": {
+    "board": "2X + 7 = 15|X = ?",
+    "clock": "2:55"
+   },
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 820,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Teacher: \"Winner gets the|last slice of pizza\"",
+   "set": "classroom",
+   "state": {
+    "board": "LAST SLICE|OF PIZZA",
+    "clock": "2:55"
+   },
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "sandwich"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "The kid who's been failing|since September:",
+   "set": "classroom",
+   "state": {
+    "board": "X = 4",
+    "clock": "2:55"
+   },
+   "sfx": "metalpipe",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     },
+     "act": "bounce",
+     "fx": {
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  }
+ ]
+}

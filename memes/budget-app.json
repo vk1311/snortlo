@@ -1,0 +1,120 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me: \"Babe, I'm starting a|budget this month\"",
+   "set": "kitchen",
+   "state": {
+    "fridge_open": false
+   },
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co3",
+     "x": 780,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     600,
+     820
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Expectation:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SAVED:|$2,000",
+    "bg1": "#E6FFE0",
+    "bg2": "#8FD08A"
+   },
+   "sfx": "cashregister"
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Reality, day 3:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$46 ON A|BUDGET APP",
+    "bg1": "#FFE0E0",
+    "bg2": "#F28F8F"
+   },
+   "sfx": "sadtrombone"
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "My wife reading the|\"budget\":",
+   "set": "kitchen",
+   "state": {
+    "fridge_open": false
+   },
+   "sfx": "metalpipe",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 700,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "hold": "paper",
+     "fx": {
+      "red": 0.6,
+      "steam": true
+     }
+    },
+    {
+     "who": "me",
+     "x": 340,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co3"
+   }
+  }
+ ]
+}

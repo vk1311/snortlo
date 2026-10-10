@@ -390,7 +390,10 @@ def set_closeup(c, t, st):
         draw_prop(c, dict(type="note", rot=-0.06 + 0.02 * math.sin(t * 2), lines=st.get("note_lines")), 540, 800, t)
     elif what == "text":  # big reaction text, e.g. "3:00 AM" or "???"
         c.save(); c.translate(540, 820); sc = 1 + 0.04 * math.sin(t * 5); c.scale(sc, sc)
-        for i, l in enumerate(st.get("big", "???").split("|")): text(c, l, 0, (i - (len(st.get("big", "").split("|")) - 1) / 2) * 190, 170, hexc(st.get("color", "#E0453A")), outline=INKC)
+        lines = st.get("big", "???").split("|"); c.select_font_face(FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); c.set_font_size(170)
+        widest = max(c.text_extents(l)[2] for l in lines) * 1.16 + 1  # + outline; shrink long lines to fit ~960 px
+        size = 170 * min(1.0, 960 / widest)
+        for i, l in enumerate(lines): text(c, l, 0, (i - (len(lines) - 1) / 2) * 190 * size / 170, size, hexc(st.get("color", "#E0453A")), outline=INKC)
         c.restore()
     elif what == "part2":
         draw_prop(c, dict(type="note", rot=-0.1), 540, 760, t)
