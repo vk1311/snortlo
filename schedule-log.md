@@ -24,3 +24,16 @@ YouTube uploads today: 5 (parts 1-3, meme A, sleep stories). TikTok skipped (no 
 | 23:00 | Story Part 3/3 | wifi-riddles-part3.mp4 | YouTube, Facebook, Instagram | cmv1vrqnm000xo2809sz4p3er, cmv1vrqo1000yo2804wiwt2ti, cmv1vrqog000zo2808upci7w6 |
 
 YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (no TIKTOK_APPROVED). Note: House days since late Sept are pro forma (empty captions), so the Congress clip came from 2026-09-14.
+
+## Sun 2026-10-11 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A "Coming to bed in 5 min, babe" (expectation_reality) | meme-five-more-minutes.mp4 | YouTube, Facebook, Instagram | cmv3b4q73001jo2805n5jz1z3, cmv3b4q7c001ko280kgbze45c, cmv3b4q7o001lo280k2zuekpw |
+| 12:00 | Story "fake-henderson" Part 1/3 | fake-henderson-part1.mp4 | YouTube, Facebook, Instagram | cmv3b40lz001ao280tjgpwpbr, cmv3b40mk001bo28074n2ce6k, cmv3b40mz001co280gqwcov82 |
+| 12:00 | Weekly compilation (lunch-thief, calendar-closet, wifi-riddles) | compile-2026-10-11.mp4 | YouTube, Facebook | cmv3b4qcb001qo280q6o6oflm, cmv3b4qdh001ro280cd6gmb0t |
+| 13:00 | Meme B "Don't make me turn this dinner around" (x_years_later) | meme-turn-this-dinner-around.mp4 | Facebook, Instagram | cmv3b4q85001mo280f7ju8skz, cmv3b4q9f001no2805rqkcicy |
+| 13:00 | Congress Moment "shush-the-brothers" (2026-09-03, chair calls House to order, party ?) | gov-shush-the-brothers.mp4 | Facebook, Instagram | cmv3b4qa1001oo280bel55oqw, cmv3b4qah001po2803dmezfzz |
+| 15:00 | Story Part 2/3 | fake-henderson-part2.mp4 | YouTube, Facebook, Instagram | cmv3b4aru001do28011851uak, cmv3b4as6001eo28040eeyok4, cmv3b4asp001fo28090vsgz4o |
+| 18:00 | Story Part 3/3 | fake-henderson-part3.mp4 | YouTube, Facebook, Instagram | cmv3b4at4001go2803sdl92es, cmv3b4avd001ho280gm4bxg7y, cmv3b4avv001io280m6betpoy |
+
+YouTube uploads today: 5 (parts 1-3, meme A, weekly compilation). TikTok skipped (no TIKTOK_APPROVED). Compilation covers stories already fully posted; fake-henderson goes in next Sunday's.
