@@ -1,0 +1,569 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 1",
+ "voice": "af_bella",
+ "speed": 1.25,
+ "music": false,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Three reasons I will never again date a guy who says, I know a place.",
+   "set": "closeup",
+   "sfx": "vineboom",
+   "state": {
+    "show": "text",
+    "big": "I KNOW|A PLACE",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "First date. Kevin. Nice tie. Nice smile. Way too confident.",
+   "set": "street",
+   "sfx": "ding",
+   "state": {
+    "night": true
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 720,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "He goes, relax, I booked the fanciest restaurant in town.",
+   "set": "street",
+   "sfx": "pop",
+   "state": {
+    "night": true
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 720,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "I booked us somewhere FANCY.",
+    "x": 700,
+    "y": 500,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.4,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Reason number one. He did not book anything.",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "text",
+    "big": "REASON|#1",
+    "bg1": "#E6E0FF",
+    "bg2": "#8C7BD9"
+   }
+  },
+  {
+   "text": "His whole plan was, I know a place. Then he figures out the rest at the door.",
+   "set": "street",
+   "sfx": "huh",
+   "state": {
+    "night": true
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "We walk in, the host asks for the name, and Kevin says, Henderson. Table for two.",
+   "set": "classroom",
+   "sfx": "whoosh",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 520,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 860,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "Henderson. Table for two.",
+    "x": 560,
+    "y": 560,
+    "tail": 30
+   }
+  },
+  {
+   "text": "Kevin's last name is not Henderson. I have seen his Instagram.",
+   "set": "classroom",
+   "sfx": "bruh",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   },
+   "slow": true
+  },
+  {
+   "text": "His name is Kevin Pickles.",
+   "set": "closeup",
+   "sfx": "goat",
+   "state": {
+    "show": "text",
+    "big": "KEVIN|PICKLES",
+    "bg1": "#E0FFE6",
+    "bg2": "#6CC28A",
+    "color": "#1E7A3C"
+   }
+  },
+  {
+   "text": "He leans over and whispers, relax, they never check.",
+   "set": "classroom",
+   "sfx": "tick",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "boss",
+     "x": 560,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "Relax. They never check.",
+    "x": 560,
+    "y": 560,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.5,
+    "at": [
+     430,
+     820
+    ]
+   }
+  },
+  {
+   "text": "They did not check. Window table. Candles. A little bread basket.",
+   "set": "classroom",
+   "sfx": "sparkle",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 720,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Kevin orders the lobster. The sixty eight dollar lobster. Two of them.",
+   "set": "closeup",
+   "sfx": "cashregister",
+   "state": {
+    "show": "text",
+    "big": "$68|x2",
+    "bg1": "#E0FFE6",
+    "bg2": "#6CC28A",
+    "color": "#1E7A3C"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "And I'm sitting there, sweating, eating free bread like it's evidence.",
+   "set": "classroom",
+   "sfx": "crunch",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 330,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "act": "bounce",
+     "hold": "sandwich",
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Then, right as the lobsters land, the front door opens.",
+   "set": "classroom",
+   "sfx": "doorslam",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 520,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "sandwich"
+    }
+   ],
+   "slow": true,
+   "pause": 0.4
+  },
+  {
+   "text": "An old couple walks in. Matching sweaters. Holding a cake that says, happy fortieth anniversary.",
+   "set": "classroom",
+   "sfx": "aww",
+   "state": {
+    "board": "HAPPY 40TH|ANNIVERSARY",
+    "clock": "7:45"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 1150,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 760,
+     "hold": "paper"
+    },
+    {
+     "who": "co3",
+     "x": 1300,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 930
+    }
+   ]
+  },
+  {
+   "text": "The host checks the book. Looks at the couple. Looks at us.",
+   "set": "classroom",
+   "sfx": "waitwhat",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 220,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 420,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co2",
+     "x": 860,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "Kevin is still chewing. Totally calm. Like a man with nothing to lose.",
+   "set": "classroom",
+   "sfx": "gulp",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 520,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "flat",
+      "mouth": "smile"
+     },
+     "hold": "sandwich"
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "And the old man says, loud enough for the whole room, Henderson. Table for two.",
+   "set": "classroom",
+   "sfx": "vineboom",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 960,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "meme": "shake",
+   "speaker": "co2",
+   "bubble": {
+    "text": "HENDERSON. Table for two.",
+    "x": 700,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.4,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "Kevin puts down his fork, looks at me, and says the dumbest sentence I have ever heard.",
+   "set": "classroom",
+   "sfx": "riser",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 520,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "slow": true,
+   "meme": "slowzoom",
+   "cam": {
+    "zoom": 2.0,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "What he said? Part two.",
+   "set": "closeup",
+   "sfx": "sting",
+   "state": {
+    "show": "part2",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "Mom! He's on MY side!",
+   "top_text": "Me and my brother at 8:",
+   "set": "living",
+   "speaker": "me",
+   "sfx": "boing",
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "point",
+     "act": "shake",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 520,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     400,
+     860
+    ]
+   },
+   "pause": 0.7
+  },
+  {
+   "text": "Don't make me turn this car around.",
+   "top_text": "Mom:",
+   "voice": "af_bella",
+   "set": "living",
+   "speaker": "co1",
+   "sfx": "dundun",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co1"
+   },
+   "pause": 0.8
+  },
+  {
+   "text": "",
+   "hold": 1.8,
+   "top_text": "20 years later:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "20 YEARS|LATER",
+    "bg1": "#DDEBFF",
+    "bg2": "#6E9BE8"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "Bro. She's doing the thing again.",
+   "top_text": "Me and my brother at Thanksgiving:",
+   "set": "kitchen",
+   "speaker": "co2",
+   "voice": "am_michael",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": 1,
+     "pose": "laugh",
+     "act": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 860,
+     "facing": -1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     740,
+     860
+    ]
+   },
+   "pause": 0.7
+  },
+  {
+   "text": "Don't make me turn this dinner around.",
+   "top_text": "Mom, still undefeated:",
+   "voice": "af_bella",
+   "set": "kitchen",
+   "speaker": "co1",
+   "sfx": "random:punch",
+   "meme": "shake",
+   "props": [
+    {
+     "type": "pot",
+     "x": 880,
+     "y": 890
+    }
+   ],
+   "cast": [
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "co1"
+   },
+   "pause": 1.6
+  }
+ ]
+}

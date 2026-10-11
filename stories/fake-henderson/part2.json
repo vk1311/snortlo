@@ -1,0 +1,544 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 2",
+ "voice": "af_bella",
+ "speed": 1.25,
+ "music": false,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Last time: my date stole an old couple's anniversary table, and the real Hendersons just walked in.",
+   "set": "classroom",
+   "sfx": "whoosh",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 420,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 960,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Kevin stands up, points at them, and yells, those are the fake Hendersons!",
+   "set": "classroom",
+   "sfx": "airhorn",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 420,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "act": "shake"
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "meme": "shake",
+   "speaker": "boss",
+   "bubble": {
+    "text": "Those are the FAKE Hendersons!",
+    "x": 520,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "The whole restaurant goes silent. Somebody drops a fork.",
+   "set": "classroom",
+   "sfx": "crickets",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 220,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "A waiter freezes mid pour. Even the lobster tank goes quiet.",
+   "set": "classroom",
+   "sfx": "glass",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "hold": "cup"
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "Reason number two. He made me his accomplice.",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "text",
+    "big": "REASON|#2",
+    "bg1": "#E6E0FF",
+    "bg2": "#8C7BD9"
+   }
+  },
+  {
+   "text": "He puts a hand on my shoulder and goes, tell them, babe. Tell them who you are.",
+   "set": "classroom",
+   "sfx": "heartbeat",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "boss",
+     "x": 460,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "Tell them who you are, babe.",
+    "x": 480,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.6,
+    "at": [
+     380,
+     820
+    ]
+   }
+  },
+  {
+   "text": "And I panic. And I say, Mrs. Henderson.",
+   "set": "classroom",
+   "sfx": "fahh",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "wide",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "red": 0.6,
+      "sweat": true
+     }
+    }
+   ],
+   "speaker": "me",
+   "bubble": {
+    "text": "...Mrs. Henderson?",
+    "x": 320,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  },
+  {
+   "text": "First date. I married him. Under a fake name. In front of a lobster.",
+   "set": "closeup",
+   "sfx": "rimshot",
+   "state": {
+    "show": "text",
+    "big": "MRS.|HENDERSON??",
+    "bg1": "#FFE2B8",
+    "bg2": "#FF7A3D"
+   }
+  },
+  {
+   "text": "The real Mrs. Henderson looks me up and down and says, sweetheart, blink twice if you need help.",
+   "set": "classroom",
+   "sfx": "laughtrack",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 820,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "speaker": "co3",
+   "bubble": {
+    "text": "Blink twice if you need help.",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.5,
+    "on": "co3"
+   }
+  },
+  {
+   "text": "I blinked like four hundred times.",
+   "set": "classroom",
+   "sfx": "boing",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 2.1,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Kevin thinks I'm flirting. He winks back.",
+   "set": "classroom",
+   "sfx": "oof",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 460,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Then the manager walks over with the reservation book. Not smiling.",
+   "set": "classroom",
+   "sfx": "dundun",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 1100,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "to": 640,
+     "hold": "paper"
+    }
+   ]
+  },
+  {
+   "text": "He goes, easy fix. The Hendersons have booked this table every year for forty years.",
+   "set": "classroom",
+   "sfx": "tick",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "act": "talk",
+     "hold": "paper"
+    },
+    {
+     "who": "boss",
+     "x": 360,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "speaker": "co1",
+   "bubble": {
+    "text": "Forty years. Same table.",
+    "x": 640,
+    "y": 520,
+    "tail": 30
+   }
+  },
+  {
+   "text": "So whoever is the real Mr. Henderson can answer one question.",
+   "set": "classroom",
+   "sfx": "drumroll",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 360,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     500,
+     820
+    ]
+   }
+  },
+  {
+   "text": "Kevin cracks his knuckles like he's on a game show.",
+   "set": "classroom",
+   "sfx": "riser",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 420,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Mr. Henderson just folds his arms. He has waited forty years for this question.",
+   "set": "classroom",
+   "sfx": "tick",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 780,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "What did Mr. Henderson order here, on your very first date?",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "text",
+    "big": "FIRST DATE|ORDER?",
+    "bg1": "#DDEBFF",
+    "bg2": "#6E9BE8"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Kevin smiles. Opens his mouth. And says something so wrong, the old man had to sit down.",
+   "set": "classroom",
+   "sfx": "sting",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 420,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "o"
+     }
+    }
+   ],
+   "slow": true,
+   "meme": "slowzoom",
+   "cam": {
+    "zoom": 2.0,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "His answer? Part three.",
+   "set": "closeup",
+   "sfx": "sting",
+   "state": {
+    "show": "part2",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  }
+ ]
+}

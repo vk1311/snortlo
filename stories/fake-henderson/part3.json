@@ -1,0 +1,476 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 3",
+ "voice": "af_bella",
+ "speed": 1.25,
+ "music": false,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Last time: Kevin is pretending to be Mister Henderson, and the real one is standing right there.",
+   "set": "classroom",
+   "sfx": "whoosh",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 420,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 780,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Kevin goes, easy. Chicken nuggets.",
+   "set": "classroom",
+   "sfx": "vineboom",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 420,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "meme": "shake",
+   "speaker": "boss",
+   "bubble": {
+    "text": "Easy. Chicken nuggets.",
+    "x": 480,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.8,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Mrs. Henderson gasps. The host gasps. The guy at the next table stands up in protest.",
+   "set": "classroom",
+   "sfx": "gasp",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 960,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Mr. Henderson whispers, it was the lobster, son. It was always the lobster.",
+   "set": "classroom",
+   "sfx": "sadviolin",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 780,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 960,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    }
+   ],
+   "speaker": "co2",
+   "bubble": {
+    "text": "It was the lobster, son.",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.5,
+    "at": [
+     860,
+     820
+    ]
+   }
+  },
+  {
+   "text": "The manager points at the door. Kevin leaves. And he takes the bread basket with him.",
+   "set": "classroom",
+   "sfx": "recordscratch",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 380,
+     "facing": -1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "to": -200,
+     "hold": "sandwich"
+    }
+   ]
+  },
+  {
+   "text": "And then, reason number three.",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "text",
+    "big": "REASON|#3",
+    "bg1": "#E6E0FF",
+    "bg2": "#8C7BD9"
+   }
+  },
+  {
+   "text": "Thirty seconds later my phone buzzes. Kevin sent me a payment request. For half the lobster.",
+   "set": "closeup",
+   "sfx": "bruh",
+   "state": {
+    "show": "text",
+    "big": "PAY KEVIN|$34",
+    "bg1": "#FFE0E0",
+    "bg2": "#F28F8F"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "The lobster he ate. At a dinner we got kicked out of. Under a name that is not his.",
+   "set": "classroom",
+   "sfx": "rimshot",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  },
+  {
+   "text": "So I'm standing there alone, ready to cry, when Mrs. Henderson grabs my hand.",
+   "set": "classroom",
+   "sfx": "aww",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 700,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "She says, sit down, sweetheart. Nobody leaves a Henderson anniversary hungry.",
+   "set": "classroom",
+   "sfx": "angelchoir",
+   "state": {
+    "board": "TONIGHT:|LOBSTER $68",
+    "clock": "7:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 700,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ],
+   "speaker": "co3",
+   "bubble": {
+    "text": "Sit down, sweetheart.",
+    "x": 700,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     560,
+     820
+    ]
+   }
+  },
+  {
+   "text": "So I spent my first date with two seventy year olds, eating cake and hearing how they met.",
+   "set": "classroom",
+   "sfx": "yay",
+   "state": {
+    "board": "HAPPY 40TH|ANNIVERSARY",
+    "clock": "9:10"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce",
+     "hold": "sandwich"
+    },
+    {
+     "who": "co2",
+     "x": 560,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    },
+    {
+     "who": "co3",
+     "x": 820,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ]
+  },
+  {
+   "text": "Turns out on their first date, he ordered the lobster, and she paid. He's been paying her back for forty years.",
+   "set": "classroom",
+   "sfx": "laughtrack",
+   "state": {
+    "board": "HAPPY 40TH|ANNIVERSARY",
+    "clock": "9:30"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 560,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 820,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Before I left, she slid me a napkin with a phone number on it.",
+   "set": "closeup",
+   "sfx": "ding",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "Our grandson.",
+     "He books his",
+     "OWN tables."
+    ],
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "Our grandson. He books his own tables.",
+   "set": "closeup",
+   "sfx": "ooh",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "Our grandson.",
+     "He books his",
+     "OWN tables."
+    ],
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "meme": "slowzoom"
+  },
+  {
+   "text": "And Kevin? Request declined. Number blocked. Thank you card sent to the Hendersons.",
+   "set": "bedroom",
+   "sfx": "success",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "11:02"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "text": "Did I text the grandson? That's the next story. Follow so you don't miss it.",
+   "set": "bedroom",
+   "sfx": "sting",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "11:03"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  }
+ ]
+}

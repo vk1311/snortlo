@@ -1,0 +1,30 @@
+{
+ "day": "20260903",
+ "start": 5139.59,
+ "end": 5152.0,
+ "tail": 0.3,
+ "top_text": "Me telling my little brothers to be quiet|before Dad wakes up:",
+ "sfx": [
+  {
+   "at_word": "order",
+   "name": "bonk",
+   "delay": 0.1,
+   "gain": 0.7
+  },
+  {
+   "at_word": "floor",
+   "name": "crickets",
+   "delay": 0.2,
+   "gain": 0.8
+  },
+  {
+   "at_word": "floor",
+   "name": "laughtrack",
+   "delay": 1.0,
+   "gain": 0.45
+  }
+ ],
+ "hold_end": 2.2,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-09-03, caption clock 5139.59-5152.0; presiding officer calling the House to order over chatter, procedural only, no partisan content",
+ "end_on_word": "floor"
+}

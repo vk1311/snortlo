@@ -1,0 +1,102 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Me: \"Coming to bed in 5 min, babe\"|What I picture:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "11:05"
+   },
+   "sfx": "sparkle",
+   "cast": [
+    {
+     "who": "me",
+     "x": 330,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "What actually happens:",
+   "set": "living",
+   "state": {
+    "dark": true,
+    "tv": "NEXT EPISODE|IN 3..2..1"
+   },
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 340,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     560,
+     860
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.7,
+   "top_text": "My wife at 3:47 AM:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "3:47"
+   },
+   "sfx": "fahh",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 0.7,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co3"
+   }
+  }
+ ]
+}
