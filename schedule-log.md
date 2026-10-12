@@ -48,4 +48,4 @@ YouTube uploads today: 5 (parts 1-3, meme A, weekly compilation). TikTok skipped
 | 22:00 | Meme B "I'm a people person / got a sec?" (x_years_later; moved +2h from 20:00) | meme-people-person.mp4 | Facebook, Instagram | cmv4qnhdm0024o2808w4hn2az, cmv4qnhdv0025o280iokm2n3f |
 | 23:00 | Story Part 3/3 | class-hamster-part3.mp4 | YouTube, Facebook, Instagram | cmv4qna6e001yo280yj6rfm3m, cmv4qna6n001zo280c9b2odiz, cmv4qna760020o280aq1ghi6l |
 
-YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (no TIKTOK_APPROVED). Congress party tally so far: D 2, ? 3.
+YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (no TIKTOK_APPROVED). Congress party tally so far (gov/used.txt): D 2, ? 2. Next clip should lean R or procedural-only.
