@@ -1,0 +1,75 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "",
+   "hold": 1.6,
+   "top_text": "Nobody:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "2:14"
+   },
+   "sfx": "tick"
+  },
+  {
+   "text": "",
+   "hold": 2.3,
+   "top_text": "My wife at 2 AM, poking me|until I wake up:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "2:14"
+   },
+   "sfx": "boing",
+   "cast": [
+    {
+     "who": "me",
+     "x": 340,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 640,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "smile"
+     },
+     "act": "shake"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     490,
+     860
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "Her, dead serious:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WOULD WE|SURVIVE|ZOMBIES?",
+    "bg1": "#E6E0FF",
+    "bg2": "#8C7BD9"
+   },
+   "sfx": "vineboom",
+   "meme": "deepfry"
+  }
+ ]
+}

@@ -1,0 +1,549 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 2",
+ "voice": "af_bella",
+ "speed": 1.25,
+ "music": false,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Last time: I lost the class hamster and secretly swapped him for a nineteen dollar copy.",
+   "set": "classroom",
+   "sfx": "whoosh",
+   "state": {
+    "board": "GOOD MORNING|CLASS!",
+    "clock": "8:32"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 660,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "text": "Ms. Grant holds him up and says, this is not Professor Nibbles.",
+   "set": "classroom",
+   "sfx": "vineboom",
+   "state": {
+    "board": "GOOD MORNING|CLASS!",
+    "clock": "8:32"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "hold": "cup"
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "This is NOT Professor Nibbles.",
+    "x": 620,
+    "y": 560,
+    "tail": 30
+   },
+   "meme": "shake",
+   "cam": {
+    "zoom": 1.3,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "The whole class gasps. Somebody drops a glue stick.",
+   "set": "classroom",
+   "sfx": "gasp",
+   "state": {
+    "board": "GOOD MORNING|CLASS!",
+    "clock": "8:32"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 520,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 780,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "I say, it's him. He just had a really big weekend.",
+   "set": "classroom",
+   "sfx": "rimshot",
+   "state": {
+    "board": "GOOD MORNING|CLASS!",
+    "clock": "8:32"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "speaker": "me",
+   "bubble": {
+    "text": "He had a big weekend.",
+    "x": 420,
+    "y": 560,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "text": "She says, Professor Nibbles has a tiny notch in his left ear. This one has two perfect ears.",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "text",
+    "big": "NO|NOTCH",
+    "bg1": "#FFE0E0",
+    "bg2": "#E08080",
+    "color": "#8C1F1F"
+   }
+  },
+  {
+   "text": "I say, he healed. Hamsters heal fast. It's science.",
+   "set": "classroom",
+   "sfx": "crickets",
+   "state": {
+    "board": "GOOD MORNING|CLASS!",
+    "clock": "8:32"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ],
+   "speaker": "me",
+   "bubble": {
+    "text": "It's SCIENCE.",
+    "x": 420,
+    "y": 560,
+    "tail": 30
+   }
+  },
+  {
+   "text": "Then Tyler stands up. Tyler corrects the teacher's spelling for fun.",
+   "set": "classroom",
+   "sfx": "ooh",
+   "state": {
+    "board": "GOOD MORNING|CLASS!",
+    "clock": "8:32"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "Tyler says, I would like to request a DNA test.",
+   "set": "classroom",
+   "sfx": "bruh",
+   "state": {
+    "board": "GOOD MORNING|CLASS!",
+    "clock": "8:32"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "speaker": "co1",
+   "bubble": {
+    "text": "I request a DNA test.",
+    "x": 560,
+    "y": 560,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.3,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "Ms. Grant says, we cannot DNA test a hamster, Tyler. And Tyler says, not with that attitude.",
+   "set": "classroom",
+   "sfx": "laughtrack",
+   "state": {
+    "board": "GOOD MORNING|CLASS!",
+    "clock": "8:32"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 320,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Now the whole class is picking sides. Team Healed. Team Fake.",
+   "set": "classroom",
+   "sfx": "airhorn",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 220,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 500,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co2",
+     "x": 800,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cards": [
+    "HEALED",
+    "FAKE"
+   ]
+  },
+  {
+   "text": "I'm sweating through my backpack. Ms. Grant is staring at me like a detective.",
+   "set": "classroom",
+   "sfx": "heartbeat",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "And then, a knock on the door.",
+   "set": "classroom",
+   "sfx": "doorslam",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "slow": true,
+   "pause": 0.4
+  },
+  {
+   "text": "It's the principal. He's holding a coffee mug with both hands, very carefully.",
+   "set": "classroom",
+   "sfx": "squeak",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 1150,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     },
+     "hold": "cup",
+     "to": 760
+    }
+   ]
+  },
+  {
+   "text": "He says, sorry to interrupt, did anyone lose a hamster? He's been living in my desk drawer since Friday.",
+   "set": "classroom",
+   "sfx": "waitwhat",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ],
+   "speaker": "co2",
+   "bubble": {
+    "text": "Did anyone lose a HAMSTER?",
+    "x": 700,
+    "y": 560,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.3,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "Inside the mug is a hamster. With a tiny notch in his left ear.",
+   "set": "closeup",
+   "sfx": "fahh",
+   "state": {
+    "show": "text",
+    "big": "NOTCH|CONFIRMED",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Which means the cage I carried home on Friday was empty the whole time.",
+   "set": "classroom",
+   "sfx": "metalpipe",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Everyone turns around. Very slowly. And looks at me.",
+   "set": "classroom",
+   "sfx": "riser",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 440,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 900,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "hold": "cup"
+    }
+   ],
+   "slow": true,
+   "meme": "slowzoom",
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Two hamsters. One liar. What I said next? Part three.",
+   "set": "closeup",
+   "sfx": "sting",
+   "state": {
+    "show": "part2",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  }
+ ]
+}

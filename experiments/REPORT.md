@@ -1,15 +1,15 @@
 # Snortlo experiment scoreboard
-_updated 2026-10-11 · score = average log(1 + views_72h) on YouTube, higher is better_
+_updated 2026-10-12 · score = average log(1 + views_72h) on YouTube, higher is better_
 
 ## stories
 
-- hook_style: **shock_statement** – (n=0) · **question** – (n=0) · **pov** – (n=0) · **number_list** – (n=0) · **in_media_res** – (n=0)
-- narrator_voice: **af_heart** – (n=0) · **am_puck** – (n=0) · **af_bella** – (n=0) · **am_michael** – (n=0)
+- hook_style: **shock_statement** 6.62 (n=3) · **question** – (n=0) · **pov** – (n=0) · **number_list** – (n=0) · **in_media_res** – (n=0)
+- narrator_voice: **af_heart** 6.62 (n=3) · **am_puck** – (n=0) · **af_bella** – (n=0) · **am_michael** – (n=0)
 - speed: **1.15** – (n=0) · **1.25** – (n=0)
-- music: **True** – (n=0) · **False** – (n=0)
-- title_style: **emoji_end** – (n=0) · **all_lowercase** – (n=0) · **caps_word** – (n=0) · **quote_from_story** – (n=0)
+- music: **True** 6.62 (n=3) · **False** – (n=0)
+- title_style: **emoji_end** 6.62 (n=3) · **all_lowercase** – (n=0) · **caps_word** – (n=0) · **quote_from_story** – (n=0)
 - part1_hour: **9** – (n=0) · **12** – (n=0) · **17** – (n=0)
-- theme: **work** – (n=0) · **roommates** – (n=0) · **family** – (n=0) · **school** – (n=0) · **customers** – (n=0) · **neighbours** – (n=0) · **dating** – (n=0) · **pets** – (n=0)
+- theme: **work** 6.62 (n=3) · **roommates** – (n=0) · **family** – (n=0) · **school** – (n=0) · **customers** – (n=0) · **neighbours** – (n=0) · **dating** – (n=0) · **pets** – (n=0)
 
 ## memes
 

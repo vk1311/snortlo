@@ -1,0 +1,14 @@
+{
+ "day": "20260916",
+ "start": 3030.42,
+ "end": 3040.66,
+ "end_on_word": "expired",
+ "tail": 0.3,
+ "top_text": "Me explaining to my wife why we|absolutely NEED a third air fryer:",
+ "sfx": [
+  {"at_word": "expired", "name": "recordscratch", "delay": 0.05, "gain": 0.8},
+  {"at_word": "expired", "name": "laughtrack", "delay": 0.8, "gain": 0.45}
+ ],
+ "hold_end": 2.2,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-09-16, caption clock 3030.42-3040.66; member (gentleman from Maryland) cut off mid-sentence by 'the gentleman's time has expired' during a tariff/sanctions bill debate; procedural moment only, no partisan attack lines in clip"
+}

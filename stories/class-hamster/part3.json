@@ -1,0 +1,458 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 3",
+ "voice": "af_bella",
+ "speed": 1.25,
+ "music": false,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Last time: the real Professor Nibbles spent the weekend in the principal's desk, and I bought a fake.",
+   "set": "classroom",
+   "sfx": "whoosh",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     },
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "text": "So I do the only thing I can do. I tell the truth.",
+   "set": "classroom",
+   "sfx": "heartbeat",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   },
+   "slow": true
+  },
+  {
+   "text": "Friday. Empty cage. Bedtime story to nobody. Pet store. Nineteen ninety nine.",
+   "set": "closeup",
+   "sfx": "oof",
+   "state": {
+    "show": "text",
+    "big": "BEDTIME STORY|TO NOBODY",
+    "bg1": "#E6E0FF",
+    "bg2": "#8C7BD9"
+   }
+  },
+  {
+   "text": "Tyler whispers, I knew it, like he just solved a murder.",
+   "set": "classroom",
+   "sfx": "dundun",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "speaker": "co1",
+   "bubble": {
+    "text": "I KNEW it.",
+    "x": 560,
+    "y": 560,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.3,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "I wait for Ms. Grant to yell. She doesn't.",
+   "set": "classroom",
+   "sfx": "crickets",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "pause": 0.3
+  },
+  {
+   "text": "She sighs, opens the bottom drawer of her desk, and pulls out a folder.",
+   "set": "classroom",
+   "sfx": "whoosh",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "It's full of receipts. Pet store receipts.",
+   "set": "closeup",
+   "sfx": "cashregister",
+   "state": {
+    "show": "text",
+    "big": "RECEIPTS",
+    "bg1": "#E0FFE6",
+    "bg2": "#6CC28A",
+    "color": "#1E7A3C"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "She says, Professor Nibbles the first ran away in twenty nineteen.",
+   "set": "classroom",
+   "sfx": "gasp",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "The first one ran away in 2019.",
+    "x": 620,
+    "y": 560,
+    "tail": 30
+   }
+  },
+  {
+   "text": "Every kid who takes him home loses him. Every kid buys a new one. And I never say a word.",
+   "set": "classroom",
+   "sfx": "waitwhat",
+   "state": {
+    "board": "TEAM HEALED|TEAM FAKE",
+    "clock": "8:35"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "The one in the principal's mug? That's Professor Nibbles number six.",
+   "set": "closeup",
+   "sfx": "vineboom",
+   "state": {
+    "show": "text",
+    "big": "NIBBLES|#6",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Mine is number seven. The class starts clapping. For me. Or for the hamsters.",
+   "set": "classroom",
+   "sfx": "applause",
+   "state": {
+    "board": "NIBBLES 6|NIBBLES 7",
+    "clock": "8:50"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 220,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ]
+  },
+  {
+   "text": "The principal quietly puts the mug down and backs out of the room.",
+   "set": "classroom",
+   "sfx": "slidedown",
+   "state": {
+    "board": "NIBBLES 6|NIBBLES 7",
+    "clock": "8:50"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "to": 1200
+    }
+   ]
+  },
+  {
+   "text": "So now we have two cages. One notched ear. One perfect one.",
+   "set": "classroom",
+   "sfx": "pop",
+   "state": {
+    "board": "NIBBLES 6|NIBBLES 7",
+    "clock": "8:50"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     540,
+     500
+    ]
+   }
+  },
+  {
+   "text": "And a new rule. Whoever takes them home sends Ms. Grant a photo every two hours.",
+   "set": "classroom",
+   "sfx": "ding",
+   "state": {
+    "board": "NIBBLES 6|NIBBLES 7",
+    "clock": "8:50"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "A photo. Every. Two. Hours.",
+    "x": 620,
+    "y": 560,
+    "tail": 30
+   }
+  },
+  {
+   "text": "Tyler raises his hand and says, I volunteer. I will not lose them.",
+   "set": "classroom",
+   "sfx": "boing",
+   "state": {
+    "board": "NIBBLES 6|NIBBLES 7",
+    "clock": "8:50"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "speaker": "co1",
+   "bubble": {
+    "text": "I will NOT lose them.",
+    "x": 560,
+    "y": 560,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.3,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "That was Friday. Now it's Saturday morning.",
+   "set": "living",
+   "sfx": "tick",
+   "state": {
+    "tv": "SATURDAY|CARTOONS"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "text": "And Tyler just texted me a photo of two empty cages.",
+   "set": "closeup",
+   "sfx": "bruh",
+   "state": {
+    "show": "text",
+    "big": "TWO EMPTY|CAGES",
+    "bg1": "#F0F0F0",
+    "bg2": "#9A9A9A",
+    "color": "#333333"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Do I tell him about the pet store? That's the next story. Follow so you don't miss it.",
+   "set": "bedroom",
+   "sfx": "sting",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "8:02"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  }
+ ]
+}
