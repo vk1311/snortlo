@@ -37,3 +37,15 @@ YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (n
 | 18:00 | Story Part 3/3 | fake-henderson-part3.mp4 | YouTube, Facebook, Instagram | cmv3b4at4001go2803sdl92es, cmv3b4avd001ho280gm4bxg7y, cmv3b4avv001io280m6betpoy |
 
 YouTube uploads today: 5 (parts 1-3, meme A, weekly compilation). TikTok skipped (no TIKTOK_APPROVED). Compilation covers stories already fully posted; fake-henderson goes in next Sunday's.
+
+## Mon 2026-10-12 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 13:00 | Congress Moment "third-air-fryer" (2026-09-16, cut off by "time has expired", D) | gov-third-air-fryer.mp4 | YouTube, Facebook, Instagram | cmv4qnlt30026o280grz4z4zq, cmv4qnltd0027o280gpy0p6wl, cmv4qnltq0028o2807asir3ca |
+| 17:00 | Story "class-hamster" Part 1/3 | class-hamster-part1.mp4 | YouTube, Facebook, Instagram | cmv4qn1i6001so280fvqb9xbh, cmv4qn1io001to2801ahj0odd, cmv4qn1jq001uo280gh7gxnwt |
+| 20:00 | Story Part 2/3 | class-hamster-part2.mp4 | YouTube, Facebook, Instagram | cmv4qn5sp001vo280jvfnc92s, cmv4qn5t4001wo2809g1snhlu, cmv4qn5ti001xo280zrbaml5h |
+| 20:00 | Meme A "My wife at 2 AM: Would we survive zombies?" (nobody_me) | meme-2am-zombie-question.mp4 | YouTube, Facebook, Instagram | cmv4qnejy0021o2803wh71ix8, cmv4qnek80022o280soocuiix, cmv4qnekl0023o280t8m5ba38 |
+| 22:00 | Meme B "I'm a people person / got a sec?" (x_years_later; moved +2h from 20:00) | meme-people-person.mp4 | Facebook, Instagram | cmv4qnhdm0024o2808w4hn2az, cmv4qnhdv0025o280iokm2n3f |
+| 23:00 | Story Part 3/3 | class-hamster-part3.mp4 | YouTube, Facebook, Instagram | cmv4qna6e001yo280yj6rfm3m, cmv4qna6n001zo280c9b2odiz, cmv4qna760020o280aq1ghi6l |
+
+YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (no TIKTOK_APPROVED). Congress party tally so far: D 2, ? 3.
