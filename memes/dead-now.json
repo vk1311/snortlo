@@ -1,0 +1,77 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "",
+   "hold": 1.2,
+   "top_text": "Nobody:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "9:12"
+   },
+   "sfx": "crickets",
+   "cam": {
+    "zoom": 1.0
+   }
+  },
+  {
+   "text": "Oh, so you're dead now?",
+   "voice": "af_bella",
+   "top_text": "Mom, after I miss|ONE call:",
+   "set": "kitchen",
+   "speaker": "co2",
+   "sfx": "slideup",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 640,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "act": "shake",
+     "fx": {
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Also Mom, when I call her:",
+   "set": "living",
+   "state": {
+    "tv": "MOM'S|SHOW"
+   },
+   "sfx": "fahh",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 560,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "on": "co2"
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+{
+ "day": "20260902",
+ "start": 7864.31,
+ "end": 7894.91,
+ "end_on_word": "order",
+ "tail": 0.9,
+ "top_text": "Dad trying to say grace with|all five of us at the table:",
+ "sfx": [
+  {"at_word": "order", "name": "vineboom", "delay": 0.05, "gain": 0.8},
+  {"at_word": "order", "name": "laughtrack", "delay": 0.8, "gain": 0.45}
+ ],
+ "hold_end": 2.2,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-09-02, caption clock 7864.31-7894.91; member (gentleman from Pennsylvania) seeks recognition for a one-minute speech while the chamber is noisy and the chair calls 'the House will be in order'; procedural moment only, no policy content in clip"
+}

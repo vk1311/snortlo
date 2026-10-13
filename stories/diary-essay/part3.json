@@ -1,0 +1,515 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 3",
+ "voice": "af_bella",
+ "speed": 1.15,
+ "music": false,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Last time: my diary, full of jokes about my teacher's mustache, made the finals. Now I read it on stage.",
+   "set": "office",
+   "sfx": "whoosh",
+   "state": {
+    "whiteboard": "FINALISTS|ANNOUNCED",
+    "cooler": false
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 680,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Friday. The gym is packed. Five hundred kids. Every teacher. Somebody's grandma brought a camera.",
+   "set": "classroom",
+   "sfx": "crowdcheer",
+   "state": {
+    "board": "CONTEST|FINALS"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 160,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 380,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 600,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 860,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "And in the front row: the mustache itself.",
+   "set": "classroom",
+   "sfx": "dundun",
+   "state": {
+    "board": "CONTEST|FINALS"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.1,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "My hands are shaking so hard the pages sound like a tiny rainstorm.",
+   "set": "classroom",
+   "sfx": "heartbeat",
+   "state": {
+    "board": "CONTEST|FINALS"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "hold": "paper",
+     "act": "shake",
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "I walk up, open the diary, and start reading. Page one. The caterpillar that gave up on life.",
+   "set": "classroom",
+   "sfx": "pop",
+   "state": {
+    "board": "CONTEST|FINALS"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "worried",
+      "mouth": "o"
+     },
+     "hold": "paper",
+     "act": "talk"
+    }
+   ],
+   "speaker": "me"
+  },
+  {
+   "text": "Silence.",
+   "set": "classroom",
+   "sfx": "crickets",
+   "state": {
+    "board": "CONTEST|FINALS"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   },
+   "pause": 0.6
+  },
+  {
+   "text": "Then one laugh. Then ten. Then the whole gym.",
+   "set": "classroom",
+   "sfx": "laughtrack",
+   "state": {
+    "board": "CONTEST|FINALS"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 160,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    },
+    {
+     "who": "co3",
+     "x": 400,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    },
+    {
+     "who": "co2",
+     "x": 660,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ],
+   "meme": "shake"
+  },
+  {
+   "text": "I look down at Mr. Pratt, fully ready to get expelled. Or arrested. Or both.",
+   "set": "classroom",
+   "sfx": "gulp",
+   "state": {
+    "board": "CONTEST|FINALS"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "He is laughing harder than anyone. He's crying. He's slapping his knee. Maya says she saw him take a picture of page two.",
+   "set": "classroom",
+   "sfx": "slap",
+   "state": {
+    "board": "CONTEST|FINALS"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "closed",
+      "mouth": "grin"
+     },
+     "act": "laugh",
+     "fx": {
+      "red": 0.6
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "I finish the last page. Standing ovation.",
+   "set": "classroom",
+   "sfx": "applause",
+   "state": {
+    "board": "CONTEST|FINALS"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 160,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "boss",
+     "x": 880,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "We came second. A girl wrote a poem about her grandma. Fair.",
+   "set": "classroom",
+   "sfx": "aww",
+   "state": {
+    "board": "2ND PLACE|CONGRATS"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Monday morning, Mr. Pratt walks into class like nothing happened. Coffee in hand. Whistling.",
+   "set": "classroom",
+   "sfx": "whoosh",
+   "state": {
+    "board": "GOOD MORNING|CLASS",
+    "clock": "8:30"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 1100,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 700
+    }
+   ]
+  },
+  {
+   "text": "And the mustache is gone.",
+   "set": "closeup",
+   "sfx": "vineboom",
+   "state": {
+    "show": "text",
+    "big": "NO|MUSTACHE",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Clean shaven. A completely different man. His face looks like a thumb.",
+   "set": "classroom",
+   "sfx": "bruh",
+   "state": {
+    "board": "GOOD MORNING|CLASS",
+    "clock": "8:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     520,
+     820
+    ]
+   }
+  },
+  {
+   "text": "He hands me a brand new notebook and says, for the sequel.",
+   "set": "classroom",
+   "sfx": "ding",
+   "state": {
+    "board": "GOOD MORNING|CLASS",
+    "clock": "8:31"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 340,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "For the sequel.",
+    "x": 640,
+    "y": 640,
+    "tail": 40
+   }
+  },
+  {
+   "text": "So now I have to write about what's under the mustache. Trust me, that's way harder.",
+   "set": "classroom",
+   "sfx": "rimshot",
+   "state": {
+    "board": "GOOD MORNING|CLASS",
+    "clock": "8:31"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 340,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "angry",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "What's in the sequel? That's the next story. Follow so you don't miss it.",
+   "set": "bedroom",
+   "sfx": "sting",
+   "state": {
+    "phone": true,
+    "clock": "9:00"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ]
+  }
+ ]
+}
