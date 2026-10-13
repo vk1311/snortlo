@@ -49,3 +49,15 @@ YouTube uploads today: 5 (parts 1-3, meme A, weekly compilation). TikTok skipped
 | 23:00 | Story Part 3/3 | class-hamster-part3.mp4 | YouTube, Facebook, Instagram | cmv4qna6e001yo280yj6rfm3m, cmv4qna6n001zo280c9b2odiz, cmv4qna760020o280aq1ghi6l |
 
 YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (no TIKTOK_APPROVED). Congress party tally so far (gov/used.txt): D 2, ? 2. Next clip should lean R or procedural-only.
+
+## Tue 2026-10-13 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A "Mom: Do I look like I'm made of money?" (me_vs_mom) | meme-made-of-money.mp4 | YouTube, Facebook, Instagram | cmv65y42v002io280e3586tgf, cmv65y434002jo280aon41spj, cmv65y43i002ko280abvunrzv |
+| 09:00 | Story "diary-essay" Part 1/3 | diary-essay-part1.mp4 | YouTube, Facebook, Instagram | cmv65xqnd0029o280spf7ltue, cmv65xqnx002ao2801l4c9pt1, cmv65xqog002bo280n51ceoqz |
+| 10:00 | Meme B "Mom after I miss ONE call" (nobody_me; moved +2h from 08:00) | meme-dead-now.mp4 | Facebook, Instagram | cmv65y444002lo280oykg6wbd, cmv65y45j002mo280pka9xswu |
+| 12:00 | Story Part 2/3 | diary-essay-part2.mp4 | YouTube, Facebook, Instagram | cmv65xqpn002co2807i92ntgq, cmv65xqqc002do280juv9kqvw, cmv65xqqy002eo280dm4m72bz |
+| 13:00 | Congress Moment "house-in-order" (2026-09-02, chair calls "the House will be in order", R chair) | gov-house-in-order.mp4 | YouTube, Facebook, Instagram | cmv65y48f002no2802lfoh4yh, cmv65y4b1002oo280gaabyl67, cmv65y4c3002po280z44713v6 |
+| 15:00 | Story Part 3/3 | diary-essay-part3.mp4 | YouTube, Facebook, Instagram | cmv65xqrh002fo280v2qi1tcq, cmv65xqrv002go280ln0ns16m, cmv65xqsb002ho280c397cgc0 |
+
+YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (no TIKTOK_APPROVED). Congress party tally (gov/used.txt): D 2, R 1, ? 2. Note: houselive caption offset for 2026-09-02 was ~80 s off; rendered with a corrected offset (one continuous clip, audio untouched).
