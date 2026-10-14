@@ -61,3 +61,16 @@ YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (n
 | 15:00 | Story Part 3/3 | diary-essay-part3.mp4 | YouTube, Facebook, Instagram | cmv65xqrh002fo280v2qi1tcq, cmv65xqrv002go280ln0ns16m, cmv65xqsb002ho280c397cgc0 |
 
 YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (no TIKTOK_APPROVED). Congress party tally (gov/used.txt): D 2, R 1, ? 2. Note: houselive caption offset for 2026-09-02 was ~80 s off; rendered with a corrected offset (one continuous clip, audio untouched).
+
+## Wed 2026-10-14 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 13:00 | Congress Moment "take-it-outside" (2026-09-01, chair asks members to take conversations outside, party ?) | gov-take-it-outside.mp4 | Facebook, Instagram | cmv7ldyqn0034o280yoyx7xbb, cmv7ldyr00035o280ev7c8g7h |
+| 17:00 | Story "wrong-table" Part 1/3 | wrong-table-part1.mp4 | YouTube, Facebook, Instagram | cmv7ldjwl002qo280huusw1c3, cmv7ldjx2002ro280x1zc5mwa, cmv7ldjxg002so280wjyyseg5 |
+| 20:00 | Story Part 2/3 | wrong-table-part2.mp4 | YouTube, Facebook, Instagram | cmv7ldjy1002to280ciic2zgh, cmv7ldjzi002uo280bbxdc3uj, cmv7ldk0q002vo280etk8x074 |
+| 20:00 | Meme A "When you lend your brother $50 'till Friday'" (when_you) | meme-pay-you-back-friday.mp4 | YouTube, Facebook, Instagram | cmv7ldynm002zo280wb3nqdnb, cmv7ldynw0030o2807co5pola, cmv7ldyod0031o2803sbq792e |
+| 22:00 | Meme B "The 'I'm 5 min away' bestie starter pack" (starter_pack; moved +2h from 20:00) | meme-omw-bestie.mp4 | Facebook, Instagram | cmv7ldyou0032o2807n79sf18, cmv7ldyph0033o280t29d3x1k |
+| 23:00 | Story Part 3/3 | wrong-table-part3.mp4 | YouTube, Facebook, Instagram | cmv7ldk1c002wo280qmup9bgk, cmv7ldk21002xo280c4fzby6h, cmv7ldk4h002yo280ul2yszbl |
+| 01:00 (Thu) | Story full cut "wrong-table" (Wednesday full-cut slot, 2h after Part 3) | wrong-table-full.mp4 | YouTube, Facebook | cmv7ldyrb0036o280gf2fvpw6, cmv7ldys70037o280whisi4yc |
+
+YouTube uploads: 5 (parts 1-3, meme A, full cut). The full cut lands 01:00 ADT Thu = 21:00 PT Wed, so it stays inside Wednesday's Google quota day (resets midnight PT). TikTok skipped (no TIKTOK_APPROVED). Congress party tally (gov/used.txt): D 2, R 1, ? 3. Whisper misheard "are asked" as "of us"; added `caption_fixes` to gov.py so on-screen captions match the official House captions (text only, audio untouched).
