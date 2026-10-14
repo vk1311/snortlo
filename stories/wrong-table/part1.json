@@ -1,0 +1,757 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 1",
+ "voice": "af_bella",
+ "speed": 1.25,
+ "music": false,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "I'm at a stranger's family dinner, and his grandma just called me her future granddaughter in law.",
+   "set": "closeup",
+   "sfx": "vineboom",
+   "state": {
+    "show": "text",
+    "big": "FUTURE|GRANDDAUGHTER?!",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "I have known this man for eleven minutes.",
+   "set": "living",
+   "sfx": "bruh",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Let me back up.",
+   "set": "closeup",
+   "sfx": "recordscratch",
+   "state": {
+    "show": "text",
+    "big": "11 MINUTES|EARLIER",
+    "bg1": "#E6E0FF",
+    "bg2": "#8C7BD9"
+   }
+  },
+  {
+   "text": "It's Friday. I haven't been on a date in four months. My bestie says, that ends tonight.",
+   "set": "bedroom",
+   "sfx": "slideup",
+   "state": {
+    "clock": "5:30"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "text": "My bestie set me up on a blind date.",
+   "set": "bedroom",
+   "sfx": "ding",
+   "state": {
+    "phone": true,
+    "clock": "6:15"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ]
+  },
+  {
+   "text": "She texted, he's wearing a blue shirt. Window table. Seven o'clock.",
+   "set": "closeup",
+   "sfx": "pop",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "Blue shirt.",
+     "Window table.",
+     "7 PM. Be cute."
+    ],
+    "bg1": "#E6F4FF",
+    "bg2": "#8CC3F2"
+   }
+  },
+  {
+   "text": "Seven o'clock. Window table. Blue shirt. Perfect.",
+   "set": "street",
+   "sfx": "whoosh",
+   "state": {
+    "night": true
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 150,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 700
+    }
+   ]
+  },
+  {
+   "text": "I sit down and say, Hi, I'm the blind date.",
+   "set": "living",
+   "sfx": "pop",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "speaker": "me",
+   "bubble": {
+    "text": "Hi! I'm your blind date.",
+    "x": 330,
+    "y": 500,
+    "tail": 30
+   }
+  },
+  {
+   "text": "And he goes, Oh thank god. Thank you so much for doing this.",
+   "set": "living",
+   "sfx": "huh",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "THANK YOU for doing this.",
+    "x": 680,
+    "y": 500,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.35,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Weird thing to say. But okay. Maybe he's nervous.",
+   "set": "living",
+   "sfx": "tick",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "He's sweating. Like, through the blue shirt.",
+   "set": "living",
+   "sfx": "oof",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Then he leans in and whispers, just say we've been dating three months.",
+   "set": "living",
+   "sfx": "waitwhat",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "Just say 3 months. Please.",
+    "x": 680,
+    "y": 500,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     480,
+     800
+    ]
+   }
+  },
+  {
+   "text": "Three months? Of what?",
+   "set": "living",
+   "sfx": "riser",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "speaker": "me",
+   "bubble": {
+    "text": "Three months?! Of WHAT?",
+    "x": 330,
+    "y": 500,
+    "tail": 30
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "And before I can ask, the door opens.",
+   "set": "living",
+   "sfx": "doorslam",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     900,
+     800
+    ]
+   }
+  },
+  {
+   "text": "And in walks his entire family.",
+   "set": "living",
+   "sfx": "gasp",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 1100,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "to": 880
+    },
+    {
+     "who": "co3",
+     "x": 1200,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "to": 1000
+    }
+   ]
+  },
+  {
+   "text": "Mom. Dad. A sister who's already staring at me. And Grandma.",
+   "set": "living",
+   "sfx": "pop",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 900,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cards": [
+    "MOM",
+    "DAD",
+    "SISTER",
+    "GRANDMA"
+   ]
+  },
+  {
+   "text": "Grandma hugs me like I'm the last cookie on earth.",
+   "set": "living",
+   "sfx": "aww",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "at": [
+     480,
+     820
+    ]
+   }
+  },
+  {
+   "text": "She says, finally. Sam never brings anyone home.",
+   "set": "living",
+   "sfx": "ding",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "speaker": "co1",
+   "bubble": {
+    "text": "FINALLY. Sam never brings anyone!",
+    "x": 640,
+    "y": 500,
+    "tail": 30
+   }
+  },
+  {
+   "text": "So his name is Sam. Good to know.",
+   "set": "living",
+   "sfx": "crickets",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Grandma tells me Sam was a beautiful baby. She has photos. She has a lot of photos.",
+   "set": "living",
+   "sfx": "shutter",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cards": [
+    "PHOTO 1",
+    "PHOTO 2",
+    "PHOTO 47"
+   ]
+  },
+  {
+   "text": "Then Grandma reaches into her purse.",
+   "set": "living",
+   "sfx": "heartbeat",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 900,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "And pulls out a tiny velvet box.",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "text",
+    "big": "TINY|VELVET BOX",
+    "bg1": "#FFE0E8",
+    "bg2": "#D9607A"
+   },
+   "meme": "slowzoom"
+  },
+  {
+   "text": "She looks right at me and says, this was my mother's.",
+   "set": "living",
+   "sfx": "sting",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.6
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "speaker": "co1",
+   "bubble": {
+    "text": "This was my mother's.",
+    "x": 640,
+    "y": 500,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.7,
+    "at": [
+     460,
+     800
+    ]
+   },
+   "meme": "slowzoom"
+  }
+ ]
+}

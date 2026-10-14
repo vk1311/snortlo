@@ -1,0 +1,120 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "When you lend your brother $50|\"just till Friday\":",
+   "set": "living",
+   "state": {
+    "tv": "FRIDAY|PAYDAY"
+   },
+   "sfx": "cashregister",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 680,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "hold": "paper",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.1,
+    "at": [
+     500,
+     820
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "Me, every Friday since 2023:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "5:01"
+   },
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 460,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "His Instagram, this Friday:",
+   "set": "living",
+   "state": {
+    "tv": "NEW POST|CANCUN TRIP"
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 560,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 220,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.7
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.1,
+    "at": [
+     620,
+     760
+    ]
+   }
+  }
+ ]
+}

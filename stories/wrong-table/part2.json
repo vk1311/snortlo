@@ -1,0 +1,649 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 2",
+ "voice": "af_bella",
+ "speed": 1.25,
+ "music": false,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Quick recap. Wrong date, fake girlfriend, and a grandma holding a tiny velvet box.",
+   "set": "closeup",
+   "sfx": "whoosh",
+   "state": {
+    "show": "text",
+    "big": "WRONG DATE|FAKE GF",
+    "bg1": "#E6E0FF",
+    "bg2": "#8C7BD9"
+   }
+  },
+  {
+   "text": "Grandma smiles and says, not yet. After dessert.",
+   "set": "living",
+   "sfx": "oof",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ],
+   "speaker": "co1",
+   "bubble": {
+    "text": "Not yet. After DESSERT.",
+    "x": 640,
+    "y": 500,
+    "tail": 30
+   }
+  },
+  {
+   "text": "After dessert? I don't even know his middle name!",
+   "set": "living",
+   "sfx": "nooo",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "I excuse myself to the bathroom. Sam follows me.",
+   "set": "closeup",
+   "sfx": "tick",
+   "state": {
+    "show": "text",
+    "big": "BATHROOM|EMERGENCY",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "He says his real girlfriend, Jess, dumped him on Tuesday.",
+   "set": "street",
+   "sfx": "sadviolin",
+   "state": {
+    "night": true
+   },
+   "speaker": "boss",
+   "bubble": {
+    "text": "Jess dumped me Tuesday.",
+    "x": 680,
+    "y": 500,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "text": "And Grandma has been begging to meet her for a year.",
+   "set": "street",
+   "sfx": "aww",
+   "state": {
+    "night": true
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Please. One dinner. I'll pay for everything. Even dessert.",
+   "set": "street",
+   "sfx": "cashregister",
+   "state": {
+    "night": true
+   },
+   "speaker": "boss",
+   "bubble": {
+    "text": "I'll pay. Even dessert.",
+    "x": 680,
+    "y": 500,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "wide",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "text": "And I hear myself say, fine. But I'm getting the lobster.",
+   "set": "street",
+   "sfx": "rimshot",
+   "state": {
+    "night": true
+   },
+   "speaker": "me",
+   "bubble": {
+    "text": "Fine. But I'm getting LOBSTER.",
+    "x": 330,
+    "y": 500,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Back at the table, the sister goes, so. How did you two meet?",
+   "set": "living",
+   "sfx": "dundun",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "speaker": "co3",
+   "bubble": {
+    "text": "So... how'd you two MEET?",
+    "x": 740,
+    "y": 500,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.4,
+    "on": "co3"
+   }
+  },
+  {
+   "text": "And at the exact same time, I say gym, and he says library.",
+   "set": "living",
+   "sfx": "recordscratch",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "talk"
+    }
+   ],
+   "cards": [
+    "GYM",
+    "LIBRARY"
+   ],
+   "meme": "shake"
+  },
+  {
+   "text": "Grandma goes, a gym in a library? How modern!",
+   "set": "living",
+   "sfx": "laughtrack",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 680,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ],
+   "speaker": "co1",
+   "bubble": {
+    "text": "A gym in a LIBRARY? How modern!",
+    "x": 660,
+    "y": 500,
+    "tail": 30
+   }
+  },
+  {
+   "text": "The sister is not laughing. The sister is taking notes.",
+   "set": "living",
+   "sfx": "crickets",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 600,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "co3"
+   }
+  },
+  {
+   "text": "Actual notes. On a napkin. With a pen she brought from home.",
+   "set": "living",
+   "sfx": "typebell",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 600,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "co3"
+   }
+  },
+  {
+   "text": "Then she asks, what's his favorite food?",
+   "set": "living",
+   "sfx": "tick",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "speaker": "co3",
+   "bubble": {
+    "text": "His favorite food?",
+    "x": 740,
+    "y": 500,
+    "tail": 30
+   }
+  },
+  {
+   "text": "I panic and say, soup.",
+   "set": "living",
+   "sfx": "bruh",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "speaker": "me",
+   "bubble": {
+    "text": "...Soup.",
+    "x": 330,
+    "y": 500,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Sam nods so hard his chair squeaks. Yes. Soup. Love soup.",
+   "set": "living",
+   "sfx": "squeak",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 680,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     },
+     "act": "bounce",
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "YES. Soup. LOVE soup.",
+    "x": 680,
+    "y": 500,
+    "tail": 30
+   }
+  },
+  {
+   "text": "And right then, my phone lights up on the table.",
+   "set": "closeup",
+   "sfx": "ding",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "MARK (blind date):",
+     "At the window table.",
+     "Where r u?"
+    ],
+    "bg1": "#E6F4FF",
+    "bg2": "#8CC3F2"
+   }
+  },
+  {
+   "text": "It's my actual blind date. Mark. He's at the window table. The other window table.",
+   "set": "closeup",
+   "sfx": "gasp",
+   "state": {
+    "show": "text",
+    "big": "THE OTHER|WINDOW TABLE",
+    "bg1": "#FFE0E8",
+    "bg2": "#D9607A"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "I look across the room. Another guy. Blue shirt. Alone. Eating breadsticks.",
+   "set": "living",
+   "sfx": "sadtrombone",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 540,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     },
+     "hold": "sandwich"
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "And before I can grab my phone, the sister grabs it first.",
+   "set": "living",
+   "sfx": "whoosh",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 560,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "She reads it out loud. Who is Mark?",
+   "set": "living",
+   "sfx": "vineboom",
+   "state": {
+    "tv": "TODAY'S SPECIAL|PASTA $14"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.6
+     }
+    },
+    {
+     "who": "co3",
+     "x": 700,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     }
+    }
+   ],
+   "speaker": "co3",
+   "bubble": {
+    "text": "Who. Is. MARK?",
+    "x": 700,
+    "y": 500,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.6,
+    "on": "co3"
+   },
+   "meme": "shake"
+  }
+ ]
+}

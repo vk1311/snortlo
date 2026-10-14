@@ -1,0 +1,36 @@
+{
+ "day": "20260901",
+ "start": 25996.0,
+ "end": 26008.0,
+ "end_on_word": "chamber",
+ "tail": 0.4,
+ "top_text": "Mom telling me and my sister|to \"take it outside\" for the 4th time:",
+ "sfx": [
+  {
+   "at_word": "chamber",
+   "name": "bruh",
+   "delay": 0.1,
+   "gain": 0.8
+  },
+  {
+   "at_word": "chamber",
+   "name": "laughtrack",
+   "delay": 0.9,
+   "gain": 0.45
+  }
+ ],
+ "hold_end": 2.0,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-09-01, caption clock 25996.0-26008.0; during a noisy vote the chair says 'the House will be in order' and asks members to take their conversations off the floor; procedural moment only, no policy content in clip; presiding officer not identified",
+ "caption_fixes": [
+  {
+   "from": [
+    "of",
+    "us"
+   ],
+   "to": [
+    "are",
+    "asked"
+   ]
+  }
+ ]
+}

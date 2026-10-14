@@ -190,6 +190,11 @@ def render(clip_path, out):
     src = f"{work}/src.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{a:.3f}", "-i", raw, "-t", f"{dur:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", src], check=True)
     local = [dict(w, s=w["s"] - a, e=w["e"] - a) for w in words if a <= w["s"] < b]
+    for fix in clip.get("caption_fixes", []):  # correct Whisper mishearings to match the official House captions (text only, timing kept)
+        fr, to = [norm(x) for x in fix["from"]], fix["to"]
+        for i in range(len(local) - len(fr) + 1):
+            if [norm(x["w"]) for x in local[i:i + len(fr)]] == fr and len(to) == len(fr):
+                for k, t in enumerate(to): local[i + k]["w"] = t
     band_png(clip.get("top_text", ""), f"{work}/band.png"); ass_from_words(local, f"{work}/cap.ass")
     fx = np.zeros(int((dur + 4) * sfx.SR)); rng = np.random.default_rng(len(clip.get("top_text", "")))
     for hit in clip.get("sfx", []):
