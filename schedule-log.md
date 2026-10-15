@@ -74,3 +74,15 @@ YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (n
 | 01:00 (Thu) | Story full cut "wrong-table" (Wednesday full-cut slot, 2h after Part 3) | wrong-table-full.mp4 | YouTube, Facebook | cmv7ldyrb0036o280gf2fvpw6, cmv7ldys70037o280whisi4yc |
 
 YouTube uploads: 5 (parts 1-3, meme A, full cut). The full cut lands 01:00 ADT Thu = 21:00 PT Wed, so it stays inside Wednesday's Google quota day (resets midnight PT). TikTok skipped (no TIKTOK_APPROVED). Congress party tally (gov/used.txt): D 2, R 1, ? 3. Whisper misheard "are asked" as "of us"; added `caption_fixes` to gov.py so on-screen captions match the official House captions (text only, audio untouched).
+
+## Thu 2026-10-15 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 13:00 | Meme A "When your bestie says 'let's just split it evenly'" (when_you, fahh, deepfry) | meme-split-it-evenly.mp4 | YouTube, Facebook, Instagram | cmv90v0s9003ho280gquc10bm, cmv90v0sj003io280tf0qslfj, cmv90v0t9003jo280lvp8t5kn |
+| 13:00 | Congress Moment "one-sentence-thanksgiving" (2026-08-31, chair interrupted by floor noise, restarts sentence; R chair, Rep. Wied) | gov-one-sentence-thanksgiving.mp4 | YouTube, Facebook, Instagram | cmv90v0w4003mo280ivrsebv2, cmv90v0x1003no280tzjynw13, cmv90v0y8003oo280secq061r |
+| 17:00 | Story "accidental-sub" Part 1/3 | accidental-sub-part1.mp4 | YouTube, Facebook, Instagram | cmv90unvr0038o280c1ypjiu5, cmv90unw80039o280x6luegx9, cmv90unx0003ao280qsshpaga |
+| 20:00 | Story Part 2/3 | accidental-sub-part2.mp4 | YouTube, Facebook, Instagram | cmv90unxh003bo28060ojuidp, cmv90unzw003co2801nmi9mga, cmv90uo1o003do28068ffgbbo |
+| 20:00 | Meme B "Teacher: Mom gives you $20 for lunch..." (teacher_class, metalpipe) | meme-candy-money-math.mp4 | Facebook, Instagram | cmv90v0tu003ko280zp7y83cd, cmv90v0ve003lo280e53psn0m |
+| 23:00 | Story Part 3/3 | accidental-sub-part3.mp4 | YouTube, Facebook, Instagram | cmv90uo2s003eo280g1gse3kv, cmv90uo54003fo280e2kf6lzv, cmv90uo72003go280e98o5zmf |
+
+YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 2, ? 3. Recent unused session days (Sep 17-Oct 13) were pro forma or had no captions/rights statement; used 2026-08-31 (full session, unused). Clip opens on ~1 s of the official recess slate. Full cut accidental-sub-full.mp4 rendered for Sunday's compilation.
