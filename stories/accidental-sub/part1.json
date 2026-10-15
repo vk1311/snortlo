@@ -1,0 +1,500 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 1",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "I'm fifteen. I'm holding chalk. And a room full of ninth graders just called me Mister Fontaine.",
+   "set": "classroom",
+   "sfx": "vineboom",
+   "state": {
+    "board": "WELCOME|MR. FONTAINE",
+    "clock": "9:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co3",
+     "x": 200,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 380,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "meme": "shake",
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Mister Fontaine is the substitute teacher. I am not Mister Fontaine.",
+   "set": "closeup",
+   "sfx": "bruh",
+   "state": {
+    "show": "text",
+    "big": "I AM NOT|THE SUB",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "Let me rewind. It's picture day, so my mom made me wear my dad's blazer. And a tie. And hair gel.",
+   "set": "bedroom",
+   "sfx": "recordscratch",
+   "state": {
+    "clock": "7:00"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "speaker": "co2",
+   "bubble": {
+    "text": "PICTURE DAY!",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   }
+  },
+  {
+   "text": "I look like a forty-year-old accountant who lost a bet.",
+   "set": "bedroom",
+   "sfx": "rimshot",
+   "state": {
+    "clock": "7:01"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  },
+  {
+   "text": "I'm late, so I sprint into school and open the first door I see. Room two oh four. Wrong room.",
+   "set": "street",
+   "sfx": "tirescreech",
+   "cast": [
+    {
+     "who": "me",
+     "x": 100,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "to": 900
+    }
+   ]
+  },
+  {
+   "text": "The whole class goes quiet. One kid whispers, finally, the sub.",
+   "set": "classroom",
+   "sfx": "gasp",
+   "state": {
+    "board": "WELCOME|MR. FONTAINE",
+    "clock": "9:05"
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 200,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 400,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "speaker": "co1",
+   "bubble": {
+    "text": "FINALLY, THE SUB",
+    "x": 420,
+    "y": 560,
+    "tail": 30
+   }
+  },
+  {
+   "text": "And before I can say a word, a girl in the front row hands me the attendance sheet.",
+   "set": "classroom",
+   "sfx": "pop",
+   "state": {
+    "board": "WELCOME|MR. FONTAINE",
+    "clock": "9:05"
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 440,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 680,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "at": [
+     560,
+     860
+    ]
+   }
+  },
+  {
+   "text": "Now, a normal person would say, sorry, wrong room.",
+   "set": "classroom",
+   "sfx": "crickets",
+   "state": {
+    "board": "WELCOME|MR. FONTAINE",
+    "clock": "9:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "But I panic. And when I panic, I commit.",
+   "set": "classroom",
+   "sfx": "dundun",
+   "state": {
+    "board": "WELCOME|MR. FONTAINE",
+    "clock": "9:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "angry",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "me"
+   },
+   "slow": true
+  },
+  {
+   "text": "I take attendance. I mispronounce every single name. Nobody blinks, because that's what subs do.",
+   "set": "classroom",
+   "sfx": "laughtrack",
+   "state": {
+    "board": "WELCOME|MR. FONTAINE",
+    "clock": "9:05"
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 200,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    },
+    {
+     "who": "co1",
+     "x": 400,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "o"
+     },
+     "hold": "paper",
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "The lesson plan on the desk says quadratic equations. I am in remedial math.",
+   "set": "closeup",
+   "sfx": "fahh",
+   "state": {
+    "show": "text",
+    "big": "QUADRATIC|EQUATIONS",
+    "bg1": "#E6F0FF",
+    "bg2": "#9DB8E8"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "But taped under the desk, I find the answer key. I am basically a genius now.",
+   "set": "classroom",
+   "sfx": "sparkle",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "paper",
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Twenty minutes in, it's going great. They think I'm strict. I think I'm strict.",
+   "set": "classroom",
+   "sfx": "success",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 200,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 400,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Then the door opens.",
+   "set": "classroom",
+   "sfx": "doorslam",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "meme": "shake",
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  },
+  {
+   "text": "It's Principal Dunn. With a clipboard. He says, Mister Fontaine, I'm here for your observation.",
+   "set": "classroom",
+   "sfx": "vineboom",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 1100,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "to": 800,
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "OBSERVATION TIME",
+    "x": 780,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     620,
+     820
+    ]
+   }
+  },
+  {
+   "text": "Can I fake being a teacher for a whole observation? Part two.",
+   "set": "closeup",
+   "sfx": "sting",
+   "state": {
+    "show": "part2",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  }
+ ]
+}

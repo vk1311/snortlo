@@ -4,3 +4,4 @@
 20260916 third-air-fryer D
 20260902 house-in-order R
 20260901 take-it-outside ?
+20260831 one-sentence-thanksgiving R

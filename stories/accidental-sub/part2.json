@@ -1,0 +1,512 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 2",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Last time: I got mistaken for the substitute teacher. Now the principal is here to watch me teach.",
+   "set": "classroom",
+   "sfx": "whoosh",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 820,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "text": "He sits in the back. Clicks his pen. Says, whenever you're ready.",
+   "set": "classroom",
+   "sfx": "tick",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 800,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "speaker": "boss",
+   "cam": {
+    "zoom": 1.8,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "I am not ready. I have never been ready for anything.",
+   "set": "classroom",
+   "sfx": "oof",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 520,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  },
+  {
+   "text": "So I do what every teacher does when they're stuck. Turn to your neighbor and discuss.",
+   "set": "classroom",
+   "sfx": "pop",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 200,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 420,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "speaker": "me"
+  },
+  {
+   "text": "It buys me four minutes. I use them to sweat.",
+   "set": "classroom",
+   "sfx": "heartbeat",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true,
+      "red": 0.4
+     },
+     "act": "shake"
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Then a hand goes up. It's my best friend, Jay. He is not even in this class.",
+   "set": "classroom",
+   "sfx": "huh",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "He saw me through the window and walked right in. He says, Mister Fontaine, can you explain the quadratic formula?",
+   "set": "classroom",
+   "sfx": "waitwhat",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "speaker": "co1",
+   "bubble": {
+    "text": "EXPLAIN IT, SIR",
+    "x": 380,
+    "y": 540,
+    "tail": 30
+   }
+  },
+  {
+   "text": "He is smiling. He knows exactly what he's doing.",
+   "set": "classroom",
+   "sfx": "evillaugh",
+   "state": {
+    "board": "QUADRATIC|EQUATIONS",
+    "clock": "9:40"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 480,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.1,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "So I walk to the board and copy the formula off the answer key. Really big. Really confident.",
+   "set": "classroom",
+   "sfx": "whoosh",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     540,
+     600
+    ]
+   }
+  },
+  {
+   "text": "And then something weird happens. I explain it. Like, correctly.",
+   "set": "classroom",
+   "sfx": "sparkle",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "talk"
+    }
+   ],
+   "speaker": "me",
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Turns out when twenty-eight people are staring at you, you actually have to figure it out.",
+   "set": "classroom",
+   "sfx": "ding",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 260,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 480,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 800,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "The kids are nodding. The front row girl is taking notes. Principal Dunn writes something down and underlines it twice.",
+   "set": "classroom",
+   "sfx": "scratch",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Jay looks betrayed.",
+   "set": "classroom",
+   "sfx": "bruh",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 500,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.2,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "The bell rings. Dunn stands up and says, outstanding. Best observation all year.",
+   "set": "classroom",
+   "sfx": "applause",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "speaker": "boss",
+   "bubble": {
+    "text": "OUTSTANDING!",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   }
+  },
+  {
+   "text": "I'm halfway out the door, free, when the real substitute walks in.",
+   "set": "classroom",
+   "sfx": "doorslam",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 900
+    },
+    {
+     "who": "co2",
+     "x": 1100,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     },
+     "to": 900
+    }
+   ]
+  },
+  {
+   "text": "It's my mom.",
+   "set": "closeup",
+   "sfx": "vineboom",
+   "state": {
+    "show": "text",
+    "big": "IT'S|MY MOM",
+    "bg1": "#FFE2E2",
+    "bg2": "#E89A9A"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Why is my mom the sub? Part three.",
+   "set": "closeup",
+   "sfx": "sting",
+   "state": {
+    "show": "part2",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  }
+ ]
+}

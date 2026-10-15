@@ -1,0 +1,52 @@
+{
+ "day": "20260831",
+ "start": 15348.9,
+ "end": 15357.4,
+ "end_on_word": "recognition",
+ "tail": 0.4,
+ "top_text": "Dad trying to finish ONE sentence|at Thanksgiving dinner:",
+ "sfx": [
+  {
+   "at_word": "order",
+   "name": "vineboom",
+   "delay": 0.1,
+   "gain": 0.7
+  },
+  {
+   "at_word": "recognition",
+   "name": "bruh",
+   "delay": 0.2,
+   "gain": 0.8
+  },
+  {
+   "at_word": "recognition",
+   "name": "laughtrack",
+   "delay": 0.9,
+   "gain": 0.4
+  }
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-08-31, caption clock 15348.9-15357.4; the chair starts 'for what purpose does the gentleman', is interrupted by floor noise, calls 'the House will be in order' and restarts the sentence; procedural moment only, no policy content in clip; presiding officer on screen: Rep. Tony Wied (R-WI), Speaker pro tempore; clip opens on ~1 s of the official recess slate before the chair cuts in",
+ "caption_fixes": [
+  {
+   "from": [
+    "or",
+    "the",
+    "house",
+    "will",
+    "be",
+    "in",
+    "order?"
+   ],
+   "to": [
+    "what\u2014",
+    "the",
+    "House",
+    "will",
+    "be",
+    "in",
+    "order."
+   ]
+  }
+ ]
+}

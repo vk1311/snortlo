@@ -1,0 +1,513 @@
+{
+ "channel": "Snortlo",
+ "part": "Part 3",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "beats": [
+  {
+   "text": "Last time: I faked being a substitute teacher, aced the principal's observation, and then the real sub walked in. My mom.",
+   "set": "classroom",
+   "sfx": "whoosh",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "She looks at me. She looks at the blazer. She looks at the attendance sheet in my hand.",
+   "set": "classroom",
+   "sfx": "heartbeat",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "Turns out she told me at breakfast she had a sub job at my school. I wasn't listening. I was gelling my hair.",
+   "set": "bedroom",
+   "sfx": "rimshot",
+   "state": {
+    "clock": "7:00"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 740,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "speaker": "co2"
+  },
+  {
+   "text": "Principal Dunn looks between us and goes, oh, you two know each other?",
+   "set": "classroom",
+   "sfx": "huh",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 560,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 860,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 240,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "speaker": "boss"
+  },
+  {
+   "text": "And my mom, without blinking, says, he's my teaching assistant.",
+   "set": "classroom",
+   "sfx": "vineboom",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "speaker": "co2",
+   "bubble": {
+    "text": "MY ASSISTANT.",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Dunn loves it. He says, the kid's a natural. Runs in the family.",
+   "set": "classroom",
+   "sfx": "laughtrack",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ],
+   "speaker": "boss",
+   "cam": {
+    "zoom": 1.6,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "He leaves. The door clicks shut. My mom turns around slowly, like a horror movie.",
+   "set": "classroom",
+   "sfx": "dundun",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 700,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "angry",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.1,
+    "on": "co2"
+   },
+   "slow": true
+  },
+  {
+   "text": "I'm ready to be grounded until I'm thirty.",
+   "set": "classroom",
+   "sfx": "gulp",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Instead she says, you explained quadratics? You? The boy who failed the last test?",
+   "set": "classroom",
+   "sfx": "waitwhat",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 700,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "speaker": "co2"
+  },
+  {
+   "text": "I say yes. She says, show me.",
+   "set": "classroom",
+   "sfx": "pop",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 700,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "speaker": "co2"
+  },
+  {
+   "text": "So I teach my own mom the quadratic formula. In a blazer. During third period.",
+   "set": "classroom",
+   "sfx": "sparkle",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     540,
+     640
+    ]
+   }
+  },
+  {
+   "text": "She gets it. She hugs me. In front of the whole class.",
+   "set": "classroom",
+   "sfx": "aww",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "red": 0.8
+     }
+    },
+    {
+     "who": "co2",
+     "x": 640,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "at": [
+     560,
+     820
+    ]
+   }
+  },
+  {
+   "text": "Then she says, great. You're grounded for skipping two periods of your own classes.",
+   "set": "classroom",
+   "sfx": "sadtrombone",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 700,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "speaker": "co2",
+   "bubble": {
+    "text": "GROUNDED.",
+    "x": 700,
+    "y": 520,
+    "tail": 30
+   }
+  },
+  {
+   "text": "Which. Fair.",
+   "set": "classroom",
+   "sfx": "crickets",
+   "state": {
+    "board": "X = -B +/- ROOT|ALL OVER 2A",
+    "clock": "10:05"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.1,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Oh, and my picture day photo? Me in my dad's blazer, holding chalk. The yearbook put it in the teachers section.",
+   "set": "closeup",
+   "sfx": "metalpipe",
+   "state": {
+    "show": "text",
+    "big": "TEACHERS|SECTION",
+    "bg1": "#E6F0FF",
+    "bg2": "#9DB8E8"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "And now Principal Dunn wants me back as a tutor. Paid in cafeteria pizza. That's the next story. Follow so you don't miss it.",
+   "set": "classroom",
+   "sfx": "sting",
+   "state": {
+    "board": "TUTOR WANTED|PAY: PIZZA",
+    "clock": "3:15"
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  }
+ ]
+}

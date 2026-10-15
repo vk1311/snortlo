@@ -1,0 +1,157 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "Let's just split it evenly. It's easier.",
+   "voice": "af_bella",
+   "top_text": "When your bestie says|\"let's just split it evenly\":",
+   "set": "office",
+   "state": {
+    "whiteboard": "TODAY'S|SPECIALS",
+    "cooler": false,
+    "table": true
+   },
+   "speaker": "co1",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 620,
+     "facing": -1,
+     "pose": "talk",
+     "act": "talk",
+     "hold": "cup",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.25,
+    "at": [
+     470,
+     820
+    ]
+   }
+  },
+  {
+   "text": "I had a side salad.",
+   "top_text": "Me, who had a side salad|and tap water:",
+   "set": "office",
+   "state": {
+    "whiteboard": "TODAY'S|SPECIALS",
+    "cooler": false,
+    "table": true
+   },
+   "speaker": "me",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Her order:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "3 COCKTAILS|+ THE LOBSTER",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "sfx": "cashregister"
+  },
+  {
+   "text": "That'll be two hundred and twelve dollars. Each.",
+   "voice": "am_michael",
+   "top_text": "The waiter:",
+   "set": "office",
+   "state": {
+    "whiteboard": "TODAY'S|SPECIALS",
+    "cooler": false,
+    "table": true
+   },
+   "speaker": "boss",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "hold",
+     "hold": "paper",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me:",
+   "set": "office",
+   "state": {
+    "whiteboard": "TODAY'S|SPECIALS",
+    "cooler": false,
+    "table": true
+   },
+   "sfx": "fahh",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.9,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "me"
+   }
+  }
+ ]
+}

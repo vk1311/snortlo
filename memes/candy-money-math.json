@@ -1,0 +1,144 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "beats": [
+  {
+   "text": "Your mom gives you twenty dollars for lunch. You spend all of it on candy.",
+   "voice": "am_michael",
+   "top_text": "Teacher: \"Mom gives you $20|for lunch. You buy candy.\"",
+   "set": "classroom",
+   "state": {
+    "board": "$20 - CANDY|= ?",
+    "clock": "10:15"
+   },
+   "speaker": "boss",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "act": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     620,
+     760
+    ]
+   }
+  },
+  {
+   "text": "What do you have left?",
+   "voice": "am_michael",
+   "top_text": "Teacher: \"What do you have left?\"",
+   "set": "classroom",
+   "state": {
+    "board": "$20 - CANDY|= ?",
+    "clock": "10:15"
+   },
+   "speaker": "boss",
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 220,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 460,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 820,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Zero dollars. And no phone till Christmas.",
+   "top_text": "The kid whose mom|checks the receipts:",
+   "set": "classroom",
+   "state": {
+    "board": "$20 - CANDY|= ?",
+    "clock": "10:15"
+   },
+   "speaker": "me",
+   "sfx": "metalpipe",
+   "meme": "shake",
+   "pause": 1.0,
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Teacher:",
+   "set": "classroom",
+   "state": {
+    "board": "CORRECT",
+    "clock": "10:16"
+   },
+   "sfx": "applause",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  }
+ ]
+}
