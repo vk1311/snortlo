@@ -1,0 +1,214 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #2",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR WIFE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Babe, I'm ordering. Want anything?",
+   "top_text": "When you ask your wife|if she wants anything:",
+   "set": "living",
+   "state": {
+    "tv": "FOOD|DELIVERY"
+   },
+   "speaker": "me",
+   "sfx": "textbuzz",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.15,
+    "at": [
+     530,
+     860
+    ]
+   },
+   "pause": 0.9
+  },
+  {
+   "text": "No, I'm not hungry.",
+   "voice": "af_bella",
+   "top_text": "Her:",
+   "set": "living",
+   "state": {
+    "tv": "FOOD|DELIVERY"
+   },
+   "speaker": "co1",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "relax",
+     "act": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co1"
+   },
+   "pause": 0.6
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "The food arrives:",
+   "set": "kitchen",
+   "sfx": "doorslam",
+   "props": [
+    {
+     "type": "sandwich",
+     "x": 760,
+     "y": 880
+    },
+    {
+     "type": "cup",
+     "x": 860,
+     "y": 880
+    }
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "celebrate",
+     "act": "bounce",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     600,
+     860
+    ]
+   }
+  },
+  {
+   "text": "Can I just have one bite?",
+   "voice": "af_bella",
+   "top_text": "My wife, who was|\"not hungry\":",
+   "set": "kitchen",
+   "speaker": "co1",
+   "sfx": "rizz",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 820,
+     "to": 620,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "eat",
+     "hold": "sandwich",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.35,
+    "at": [
+     460,
+     860
+    ]
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "",
+   "hold": 1.6,
+   "top_text": "Her, one bite later:",
+   "set": "kitchen",
+   "sfx": "crunch",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": -1,
+     "pose": "eat",
+     "act": "bounce",
+     "hold": "sandwich",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Me, 4 minutes later,|still starving:",
+   "set": "kitchen",
+   "sfx": "metalpipe",
+   "cast": [
+    {
+     "who": "me",
+     "x": 440,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "me"
+   }
+  }
+ ]
+}

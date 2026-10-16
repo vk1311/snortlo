@@ -1,0 +1,648 @@
+{
+ "channel": "Snortlo",
+ "voice": "af_bella",
+ "speed": 1.25,
+ "music": true,
+ "min_seconds": 61,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR WIFE",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "text": "POV: your dog is on a diet.",
+   "set": "living",
+   "state": {
+    "tv": "MEATBALL'S|DIET PLAN"
+   },
+   "sfx": "vineboom",
+   "props": [
+    {
+     "type": "dog",
+     "x": 560,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.4,
+     "eyes": "sad",
+     "dir": 1
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "at": [
+     600,
+     1000
+    ]
+   }
+  },
+  {
+   "text": "And somehow, he keeps getting fatter.",
+   "set": "closeup",
+   "sfx": "bruh",
+   "meme": "shake",
+   "state": {
+    "show": "text",
+    "big": "DIET DAY 30|+4 POUNDS",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "Meatball is a beagle with the self-control of a vacuum cleaner.",
+   "set": "living",
+   "state": {
+    "tv": "MEATBALL'S|DIET PLAN"
+   },
+   "sfx": "rimshot",
+   "props": [
+    {
+     "type": "dog",
+     "x": 620,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.4,
+     "eyes": "happy",
+     "dir": 1,
+     "tongue": true,
+     "bounce": true
+    }
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "The vet said he has to lose five pounds. So my wife made a strict plan. Zero treats.",
+   "set": "living",
+   "state": {
+    "tv": "MEATBALL'S|DIET PLAN"
+   },
+   "sfx": "pop",
+   "speaker": "co1",
+   "bubble": {
+    "text": "ZERO TREATS!",
+    "x": 300,
+    "y": 520,
+    "tail": 30
+   },
+   "props": [
+    {
+     "type": "dog",
+     "x": 760,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.4,
+     "eyes": "sad",
+     "dir": -1
+    }
+   ],
+   "cast": [
+    {
+     "who": "co1",
+     "x": 280,
+     "facing": 1,
+     "pose": "point",
+     "act": "talk",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Week one, he gains a pound. Week two, he gains two more.",
+   "set": "living",
+   "state": {
+    "tv": "MEATBALL'S|DIET PLAN"
+   },
+   "sfx": "ding",
+   "cards": [
+    "WEEK 1: +1",
+    "WEEK 2: +2"
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 560,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.55,
+     "eyes": "dot",
+     "dir": 1
+    }
+   ]
+  },
+  {
+   "text": "And my wife turns around and stares directly at me.",
+   "set": "living",
+   "state": {
+    "tv": "MEATBALL'S|DIET PLAN"
+   },
+   "sfx": "dundun",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "fx": {
+      "red": 0.5
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "Because, apparently, I am a known bacon criminal.",
+   "set": "living",
+   "state": {
+    "tv": "MEATBALL'S|DIET PLAN"
+   },
+   "sfx": "clownhorn",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "shrug",
+     "hold": "bacon",
+     "face": {
+      "eyes": "flat",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  },
+  {
+   "text": "So I set up a pet camera to prove I'm innocent.",
+   "set": "living",
+   "state": {
+    "tv": "CAM 1|REC"
+   },
+   "sfx": "shutter",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 740,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.5,
+     "eyes": "wide",
+     "dir": -1
+    }
+   ]
+  },
+  {
+   "text": "Nine AM. The mailman slips him a biscuit.",
+   "set": "street",
+   "sfx": "ding",
+   "props": [
+    {
+     "type": "dog",
+     "x": 700,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.5,
+     "eyes": "sad",
+     "dir": -1
+    }
+   ],
+   "cast": [
+    {
+     "who": "co2",
+     "x": 320,
+     "facing": 1,
+     "pose": "reach",
+     "hold": "sandwich",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Noon. The neighbor tosses him half a hot dog over the fence.",
+   "set": "street",
+   "sfx": "boing",
+   "props": [
+    {
+     "type": "dog",
+     "x": 360,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.55,
+     "eyes": "happy",
+     "dir": 1,
+     "tongue": true,
+     "bounce": true
+    }
+   ],
+   "cast": [
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Three PM. He squeezes through the doggy door next door, and that family calls him Rocky.",
+   "set": "street",
+   "sfx": "squeak",
+   "props": [
+    {
+     "type": "dog",
+     "x": 560,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.6,
+     "eyes": "happy",
+     "dir": 1,
+     "bounce": true
+    }
+   ],
+   "bubble": {
+    "text": "ROCKY'S HOME!",
+    "x": 700,
+    "y": 560,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 880,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "My dog has a secret second family.",
+   "set": "closeup",
+   "sfx": "busted",
+   "meme": "shake",
+   "state": {
+    "show": "text",
+    "big": "HE HAS A|2ND FAMILY",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  },
+  {
+   "text": "So I show my wife the footage. Case closed. I'm a free man.",
+   "set": "living",
+   "state": {
+    "tv": "CAM 1|EVIDENCE"
+   },
+   "sfx": "success",
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "celebrate",
+     "act": "bounce",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "We block the doggy door. We talk to the mailman. Meatball is officially on lockdown.",
+   "set": "living",
+   "state": {
+    "tv": "MEATBALL'S|DIET PLAN"
+   },
+   "sfx": "doorslam",
+   "props": [
+    {
+     "type": "dog",
+     "x": 560,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.5,
+     "eyes": "sad",
+     "dir": 1
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     600,
+     1000
+    ]
+   }
+  },
+  {
+   "text": "Week four. He gains another pound.",
+   "set": "closeup",
+   "sfx": "metalpipe",
+   "state": {
+    "show": "text",
+    "big": "WEEK 4|+1 POUND",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   }
+  },
+  {
+   "text": "So I check the camera one more time. Two AM.",
+   "set": "living",
+   "state": {
+    "dark": true,
+    "tv": "CAM 1|2:00 AM"
+   },
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Someone tiptoes into the kitchen. Opens the fridge. Grabs the bacon.",
+   "set": "night",
+   "sfx": "hmm",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "bacon",
+     "cup"
+    ],
+    "clock": "2:00"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 820,
+     "to": 640,
+     "facing": -1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "It's my wife.",
+   "set": "night",
+   "sfx": "reveal",
+   "meme": "shake",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "cup"
+    ],
+    "clock": "2:01"
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "hold",
+     "hold": "bacon",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "Feeding him bacon, whispering, don't tell Dad.",
+   "set": "night",
+   "sfx": "fahh",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "cup"
+    ],
+    "clock": "2:02"
+   },
+   "bubble": {
+    "text": "DON'T TELL DAD",
+    "x": 420,
+    "y": 560,
+    "tail": 30
+   },
+   "speaker": "co1",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 420,
+     "facing": 1,
+     "pose": "reach",
+     "hold": "bacon",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 760,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.6,
+     "eyes": "happy",
+     "dir": -1,
+     "tongue": true,
+     "bounce": true
+    }
+   ]
+  },
+  {
+   "text": "When I confronted her, she said, he looked sad.",
+   "set": "living",
+   "state": {
+    "tv": "MEATBALL'S|DIET PLAN"
+   },
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "text": "And then Meatball looked at me. With the eyes.",
+   "set": "living",
+   "state": {
+    "tv": "MEATBALL'S|DIET PLAN"
+   },
+   "sfx": "aww",
+   "props": [
+    {
+     "type": "dog",
+     "x": 560,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.6,
+     "eyes": "sad",
+     "dir": 1
+    }
+   ],
+   "cam": {
+    "zoom": 2.2,
+    "at": [
+     700,
+     1000
+    ]
+   },
+   "slow": true
+  },
+  {
+   "text": "Anyway. We're both on the bacon plan now.",
+   "set": "living",
+   "state": {
+    "tv": "MEATBALL'S|DIET PLAN"
+   },
+   "sfx": "oof",
+   "pause": 0.6,
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "hold",
+     "hold": "bacon",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 880,
+     "facing": -1,
+     "pose": "laugh",
+     "act": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 560,
+     "y": 1180,
+     "s": 1.25,
+     "fat": 1.6,
+     "eyes": "happy",
+     "dir": 1,
+     "tongue": true,
+     "bounce": true
+    }
+   ]
+  }
+ ]
+}

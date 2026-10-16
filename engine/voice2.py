@@ -64,7 +64,14 @@ words = [w for s in segs for w in s.words]
 for b in beats:
     ws = [w for w in words if b["start"] - 0.05 <= (w.start + w.end) / 2 <= b["end"] + 0.05]
     if not story["beats"][b["i"]].get("text", "").strip(): b["words"] = []; continue
-    b["words"] = [{"w": w.word.strip(), "s": w.start, "e": w.end} for w in ws] or \
-                 [{"w": x, "s": b["start"], "e": b["end"]} for x in story["beats"][b["i"]]["text"].split()]
+    script = story["beats"][b["i"]]["text"].split()
+    if len(ws) == len(script):  # Oct 16: show the script's words with Whisper's timings, so a mishearing never reaches the captions
+        b["words"] = [{"w": x, "s": w.start, "e": w.end} for x, w in zip(script, ws)]
+    else:  # counts differ: spread the script words over the spoken span, weighted by length
+        s0, e0 = (ws[0].start, ws[-1].end) if ws else (b["start"], b["end"])
+        tot = sum(len(x) + 2 for x in script); acc = 0.0; b["words"] = []
+        for x in script:
+            ws_ = s0 + (e0 - s0) * acc / tot; acc += len(x) + 2
+            b["words"].append({"w": x, "s": ws_, "e": s0 + (e0 - s0) * acc / tot})
 json.dump({"duration": len(wav) / SR, "beats": beats}, open("timing.json", "w"), indent=1)
 print(f"voice: {len(wav)/SR:.1f}s, {len(words)} words timed")

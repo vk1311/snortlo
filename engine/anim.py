@@ -256,6 +256,42 @@ def draw_prop(c, pr, x, y, t, held=False, facing=1):
             c.set_source_rgb(*INKC); c.set_line_width(4); c.stroke()
         c.set_source_rgba(.85, .85, .85, .8); rrect(c, -40, -96, 80, 30, 3); c.fill()
         c.restore()
+    elif ty == "dog":  # chubby cartoon dog; feet at y. keys: dir (1 = faces right), fat (1.0-1.6), eyes (dot/sad/happy/wide), s (scale)
+        d = pr.get("dir", facing); fat = pr.get("fat", 1.0); s = pr.get("s", 1.0); ey = pr.get("eyes", "dot")
+        bob = 4 * math.sin(t * 6) if pr.get("bounce") else 0
+        c.save(); c.translate(x, y - bob); c.scale(s * d, s)
+        fur, ink = "#C98B4F", INKC
+        wag = math.sin(t * 14) * 0.5
+        c.save(); c.translate(-95 * fat, -120); c.rotate(-0.9 + wag)  # tail
+        line(c, (0, 0), (0, -60), 14, ink); line(c, (0, 0), (0, -60), 8, hexc(fur)); c.restore()
+        for lx in (-60 * fat, -25 * fat, 35 * fat, 65 * fat):  # legs
+            line(c, (lx, -80), (lx, 0), 18, ink); line(c, (lx, -80), (lx, -4), 11, hexc(fur))
+        c.new_path(); c.save(); c.translate(0, -110); c.scale(1.05 * fat, 0.55 + 0.15 * (fat - 1)); c.arc(0, 0, 100, 0, 2 * math.pi); c.restore()
+        fill_stroke(c, fur, ink, 6)
+        hx, hy = 105 * fat, -185  # head
+        c.new_path(); c.arc(hx, hy, 58, 0, 2 * math.pi); fill_stroke(c, fur, ink, 6)
+        c.new_path(); c.save(); c.translate(hx + 50, hy + 18); c.scale(1.0, 0.7); c.arc(0, 0, 30, 0, 2 * math.pi); c.restore(); fill_stroke(c, "#E8C08F", ink, 5)
+        c.new_path(); c.arc(hx + 72, hy + 8, 9, 0, 2 * math.pi); c.set_source_rgb(*ink); c.fill()  # nose
+        c.new_path(); c.save(); c.translate(hx - 30, hy - 10); c.rotate(0.35); c.scale(0.55, 1.0); c.arc(0, 30, 42, 0, 2 * math.pi); c.restore()
+        fill_stroke(c, "#8A5A30", ink, 5)  # ear
+        for ex in (hx + 8, hx + 34):
+            if ey == "happy":
+                c.new_path(); c.arc(ex, hy - 6, 9, math.pi, 2 * math.pi); c.set_source_rgb(*ink); c.set_line_width(5); c.stroke()
+            else:
+                r = 13 if ey in ("sad", "wide") else 8
+                c.new_path(); c.arc(ex, hy - 8, r, 0, 2 * math.pi); c.set_source_rgb(*ink); c.fill()
+                if ey == "sad":  # puppy-dog eyes: big shiny pupils + worried brows
+                    c.new_path(); c.arc(ex - 4, hy - 13, 4.5, 0, 2 * math.pi); c.set_source_rgb(1, 1, 1); c.fill()
+                    line(c, (ex - 12, hy - 34), (ex + 10, hy - 28 + (ex - hx - 21) * 0.3), 5, ink)
+        if pr.get("collar", True): line(c, (hx - 40, hy + 40), (hx + 10, hy + 52), 12, hexc("#E0453A"))
+        if pr.get("tongue"):
+            c.new_path(); c.save(); c.translate(hx + 50, hy + 42); c.scale(0.6, 1.0); c.arc(0, 0, 14, 0, 2 * math.pi); c.restore(); fill_stroke(c, "#FF7A8A", ink, 4)
+        c.restore()
+    elif ty == "bacon":
+        c.save(); c.translate(x + facing * 16, y - 10); c.new_path(); c.move_to(-36, 0)
+        for j in range(9): c.line_to(-36 + j * 9, 7 * math.sin(j * 1.6 + t * 3))
+        c.set_line_width(16); c.set_source_rgb(*INKC); c.stroke_preserve(); c.set_line_width(10); c.set_source_rgb(*hexc("#C8452E")); c.stroke()
+        c.restore()
     elif ty == "bubble":
         s = pr["text"]; c.select_font_face(FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); c.set_font_size(44)
         lines_ = wrapc(c, s, 520); bw = max(c.text_extents(l)[2] for l in lines_) + 70; bh = len(lines_) * 58 + 44
