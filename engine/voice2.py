@@ -43,7 +43,10 @@ sf.write("bruh.wav", say("Bruhh.", 0.8, "am_fenrir"), SR)
 # (text, voice, speed, stretch, pitch, phonemes?)  stretch < 1 = longer, pitch > 1 = higher
 SHOUTS = {"fahh": ("Fah!", "am_onyx", 0.7, 0.62, 1.08, False), "huh": ("Huh?", "am_adam", 1.0, 1.0, 1.0, False),
           "oof": ("ˈuːf", "am_fenrir", 0.8, 0.9, 0.95, True), "nooo": ("No!", "am_michael", 0.8, 0.45, 1.0, False),
-          "waitwhat": ("Wait, what?", "am_puck", 1.0, 1.0, 1.0, False)}
+          "waitwhat": ("Wait, what?", "am_puck", 1.0, 1.0, 1.0, False),
+          # Oct 2026: generic reaction words that are everywhere in Shorts/Reels comedy right now
+          "ayo": ("Ayo?", "am_fenrir", 0.9, 0.85, 1.0, False), "ohno": ("Oh no.", "am_michael", 0.85, 0.75, 1.0, False),
+          "wow": ("Wooow!", "af_bella", 0.85, 0.6, 1.22, False), "hmm": ("Hmmm?", "am_adam", 0.8, 0.6, 0.95, False)}
 import subprocess
 for name, (txt, vo, sp, stretch, pitch, isph) in SHOUTS.items():
     s, _ = k.create(txt, voice=vo, speed=sp, lang="en-us", is_phonemes=isph)

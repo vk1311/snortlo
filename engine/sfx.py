@@ -159,6 +159,86 @@ BANK.update({"vineboom": vineboom, "scratch": scratch, "sadtrombone": sadtrombon
              "rimshot": rimshot, "slideup": slidewhistle, "slidedown": lambda: slidewhistle(False),
              "airhorn": airhorn, "riser": riser, "heartbeat": heartbeat, "crickets": crickets, "bruh": bruh})
 
+# ---------- Oct 2026 additions: generic versions of sound TYPES trending on Shorts/Reels, all made from scratch ----------
+def _pad(x, n):
+    return np.concatenate([x, np.zeros(max(0, n - len(x)))])[:n]
+
+def bonecrack():
+    """Sharp crunchy snap (the 'bone crack' reaction): a few woody clicks plus a body thud."""
+    out = np.zeros(int(SR * 0.45))
+    for st, g, lo, hi in [(0.0, 1.0, 1500, 6000), (0.018, .7, 900, 4000), (0.04, .5, 2000, 8000), (0.075, .35, 700, 3000)]:
+        tt = t_(0.06); c = bp(rng.standard_normal(len(tt)), lo, hi) * env(len(tt), .0002, .006)
+        i = int(st * SR); out[i:i + len(c)] += c * g * 6
+    tt = t_(0.25); out[:len(tt)] += np.sin(2 * np.pi * np.cumsum(140 * np.exp(-tt * 20) + 60) / SR) * env(len(tt), .001, .04) * .5
+    return np.tanh(out * 3) * 0.75
+
+def clownhorn():
+    """Bulb-horn 'honk honk' for when someone is the clown of the story."""
+    out = []
+    for f, d in [(392, .18), (330, .32)]:
+        t = t_(d); s = sawtooth(2 * np.pi * np.cumsum(f * (1 + .012 * np.sin(2 * np.pi * 30 * t))) / SR, 0.3)
+        s = bp(s, 500, 2600) + 0.3 * bp(s, 2600, 5000)
+        out += [s * np.minimum(1, t / .01) * np.minimum(1, (d - t) / .03), np.zeros(int(SR * .07))]
+    return np.tanh(np.concatenate(out) * 2.5) * 0.45
+
+def cowbell(f=540, d=0.22):
+    t = t_(d); s = np.sign(np.sin(2 * np.pi * f * t)) + np.sign(np.sin(2 * np.pi * f * 1.48 * t))
+    return bp(s, 600, 4000) * env(len(t), .001, .07)
+
+def phonk():
+    """Short drift-phonk sting: an original 6-hit cowbell figure over a distorted 808. For 'X years later' and flex moments."""
+    out = np.zeros(int(SR * 1.9))
+    for st, f in [(0, 587), (.15, 587), (.3, 784), (.45, 698), (.6, 587), (.9, 523)]:
+        c = cowbell(f); i = int(st * SR); out[i:i + len(c)] += c * .35
+    tt = t_(1.4); boom = np.tanh(4 * np.sin(2 * np.pi * np.cumsum(55 * np.exp(-tt * .8) + 33) / SR)) * env(len(tt), .004, .7)
+    out[:len(tt)] += boom * .55
+    out = lp(out, 9000)
+    return out / (np.max(np.abs(out)) + 1e-9) * 0.85
+
+def aura():
+    """'+1000 aura' moment: a glassy shimmer that swells into a soft boom."""
+    t = t_(0.8); k = (t / t[-1]) ** 2
+    sh = sum(np.sin(2 * np.pi * f * (1 + .25 * k) * t) for f in (1760, 2217, 2637, 3520)) * (1 + .5 * np.sin(2 * np.pi * 14 * t))
+    boom = vineboom(); tail = boom * .7 + _pad(ding(), len(boom)) * .3
+    return np.concatenate([sh * k * 0.06, tail])
+
+def rizz():
+    """Cartoon eyebrow-raise 'bwee-oo' glide, for smooth-talker or suspicious moments."""
+    t = t_(0.55); f = 500 + 700 * np.sin(np.pi * t / t[-1]) + 35 * np.sin(2 * np.pi * 11 * t)
+    return np.sin(2 * np.pi * np.cumsum(f) / SR) * np.sin(np.pi * t / t[-1]) ** .5 * 0.32
+
+def reveal():
+    """Dramatic 'it was YOU' reveal: a swell into a dark minor stab."""
+    t = t_(1.6); stab = sum(sawtooth(2 * np.pi * f * (1 + d) * t) for f in (110, 130.8, 164.8) for d in (-.004, .004))
+    stab = lp(stab, 1400) * env(len(t), .005, .6) * 0.12 + np.sin(2 * np.pi * 55 * t) * env(len(t), .005, .8) * 0.4
+    return np.concatenate([riser(0.7) * 0.8, reverb(stab, 1.0, 0.35)])
+
+def payding():
+    """Generic tap-to-pay success chime (two clean notes), for money jokes."""
+    out = np.zeros(int(SR * 0.8))
+    for st, f in [(0, 1318.5), (0.11, 1975.5)]:
+        tt = t_(0.6); s = (np.sin(2 * np.pi * f * tt) + .3 * np.sin(4 * np.pi * f * tt)) * env(len(tt), .002, .18)
+        i = int(st * SR); out[i:i + len(s)] += s * .3
+    return out
+
+def textbuzz():
+    """Phone vibrating on a table twice, then a soft ping. For 'she texted' / 'mom texted' beats."""
+    out = []
+    for _ in range(2):
+        t = t_(0.32); gate = np.sin(2 * np.pi * 37 * t) > 0
+        s = np.sin(2 * np.pi * 165 * t) * (0.6 + 0.4 * gate) + bp(rng.standard_normal(len(t)), 1500, 4000) * 0.15 * gate
+        out += [s * np.minimum(1, t / .01) * np.minimum(1, (.32 - t) / .02) * .35, np.zeros(int(SR * .15))]
+    return np.concatenate(out + [payding()[:int(SR * .35)] * .6])
+
+def toot():
+    """Cartoon fart: a short buzzy wobble. Kept out of random picks; use by name, rarely."""
+    t = t_(0.6); f = 85 + 30 * np.sin(2 * np.pi * 7 * t) - 30 * t
+    s = sawtooth(2 * np.pi * np.cumsum(f) / SR, 0.2) * (0.7 + 0.3 * np.sin(2 * np.pi * 23 * t))
+    return lp(np.tanh(s * 2), 900) * np.sin(np.pi * t / t[-1]) ** .4 * 0.6
+
+BANK.update({"bonecrack": bonecrack, "clownhorn": clownhorn, "phonk": phonk, "aura": aura, "rizz": rizz,
+             "reveal": reveal, "payding": payding, "textbuzz": textbuzz, "toot": toot})
+
 # ---------- recorded sounds (public domain / CC0, see sounds/CREDITS.md) + our voiced shouts ----------
 import os, glob
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -174,22 +254,46 @@ def _load(path):
 for _p in sorted(glob.glob(os.path.join(HERE, "sounds", "*.wav"))):
     BANK[os.path.splitext(os.path.basename(_p))[0]] = _load(_p)
 
-SHOUTS = ["fahh", "huh", "oof", "nooo", "waitwhat"]  # written by voice2.py into the working dir as shout_<name>.wav
+SHOUTS = ["fahh", "huh", "oof", "nooo", "waitwhat", "ayo", "ohno", "wow", "hmm"]  # written by voice2.py as shout_<name>.wav
 for _s in SHOUTS:
     BANK[_s] = (lambda s: (lambda: _load(f"shout_{s}.wav")() if os.path.exists(f"shout_{s}.wav") else vineboom()))(_s)
+
+# ---------- layered combos: two or three sounds stacked, the way big meme pages build a punch ----------
+def stack(*parts):
+    """parts = (name, offset_seconds, gain). Mixed lazily so recorded files and shouts are found."""
+    def f():
+        clips = [(BANK[n](), off, g) for n, off, g in parts]
+        out = np.zeros(max(int(off * SR) + len(c) for c, off, _ in clips))
+        for c, off, g in clips:
+            i = int(off * SR); out[i:i + len(c)] += c * g
+        return out / max(1.0, np.max(np.abs(out)) / 0.95)
+    return f
+
+COMBOS = {
+    "roast": stack(("vineboom", 0, .9), ("ooh", .22, .8)),             # savage comeback: boom, then crowd 'ooooh'
+    "caught": stack(("recordscratch", 0, .9), ("crickets", .45, 1.0)),  # caught red-handed, awkward silence
+    "ko": stack(("slap", 0, .9), ("bonecrack", .06, .8), ("ooh", .3, .6)),  # verbal knockout
+    "busted": stack(("reveal", 0, .8), ("gasp", .7, .8)),               # the twist lands
+    "brokeboi": stack(("payding", 0, .7), ("sadtrombone", .35, .8)),    # payment goes through... balance doesn't
+    "smooth": stack(("rizz", 0, .9), ("sparkle", .25, .6)),             # smooth-talker line
+    "clowned": stack(("clownhorn", 0, .9), ("laughtrack", .3, .5)),     # someone just got clowned
+}
+BANK.update(COMBOS)
 
 # Punchline sounds land just after the line, with a pause and a camera punch. Everything else is an accent at the line start.
 PUNCH = {"vineboom", "bruh", "rimshot", "sadtrombone", "airhorn", "crickets", "dundun", "fahh", "huh", "oof", "nooo",
          "waitwhat", "metalpipe", "bonk", "sadviolin", "recordscratch", "laughtrack", "ooh", "aww", "gasp", "gong",
          "applause", "crowdcheer", "boo", "buzzer", "success", "fanfare", "sting", "goat", "evillaugh", "yay",
-         "angelchoir", "thunder", "glass", "carcrash", "slap", "cashregister"}
+         "angelchoir", "thunder", "glass", "carcrash", "slap", "cashregister",
+         "bonecrack", "clownhorn", "phonk", "aura", "reveal", "toot", "ayo", "ohno", "wow", "hmm", *COMBOS}
+NO_RANDOM = {"toot"}  # only when a script asks for it by name
 
 def get(name, rng=None):
     """Sound by name, with a little random pitch/speed so repeats never sound identical.
     name may be 'random:punch' or 'random:accent' to let the engine pick."""
     rng = rng or np.random.default_rng()
     if name.startswith("random:"):
-        pool = sorted(PUNCH) if name.endswith("punch") else sorted(set(BANK) - PUNCH)
+        pool = sorted(PUNCH - NO_RANDOM) if name.endswith("punch") else sorted(set(BANK) - PUNCH - NO_RANDOM)
         name = pool[rng.integers(len(pool))]
     s = BANK[name]()
     k = rng.uniform(0.94, 1.06)  # +-6% pitch/speed

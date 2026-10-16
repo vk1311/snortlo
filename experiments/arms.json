@@ -14,7 +14,7 @@
  },
  "meme": {
   "format": ["nobody_me", "pov", "expectation_reality", "me_vs_mom", "when_you", "teacher_class", "x_years_later", "starter_pack"],
-  "punch_sound": ["fahh", "metalpipe", "vineboom", "bruh", "random:punch"],
+  "punch_sound": ["fahh", "metalpipe", "vineboom", "bruh", "random:punch", "bonecrack", "phonk", "roast"],
   "length": ["short_6_9s", "long_12_16s"],
   "voiced": [true, false],
   "deepfry": [true, false],

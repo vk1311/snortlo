@@ -44,10 +44,30 @@ Stage layout: ground is y=1180. Kitchen fridge at x 350-580, stove/counter x 680
 ## New sets
 `bedroom` (state: `dark`, `phone` = blue phone glow, `clock`), `classroom` (`board` = "LINE1|LINE2", `clock`), `street` (`night`), `living` (`tv` = "TEXT|TEXT", `dark`). `closeup` also takes `show: "text"` with `big` ("YOU|TOO?!") and `color`.
 
-## Sounds (63, see engine/sounds/CREDITS.md)
+## Sounds (83, see engine/sounds/CREDITS.md)
 Any name below works in `sfx`. Use `random:punch` / `random:accent` to let the engine pick. Every use gets a slight random pitch/volume change so repeats never sound identical.
 - **Punchline** (lands after the line, or as a silent shot appears): vineboom, bruh, fahh, huh, oof, nooo, waitwhat, rimshot, sadtrombone, airhorn, crickets, dundun, metalpipe, bonk, sadviolin, recordscratch, laughtrack, ooh, aww, gasp, gong, applause, crowdcheer, boo, buzzer, success, fanfare, sting, goat, evillaugh, yay, angelchoir, thunder, glass, carcrash, slap, cashregister
-- **Accent** (on the line): pop, ding, tick, whoosh, boing, scratch, slideup, slidedown, riser, heartbeat, shutter, cork, splash, tirescreech, doorslam, drumroll, meow, bark, chicken, crunch, gulp, whistle, squeak, alarm, sparkle, typebell
+- **Accent** (on the line): pop, ding, tick, whoosh, boing, scratch, slideup, slidedown, riser, heartbeat, shutter, cork, splash, tirescreech, doorslam, drumroll, meow, bark, chicken, crunch, gulp, whistle, squeak, alarm, sparkle, typebell, rizz (eyebrow-raise glide), payding (tap-to-pay chime), textbuzz (phone buzzes twice + ping)
+- **New punchlines (Oct 2026, trending sound types, made from scratch):**
+  - bonecrack: crunchy snap for a brutal comeback or physical fail
+  - clownhorn: honk-honk when someone just played themselves
+  - phonk: cowbell + 808 sting for "X years later", glow-ups and flexes
+  - aura: shimmer into boom for a cool move ("+1000 aura")
+  - reveal: dark dramatic stab for the twist or "it was YOU"
+  - toot: cartoon fart, by name only and at most once a week
+  - shouts: ayo (edgy line), ohno (dread), wow (impressed), hmm (suspicious)
+- **Combos (layered punches, the strongest option for the final beat):**
+  - roast: vineboom + crowd "ooh" for a savage reply
+  - caught: record scratch + crickets when someone is caught
+  - ko: slap + crack + "ooh" for a verbal knockout
+  - busted: reveal + gasp when the twist lands
+  - brokeboi: pay chime + sad trombone for money jokes
+  - smooth: rizz + sparkle for the smooth line
+  - clowned: clown horn + laugh track when someone gets clowned
+- **How to use them (from the Oct 15 analytics):**
+  - Put a sound in the first 1.5 s of every video; the swipe decision happens there.
+  - Stories lose most viewers around 25–40 s, so put a combo or reveal on the beat around 30 s.
+  - Use at most one combo per video, on the biggest punch. Mix older Vine-era classics (vineboom, bruh, metalpipe, oof) with the new ones, since our viewers are mostly 25–44.
 - Never add ripped audio from shows, films, songs or other creators. New sounds must be CC0 (Freesound filter "Creative Commons 0"), synthesized, or voiced by our own TTS, and get a line in CREDITS.md.
 
 # Meme format (memes/<slug>.json)

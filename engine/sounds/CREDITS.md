@@ -46,5 +46,5 @@ Every recorded sound here is from Freesound.org under **Creative Commons 0** (pu
 | success.wav | GabrielAraujo | https://freesound.org/people/GabrielAraujo/sounds/242501/ |
 | fanfare.wav | trader_one | https://freesound.org/people/trader_one/sounds/700342/ |
 
-Voiced shouts (fahh, huh, oof, nooo, waitwhat, bruh) are generated at render time by our own Kokoro TTS voices (Apache-2.0): sound-alikes, not the original clips.
-Everything else (vineboom, airhorn, rimshot, sad trombone, dun-dun, etc.) is synthesized from scratch in sfx.py.
+Voiced shouts (fahh, huh, oof, nooo, waitwhat, bruh, ayo, ohno, wow, hmm) are generated at render time by our own Kokoro TTS voices (Apache-2.0): sound-alikes, not the original clips.
+Everything else (vineboom, airhorn, rimshot, sad trombone, dun-dun, bonecrack, clownhorn, phonk, aura, rizz, reveal, payding, textbuzz, toot, etc.) is synthesized from scratch in sfx.py. The phonk sting is an original cowbell figure, not a copy of any song. Combos (roast, caught, ko, busted, brokeboi, smooth, clowned) only layer sounds already listed here.
