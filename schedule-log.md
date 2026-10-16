@@ -86,3 +86,10 @@ YouTube uploads: 5 (parts 1-3, meme A, full cut). The full cut lands 01:00 ADT T
 | 23:00 | Story Part 3/3 | accidental-sub-part3.mp4 | YouTube, Facebook, Instagram | cmv90uo2s003eo280g1gse3kv, cmv90uo54003fo280e2kf6lzv, cmv90uo72003go280e98o5zmf |
 
 YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 2, ? 3. Recent unused session days (Sep 17-Oct 13) were pro forma or had no captions/rights statement; used 2026-08-31 (full session, unused). Clip opens on ~1 s of the official recess slate. Full cut accidental-sub-full.mp4 rendered for Sunday's compilation.
+
+## Fri 2026-10-16 (nightly run, new 1-2 part schedule)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 12:00 | Story "diet-dog" (1 part, POV hook, pets): "pov: my dog is on a diet and somehow keeps getting fatter" | diet-dog-part1.mp4 | YouTube, Facebook, Instagram | cmvagm2oq003zo280mfpyqa3q, cmvagm2q80040o280ooc6hsf5, cmvagm2qn0041o280pmpxoze1 |
+| 15:00 | Meme B, Lo vs Life #2 "When your wife says she's 'not hungry'" (when_you, metalpipe, voiced; moved +2h from 13:00, clashed with story) | meme-not-hungry.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvagm2qy0042o2802o8xj7rz, cmvagm2ri0043o280uyazj0lu, cmvagm2sh0044o280gtouf9df |
+| 20:00 | Meme A, Lo vs Life #1 "My brother 9 seconds after I mention a raise" (nobody_me, bruh, unvoiced) | meme-raise-favorite-brother.mp4 | YouTube, Facebook, Instagram | cmvagm2su0045o2805u9fvz4m, cmvagm2ta0046o2807yzcun09, cmvagm2ts0047o280oe916nkm |
