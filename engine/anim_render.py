@@ -127,8 +127,28 @@ def frame(n, surf):
     elif b.get("top_text"): draw_top_text(c, b["top_text"], bt)
     draw_header(c, b)
     draw_captions(c, t)
+    draw_end_card(c, t)
     state["fry"] = b.get("meme") == "deepfry" and t > punch_at(b, tb) - 0.05
     c.set_source_rgb(*YEL); c.rectangle(0, 0, W * n / N, 10); c.fill()
+
+def draw_end_card(c, t):
+    """Optional top-level "end_card": {"text": "PART 2 IS UP|ON THE PROFILE", "secs": 2.5}.
+    A yellow sticker that pops in over the scene for the last few seconds. It overlays the video
+    instead of adding a card, so memes still loop cleanly. '|' = new line. Plain text only (no emoji)."""
+    ec = story.get("end_card")
+    if not ec or not ec.get("text"): return
+    t0 = DUR - float(ec.get("secs", 2.5))
+    if t < t0: return
+    lines = ec["text"].upper().split("|"); size = 78
+    c.select_font_face(A.FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); c.set_font_size(size)
+    wmax = max(c.text_extents(l)[4] for l in lines); sc = min(1, (W - 200) / max(wmax, 1)); sz = size * sc
+    hh = len(lines) * sz * 1.2 + 60; ww = min(W - 100, wmax * sc + 110)
+    s = max(0.01, A.spring(t - t0, 14, 16)) * (1 + 0.025 * math.sin((t - t0) * 9))
+    c.save(); c.translate(W / 2, 1490 if MEME else 1270); c.rotate(-0.035); c.scale(s, s)
+    A.rrect(c, -ww / 2, -hh / 2, ww, hh, 30); A.fill_stroke(c, "#FFD23F", A.INKC, 8)
+    for i, l in enumerate(lines):
+        A.text(c, l, 0, -hh / 2 + 30 + sz * 1.2 * (i + 0.62), sz, (0.05, 0.05, 0.07))
+    c.restore()
 
 def draw_band(c, txt, bt):
     """Meme layout: solid white band across the top with big black caption text."""
@@ -157,7 +177,8 @@ def draw_top_text(c, txt, bt):
     c.restore()
 
 def draw_header(c, b):
-    label = story["channel"] + ("  ·  " + story["part"] if story.get("part") else "")
+    tag = story.get("part") or story.get("series")  # memes show their series, e.g. "Lo vs Life #12"
+    label = story["channel"] + ("  ·  " + tag if tag else "")
     c.select_font_face(A.FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); c.set_font_size(38)
     tw = c.text_extents(label)[2]
     A.rrect(c, W / 2 - tw / 2 - 34, 140, tw + 68, 70, 35); c.set_source_rgba(0.1, 0.1, 0.13, 0.82); c.fill()
@@ -218,6 +239,8 @@ for b, tb in zip(B, T):
     if not name: continue
     _, s = sfx.get(name, rng_fx); at = punch_at(b, tb) if name in PUNCH else tb["start"] - 0.05
     i = int(max(0, at) * sfx.SR); fx[i:i + len(s)] += s[:len(fx) - i] * (0.8 if name in PUNCH else 0.5)
+if MEME and story.get("sting", True):  # sound logo: Lo's little snort opens every meme
+    _, s = sfx.get("snort", rng_fx); fx[:len(s)] += s * 0.6
 sf.write("fx.wav", fx[:int(DUR * sfx.SR)], sfx.SR)
 sf.write("music.wav", sfx.music(DUR, bpm=story.get("bpm", 96)) * (1 if story.get("music", True) else 0), sfx.SR)
 enc = subprocess.Popen([

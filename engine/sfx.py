@@ -236,8 +236,19 @@ def toot():
     s = sawtooth(2 * np.pi * np.cumsum(f) / SR, 0.2) * (0.7 + 0.3 * np.sin(2 * np.pi * 23 * t))
     return lp(np.tanh(s * 2), 900) * np.sin(np.pi * t / t[-1]) ** .4 * 0.6
 
+def snort():
+    """Snortlo's sound logo: two quick piggy snorts with a giggle lift. Plays at the start of every meme."""
+    out = np.zeros(int(SR * 0.42))
+    for st, f0, d in [(0.0, 120, 0.11), (0.15, 150, 0.14)]:
+        t = t_(d); buzz = sawtooth(2 * np.pi * np.cumsum(f0 * (1 + 0.6 * t / d)) / SR)
+        grit = rng.standard_normal(len(t)) * 0.5
+        s = bp(buzz + grit, 300, 1800) + 0.5 * bp(buzz, 2000, 3200)
+        s *= np.sin(np.pi * t / d) ** 0.6
+        i = int(st * SR); out[i:i + len(s)] += s
+    return np.tanh(out * 1.8) * 0.5
+
 BANK.update({"bonecrack": bonecrack, "clownhorn": clownhorn, "phonk": phonk, "aura": aura, "rizz": rizz,
-             "reveal": reveal, "payding": payding, "textbuzz": textbuzz, "toot": toot})
+             "reveal": reveal, "payding": payding, "textbuzz": textbuzz, "toot": toot, "snort": snort})
 
 # ---------- recorded sounds (public domain / CC0, see sounds/CREDITS.md) + our voiced shouts ----------
 import os, glob
@@ -286,7 +297,7 @@ PUNCH = {"vineboom", "bruh", "rimshot", "sadtrombone", "airhorn", "crickets", "d
          "applause", "crowdcheer", "boo", "buzzer", "success", "fanfare", "sting", "goat", "evillaugh", "yay",
          "angelchoir", "thunder", "glass", "carcrash", "slap", "cashregister",
          "bonecrack", "clownhorn", "phonk", "aura", "reveal", "toot", "ayo", "ohno", "wow", "hmm", *COMBOS}
-NO_RANDOM = {"toot"}  # only when a script asks for it by name
+NO_RANDOM = {"toot", "snort"}  # only when a script asks for it by name
 
 def get(name, rng=None):
     """Sound by name, with a little random pitch/speed so repeats never sound identical.

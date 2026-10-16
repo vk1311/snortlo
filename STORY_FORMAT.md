@@ -34,9 +34,18 @@ Cast entry: `{"who": "me|boss|co1|co2|co3", "x": 100-980, "to": x (walks there),
 Stage layout: ground is y=1180. Kitchen fridge at x 350-580, stove/counter x 680-1080 (pot at 880,890). Office whiteboard top-left, water cooler x 880, table x 180-740. Put 1-4 characters 200+ px apart.
 
 ## Writing rules
-- Each part: about 210-230 words, so it runs 61-70 s at 1.2x (TikTok only pays on videos over 1 minute).
-- Part 1 opens on the hook, no intro. Parts 2+ open with a one-line recap.
-- Every part ends on a cliffhanger, except the last, which pays off and teases the next story.
+- **Stories are 1 or 2 parts (since Oct 16, 2026).** pick.py's `parts` setting decides. **Every part must be satisfying on its own:** someone who only ever sees that one video gets a complete joke with a payoff.
+- **Length:** each part is about 210-230 words, so it runs 61-70 s at 1.2x (keep it over 1 minute).
+- **Openings and pacing:** open on the hook in the first line, with no intro and a sound in the first 1.5 s. Put a twist or reveal, with a combo sound, around the 30 s beat; that's where viewers drop off.
+- **1-part stories:**
+  - Full arc in one video: hook, escalation, twist, payoff.
+  - Title has no part tag, just the title and "#shorts".
+  - End with the share sticker (below).
+- **2-part stories:**
+  - Titles end "(Part 1/2) #shorts" / "(Part 2/2) #shorts".
+  - **Part 1** resolves its own mini-conflict with a real punchline. Only after that punchline does it open a bigger question ("…and that wasn't even the worst part"); never stop mid-scene. It carries `"end_card": {"text": "PART 2 IS UP|ON THE PROFILE", "secs": 3}`. Part 2 is posted 30 minutes BEFORE Part 1, so the card is true the moment anyone sees it, and the two sit side by side on the profile.
+  - **Part 2** works for someone who never saw Part 1: a one-line recap gives all the context needed. Then it has its own escalation and payoff, ends teasing the next story, and carries the share sticker.
+- **Share sticker:** `"end_card": {"text": "SEND THIS TO|YOUR <BROTHER/WIFE/BESTIE>", "secs": 2.5}`, naming whoever the story is about.
 - A meme sound every one or two lines; vary them. Visual punch (zoom/shake) on the big moments.
 - Original stories only: real threads can inspire the premise, but rewrite everything, change the details, use no real names, and never copy text.
 - Keep it light: no politics, no punching down, nothing hateful or sexual, no real private people.
@@ -78,4 +87,10 @@ Short (6–16 s) recreations of well-known meme formats, drawn with our cast. To
 - `voice` per beat lets characters sound different (e.g. mom = af_bella).
 - `meme: "deepfry"` = crushed, oversaturated, grainy look from the punch onwards. Use on the final punch only.
 - Recreate the *format*, never the original image, clip or character. No copyrighted characters, no real people.
+- **Recurring series "Lo vs Life" (since Oct 16, 2026):** every meme stars **Lo**, our teal-cap guy (cast `me`), against everyday life: his wife, mom, brother, bestie, boss, money and sleep.
+  - **Header:** set top-level `"series": "Lo vs Life #<n>"`, where n = the number of memes in memes/ that already have a `series` field, plus 1. It shows in the header pill as "Snortlo · Lo vs Life #n".
+  - **Sound logo:** every meme opens with Lo's snort automatically. Only set `"sting": false` if the snort ruins a joke.
+  - **Captions:** keep them relatable ("Me when…", "My wife at 2 AM:"). Lo is the viewer's stand-in, so don't write "Lo" in the caption.
+  - **Post captions:** end with "#LoVsLife".
+- **Share sticker (since Oct 16, 2026):** every meme gets `"end_card": {"text": "SEND THIS TO|YOUR <WIFE/HUSBAND/BROTHER/SISTER/MOM/BESTIE>", "secs": 2}`, naming the person the joke is about. It pops in over the last 2 s without adding length, so the loop stays seamless. Plain text only (the font has no emoji).
 - Examples: memes/3am-snack.json, memes/you-too.json.
