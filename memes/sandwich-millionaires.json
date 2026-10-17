@@ -1,0 +1,157 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #3",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "top_text": "Me and my bestie at 19:|\"By 30 we'll be millionaires\"",
+   "hold": 2.8,
+   "sfx": "sparkle",
+   "set": "street",
+   "cast": [
+    {
+     "who": "me",
+     "x": 340,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co2",
+     "x": 720,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     540,
+     900
+    ]
+   }
+  },
+  {
+   "text": "",
+   "top_text": "10 years later:",
+   "hold": 1.4,
+   "sfx": "whoosh",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "10 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   }
+  },
+  {
+   "text": "",
+   "top_text": "Us at 29, splitting|one sandwich 50/50:",
+   "hold": 3.0,
+   "sfx": "crunch",
+   "set": "kitchen",
+   "props": [
+    {
+     "type": "sandwich",
+     "x": 880,
+     "y": 880
+    }
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 1040,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     860,
+     860
+    ]
+   }
+  },
+  {
+   "text": "",
+   "top_text": "Him: \"Send me $2.15|for your half\"",
+   "hold": 2.6,
+   "sfx": "payding",
+   "set": "kitchen",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 620,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "",
+   "top_text": "Me, checking if I|have $2.15:",
+   "hold": 3.2,
+   "sfx": "bruh",
+   "set": "kitchen",
+   "cast": [
+    {
+     "who": "me",
+     "x": 460,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "me"
+   }
+  }
+ ]
+}

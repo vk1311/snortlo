@@ -1,0 +1,416 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "part": "Part 1",
+ "end_card": {
+  "text": "PART 2 IS UP|ON THE PROFILE",
+  "secs": 3
+ },
+ "beats": [
+  {
+   "text": "What would you do if you came home for Thanksgiving, and a stranger was sleeping in your bed?",
+   "set": "bedroom",
+   "state": {
+    "clock": "9:00"
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 330,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 880,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     560,
+     900
+    ]
+   }
+  },
+  {
+   "text": "Not a burglar. A forty year old man named Gary. In my old dinosaur pajamas.",
+   "set": "bedroom",
+   "state": {
+    "clock": "9:01"
+   },
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 380,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "He waves and says, hi! Checkout is at eleven.",
+   "set": "bedroom",
+   "state": {
+    "clock": "9:01"
+   },
+   "sfx": "huh",
+   "speaker": "co2",
+   "bubble": {
+    "text": "CHECKOUT IS AT 11!",
+    "x": 420,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 380,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Turns out my parents listed my childhood bedroom on a rental app.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MY ROOM|FOR RENT",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "sfx": "dundun"
+  },
+  {
+   "text": "Eighty nine dollars a night. Breakfast included.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$89/NIGHT|+ BREAKFAST",
+    "bg1": "#E6F7EE",
+    "bg2": "#8FD3AE"
+   },
+   "sfx": "cashregister"
+  },
+  {
+   "text": "So I storm into the kitchen. Mom is making Gary pancakes. Shaped like hearts.",
+   "set": "kitchen",
+   "sfx": "whoosh",
+   "props": [
+    {
+     "type": "pot",
+     "x": 880,
+     "y": 890
+    }
+   ],
+   "cast": [
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": 1,
+     "pose": "stir",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "stir"
+    },
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "to": 420,
+     "fx": {
+      "red": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "text": "I say, Mom, there is a man in my bed. She says, sweetie, keep your voice down. He's a guest.",
+   "set": "kitchen",
+   "speaker": "co1",
+   "sfx": "pop",
+   "bubble": {
+    "text": "HE'S A GUEST!",
+    "x": 640,
+    "y": 520,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "I said, I'm a guest too! And she said, no, you're family. Family doesn't pay.",
+   "set": "kitchen",
+   "sfx": "roast",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "So Gary gets my room. I get the couch. Next to the dog bed.",
+   "set": "living",
+   "state": {
+    "tv": "HAPPY|THANKSGIVING"
+   },
+   "sfx": "sadtrombone",
+   "cast": [
+    {
+     "who": "me",
+     "x": 330,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 560,
+     "y": 1180,
+     "s": 1.1,
+     "fat": 1.2,
+     "eyes": "happy",
+     "dir": -1,
+     "tongue": true
+    }
+   ]
+  },
+  {
+   "text": "Fine. I'll be the bigger man. I'll just leave Gary a bad review.",
+   "set": "living",
+   "state": {
+    "tv": "RATE YOUR|HOST"
+   },
+   "sfx": "typebell",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "I open the app. And that's when I see it. My parents already reviewed me.",
+   "set": "living",
+   "state": {
+    "tv": "NEW REVIEW:|YOUR SON"
+   },
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     700,
+     820
+    ]
+   }
+  },
+  {
+   "text": "Guest number two. Son. Eats everything. Never does the dishes. Two stars.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SON: 2 STARS|NEVER DOES DISHES",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "reveal",
+   "meme": "shake"
+  },
+  {
+   "text": "Gary got five stars. Gary made the bed. Gary folded the towels into swans.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "GARY: 5 STARS|MADE THE BED",
+    "bg1": "#E6F7EE",
+    "bg2": "#8FD3AE"
+   },
+   "sfx": "clownhorn"
+  },
+  {
+   "text": "Okay. Two stars. I can live with two stars. At least I still have my seat at dinner.",
+   "set": "living",
+   "state": {
+    "tv": "HAPPY|THANKSGIVING"
+   },
+   "sfx": "slidedown",
+   "cast": [
+    {
+     "who": "me",
+     "x": 330,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 620,
+     "y": 1180,
+     "s": 1.1,
+     "fat": 1.2,
+     "eyes": "dot",
+     "dir": -1
+    }
+   ]
+  },
+  {
+   "text": "And then Dad walks in and says, by the way, Gary's joining us for Thanksgiving. In your chair.",
+   "set": "living",
+   "state": {
+    "tv": "HAPPY|THANKSGIVING"
+   },
+   "speaker": "boss",
+   "sfx": "metalpipe",
+   "bubble": {
+    "text": "IN YOUR CHAIR.",
+    "x": 640,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   },
+   "pause": 0.5
+  }
+ ]
+}

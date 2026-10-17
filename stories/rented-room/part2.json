@@ -1,0 +1,494 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "part": "Part 2",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "text": "Have you ever lost your seat at Thanksgiving to a guy who's renting your bedroom?",
+   "set": "office",
+   "state": {
+    "whiteboard": "HAPPY|THANKSGIVING",
+    "cooler": false,
+    "table": true
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 460,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 880,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     620,
+     880
+    ]
+   }
+  },
+  {
+   "text": "Quick recap. My parents rented my childhood room to a stranger named Gary. Eighty nine bucks a night.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MY ROOM|$89/NIGHT",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "sfx": "cashregister"
+  },
+  {
+   "text": "Now Gary is in my chair. And Gary is carving the turkey.",
+   "set": "office",
+   "state": {
+    "whiteboard": "HAPPY|THANKSGIVING",
+    "cooler": false
+   },
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 460,
+     "facing": 1,
+     "pose": "stir",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "stir"
+    }
+   ],
+   "props": [
+    {
+     "type": "pot",
+     "x": 600,
+     "y": 1000
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "Grandma has never let anyone carve that turkey. Not even Dad. She let Gary.",
+   "set": "office",
+   "state": {
+    "whiteboard": "HAPPY|THANKSGIVING",
+    "cooler": false
+   },
+   "sfx": "gasp",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 220,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co2",
+     "x": 560,
+     "facing": 1,
+     "pose": "stir",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Then Dad pulls out my baby photos. To show Gary.",
+   "set": "office",
+   "state": {
+    "whiteboard": "BABY|PHOTOS",
+    "cooler": false
+   },
+   "sfx": "shutter",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co2",
+     "x": 620,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ]
+  },
+  {
+   "text": "Gary laughs at every single one. Dad says, finally, someone who gets my jokes.",
+   "set": "office",
+   "state": {
+    "whiteboard": "BABY|PHOTOS",
+    "cooler": false
+   },
+   "sfx": "laughtrack",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    },
+    {
+     "who": "co2",
+     "x": 620,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    },
+    {
+     "who": "me",
+     "x": 900,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Mom gives Gary the first slice of pie. I always get the first slice.",
+   "set": "office",
+   "state": {
+    "whiteboard": "PIE|TIME",
+    "cooler": false
+   },
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "reach",
+     "hold": "sandwich",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 620,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 920,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Then Grandma stands up for her toast. To Gary. Her favorite grandson.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "FAVORITE|GRANDSON?!",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   },
+   "sfx": "busted",
+   "meme": "shake"
+  },
+  {
+   "text": "Gary has been here for one day.",
+   "set": "office",
+   "state": {
+    "whiteboard": "GARY|DAY 1",
+    "cooler": false
+   },
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  },
+  {
+   "text": "So I stand up and tell the truth. Gary is not family. Gary is a customer.",
+   "set": "office",
+   "state": {
+    "whiteboard": "HAPPY|THANKSGIVING",
+    "cooler": false
+   },
+   "sfx": "whistle",
+   "speaker": "me",
+   "bubble": {
+    "text": "HE'S A CUSTOMER!",
+    "x": 540,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "act": "talk",
+     "fx": {
+      "red": 0.6
+     }
+    }
+   ]
+  },
+  {
+   "text": "Gary puts down the knife. Quietly says, he's right. I should go.",
+   "set": "office",
+   "state": {
+    "whiteboard": "HAPPY|THANKSGIVING",
+    "cooler": false
+   },
+   "sfx": "sadviolin",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "co2"
+   },
+   "slow": true
+  },
+  {
+   "text": "And the whole table turns and glares at me. Even the dog.",
+   "set": "office",
+   "state": {
+    "whiteboard": "HAPPY|THANKSGIVING",
+    "cooler": false
+   },
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 440,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 880,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 660,
+     "y": 1180,
+     "s": 1.1,
+     "fat": 1.2,
+     "eyes": "angry",
+     "dir": -1
+    }
+   ]
+  },
+  {
+   "text": "Fine. I'll win my room back the smart way. I open the app and book it for Christmas.",
+   "set": "living",
+   "state": {
+    "tv": "BOOK|MY ROOM"
+   },
+   "sfx": "typebell",
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Request declined.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "REQUEST|DECLINED",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "buzzer"
+  },
+  {
+   "text": "Reason. Guest has a history of not doing the dishes.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "REASON:|DISHES",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "bonk",
+   "meme": "shake"
+  },
+  {
+   "text": "So this Christmas, I'm renting Gary's room. At Gary's parents' house. Two can play this game.",
+   "set": "street",
+   "sfx": "phonk",
+   "cast": [
+    {
+     "who": "me",
+     "x": 440,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Follow. Next time, my mom tries to rent out the dog.",
+   "set": "living",
+   "state": {
+    "tv": "HAPPY|THANKSGIVING"
+   },
+   "sfx": "ding",
+   "pause": 0.4,
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 620,
+     "y": 1180,
+     "s": 1.1,
+     "fat": 1.2,
+     "eyes": "happy",
+     "dir": -1,
+     "tongue": true,
+     "bounce": true
+    }
+   ]
+  }
+ ]
+}

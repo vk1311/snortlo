@@ -1,0 +1,135 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #4",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "I'll hold your birthday money, okay?",
+   "voice": "af_bella",
+   "top_text": "Mom, when I was 7:",
+   "set": "living",
+   "state": {
+    "tv": "HAPPY|BIRTHDAY"
+   },
+   "speaker": "co1",
+   "sfx": "payding",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     500,
+     880
+    ]
+   }
+  },
+  {
+   "text": "",
+   "top_text": "20 years later:",
+   "hold": 0.9,
+   "sfx": "whoosh",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "20 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   }
+  },
+  {
+   "text": "Mom, can I have it now?",
+   "top_text": "Me:",
+   "set": "living",
+   "state": {
+    "tv": "RENT|DUE"
+   },
+   "speaker": "me",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 340,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "text": "What money?",
+   "voice": "af_bella",
+   "top_text": "Mom, with a straight face:",
+   "set": "living",
+   "state": {
+    "tv": "RENT|DUE"
+   },
+   "speaker": "co1",
+   "sfx": "random:punch",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 600,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "co1"
+   },
+   "pause": 1.0
+  }
+ ]
+}

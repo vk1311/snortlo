@@ -1,0 +1,16 @@
+{
+ "day": "20260715",
+ "start": 1569.7,
+ "end": 1580.8,
+ "end_on_word": "vote",
+ "tail": 0.3,
+ "top_text": "Mom, one word away from saying yes|vs. my little brother:",
+ "sfx": [
+  {"at_word": "affirmative", "name": "recordscratch", "delay": 0.05, "gain": 0.7},
+  {"at_word": "object", "name": "vineboom", "delay": 0.05, "gain": 0.8},
+  {"at_word": "vote", "name": "laughtrack", "delay": 0.5, "gain": 0.45}
+ ],
+ "hold_end": 2.0,
+ "caption_fixes": [{"from": ["purposes", "the"], "to": ["purpose does", "the"]}],
+ "source": "House floor feed via engine/gov.py (houselive), 2026-07-15, caption clock 1569.7-1580.8; the chair is announcing the result of a voice vote on suspending the rules ('two thirds being in the affirmative') when a member calls 'Mr. Speaker' and objects to the vote for lack of a quorum (routine procedural objection); no policy content in clip; members not identified on screen in our captions"
+}
