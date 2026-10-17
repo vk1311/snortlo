@@ -96,3 +96,14 @@ YouTube uploads today: 5 (parts 1-3, meme A, Congress moment). TikTok skipped (n
 | 21:00 | Sleep stories #2 "Sleepy Stories for Grown-Ups 🌙 Rain, Tea and Quiet Places" (48 min, 6 new stories) | long-sleepy-stories-2-web.mp4 | YouTube, Facebook | cmvahdz2n0048o28037mugshr, cmvahdz340049o2800vz98xg6 |
 
 YouTube uploads today: 4 (story, meme B, meme A, sleep stories). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: Oct 13 and Oct 15 sessions were pro forma; older unused days (Jul 16/21/22/27, Aug 27) had only policy speeches or a procedural squabble inside a heated culture-war debate with an identifiable member on screen, so nothing passed the house rules. gov/used.txt unchanged. Engine: new `dog` and `bacon` props; voice2.py now shows the script's words in karaoke captions (Whisper only supplies timing), after Whisper misheard a meme line. Sleepy stories #2 runs ~8,100 words (a bit over the 7,500 target), 48 min.
+
+## Sat 2026-10-17 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 11:30 | Story "rented-room" Part 2/2 (question hook, family): "a stranger took my seat at thanksgiving (Part 2/2) #shorts" | rented-room-part2.mp4 | YouTube, Facebook, Instagram | cmvbw3oss004ao280xpa6fsv8, cmvbw3ot8004bo280y9hxttjz, cmvbw3ots004co280lmsr4t3o |
+| 12:00 | Story Part 1/2: "my parents rented my bedroom to a stranger (Part 1/2) #shorts" | rented-room-part1.mp4 | YouTube, Facebook, Instagram | cmvbw3oul004do280jklw3zzq, cmvbw3ov3004eo28029szq3b9, cmvbw3ovn004fo280t1pllas1 |
+| 13:00 | Meme A, Lo vs Life #3 "Me and my bestie at 19: 'By 30 we'll be millionaires'" (x_years_later, bruh, unvoiced) | meme-sandwich-millionaires.mp4 | YouTube, Facebook, Instagram | cmvbw40v6004go280yvxkusmy, cmvbw40vm004ho280s69efln4, cmvbw40w5004io280uv35m2vf |
+| 13:00 | Congress Moment "mom-almost-yes" (2026-07-15, chair announcing a voice vote result is interrupted by "Mr. Speaker" and a quorum objection; party ?) | gov-mom-almost-yes.mp4 | YouTube, Facebook | cmvbw40wm004jo2808w4aqimh, cmvbw40wz004ko280urxzjgwb |
+| 20:00 | Meme B, Lo vs Life #4 "Mom: 'I'll hold your birthday money'" (x_years_later, random:punch, voiced) | meme-birthday-money.mp4 | YouTube, Facebook | cmvbw40xb004lo280z8rnj06w, cmvbw40xq004mo280buwxqpiv |
+
+YouTube uploads today: 5 (2 parts, 2 memes, Congress). Instagram: 3 (Part 2, Part 1, meme A). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 2, ? 4. All unused session days in the last 30 (Aug-Oct) were pro forma / empty candidates; used 2026-07-15 (older). Full cut rented-room-full.mp4 rendered for Sunday's compilation. No media older than 8 days to delete (only protected Oct 8 files remain).
