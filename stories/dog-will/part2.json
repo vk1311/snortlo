@@ -1,0 +1,394 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "part": "Part 2",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR WIFE",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "text": "POV: you find out you're in your wife's will. Right after the dog.",
+   "set": "desk",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "hold": "paper"
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 760,
+     "y": 1180,
+     "s": 1.2,
+     "fat": 1.15,
+     "eyes": "happy",
+     "dir": -1
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "at": [
+     560,
+     950
+    ]
+   }
+  },
+  {
+   "text": "Quick recap. My wife loves our golden retriever Biscuit more than me. She saved my number as Biscuit's Dad. And tonight I found her will.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "RECAP:|I'M BISCUIT'S DAD",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "Line one. The house goes to Biscuit.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "THE HOUSE:|BISCUIT",
+    "bg1": "#E6F7EE",
+    "bg2": "#8FD3AE"
+   },
+   "sfx": "ding"
+  },
+  {
+   "text": "Line two. The car goes to Biscuit. He can't drive. He can't even open a door.",
+   "set": "street",
+   "sfx": "bruh",
+   "props": [
+    {
+     "type": "dog",
+     "x": 560,
+     "y": 1180,
+     "s": 1.2,
+     "fat": 1.15,
+     "eyes": "happy",
+     "dir": 1,
+     "tongue": true
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     560,
+     1000
+    ]
+   }
+  },
+  {
+   "text": "Line three. My husband may keep living in the house, if Biscuit approves.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "HUSBAND MAY STAY|IF BISCUIT APPROVES",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "dundun"
+  },
+  {
+   "text": "If Biscuit approves. I have to pass a job interview with a dog.",
+   "set": "office",
+   "state": {
+    "whiteboard": "INTERVIEW|TODAY"
+   },
+   "sfx": "clowned",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 700,
+     "y": 1180,
+     "s": 1.2,
+     "fat": 1.15,
+     "eyes": "dot",
+     "dir": -1
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     500,
+     950
+    ]
+   }
+  },
+  {
+   "text": "So I start training. If I can't beat him, I'll become him.",
+   "set": "living",
+   "state": {
+    "tv": "GOOD BOY|TRAINING"
+   },
+   "sfx": "phonk",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "I learn to sit. I fetch her slippers. I learn the head tilt.",
+   "set": "living",
+   "state": {
+    "tv": "GOOD BOY|TRAINING"
+   },
+   "sfx": "boing",
+   "cards": [
+    "SIT",
+    "FETCH",
+    "HEAD TILT"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "bounce"
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 600,
+     "y": 1180,
+     "s": 1.2,
+     "fat": 1.15,
+     "eyes": "wide",
+     "dir": -1
+    }
+   ]
+  },
+  {
+   "text": "When she comes home, I run to the door like she's been gone for ten years.",
+   "set": "living",
+   "sfx": "tirescreech",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "to": 600
+    },
+    {
+     "who": "co1",
+     "x": 960,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "She laughs, scratches my head, says, aww, good boy, and hands me a treat.",
+   "set": "living",
+   "sfx": "aww",
+   "speaker": "co1",
+   "bubble": {
+    "text": "GOOD BOY!",
+    "x": 700,
+    "y": 640,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 960,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ]
+  },
+  {
+   "text": "And here's the worst part. It was a really good treat.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "10/10|TREAT",
+    "bg1": "#E6F7EE",
+    "bg2": "#8FD3AE"
+   },
+   "sfx": "huh"
+  },
+  {
+   "text": "Then she sees the will on the table and says, babe, relax. You're in it too.",
+   "set": "living",
+   "sfx": "angelchoir",
+   "speaker": "co1",
+   "bubble": {
+    "text": "YOU'RE IN IT TOO!",
+    "x": 700,
+    "y": 640,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 960,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "paper",
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "She flips the page. Line four. My husband gets Biscuit's old bed.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "LINE 4: HUSBAND GETS|THE OLD DOG BED",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "recordscratch",
+   "meme": "shake"
+  },
+  {
+   "text": "His old bed. I'm getting the dog's hand me downs.",
+   "set": "living",
+   "sfx": "sadviolin",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 600,
+     "y": 1180,
+     "s": 1.2,
+     "fat": 1.15,
+     "eyes": "happy",
+     "dir": -1,
+     "tongue": true
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Honestly? I tried it. It's the best sleep I've had in years.",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "3:00"
+   },
+   "sfx": "ooh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 500,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Next time: we're getting a cat. And Biscuit is not taking it well.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NEXT TIME:|THE CAT",
+    "bg1": "#E3F0FF",
+    "bg2": "#8FB8E8"
+   },
+   "sfx": "gasp",
+   "pause": 0.6
+  }
+ ]
+}

@@ -1,0 +1,450 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "part": "Part 1",
+ "end_card": {
+  "text": "PART 2 IS UP|ON THE PROFILE",
+  "secs": 3
+ },
+ "beats": [
+  {
+   "text": "POV: your wife loves the dog more than you.",
+   "set": "living",
+   "state": {
+    "tv": "I LOVE|BISCUIT"
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 960,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 600,
+     "y": 1180,
+     "s": 1.2,
+     "fat": 1.15,
+     "eyes": "happy",
+     "dir": -1,
+     "tongue": true,
+     "bounce": true
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     560,
+     950
+    ]
+   }
+  },
+  {
+   "text": "And I have proof. Exhibit A. Her phone wallpaper. It's Biscuit, our golden retriever. In a little yellow raincoat.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "EXHIBIT A:|DOG IN A RAINCOAT",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "sfx": "shutter"
+  },
+  {
+   "text": "Exhibit B. For my birthday, she got me socks.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MY BIRTHDAY:|SOCKS",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "sadtrombone"
+  },
+  {
+   "text": "For Biscuit's birthday? A three layer cake shaped like a bone. And a bouncy castle. For a dog.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "HIS BIRTHDAY:|CAKE + BOUNCY CASTLE",
+    "bg1": "#E6F7EE",
+    "bg2": "#8FD3AE"
+   },
+   "sfx": "fanfare",
+   "meme": "shake"
+  },
+  {
+   "text": "Exhibit C. Bedtime. Biscuit gets the whole middle of the bed. I get eleven inches and a corner of the blanket.",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "11:40"
+   },
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 180,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 560,
+     "y": 1180,
+     "s": 1.2,
+     "fat": 1.15,
+     "eyes": "happy",
+     "dir": -1
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "at": [
+     420,
+     960
+    ]
+   }
+  },
+  {
+   "text": "So last night I checked her phone, to see what she saved me as.",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "2:13"
+   },
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "me",
+     "x": 520,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Not husband. Not babe. Biscuit's Dad.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SAVED AS:|BISCUIT'S DAD",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   },
+   "sfx": "busted",
+   "meme": "shake",
+   "pause": 0.3
+  },
+  {
+   "text": "Like I'm the guy who drives him to soccer practice.",
+   "set": "living",
+   "state": {
+    "tv": "BISCUIT|TV"
+   },
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "So I ask her straight up. Babe, do you love the dog more than me?",
+   "set": "living",
+   "state": {
+    "tv": "BISCUIT|TV"
+   },
+   "sfx": "pop",
+   "speaker": "me",
+   "bubble": {
+    "text": "DOG OR ME?",
+    "x": 380,
+    "y": 640,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.4
+     }
+    },
+    {
+     "who": "co1",
+     "x": 960,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "She says, don't be ridiculous. Then she turns to Biscuit and goes, Daddy's being dramatic again, isn't he? Yes he is!",
+   "set": "living",
+   "state": {
+    "tv": "BISCUIT|TV"
+   },
+   "sfx": "huh",
+   "speaker": "co1",
+   "bubble": {
+    "text": "YES HE IS!",
+    "x": 700,
+    "y": 640,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 960,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 520,
+     "y": 1180,
+     "s": 1.2,
+     "fat": 1.15,
+     "eyes": "happy",
+     "dir": 1,
+     "tongue": true,
+     "bounce": true
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     600,
+     950
+    ]
+   }
+  },
+  {
+   "text": "She didn't even answer me. She answered him. In a baby voice.",
+   "set": "living",
+   "state": {
+    "tv": "BISCUIT|TV"
+   },
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Fine. If she won't pick me, the dog will. I give Biscuit half my steak.",
+   "set": "kitchen",
+   "sfx": "rizz",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 560,
+     "y": 1180,
+     "s": 1.2,
+     "fat": 1.15,
+     "eyes": "wide",
+     "dir": -1,
+     "tongue": true
+    }
+   ]
+  },
+  {
+   "text": "He eats it in four seconds, walks right past me, and lies down on her feet.",
+   "set": "living",
+   "state": {
+    "tv": "BISCUIT|TV"
+   },
+   "sfx": "metalpipe",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 240,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 960,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "dog",
+     "x": 640,
+     "y": 1180,
+     "s": 1.2,
+     "fat": 1.15,
+     "eyes": "happy",
+     "dir": 1
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "at": [
+     600,
+     980
+    ]
+   }
+  },
+  {
+   "text": "That's it. I'm not a husband. I'm a roommate who pays the vet bills.",
+   "set": "living",
+   "state": {
+    "tv": "VET BILL|$740"
+   },
+   "sfx": "cashregister",
+   "cast": [
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Then I found a folder on her desk that said, very important. It was her will.",
+   "set": "desk",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "hold": "paper",
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "And I wasn't in the first line. Biscuit was.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "LINE 1:|BISCUIT",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "dundun",
+   "pause": 0.5
+  }
+ ]
+}

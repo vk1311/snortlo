@@ -1,0 +1,188 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #5",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR WIFE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "When your wife says she's just|gonna rest her eyes for 5 min:",
+   "set": "living",
+   "state": {
+    "tv": "8:00 PM|MOVIE NIGHT"
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     500,
+     880
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.6,
+   "top_text": "8:05 PM:",
+   "set": "living",
+   "state": {
+    "tv": "8:05 PM|MOVIE NIGHT"
+   },
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Me: \"Babe, come to bed\"|Her, eyes still closed:",
+   "set": "living",
+   "state": {
+    "tv": "11:30 PM|ARE YOU STILL WATCHING?"
+   },
+   "sfx": "huh",
+   "speaker": "co1",
+   "bubble": {
+    "text": "I'M NOT EVEN TIRED",
+    "x": 640,
+    "y": 520,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 660,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.25,
+    "at": [
+     500,
+     880
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Her at 3 AM, fully awake,|rearranging the living room:",
+   "set": "living",
+   "state": {
+    "dark": true,
+    "tv": "3:00 AM|"
+   },
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "to": 760,
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     560,
+     880
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me, who works at 7:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "3:12"
+   },
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "me"
+   }
+  }
+ ]
+}

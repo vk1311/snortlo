@@ -1,0 +1,52 @@
+{
+ "day": "20260714",
+ "start": 4355.11,
+ "end": 4366.72,
+ "end_on_word": "club",
+ "tail": 0.5,
+ "top_text": "Me when my wife asks where I was|and I grab the wrong excuse:",
+ "sfx": [
+  {
+   "at_word": "bulldog",
+   "name": "recordscratch",
+   "delay": 0.05,
+   "gain": 0.7
+  },
+  {
+   "at_word": "rise",
+   "name": "vineboom",
+   "delay": 0.05,
+   "gain": 0.75
+  },
+  {
+   "at_word": "club",
+   "name": "laughtrack",
+   "delay": 0.4,
+   "gain": 0.45
+  }
+ ],
+ "hold_end": 2.0,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-07-14, caption clock 4355.1-4366.7; during five-minute morning-hour speeches a member recognized for five minutes starts 'Mr. Speaker, the Luray High School Bulldog...', stops, says 'Sorry, Mr. Speaker' and restarts with a different tribute (Rotary Club of Front Royal centennial); harmless mix-up of tribute speeches, no policy content in the clip; rights: 17 USC 105 public domain statement on the feed",
+ "caption_fixes": [
+  {
+   "from": [
+    "bulldog",
+    "mr",
+    "speaker"
+   ],
+   "to": [
+    "Bulldog.",
+    "Sorry, Mr.",
+    "Speaker,"
+   ]
+  },
+  {
+   "from": [
+    "lurei"
+   ],
+   "to": [
+    "Luray"
+   ]
+  }
+ ]
+}

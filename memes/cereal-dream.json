@@ -1,0 +1,151 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #6",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "When I'm a grown up, I'm eating cereal for dinner every night!",
+   "top_text": "Me at 8:",
+   "set": "living",
+   "state": {
+    "tv": "SATURDAY|CARTOONS"
+   },
+   "speaker": "me",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co1",
+     "x": 740,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.25,
+    "at": [
+     520,
+     880
+    ]
+   },
+   "pause": 0.6
+  },
+  {
+   "text": "Sure you are, sweetie.",
+   "voice": "af_bella",
+   "top_text": "Mom:",
+   "set": "living",
+   "state": {
+    "tv": "SATURDAY|CARTOONS"
+   },
+   "speaker": "co1",
+   "sfx": "rizz",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co1"
+   },
+   "pause": 0.4
+  },
+  {
+   "text": "",
+   "top_text": "20 years later:",
+   "hold": 1.3,
+   "sfx": "whoosh",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "20 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   }
+  },
+  {
+   "text": "Cereal. For dinner. Again.",
+   "top_text": "Me at 9:47 PM,|after a 10 hour shift:",
+   "set": "night",
+   "state": {
+    "clock": "9:47"
+   },
+   "speaker": "me",
+   "sfx": "crunch",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   },
+   "pause": 0.7
+  },
+  {
+   "text": "So? Living the dream?",
+   "voice": "af_bella",
+   "top_text": "Mom, calling at the exact|right moment:",
+   "set": "living",
+   "speaker": "co1",
+   "sfx": "fahh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 600,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "co1"
+   },
+   "pause": 2.3
+  }
+ ]
+}
