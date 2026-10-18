@@ -107,3 +107,12 @@ YouTube uploads today: 4 (story, meme B, meme A, sleep stories). Instagram: 3 (s
 | 20:00 | Meme B, Lo vs Life #4 "Mom: 'I'll hold your birthday money'" (x_years_later, random:punch, voiced) | meme-birthday-money.mp4 | YouTube, Facebook | cmvbw40xb004lo280z8rnj06w, cmvbw40xq004mo280buwxqpiv |
 
 YouTube uploads today: 5 (2 parts, 2 memes, Congress). Instagram: 3 (Part 2, Part 1, meme A). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 2, ? 4. All unused session days in the last 30 (Aug-Oct) were pro forma / empty candidates; used 2026-07-15 (older). Full cut rented-room-full.mp4 rendered for Sunday's compilation. No media older than 8 days to delete (only protected Oct 8 files remain).
+
+## Sun 2026-10-18 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 11:30 | Story "dog-will" Part 2/2 (POV hook, pets): "pov: i'm in my wife's will. right after the dog (Part 2/2) #shorts" | dog-will-part2.mp4 | YouTube, Facebook, Instagram | cmvdbxgf1004to280yw0i488w, cmvdbxgfh004uo280kqd6y1u1, cmvdbxggb004vo280p7smzx6z |
+| 12:00 | Story Part 1/2: "pov: my wife loves the dog more than me (Part 1/2) #shorts" | dog-will-part1.mp4 | YouTube, Facebook, Instagram | cmvdbxghn004wo2801kt640qr, cmvdbxgi4004xo2801shqxvi4, cmvdbxgid004yo280mvcj4sab |
+| 13:00 | Congress Moment "wrong-excuse" (2026-07-14, member starts the wrong tribute speech, "Sorry, Mr. Speaker", restarts; R, Rep. Cline) | gov-wrong-excuse.mp4 | YouTube, Facebook | cmvdbxuxr004zo280g4wuvej3, cmvdbxuy00050o280umtb7fbg |
+| 15:00 | Meme B, Lo vs Life #6 "Me at 8: I'm eating cereal for dinner every night" (x_years_later, fahh, voiced; moved +2h from 13:00, clashed with story) | meme-cereal-dream.mp4 | YouTube, Facebook | cmvdbxuym0051o2802adcq7ig, cmvdbxuz70052o280722ruqon |
+| 20:00 | Meme A, Lo vs Life #5 "When your wife is 'just resting her eyes' at 8 PM" (when_you, bruh, unvoiced) | meme-rest-her-eyes.mp4 | YouTube, Facebook, Instagram | cmvdbxuzo0053o280e6e5oaue, cmvdbxv070054o280aw2ezt0t, cmvdbxv0n0055o280d4jwt7i7 |
