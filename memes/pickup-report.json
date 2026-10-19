@@ -1,0 +1,158 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #8",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "set": "classroom",
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Teacher: \"Who wants to share|what they did this weekend?\"",
+   "state": {
+    "board": "MY WEEKEND|BY: ______",
+    "clock": "9:05"
+   },
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 560,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 820,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "classroom",
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Teacher: \"That's okay. Your moms|already told me at pickup.\"",
+   "state": {
+    "board": "PICKUP|NOTES",
+    "clock": "9:05"
+   },
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "hold",
+     "hold": "paper",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "boss"
+   }
+  },
+  {
+   "set": "classroom",
+   "text": "",
+   "hold": 3.0,
+   "top_text": "My mom at pickup, 3:05 PM:",
+   "state": {
+    "board": "",
+    "clock": "3:05"
+   },
+   "sfx": "textbuzz",
+   "bubble": {
+    "text": "14 HOURS OF GAMES!",
+    "x": 440,
+    "y": 600,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": 1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "hold",
+     "hold": "paper",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "classroom",
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me, who told the whole class|I \"studied all weekend\":",
+   "state": {
+    "board": "MY WEEKEND|BY: ME",
+    "clock": "9:06"
+   },
+   "sfx": "random:punch",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true,
+      "red": 0.6
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  }
+ ]
+}

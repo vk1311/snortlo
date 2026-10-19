@@ -1,0 +1,477 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR ROOMMATE",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "text": "Have you ever had a roommate you've never actually seen?",
+   "set": "living",
+   "state": {
+    "tv": "ROOMMATE|???"
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "His name is Derek. He moved in six months ago.",
+   "set": "closeup",
+   "sfx": "hmm",
+   "state": {
+    "show": "text",
+    "big": "ROOMMATE:|DEREK",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   }
+  },
+  {
+   "text": "Rent? Always on time. Dishes? Done every night at three AM.",
+   "set": "kitchen",
+   "sfx": "ding",
+   "cards": [
+    "RENT: PAID",
+    "DISHES: DONE"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "He even leaves me little notes on the fridge. Buy milk. Nice haircut.",
+   "set": "kitchen",
+   "state": {
+    "sign": "BUY MILK.|NICE HAIRCUT -D"
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     470,
+     700
+    ]
+   }
+  },
+  {
+   "text": "But I have never once seen his face.",
+   "set": "living",
+   "state": {
+    "tv": "DEREK'S|ROOM"
+   },
+   "sfx": "dundun",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  },
+  {
+   "text": "So one night, I stay up to catch him in the act. Snacks. Energy drinks. Zero blinking.",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "2:58"
+   },
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "me",
+     "x": 500,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     },
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "text": "Three AM. I hear the sink running.",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "3:00"
+   },
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 500,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   },
+   "slow": true
+  },
+  {
+   "text": "I sprint into the kitchen. Nobody. Just clean dishes and a brand new note.",
+   "set": "night",
+   "state": {
+    "clock": "3:01",
+    "sign": "GO TO BED.|-D"
+   },
+   "sfx": "recordscratch",
+   "cast": [
+    {
+     "who": "me",
+     "x": 820,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "to": 700
+    }
+   ]
+  },
+  {
+   "text": "I check every closet. Under the couch. Inside the dryer. Nothing.",
+   "set": "living",
+   "state": {
+    "dark": true
+   },
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "to": 820
+    }
+   ]
+  },
+  {
+   "text": "Then my mom visits, and she goes, oh, how's Derek? Such a sweetheart.",
+   "set": "living",
+   "state": {
+    "tv": "MOM'S|VISIT"
+   },
+   "sfx": "pop",
+   "speaker": "co1",
+   "bubble": {
+    "text": "HOW'S DEREK?",
+    "x": 640,
+    "y": 520,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "You've met Derek?!",
+   "set": "closeup",
+   "sfx": "gasp",
+   "meme": "shake",
+   "state": {
+    "show": "text",
+    "big": "MOM HAS|MET DEREK",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "Sweetie, Derek is what you call yourself when you sleepwalk. You did it at nine too.",
+   "set": "living",
+   "state": {
+    "tv": "MOM'S|VISIT"
+   },
+   "sfx": "busted",
+   "meme": "shake",
+   "speaker": "co1",
+   "bubble": {
+    "text": "YOU'RE DEREK.",
+    "x": 620,
+    "y": 700,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.4
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     520,
+     920
+    ]
+   }
+  },
+  {
+   "text": "I'm Derek. For six months I've been sleepwalking, doing chores, and writing myself compliments.",
+   "set": "closeup",
+   "sfx": "vineboom",
+   "state": {
+    "show": "text",
+    "big": "I AM|DEREK",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   }
+  },
+  {
+   "text": "Which is sweet. Until I check my bank account.",
+   "set": "bedroom",
+   "state": {
+    "phone": true
+   },
+   "sfx": "payding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 500,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Every month, two rent payments. One from me. One from Derek.",
+   "set": "closeup",
+   "sfx": "metalpipe",
+   "cards": [
+    "ME: $900",
+    "DEREK: $900"
+   ],
+   "state": {
+    "show": "text",
+    "big": "RENT x2",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   }
+  },
+  {
+   "text": "I call my landlord. He goes, yeah, I thought that was weird. Wasn't gonna say anything.",
+   "set": "office",
+   "sfx": "fahh",
+   "speaker": "boss",
+   "bubble": {
+    "text": "WEIRD, RIGHT?",
+    "x": 620,
+    "y": 520,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "So before bed, I leave Derek a note. Please stop paying rent.",
+   "set": "night",
+   "state": {
+    "clock": "11:00",
+    "sign": "STOP PAYING|RENT. -ME"
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Next morning, there's a reply.",
+   "set": "kitchen",
+   "sfx": "drumroll",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     470,
+     700
+    ]
+   }
+  },
+  {
+   "text": "No. Also, we're out of milk.",
+   "set": "closeup",
+   "sfx": "bruh",
+   "meme": "shake",
+   "pause": 0.5,
+   "state": {
+    "show": "text",
+    "big": "NO.|ALSO: MILK",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   }
+  },
+  {
+   "text": "Honestly? Best roommate I've ever had.",
+   "set": "living",
+   "state": {
+    "tv": "DEREK'S|ROOM"
+   },
+   "sfx": "rimshot",
+   "pause": 0.6,
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  }
+ ]
+}

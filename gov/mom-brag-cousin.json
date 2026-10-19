@@ -1,0 +1,30 @@
+{
+ "day": "20260723",
+ "start": 627.0,
+ "end": 648.0,
+ "tail": 0.12,
+ "top_text": "My mom bragging about my cousin|after Dad says \"okay, they get it\":",
+ "sfx": [
+  {
+   "at_word": "expired",
+   "name": "recordscratch",
+   "delay": 0.05,
+   "gain": 0.7
+  },
+  {
+   "at_word": "since",
+   "name": "vineboom",
+   "delay": 0.05,
+   "gain": 0.7
+  },
+  {
+   "at_word": "celebrate",
+   "name": "laughtrack",
+   "delay": 0.4,
+   "gain": 0.45
+  }
+ ],
+ "hold_end": 2.0,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-07-23, caption clock 627.0-647.5; during one-minute speeches a member's (gentlewoman) tribute to a local lacrosse coach (Glen Ridge, NJ) runs past the limit, the chair says 'Gentlewoman, time has expired' and the member keeps reading the tribute to the end; harmless, no policy content; rights: 17 USC 105 public domain statement on the feed",
+ "end_on_word": "speaker"
+}

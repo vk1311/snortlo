@@ -1,0 +1,139 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #7",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR WIFE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Oh, I'm not picky. I'll eat anything!",
+   "top_text": "Me on our first date:",
+   "set": "office",
+   "state": {
+    "cooler": false,
+    "whiteboard": "TABLE FOR|TWO"
+   },
+   "speaker": "me",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.25,
+    "at": [
+     520,
+     880
+    ]
+   },
+   "pause": 0.9
+  },
+  {
+   "text": "",
+   "top_text": "5 years later:",
+   "hold": 1.6,
+   "sfx": "whoosh",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "5 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   }
+  },
+  {
+   "text": "Pizza? Tacos? Sushi? Burgers?",
+   "voice": "af_bella",
+   "top_text": "My wife, holding her phone|for the last 40 minutes:",
+   "set": "living",
+   "state": {
+    "tv": "WHAT'S FOR|DINNER?"
+   },
+   "speaker": "co1",
+   "sfx": "textbuzz",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 680,
+     "facing": -1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "flat",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     500,
+     900
+    ]
+   },
+   "pause": 0.8
+  },
+  {
+   "text": "Hmm. Nah.",
+   "top_text": "The man who eats anything:",
+   "set": "living",
+   "state": {
+    "tv": "WHAT'S FOR|DINNER?"
+   },
+   "speaker": "me",
+   "sfx": "vineboom",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "me"
+   },
+   "pause": 3.0
+  }
+ ]
+}
