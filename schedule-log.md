@@ -119,3 +119,13 @@ YouTube uploads today: 5 (2 parts, 2 memes, Congress). Instagram: 3 (Part 2, Par
 | 20:00 | Meme A, Lo vs Life #5 "When your wife is 'just resting her eyes' at 8 PM" (when_you, bruh, unvoiced) | meme-rest-her-eyes.mp4 | YouTube, Facebook, Instagram | cmvdbxuzo0053o280e6e5oaue, cmvdbxv070054o280aw2ezt0t, cmvdbxv0n0055o280d4jwt7i7 |
 
 YouTube uploads today: 5 (2 parts, 2 memes, Congress). Instagram: 3 (Part 2, Part 1, meme A). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 3, ? 4. Whisper dropped the word "Sorry" in the Congress clip; caption_fixes restore it to match the official House captions (text only, audio untouched). dog-will (today) goes in next Sunday's compilation. Housekeeping: deleted Oct 9 media (calendar-closet, gov-mom-phones-away, meme-bank-app-pov, meme-save-some-of-it).
+
+## Mon 2026-10-19 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme B, Lo vs Life #8 "When your mom and your teacher talk at pickup" (teacher_class, random:punch, unvoiced) | meme-pickup-report.mp4 | YouTube, Facebook, Instagram (1-part day) | cmveqlaoe005go280fyqbvk2r, cmveqlaon005ho280mzxt3c5l, cmveqlap5005io280v9yvwt8l |
+| 12:00 | Story "ghost-roommate" (1 part, question hook, roommates): "have you ever had a roommate you've never actually seen? #shorts" | ghost-roommate-part1.mp4 | YouTube, Facebook, Instagram | cmveqkxs0005do280hv51x8lf, cmveqkxt6005eo2806adbaq9c, cmveqkxtu005fo280oh1titvs |
+| 13:00 | Congress Moment "mom-brag-cousin" (2026-07-23, member's tribute to a local lacrosse coach runs past "time has expired" and she finishes it anyway; party ?) | gov-mom-brag-cousin.mp4 | YouTube, Facebook | cmveqlard005mo280lgrmv368, cmveqlasr005no2803ocl36pq |
+| 20:00 | Meme A, Lo vs Life #7 "Me on our first date: 'I'm not picky, I'll eat anything'" (x_years_later, vineboom, voiced, deepfry) | meme-eat-anything.mp4 | YouTube, Facebook, Instagram | cmveqlapi005jo280y43iaw74, cmveqlapu005ko280u9txolzs, cmveqlaqm005lo280ejrltqwj |
+
+YouTube uploads today: 4 (story, 2 memes, Congress). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 3, ? 5. Full cut ghost-roommate-full.mp4 = copy of part 1. Housekeeping: deleted Oct 10 media (wifi-riddles, gov-supervisory-cookie, meme-budget-app, meme-pizza-slice-math).
