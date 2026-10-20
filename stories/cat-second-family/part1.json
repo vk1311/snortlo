@@ -1,0 +1,418 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "part": "Part 1",
+ "end_card": {
+  "text": "PART 2 IS UP|ON THE PROFILE",
+  "secs": 3
+ },
+ "beats": [
+  {
+   "text": "POV: your cat has a secret second family.",
+   "set": "living",
+   "state": {
+    "tv": "WHERE IS|NOODLE?"
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 640,
+     "y": 1180,
+     "s": 1.2,
+     "eyes": "smug",
+     "dir": -1,
+     "bounce": true
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     520,
+     950
+    ]
+   }
+  },
+  {
+   "text": "Our cat Noodle used to scream for dinner at five AM. Now she sniffs her bowl and walks away. Like I'm a bad restaurant.",
+   "set": "kitchen",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 700,
+     "y": 1180,
+     "s": 1.2,
+     "eyes": "smug",
+     "dir": 1
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     520,
+     960
+    ]
+   }
+  },
+  {
+   "text": "And every night she comes home smelling like perfume. And salmon.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "PERFUME|+ SALMON?!",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "sfx": "hmm"
+  },
+  {
+   "text": "Then on Tuesday she strolls in wearing a tiny blue bow tie. We don't own a bow tie. I don't own a bow tie.",
+   "set": "living",
+   "state": {
+    "tv": "WHO BOUGHT|THIS?"
+   },
+   "sfx": "waitwhat",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 240,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 640,
+     "y": 1180,
+     "s": 1.2,
+     "eyes": "smug",
+     "dir": -1,
+     "bow": true
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "at": [
+     620,
+     1000
+    ]
+   }
+  },
+  {
+   "text": "So that night, I follow her.",
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "to": 420
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 800,
+     "y": 1180,
+     "s": 1.2,
+     "dir": 1
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     540,
+     980
+    ]
+   }
+  },
+  {
+   "text": "She crosses the street, hops a fence, and scratches at the door of the house across from ours. Very smooth. She's clearly done this before.",
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 860,
+     "y": 1180,
+     "s": 1.2,
+     "dir": 1,
+     "bow": true
+    }
+   ]
+  },
+  {
+   "text": "The door opens. A sweet old lady goes, Duchess, you're home! And serves her salmon. On a china plate.",
+   "set": "kitchen",
+   "sfx": "busted",
+   "meme": "shake",
+   "speaker": "co1",
+   "bubble": {
+    "text": "DUCHESS!",
+    "x": 760,
+    "y": 620,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 900,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 560,
+     "y": 1180,
+     "s": 1.2,
+     "eyes": "happy",
+     "dir": 1,
+     "bow": true,
+     "bounce": true
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     700,
+     950
+    ]
+   }
+  },
+  {
+   "text": "Duchess. My cat has a stage name.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SHE HAS A|STAGE NAME",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   },
+   "sfx": "huh",
+   "pause": 0.3
+  },
+  {
+   "text": "So I march over and knock. Ma'am, that's Noodle. She lives with me.",
+   "set": "street",
+   "sfx": "pop",
+   "speaker": "me",
+   "bubble": {
+    "text": "THAT'S NOODLE!",
+    "x": 400,
+    "y": 620,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.4
+     }
+    },
+    {
+     "who": "co1",
+     "x": 860,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "She looks me up and down and goes, oh, you must be the weekend guy.",
+   "set": "street",
+   "sfx": "ooh",
+   "speaker": "co1",
+   "bubble": {
+    "text": "THE WEEKEND GUY?",
+    "x": 720,
+    "y": 620,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 860,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     600,
+     950
+    ]
+   }
+  },
+  {
+   "text": "The weekend guy. In my own cat's life, I'm the side family.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "I'M THE|SIDE FAMILY",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "sadtrombone",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "I walk home alone. Noodle doesn't even look up from her salmon. She just flicks her tail at me like, see you Saturday.",
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  },
+  {
+   "text": "And that wasn't even the worst part. Because the next morning, there's a letter under my door. From her grandson. He's a lawyer.",
+   "set": "bedroom",
+   "state": {
+    "clock": "7:02"
+   },
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "hold": "paper",
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "It says: custody of Duchess.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "RE: CUSTODY|OF DUCHESS",
+    "bg1": "#E6F7EE",
+    "bg2": "#8FD3AE"
+   },
+   "sfx": "dundun",
+   "pause": 0.5
+  }
+ ]
+}

@@ -287,6 +287,42 @@ def draw_prop(c, pr, x, y, t, held=False, facing=1):
         if pr.get("tongue"):
             c.new_path(); c.save(); c.translate(hx + 50, hy + 42); c.scale(0.6, 1.0); c.arc(0, 0, 14, 0, 2 * math.pi); c.restore(); fill_stroke(c, "#FF7A8A", ink, 4)
         c.restore()
+    elif ty == "cat":  # chubby cartoon cat; feet at y. keys: dir (1 = faces right), fat (1.0-1.6), eyes (dot/happy/wide/smug), s, color, bow (bow tie), bounce
+        d = pr.get("dir", facing); fat = pr.get("fat", 1.0); s = pr.get("s", 1.0); ey = pr.get("eyes", "dot")
+        bob = 4 * math.sin(t * 6) if pr.get("bounce") else 0
+        c.save(); c.translate(x, y - bob); c.scale(s * d, s)
+        fur, ink = pr.get("color", "#E8964A"), INKC
+        sway = math.sin(t * 3) * 0.25
+        c.save(); c.translate(-70 * fat, -70); c.rotate(-0.25 + sway)  # tail, curls up
+        c.new_path(); c.move_to(0, 0); c.curve_to(-40, -40, -10, -110, 25, -120)
+        c.set_line_width(18); c.set_source_rgb(*ink); c.stroke_preserve(); c.set_line_width(10); c.set_source_rgb(*hexc(fur)); c.stroke(); c.restore()
+        for lx in (-45 * fat, -18 * fat, 28 * fat, 52 * fat):  # legs
+            line(c, (lx, -50), (lx, 0), 15, ink); line(c, (lx, -50), (lx, -4), 9, hexc(fur))
+        c.new_path(); c.save(); c.translate(0, -70); c.scale(0.8 * fat, 0.45 + 0.12 * (fat - 1)); c.arc(0, 0, 90, 0, 2 * math.pi); c.restore()
+        fill_stroke(c, fur, ink, 6)
+        for k in range(3):  # stripes
+            line(c, (-30 + k * 22, -100 - 6 * (fat - 1) * 40 / 40), (-38 + k * 22, -80), 6, hexc("#B8652A") if fur == "#E8964A" else (0.35, 0.35, 0.4))
+        hx, hy = 78 * fat, -125  # head
+        for ex_, sgn in ((hx - 30, -1), (hx + 26, 1)):  # ears
+            c.new_path(); c.move_to(ex_ - 20, hy - 30); c.line_to(ex_ + sgn * 8, hy - 78); c.line_to(ex_ + 22, hy - 34); c.close_path(); fill_stroke(c, fur, ink, 5)
+        c.new_path(); c.arc(hx, hy, 50, 0, 2 * math.pi); fill_stroke(c, fur, ink, 6)
+        c.new_path(); c.move_to(hx + 26, hy + 8); c.line_to(hx + 38, hy + 8); c.line_to(hx + 32, hy + 16); c.close_path(); c.set_source_rgb(*hexc("#FF7A8A")); c.fill()  # nose
+        for k in (-1, 1):  # whiskers
+            line(c, (hx + 40, hy + 16), (hx + 84, hy + 10 + k * 10), 3, ink)
+        for ex in (hx + 2, hx + 30):
+            if ey == "happy":
+                c.new_path(); c.arc(ex, hy - 6, 8, math.pi, 2 * math.pi); c.set_source_rgb(*ink); c.set_line_width(5); c.stroke()
+            elif ey == "smug":
+                line(c, (ex - 9, hy - 6), (ex + 9, hy - 6), 6, ink)
+            else:
+                r = 12 if ey == "wide" else 7
+                c.new_path(); c.arc(ex, hy - 6, r, 0, 2 * math.pi); c.set_source_rgb(*ink); c.fill()
+        if pr.get("bow"):
+            bx, by = hx - 6, hy + 50
+            for sgn in (-1, 1):
+                c.new_path(); c.move_to(bx, by); c.line_to(bx + sgn * 26, by - 14); c.line_to(bx + sgn * 26, by + 14); c.close_path(); fill_stroke(c, "#3A4BD8", ink, 4)
+            c.new_path(); c.arc(bx, by, 7, 0, 2 * math.pi); fill_stroke(c, "#3A4BD8", ink, 4)
+        c.restore()
     elif ty == "bacon":
         c.save(); c.translate(x + facing * 16, y - 10); c.new_path(); c.move_to(-36, 0)
         for j in range(9): c.line_to(-36 + j * 9, 7 * math.sin(j * 1.6 + t * 3))

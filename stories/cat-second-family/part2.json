@@ -1,0 +1,426 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_michael",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "part": "Part 2",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR CAT MOM",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "text": "POV: you're in a custody battle. Over a cat.",
+   "set": "office",
+   "state": {
+    "whiteboard": "CUSTODY|HEARING"
+   },
+   "sfx": "fahh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 860,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 560,
+     "y": 1180,
+     "s": 1.2,
+     "eyes": "smug",
+     "dir": 1,
+     "bow": true
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     560,
+     950
+    ]
+   }
+  },
+  {
+   "text": "Quick recap. My cat Noodle has been secretly living across the street, as a cat named Duchess. And now the sweet old lady over there wants full custody.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "RECAP: MY CAT|HAS A SECOND FAMILY",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "We meet at her kitchen table. Her grandson the lawyer brings a folder. I bring a bag of treats.",
+   "set": "kitchen",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 240,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co1",
+     "x": 920,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "He opens with exhibit A. Duchess has her own bedroom. With a chandelier.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "EXHIBIT A:|CAT CHANDELIER",
+    "bg1": "#E6F7EE",
+    "bg2": "#8FD3AE"
+   },
+   "sfx": "angelchoir"
+  },
+  {
+   "text": "My exhibit A? Noodle sleeps on my face every night. That's love.",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "3:00"
+   },
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 460,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 500,
+     "y": 1180,
+     "s": 1.2,
+     "eyes": "smug",
+     "dir": 1,
+     "fat": 1.2
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "at": [
+     500,
+     1000
+    ]
+   }
+  },
+  {
+   "text": "He says, sir, that's a cat trying to suffocate you.",
+   "set": "kitchen",
+   "sfx": "roast",
+   "meme": "shake",
+   "speaker": "boss",
+   "bubble": {
+    "text": "SHE WANTS YOU GONE",
+    "x": 600,
+    "y": 600,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 240,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     480,
+     950
+    ]
+   }
+  },
+  {
+   "text": "Fine. We let the cat decide. Noodle in the middle of the street. Me on one side. Granny on the other. Winner takes the cat.",
+   "set": "street",
+   "sfx": "drumroll",
+   "cast": [
+    {
+     "who": "me",
+     "x": 180,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 940,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 560,
+     "y": 1180,
+     "s": 1.2,
+     "dir": 1,
+     "bow": true
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     560,
+     950
+    ]
+   }
+  },
+  {
+   "text": "I shake the treat bag. She shakes a can of tuna. It's a western standoff. With snacks.",
+   "set": "street",
+   "sfx": "whistle",
+   "cast": [
+    {
+     "who": "me",
+     "x": 180,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "shake"
+    },
+    {
+     "who": "co1",
+     "x": 940,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "shake"
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 560,
+     "y": 1180,
+     "s": 1.2,
+     "eyes": "wide",
+     "dir": -1
+    }
+   ]
+  },
+  {
+   "text": "Noodle looks at me. Looks at her. Then walks right past both of us. Doesn't even blink.",
+   "set": "street",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 180,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 940,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 560,
+     "y": 1180,
+     "s": 1.2,
+     "eyes": "smug",
+     "dir": 1,
+     "bounce": true
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "at": [
+     560,
+     1000
+    ]
+   }
+  },
+  {
+   "text": "And hops straight into the mail truck.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SHE PICKED|THE MAILMAN",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   },
+   "sfx": "airhorn",
+   "meme": "shake"
+  },
+  {
+   "text": "Turns out the mailman's been feeding her ham on his route for two years. She calls him Daddy. Probably.",
+   "set": "street",
+   "sfx": "laughtrack",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 460,
+     "y": 1180,
+     "s": 1.2,
+     "eyes": "happy",
+     "dir": 1,
+     "bounce": true,
+     "bow": true
+    }
+   ]
+  },
+  {
+   "text": "So now Granny and I split the cost of a GPS collar. We're co-parents. We have a group chat. It's called Noodle Duchess Support Group.",
+   "set": "living",
+   "state": {
+    "tv": "GROUP CHAT|CO-PARENTS"
+   },
+   "sfx": "textbuzz",
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 940,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "props": [
+    {
+     "type": "cat",
+     "x": 560,
+     "y": 1180,
+     "s": 1.2,
+     "eyes": "smug",
+     "dir": -1,
+     "bow": true
+    }
+   ]
+  },
+  {
+   "text": "And next time? I find out what my dog does all day while I'm at work.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NEXT:|WHAT THE DOG DOES",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "reveal",
+   "pause": 0.5
+  }
+ ]
+}

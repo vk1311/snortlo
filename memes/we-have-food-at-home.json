@@ -1,0 +1,179 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #9",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Me at 8: \"Mom, can we|get burgers?\"",
+   "set": "street",
+   "sfx": "pop",
+   "speaker": "me",
+   "bubble": {
+    "text": "BURGERS? PLEASE?",
+    "x": 380,
+    "y": 620,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co1",
+     "x": 820,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     540,
+     900
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Mom:",
+   "set": "street",
+   "sfx": "dundun",
+   "speaker": "co1",
+   "bubble": {
+    "text": "WE HAVE FOOD AT HOME",
+    "x": 720,
+    "y": 600,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 820,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "The food at home:",
+   "set": "kitchen",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "cup"
+    ]
+   },
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     520,
+     900
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "Mom at 9 PM, alone in the|car, eating drive-thru:",
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "sfx": "roast",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "sandwich",
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Me, watching from|the window:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "9:04"
+   },
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 2.0,
+    "on": "me"
+   }
+  }
+ ]
+}
