@@ -129,3 +129,13 @@ YouTube uploads today: 5 (2 parts, 2 memes, Congress). Instagram: 3 (Part 2, Par
 | 20:00 | Meme A, Lo vs Life #7 "Me on our first date: 'I'm not picky, I'll eat anything'" (x_years_later, vineboom, voiced, deepfry) | meme-eat-anything.mp4 | YouTube, Facebook, Instagram | cmveqlapi005jo280y43iaw74, cmveqlapu005ko280u9txolzs, cmveqlaqm005lo280ejrltqwj |
 
 YouTube uploads today: 4 (story, 2 memes, Congress). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 3, ? 5. Full cut ghost-roommate-full.mp4 = copy of part 1. Housekeeping: deleted Oct 10 media (wifi-riddles, gov-supervisory-cookie, meme-budget-app, meme-pizza-slice-math).
+
+## Tue 2026-10-20 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #9 "When mom says 'we have food at home'" (when_you, roast, unvoiced) | meme-we-have-food-at-home.mp4 | YouTube, Facebook, Instagram | cmvg6avhj005uo2809mhe43pg, cmvg6avhr005vo280sz8oscbw, cmvg6avir005wo280osmj85uq |
+| 11:30 | Story "cat-second-family" Part 2/2 (POV hook, pets): "pov: i'm in a custody battle over my cat (Part 2/2) #shorts" | cat-second-family-part2.mp4 | YouTube, Facebook, Instagram | cmvg6amok005oo280311anq4b, cmvg6ampc005po280mef8k2sh, cmvg6ampq005qo2809fspxtdf |
+| 12:00 | Story Part 1/2: "pov: my cat has a secret second family (Part 1/2) #shorts" | cat-second-family-part1.mp4 | YouTube, Facebook, Instagram | cmvg6amq6005ro2808xtad603, cmvg6amr5005so280ti2lwyuo, cmvg6amsb005to280v98gyg9s |
+| 15:00 | Meme B, Lo vs Life #10 "My wife when I'm on my phone vs. her at 1 AM" (nobody_me, bruh, voiced; moved +2h from 13:00, clashed with story) | meme-reels-at-2am.mp4 | YouTube, Facebook | cmvg6avjt005xo280rpsum8rp, cmvg6avl2005yo280toaxxjwf |
+
+YouTube uploads today: 4 (2 parts, 2 memes). Instagram: 3 (Part 2, Part 1, meme A). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: Oct 19 was pro forma, every other unused day in the last 30 had no candidates, and the remaining July candidates were policy speeches, a repeat of the voice-vote/quorum gag, or the Jul 21 heated-debate squabble already rejected; gov/used.txt unchanged. Engine: new `cat` prop (keys dir, fat, eyes dot/happy/wide/smug, color, bow, bounce). Note: never render two videos in parallel (voice2.py writes engine/timing.json + voice.wav; parallel runs clobber each other). Housekeeping NOT done: deleting the Oct 11 media (compile-2026-10-11, fake-henderson, gov-shush-the-brothers, meme-five-more-minutes, meme-turn-this-dinner-around) was blocked by the run's permission check; delete them on the next run or by hand.
