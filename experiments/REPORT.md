@@ -1,5 +1,5 @@
 # Snortlo experiment scoreboard
-_updated 2026-10-20 · score = average log(1 + views_72h) on YouTube, higher is better_
+_updated 2026-10-21 · score = average log(1 + views_72h) on YouTube, higher is better_
 
 ## stories
 
@@ -14,10 +14,10 @@ _updated 2026-10-20 · score = average log(1 + views_72h) on YouTube, higher is 
 
 ## memes
 
-- format: **x_years_later** 8.99 (n=1) · **me_vs_mom** 7.38 (n=1) · **teacher_class** 7.38 (n=1) · **nobody_me** 7.17 (n=1) · **expectation_reality** 7.17 (n=1) · **when_you** 6.30 (n=2) · **pov** – (n=0) · **starter_pack** – (n=0)
-- punch_sound: **bruh** 8.99 (n=1) · **metalpipe** 7.38 (n=1) · **fahh** 7.18 (n=3) · **vineboom** 6.38 (n=2) · **random:punch** – (n=0) · **bonecrack** – (n=0) · **phonk** – (n=0) · **roast** – (n=0)
-- length: **long_12_16s** 7.79 (n=3) · **short_6_9s** 6.83 (n=4)
-- voiced: **False** 7.28 (n=6) · **True** 7.00 (n=1)
-- deepfry: **False** 7.32 (n=3) · **True** 7.18 (n=4)
-- post_hour: **8** 7.73 (n=4) · **13** 7.00 (n=1) · **20** 6.38 (n=2)
-- theme: **food** 7.38 (n=1) · **money** 7.24 (n=4) · **sleep** 7.17 (n=2) · **work** – (n=0) · **school** – (n=0) · **family** – (n=0) · **phone** – (n=0) · **friends** – (n=0)
+- format: **x_years_later** 8.08 (n=2) · **me_vs_mom** 7.38 (n=1) · **teacher_class** 7.38 (n=1) · **nobody_me** 7.17 (n=1) · **expectation_reality** 7.17 (n=1) · **when_you** 6.30 (n=2) · **pov** – (n=0) · **starter_pack** – (n=0)
+- punch_sound: **bruh** 8.08 (n=2) · **metalpipe** 7.38 (n=1) · **fahh** 7.18 (n=3) · **vineboom** 6.38 (n=2) · **random:punch** – (n=0) · **bonecrack** – (n=0) · **phonk** – (n=0) · **roast** – (n=0)
+- length: **long_12_16s** 7.64 (n=4) · **short_6_9s** 6.83 (n=4)
+- voiced: **False** 7.27 (n=7) · **True** 7.00 (n=1)
+- deepfry: **False** 7.28 (n=4) · **True** 7.18 (n=4)
+- post_hour: **8** 7.73 (n=4) · **13** 7.09 (n=2) · **20** 6.38 (n=2)
+- theme: **food** 7.38 (n=1) · **money** 7.23 (n=5) · **sleep** 7.17 (n=2) · **work** – (n=0) · **school** – (n=0) · **family** – (n=0) · **phone** – (n=0) · **friends** – (n=0)

@@ -1,0 +1,406 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_michael",
+ "speed": 1.25,
+ "music": true,
+ "min_seconds": 61,
+ "part": "Part 2",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "text": "POV: your friends like your mom more than you.",
+   "set": "living",
+   "state": {
+    "tv": "TEAM|LINDA"
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 130,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co2",
+     "x": 580,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    },
+    {
+     "who": "co3",
+     "x": 1010,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.1,
+    "at": [
+     560,
+     950
+    ]
+   }
+  },
+  {
+   "text": "Quick recap: my friend added my mom to our group chat by accident, and they voted to keep her.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "ADDED BY ACCIDENT.|KEPT ON PURPOSE.",
+    "bg1": "#E4F5F3",
+    "bg2": "#8FD3C9"
+   },
+   "sfx": "textbuzz"
+  },
+  {
+   "text": "Since then she's been giving them life advice. Dev asked about his girlfriend. Mom sent him a three paragraph plan.",
+   "set": "living",
+   "state": {
+    "tv": "DEV'S|5 YEAR PLAN"
+   },
+   "sfx": "ooh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 580,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co2",
+     "x": 250,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "paper"
+    }
+   ]
+  },
+  {
+   "text": "So on Sunday I walk into my parents' house, and my whole friend group is in her kitchen.",
+   "set": "kitchen",
+   "sfx": "waitwhat",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "to": 260
+    },
+    {
+     "who": "co2",
+     "x": 880,
+     "facing": -1,
+     "pose": "stir",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "stir"
+    },
+    {
+     "who": "co3",
+     "x": 640,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ],
+   "props": [
+    {
+     "type": "pot",
+     "x": 880,
+     "y": 890
+    }
+   ]
+  },
+  {
+   "text": "Wearing aprons. Dev is stirring the gravy. Dev has never stirred anything. Dev microwaves cereal.",
+   "set": "kitchen",
+   "sfx": "metalpipe",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 880,
+     "facing": -1,
+     "pose": "stir",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "stir"
+    }
+   ],
+   "props": [
+    {
+     "type": "pot",
+     "x": 880,
+     "y": 890
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "Kevin is setting the table. With the good plates. I have never once been allowed the good plates.",
+   "set": "kitchen",
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 640,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "text": "And my mom goes, sit down sweetie, the boys are handling it.",
+   "set": "kitchen",
+   "sfx": "pop",
+   "speaker": "co1",
+   "bubble": {
+    "text": "SIT DOWN, SWEETIE",
+    "x": 700,
+    "y": 600,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "Then I see her phone. She renamed the group chat. Linda's Boys.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "LINDA'S|BOYS",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "hmm"
+  },
+  {
+   "text": "I scroll down. Linda removed you.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "LINDA|REMOVED YOU",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   },
+   "sfx": "busted",
+   "meme": "shake",
+   "pause": 0.4
+  },
+  {
+   "text": "I got kicked out of my own group chat. By the woman who taught me how to text.",
+   "set": "kitchen",
+   "sfx": "sadtrombone",
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "text": "My friends just stare at their shoes. Dev whispers, sorry bro. She makes really good gravy.",
+   "set": "kitchen",
+   "sfx": "bruh",
+   "speaker": "co2",
+   "bubble": {
+    "text": "SORRY BRO",
+    "x": 760,
+    "y": 600,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 820,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "So I do the only thing left. I start a new group chat. Just me and my dad.",
+   "set": "bedroom",
+   "state": {
+    "phone": true
+   },
+   "sfx": "typebell",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "His first message: Who is this. I write back, Dad, it's your son.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WHO IS THIS.",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "sfx": "crickets",
+   "pause": 0.3
+  },
+  {
+   "text": "He's had my number for twelve years. It's saved as Lawn Guy.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SAVED AS:|LAWN GUY",
+    "bg1": "#E4F5F3",
+    "bg2": "#8FD3C9"
+   },
+   "sfx": "fahh",
+   "meme": "slowzoom",
+   "pause": 0.3
+  },
+  {
+   "text": "Next time: my dad finds out I'm not the lawn guy. He's not happy about it.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NEXT:|DAD VS LAWN GUY",
+    "bg1": "#3A2D5C",
+    "bg2": "#120E1F"
+   },
+   "sfx": "reveal",
+   "pause": 0.5
+  }
+ ]
+}

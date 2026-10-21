@@ -1,0 +1,19 @@
+{
+ "day": "20260722",
+ "start": 31422.0,
+ "end": 31431.6,
+ "top_text": "Dad trying to say grace|with all the cousins at the table:",
+ "sfx": [
+  {"at_word": "order", "name": "vineboom", "delay": 0.05, "gain": 0.75},
+  {"at_word": "order", "name": "crickets", "delay": 0.9, "gain": 0.5},
+  {"at_word": "thank", "name": "laughtrack", "delay": 2.6, "gain": 0.45}
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-07-22, caption clock 31422.0-31431.6; the chair recognizes the gentleman from Florida, who asks 'Mr. Speaker, can we get the House in order?', waits for the chamber to quiet, says 'Thank you', and the chair gavels 'The House will be in order'; pure procedure, the clip ends before any policy content; rights: 17 USC 105 public domain statement on the feed",
+ "caption_fixes": [
+  {"from": ["eels"], "to": ["yields."]},
+  {"from": ["general", "from", "new"], "to": ["Gentleman", "from", "New"]},
+  {"from": ["general", "from", "ford"], "to": ["Gentleman", "from", "Florida"]},
+  {"from": ["house", "be", "in", "order"], "to": ["The House", "will be", "in", "order."]}
+ ]
+}

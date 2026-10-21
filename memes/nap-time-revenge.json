@@ -1,0 +1,168 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #11",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Mom: \"Nap time!\"|Me at 5:",
+   "set": "bedroom",
+   "state": {
+    "clock": "2:00"
+   },
+   "sfx": "nooo",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.6
+     }
+    },
+    {
+     "who": "co1",
+     "x": 780,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.25,
+    "at": [
+     560,
+     900
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "Me, fighting it like a|prison sentence:",
+   "set": "bedroom",
+   "state": {
+    "clock": "2:01"
+   },
+   "sfx": "alarm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 520,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 0.8,
+      "steam": true
+     },
+     "act": "shake"
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.4,
+   "top_text": "25 years later:",
+   "set": "closeup",
+   "sfx": "whoosh",
+   "state": {
+    "show": "text",
+    "big": "25 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Me in a 2 PM meeting|on 4 hours of sleep:",
+   "set": "office",
+   "state": {
+    "whiteboard": "Q3|SYNERGY"
+   },
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 800,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "o"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     480,
+     900
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Me, the second my mom says|\"You look tired, go nap\":",
+   "set": "bedroom",
+   "state": {
+    "clock": "2:00"
+   },
+   "sfx": "bruh",
+   "meme": "slowzoom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  }
+ ]
+}
