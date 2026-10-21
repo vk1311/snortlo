@@ -139,3 +139,15 @@ YouTube uploads today: 4 (story, 2 memes, Congress). Instagram: 3 (story, meme A
 | 15:00 | Meme B, Lo vs Life #10 "My wife when I'm on my phone vs. her at 1 AM" (nobody_me, bruh, voiced; moved +2h from 13:00, clashed with story) | meme-reels-at-2am.mp4 | YouTube, Facebook | cmvg6avjt005xo280rpsum8rp, cmvg6avl2005yo280toaxxjwf |
 
 YouTube uploads today: 4 (2 parts, 2 memes). Instagram: 3 (Part 2, Part 1, meme A). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: Oct 19 was pro forma, every other unused day in the last 30 had no candidates, and the remaining July candidates were policy speeches, a repeat of the voice-vote/quorum gag, or the Jul 21 heated-debate squabble already rejected; gov/used.txt unchanged. Engine: new `cat` prop (keys dir, fat, eyes dot/happy/wide/smug, color, bow, bounce). Note: never render two videos in parallel (voice2.py writes engine/timing.json + voice.wav; parallel runs clobber each other). Housekeeping NOT done: deleting the Oct 11 media (compile-2026-10-11, fake-henderson, gov-shush-the-brothers, meme-five-more-minutes, meme-turn-this-dinner-around) was blocked by the run's permission check; delete them on the next run or by hand.
+
+## Wed 2026-10-21 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 11:30 | Story "mom-group-chat" Part 2/2 (POV hook, family): "POV: my friends voted to keep my mom in the group chat 😭 (Part 2/2) #shorts" | mom-group-chat-part2.mp4 | YouTube, Facebook, Instagram | cmvhly3tk005zo280x1uxqa6t, cmvhly3u40060o2800jh9tkgx, cmvhly3v70061o280tbtcyjkh |
+| 12:00 | Story Part 1/2: "POV: my mom got added to my friends' group chat 💀 (Part 1/2) #shorts" | mom-group-chat-part1.mp4 | YouTube, Facebook, Instagram | cmvhly3wh0062o280xwmv3d7r, cmvhly3xf0063o280m0fy0vn8, cmvhly3xy0064o280knhhck91 |
+| 13:00 | Congress Moment "say-grace" (2026-07-22, member asks "Mr. Speaker, can we get the House in order?", waits, chair gavels; party ?) | gov-say-grace.mp4 | YouTube, Facebook | cmvhlygtk0065o280ivoov52o, cmvhlygtu0066o280wp00p9b8 |
+| 14:00 | Story full cut (Wednesday) | mom-group-chat-full.mp4 | Facebook | cmvhlygui0067o280o93ju3pf |
+| 15:00 | Meme B, Lo vs Life #12 "When you show your mom ONE photo on your phone" (when_you, roast, voiced; moved +2h from 13:00, clashed with story) | meme-show-mom-one-photo.mp4 | YouTube, Facebook | cmvhlygv50068o280pe0fpzn8, cmvhlygw60069o280fdz1f7me |
+| 20:00 | Meme A, Lo vs Life #11 "Me at 5 vs. me at 30 when mom says 'nap time'" (x_years_later, bruh, unvoiced) | meme-nap-time-revenge.mp4 | YouTube, Facebook, Instagram | cmvhlygxh006ao2807x5v77m7, cmvhlygyg006bo280a4m0ys86, cmvhlygzk006co2802erce7te |
+
+YouTube uploads today: 5 (2 parts, 2 memes, Congress). Instagram: 3 (Part 2, Part 1, meme A). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 3, ? 6. Rejected 2026-07-22 Utah "not yet recognized" restart: it was a memorial for a fallen firefighter (tragedy rule). Housekeeping: deleted Oct 11-12 media (compile-2026-10-11, fake-henderson, class-hamster, gov-shush-the-brothers, gov-third-air-fryer, 4 memes).
