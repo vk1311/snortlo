@@ -151,3 +151,13 @@ YouTube uploads today: 4 (2 parts, 2 memes). Instagram: 3 (Part 2, Part 1, meme 
 | 20:00 | Meme A, Lo vs Life #11 "Me at 5 vs. me at 30 when mom says 'nap time'" (x_years_later, bruh, unvoiced) | meme-nap-time-revenge.mp4 | YouTube, Facebook, Instagram | cmvhlygxh006ao2807x5v77m7, cmvhlygyg006bo280a4m0ys86, cmvhlygzk006co2802erce7te |
 
 YouTube uploads today: 5 (2 parts, 2 memes, Congress). Instagram: 3 (Part 2, Part 1, meme A). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 3, ? 6. Rejected 2026-07-22 Utah "not yet recognized" restart: it was a memorial for a fallen firefighter (tragedy rule). Housekeeping: deleted Oct 11-12 media (compile-2026-10-11, fake-henderson, class-hamster, gov-shush-the-brothers, gov-third-air-fryer, 4 memes).
+
+## Thu 2026-10-22 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #13 "Me, opening the fridge for the 7th time in 10 minutes" (nobody_me, metalpipe, unvoiced, food) | meme-fridge-respawn.mp4 | YouTube, Facebook, Instagram | cmvj0w2q2006to2804itwqb34, cmvj0w2s1006uo2806z33ht0r, cmvj0w2sx006vo280mib4g4vx |
+| 13:00 | Congress Moment "fifteen-more-seconds" (2026-07-16, member's time expires, he bargains "10 more, 15 more seconds", chair grants it; party ?) | gov-fifteen-more-seconds.mp4 | YouTube, Facebook | cmvj0w2tq006wo280xunzzzb9, cmvj0w2u4006xo280d0x5luid |
+| 17:00 | Story "thermostat-war" (1 part, question hook, family): "have you ever been in a thermostat war with your dad? #shorts" | thermostat-war-part1.mp4 | YouTube, Facebook, Instagram | cmvj0w2vq006yo280dzw5p8gh, cmvj0w2wr006zo280ji6pv1lr, cmvj0w2xm0070o2806998riwl |
+| 20:00 | Meme B, Lo vs Life #14 "Me and the boys at 21 vs. 10 years later" (x_years_later, vineboom, unvoiced, friends) | meme-night-is-young.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvj0w2yc0071o28073zk2enf, cmvj0w2z90072o2808de0tm85, cmvj0w30j0073o280f7q3qkj2 |
+
+YouTube uploads today: 4 (story, 2 memes, Congress). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 3, ? 7. Full cut thermostat-war-full.mp4 = copy of part 1. Housekeeping NOT done: deleting the Oct 13 media (diary-essay-*, gov-house-in-order, meme-dead-now, meme-made-of-money) was blocked by the run's permission check; delete them on the next run or by hand.
