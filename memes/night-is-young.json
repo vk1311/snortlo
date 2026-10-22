@@ -1,0 +1,129 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #14",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR GROUP CHAT",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.3,
+   "top_text": "Me and the boys at 21:|\"The night is YOUNG!\"",
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "sfx": "airhorn",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co2",
+     "x": 260,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "boss",
+     "x": 820,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.1,
+    "at": [
+     540,
+     900
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.2,
+   "top_text": "10 years later:",
+   "set": "closeup",
+   "sfx": "whoosh",
+   "state": {
+    "show": "text",
+    "big": "10 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.3,
+   "top_text": "Us at 31, home by 9:30|calling it \"a big night\":",
+   "set": "living",
+   "state": {
+    "tv": "9:30 PM|"
+   },
+   "sfx": "vineboom",
+   "meme": "slowzoom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 260,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 820,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.15,
+    "at": [
+     540,
+     900
+    ]
+   }
+  }
+ ]
+}

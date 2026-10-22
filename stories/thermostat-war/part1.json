@@ -1,0 +1,499 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.25,
+ "music": true,
+ "min_seconds": 61,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR DAD",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "text": "Have you ever been in a thermostat war with your own dad?",
+   "set": "living",
+   "state": {
+    "tv": "68|NO TOUCH"
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "text": "My dad has kept that thermostat at sixty eight degrees since nineteen ninety four.",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "text",
+    "big": "68 DEGREES|SINCE 1994",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   }
+  },
+  {
+   "text": "I'm home for one weekend. I'm freezing. So I bump it up. One degree.",
+   "set": "living",
+   "state": {
+    "tv": "69|NO TOUCH"
+   },
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "to": 520
+    }
+   ]
+  },
+  {
+   "text": "Forty seconds later, he storms in from the garage. Who touched it?",
+   "set": "living",
+   "state": {
+    "tv": "69|NO TOUCH"
+   },
+   "sfx": "doorslam",
+   "speaker": "boss",
+   "bubble": {
+    "text": "WHO TOUCHED IT?",
+    "x": 640,
+    "y": 520,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 980,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "to": 660,
+     "fx": {
+      "red": 0.6
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     540,
+     900
+    ]
+   }
+  },
+  {
+   "text": "He wasn't even inside. He felt it in his bones.",
+   "set": "closeup",
+   "sfx": "huh",
+   "state": {
+    "show": "text",
+    "big": "HE FELT IT|IN HIS BONES",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "Night two, I get sneaky. Two AM, one more degree.",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "2:00"
+   },
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "me",
+     "x": 500,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Next morning, there's a padlock on the thermostat, and a note that says, I see you.",
+   "set": "kitchen",
+   "state": {
+    "sign": "I SEE YOU.|-DAD"
+   },
+   "sfx": "recordscratch",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     470,
+     700
+    ]
+   }
+  },
+  {
+   "text": "Night three, I'm in two hoodies and a beanie. He calls it character building.",
+   "set": "living",
+   "state": {
+    "tv": "68|LOCKED"
+   },
+   "sfx": "bruh",
+   "speaker": "boss",
+   "bubble": {
+    "text": "CHARACTER BUILDING!",
+    "x": 640,
+    "y": 520,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "Then at three AM, I hear the padlock click.",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "3:00"
+   },
+   "sfx": "heartbeat",
+   "slow": true,
+   "cast": [
+    {
+     "who": "me",
+     "x": 500,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  },
+  {
+   "text": "I creep downstairs to catch him red handed. And it's my mom. In a robe. Cranking it to seventy five.",
+   "set": "living",
+   "state": {
+    "dark": true,
+    "tv": "75|"
+   },
+   "sfx": "busted",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 240,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     500,
+     900
+    ]
+   }
+  },
+  {
+   "text": "She doesn't even flinch. Thirty years, sweetie. He has never once caught me.",
+   "set": "living",
+   "state": {
+    "dark": true,
+    "tv": "75|"
+   },
+   "sfx": "ayo",
+   "speaker": "co1",
+   "bubble": {
+    "text": "30 YEARS, SWEETIE.",
+    "x": 620,
+    "y": 520,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Every single time it went up, he blamed us kids.",
+   "set": "closeup",
+   "sfx": "metalpipe",
+   "state": {
+    "show": "text",
+    "big": "30 YEARS|OF BLAME",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   }
+  },
+  {
+   "text": "Breakfast. Dad's furious. Somebody turned it to seventy five.",
+   "set": "kitchen",
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 0.8,
+      "steam": true
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Mom looks right at me. I look right at her.",
+   "set": "closeup",
+   "sfx": "hmm",
+   "state": {
+    "show": "text",
+    "big": "...",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   }
+  },
+  {
+   "text": "And I say, Dad. It was me.",
+   "set": "kitchen",
+   "sfx": "vineboom",
+   "pause": 0.3,
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "He's so proud. Finally! Twenty five years, I knew it was you!",
+   "set": "kitchen",
+   "sfx": "fanfare",
+   "speaker": "boss",
+   "bubble": {
+    "text": "I KNEW IT!",
+    "x": 620,
+    "y": 520,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 700,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Mom slides me twenty bucks under the table.",
+   "set": "kitchen",
+   "sfx": "cashregister",
+   "cards": [
+    "+$20"
+   ],
+   "cast": [
+    {
+     "who": "co1",
+     "x": 520,
+     "facing": -1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "So now I'm on the payroll. Next weekend, I'm taking the fall for the dishwasher.",
+   "set": "living",
+   "state": {
+    "tv": "75|"
+   },
+   "sfx": "rimshot",
+   "pause": 0.6,
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  }
+ ]
+}

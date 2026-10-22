@@ -1,0 +1,40 @@
+{
+ "day": "20260716",
+ "start": 3048.9,
+ "end": 3058.9,
+ "end_on_word": "speaker",
+ "tail": 0.5,
+ "top_text": "Mom: \"Time's up, off the Xbox.\"|Me, every single night:",
+ "sfx": [
+  {
+   "at_word": "expired",
+   "name": "buzzer",
+   "delay": 0.05,
+   "gain": 0.6
+  },
+  {
+   "at_word": "seconds",
+   "name": "vineboom",
+   "delay": 0.05,
+   "gain": 0.8
+  },
+  {
+   "at_word": "objection",
+   "name": "laughtrack",
+   "delay": 0.3,
+   "gain": 0.5
+  }
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-07-16, caption clock 3048.9-3058.9; a member asks unanimous consent to insert an amendment's text into the record, the chair says his time has expired, he bargains '10 more, 15 more seconds', the chair grants it 'without objection', he says 'Thank you, Mr. Speaker'; pure procedure, clip starts after the policy content and ends before he resumes; rights: 17 USC 105 public domain statement on the feed",
+ "caption_fixes": [
+  {
+   "from": [
+    "general"
+   ],
+   "to": [
+    "Gentleman's"
+   ]
+  }
+ ]
+}

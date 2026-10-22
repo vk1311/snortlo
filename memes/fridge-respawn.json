@@ -1,0 +1,146 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #13",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR WIFE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 1.6,
+   "top_text": "Nobody:",
+   "set": "kitchen",
+   "sfx": "crickets",
+   "cam": {
+    "zoom": 1.0
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Me, opening the fridge for|the 7th time in 10 minutes:",
+   "set": "kitchen",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "cup"
+    ]
+   },
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     520,
+     800
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Hoping new food spawned|since last time:",
+   "set": "closeup",
+   "sfx": "sparkle",
+   "state": {
+    "show": "text",
+    "big": "FOOD|RESPAWN?",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "My wife: \"There's literally|leftovers right there\"",
+   "set": "kitchen",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "lunch",
+     "cup"
+    ]
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 860,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 620,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     620,
+     880
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me, who has decided|leftovers are not food:",
+   "set": "kitchen",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "lunch",
+     "cup"
+    ]
+   },
+   "sfx": "metalpipe",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "fx": {
+      "red": 0.3
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "me"
+   }
+  }
+ ]
+}
