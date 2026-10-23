@@ -1,0 +1,125 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #15",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Ew! Broccoli is disgusting!",
+   "top_text": "Me at 8, when mom|made broccoli:",
+   "set": "kitchen",
+   "speaker": "me",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.25,
+    "at": [
+     520,
+     880
+    ]
+   },
+   "pause": 0.7
+  },
+  {
+   "text": "",
+   "top_text": "20 years later:",
+   "hold": 1.4,
+   "sfx": "whoosh",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "20 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   }
+  },
+  {
+   "text": "Could I get extra broccoli on that? Thanks!",
+   "top_text": "Me at 28, paying $16|for a salad:",
+   "set": "office",
+   "state": {
+    "cooler": false,
+    "whiteboard": "SALAD|$16"
+   },
+   "speaker": "me",
+   "sfx": "payding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   },
+   "pause": 0.7
+  },
+  {
+   "text": "I made you that for free. For twenty years.",
+   "voice": "af_bella",
+   "top_text": "My mom when she finds out:",
+   "set": "kitchen",
+   "speaker": "co1",
+   "sfx": "bruh",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 540,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "act": "talk",
+     "fx": {
+      "red": 0.7,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.9,
+    "on": "co1"
+   },
+   "pause": 2.6
+  }
+ ]
+}

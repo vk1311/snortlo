@@ -1,0 +1,174 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #16",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BOYS",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Me and the boys at 18:|flexing our new sneakers",
+   "set": "street",
+   "sfx": "airhorn",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 260,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 820,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.1,
+    "at": [
+     540,
+     900
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.4,
+   "top_text": "12 years later:",
+   "sfx": "whoosh",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "12 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.3,
+   "top_text": "Bro... is that the|DUAL BASKET?!",
+   "set": "living",
+   "state": {
+    "tv": "DUAL BASKET|AIR FRYER"
+   },
+   "sfx": "gasp",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 160,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 640,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.1,
+    "at": [
+     560,
+     900
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 4.2,
+   "top_text": "Us at 30, flexing|our new air fryers:",
+   "set": "living",
+   "state": {
+    "tv": "6 QUART|NO OIL"
+   },
+   "sfx": "phonk",
+   "meme": "slowzoom",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 160,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 640,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.1,
+    "at": [
+     560,
+     900
+    ]
+   }
+  }
+ ]
+}

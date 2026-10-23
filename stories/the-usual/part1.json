@@ -1,0 +1,654 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "min_seconds": 61,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BARISTA FRIEND",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "text": "POV: it's your first day at the coffee shop, and a man walks in and says, the usual.",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "speaker": "co2",
+   "bubble": {
+    "text": "THE USUAL.",
+    "x": 440,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "I have worked here for eleven minutes.",
+   "set": "closeup",
+   "sfx": "bruh",
+   "state": {
+    "show": "text",
+    "big": "EMPLOYED FOR|11 MINUTES",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   }
+  },
+  {
+   "text": "So I ask, sorry, what's the usual? He looks at me like I just insulted his mother.",
+   "sfx": "gasp",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.5
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "cam": {
+    "zoom": 1.4,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "You know. The usual.",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "speaker": "co2",
+   "bubble": {
+    "text": "YOU KNOW.",
+    "x": 440,
+    "y": 520,
+    "tail": 30
+   }
+  },
+  {
+   "text": "Medium latte? He shakes his head. Oat milk? Nope. Something iced?",
+   "sfx": "buzzer",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "worried",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "cards": [
+    "LATTE?",
+    "OAT?",
+    "ICED?"
+   ]
+  },
+  {
+   "text": "He gasps. Iced? In October?",
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "speaker": "co2",
+   "bubble": {
+    "text": "IN OCTOBER?!",
+    "x": 440,
+    "y": 520,
+    "tail": 30
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Now there's a line out the door, and every single person is staring at me.",
+   "set": "street",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 440,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 680,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 900,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "So I whisper to my manager, who is this guy? And she whispers back, no idea. He's been coming here for six years.",
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 860,
+     "facing": -1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "speaker": "co1",
+   "cam": {
+    "zoom": 1.5,
+    "at": [
+     730,
+     880
+    ]
+   }
+  },
+  {
+   "text": "Nobody has ever known what the usual is.",
+   "set": "closeup",
+   "sfx": "busted",
+   "state": {
+    "show": "text",
+    "big": "6 YEARS.|NOBODY KNOWS.",
+    "bg1": "#3A2D5C",
+    "bg2": "#7A63B0"
+   },
+   "meme": "shake"
+  },
+  {
+   "text": "Every barista just guessed. The last guy quit over it.",
+   "set": "closeup",
+   "sfx": "dundun",
+   "state": {
+    "show": "text",
+    "big": "THE LAST GUY|QUIT",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   }
+  },
+  {
+   "text": "So I panic. Espresso. Hot chocolate. A pump of vanilla, a pump of pumpkin, and a sprinkle of cinnamon.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "stir",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "stir"
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "cards": [
+    "ESPRESSO",
+    "COCOA",
+    "PUMPKIN"
+   ],
+   "props": [
+    {
+     "type": "cup",
+     "x": 700,
+     "y": 890
+    }
+   ]
+  },
+  {
+   "text": "I hand it over. He takes one sip.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "drink",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     },
+     "hold": "cup",
+     "act": "drink"
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "slow": true,
+   "cam": {
+    "zoom": 1.8,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "He closes his eyes and says, finally. Someone who gets it.",
+   "sfx": "angelchoir",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "speaker": "co2",
+   "bubble": {
+    "text": "FINALLY.",
+    "x": 440,
+    "y": 520,
+    "tail": 30
+   }
+  },
+  {
+   "text": "He tips me twenty bucks. The whole line claps.",
+   "sfx": "applause",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "cards": [
+    "+$20"
+   ]
+  },
+  {
+   "text": "Next morning, he's back. The usual, please.",
+   "sfx": "doorslam",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "speaker": "co2",
+   "bubble": {
+    "text": "THE USUAL.",
+    "x": 440,
+    "y": 520,
+    "tail": 30
+   }
+  },
+  {
+   "text": "Easy. Same drink, perfect, one hundred percent identical.",
+   "sfx": "rizz",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "cup"
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   }
+  },
+  {
+   "text": "He sips it and frowns. This is what I had yesterday.",
+   "sfx": "recordscratch",
+   "cast": [
+    {
+     "who": "me",
+     "x": 860,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "drink",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "hold": "cup"
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "speaker": "co2",
+   "bubble": {
+    "text": "I HAD THIS YESTERDAY.",
+    "x": 440,
+    "y": 520,
+    "tail": 30
+   },
+   "meme": "shake",
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "My manager pats my shoulder. Yeah. The usual is never the same thing twice.",
+   "sfx": "clowned",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 860,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "flat",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "speaker": "co1",
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     730,
+     880
+    ]
+   }
+  },
+  {
+   "text": "So now I'm a barista, a scientist, and a psychic. For fifteen bucks an hour.",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "set": "kitchen",
+   "state": {
+    "sign": "MENU|LATTE MOCHA"
+   },
+   "pause": 0.6,
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  }
+ ]
+}
