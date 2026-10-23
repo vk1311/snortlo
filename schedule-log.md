@@ -161,3 +161,13 @@ YouTube uploads today: 5 (2 parts, 2 memes, Congress). Instagram: 3 (Part 2, Par
 | 20:00 | Meme B, Lo vs Life #14 "Me and the boys at 21 vs. 10 years later" (x_years_later, vineboom, unvoiced, friends) | meme-night-is-young.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvj0w2yc0071o28073zk2enf, cmvj0w2z90072o2808de0tm85, cmvj0w30j0073o280f7q3qkj2 |
 
 YouTube uploads today: 4 (story, 2 memes, Congress). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress tally (gov/used.txt): D 2, R 3, ? 7. Full cut thermostat-war-full.mp4 = copy of part 1. Housekeeping NOT done: deleting the Oct 13 media (diary-essay-*, gov-house-in-order, meme-dead-now, meme-made-of-money) was blocked by the run's permission check; delete them on the next run or by hand.
+
+## Fri 2026-10-23 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 09:00 | Story "the-usual" (1 part, POV hook, customers): "pov: a customer ordered 'the usual' on my first day #shorts" | the-usual-part1.mp4 | YouTube, Facebook, Instagram | cmvkgm5t4007co280urg2jd3x, cmvkgm5tk007do280647zmlj8, cmvkgm5ub007eo280w2bj717z |
+| 20:00 | Meme A, Lo vs Life #15 "Me at 8 vs. me at 28 when it comes to broccoli" (x_years_later, bruh, voiced, deepfry, food) | meme-extra-broccoli.mp4 | YouTube, Facebook, Instagram | cmvkgmfqh007fo280jarvrvv2, cmvkgmfqv007go280qyex6wyp, cmvkgmfrh007ho280kdlrze00 |
+| 21:00 | Sleep stories #3 "Bedtime Stories for Adults 🌙 Night Shifts and Quiet Streets" (50 min, 6 new stories) | long-sleepy-stories-3-web.mp4 | YouTube, Facebook | cmvkihonx007lo28067ltbjze, cmvkihooe007mo28009l8qfe1 |
+| 22:00 | Meme B, Lo vs Life #16 "Me and the boys at 18 vs. 12 years later" (x_years_later, phonk, unvoiced, friends; moved +2h from 20:00, clashed with A) | meme-air-fryer-flex.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvkgmfs9007io2806xke97yl, cmvkgmft1007jo280ptv3nqwj, cmvkgmfto007ko280an9mndq6 |
+
+YouTube uploads today: 4 (story, 2 memes, sleep stories; no Congress on Fridays). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: Oct 22 had no candidates (gov.py find returned 0), the other unused days in the last 30 were pro forma, and the remaining July candidates are policy speeches, the already-used quorum-objection gag, or another "House will be in order" repeat; gov/used.txt unchanged. Full cut the-usual-full.mp4 = copy of part 1. Housekeeping: deleted Oct 13-14 media (diary-essay-*, wrong-table-*, gov-house-in-order, gov-take-it-outside, 4 memes).
