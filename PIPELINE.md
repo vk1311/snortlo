@@ -60,3 +60,27 @@ Rules first: read GOV_SOURCES.md (what footage is allowed, and the house rules f
 - More public-domain sources in engine/gov_sources.py: Senate floor archive 2012–2023 (senate.granicus.com), NASA, DVIDS (needs its
   non-endorsement line). White House video is YouTube-only and can't be downloaded from the cloud. Canadian and provincial
   legislature video is NOT usable commercially without the Speaker's written permission.
+
+## Brand podcasts (Keegix Podcast and Staffkin Podcast)
+
+Weekly 20+ minute YouTube episodes for the owner's products, plus 5 Shorts each. Not Snortlo: no stories,
+memes or stick figures. Script rules: PODCAST_FORMAT.md. Approved topics: podcasts/TOPICS.md. Pause both by
+deleting podcasts/ENABLED. Run by its own weekly scheduled task ("Brand podcasts weekly"), not the nightly one.
+
+```
+cd engine
+python3 podcast.py ../podcasts/<brand>/<slug>.json ../media/pod-<slug>.mp4      # ~20-30 min for a 25-min episode
+python3 podcast_shorts.py ../podcasts/<brand>/<slug>.json ../media/pod-<slug>.mp4
+```
+
+- Look: two AI voices (fixed host per show + a rotating, openly fictional AI guest), brand colours and fonts
+  (engine/podcast_brands.py, engine/fonts, engine/brand_assets), a 20 s background loop made in numpy, one overlay
+  per sentence (seats, captions, cards), live waveforms per voice. 1920x1080, ~2.5 MB per minute; re-encodes to
+  720p automatically if a file would pass 95 MB.
+- Photos: engine/broll.py, CC0 / public domain only (Openverse photographs, NASA for space searches), never
+  portraits of people, never Pexels, never AI images. Logged in podcasts/CREDITS.md and in each description.
+- Outputs next to the mp4: -thumb.png, .description.txt (chapters + sources + photo credits), .chapters.txt,
+  .timeline.json, -short1..5.mp4, .shorts.json.
+- Posting (Postiz): episode on YouTube only at 10:00 on air day (Keegix Tue, Staffkin Thu); Shorts one a day at
+  12:00 on the following five days to YouTube + Facebook + Instagram of that brand. At most 2 brand YouTube
+  uploads a day; Snortlo is capped at 4 so the shared quota (~6/day) holds.
