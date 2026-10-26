@@ -219,7 +219,11 @@ class Painter:
             tracked(d, (780, 150), f"CHAPTER {seg_i + 1} OF {self.n_seg}", font(B["ui_bold"], 20), self.c("accent"))
             kt, kf = f"CHAPTER {seg_i + 1} OF {self.n_seg}", font(B["ui_bold"], 20)
             kw = sum(d.textlength(ch, font=kf) for ch in kt) + kf.size * .08 * (len(kt) - 1)
-            d.text((780 + kw + 22, 150), heading, font=font(B["ui"], 24), fill=self.c("on_dark"), anchor="ls")
+            hf = font(B["ui"], 24); room = 1840 - (780 + kw + 22)
+            if d.textlength(heading, font=hf) > room:
+                while heading and d.textlength(heading + "…", font=hf) > room: heading = heading[:-1]
+                heading = heading.rstrip(" ,:;") + "…"
+            d.text((780 + kw + 22, 150), heading, font=hf, fill=self.c("on_dark"), anchor="ls")
 
     def seat(self, im, d, cy, person, active, is_host):
         B = self.B; x0, r = 170, 82
@@ -332,8 +336,8 @@ class Painter:
             d.rectangle((X, y0 + 132, X + 90, y0 + 140), fill=self.c("accent"))
             text_block(d, (X, y0 + 180), card.get("text", ""), font(B["head"], 58), ink, W, 1.12, 5)
             foot = " · ".join(x for x in (f"As of {card['as_of']}" if card.get("as_of") else "", "Not legal advice") if x)
-            d.text((X, y1 - 60), foot, font=font(B["ui"], 24), fill=muted, anchor="ls")
-            if src: d.text((x1 - 70, y1 - 60), f"Source: {src}", font=font(B["ui"], 24), fill=muted, anchor="rs")
+            if src: d.text((X, y1 - 96), f"Source: {src}", font=font(B["ui"], 24), fill=muted, anchor="ls")
+            d.text((X, y1 - 56), foot, font=font(B["ui"], 24), fill=muted, anchor="ls")
             src = None
         elif t == "history":
             d.text((X, y0 + 250), str(card.get("year", "")), font=font(B["head"], 200), fill=ink, anchor="ls")
