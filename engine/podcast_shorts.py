@@ -32,7 +32,8 @@ def frame(P, B, ep, sh, ev, path, end=False):
     im = Image.new("RGBA", (VW, VH), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     c = lambda k, a=255: hexrgb(B[k], a)
     logo = P.logo
-    im.alpha_composite(logo, ((VW - logo.width) // 2, 270))
+    im.alpha_composite(logo, ((VW - logo.width) // 2, 262))
+    d.text((VW / 2, 352), f"{B['show']} · AI voices", font=font(B["ui"], 26), fill=c("on_dark_muted"), anchor="ms")
     hf = font(B["head"], 66)
     lines = wrap(d, sh["title"], hf, 940, 3)
     y = 400
@@ -49,12 +50,12 @@ def frame(P, B, ep, sh, ev, path, end=False):
         py = y + 50 + pan.height + 20
         who = B["host"] if ev["who"] == "host" else ep["guest"]
         d.text((60, py + 44), who["name"].upper(), font=font(B["ui_bold"], 30), fill=c("accent"), anchor="ls")
-        cf = font(B["caption"], 50)
-        cl = wrap(d, ev["text"], cf, 960, 4)
+        cf, lh = font(B["caption"], 50), 62
+        cl = wrap(d, ev["text"], cf, 960)
+        if len(cl) > 4: cf, lh = font(B["caption"], 42), 52; cl = wrap(d, ev["text"], cf, 960, 5)
         for i, l in enumerate(cl):
-            d.text((62, py + 120 + i * 62), l, font=cf, fill=(0, 0, 0, 110), anchor="ls")
-            d.text((60, py + 118 + i * 62), l, font=cf, fill=c("on_dark"), anchor="ls")
-    d.text((VW / 2, VH - 420), f"{B['show']} · AI voices", font=font(B["ui"], 28), fill=c("on_dark_muted"), anchor="ms")
+            d.text((62, py + 120 + i * lh), l, font=cf, fill=(0, 0, 0, 110), anchor="ls")
+            d.text((60, py + 118 + i * lh), l, font=cf, fill=c("on_dark"), anchor="ls")
     im.save(path, compress_level=3)
     return py if not end else None
 
