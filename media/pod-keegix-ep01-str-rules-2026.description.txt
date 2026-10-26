@@ -16,37 +16,32 @@ Chapters
 21:09 Outro
 
 Sources
-- Airbnb Help Centre: Reasonable house rules and requests: https://www.airbnb.com/help/article/4168
-- Airbnb Resource Centre: Important changes to house rules: https://www.airbnb.ca/resources/hosting-homes/a/important-changes-to-house-rules-21
-- Airbnb Help Centre: Ground rules for guests: https://www.airbnb.ca/help/article/2894
-- Airbnb Help Centre: Smoke and carbon monoxide alarms: https://www.airbnb.ca/help/article/514
-- Skift: Airbnb's new policy for hosts (Oct 21, 2026): https://skift.com/2026/10/21/airbnbs-new-policy-for-hosts-dont-ask-guests-to-wash-dishes-or-strip-beds/
-- Province of Nova Scotia: Register your short-term accommodation: https://www.novascotia.ca/register-your-short-term-accommodation
-- Nova Scotia Short-term Rentals Registration Regulations: https://novascotia.ca/JUST/regulations/regs/strentals.htm
-- CBC News: Short-term rentals now restricted in Halifax residential areas: https://amp.cbc.ca/news/canada/nova-scotia/short-term-rentals-now-restricted-in-halifax-residential-areas-1.6955362
-- Global News: Halifax short-term rental regulations take effect Sept. 1, 2023: https://globalnews.ca/news/9929103/halifax-short-term-rental-regulations-2
-- Halifax Regional Council: Short-term rental regulations public hearing (Case 22423): https://cdn.halifax.ca/media/81201
-- City of Toronto: Short-term rental operators and hosts: https://www.toronto.ca/community-people/housing-shelter/rental-housing-rights-information/short-term-rentals/short-term-rental-operators-hosts/
-- City of Ottawa: Short-term rentals: https://ottawa.ca/en/business/permits-and-licences/short-term-rentals
-- Government of B.C.: Register as a short-term rental host: https://www2.gov.bc.ca/gov/content/housing-tenancy/short-term-rentals/registry/host-registration
-- Government of B.C.: Platform requirements: https://www2.gov.bc.ca/gov/content/housing-tenancy/short-term-rentals/registry/platform-registration/platform-requirements
-- Gouvernement du Québec: Affichage (registration number display): https://www.quebec.ca/tourisme-et-loisirs/hebergement-touristique/affichage
-- Gouvernement du Québec: Infractions et amendes (offences and fines): https://www.quebec.ca/tourisme-et-loisirs/hebergement-touristique/infractions-et-amendes
-- NYC Office of Special Enforcement: What is Local Law 18: https://www.nyc.gov/site/specialenforcement/hosting-STRs/what-is-local-law-18.page
-- NYC Office of Special Enforcement: Short-term rental registration: https://www.nyc.gov/site/specialenforcement/registration-law/registration.page
-- La Moncloa (Government of Spain): Registro Único de Arrendamientos: https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2025/020625-campana-registro-unico-alquileres.aspx
-- The Local Spain: Spain orders removal of 80,000 more short-term rental listings (Feb 2026): https://www.thelocal.es/20260204/spain-orders-removal-of-80000-more-illegally-listed-short-term-rentals
-- Catalan News: Barcelona to eliminate tourist apartments by November 2028: https://catalannews.com/business/item/barcelona-eliminate-tourist-apartments-november-2028-21-june-2024
-- European Commission: Common EU rules on data sharing for short-term rentals: https://transition-pathways.europa.eu/construction/crosscutting-eu-policies-legislation/common-eu-rules-data-sharing-short-term
-- EUR-Lex: Regulation (EU) 2024/1028: https://eur-lex.europa.eu/eli/reg/2024/1028/oj
-- Ontario Fire Marshal short-term rentals handout (via Windsor Fire & Rescue): https://cdn.windsorfire.com/wp-content/uploads/WFRS-OFM-Short-Term-Rentals-Handout.pdf
-- District of Squamish: Short-term rental safety audit checklist: https://squamish.ca/assets/Planning/Short-Term-Rentals/STR_Safety-Audit-Checklist.pdf
+- https://www.airbnb.com/help/article/4168
+- https://www.airbnb.ca/resources/hosting-homes/a/important-changes-to-house-rules-21
+- https://www.airbnb.ca/help/article/2894
+- https://www.airbnb.ca/help/article/514
+- https://skift.com/2026/10/21/airbnbs-new-policy-for-hosts-dont-ask-guests-to-wash-dishes-or-strip-beds/
+- https://www.novascotia.ca/register-your-short-term-accommodation
+- https://novascotia.ca/JUST/regulations/regs/strentals.htm
+- https://amp.cbc.ca/news/canada/nova-scotia/short-term-rentals-now-restricted-in-halifax-residential-areas-1.6955362
+- https://globalnews.ca/news/9929103/halifax-short-term-rental-regulations-2
+- https://cdn.halifax.ca/media/81201
+- https://www.toronto.ca/community-people/housing-shelter/rental-housing-rights-information/short-term-rentals/short-term-rental-operators-hosts/
+- https://ottawa.ca/en/business/permits-and-licences/short-term-rentals
+- https://www2.gov.bc.ca/gov/content/housing-tenancy/short-term-rentals/registry/host-registration
+- https://www2.gov.bc.ca/gov/content/housing-tenancy/short-term-rentals/registry/platform-registration/platform-requirements
+- https://www.quebec.ca/tourisme-et-loisirs/hebergement-touristique/affichage
+- https://www.quebec.ca/tourisme-et-loisirs/hebergement-touristique/infractions-et-amendes
+- https://www.nyc.gov/site/specialenforcement/hosting-STRs/what-is-local-law-18.page
+- https://www.nyc.gov/site/specialenforcement/registration-law/registration.page
+- https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2025/020625-campana-registro-unico-alquileres.aspx
+- https://www.thelocal.es/20260204/spain-orders-removal-of-80000-more-illegally-listed-short-term-rentals
+- https://catalannews.com/business/item/barcelona-eliminate-tourist-apartments-november-2028-21-june-2024
+- https://transition-pathways.europa.eu/construction/crosscutting-eu-policies-legislation/common-eu-rules-data-sharing-short-term
+- https://eur-lex.europa.eu/eli/reg/2024/1028/oj
+- https://cdn.windsorfire.com/wp-content/uploads/WFRS-OFM-Short-Term-Rentals-Handout.pdf
+- https://squamish.ca/assets/Planning/Short-Term-Rentals/STR_Safety-Audit-Checklist.pdf
 
-Photos (CC0 / public domain)
-- "Porch Deck" by Sonja Guina, CC0, https://stocksnap.io/photo/porch-deck-93B4A12AD0
-- "Keys Door" by WDnet Studio, CC0, https://stocksnap.io/photo/keys-door-Z1TKDI29FZ
-- "Hotel Bed" by Travel Adventures, CC0, https://stocksnap.io/photo/hotel-bed-XVTMPEYKEE
-- "City Skyline" by Joe deSousa, CC0, https://stocksnap.io/photo/city-skyline-KFA0ZJHD66
-- "Apartment Building" by Roman Kraft, CC0, https://stocksnap.io/photo/apartment-building-EJ9K0OTJ6V
+Photos: CC0 / public domain, credits at https://github.com/vk1311/snortlo/blob/main/podcasts/CREDITS.md
 
 Keegix Podcast is made with AI voices. Free for one property at keegix.com.

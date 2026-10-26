@@ -405,6 +405,33 @@ class Painter:
         d.text((80, DH - 60), B["show"], font=font(B["ui_bold"], 44), fill=self.c("on_dark_muted"), anchor="ls")
         im.convert("RGB").resize((1280, 720), Image.LANCZOS).save(path)
 
+# ====================================================================== YouTube description (YouTube caps it at 5,000 characters)
+YT_LIMIT = 4900
+def make_description(ep, B, chap, credits):
+    srcs = ep.get("sources", [])
+    repo = f"https://github.com/vk1311/snortlo/blob/main/podcasts/{ep['brand']}/{ep['slug']}.json"
+    def build(level):
+        out = [ep.get("description", "").strip(), "", "Chapters", *chap, "", "Sources"]
+        if level < 2: out += [f"- {s['label']}: {s['url']}" for s in srcs]
+        else: out += [f"- {s['url']}" for s in srcs]
+        if credits:
+            if level == 0: out += ["", "Photos (CC0 / public domain)"] + [f"- {broll.credit_line(c)}" for c in credits]
+            else: out += ["", "Photos: CC0 / public domain, credits at https://github.com/vk1311/snortlo/blob/main/podcasts/CREDITS.md"]
+        out += ["", f"{B['show']} is made with AI voices. {B['cta']}."]
+        return "\n".join(out) + "\n"
+    for level in (0, 1, 2):
+        txt = build(level)
+        if len(txt) <= YT_LIMIT: return txt
+    # still too long: keep as many sources as fit and point to the full list
+    out = build(2).split("\n"); keep = []
+    head = out[:out.index("Sources") + 1]; tail = out[out.index("Sources") + 1 + len(srcs):]
+    more = f"- Full source list: {repo}"
+    for s in srcs:
+        cand = "\n".join(head + keep + [f"- {s['url']}", more] + tail)
+        if len(cand) > YT_LIMIT: break
+        keep.append(f"- {s['url']}")
+    return "\n".join(head + keep + [more] + tail)
+
 # ====================================================================== main
 def build(script_path, out_mp4, res=(1920, 1080), test=None):
     ep = json.load(open(script_path))
@@ -543,12 +570,7 @@ def build(script_path, out_mp4, res=(1920, 1080), test=None):
     for si in sorted(seg_starts):
         if si: chap.append(f"{fmt_ts(seg_starts[si])} {ep['segments'][si]['heading']}")
     open(stem + ".chapters.txt", "w").write("\n".join(chap) + "\n")
-    desc = [ep.get("description", "").strip(), "", "Chapters", *chap, "", "Sources"]
-    desc += [f"- {s_['label']}: {s_['url']}" for s_ in ep.get("sources", [])]
-    if broll_imgs:
-        desc += ["", "Photos (CC0 / public domain)"] + [f"- {broll.credit_line(c)}" for _, c in broll_imgs.values()]
-    desc += ["", f"{B['show']} is made with AI voices. {B['cta']}."]
-    open(stem + ".description.txt", "w").write("\n".join(desc) + "\n")
+    open(stem + ".description.txt", "w").write(make_description(ep, B, chap, [c for _, c in broll_imgs.values()]))
     json.dump({"slug": ep["slug"], "brand": ep["brand"], "duration": total,
                "events": [{k: e[k] for k in ("seg", "line", "who", "text", "card", "start", "end")} for e in events]},
               open(stem + ".timeline.json", "w"), indent=0)
