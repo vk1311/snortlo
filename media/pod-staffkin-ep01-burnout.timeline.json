@@ -1,0 +1,5238 @@
+{
+"slug": "staffkin-ep01-burnout",
+"brand": "staffkin",
+"duration": 1326.3987916666733,
+"events": [
+{
+"seg": 0,
+"line": 0,
+"who": "host",
+"text": "In nineteen seventy one, a psychologist in New York finished a year of sixteen hour days and found he couldn't get out of bed.",
+"card": {
+"type": "history",
+"year": "1971",
+"text": "A New York psychologist, after a year of 16-hour days, can't get out of bed"
+},
+"start": 2.6,
+"end": 10.493416666666667
+},
+{
+"seg": 0,
+"line": 1,
+"who": "host",
+"text": "He'd been running a private practice all day and volunteering at a free clinic in the evenings.",
+"card": {
+"type": "history",
+"year": "1971",
+"text": "A New York psychologist, after a year of 16-hour days, can't get out of bed"
+},
+"start": 10.793416666666667,
+"end": 16.462
+},
+{
+"seg": 0,
+"line": 1,
+"who": "host",
+"text": "The word he later used for what happened to him was burnout.",
+"card": {
+"type": "history",
+"year": "1971",
+"text": "A New York psychologist, after a year of 16-hour days, can't get out of bed"
+},
+"start": 16.662,
+"end": 19.933999999999997
+},
+{
+"seg": 0,
+"line": 2,
+"who": "guest",
+"text": "And here's the part that surprises people.",
+"card": {
+"type": "point",
+"text": "WHO: burnout is an occupational phenomenon, not a medical condition"
+},
+"start": 20.354,
+"end": 22.50508333333333
+},
+{
+"seg": 0,
+"line": 2,
+"who": "guest",
+"text": "Nearly fifty years later, the World Health Organization decided burnout is not a medical condition.",
+"card": {
+"type": "point",
+"text": "WHO: burnout is an occupational phenomenon, not a medical condition"
+},
+"start": 22.70508333333333,
+"end": 28.38295833333333
+},
+{
+"seg": 0,
+"line": 2,
+"who": "guest",
+"text": "It's something that comes from work.",
+"card": {
+"type": "point",
+"text": "WHO: burnout is an occupational phenomenon, not a medical condition"
+},
+"start": 28.58295833333333,
+"end": 30.388666666666662
+},
+{
+"seg": 0,
+"line": 2,
+"who": "guest",
+"text": "Which means a lot of it sits on the manager's side of the desk.",
+"card": {
+"type": "point",
+"text": "WHO: burnout is an occupational phenomenon, not a medical condition"
+},
+"start": 30.58866666666666,
+"end": 33.517999999999994
+},
+{
+"seg": 0,
+"line": 3,
+"who": "host",
+"text": "That's today's episode.",
+"card": {
+"type": "point",
+"text": "WHO: burnout is an occupational phenomenon, not a medical condition"
+},
+"start": 33.937999999999995,
+"end": 35.389374999999994
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "Welcome to the Staffkin Podcast, the show about workplace psychology for people who manage people.",
+"card": null,
+"start": 36.639374999999994,
+"end": 42.77929166666666
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "I'm Sam, your A I host.",
+"card": null,
+"start": 42.97929166666666,
+"end": 44.45945833333333
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "Everyone you hear on this show is an A I voice, and every fact we use is sourced in the description.",
+"card": null,
+"start": 44.65945833333333,
+"end": 50.710166666666666
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "Today is burnout.",
+"card": {
+"type": "list",
+"title": "Today",
+"items": [
+"What burnout actually is",
+"Where the word came from",
+"Three real workplace situations",
+"What a manager can do"
+]
+},
+"start": 51.01016666666666,
+"end": 52.28675
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "What it actually is, where the word came from, how it's different from ordinary stress, and what a small business owner or manager can actually do about it on a Tuesday afternoon when the schedule is already short.",
+"card": {
+"type": "list",
+"title": "Today",
+"items": [
+"What burnout actually is",
+"Where the word came from",
+"Three real workplace situations",
+"What a manager can do"
+]
+},
+"start": 52.48675,
+"end": 65.75875
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "My guest is Dana.",
+"card": {
+"type": "list",
+"title": "Today",
+"items": [
+"What burnout actually is",
+"Where the word came from",
+"Three real workplace situations",
+"What a manager can do"
+]
+},
+"start": 66.05875,
+"end": 67.325875
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Dana is an A I character we built to play an operations manager with fifteen years of running shifts, schedules and teams.",
+"card": {
+"type": "list",
+"title": "Today",
+"items": [
+"What burnout actually is",
+"Where the word came from",
+"Three real workplace situations",
+"What a manager can do"
+]
+},
+"start": 67.525875,
+"end": 75.51083333333334
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Dana isn't a real person, and the workplace stories in this episode are made up examples, not real people.",
+"card": {
+"type": "list",
+"title": "Today",
+"items": [
+"What burnout actually is",
+"Where the word came from",
+"Three real workplace situations",
+"What a manager can do"
+]
+},
+"start": 75.71083333333334,
+"end": 83.00433333333334
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Welcome, Dana.",
+"card": {
+"type": "list",
+"title": "Today",
+"items": [
+"What burnout actually is",
+"Where the word came from",
+"Three real workplace situations",
+"What a manager can do"
+]
+},
+"start": 83.20433333333334,
+"end": 84.26625
+},
+{
+"seg": 1,
+"line": 3,
+"who": "guest",
+"text": "Thanks, Sam.",
+"card": {
+"type": "point",
+"text": "Not medical advice. Notice, ask, and fix the parts of the job you own."
+},
+"start": 84.68625,
+"end": 85.70575
+},
+{
+"seg": 1,
+"line": 3,
+"who": "guest",
+"text": "And just to be clear up front, nothing in this episode is medical advice.",
+"card": {
+"type": "point",
+"text": "Not medical advice. Notice, ask, and fix the parts of the job you own."
+},
+"start": 85.90575,
+"end": 89.85241666666667
+},
+{
+"seg": 1,
+"line": 3,
+"who": "guest",
+"text": "I can't diagnose anyone, and neither can you as a manager.",
+"card": {
+"type": "point",
+"text": "Not medical advice. Notice, ask, and fix the parts of the job you own."
+},
+"start": 90.05241666666667,
+"end": 93.28125
+},
+{
+"seg": 1,
+"line": 3,
+"who": "guest",
+"text": "What we can do is notice, ask, and fix the parts of the job that are ours to fix.",
+"card": {
+"type": "point",
+"text": "Not medical advice. Notice, ask, and fix the parts of the job you own."
+},
+"start": 93.48125,
+"end": 97.85945833333334
+},
+{
+"seg": 1,
+"line": 4,
+"who": "host",
+"text": "That's a good line to start with.",
+"card": {
+"type": "point",
+"text": "Not medical advice. Notice, ask, and fix the parts of the job you own."
+},
+"start": 98.27945833333334,
+"end": 100.08108333333334
+},
+{
+"seg": 1,
+"line": 4,
+"who": "host",
+"text": "Let's get into it.",
+"card": {
+"type": "point",
+"text": "Not medical advice. Notice, ask, and fix the parts of the job you own."
+},
+"start": 100.28108333333334,
+"end": 101.38362500000001
+},
+{
+"seg": 2,
+"line": 0,
+"who": "host",
+"text": "Let's start with a definition, because people use the word for everything.",
+"card": null,
+"start": 102.63362500000001,
+"end": 106.927
+},
+{
+"seg": 2,
+"line": 0,
+"who": "host",
+"text": "A rough week, a long winter, a bad Monday.",
+"card": null,
+"start": 107.12700000000001,
+"end": 109.76004166666668
+},
+{
+"seg": 2,
+"line": 1,
+"who": "guest",
+"text": "Right.",
+"card": {
+"type": "point",
+"text": "Burnout: chronic workplace stress that hasn't been successfully managed (WHO)"
+},
+"start": 110.18004166666668,
+"end": 111.02191666666668
+},
+{
+"seg": 2,
+"line": 1,
+"who": "guest",
+"text": "The cleanest definition we have comes from the World Health Organization.",
+"card": {
+"type": "point",
+"text": "Burnout: chronic workplace stress that hasn't been successfully managed (WHO)"
+},
+"start": 111.22191666666669,
+"end": 114.85754166666669
+},
+{
+"seg": 2,
+"line": 1,
+"who": "guest",
+"text": "In twenty nineteen, in the eleventh edition of its International Classification of Diseases, it described burnout as a syndrome \"resulting from chronic workplace stress that has not been successfully managed.\"",
+"card": {
+"type": "point",
+"text": "Burnout: chronic workplace stress that hasn't been successfully managed (WHO)"
+},
+"start": 115.0575416666667,
+"end": 126.57754166666669
+},
+{
+"seg": 2,
+"line": 2,
+"who": "host",
+"text": "Chronic, and not successfully managed.",
+"card": {
+"type": "point",
+"text": "Burnout: chronic workplace stress that hasn't been successfully managed (WHO)"
+},
+"start": 126.99754166666669,
+"end": 129.24720833333336
+},
+{
+"seg": 2,
+"line": 2,
+"who": "host",
+"text": "So it's not one bad week.",
+"card": {
+"type": "point",
+"text": "Burnout: chronic workplace stress that hasn't been successfully managed (WHO)"
+},
+"start": 129.44720833333335,
+"end": 131.08883333333335
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "No.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 131.50883333333334,
+"end": 132.29883333333333
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "It's stress that has gone on for a long time without anything changing.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 132.49883333333332,
+"end": 135.98595833333331
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "And the W H O lists three dimensions.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 136.1859583333333,
+"end": 138.6294583333333
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "First, feeling drained or exhausted.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 138.8294583333333,
+"end": 141.0224583333333
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "Second, more mental distance from your job, or feeling negative and cynical about it.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 141.2224583333333,
+"end": 145.73937499999997
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "Third, reduced professional efficacy, which is a formal way of saying you don't feel effective anymore.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 145.93937499999996,
+"end": 151.07712499999997
+},
+{
+"seg": 2,
+"line": 4,
+"who": "host",
+"text": "Give me what those look like on a real shift.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 151.49712499999995,
+"end": 153.97070833333328
+},
+{
+"seg": 2,
+"line": 5,
+"who": "guest",
+"text": "Exhaustion is the person who looks like they've worked a full day when they clock in.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 154.39070833333327,
+"end": 158.13220833333327
+},
+{
+"seg": 2,
+"line": 5,
+"who": "guest",
+"text": "Cynicism sounds like, what's the point, nobody here cares anyway.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 158.33220833333326,
+"end": 161.95312499999991
+},
+{
+"seg": 2,
+"line": 5,
+"who": "guest",
+"text": "And reduced efficacy is your strongest person suddenly saying they're just not good at this job anymore.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 162.1531249999999,
+"end": 167.45674999999991
+},
+{
+"seg": 2,
+"line": 6,
+"who": "host",
+"text": "That third one is sneaky, because it can look like a performance problem.",
+"card": {
+"type": "list",
+"title": "The three dimensions",
+"items": [
+"Exhaustion",
+"Mental distance or cynicism",
+"Reduced professional efficacy"
+],
+"source": "WHO, ICD-11"
+},
+"start": 167.8767499999999,
+"end": 171.8644999999999
+},
+{
+"seg": 2,
+"line": 7,
+"who": "guest",
+"text": "It often gets treated like one.",
+"card": {
+"type": "list",
+"title": "Signs at work",
+"items": [
+"Irritability and lost interest",
+"Pulling away from the team",
+"More absences",
+"Working while unwell"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 172.2844999999999,
+"end": 174.05516666666657
+},
+{
+"seg": 2,
+"line": 7,
+"who": "guest",
+"text": "The Canadian Psychological Association has a fact sheet on workplace burnout.",
+"card": {
+"type": "list",
+"title": "Signs at work",
+"items": [
+"Irritability and lost interest",
+"Pulling away from the team",
+"More absences",
+"Working while unwell"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 174.25516666666655,
+"end": 178.8748749999999
+},
+{
+"seg": 2,
+"line": 7,
+"who": "guest",
+"text": "The behaviours it lists include putting things off, pulling away from coworkers, more absences, and the opposite too, coming in to work while unwell.",
+"card": {
+"type": "list",
+"title": "Signs at work",
+"items": [
+"Irritability and lost interest",
+"Pulling away from the team",
+"More absences",
+"Working while unwell"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 179.07487499999988,
+"end": 186.73354166666655
+},
+{
+"seg": 2,
+"line": 7,
+"who": "guest",
+"text": "The emotional signs include irritability, anxiety, and losing interest in work.",
+"card": {
+"type": "list",
+"title": "Signs at work",
+"items": [
+"Irritability and lost interest",
+"Pulling away from the team",
+"More absences",
+"Working while unwell"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 186.93354166666654,
+"end": 191.70724999999987
+},
+{
+"seg": 2,
+"line": 7,
+"who": "guest",
+"text": "And there are physical ones, like ongoing fatigue, headaches and trouble sleeping.",
+"card": {
+"type": "list",
+"title": "Signs at work",
+"items": [
+"Irritability and lost interest",
+"Pulling away from the team",
+"More absences",
+"Working while unwell"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 191.90724999999986,
+"end": 195.93924999999987
+},
+{
+"seg": 2,
+"line": 8,
+"who": "host",
+"text": "Now, the W H O also said something specific about what burnout is not.",
+"card": {
+"type": "list",
+"title": "Signs at work",
+"items": [
+"Irritability and lost interest",
+"Pulling away from the team",
+"More absences",
+"Working while unwell"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 196.35924999999986,
+"end": 201.47449999999986
+},
+{
+"seg": 2,
+"line": 9,
+"who": "guest",
+"text": "Two things.",
+"card": {
+"type": "point",
+"text": "WHO: an occupational phenomenon, used only for work, not a medical condition"
+},
+"start": 201.89449999999985,
+"end": 202.79733333333317
+},
+{
+"seg": 2,
+"line": 9,
+"who": "guest",
+"text": "It's classified as an occupational phenomenon, and it's not classified as a medical condition.",
+"card": {
+"type": "point",
+"text": "WHO: an occupational phenomenon, used only for work, not a medical condition"
+},
+"start": 202.99733333333316,
+"end": 208.15999999999983
+},
+{
+"seg": 2,
+"line": 9,
+"who": "guest",
+"text": "It sits in a chapter for factors that influence health or bring people into contact with health services.",
+"card": {
+"type": "point",
+"text": "WHO: an occupational phenomenon, used only for work, not a medical condition"
+},
+"start": 208.35999999999981,
+"end": 213.7146666666665
+},
+{
+"seg": 2,
+"line": 9,
+"who": "guest",
+"text": "And the W H O says the term should only be used about work, not about other areas of life.",
+"card": {
+"type": "point",
+"text": "WHO: an occupational phenomenon, used only for work, not a medical condition"
+},
+"start": 213.91466666666648,
+"end": 219.24799999999982
+},
+{
+"seg": 2,
+"line": 10,
+"who": "host",
+"text": "So if someone says they're burned out on parenting, that's a real feeling, but it's not what this definition covers.",
+"card": {
+"type": "point",
+"text": "WHO: an occupational phenomenon, used only for work, not a medical condition"
+},
+"start": 219.6679999999998,
+"end": 226.7760416666665
+},
+{
+"seg": 2,
+"line": 11,
+"who": "guest",
+"text": "Exactly.",
+"card": {
+"type": "point",
+"text": "WHO: an occupational phenomenon, used only for work, not a medical condition"
+},
+"start": 227.19604166666647,
+"end": 228.11295833333315
+},
+{
+"seg": 2,
+"line": 11,
+"who": "guest",
+"text": "This definition is about the job.",
+"card": {
+"type": "point",
+"text": "WHO: an occupational phenomenon, used only for work, not a medical condition"
+},
+"start": 228.31295833333314,
+"end": 230.2052499999998
+},
+{
+"seg": 2,
+"line": 12,
+"who": "host",
+"text": "Let's do stress versus burnout, because those get mixed up constantly.",
+"card": {
+"type": "point",
+"text": "WHO: an occupational phenomenon, used only for work, not a medical condition"
+},
+"start": 230.6252499999998,
+"end": 235.06991666666647
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "The Canadian Psychological Association frames it simply.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 235.48991666666646,
+"end": 238.68104166666646
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "Stress happens when the demands of a job are bigger than the resources you have to meet them.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 238.88104166666645,
+"end": 243.27679166666644
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "Burnout can develop when that stress becomes chronic and isn't managed.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 243.47679166666643,
+"end": 247.1607083333331
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "And burnout is tied to work, while depression and anxiety aren't limited to the job.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 247.3607083333331,
+"end": 251.84070833333308
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "A simple way to hold it in your head.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 252.04070833333307,
+"end": 254.00024999999974
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "Stress often feels like too much.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 254.20024999999973,
+"end": 256.1121249999997
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "Burnout can feel more like nothing left in the tank.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 256.3121249999997,
+"end": 258.867083333333
+},
+{
+"seg": 2,
+"line": 14,
+"who": "host",
+"text": "And depression?",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 259.28708333333304,
+"end": 260.3094166666664
+},
+{
+"seg": 2,
+"line": 15,
+"who": "guest",
+"text": "This is where I want to be really careful.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 260.7294166666664,
+"end": 262.8744166666664
+},
+{
+"seg": 2,
+"line": 15,
+"who": "guest",
+"text": "The Mayo Clinic notes that burnout isn't a medical diagnosis, that its symptoms can overlap with depression, and that the two are different and need different treatment.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 263.07441666666637,
+"end": 271.8077916666664
+},
+{
+"seg": 2,
+"line": 15,
+"who": "guest",
+"text": "Some researchers go further.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 272.0077916666664,
+"end": 273.733708333333
+},
+{
+"seg": 2,
+"line": 15,
+"who": "guest",
+"text": "A twenty twenty four paper called Burnout, Fifty Years Later, argued that burnout can be hard to tell apart from depression, and warned that the burnout label could mean someone's depression goes untreated.",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 273.933708333333,
+"end": 284.74020833333304
+},
+{
+"seg": 2,
+"line": 16,
+"who": "host",
+"text": "So what does that mean for a manager?",
+"card": {
+"type": "compare",
+"left_title": "Stress",
+"left": "Job demands outweigh the resources to meet them",
+"right_title": "Burnout",
+"right": "That stress becomes chronic and isn't managed"
+},
+"start": 285.16020833333306,
+"end": 287.19220833333304
+},
+{
+"seg": 2,
+"line": 17,
+"who": "guest",
+"text": "It means you don't decide which one it is.",
+"card": {
+"type": "point",
+"text": "Managers don't diagnose. Notice, talk, fix the job, point to help."
+},
+"start": 287.61220833333306,
+"end": 289.7014166666664
+},
+{
+"seg": 2,
+"line": 17,
+"who": "guest",
+"text": "You're not qualified to, and neither am I.",
+"card": {
+"type": "point",
+"text": "Managers don't diagnose. Notice, talk, fix the job, point to help."
+},
+"start": 289.90141666666636,
+"end": 292.17366666666635
+},
+{
+"seg": 2,
+"line": 17,
+"who": "guest",
+"text": "Your job is to notice the change, have a decent conversation, fix what's in your control at work, and point the person toward someone who is qualified.",
+"card": {
+"type": "point",
+"text": "Managers don't diagnose. Notice, talk, fix the job, point to help."
+},
+"start": 292.37366666666634,
+"end": 300.76608333333303
+},
+{
+"seg": 2,
+"line": 17,
+"who": "guest",
+"text": "We'll get to that conversation later.",
+"card": {
+"type": "point",
+"text": "Managers don't diagnose. Notice, talk, fix the job, point to help."
+},
+"start": 300.966083333333,
+"end": 302.94270833333303
+},
+{
+"seg": 2,
+"line": 18,
+"who": "host",
+"text": "And how common is this kind of stress in Canada?",
+"card": {
+"type": "point",
+"text": "Managers don't diagnose. Notice, talk, fix the job, point to help."
+},
+"start": 303.36270833333305,
+"end": 306.15895833333303
+},
+{
+"seg": 2,
+"line": 19,
+"who": "guest",
+"text": "Statistics Canada asked workers in April twenty twenty three.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 306.57895833333305,
+"end": 310.1101249999997
+},
+{
+"seg": 2,
+"line": 19,
+"who": "guest",
+"text": "Twenty one point two percent of employed people said their work related stress was high or very high.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 310.3101249999997,
+"end": 315.97579166666634
+},
+{
+"seg": 2,
+"line": 19,
+"who": "guest",
+"text": "That's just over four million people.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 316.1757916666663,
+"end": 318.108208333333
+},
+{
+"seg": 2,
+"line": 19,
+"who": "guest",
+"text": "The most common source was a heavy workload, which affected twenty three point seven percent of employed people.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 318.30820833333297,
+"end": 324.0255416666663
+},
+{
+"seg": 2,
+"line": 19,
+"who": "guest",
+"text": "Balancing work and personal life was next.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 324.2255416666663,
+"end": 326.69524999999965
+},
+{
+"seg": 2,
+"line": 20,
+"who": "host",
+"text": "So roughly one in five.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 327.11524999999966,
+"end": 328.75791666666635
+},
+{
+"seg": 2,
+"line": 20,
+"who": "host",
+"text": "On a team of ten, that's about two people.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 328.95791666666634,
+"end": 331.43516666666636
+},
+{
+"seg": 2,
+"line": 21,
+"who": "guest",
+"text": "On average, yes.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 331.8551666666664,
+"end": 333.07441666666637
+},
+{
+"seg": 2,
+"line": 21,
+"who": "guest",
+"text": "It won't be spread evenly across every team, but it's a useful way to picture it.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 333.27441666666635,
+"end": 337.541083333333
+},
+{
+"seg": 2,
+"line": 21,
+"who": "guest",
+"text": "And remember, high stress isn't the same thing as burnout.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 337.741083333333,
+"end": 340.7064166666663
+},
+{
+"seg": 2,
+"line": 21,
+"who": "guest",
+"text": "It's the soil burnout can grow in.",
+"card": {
+"type": "stat",
+"big": "21.2%",
+"label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+"source": "Statistics Canada"
+},
+"start": 340.9064166666663,
+"end": 342.868208333333
+},
+{
+"seg": 3,
+"line": 0,
+"who": "host",
+"text": "Let's go back to that man from the cold open.",
+"card": null,
+"start": 344.118208333333,
+"end": 346.68149999999963
+},
+{
+"seg": 3,
+"line": 0,
+"who": "host",
+"text": "Who was he?",
+"card": null,
+"start": 346.8814999999996,
+"end": 347.80283333333296
+},
+{
+"seg": 3,
+"line": 1,
+"who": "guest",
+"text": "His name was Herbert Freudenberger.",
+"card": null,
+"start": 348.22283333333297,
+"end": 350.21649999999966
+},
+{
+"seg": 3,
+"line": 1,
+"who": "guest",
+"text": "He was a psychologist, born in Germany in nineteen twenty six, who worked in New York.",
+"card": null,
+"start": 350.41649999999964,
+"end": 354.8440416666663
+},
+{
+"seg": 3,
+"line": 1,
+"who": "guest",
+"text": "In the early nineteen seventies, he volunteered as a counsellor at the Saint Mark's Free Clinic in the East Village.",
+"card": null,
+"start": 355.0440416666663,
+"end": 360.9730416666663
+},
+{
+"seg": 3,
+"line": 1,
+"who": "guest",
+"text": "He'd work full days at his private practice and then show up at the clinic in the evening.",
+"card": null,
+"start": 361.1730416666663,
+"end": 365.75820833333296
+},
+{
+"seg": 3,
+"line": 2,
+"who": "host",
+"text": "And who did the clinic serve?",
+"card": null,
+"start": 366.178208333333,
+"end": 367.642208333333
+},
+{
+"seg": 3,
+"line": 3,
+"who": "guest",
+"text": "Mostly young people from the neighbourhood, and many of them used drugs.",
+"card": null,
+"start": 368.062208333333,
+"end": 371.58858333333296
+},
+{
+"seg": 3,
+"line": 3,
+"who": "guest",
+"text": "According to one history of the term, burnout was actually slang among the clinic's patients for the effects of long term drug use.",
+"card": null,
+"start": 371.78858333333295,
+"end": 378.4019166666663
+},
+{
+"seg": 3,
+"line": 3,
+"who": "guest",
+"text": "Freudenberger himself pointed instead to the burned out buildings around the clinic as the image he had in mind.",
+"card": null,
+"start": 378.6019166666663,
+"end": 384.5833749999996
+},
+{
+"seg": 3,
+"line": 4,
+"who": "host",
+"text": "So the word was already in the air.",
+"card": null,
+"start": 385.0033749999996,
+"end": 387.0110416666663
+},
+{
+"seg": 3,
+"line": 5,
+"who": "guest",
+"text": "It was.",
+"card": {
+"type": "history",
+"year": "1971",
+"text": "After a year of 16-hour days, Freudenberger names his own exhaustion burnout"
+},
+"start": 387.4310416666663,
+"end": 388.26766666666634
+},
+{
+"seg": 3,
+"line": 5,
+"who": "guest",
+"text": "And in nineteen seventy one, after about a year of sixteen hour days, he couldn't get out of bed.",
+"card": {
+"type": "history",
+"year": "1971",
+"text": "After a year of 16-hour days, Freudenberger names his own exhaustion burnout"
+},
+"start": 388.46766666666633,
+"end": 393.45966666666635
+},
+{
+"seg": 3,
+"line": 5,
+"who": "guest",
+"text": "He used the word for his own exhaustion, and he saw the same thing in the volunteers around him.",
+"card": {
+"type": "history",
+"year": "1971",
+"text": "After a year of 16-hour days, Freudenberger names his own exhaustion burnout"
+},
+"start": 393.65966666666634,
+"end": 398.47491666666633
+},
+{
+"seg": 3,
+"line": 6,
+"who": "host",
+"text": "When did it get into the research?",
+"card": {
+"type": "history",
+"year": "1971",
+"text": "After a year of 16-hour days, Freudenberger names his own exhaustion burnout"
+},
+"start": 398.89491666666635,
+"end": 400.714458333333
+},
+{
+"seg": 3,
+"line": 7,
+"who": "guest",
+"text": "In nineteen seventy four, he published a paper called Staff Burn Out, in the Journal of Social Issues.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 401.13445833333304,
+"end": 406.83045833333307
+},
+{
+"seg": 3,
+"line": 7,
+"who": "guest",
+"text": "It was based on what he saw in volunteer staff at the free clinic, himself included.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 407.03045833333306,
+"end": 411.55312499999974
+},
+{
+"seg": 3,
+"line": 7,
+"who": "guest",
+"text": "Among the signs he described were exhaustion, headaches, trouble sleeping, and being quick to anger.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 411.7531249999997,
+"end": 416.83045833333307
+},
+{
+"seg": 3,
+"line": 8,
+"who": "host",
+"text": "Then Christina Maslach comes in.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 417.2504583333331,
+"end": 419.29358333333306
+},
+{
+"seg": 3,
+"line": 9,
+"who": "guest",
+"text": "Right.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 419.7135833333331,
+"end": 420.5554583333331
+},
+{
+"seg": 3,
+"line": 9,
+"who": "guest",
+"text": "Maslach is a Berkeley psychologist.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 420.7554583333331,
+"end": 422.8887916666664
+},
+{
+"seg": 3,
+"line": 9,
+"who": "guest",
+"text": "In the nineteen seventies, she was interviewing people in emotionally demanding jobs.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 423.0887916666664,
+"end": 427.6114583333331
+},
+{
+"seg": 3,
+"line": 9,
+"who": "guest",
+"text": "Nurses, police officers, prison guards, first responders.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 427.81145833333306,
+"end": 431.0845416666664
+},
+{
+"seg": 3,
+"line": 9,
+"who": "guest",
+"text": "In confidential interviews, people described things like starting to treat the people they served as objects, and cutting corners.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 431.28454166666637,
+"end": 438.239208333333
+},
+{
+"seg": 3,
+"line": 10,
+"who": "host",
+"text": "That's dark.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 438.659208333333,
+"end": 439.56091666666634
+},
+{
+"seg": 3,
+"line": 11,
+"who": "guest",
+"text": "It is, but it's honest.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 439.98091666666636,
+"end": 441.418333333333
+},
+{
+"seg": 3,
+"line": 11,
+"who": "guest",
+"text": "Out of that work she described three pieces.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 441.618333333333,
+"end": 443.94366666666633
+},
+{
+"seg": 3,
+"line": 11,
+"who": "guest",
+"text": "Exhaustion.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 444.1436666666663,
+"end": 445.210333333333
+},
+{
+"seg": 3,
+"line": 11,
+"who": "guest",
+"text": "Depersonalization, which is that cold distance from the people you serve.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 445.41033333333297,
+"end": 449.570333333333
+},
+{
+"seg": 3,
+"line": 11,
+"who": "guest",
+"text": "And a reduced sense of personal accomplishment.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 449.770333333333,
+"end": 452.19437499999964
+},
+{
+"seg": 3,
+"line": 11,
+"who": "guest",
+"text": "If that sounds familiar, it's because they map closely onto the three dimensions we talked about earlier.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 452.3943749999996,
+"end": 457.663708333333
+},
+{
+"seg": 3,
+"line": 12,
+"who": "host",
+"text": "And she built a way to measure it.",
+"card": {
+"type": "history",
+"year": "1974",
+"text": "Freudenberger publishes \u201cStaff Burn-Out\u201d in the Journal of Social Issues"
+},
+"start": 458.083708333333,
+"end": 459.7895416666663
+},
+{
+"seg": 3,
+"line": 13,
+"who": "guest",
+"text": "In nineteen eighty one, she and Susan Jackson published the Maslach Burnout Inventory.",
+"card": {
+"type": "history",
+"year": "1981",
+"text": "Maslach and Jackson publish the Maslach Burnout Inventory"
+},
+"start": 460.2095416666663,
+"end": 464.90287499999965
+},
+{
+"seg": 3,
+"line": 13,
+"who": "guest",
+"text": "It became the most widely used way to measure burnout in research.",
+"card": {
+"type": "history",
+"year": "1981",
+"text": "Maslach and Jackson publish the Maslach Burnout Inventory"
+},
+"start": 465.10287499999964,
+"end": 468.47354166666634
+},
+{
+"seg": 3,
+"line": 14,
+"who": "host",
+"text": "And then the W H O steps in.",
+"card": {
+"type": "history",
+"year": "1981",
+"text": "Maslach and Jackson publish the Maslach Burnout Inventory"
+},
+"start": 468.89354166666635,
+"end": 471.0007916666664
+},
+{
+"seg": 3,
+"line": 15,
+"who": "guest",
+"text": "In May twenty nineteen, the W H O announced that burnout was included in the eleventh revision of its classification, as an occupational phenomenon.",
+"card": {
+"type": "history",
+"year": "2019",
+"text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
+},
+"start": 471.4207916666664,
+"end": 479.8026249999997
+},
+{
+"seg": 3,
+"line": 15,
+"who": "guest",
+"text": "And the three dimensions it uses line up closely with that older research.",
+"card": {
+"type": "history",
+"year": "2019",
+"text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
+},
+"start": 480.0026249999997,
+"end": 483.92795833333304
+},
+{
+"seg": 3,
+"line": 15,
+"who": "guest",
+"text": "Exhaustion, mental distance or cynicism, and reduced efficacy.",
+"card": {
+"type": "history",
+"year": "2019",
+"text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
+},
+"start": 484.127958333333,
+"end": 487.93454166666635
+},
+{
+"seg": 3,
+"line": 16,
+"who": "host",
+"text": "Is the science settled now?",
+"card": {
+"type": "history",
+"year": "2019",
+"text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
+},
+"start": 488.35454166666636,
+"end": 489.9645416666664
+},
+{
+"seg": 3,
+"line": 17,
+"who": "guest",
+"text": "Not completely, and I think listeners deserve to hear that.",
+"card": {
+"type": "history",
+"year": "2019",
+"text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
+},
+"start": 490.3845416666664,
+"end": 493.46383333333307
+},
+{
+"seg": 3,
+"line": 17,
+"who": "guest",
+"text": "That twenty twenty four paper argued the three dimensions don't fit together as neatly as people assume, and that burnout is hard to separate from depression.",
+"card": {
+"type": "history",
+"year": "2019",
+"text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
+},
+"start": 493.66383333333306,
+"end": 502.06099999999975
+},
+{
+"seg": 3,
+"line": 17,
+"who": "guest",
+"text": "So researchers are still arguing about the edges.",
+"card": {
+"type": "history",
+"year": "2019",
+"text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
+},
+"start": 502.26099999999974,
+"end": 504.6980416666664
+},
+{
+"seg": 3,
+"line": 17,
+"who": "guest",
+"text": "But chronic, unmanaged stress at work is clearly bad news, and a manager can change a lot about the work.",
+"card": {
+"type": "history",
+"year": "2019",
+"text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
+},
+"start": 504.8980416666664,
+"end": 510.59404166666644
+},
+{
+"seg": 3,
+"line": 18,
+"who": "host",
+"text": "And there's a Nova Scotia thread in this story, isn't there?",
+"card": {
+"type": "history",
+"year": "2019",
+"text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
+},
+"start": 511.01404166666646,
+"end": 514.3190833333331
+},
+{
+"seg": 3,
+"line": 19,
+"who": "guest",
+"text": "There is.",
+"card": {
+"type": "point",
+"text": "Maslach's co-author Michael Leiter: listed at Acadia University, Wolfville, in 2016"
+},
+"start": 514.739083333333,
+"end": 515.8597083333331
+},
+{
+"seg": 3,
+"line": 19,
+"who": "guest",
+"text": "One of Maslach's frequent co authors is a psychologist named Michael Leiter.",
+"card": {
+"type": "point",
+"text": "Maslach's co-author Michael Leiter: listed at Acadia University, Wolfville, in 2016"
+},
+"start": 516.0597083333331,
+"end": 520.529333333333
+},
+{
+"seg": 3,
+"line": 19,
+"who": "guest",
+"text": "On a twenty sixteen paper they wrote together, he was listed at Acadia University, in Wolfville.",
+"card": {
+"type": "point",
+"text": "Maslach's co-author Michael Leiter: listed at Acadia University, Wolfville, in 2016"
+},
+"start": 520.7293333333331,
+"end": 526.0413333333331
+},
+{
+"seg": 3,
+"line": 19,
+"who": "guest",
+"text": "So one of the people behind the framework we're about to use was working right here in the Annapolis Valley.",
+"card": {
+"type": "point",
+"text": "Maslach's co-author Michael Leiter: listed at Acadia University, Wolfville, in 2016"
+},
+"start": 526.2413333333332,
+"end": 531.3592916666665
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "Let's make this real.",
+"card": null,
+"start": 532.6092916666665,
+"end": 533.9170416666666
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "Dana, give me the first one.",
+"card": null,
+"start": 534.1170416666666,
+"end": 535.8412916666666
+},
+{
+"seg": 4,
+"line": 1,
+"who": "guest",
+"text": "Say your most reliable person is a shift lead at a busy cafe.",
+"card": null,
+"start": 536.2612916666666,
+"end": 539.8192916666666
+},
+{
+"seg": 4,
+"line": 1,
+"who": "guest",
+"text": "Let's call her Priya.",
+"card": null,
+"start": 540.0192916666666,
+"end": 541.3692916666666
+},
+{
+"seg": 4,
+"line": 1,
+"who": "guest",
+"text": "Five years, never late, the one who covers when anyone calls in.",
+"card": null,
+"start": 541.5692916666667,
+"end": 544.95275
+},
+{
+"seg": 4,
+"line": 1,
+"who": "guest",
+"text": "Over about two months, she misses three shifts, and last Saturday she snapped at a customer over a cold latte.",
+"card": null,
+"start": 545.1527500000001,
+"end": 551.0477916666667
+},
+{
+"seg": 4,
+"line": 2,
+"who": "host",
+"text": "And the instinct is to write her up.",
+"card": null,
+"start": 551.4677916666667,
+"end": 553.4383750000001
+},
+{
+"seg": 4,
+"line": 3,
+"who": "guest",
+"text": "The instinct is to ask, what happened to Priya?",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 553.858375,
+"end": 556.3564583333333
+},
+{
+"seg": 4,
+"line": 3,
+"who": "guest",
+"text": "And that's only half the question.",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 556.5564583333334,
+"end": 558.3083333333334
+},
+{
+"seg": 4,
+"line": 3,
+"who": "guest",
+"text": "The better question is, what happened to Priya's job?",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 558.5083333333334,
+"end": 561.1251250000001
+},
+{
+"seg": 4,
+"line": 3,
+"who": "guest",
+"text": "Did someone leave and never get replaced?",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 561.3251250000002,
+"end": 563.4956250000001
+},
+{
+"seg": 4,
+"line": 3,
+"who": "guest",
+"text": "Did she quietly pick up the ordering, the training and the closing?",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 563.6956250000002,
+"end": 566.7361666666668
+},
+{
+"seg": 4,
+"line": 3,
+"who": "guest",
+"text": "Has she had a full weekend off this year?",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 566.9361666666668,
+"end": 569.0605000000002
+},
+{
+"seg": 4,
+"line": 4,
+"who": "host",
+"text": "So you look at the workload before you look at the person.",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 569.4805000000001,
+"end": 572.2741666666668
+},
+{
+"seg": 4,
+"line": 5,
+"who": "guest",
+"text": "You look at both.",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 572.6941666666668,
+"end": 573.8330416666668
+},
+{
+"seg": 4,
+"line": 5,
+"who": "guest",
+"text": "But you start with the job, because that's the part you own.",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 574.0330416666668,
+"end": 576.7423750000002
+},
+{
+"seg": 4,
+"line": 5,
+"who": "guest",
+"text": "And the change in behaviour is the signal.",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 576.9423750000002,
+"end": 579.1758333333336
+},
+{
+"seg": 4,
+"line": 5,
+"who": "guest",
+"text": "Five good years and two bad months tells you something changed.",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 579.3758333333336,
+"end": 582.5972083333336
+},
+{
+"seg": 4,
+"line": 6,
+"who": "host",
+"text": "What do you actually say to her?",
+"card": {
+"type": "point",
+"text": "Ask what happened to the job, not only what happened to the person"
+},
+"start": 583.0172083333335,
+"end": 584.6786250000002
+},
+{
+"seg": 4,
+"line": 7,
+"who": "guest",
+"text": "Something like, Priya, I've noticed you've missed a few shifts lately, and Saturday seemed rough.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 585.0986250000002,
+"end": 589.9839583333335
+},
+{
+"seg": 4,
+"line": 7,
+"who": "guest",
+"text": "That's not like you.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 590.1839583333335,
+"end": 591.4209583333335
+},
+{
+"seg": 4,
+"line": 7,
+"who": "guest",
+"text": "How are things going?",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 591.6209583333335,
+"end": 592.9101666666669
+},
+{
+"seg": 4,
+"line": 7,
+"who": "guest",
+"text": "And then you stop talking.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 593.1101666666669,
+"end": 594.6035000000003
+},
+{
+"seg": 4,
+"line": 7,
+"who": "guest",
+"text": "You're describing what you saw, not guessing what's wrong with her.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 594.8035000000003,
+"end": 597.7475000000003
+},
+{
+"seg": 4,
+"line": 8,
+"who": "host",
+"text": "Second situation.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 598.1675000000002,
+"end": 599.4832083333336
+},
+{
+"seg": 4,
+"line": 9,
+"who": "guest",
+"text": "The hero.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 599.9032083333335,
+"end": 600.7850416666669
+},
+{
+"seg": 4,
+"line": 9,
+"who": "guest",
+"text": "Every small business has one.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 600.9850416666669,
+"end": 602.7094166666669
+},
+{
+"seg": 4,
+"line": 9,
+"who": "guest",
+"text": "Let's call him Marcus, the general manager at a family restaurant.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 602.909416666667,
+"end": 606.5640833333337
+},
+{
+"seg": 4,
+"line": 9,
+"who": "guest",
+"text": "No real vacation in three years.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 606.7640833333337,
+"end": 608.825541666667
+},
+{
+"seg": 4,
+"line": 9,
+"who": "guest",
+"text": "He answers texts at midnight, and the owner loves him for it.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 609.0255416666671,
+"end": 612.1402083333338
+},
+{
+"seg": 4,
+"line": 10,
+"who": "host",
+"text": "That sounds like a dream employee.",
+"card": {
+"type": "point",
+"text": "Describe what you saw. Don't guess what's wrong."
+},
+"start": 612.5602083333338,
+"end": 614.4374166666671
+},
+{
+"seg": 4,
+"line": 11,
+"who": "guest",
+"text": "That's the trap.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 614.8574166666671,
+"end": 615.9066250000004
+},
+{
+"seg": 4,
+"line": 11,
+"who": "guest",
+"text": "The Canadian Psychological Association lists personal factors that can feed burnout, like perfectionism, putting work above everything else, and trouble setting boundaries.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 616.1066250000005,
+"end": 625.8881250000005
+},
+{
+"seg": 4,
+"line": 11,
+"who": "guest",
+"text": "The hero often has all three, in a place that rewards all three.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 626.0881250000006,
+"end": 629.5778750000005
+},
+{
+"seg": 4,
+"line": 12,
+"who": "host",
+"text": "So the business is part of it.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 629.9978750000005,
+"end": 631.6521666666672
+},
+{
+"seg": 4,
+"line": 13,
+"who": "guest",
+"text": "The business built the hero.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 632.0721666666672,
+"end": 633.5453333333338
+},
+{
+"seg": 4,
+"line": 13,
+"who": "guest",
+"text": "If everything falls over when Marcus takes a week off, that's not a Marcus problem.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 633.7453333333339,
+"end": 638.1903750000005
+},
+{
+"seg": 4,
+"line": 13,
+"who": "guest",
+"text": "That's a design problem.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 638.3903750000005,
+"end": 639.8265000000005
+},
+{
+"seg": 4,
+"line": 13,
+"who": "guest",
+"text": "Train someone else on the key parts of his job, then actually send him on vacation.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 640.0265000000005,
+"end": 644.5065000000005
+},
+{
+"seg": 4,
+"line": 13,
+"who": "guest",
+"text": "Not one where he checks the group chat every hour.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 644.7065000000006,
+"end": 647.2612916666673
+},
+{
+"seg": 4,
+"line": 13,
+"who": "guest",
+"text": "A real one.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 647.4612916666673,
+"end": 648.448708333334
+},
+{
+"seg": 4,
+"line": 14,
+"who": "host",
+"text": "There's a legal angle to that too, right?",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 648.868708333334,
+"end": 651.0001666666673
+},
+{
+"seg": 4,
+"line": 15,
+"who": "guest",
+"text": "There is, and we'll get to the Nova Scotia rules in a few minutes.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 651.4201666666672,
+"end": 654.5859166666672
+},
+{
+"seg": 4,
+"line": 16,
+"who": "host",
+"text": "Third one.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 655.0059166666672,
+"end": 655.9027916666672
+},
+{
+"seg": 4,
+"line": 16,
+"who": "host",
+"text": "I suspect this one hits closer to home for a lot of people listening.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 656.1027916666673,
+"end": 660.1679166666672
+},
+{
+"seg": 4,
+"line": 17,
+"who": "guest",
+"text": "The manager who burns out.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 660.5879166666672,
+"end": 662.2077500000005
+},
+{
+"seg": 4,
+"line": 17,
+"who": "guest",
+"text": "Picture a woman who owns a small home care company with a dozen staff.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 662.4077500000005,
+"end": 666.0344166666672
+},
+{
+"seg": 4,
+"line": 17,
+"who": "guest",
+"text": "She does the scheduling, the payroll and the hiring, covers shifts when people are sick, and handles every complaint.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 666.2344166666672,
+"end": 672.0153750000006
+},
+{
+"seg": 4,
+"line": 17,
+"who": "guest",
+"text": "She's the one everyone else leans on, and there's nobody for her to lean on.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 672.2153750000007,
+"end": 676.0340416666673
+},
+{
+"seg": 4,
+"line": 18,
+"who": "host",
+"text": "Owners don't have a boss to notice.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 676.4540416666673,
+"end": 678.4175000000006
+},
+{
+"seg": 4,
+"line": 19,
+"who": "guest",
+"text": "Right.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 678.8375000000005,
+"end": 679.6793750000005
+},
+{
+"seg": 4,
+"line": 19,
+"who": "guest",
+"text": "And it doesn't stay with her.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 679.8793750000006,
+"end": 681.3087083333339
+},
+{
+"seg": 4,
+"line": 19,
+"who": "guest",
+"text": "Less patience, slower decisions, fewer thank yous.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 681.508708333334,
+"end": 684.1240416666673
+},
+{
+"seg": 4,
+"line": 19,
+"who": "guest",
+"text": "The team feels that, even if nobody says it out loud.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 684.3240416666673,
+"end": 687.3702500000006
+},
+{
+"seg": 4,
+"line": 20,
+"who": "host",
+"text": "So what does she do?",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 687.7902500000006,
+"end": 689.1187083333339
+},
+{
+"seg": 4,
+"line": 21,
+"who": "guest",
+"text": "The same things she'd do for anyone else.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 689.5387083333338,
+"end": 691.5608750000005
+},
+{
+"seg": 4,
+"line": 21,
+"who": "guest",
+"text": "Look at the load, take something off the plate, and get support.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 691.7608750000005,
+"end": 694.6135416666672
+},
+{
+"seg": 4,
+"line": 21,
+"who": "guest",
+"text": "That might mean hiring help for the paperwork, talking to another owner who runs a similar business, or talking to her own doctor or a counsellor.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 694.8135416666672,
+"end": 702.4492083333339
+},
+{
+"seg": 4,
+"line": 21,
+"who": "guest",
+"text": "Owners are allowed to ask for help too.",
+"card": {
+"type": "list",
+"title": "Individual risk factors",
+"items": [
+"Perfectionism",
+"Work above everything else",
+"Trouble setting boundaries"
+],
+"source": "Canadian Psychological Association"
+},
+"start": 702.649208333334,
+"end": 704.6872500000006
+},
+{
+"seg": 4,
+"line": 22,
+"who": "host",
+"text": "That's a good moment for a quick word about the company that makes this show.",
+"card": {
+"type": "point",
+"text": "Staffkin \u00b7 Hire people, not paperwork."
+},
+"start": 705.1072500000006,
+"end": 709.3150416666673
+},
+{
+"seg": 4,
+"line": 23,
+"who": "host",
+"text": "Staffkin is a hiring and onboarding kit for small Canadian employers who don't have an H R department.",
+"card": {
+"type": "point",
+"text": "Staffkin \u00b7 Hire people, not paperwork."
+},
+"start": 709.6150416666673,
+"end": 716.3277916666673
+},
+{
+"seg": 4,
+"line": 23,
+"who": "host",
+"text": "It helps with job descriptions, interview guides, reference checks and onboarding checklists, so when you need to bring someone onto a stretched team, the paperwork side of hiring lives in one place.",
+"card": {
+"type": "point",
+"text": "Staffkin \u00b7 Hire people, not paperwork."
+},
+"start": 716.5277916666673,
+"end": 728.9651250000006
+},
+{
+"seg": 4,
+"line": 23,
+"who": "host",
+"text": "Hire people, not paperwork.",
+"card": {
+"type": "point",
+"text": "Staffkin \u00b7 Hire people, not paperwork."
+},
+"start": 729.1651250000007,
+"end": 730.9971250000007
+},
+{
+"seg": 5,
+"line": 0,
+"who": "host",
+"text": "Okay, Dana.",
+"card": null,
+"start": 732.2471250000007,
+"end": 733.2576666666673
+},
+{
+"seg": 5,
+"line": 0,
+"who": "host",
+"text": "Practical part.",
+"card": null,
+"start": 733.4576666666674,
+"end": 734.5892916666674
+},
+{
+"seg": 5,
+"line": 0,
+"who": "host",
+"text": "What does a manager actually do?",
+"card": null,
+"start": 734.7892916666674,
+"end": 736.6827500000007
+},
+{
+"seg": 5,
+"line": 1,
+"who": "guest",
+"text": "Maslach and Leiter have a model called the six areas of worklife.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 737.1027500000007,
+"end": 740.6694166666674
+},
+{
+"seg": 5,
+"line": 1,
+"who": "guest",
+"text": "It's a list of the parts of a job where a bad fit between the person and the work can feed burnout.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 740.8694166666675,
+"end": 745.7334166666675
+},
+{
+"seg": 5,
+"line": 1,
+"who": "guest",
+"text": "Workload, control, reward, community, fairness, and values.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 745.9334166666675,
+"end": 749.2739583333342
+},
+{
+"seg": 5,
+"line": 2,
+"who": "host",
+"text": "Walk me through them.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 749.6939583333342,
+"end": 750.8819583333342
+},
+{
+"seg": 5,
+"line": 2,
+"who": "host",
+"text": "Small business version.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 751.0819583333342,
+"end": 752.5409583333342
+},
+{
+"seg": 5,
+"line": 3,
+"who": "guest",
+"text": "Workload first.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 752.9609583333341,
+"end": 754.2161250000008
+},
+{
+"seg": 5,
+"line": 3,
+"who": "guest",
+"text": "This is the obvious one.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 754.4161250000009,
+"end": 755.8882916666676
+},
+{
+"seg": 5,
+"line": 3,
+"who": "guest",
+"text": "Too much work, not enough people, not enough time.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 756.0882916666676,
+"end": 758.6269583333343
+},
+{
+"seg": 5,
+"line": 3,
+"who": "guest",
+"text": "One thing Maslach has pointed out is that workload mostly drives the exhaustion piece.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 758.8269583333343,
+"end": 763.3783333333344
+},
+{
+"seg": 5,
+"line": 3,
+"who": "guest",
+"text": "On its own, it doesn't necessarily lead to cynicism or people feeling bad about themselves.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 763.5783333333344,
+"end": 768.3996666666677
+},
+{
+"seg": 5,
+"line": 4,
+"who": "host",
+"text": "So what do I do about workload in a twelve person shop?",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 1",
+"items": [
+"Workload",
+"Control",
+"Reward"
+],
+"source": "Leiter & Maslach"
+},
+"start": 768.8196666666677,
+"end": 772.1644583333343
+},
+{
+"seg": 5,
+"line": 5,
+"who": "guest",
+"text": "Start with a list.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 772.5844583333343,
+"end": 773.8259166666676
+},
+{
+"seg": 5,
+"line": 5,
+"who": "guest",
+"text": "What does this person actually do in a week?",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 774.0259166666676,
+"end": 776.2445833333343
+},
+{
+"seg": 5,
+"line": 5,
+"who": "guest",
+"text": "Then ask, what can come off?",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 776.4445833333343,
+"end": 778.057500000001
+},
+{
+"seg": 5,
+"line": 5,
+"who": "guest",
+"text": "Maslach makes the point that organizations are good at adding tasks and bad at taking them away.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 778.2575000000011,
+"end": 783.1316250000011
+},
+{
+"seg": 5,
+"line": 5,
+"who": "guest",
+"text": "So if you add something, take something away.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 783.3316250000012,
+"end": 785.6902083333345
+},
+{
+"seg": 5,
+"line": 6,
+"who": "host",
+"text": "Control.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 786.1102083333344,
+"end": 786.961000000001
+},
+{
+"seg": 5,
+"line": 7,
+"who": "guest",
+"text": "Control is how much say people have over how and when they work.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 787.381000000001,
+"end": 790.6609166666676
+},
+{
+"seg": 5,
+"line": 7,
+"who": "guest",
+"text": "The Mayo Clinic lists a lack of control over your schedule, assignments or workload as one possible cause of job burnout.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 790.8609166666677,
+"end": 797.4955833333344
+},
+{
+"seg": 5,
+"line": 7,
+"who": "guest",
+"text": "Shift workers often have very little control.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 797.6955833333344,
+"end": 800.3219583333345
+},
+{
+"seg": 5,
+"line": 7,
+"who": "guest",
+"text": "Small fixes help.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 800.5219583333345,
+"end": 801.8512083333345
+},
+{
+"seg": 5,
+"line": 7,
+"who": "guest",
+"text": "Let people swap shifts without a fight.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 802.0512083333346,
+"end": 804.1928333333345
+},
+{
+"seg": 5,
+"line": 7,
+"who": "guest",
+"text": "Post the schedule earlier.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 804.3928333333346,
+"end": 805.8847083333346
+},
+{
+"seg": 5,
+"line": 7,
+"who": "guest",
+"text": "Ask before you change it.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 806.0847083333347,
+"end": 807.6837083333347
+},
+{
+"seg": 5,
+"line": 8,
+"who": "host",
+"text": "Reward.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 808.1037083333347,
+"end": 808.9133333333347
+},
+{
+"seg": 5,
+"line": 9,
+"who": "guest",
+"text": "Reward isn't only pay, although pay matters.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 809.3333333333346,
+"end": 811.917291666668
+},
+{
+"seg": 5,
+"line": 9,
+"who": "guest",
+"text": "It's recognition.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 812.117291666668,
+"end": 813.3235833333347
+},
+{
+"seg": 5,
+"line": 9,
+"who": "guest",
+"text": "A specific thank you, for something real, said where other people can hear it.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 813.5235833333347,
+"end": 817.4062500000014
+},
+{
+"seg": 5,
+"line": 9,
+"who": "guest",
+"text": "The Canadian Psychological Association lists not enough recognition or pay among the work factors behind burnout.",
+"card": {
+"type": "point",
+"text": "If you add a task, take one away."
+},
+"start": 817.6062500000014,
+"end": 824.3140833333348
+},
+{
+"seg": 5,
+"line": 10,
+"who": "host",
+"text": "Community.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 824.7340833333348,
+"end": 825.5460416666681
+},
+{
+"seg": 5,
+"line": 11,
+"who": "guest",
+"text": "Community is whether people feel supported by the people around them.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 825.966041666668,
+"end": 829.3133750000014
+},
+{
+"seg": 5,
+"line": 11,
+"who": "guest",
+"text": "Conflict that never gets dealt with, or one team member everyone tiptoes around, eats away at it.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 829.5133750000015,
+"end": 834.9307083333348
+},
+{
+"seg": 5,
+"line": 11,
+"who": "guest",
+"text": "Deal with the conflict, and make sure nobody is working alone all the time.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 835.1307083333348,
+"end": 838.8973750000015
+},
+{
+"seg": 5,
+"line": 12,
+"who": "host",
+"text": "Fairness.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 839.3173750000014,
+"end": 840.0691666666681
+},
+{
+"seg": 5,
+"line": 13,
+"who": "guest",
+"text": "Fairness is whether decisions feel fair.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 840.4891666666681,
+"end": 842.6760000000014
+},
+{
+"seg": 5,
+"line": 13,
+"who": "guest",
+"text": "Who gets the good shifts, who gets stuck with Saturdays, who gets the raise.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 842.8760000000015,
+"end": 846.5288750000014
+},
+{
+"seg": 5,
+"line": 13,
+"who": "guest",
+"text": "A simple test is whether you could explain the rule out loud to the whole team.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 846.7288750000015,
+"end": 850.5475416666682
+},
+{
+"seg": 5,
+"line": 14,
+"who": "host",
+"text": "And values.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 850.9675416666681,
+"end": 851.9480416666681
+},
+{
+"seg": 5,
+"line": 15,
+"who": "guest",
+"text": "Values is the gap between what your business says it stands for and what people are actually asked to do.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 852.3680416666681,
+"end": 857.6483750000015
+},
+{
+"seg": 5,
+"line": 15,
+"who": "guest",
+"text": "If your care home says residents come first, but staff are rushed so hard they can't sit with anyone for five minutes, that gap wears people down.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 857.8483750000015,
+"end": 865.5487916666682
+},
+{
+"seg": 5,
+"line": 16,
+"who": "host",
+"text": "So the big idea here is that burnout is partly a job design problem.",
+"card": {
+"type": "list",
+"title": "Six areas of worklife, part 2",
+"items": [
+"Community",
+"Fairness",
+"Values"
+],
+"source": "Leiter & Maslach"
+},
+"start": 865.9687916666682,
+"end": 870.4283333333349
+},
+{
+"seg": 5,
+"line": 17,
+"who": "guest",
+"text": "Yes.",
+"card": {
+"type": "point",
+"text": "Turn down the heat, or redesign the kitchen."
+},
+"start": 870.8483333333348,
+"end": 871.6266666666681
+},
+{
+"seg": 5,
+"line": 17,
+"who": "guest",
+"text": "Maslach has a nice way of putting it.",
+"card": {
+"type": "point",
+"text": "Turn down the heat, or redesign the kitchen."
+},
+"start": 871.8266666666682,
+"end": 873.9762916666682
+},
+{
+"seg": 5,
+"line": 17,
+"who": "guest",
+"text": "People say, if you can't take the heat, get out of the kitchen.",
+"card": {
+"type": "point",
+"text": "Turn down the heat, or redesign the kitchen."
+},
+"start": 874.1762916666682,
+"end": 877.2056250000015
+},
+{
+"seg": 5,
+"line": 17,
+"who": "guest",
+"text": "She asks, why not turn down the heat, or redesign the kitchen?",
+"card": {
+"type": "point",
+"text": "Turn down the heat, or redesign the kitchen."
+},
+"start": 877.4056250000016,
+"end": 880.5116666666682
+},
+{
+"seg": 5,
+"line": 17,
+"who": "guest",
+"text": "And she's clear that it's both.",
+"card": {
+"type": "point",
+"text": "Turn down the heat, or redesign the kitchen."
+},
+"start": 880.7116666666683,
+"end": 882.385458333335
+},
+{
+"seg": 5,
+"line": 17,
+"who": "guest",
+"text": "The person matters, and the workplace matters.",
+"card": {
+"type": "point",
+"text": "Turn down the heat, or redesign the kitchen."
+},
+"start": 882.585458333335,
+"end": 885.0342083333351
+},
+{
+"seg": 5,
+"line": 18,
+"who": "host",
+"text": "Does the W H O say anything to managers specifically?",
+"card": {
+"type": "point",
+"text": "Turn down the heat, or redesign the kitchen."
+},
+"start": 885.454208333335,
+"end": 889.213583333335
+},
+{
+"seg": 5,
+"line": 19,
+"who": "guest",
+"text": "It does.",
+"card": {
+"type": "stat",
+"big": "12 billion",
+"label": "working days lost each year worldwide to depression and anxiety",
+"source": "WHO and ILO, 2022"
+},
+"start": 889.633583333335,
+"end": 890.648208333335
+},
+{
+"seg": 5,
+"line": 19,
+"who": "guest",
+"text": "In September twenty twenty two, the W H O released guidelines on mental health at work, and for the first time it recommended training for managers, to help them prevent stressful work environments and respond to workers who are struggling.",
+"card": {
+"type": "stat",
+"big": "12 billion",
+"label": "working days lost each year worldwide to depression and anxiety",
+"source": "WHO and ILO, 2022"
+},
+"start": 890.848208333335,
+"end": 903.9895416666684
+},
+{
+"seg": 5,
+"line": 19,
+"who": "guest",
+"text": "The same announcement estimated that about twelve billion working days are lost every year worldwide to depression and anxiety.",
+"card": {
+"type": "stat",
+"big": "12 billion",
+"label": "working days lost each year worldwide to depression and anxiety",
+"source": "WHO and ILO, 2022"
+},
+"start": 904.1895416666684,
+"end": 911.2295416666684
+},
+{
+"seg": 5,
+"line": 20,
+"who": "host",
+"text": "And in Canada there's a national standard for this.",
+"card": {
+"type": "stat",
+"big": "12 billion",
+"label": "working days lost each year worldwide to depression and anxiety",
+"source": "WHO and ILO, 2022"
+},
+"start": 911.6495416666684,
+"end": 914.6665000000017
+},
+{
+"seg": 5,
+"line": 21,
+"who": "guest",
+"text": "There is.",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 915.0865000000017,
+"end": 916.2071250000017
+},
+{
+"seg": 5,
+"line": 21,
+"who": "guest",
+"text": "It's the National Standard of Canada for Psychological Health and Safety in the Workplace, known as C S A Z ten oh three.",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 916.4071250000018,
+"end": 923.0412500000018
+},
+{
+"seg": 5,
+"line": 21,
+"who": "guest",
+"text": "It was commissioned by the Mental Health Commission of Canada and launched in January twenty thirteen, and the commission calls it the first of its kind in the world.",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 923.2412500000019,
+"end": 931.4277500000019
+},
+{
+"seg": 5,
+"line": 21,
+"who": "guest",
+"text": "It's voluntary, and it gives a framework for finding and reducing the things at work that can harm people's mental health.",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 931.6277500000019,
+"end": 937.5797500000019
+},
+{
+"seg": 5,
+"line": 22,
+"who": "host",
+"text": "Is it only for big companies?",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 937.9997500000019,
+"end": 939.8350833333352
+},
+{
+"seg": 5,
+"line": 23,
+"who": "guest",
+"text": "No.",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 940.2550833333352,
+"end": 941.0450833333351
+},
+{
+"seg": 5,
+"line": 23,
+"who": "guest",
+"text": "It's meant for organizations of any size.",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 941.2450833333352,
+"end": 943.6257916666685
+},
+{
+"seg": 5,
+"line": 23,
+"who": "guest",
+"text": "A twelve person bakery won't run it like a hospital, but the core idea scales down.",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 943.8257916666686,
+"end": 948.8177916666685
+},
+{
+"seg": 5,
+"line": 23,
+"who": "guest",
+"text": "Find what's hurting people, fix what you can, and keep checking.",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 949.0177916666686,
+"end": 952.2291666666686
+},
+{
+"seg": 5,
+"line": 23,
+"who": "guest",
+"text": "A new edition is in the works, so look for the current version.",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 952.4291666666686,
+"end": 955.722250000002
+},
+{
+"seg": 5,
+"line": 24,
+"who": "host",
+"text": "Let's talk about time off here in Nova Scotia, since rest is part of this.",
+"card": {
+"type": "rule",
+"title": "Canada",
+"text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+"source": "MHCC; CSA Group",
+"as_of": "Oct 2026"
+},
+"start": 956.1422500000019,
+"end": 960.5727916666685
+},
+{
+"seg": 5,
+"line": 25,
+"who": "guest",
+"text": "Sure.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia vacation",
+"text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+"source": "NS Labour Standards",
+"as_of": "Oct 2026"
+},
+"start": 960.9927916666685,
+"end": 961.5932916666685
+},
+{
+"seg": 5,
+"line": 25,
+"who": "guest",
+"text": "This is as of October twenty twenty six, and rules differ by province, so check the Nova Scotia Labour Standards pages for your own situation.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia vacation",
+"text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+"source": "NS Labour Standards",
+"as_of": "Oct 2026"
+},
+"start": 961.7932916666686,
+"end": 970.3479583333352
+},
+{
+"seg": 5,
+"line": 25,
+"who": "guest",
+"text": "Under the Labour Standards Code, employees get two weeks of vacation after each twelve months of work, and three weeks after eight years with the same employer.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia vacation",
+"text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+"source": "NS Labour Standards",
+"as_of": "Oct 2026"
+},
+"start": 970.5479583333353,
+"end": 978.9746250000019
+},
+{
+"seg": 5,
+"line": 25,
+"who": "guest",
+"text": "Vacation pay is at least four percent of gross wages, and six percent starting in the eighth year.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia vacation",
+"text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+"source": "NS Labour Standards",
+"as_of": "Oct 2026"
+},
+"start": 979.1746250000019,
+"end": 984.6021666666686
+},
+{
+"seg": 5,
+"line": 26,
+"who": "host",
+"text": "And who decides when it gets taken?",
+"card": {
+"type": "rule",
+"title": "Nova Scotia vacation",
+"text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+"source": "NS Labour Standards",
+"as_of": "Oct 2026"
+},
+"start": 985.0221666666686,
+"end": 987.0556666666686
+},
+{
+"seg": 5,
+"line": 27,
+"who": "guest",
+"text": "The employer decides, though many let employees choose.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia vacation",
+"text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+"source": "NS Labour Standards",
+"as_of": "Oct 2026"
+},
+"start": 987.4756666666685,
+"end": 990.3556666666685
+},
+{
+"seg": 5,
+"line": 27,
+"who": "guest",
+"text": "It has to be taken within ten months after the year it was earned, and the employer has to give at least one week's notice.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia vacation",
+"text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+"source": "NS Labour Standards",
+"as_of": "Oct 2026"
+},
+"start": 990.5556666666686,
+"end": 996.6986250000019
+},
+{
+"seg": 5,
+"line": 27,
+"who": "guest",
+"text": "And full time employees have to actually take the time off.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia vacation",
+"text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+"source": "NS Labour Standards",
+"as_of": "Oct 2026"
+},
+"start": 996.898625000002,
+"end": 999.8951250000019
+},
+{
+"seg": 5,
+"line": 27,
+"who": "guest",
+"text": "They can't just take the pay instead.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia vacation",
+"text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+"source": "NS Labour Standards",
+"as_of": "Oct 2026"
+},
+"start": 1000.095125000002,
+"end": 1002.0262500000019
+},
+{
+"seg": 5,
+"line": 28,
+"who": "host",
+"text": "So the hero who never takes vacation can be a legal issue too.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia vacation",
+"text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+"source": "NS Labour Standards",
+"as_of": "Oct 2026"
+},
+"start": 1002.4462500000019,
+"end": 1006.7246250000019
+},
+{
+"seg": 5,
+"line": 29,
+"who": "guest",
+"text": "It can.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia leave",
+"text": "Sick notes limited since July 2023. 5 unpaid sick days a year since Jan 2025.",
+"source": "Government of Nova Scotia",
+"as_of": "Oct 2026"
+},
+"start": 1007.1446250000018,
+"end": 1008.1985416666685
+},
+{
+"seg": 5,
+"line": 29,
+"who": "guest",
+"text": "Two more things.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia leave",
+"text": "Sick notes limited since July 2023. 5 unpaid sick days a year since Jan 2025.",
+"source": "Government of Nova Scotia",
+"as_of": "Oct 2026"
+},
+"start": 1008.3985416666685,
+"end": 1009.4990833333352
+},
+{
+"seg": 5,
+"line": 29,
+"who": "guest",
+"text": "Since July twenty twenty three, Nova Scotia employers can't ask for a sick note unless someone is away more than five working days, or has already had two absences of five working days or fewer in the past twelve months.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia leave",
+"text": "Sick notes limited since July 2023. 5 unpaid sick days a year since Jan 2025.",
+"source": "Government of Nova Scotia",
+"as_of": "Oct 2026"
+},
+"start": 1009.6990833333352,
+"end": 1021.9566250000018
+},
+{
+"seg": 5,
+"line": 29,
+"who": "guest",
+"text": "And since January twenty twenty five, the Code includes five unpaid sick days a year, plus unpaid leave of up to twenty seven weeks for a serious illness or injury, for employees with at least three months of service.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia leave",
+"text": "Sick notes limited since July 2023. 5 unpaid sick days a year since Jan 2025.",
+"source": "Government of Nova Scotia",
+"as_of": "Oct 2026"
+},
+"start": 1022.1566250000019,
+"end": 1033.9966250000018
+},
+{
+"seg": 5,
+"line": 30,
+"who": "host",
+"text": "That's a lot to keep straight.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia leave",
+"text": "Sick notes limited since July 2023. 5 unpaid sick days a year since Jan 2025.",
+"source": "Government of Nova Scotia",
+"as_of": "Oct 2026"
+},
+"start": 1034.4166250000019,
+"end": 1036.0215833333352
+},
+{
+"seg": 5,
+"line": 31,
+"who": "guest",
+"text": "It is.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia leave",
+"text": "Sick notes limited since July 2023. 5 unpaid sick days a year since Jan 2025.",
+"source": "Government of Nova Scotia",
+"as_of": "Oct 2026"
+},
+"start": 1036.4415833333353,
+"end": 1037.2329166666686
+},
+{
+"seg": 5,
+"line": 31,
+"who": "guest",
+"text": "Check the official pages, or call Labour Standards if you're not sure.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia leave",
+"text": "Sick notes limited since July 2023. 5 unpaid sick days a year since Jan 2025.",
+"source": "Government of Nova Scotia",
+"as_of": "Oct 2026"
+},
+"start": 1037.4329166666687,
+"end": 1041.056500000002
+},
+{
+"seg": 5,
+"line": 31,
+"who": "guest",
+"text": "This isn't legal advice.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia leave",
+"text": "Sick notes limited since July 2023. 5 unpaid sick days a year since Jan 2025.",
+"source": "Government of Nova Scotia",
+"as_of": "Oct 2026"
+},
+"start": 1041.256500000002,
+"end": 1042.7852916666686
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "Let's go back to Priya.",
+"card": null,
+"start": 1044.0352916666686,
+"end": 1045.5124583333352
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "You've noticed.",
+"card": null,
+"start": 1045.7124583333352,
+"end": 1046.6629166666685
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "You want to talk.",
+"card": null,
+"start": 1046.8629166666685,
+"end": 1047.9835416666685
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "How do you set it up?",
+"card": null,
+"start": 1048.1835416666686,
+"end": 1049.3862083333352
+},
+{
+"seg": 6,
+"line": 1,
+"who": "guest",
+"text": "Privately, and not in the middle of a rush.",
+"card": null,
+"start": 1049.8062083333352,
+"end": 1051.9273333333351
+},
+{
+"seg": 6,
+"line": 1,
+"who": "guest",
+"text": "Not right after the incident with the customer either, when everyone's still heated.",
+"card": null,
+"start": 1052.1273333333352,
+"end": 1056.3554583333353
+},
+{
+"seg": 6,
+"line": 1,
+"who": "guest",
+"text": "Ask if she has ten minutes after her shift, somewhere you won't be interrupted.",
+"card": null,
+"start": 1056.5554583333353,
+"end": 1060.4539583333353
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "And you open with what you saw.",
+"card": null,
+"start": 1060.8739583333354,
+"end": 1062.6029583333354
+},
+{
+"seg": 6,
+"line": 3,
+"who": "guest",
+"text": "Yes.",
+"card": null,
+"start": 1063.0229583333355,
+"end": 1063.801291666669
+},
+{
+"seg": 6,
+"line": 3,
+"who": "guest",
+"text": "Specific, recent, and about behaviour.",
+"card": null,
+"start": 1064.001291666669,
+"end": 1066.2360000000024
+},
+{
+"seg": 6,
+"line": 3,
+"who": "guest",
+"text": "I've noticed you've missed three shifts this month, and Saturday looked hard.",
+"card": null,
+"start": 1066.4360000000024,
+"end": 1070.0917500000023
+},
+{
+"seg": 6,
+"line": 3,
+"who": "guest",
+"text": "That's not like you, and I wanted to check in.",
+"card": null,
+"start": 1070.2917500000024,
+"end": 1072.4766250000023
+},
+{
+"seg": 6,
+"line": 3,
+"who": "guest",
+"text": "Then ask an open question.",
+"card": null,
+"start": 1072.6766250000023,
+"end": 1074.392541666669
+},
+{
+"seg": 6,
+"line": 3,
+"who": "guest",
+"text": "How are things going?",
+"card": null,
+"start": 1074.5925416666691,
+"end": 1075.8817500000025
+},
+{
+"seg": 6,
+"line": 3,
+"who": "guest",
+"text": "Is anything at work making this harder?",
+"card": null,
+"start": 1076.0817500000026,
+"end": 1078.023083333336
+},
+{
+"seg": 6,
+"line": 4,
+"who": "host",
+"text": "What should a manager not say?",
+"card": null,
+"start": 1078.443083333336,
+"end": 1080.109083333336
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "A few things.",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1080.529083333336,
+"end": 1081.6149166666694
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "Don't say, you seem depressed, or, I think you're burned out.",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1081.8149166666694,
+"end": 1084.578333333336
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "That's a diagnosis, and you're not the person to make it.",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1084.7783333333361,
+"end": 1087.6610416666695
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "Don't say, everyone's tired, we all just have to push through.",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1087.8610416666695,
+"end": 1090.7511250000027
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "And don't make promises you can't keep, whether that's about privacy or about changes you can't deliver.",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1090.9511250000028,
+"end": 1096.2617916666695
+},
+{
+"seg": 6,
+"line": 6,
+"who": "host",
+"text": "What about, just take a few days off?",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1096.6817916666696,
+"end": 1098.706625000003
+},
+{
+"seg": 6,
+"line": 7,
+"who": "guest",
+"text": "Rest helps, and you should offer it.",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1099.126625000003,
+"end": 1100.8589166666698
+},
+{
+"seg": 6,
+"line": 7,
+"who": "guest",
+"text": "But Maslach's point is that time off and self care on their own don't fix what's causing the problem.",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1101.0589166666698,
+"end": 1106.2825000000032
+},
+{
+"seg": 6,
+"line": 7,
+"who": "guest",
+"text": "The person comes back to the same job.",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1106.4825000000033,
+"end": 1108.6130000000032
+},
+{
+"seg": 6,
+"line": 7,
+"who": "guest",
+"text": "So pair the time off with a change to the job.",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1108.8130000000033,
+"end": 1111.19379166667
+},
+{
+"seg": 6,
+"line": 8,
+"who": "host",
+"text": "So what can you offer?",
+"card": {
+"type": "list",
+"title": "Avoid saying",
+"items": [
+"\u201cYou seem depressed\u201d",
+"\u201cWe all just push through\u201d",
+"\u201cJust take a few days off\u201d",
+"Promises you can't keep"
+]
+},
+"start": 1111.61379166667,
+"end": 1112.9419583333367
+},
+{
+"seg": 6,
+"line": 9,
+"who": "guest",
+"text": "Things that are in your control.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1113.3619583333368,
+"end": 1115.1152500000035
+},
+{
+"seg": 6,
+"line": 9,
+"who": "guest",
+"text": "Can we take the ordering off your plate for a while?",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1115.3152500000035,
+"end": 1117.7045833333368
+},
+{
+"seg": 6,
+"line": 9,
+"who": "guest",
+"text": "Would a different shift pattern help?",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1117.9045833333369,
+"end": 1119.6253750000035
+},
+{
+"seg": 6,
+"line": 9,
+"who": "guest",
+"text": "Would two days off in a row make a difference?",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1119.8253750000035,
+"end": 1121.9960416666702
+},
+{
+"seg": 6,
+"line": 9,
+"who": "guest",
+"text": "Then, after a couple of weeks, check in again.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1122.1960416666702,
+"end": 1124.3960000000036
+},
+{
+"seg": 6,
+"line": 9,
+"who": "guest",
+"text": "One conversation is a start, not a fix.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1124.5960000000036,
+"end": 1126.9802916666704
+},
+{
+"seg": 6,
+"line": 10,
+"who": "host",
+"text": "And if she doesn't want to talk?",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1127.4002916666705,
+"end": 1128.9630416666705
+},
+{
+"seg": 6,
+"line": 11,
+"who": "guest",
+"text": "That's allowed.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1129.3830416666706,
+"end": 1130.3844583333373
+},
+{
+"seg": 6,
+"line": 11,
+"who": "guest",
+"text": "You've opened the door.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1130.5844583333374,
+"end": 1131.8644583333373
+},
+{
+"seg": 6,
+"line": 11,
+"who": "guest",
+"text": "Say the offer stands, make the changes you can anyway, and check in again later.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1132.0644583333374,
+"end": 1136.409625000004
+},
+{
+"seg": 6,
+"line": 11,
+"who": "guest",
+"text": "Don't push for details about her health.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1136.6096250000041,
+"end": 1138.5589583333374
+},
+{
+"seg": 6,
+"line": 11,
+"who": "guest",
+"text": "That's hers to share or not.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1138.7589583333374,
+"end": 1140.3639583333375
+},
+{
+"seg": 6,
+"line": 12,
+"who": "host",
+"text": "When do you point someone to professional help?",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1140.7839583333375,
+"end": 1143.1619166666708
+},
+{
+"seg": 6,
+"line": 13,
+"who": "guest",
+"text": "Any time it goes beyond what a schedule change can fix, or any time you're worried about them.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1143.5819166666708,
+"end": 1148.565541666671
+},
+{
+"seg": 6,
+"line": 13,
+"who": "guest",
+"text": "You don't need to figure out what it is first.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1148.765541666671,
+"end": 1150.9159583333376
+},
+{
+"seg": 6,
+"line": 13,
+"who": "guest",
+"text": "The Mayo Clinic suggests that people with these signs talk to a doctor or a mental health professional.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1151.1159583333376,
+"end": 1156.5011250000043
+},
+{
+"seg": 6,
+"line": 13,
+"who": "guest",
+"text": "The Canadian Psychological Association points to registered psychologists, who can assess what's going on and help build a plan.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1156.7011250000044,
+"end": 1163.783791666671
+},
+{
+"seg": 6,
+"line": 14,
+"who": "host",
+"text": "And employee assistance programs.",
+"card": {
+"type": "point",
+"text": "One conversation is a start, not a fix. Check back."
+},
+"start": 1164.2037916666711,
+"end": 1166.1539583333379
+},
+{
+"seg": 6,
+"line": 15,
+"who": "guest",
+"text": "If your business has one, this is the moment to mention it.",
+"card": {
+"type": "list",
+"title": "What an EAP usually offers",
+"items": [
+"Confidential short-term counselling",
+"Referrals and follow-up",
+"Support for immediate family",
+"Advice for managers"
+],
+"source": "Opening Minds (MHCC)"
+},
+"start": 1166.573958333338,
+"end": 1169.5098333333378
+},
+{
+"seg": 6,
+"line": 15,
+"who": "guest",
+"text": "An employee assistance program, or E A P, is a confidential, voluntary service that's free for employees.",
+"card": {
+"type": "list",
+"title": "What an EAP usually offers",
+"items": [
+"Confidential short-term counselling",
+"Referrals and follow-up",
+"Support for immediate family",
+"Advice for managers"
+],
+"source": "Opening Minds (MHCC)"
+},
+"start": 1169.7098333333379,
+"end": 1175.6393750000045
+},
+{
+"seg": 6,
+"line": 15,
+"who": "guest",
+"text": "According to Opening Minds, which is part of the Mental Health Commission of Canada, it typically includes short term counselling, often three to six sessions, plus referrals, and it's usually open to immediate family too.",
+"card": {
+"type": "list",
+"title": "What an EAP usually offers",
+"items": [
+"Confidential short-term counselling",
+"Referrals and follow-up",
+"Support for immediate family",
+"Advice for managers"
+],
+"source": "Opening Minds (MHCC)"
+},
+"start": 1175.8393750000046,
+"end": 1187.7618333333378
+},
+{
+"seg": 6,
+"line": 15,
+"who": "guest",
+"text": "Many also offer advice to managers.",
+"card": {
+"type": "list",
+"title": "What an EAP usually offers",
+"items": [
+"Confidential short-term counselling",
+"Referrals and follow-up",
+"Support for immediate family",
+"Advice for managers"
+],
+"source": "Opening Minds (MHCC)"
+},
+"start": 1187.9618333333378,
+"end": 1190.0455416666712
+},
+{
+"seg": 6,
+"line": 16,
+"who": "host",
+"text": "And if you don't have one?",
+"card": {
+"type": "list",
+"title": "What an EAP usually offers",
+"items": [
+"Confidential short-term counselling",
+"Referrals and follow-up",
+"Support for immediate family",
+"Advice for managers"
+],
+"source": "Opening Minds (MHCC)"
+},
+"start": 1190.4655416666712,
+"end": 1191.7932500000045
+},
+{
+"seg": 6,
+"line": 17,
+"who": "guest",
+"text": "Then know your local options before you need them.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1192.2132500000046,
+"end": 1194.6328750000046
+},
+{
+"seg": 6,
+"line": 17,
+"who": "guest",
+"text": "In Nova Scotia, you can call eight one one for non emergency mental health and addictions advice.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1194.8328750000046,
+"end": 1200.1662083333379
+},
+{
+"seg": 6,
+"line": 17,
+"who": "guest",
+"text": "The province also has a mental health and addictions crisis line that's open around the clock.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1200.366208333338,
+"end": 1205.2607500000045
+},
+{
+"seg": 6,
+"line": 17,
+"who": "guest",
+"text": "We'll put that number on screen and in the description.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1205.4607500000045,
+"end": 1208.0495000000044
+},
+{
+"seg": 6,
+"line": 18,
+"who": "host",
+"text": "And if it's more serious than that?",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1208.4695000000045,
+"end": 1210.2200833333377
+},
+{
+"seg": 6,
+"line": 19,
+"who": "guest",
+"text": "If someone is in crisis, or thinking about suicide, they can call or text nine eight eight, anywhere in Canada, any time of day or night.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1210.6400833333378,
+"end": 1218.1915000000045
+},
+{
+"seg": 6,
+"line": 19,
+"who": "guest",
+"text": "It's Canada's suicide crisis helpline, and it's available in English and French.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1218.3915000000045,
+"end": 1223.0208333333378
+},
+{
+"seg": 6,
+"line": 19,
+"who": "guest",
+"text": "And if someone's safety is at risk right now, call nine one one.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1223.2208333333379,
+"end": 1226.5275000000045
+},
+{
+"seg": 6,
+"line": 20,
+"who": "host",
+"text": "Thank you for saying that plainly.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1226.9475000000045,
+"end": 1228.7465416666712
+},
+{
+"seg": 6,
+"line": 20,
+"who": "host",
+"text": "And if you're listening and that's you, please reach out.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1228.9465416666712,
+"end": 1231.8499166666713
+},
+{
+"seg": 6,
+"line": 20,
+"who": "host",
+"text": "You don't need to have the right words.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1232.0499166666714,
+"end": 1233.9999166666714
+},
+{
+"seg": 6,
+"line": 21,
+"who": "guest",
+"text": "And managers, that goes for you too.",
+"card": {
+"type": "list",
+"title": "Help in Nova Scotia",
+"items": [
+"811: non-emergency advice",
+"Crisis line: 1-888-429-8167, 24/7",
+"Call or text 988, Canada-wide",
+"Safety at risk: call 911"
+],
+"source": "Government of Nova Scotia; 988.ca"
+},
+"start": 1234.4199166666715,
+"end": 1236.294125000005
+},
+{
+"seg": 7,
+"line": 0,
+"who": "host",
+"text": "Let's recap.",
+"card": null,
+"start": 1237.544125000005,
+"end": 1238.544625000005
+},
+{
+"seg": 7,
+"line": 0,
+"who": "host",
+"text": "Dana, take us through it.",
+"card": null,
+"start": 1238.744625000005,
+"end": 1240.157875000005
+},
+{
+"seg": 7,
+"line": 1,
+"who": "guest",
+"text": "One.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1240.5778750000052,
+"end": 1241.2877083333385
+},
+{
+"seg": 7,
+"line": 1,
+"who": "guest",
+"text": "Burnout, as the W H O describes it, comes from chronic workplace stress that hasn't been managed.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1241.4877083333386,
+"end": 1247.129666666672
+},
+{
+"seg": 7,
+"line": 1,
+"who": "guest",
+"text": "It's an occupational phenomenon, not a medical condition, and you don't diagnose it.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1247.329666666672,
+"end": 1252.001666666672
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "Two.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1252.421666666672,
+"end": 1252.9916250000053
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "Watch for change.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1253.1916250000054,
+"end": 1254.4220416666722
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "Exhaustion, cynicism, and a sense of not being good at the job anymore, especially in someone who used to be steady.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1254.6220416666722,
+"end": 1262.3217916666722
+},
+{
+"seg": 7,
+"line": 3,
+"who": "guest",
+"text": "Three.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1262.7417916666723,
+"end": 1263.464833333339
+},
+{
+"seg": 7,
+"line": 3,
+"who": "guest",
+"text": "Look at the job before you look at the person.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1263.664833333339,
+"end": 1265.7410000000057
+},
+{
+"seg": 7,
+"line": 3,
+"who": "guest",
+"text": "Workload, control, reward, community, fairness, and values.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1265.9410000000057,
+"end": 1269.2815416666724
+},
+{
+"seg": 7,
+"line": 3,
+"who": "guest",
+"text": "If you add a task, take one away.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1269.4815416666725,
+"end": 1271.3802083333392
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "Four.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1271.8002083333392,
+"end": 1272.4677916666726
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "Talk privately.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1272.6677916666727,
+"end": 1273.766375000006
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "Describe what you saw, ask, and listen.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1273.966375000006,
+"end": 1276.3682916666728
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "Offer changes you can actually make, then check back.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1276.5682916666728,
+"end": 1279.8404583333395
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "And make sure people actually take their vacation.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1280.0404583333395,
+"end": 1282.973916666673
+},
+{
+"seg": 7,
+"line": 5,
+"who": "guest",
+"text": "And five.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1283.393916666673,
+"end": 1284.2716666666731
+},
+{
+"seg": 7,
+"line": 5,
+"who": "guest",
+"text": "Know where to point people.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1284.4716666666732,
+"end": 1285.9992916666731
+},
+{
+"seg": 7,
+"line": 5,
+"who": "guest",
+"text": "Their doctor, a mental health professional, your E A P if you have one, and nine eight eight for anyone in crisis.",
+"card": {
+"type": "list",
+"title": "Takeaways",
+"items": [
+"Burnout comes from unmanaged work stress",
+"Watch for change in steady people",
+"Fix the job, not only people",
+"Know where to point people"
+]
+},
+"start": 1286.1992916666732,
+"end": 1292.1512916666732
+},
+{
+"seg": 8,
+"line": 0,
+"who": "host",
+"text": "That's the episode.",
+"card": {
+"type": "point",
+"text": "Try it free at staffkin.com"
+},
+"start": 1293.4012916666732,
+"end": 1294.6422500000065
+},
+{
+"seg": 8,
+"line": 0,
+"who": "host",
+"text": "If you're hiring to take some weight off a stretched team, Staffkin can help with the job description, the interview questions and the onboarding checklist.",
+"card": {
+"type": "point",
+"text": "Try it free at staffkin.com"
+},
+"start": 1294.8422500000065,
+"end": 1303.9583750000065
+},
+{
+"seg": 8,
+"line": 0,
+"who": "host",
+"text": "Try it free at staffkin.com.",
+"card": {
+"type": "point",
+"text": "Try it free at staffkin.com"
+},
+"start": 1304.1583750000066,
+"end": 1305.9650416666732
+},
+{
+"seg": 8,
+"line": 1,
+"who": "host",
+"text": "Sources for everything we mentioned are in the description.",
+"card": {
+"type": "point",
+"text": "Try it free at staffkin.com"
+},
+"start": 1306.2650416666731,
+"end": 1309.6005000000064
+},
+{
+"seg": 8,
+"line": 1,
+"who": "host",
+"text": "Thanks to Dana, our A I character, and thanks for listening.",
+"card": {
+"type": "point",
+"text": "Try it free at staffkin.com"
+},
+"start": 1309.8005000000064,
+"end": 1313.2890833333397
+},
+{
+"seg": 8,
+"line": 1,
+"who": "host",
+"text": "New episodes every Thursday.",
+"card": {
+"type": "point",
+"text": "Try it free at staffkin.com"
+},
+"start": 1313.4890833333397,
+"end": 1315.3828333333397
+},
+{
+"seg": 8,
+"line": 2,
+"who": "guest",
+"text": "Take care of your people.",
+"card": {
+"type": "point",
+"text": "Try it free at staffkin.com"
+},
+"start": 1315.8028333333398,
+"end": 1317.3038750000064
+},
+{
+"seg": 8,
+"line": 2,
+"who": "guest",
+"text": "And yourself.",
+"card": {
+"type": "point",
+"text": "Try it free at staffkin.com"
+},
+"start": 1317.5038750000065,
+"end": 1318.4987916666732
+}
+]
+}

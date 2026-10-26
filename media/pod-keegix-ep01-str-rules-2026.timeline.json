@@ -1,0 +1,4348 @@
+{
+"slug": "keegix-ep01-str-rules-2026",
+"brand": "keegix",
+"duration": 1306.716916666671,
+"events": [
+{
+"seg": 0,
+"line": 0,
+"who": "host",
+"text": "For Airbnb reservations booked from November twentieth, asking guests to strip the beds or wash the dishes at checkout is generally not allowed.",
+"card": null,
+"start": 2.6,
+"end": 11.508125
+},
+{
+"seg": 0,
+"line": 0,
+"who": "host",
+"text": "And the listing editor is already flagging it.",
+"card": null,
+"start": 11.708124999999999,
+"end": 14.062624999999999
+},
+{
+"seg": 0,
+"line": 1,
+"who": "guest",
+"text": "And it isn't only the platforms tightening up.",
+"card": {
+"type": "stat",
+"big": "$100,000",
+"label": "Max fine per year for an unregistered short-term rental in Nova Scotia",
+"source": "Province of Nova Scotia"
+},
+"start": 14.482624999999999,
+"end": 17.246958333333332
+},
+{
+"seg": 0,
+"line": 1,
+"who": "guest",
+"text": "In Nova Scotia, running a short term rental without registering can bring fines of up to one hundred thousand dollars for each year.",
+"card": {
+"type": "stat",
+"big": "$100,000",
+"label": "Max fine per year for an unregistered short-term rental in Nova Scotia",
+"source": "Province of Nova Scotia"
+},
+"start": 17.44695833333333,
+"end": 25.81808333333333
+},
+{
+"seg": 0,
+"line": 1,
+"who": "guest",
+"text": "In Toronto, your registration number has to appear on every listing and every ad.",
+"card": {
+"type": "stat",
+"big": "$100,000",
+"label": "Max fine per year for an unregistered short-term rental in Nova Scotia",
+"source": "Province of Nova Scotia"
+},
+"start": 26.01808333333333,
+"end": 31.74870833333333
+},
+{
+"seg": 0,
+"line": 2,
+"who": "host",
+"text": "So today, we're going through what's changing, how it actually gets enforced, and what to do about it this month.",
+"card": {
+"type": "stat",
+"big": "$100,000",
+"label": "Max fine per year for an unregistered short-term rental in Nova Scotia",
+"source": "Province of Nova Scotia"
+},
+"start": 32.16870833333333,
+"end": 38.517916666666665
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "Welcome to the Keegix Podcast, a weekly show about running a B and B, a cottage, or a short term rental.",
+"card": null,
+"start": 39.767916666666665,
+"end": 46.46658333333333
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "I'm June, your A I host.",
+"card": null,
+"start": 46.666583333333335,
+"end": 48.170375
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "Everyone you hear on this show is an A I voice, and the facts we use are sourced in the description.",
+"card": null,
+"start": 48.370375,
+"end": 53.874375
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "This is episode one, and we're starting with rules.",
+"card": null,
+"start": 54.174375,
+"end": 56.990375
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "We'll cover Airbnb's new house rules policy, how cities and provinces in Canada enforce short term rental rules, a few examples from around the world, and the safety basics most hosts are expected to cover.",
+"card": null,
+"start": 57.190375,
+"end": 70.30579166666666
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "Then we'll finish with a short list of what to do before the end of November.",
+"card": null,
+"start": 70.50579166666667,
+"end": 74.600875
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "My guest is Rowan.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 74.900875,
+"end": 75.96754166666666
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Rowan is an A I character we built to play a B and B owner with twenty years behind the desk.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 76.16754166666666,
+"end": 81.57645833333333
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Not a real person, and not a lawyer.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 81.77645833333334,
+"end": 83.876125
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Just a practical voice for the host's side of things.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 84.076125,
+"end": 86.792375
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Welcome, Rowan.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 86.99237500000001,
+"end": 87.952375
+},
+{
+"seg": 1,
+"line": 3,
+"who": "guest",
+"text": "Thanks, June.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 88.372375,
+"end": 89.58470833333334
+},
+{
+"seg": 1,
+"line": 3,
+"who": "guest",
+"text": "And I'll say it up front, since we're talking rules all episode.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 89.78470833333334,
+"end": 93.87150000000001
+},
+{
+"seg": 1,
+"line": 3,
+"who": "guest",
+"text": "Everything here is as of October twenty twenty six.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 94.07150000000001,
+"end": 97.55733333333335
+},
+{
+"seg": 1,
+"line": 3,
+"who": "guest",
+"text": "Rules vary a lot by city and province, and they change.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 97.75733333333335,
+"end": 101.54387500000001
+},
+{
+"seg": 1,
+"line": 3,
+"who": "guest",
+"text": "Use this as a map, then check your own city's page.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 101.74387500000002,
+"end": 105.13545833333335
+},
+{
+"seg": 1,
+"line": 4,
+"who": "host",
+"text": "Good.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 105.55545833333335,
+"end": 106.08575000000002
+},
+{
+"seg": 1,
+"line": 4,
+"who": "host",
+"text": "Let's start with the one most hosts are hearing about right now.",
+"card": {
+"type": "point",
+"text": "Rowan is an AI character playing a B&B owner. Not a real person."
+},
+"start": 106.28575000000002,
+"end": 109.43833333333336
+},
+{
+"seg": 2,
+"line": 0,
+"who": "host",
+"text": "Rowan, Airbnb started rolling this out on October twentieth.",
+"card": null,
+"start": 110.68833333333336,
+"end": 114.15762500000002
+},
+{
+"seg": 2,
+"line": 0,
+"who": "host",
+"text": "What actually changes?",
+"card": null,
+"start": 114.35762500000003,
+"end": 115.65662500000003
+},
+{
+"seg": 2,
+"line": 1,
+"who": "guest",
+"text": "The new house rules policy applies to reservations booked on or after November twentieth, twenty twenty six.",
+"card": {
+"type": "rule",
+"title": "Airbnb",
+"text": "New house rules policy applies to reservations booked on or after Nov 20, 2026.",
+"source": "Airbnb Help Centre",
+"as_of": "Oct 2026"
+},
+"start": 116.07662500000004,
+"end": 123.2447916666667
+},
+{
+"seg": 2,
+"line": 1,
+"who": "guest",
+"text": "The big shift is that Airbnb now splits what you tell guests into two buckets.",
+"card": {
+"type": "rule",
+"title": "Airbnb",
+"text": "New house rules policy applies to reservations booked on or after Nov 20, 2026.",
+"source": "Airbnb Help Centre",
+"as_of": "Oct 2026"
+},
+"start": 123.4447916666667,
+"end": 128.42387500000004
+},
+{
+"seg": 2,
+"line": 1,
+"who": "guest",
+"text": "House rules, which guests have to follow.",
+"card": {
+"type": "rule",
+"title": "Airbnb",
+"text": "New house rules policy applies to reservations booked on or after Nov 20, 2026.",
+"source": "Airbnb Help Centre",
+"as_of": "Oct 2026"
+},
+"start": 128.62387500000003,
+"end": 131.1891666666667
+},
+{
+"seg": 2,
+"line": 1,
+"who": "guest",
+"text": "And requests, which guests are encouraged to follow, but which aren't binding.",
+"card": {
+"type": "rule",
+"title": "Airbnb",
+"text": "New house rules policy applies to reservations booked on or after Nov 20, 2026.",
+"source": "Airbnb Help Centre",
+"as_of": "Oct 2026"
+},
+"start": 131.38916666666668,
+"end": 135.8454166666667
+},
+{
+"seg": 2,
+"line": 2,
+"who": "host",
+"text": "So what counts as a house rule now?",
+"card": {
+"type": "rule",
+"title": "Airbnb",
+"text": "New house rules policy applies to reservations booked on or after Nov 20, 2026.",
+"source": "Airbnb Help Centre",
+"as_of": "Oct 2026"
+},
+"start": 136.26541666666668,
+"end": 138.01429166666668
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "There are seven standard ones.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 138.43429166666667,
+"end": 140.48229166666667
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "Maximum overnight guests.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 140.68229166666666,
+"end": 142.72054166666666
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "Quiet hours.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 142.92054166666665,
+"end": 144.1085833333333
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "Events.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 144.3085833333333,
+"end": 145.10091666666665
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "Pets, including whether they're allowed and how many.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 145.30091666666664,
+"end": 148.46387499999997
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "Smoking, which covers vaping and e cigarettes.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 148.66387499999996,
+"end": 151.85366666666664
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "Commercial photography and filming.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 152.05366666666663,
+"end": 154.50699999999995
+},
+{
+"seg": 2,
+"line": 3,
+"who": "guest",
+"text": "And lock up at checkout, with optional details about where to return the keys.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 154.70699999999994,
+"end": 159.64633333333327
+},
+{
+"seg": 2,
+"line": 4,
+"who": "host",
+"text": "That's a short list.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 160.06633333333326,
+"end": 161.09087499999993
+},
+{
+"seg": 2,
+"line": 4,
+"who": "host",
+"text": "Where does everything else go?",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 161.29087499999991,
+"end": 162.63887499999993
+},
+{
+"seg": 2,
+"line": 5,
+"who": "guest",
+"text": "Into requests.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 163.05887499999992,
+"end": 164.2670416666666
+},
+{
+"seg": 2,
+"line": 5,
+"who": "guest",
+"text": "Those are the things you'd like guests to do during the stay or before they leave.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 164.46704166666657,
+"end": 169.16195833333325
+},
+{
+"seg": 2,
+"line": 5,
+"who": "guest",
+"text": "And this is where the checkout chores come in.",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 169.36195833333323,
+"end": 172.19545833333322
+},
+{
+"seg": 2,
+"line": 6,
+"who": "host",
+"text": "Which checkout chores can hosts still ask Airbnb guests to do?",
+"card": {
+"type": "stat",
+"big": "7",
+"label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+"source": "Airbnb Resource Centre"
+},
+"start": 172.6154583333332,
+"end": 176.05012499999987
+},
+{
+"seg": 2,
+"line": 7,
+"who": "guest",
+"text": "Airbnb's examples of requests that are generally allowed are pretty light.",
+"card": {
+"type": "list",
+"title": "Generally allowed requests",
+"items": [
+"Used dishes in the sink",
+"Gather used towels",
+"Sort trash into indoor bins",
+"Air conditioning off when leaving"
+],
+"source": "Airbnb"
+},
+"start": 176.47012499999985,
+"end": 181.13416666666652
+},
+{
+"seg": 2,
+"line": 7,
+"who": "guest",
+"text": "Put used dishes in the sink.",
+"card": {
+"type": "list",
+"title": "Generally allowed requests",
+"items": [
+"Used dishes in the sink",
+"Gather used towels",
+"Sort trash into indoor bins",
+"Air conditioning off when leaving"
+],
+"source": "Airbnb"
+},
+"start": 181.3341666666665,
+"end": 183.5101666666665
+},
+{
+"seg": 2,
+"line": 7,
+"who": "guest",
+"text": "Gather used towels.",
+"card": {
+"type": "list",
+"title": "Generally allowed requests",
+"items": [
+"Used dishes in the sink",
+"Gather used towels",
+"Sort trash into indoor bins",
+"Air conditioning off when leaving"
+],
+"source": "Airbnb"
+},
+"start": 183.71016666666648,
+"end": 185.3371666666665
+},
+{
+"seg": 2,
+"line": 7,
+"who": "guest",
+"text": "Separate trash and recycling into the bins inside.",
+"card": {
+"type": "list",
+"title": "Generally allowed requests",
+"items": [
+"Used dishes in the sink",
+"Gather used towels",
+"Sort trash into indoor bins",
+"Air conditioning off when leaving"
+],
+"source": "Airbnb"
+},
+"start": 185.53716666666648,
+"end": 189.31162499999982
+},
+{
+"seg": 2,
+"line": 7,
+"who": "guest",
+"text": "Turn off the air conditioning when you leave.",
+"card": {
+"type": "list",
+"title": "Generally allowed requests",
+"items": [
+"Used dishes in the sink",
+"Gather used towels",
+"Sort trash into indoor bins",
+"Air conditioning off when leaving"
+],
+"source": "Airbnb"
+},
+"start": 189.5116249999998,
+"end": 192.2951249999998
+},
+{
+"seg": 2,
+"line": 8,
+"who": "host",
+"text": "And what's not allowed?",
+"card": {
+"type": "list",
+"title": "Generally allowed requests",
+"items": [
+"Used dishes in the sink",
+"Gather used towels",
+"Sort trash into indoor bins",
+"Air conditioning off when leaving"
+],
+"source": "Airbnb"
+},
+"start": 192.7151249999998,
+"end": 193.7391249999998
+},
+{
+"seg": 2,
+"line": 9,
+"who": "guest",
+"text": "Washing and putting away dishes.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 194.1591249999998,
+"end": 196.21029166666645
+},
+{
+"seg": 2,
+"line": 9,
+"who": "guest",
+"text": "Stripping the beds or starting laundry.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 196.41029166666644,
+"end": 198.9695833333331
+},
+{
+"seg": 2,
+"line": 9,
+"who": "guest",
+"text": "Taking garbage off site.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 199.1695833333331,
+"end": 201.11091666666644
+},
+{
+"seg": 2,
+"line": 9,
+"who": "guest",
+"text": "And asking guests not to use an amenity you advertised, like the air conditioning.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 201.31091666666643,
+"end": 206.74229166666643
+},
+{
+"seg": 2,
+"line": 9,
+"who": "guest",
+"text": "Airbnb's thinking is simple.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 206.94229166666642,
+"end": 208.99029166666642
+},
+{
+"seg": 2,
+"line": 9,
+"who": "guest",
+"text": "If it's a job a cleaner would normally do, it shouldn't land on the guest.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 209.1902916666664,
+"end": 213.58283333333307
+},
+{
+"seg": 2,
+"line": 10,
+"who": "host",
+"text": "I can hear some hosts groaning.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 214.00283333333306,
+"end": 215.5951249999997
+},
+{
+"seg": 2,
+"line": 10,
+"who": "host",
+"text": "Especially in small places where the host is the cleaner.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 215.7951249999997,
+"end": 218.9951249999997
+},
+{
+"seg": 2,
+"line": 11,
+"who": "guest",
+"text": "I get it.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 219.41512499999968,
+"end": 220.353583333333
+},
+{
+"seg": 2,
+"line": 11,
+"who": "guest",
+"text": "In a small B and B, you are the cleaner.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 220.553583333333,
+"end": 223.26079166666634
+},
+{
+"seg": 2,
+"line": 11,
+"who": "guest",
+"text": "But picture the guest's side.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 223.46079166666632,
+"end": 225.32229166666633
+},
+{
+"seg": 2,
+"line": 11,
+"who": "guest",
+"text": "They paid a cleaning fee, then they spend their last hour on your sheets.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 225.52229166666632,
+"end": 229.4902916666663
+},
+{
+"seg": 2,
+"line": 11,
+"who": "guest",
+"text": "Airbnb's own explanation is that surprise chores hurt the stay, and they hurt the reviews.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 229.6902916666663,
+"end": 235.41724999999963
+},
+{
+"seg": 2,
+"line": 12,
+"who": "host",
+"text": "So say your cottage is on a septic system, and you don't want wipes flushed.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 235.8372499999996,
+"end": 239.92579166666627
+},
+{
+"seg": 2,
+"line": 12,
+"who": "host",
+"text": "Is that a rule or a request?",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 240.12579166666626,
+"end": 241.6117499999996
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "It isn't one of the seven standard rules, so it goes in requests.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 242.0317499999996,
+"end": 246.11754166666626
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "Write it plainly and say why.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 246.31754166666624,
+"end": 248.45749999999958
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "Please don't flush wipes, the cottage is on a septic system.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 248.65749999999957,
+"end": 252.4604583333329
+},
+{
+"seg": 2,
+"line": 13,
+"who": "guest",
+"text": "Guests follow a request much more often when they understand the reason.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 252.66045833333288,
+"end": 257.0764583333329
+},
+{
+"seg": 2,
+"line": 14,
+"who": "host",
+"text": "Are there exceptions?",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 257.4964583333329,
+"end": 258.53624999999954
+},
+{
+"seg": 2,
+"line": 15,
+"who": "guest",
+"text": "A few, and they're sensible.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 258.95624999999956,
+"end": 260.86662499999954
+},
+{
+"seg": 2,
+"line": 15,
+"who": "guest",
+"text": "Airbnb says what's reasonable depends on the listing type, the stay, and local factors.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 261.06662499999953,
+"end": 266.7337916666662
+},
+{
+"seg": 2,
+"line": 15,
+"who": "guest",
+"text": "Its examples are limiting shower time during local drought restrictions, and asking guests to use animal proof trash bins in bear country.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 266.9337916666662,
+"end": 276.3758333333329
+},
+{
+"seg": 2,
+"line": 15,
+"who": "guest",
+"text": "Those are about the place, not about saving the host some labour.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 276.57583333333287,
+"end": 280.19270833333286
+},
+{
+"seg": 2,
+"line": 16,
+"who": "host",
+"text": "What about a rule that comes from your condo board or the town?",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 280.6127083333329,
+"end": 283.81270833333286
+},
+{
+"seg": 2,
+"line": 16,
+"who": "host",
+"text": "Say, no parking on the street overnight.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 284.01270833333285,
+"end": 286.14270833333285
+},
+{
+"seg": 2,
+"line": 17,
+"who": "guest",
+"text": "Airbnb lets you give notice of local rules that could lead to fines from a homeowners association, building security, or local government.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 286.56270833333286,
+"end": 295.72395833333286
+},
+{
+"seg": 2,
+"line": 17,
+"who": "guest",
+"text": "You put that in the designated section of the listing.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 295.92395833333285,
+"end": 299.52108333333285
+},
+{
+"seg": 2,
+"line": 17,
+"who": "guest",
+"text": "You're not fining the guest.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 299.72108333333284,
+"end": 301.39112499999953
+},
+{
+"seg": 2,
+"line": 17,
+"who": "guest",
+"text": "You're warning them about someone else's rule.",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 301.5911249999995,
+"end": 304.39695833333286
+},
+{
+"seg": 2,
+"line": 18,
+"who": "host",
+"text": "Can a sign by the door still add a new rule for Airbnb guests?",
+"card": {
+"type": "list",
+"title": "Generally not allowed",
+"items": [
+"Washing and putting away dishes",
+"Stripping beds or starting laundry",
+"Taking garbage off site",
+"Avoiding an advertised amenity"
+],
+"source": "Airbnb"
+},
+"start": 304.8169583333329,
+"end": 308.3483749999995
+},
+{
+"seg": 2,
+"line": 19,
+"who": "guest",
+"text": "No, and this part catches a lot of hosts.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 308.76837499999954,
+"end": 311.3866249999995
+},
+{
+"seg": 2,
+"line": 19,
+"who": "guest",
+"text": "All house rules and requests have to be in the section of the listing called House rules and requests.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 311.5866249999995,
+"end": 317.90970833333284
+},
+{
+"seg": 2,
+"line": 19,
+"who": "guest",
+"text": "Airbnb says you can't add new ones later through messages, other parts of the listing, signs in the home, or in person.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 318.10970833333283,
+"end": 325.45883333333285
+},
+{
+"seg": 2,
+"line": 20,
+"who": "host",
+"text": "So the laminated sign in the kitchen that says strip the beds before you go.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 325.87883333333286,
+"end": 330.3300416666662
+},
+{
+"seg": 2,
+"line": 21,
+"who": "guest",
+"text": "That sign can't create a new rule.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 330.7500416666662,
+"end": 333.1511666666662
+},
+{
+"seg": 2,
+"line": 21,
+"who": "guest",
+"text": "Whatever is on your signs, in your binder, or in your welcome book should match the listing.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 333.3511666666662,
+"end": 338.62049999999954
+},
+{
+"seg": 2,
+"line": 21,
+"who": "guest",
+"text": "It can repeat the rules and explain them.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 338.8204999999995,
+"end": 341.51745833333285
+},
+{
+"seg": 2,
+"line": 21,
+"who": "guest",
+"text": "It just shouldn't add to them.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 341.71745833333284,
+"end": 343.4127499999995
+},
+{
+"seg": 2,
+"line": 22,
+"who": "host",
+"text": "That's a good habit anyway.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 343.8327499999995,
+"end": 345.1571249999995
+},
+{
+"seg": 2,
+"line": 22,
+"who": "host",
+"text": "One set of rules, said the same way everywhere.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 345.3571249999995,
+"end": 347.9492083333328
+},
+{
+"seg": 2,
+"line": 23,
+"who": "guest",
+"text": "Exactly.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 348.36920833333284,
+"end": 349.30416666666616
+},
+{
+"seg": 2,
+"line": 23,
+"who": "guest",
+"text": "If a guest reads one thing on the listing and something else on the fridge, you've already lost the argument.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 349.50416666666615,
+"end": 355.53770833333283
+},
+{
+"seg": 2,
+"line": 24,
+"who": "host",
+"text": "That's the policy as of October twenty twenty six.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 355.95770833333285,
+"end": 358.79470833333284
+},
+{
+"seg": 2,
+"line": 24,
+"who": "host",
+"text": "Check Airbnb's help centre for the latest wording before you edit.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 358.9947083333328,
+"end": 362.6170833333328
+},
+{
+"seg": 2,
+"line": 24,
+"who": "host",
+"text": "This isn't legal advice.",
+"card": {
+"type": "point",
+"text": "On Airbnb, rules and requests must live in the listing's House rules section."
+},
+"start": 362.8170833333328,
+"end": 364.1397499999995
+},
+{
+"seg": 3,
+"line": 0,
+"who": "host",
+"text": "Okay, Rowan.",
+"card": null,
+"start": 365.3897499999995,
+"end": 366.2857499999995
+},
+{
+"seg": 3,
+"line": 0,
+"who": "host",
+"text": "Say a host ignores all this and keeps strip the beds in their requests.",
+"card": null,
+"start": 366.4857499999995,
+"end": 370.4288333333328
+},
+{
+"seg": 3,
+"line": 0,
+"who": "host",
+"text": "What happens?",
+"card": null,
+"start": 370.6288333333328,
+"end": 371.4072083333328
+},
+{
+"seg": 3,
+"line": 1,
+"who": "guest",
+"text": "Airbnb has laid out a ladder.",
+"card": null,
+"start": 371.8272083333328,
+"end": 373.7898749999995
+},
+{
+"seg": 3,
+"line": 1,
+"who": "guest",
+"text": "First, the listing editor highlights requests that don't comply.",
+"card": null,
+"start": 373.9898749999995,
+"end": 377.95366666666615
+},
+{
+"seg": 3,
+"line": 1,
+"who": "guest",
+"text": "If a host saves it anyway, they get an email with tips, and they can appeal.",
+"card": null,
+"start": 378.15366666666614,
+"end": 383.0176666666661
+},
+{
+"seg": 3,
+"line": 1,
+"who": "guest",
+"text": "If it still isn't resolved, guests may see an alert on the listing, something like includes cleaning requests.",
+"card": null,
+"start": 383.2176666666661,
+"end": 389.8254166666661
+},
+{
+"seg": 3,
+"line": 2,
+"who": "host",
+"text": "That's a pretty public flag.",
+"card": null,
+"start": 390.24541666666613,
+"end": 391.6960833333328
+},
+{
+"seg": 3,
+"line": 3,
+"who": "guest",
+"text": "It is.",
+"card": {
+"type": "list",
+"title": "How Airbnb enforces it",
+"items": [
+"Listing editor flags the request",
+"Email with a chance to appeal",
+"Alert guests can see",
+"Lower search visibility"
+],
+"source": "Airbnb"
+},
+"start": 392.1160833333328,
+"end": 392.9671666666662
+},
+{
+"seg": 3,
+"line": 3,
+"who": "guest",
+"text": "And for persistent violations, Airbnb says it may post a notice on the listing, reduce the listing's visibility in search, or take other action under its terms of service.",
+"card": {
+"type": "list",
+"title": "How Airbnb enforces it",
+"items": [
+"Listing editor flags the request",
+"Email with a chance to appeal",
+"Alert guests can see",
+"Lower search visibility"
+],
+"source": "Airbnb"
+},
+"start": 393.16716666666616,
+"end": 404.17516666666614
+},
+{
+"seg": 3,
+"line": 4,
+"who": "host",
+"text": "Can an Airbnb host charge a guest for skipping the checkout list?",
+"card": {
+"type": "list",
+"title": "How Airbnb enforces it",
+"items": [
+"Listing editor flags the request",
+"Email with a chance to appeal",
+"Alert guests can see",
+"Lower search visibility"
+],
+"source": "Airbnb"
+},
+"start": 404.59516666666616,
+"end": 407.85916666666617
+},
+{
+"seg": 3,
+"line": 5,
+"who": "guest",
+"text": "No.",
+"card": {
+"type": "list",
+"title": "How Airbnb enforces it",
+"items": [
+"Listing editor flags the request",
+"Email with a chance to appeal",
+"Alert guests can see",
+"Lower search visibility"
+],
+"source": "Airbnb"
+},
+"start": 408.2791666666662,
+"end": 409.01970833333286
+},
+{
+"seg": 3,
+"line": 5,
+"who": "guest",
+"text": "Airbnb's ground rules for guests say cleaning fees cover standard cleaning, and hosts may not charge guests fees for failing to do specific cleaning or checkout tasks.",
+"card": {
+"type": "list",
+"title": "How Airbnb enforces it",
+"items": [
+"Listing editor flags the request",
+"Email with a chance to appeal",
+"Alert guests can see",
+"Lower search visibility"
+],
+"source": "Airbnb"
+},
+"start": 409.21970833333285,
+"end": 420.1933749999995
+},
+{
+"seg": 3,
+"line": 5,
+"who": "guest",
+"text": "You can still leave an honest review about cleanliness.",
+"card": {
+"type": "list",
+"title": "How Airbnb enforces it",
+"items": [
+"Listing editor flags the request",
+"Email with a chance to appeal",
+"Alert guests can see",
+"Lower search visibility"
+],
+"source": "Airbnb"
+},
+"start": 420.3933749999995,
+"end": 423.83679166666616
+},
+{
+"seg": 3,
+"line": 6,
+"who": "host",
+"text": "And fines in general?",
+"card": {
+"type": "list",
+"title": "How Airbnb enforces it",
+"items": [
+"Listing editor flags the request",
+"Email with a chance to appeal",
+"Alert guests can see",
+"Lower search visibility"
+],
+"source": "Airbnb"
+},
+"start": 424.2567916666662,
+"end": 425.4666249999995
+},
+{
+"seg": 3,
+"line": 7,
+"who": "guest",
+"text": "The new policy says hosts can't impose fines or other penalties on guests.",
+"card": {
+"type": "point",
+"text": "No host fines on Airbnb guests. No hidden fees for advertised features."
+},
+"start": 425.8866249999995,
+"end": 431.0492916666662
+},
+{
+"seg": 3,
+"line": 7,
+"who": "guest",
+"text": "It also rules out charging for advertised features that weren't in the price at booking, and restricting access to anything you advertised.",
+"card": {
+"type": "point",
+"text": "No host fines on Airbnb guests. No hidden fees for advertised features."
+},
+"start": 431.2492916666662,
+"end": 439.96087499999953
+},
+{
+"seg": 3,
+"line": 7,
+"who": "guest",
+"text": "Fees for optional extras, like a breakfast service, can be described in your requests.",
+"card": {
+"type": "point",
+"text": "No host fines on Airbnb guests. No hidden fees for advertised features."
+},
+"start": 440.1608749999995,
+"end": 445.7220833333329
+},
+{
+"seg": 3,
+"line": 8,
+"who": "host",
+"text": "So if a guest actually causes damage?",
+"card": {
+"type": "point",
+"text": "No host fines on Airbnb guests. No hidden fees for advertised features."
+},
+"start": 446.1420833333329,
+"end": 448.1855833333329
+},
+{
+"seg": 3,
+"line": 9,
+"who": "guest",
+"text": "Talk to the guest, document it, and request reimbursement through Airbnb's Resolution Centre.",
+"card": {
+"type": "point",
+"text": "No host fines on Airbnb guests. No hidden fees for advertised features."
+},
+"start": 448.6055833333329,
+"end": 454.3587083333329
+},
+{
+"seg": 3,
+"line": 9,
+"who": "guest",
+"text": "That's the route Airbnb wants for damage, rather than a fine written into your house rules.",
+"card": {
+"type": "point",
+"text": "No host fines on Airbnb guests. No hidden fees for advertised features."
+},
+"start": 454.5587083333329,
+"end": 459.93674999999956
+},
+{
+"seg": 3,
+"line": 10,
+"who": "host",
+"text": "Let's talk paperwork.",
+"card": {
+"type": "point",
+"text": "No host fines on Airbnb guests. No hidden fees for advertised features."
+},
+"start": 460.3567499999996,
+"end": 461.51941666666625
+},
+{
+"seg": 3,
+"line": 10,
+"who": "host",
+"text": "A lot of hosts send a rental agreement, or ask for a photo of the guest's identification.",
+"card": {
+"type": "point",
+"text": "No host fines on Airbnb guests. No hidden fees for advertised features."
+},
+"start": 461.71941666666623,
+"end": 467.34162499999957
+},
+{
+"seg": 3,
+"line": 11,
+"who": "guest",
+"text": "Generally, not anymore.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 467.7616249999996,
+"end": 469.67837499999956
+},
+{
+"seg": 3,
+"line": 11,
+"who": "guest",
+"text": "Airbnb says hosts may not require separate contracts or ask for personal information like government identification, unless the law requires it or it's one of a few allowed cases.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 469.87837499999955,
+"end": 481.8037083333329
+},
+{
+"seg": 3,
+"line": 11,
+"who": "guest",
+"text": "For contracts, those cases include legal requirements, homeowners association rules, monthly stays, Airbnb Luxe listings, and optional amenities, like a golf cart.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 482.0037083333329,
+"end": 493.43066666666624
+},
+{
+"seg": 3,
+"line": 12,
+"who": "host",
+"text": "And if a guest breaks one of the real house rules?",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 493.85066666666626,
+"end": 496.4474583333329
+},
+{
+"seg": 3,
+"line": 13,
+"who": "guest",
+"text": "Then you have some backing.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 496.86745833333293,
+"end": 498.45754166666626
+},
+{
+"seg": 3,
+"line": 13,
+"who": "guest",
+"text": "Airbnb says a host can cancel without fees or other consequences if a guest breaks a house rule during the stay, or says before check in that they plan to.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 498.65754166666625,
+"end": 509.0749999999996
+},
+{
+"seg": 3,
+"line": 13,
+"who": "guest",
+"text": "That's a good reason to put the rules that matter most, like your guest limit, into the standard rules and not just a paragraph of text.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 509.2749999999996,
+"end": 517.566208333333
+},
+{
+"seg": 3,
+"line": 14,
+"who": "host",
+"text": "That's the part people miss.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 517.9862083333329,
+"end": 519.4030416666662
+},
+{
+"seg": 3,
+"line": 14,
+"who": "host",
+"text": "The rules you can lean on are the short list.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 519.6030416666663,
+"end": 521.693708333333
+},
+{
+"seg": 3,
+"line": 15,
+"who": "guest",
+"text": "Short, clear, and in the right box.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 522.113708333333,
+"end": 524.3949166666663
+},
+{
+"seg": 3,
+"line": 16,
+"who": "host",
+"text": "Again, this is as of October twenty twenty six, and Airbnb can update these pages.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 524.8149166666662,
+"end": 529.9989166666662
+},
+{
+"seg": 3,
+"line": 16,
+"who": "host",
+"text": "This isn't legal advice.",
+"card": {
+"type": "rule",
+"title": "Airbnb contracts",
+"text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+"source": "Airbnb Resource Centre",
+"as_of": "Oct 2026"
+},
+"start": 530.1989166666663,
+"end": 531.521583333333
+},
+{
+"seg": 3,
+"line": 17,
+"who": "host",
+"text": "Quick word from the people who make this show.",
+"card": {
+"type": "point",
+"text": "Free house rules checker: keegix.com/airbnb-house-rules"
+},
+"start": 531.8215833333329,
+"end": 533.8887916666663
+},
+{
+"seg": 3,
+"line": 17,
+"who": "host",
+"text": "Keegix builds a digital welcome book for hosts, a page guests open from a Q R code sign by the door, with check in, wifi, house rules and the checkout list.",
+"card": {
+"type": "point",
+"text": "Free house rules checker: keegix.com/airbnb-house-rules"
+},
+"start": 534.0887916666663,
+"end": 544.4985416666664
+},
+{
+"seg": 3,
+"line": 17,
+"who": "host",
+"text": "If you want a second look at your wording before November twentieth, there's a free house rules checker at keegix dot com that flags requests that look like the chores we just talked about.",
+"card": {
+"type": "point",
+"text": "Free house rules checker: keegix.com/airbnb-house-rules"
+},
+"start": 544.6985416666664,
+"end": 555.1630416666665
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "Let's move from the platform to the government.",
+"card": null,
+"start": 556.4130416666665,
+"end": 558.6849166666665
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "Rowan, when people say a city is cracking down, what does that actually look like?",
+"card": null,
+"start": 558.8849166666665,
+"end": 563.5782499999999
+},
+{
+"seg": 4,
+"line": 1,
+"who": "guest",
+"text": "Most of it comes down to a few tools.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 563.9982499999999,
+"end": 566.6877083333331
+},
+{
+"seg": 4,
+"line": 1,
+"who": "guest",
+"text": "A registration number you have to get and show on every listing.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 566.8877083333332,
+"end": 571.2167916666665
+},
+{
+"seg": 4,
+"line": 1,
+"who": "guest",
+"text": "A principal residence rule, meaning you can only rent out the home you actually live in.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 571.4167916666665,
+"end": 576.5794583333332
+},
+{
+"seg": 4,
+"line": 1,
+"who": "guest",
+"text": "Sometimes a cap on nights.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 576.7794583333332,
+"end": 578.9966666666666
+},
+{
+"seg": 4,
+"line": 1,
+"who": "guest",
+"text": "Fines.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 579.1966666666666,
+"end": 580.0540416666666
+},
+{
+"seg": 4,
+"line": 1,
+"who": "guest",
+"text": "And more and more, the platforms themselves have to check numbers and take listings down.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 580.2540416666667,
+"end": 585.7927083333334
+},
+{
+"seg": 4,
+"line": 2,
+"who": "host",
+"text": "Start close to home.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 586.2127083333334,
+"end": 587.3774166666667
+},
+{
+"seg": 4,
+"line": 2,
+"who": "host",
+"text": "Nova Scotia.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 587.5774166666667,
+"end": 588.4947500000001
+},
+{
+"seg": 4,
+"line": 3,
+"who": "guest",
+"text": "Nova Scotia has a provincial registry.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 588.91475,
+"end": 591.9014166666667
+},
+{
+"seg": 4,
+"line": 3,
+"who": "guest",
+"text": "If you rent a place for twenty eight days in a row or less, you have to register before you operate.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 592.1014166666668,
+"end": 597.8538750000001
+},
+{
+"seg": 4,
+"line": 3,
+"who": "guest",
+"text": "That covers short term rentals and traditional places like B and Bs, cottages, even yurts.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 598.0538750000002,
+"end": 604.6445416666669
+},
+{
+"seg": 4,
+"line": 3,
+"who": "guest",
+"text": "Each location needs its own registration number, and you renew every year by April first.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 604.8445416666669,
+"end": 610.9672083333336
+},
+{
+"seg": 4,
+"line": 4,
+"who": "host",
+"text": "Say someone buys a cottage this fall that the last owner already rented out.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 611.3872083333335,
+"end": 615.8458750000002
+},
+{
+"seg": 4,
+"line": 4,
+"who": "host",
+"text": "Can they keep using that number?",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 616.0458750000003,
+"end": 617.4648333333336
+},
+{
+"seg": 4,
+"line": 5,
+"who": "guest",
+"text": "No.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 617.8848333333335,
+"end": 618.6253750000002
+},
+{
+"seg": 4,
+"line": 5,
+"who": "guest",
+"text": "The province says a registration can't be transferred to a new owner.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 618.8253750000002,
+"end": 623.2413750000003
+},
+{
+"seg": 4,
+"line": 5,
+"who": "guest",
+"text": "The new owner has to register before operating.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 623.4413750000003,
+"end": 626.751166666667
+},
+{
+"seg": 4,
+"line": 5,
+"who": "guest",
+"text": "And the province says to expect two to three weeks to get a number, sometimes longer, so don't leave it until the week before your first booking.",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 626.9511666666671,
+"end": 635.1722083333337
+},
+{
+"seg": 4,
+"line": 6,
+"who": "host",
+"text": "What does it cost?",
+"card": {
+"type": "list",
+"title": "The enforcement toolkit",
+"items": [
+"Registration number on listings",
+"Principal residence rules",
+"Night caps and fines",
+"Platform checks and takedowns"
+]
+},
+"start": 635.5922083333337,
+"end": 636.5340833333337
+},
+{
+"seg": 4,
+"line": 7,
+"who": "guest",
+"text": "It depends on the type.",
+"card": {
+"type": "stat",
+"big": "$50 to $2,000",
+"label": "Nova Scotia's yearly registration fee, by type and location",
+"source": "Province of Nova Scotia"
+},
+"start": 636.9540833333336,
+"end": 638.822416666667
+},
+{
+"seg": 4,
+"line": 7,
+"who": "guest",
+"text": "A primary residence short term rental is fifty dollars a year.",
+"card": {
+"type": "stat",
+"big": "$50 to $2,000",
+"label": "Nova Scotia's yearly registration fee, by type and location",
+"source": "Province of Nova Scotia"
+},
+"start": 639.022416666667,
+"end": 643.310416666667
+},
+{
+"seg": 4,
+"line": 7,
+"who": "guest",
+"text": "A commercial short term rental is two thousand dollars in the busiest tier, which includes Halifax and Dartmouth, five hundred in most other communities, and two hundred and forty in a handful of smaller towns.",
+"card": {
+"type": "stat",
+"big": "$50 to $2,000",
+"label": "Nova Scotia's yearly registration fee, by type and location",
+"source": "Province of Nova Scotia"
+},
+"start": 643.5104166666671,
+"end": 656.8307916666671
+},
+{
+"seg": 4,
+"line": 8,
+"who": "host",
+"text": "And how is it enforced?",
+"card": {
+"type": "stat",
+"big": "$50 to $2,000",
+"label": "Nova Scotia's yearly registration fee, by type and location",
+"source": "Province of Nova Scotia"
+},
+"start": 657.250791666667,
+"end": 658.4806250000004
+},
+{
+"seg": 4,
+"line": 9,
+"who": "guest",
+"text": "The regulations say any online ad for your place has to include your registration number, and platforms have to make sure postings show a valid one.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia",
+"text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+"source": "N.S. Short-term Rentals Registration Regulations",
+"as_of": "Oct 2026"
+},
+"start": 658.9006250000003,
+"end": 668.9480833333337
+},
+{
+"seg": 4,
+"line": 9,
+"who": "guest",
+"text": "Platforms also have to remove an ad when the minister asks, and share their records on request.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia",
+"text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+"source": "N.S. Short-term Rentals Registration Regulations",
+"as_of": "Oct 2026"
+},
+"start": 669.1480833333337,
+"end": 675.2913750000004
+},
+{
+"seg": 4,
+"line": 9,
+"who": "guest",
+"text": "On the penalty side, the province lists fines of up to one hundred thousand dollars for each year a place isn't registered.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia",
+"text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+"source": "N.S. Short-term Rentals Registration Regulations",
+"as_of": "Oct 2026"
+},
+"start": 675.4913750000004,
+"end": 683.250791666667
+},
+{
+"seg": 4,
+"line": 9,
+"who": "guest",
+"text": "There are also administrative penalties of two thousand dollars for a first offence, four thousand for a second, and eight thousand after that.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia",
+"text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+"source": "N.S. Short-term Rentals Registration Regulations",
+"as_of": "Oct 2026"
+},
+"start": 683.4507916666671,
+"end": 692.1662083333338
+},
+{
+"seg": 4,
+"line": 10,
+"who": "host",
+"text": "Halifax adds its own layer, right?",
+"card": {
+"type": "rule",
+"title": "Nova Scotia",
+"text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+"source": "N.S. Short-term Rentals Registration Regulations",
+"as_of": "Oct 2026"
+},
+"start": 692.5862083333337,
+"end": 694.4272500000004
+},
+{
+"seg": 4,
+"line": 11,
+"who": "guest",
+"text": "Yes.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia",
+"text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+"source": "N.S. Short-term Rentals Registration Regulations",
+"as_of": "Oct 2026"
+},
+"start": 694.8472500000004,
+"end": 695.5840833333338
+},
+{
+"seg": 4,
+"line": 11,
+"who": "guest",
+"text": "Since September twenty twenty three, in Halifax's residential zones, short term rentals are only allowed in the owner's primary residence.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia",
+"text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+"source": "N.S. Short-term Rentals Registration Regulations",
+"as_of": "Oct 2026"
+},
+"start": 695.7840833333338,
+"end": 704.9476666666671
+},
+{
+"seg": 4,
+"line": 11,
+"who": "guest",
+"text": "You can rent out the whole home while you're away, but a basement apartment or a backyard suite has to be rented for more than twenty eight days.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia",
+"text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+"source": "N.S. Short-term Rentals Registration Regulations",
+"as_of": "Oct 2026"
+},
+"start": 705.1476666666672,
+"end": 713.4463333333339
+},
+{
+"seg": 4,
+"line": 11,
+"who": "guest",
+"text": "Commercial and mixed use zones are different, so check the zoning for your address.",
+"card": {
+"type": "rule",
+"title": "Nova Scotia",
+"text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+"source": "N.S. Short-term Rentals Registration Regulations",
+"as_of": "Oct 2026"
+},
+"start": 713.6463333333339,
+"end": 718.6583333333339
+},
+{
+"seg": 4,
+"line": 12,
+"who": "host",
+"text": "What are Toronto's short term rental rules?",
+"card": {
+"type": "rule",
+"title": "Nova Scotia",
+"text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+"source": "N.S. Short-term Rentals Registration Regulations",
+"as_of": "Oct 2026"
+},
+"start": 719.0783333333338,
+"end": 721.6410416666672
+},
+{
+"seg": 4,
+"line": 13,
+"who": "guest",
+"text": "You register with the city, it has to be your principal residence, and since you only have one of those, you can only run one short term rental.",
+"card": {
+"type": "stat",
+"big": "180 nights",
+"label": "Toronto's yearly cap for renting out an entire unit",
+"source": "City of Toronto"
+},
+"start": 722.0610416666672,
+"end": 730.9570416666671
+},
+{
+"seg": 4,
+"line": 13,
+"who": "guest",
+"text": "If you rent the entire unit, there's a cap of one hundred and eighty nights a year.",
+"card": {
+"type": "stat",
+"big": "180 nights",
+"label": "Toronto's yearly cap for renting out an entire unit",
+"source": "City of Toronto"
+},
+"start": 731.1570416666672,
+"end": 736.3372916666672
+},
+{
+"seg": 4,
+"line": 13,
+"who": "guest",
+"text": "Renting up to three bedrooms while you live there has no night cap.",
+"card": {
+"type": "stat",
+"big": "180 nights",
+"label": "Toronto's yearly cap for renting out an entire unit",
+"source": "City of Toronto"
+},
+"start": 736.5372916666672,
+"end": 740.4522083333338
+},
+{
+"seg": 4,
+"line": 13,
+"who": "guest",
+"text": "The registration fee is three hundred and ninety dollars.",
+"card": {
+"type": "stat",
+"big": "180 nights",
+"label": "Toronto's yearly cap for renting out an entire unit",
+"source": "City of Toronto"
+},
+"start": 740.6522083333339,
+"end": 744.5135416666672
+},
+{
+"seg": 4,
+"line": 14,
+"who": "host",
+"text": "And the number has to show up everywhere?",
+"card": {
+"type": "stat",
+"big": "180 nights",
+"label": "Toronto's yearly cap for renting out an entire unit",
+"source": "City of Toronto"
+},
+"start": 744.9335416666671,
+"end": 746.9940833333338
+},
+{
+"seg": 4,
+"line": 15,
+"who": "guest",
+"text": "On every listing and ad, plus related invoices and receipts.",
+"card": {
+"type": "stat",
+"big": "180 nights",
+"label": "Toronto's yearly cap for renting out an entire unit",
+"source": "City of Toronto"
+},
+"start": 747.4140833333338,
+"end": 751.7168750000004
+},
+{
+"seg": 4,
+"line": 15,
+"who": "guest",
+"text": "Your listing's name and address must match exactly.",
+"card": {
+"type": "stat",
+"big": "180 nights",
+"label": "Toronto's yearly cap for renting out an entire unit",
+"source": "City of Toronto"
+},
+"start": 751.9168750000005,
+"end": 755.4026666666671
+},
+{
+"seg": 4,
+"line": 15,
+"who": "guest",
+"text": "Toronto's set fines include one thousand dollars for not registering or advertising an unregistered rental, and seven hundred dollars for going over the night cap.",
+"card": {
+"type": "stat",
+"big": "180 nights",
+"label": "Toronto's yearly cap for renting out an entire unit",
+"source": "City of Toronto"
+},
+"start": 755.6026666666671,
+"end": 766.7135000000004
+},
+{
+"seg": 4,
+"line": 15,
+"who": "guest",
+"text": "If it goes to court, fines can reach one hundred thousand dollars.",
+"card": {
+"type": "stat",
+"big": "180 nights",
+"label": "Toronto's yearly cap for renting out an entire unit",
+"source": "City of Toronto"
+},
+"start": 766.9135000000005,
+"end": 770.9455000000005
+},
+{
+"seg": 4,
+"line": 16,
+"who": "host",
+"text": "And Ottawa?",
+"card": {
+"type": "stat",
+"big": "180 nights",
+"label": "Toronto's yearly cap for renting out an entire unit",
+"source": "City of Toronto"
+},
+"start": 771.3655000000005,
+"end": 772.0695000000004
+},
+{
+"seg": 4,
+"line": 17,
+"who": "guest",
+"text": "Ottawa uses a host permit.",
+"card": {
+"type": "rule",
+"title": "Ottawa",
+"text": "Listings must show the host permit number and maximum overnight guests.",
+"source": "City of Ottawa",
+"as_of": "Oct 2026"
+},
+"start": 772.4895000000004,
+"end": 774.8145416666671
+},
+{
+"seg": 4,
+"line": 17,
+"who": "guest",
+"text": "You need one to rent your principal residence, or part of it, for fewer than thirty nights in a row.",
+"card": {
+"type": "rule",
+"title": "Ottawa",
+"text": "Listings must show the host permit number and maximum overnight guests.",
+"source": "City of Ottawa",
+"as_of": "Oct 2026"
+},
+"start": 775.0145416666671,
+"end": 780.9515833333338
+},
+{
+"seg": 4,
+"line": 17,
+"who": "guest",
+"text": "Every listing has to show your permit number and the maximum number of overnight guests, and hosts can only list on platforms that are registered with the city.",
+"card": {
+"type": "rule",
+"title": "Ottawa",
+"text": "Listings must show the host permit number and maximum overnight guests.",
+"source": "City of Ottawa",
+"as_of": "Oct 2026"
+},
+"start": 781.1515833333339,
+"end": 791.2209166666672
+},
+{
+"seg": 4,
+"line": 17,
+"who": "guest",
+"text": "Rural cottages have their own separate permit.",
+"card": {
+"type": "rule",
+"title": "Ottawa",
+"text": "Listings must show the host permit number and maximum overnight guests.",
+"source": "City of Ottawa",
+"as_of": "Oct 2026"
+},
+"start": 791.4209166666673,
+"end": 794.5569166666672
+},
+{
+"seg": 4,
+"line": 18,
+"who": "host",
+"text": "All of that is as of October twenty twenty six, and every one of these cities can change its rules.",
+"card": {
+"type": "rule",
+"title": "Ottawa",
+"text": "Listings must show the host permit number and maximum overnight guests.",
+"source": "City of Ottawa",
+"as_of": "Oct 2026"
+},
+"start": 794.9769166666672,
+"end": 800.8342500000006
+},
+{
+"seg": 4,
+"line": 18,
+"who": "host",
+"text": "Check your city and province before you list.",
+"card": {
+"type": "rule",
+"title": "Ottawa",
+"text": "Listings must show the host permit number and maximum overnight guests.",
+"source": "City of Ottawa",
+"as_of": "Oct 2026"
+},
+"start": 801.0342500000006,
+"end": 803.194958333334
+},
+{
+"seg": 4,
+"line": 18,
+"who": "host",
+"text": "This isn't legal advice.",
+"card": {
+"type": "rule",
+"title": "Ottawa",
+"text": "Listings must show the host permit number and maximum overnight guests.",
+"source": "City of Ottawa",
+"as_of": "Oct 2026"
+},
+"start": 803.394958333334,
+"end": 804.7176250000007
+},
+{
+"seg": 5,
+"line": 0,
+"who": "host",
+"text": "Now let's look at places where the platform does a lot of the enforcing.",
+"card": null,
+"start": 805.9676250000007,
+"end": 809.666708333334
+},
+{
+"seg": 5,
+"line": 0,
+"who": "host",
+"text": "British Columbia first.",
+"card": null,
+"start": 809.866708333334,
+"end": 811.0753750000007
+},
+{
+"seg": 5,
+"line": 1,
+"who": "guest",
+"text": "B C runs a provincial registry.",
+"card": null,
+"start": 811.4953750000006,
+"end": 814.327958333334
+},
+{
+"seg": 5,
+"line": 1,
+"who": "guest",
+"text": "Since May first, twenty twenty five, hosts have had to show their provincial registration number on listings, along with a local business licence number where one is required.",
+"card": null,
+"start": 814.527958333334,
+"end": 825.6374166666674
+},
+{
+"seg": 5,
+"line": 1,
+"who": "guest",
+"text": "The yearly fee is one hundred dollars if you live in the rental, and four hundred and fifty if you don't.",
+"card": null,
+"start": 825.8374166666674,
+"end": 832.1088750000008
+},
+{
+"seg": 5,
+"line": 2,
+"who": "host",
+"text": "And the principal residence rule?",
+"card": null,
+"start": 832.5288750000008,
+"end": 834.1418333333341
+},
+{
+"seg": 5,
+"line": 3,
+"who": "guest",
+"text": "In some parts of the province, short term rentals are limited to the host's principal residence, plus one secondary suite or accessory dwelling unit on the same property.",
+"card": null,
+"start": 834.5618333333341,
+"end": 845.3674583333341
+},
+{
+"seg": 5,
+"line": 3,
+"who": "guest",
+"text": "Other areas don't apply it.",
+"card": null,
+"start": 845.5674583333341,
+"end": 847.7120000000008
+},
+{
+"seg": 5,
+"line": 3,
+"who": "guest",
+"text": "The province has a map, so look up your address.",
+"card": null,
+"start": 847.9120000000008,
+"end": 850.8189166666675
+},
+{
+"seg": 5,
+"line": 4,
+"who": "host",
+"text": "Where do the platforms come in?",
+"card": null,
+"start": 851.2389166666675,
+"end": 852.6469166666675
+},
+{
+"seg": 5,
+"line": 5,
+"who": "guest",
+"text": "This is the strict part.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 853.0669166666675,
+"end": 854.7432500000008
+},
+{
+"seg": 5,
+"line": 5,
+"who": "guest",
+"text": "Larger platforms have to validate registration numbers every day through the registry.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 854.9432500000008,
+"end": 860.8739166666675
+},
+{
+"seg": 5,
+"line": 5,
+"who": "guest",
+"text": "If a listing fails, the platform has to stop advertising it, block new bookings, and cancel existing ones.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 861.0739166666675,
+"end": 868.0472500000009
+},
+{
+"seg": 5,
+"line": 5,
+"who": "guest",
+"text": "Platforms also send monthly data reports, including host names, addresses and booking history, and local governments can get that data for bylaw enforcement.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 868.2472500000009,
+"end": 878.8285833333342
+},
+{
+"seg": 5,
+"line": 6,
+"who": "host",
+"text": "So nobody has to knock on your door.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 879.2485833333342,
+"end": 881.2672916666675
+},
+{
+"seg": 5,
+"line": 7,
+"who": "guest",
+"text": "Right.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 881.6872916666674,
+"end": 882.3699583333341
+},
+{
+"seg": 5,
+"line": 7,
+"who": "guest",
+"text": "The listing just disappears.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 882.5699583333342,
+"end": 884.6888750000008
+},
+{
+"seg": 5,
+"line": 7,
+"who": "guest",
+"text": "And if a local government asks for a takedown after giving notice, the platform has five days to act.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 884.8888750000009,
+"end": 891.3395416666675
+},
+{
+"seg": 5,
+"line": 8,
+"who": "host",
+"text": "Quebec?",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 891.7595416666675,
+"end": 892.3568750000009
+},
+{
+"seg": 5,
+"line": 9,
+"who": "guest",
+"text": "Quebec is very specific about display.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 892.7768750000008,
+"end": 895.7245833333342
+},
+{
+"seg": 5,
+"line": 9,
+"who": "guest",
+"text": "Every ad has to show the registration number, which is six digits.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 895.9245833333342,
+"end": 900.2852916666676
+},
+{
+"seg": 5,
+"line": 9,
+"who": "guest",
+"text": "On a booking platform, the certificate's expiry date has to show too.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 900.4852916666676,
+"end": 904.960875000001
+},
+{
+"seg": 5,
+"line": 9,
+"who": "guest",
+"text": "And the registration certificate itself has to be displayed at the main entrance, where guests can see it.",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 905.160875000001,
+"end": 911.6547916666677
+},
+{
+"seg": 5,
+"line": 10,
+"who": "host",
+"text": "What are the fines like?",
+"card": {
+"type": "rule",
+"title": "British Columbia",
+"text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+"source": "Government of B.C.",
+"as_of": "Oct 2026"
+},
+"start": 912.0747916666677,
+"end": 913.2293333333344
+},
+{
+"seg": 5,
+"line": 11,
+"who": "guest",
+"text": "For an individual, leaving the number out of an ad is one thousand to ten thousand dollars.",
+"card": {
+"type": "stat",
+"big": "$100,000",
+"label": "Max fine for a platform company publishing a Quebec listing without a number",
+"source": "Gouvernement du Qu\u00e9bec"
+},
+"start": 913.6493333333343,
+"end": 919.3866666666677
+},
+{
+"seg": 5,
+"line": 11,
+"who": "guest",
+"text": "Operating without registration is two thousand five hundred to twenty five thousand.",
+"card": {
+"type": "stat",
+"big": "$100,000",
+"label": "Max fine for a platform company publishing a Quebec listing without a number",
+"source": "Gouvernement du Qu\u00e9bec"
+},
+"start": 919.5866666666677,
+"end": 925.1024583333344
+},
+{
+"seg": 5,
+"line": 11,
+"who": "guest",
+"text": "A platform company that publishes a listing without a number faces up to one hundred thousand dollars.",
+"card": {
+"type": "stat",
+"big": "$100,000",
+"label": "Max fine for a platform company publishing a Quebec listing without a number",
+"source": "Gouvernement du Qu\u00e9bec"
+},
+"start": 925.3024583333345,
+"end": 931.7212083333345
+},
+{
+"seg": 5,
+"line": 11,
+"who": "guest",
+"text": "Quebec also expects hosts to carry liability insurance of at least two million dollars per event.",
+"card": {
+"type": "stat",
+"big": "$100,000",
+"label": "Max fine for a platform company publishing a Quebec listing without a number",
+"source": "Gouvernement du Qu\u00e9bec"
+},
+"start": 931.9212083333346,
+"end": 938.6330416666679
+},
+{
+"seg": 5,
+"line": 12,
+"who": "host",
+"text": "Let's go global.",
+"card": {
+"type": "stat",
+"big": "$100,000",
+"label": "Max fine for a platform company publishing a Quebec listing without a number",
+"source": "Gouvernement du Qu\u00e9bec"
+},
+"start": 939.0530416666678,
+"end": 940.0640000000011
+},
+{
+"seg": 5,
+"line": 12,
+"who": "host",
+"text": "New York City is the one everyone mentions.",
+"card": {
+"type": "stat",
+"big": "$100,000",
+"label": "Max fine for a platform company publishing a Quebec listing without a number",
+"source": "Gouvernement du Qu\u00e9bec"
+},
+"start": 940.2640000000011,
+"end": 942.8240000000011
+},
+{
+"seg": 5,
+"line": 13,
+"who": "guest",
+"text": "Under New York's Local Law eighteen, hosts register with the city's Office of Special Enforcement.",
+"card": {
+"type": "rule",
+"title": "New York City",
+"text": "Host must live in the unit with guests. Maximum two guests, not counting children under 4.",
+"source": "NYC Office of Special Enforcement",
+"as_of": "Oct 2026"
+},
+"start": 943.244000000001,
+"end": 949.5102083333344
+},
+{
+"seg": 5,
+"line": 13,
+"who": "guest",
+"text": "A short term rental is only legal if the host lives in the same unit with the guests, and there's a limit of two guests, not counting children under four.",
+"card": {
+"type": "rule",
+"title": "New York City",
+"text": "Host must live in the unit with guests. Maximum two guests, not counting children under 4.",
+"source": "NYC Office of Special Enforcement",
+"as_of": "Oct 2026"
+},
+"start": 949.7102083333344,
+"end": 959.4305833333344
+},
+{
+"seg": 5,
+"line": 13,
+"who": "guest",
+"text": "Since September twenty twenty three, booking platforms can't process transactions for unregistered rentals.",
+"card": {
+"type": "rule",
+"title": "New York City",
+"text": "Host must live in the unit with guests. Maximum two guests, not counting children under 4.",
+"source": "NYC Office of Special Enforcement",
+"as_of": "Oct 2026"
+},
+"start": 959.6305833333345,
+"end": 966.6181666666678
+},
+{
+"seg": 5,
+"line": 14,
+"who": "host",
+"text": "Spain?",
+"card": {
+"type": "rule",
+"title": "New York City",
+"text": "Host must live in the unit with guests. Maximum two guests, not counting children under 4.",
+"source": "NYC Office of Special Enforcement",
+"as_of": "Oct 2026"
+},
+"start": 967.0381666666677,
+"end": 967.6630833333344
+},
+{
+"seg": 5,
+"line": 15,
+"who": "guest",
+"text": "Spain built a single national registry.",
+"card": {
+"type": "stat",
+"big": "86,275",
+"label": "Rental ads Spain's housing ministry ordered removed, Feb 2026",
+"source": "The Local Spain"
+},
+"start": 968.0830833333343,
+"end": 970.8121666666676
+},
+{
+"seg": 5,
+"line": 15,
+"who": "guest",
+"text": "Since July first, twenty twenty five, tourist and seasonal rentals need a registration code to advertise on platforms.",
+"card": {
+"type": "stat",
+"big": "86,275",
+"label": "Rental ads Spain's housing ministry ordered removed, Feb 2026",
+"source": "The Local Spain"
+},
+"start": 971.0121666666677,
+"end": 979.663750000001
+},
+{
+"seg": 5,
+"line": 15,
+"who": "guest",
+"text": "In February twenty twenty six, the housing ministry ordered the removal of more than eighty six thousand ads for properties that didn't meet the requirements.",
+"card": {
+"type": "stat",
+"big": "86,275",
+"label": "Rental ads Spain's housing ministry ordered removed, Feb 2026",
+"source": "The Local Spain"
+},
+"start": 979.863750000001,
+"end": 989.559875000001
+},
+{
+"seg": 5,
+"line": 16,
+"who": "host",
+"text": "And Barcelona went further.",
+"card": {
+"type": "stat",
+"big": "86,275",
+"label": "Rental ads Spain's housing ministry ordered removed, Feb 2026",
+"source": "The Local Spain"
+},
+"start": 989.979875000001,
+"end": 991.468500000001
+},
+{
+"seg": 5,
+"line": 17,
+"who": "guest",
+"text": "Barcelona announced in June twenty twenty four that it plans not to renew its roughly ten thousand tourist apartment licences when they come up in November twenty twenty eight.",
+"card": {
+"type": "stat",
+"big": "86,275",
+"label": "Rental ads Spain's housing ministry ordered removed, Feb 2026",
+"source": "The Local Spain"
+},
+"start": 991.8885000000009,
+"end": 1003.0312083333342
+},
+{
+"seg": 5,
+"line": 17,
+"who": "guest",
+"text": "That one is worth watching for updates.",
+"card": {
+"type": "stat",
+"big": "86,275",
+"label": "Rental ads Spain's housing ministry ordered removed, Feb 2026",
+"source": "The Local Spain"
+},
+"start": 1003.2312083333343,
+"end": 1005.8671250000009
+},
+{
+"seg": 5,
+"line": 18,
+"who": "host",
+"text": "And the European Union?",
+"card": {
+"type": "stat",
+"big": "86,275",
+"label": "Rental ads Spain's housing ministry ordered removed, Feb 2026",
+"source": "The Local Spain"
+},
+"start": 1006.2871250000009,
+"end": 1007.4586250000009
+},
+{
+"seg": 5,
+"line": 19,
+"who": "guest",
+"text": "The European Union's short term rental data regulation started applying on May twentieth, twenty twenty six.",
+"card": {
+"type": "history",
+"year": "2026",
+"text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
+},
+"start": 1007.8786250000009,
+"end": 1015.0668750000009
+},
+{
+"seg": 5,
+"line": 19,
+"who": "guest",
+"text": "It sets common standards for countries that use host registration.",
+"card": {
+"type": "history",
+"year": "2026",
+"text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
+},
+"start": 1015.2668750000009,
+"end": 1019.490875000001
+},
+{
+"seg": 5,
+"line": 19,
+"who": "guest",
+"text": "Platforms verify registration numbers and send activity data to public authorities every month.",
+"card": {
+"type": "history",
+"year": "2026",
+"text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
+},
+"start": 1019.690875000001,
+"end": 1026.6242083333343
+},
+{
+"seg": 5,
+"line": 20,
+"who": "host",
+"text": "So the pattern really is the same everywhere.",
+"card": {
+"type": "history",
+"year": "2026",
+"text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
+},
+"start": 1027.0442083333344,
+"end": 1029.3030833333344
+},
+{
+"seg": 5,
+"line": 21,
+"who": "guest",
+"text": "Get a number, show the number, and expect the platform to check the number.",
+"card": {
+"type": "history",
+"year": "2026",
+"text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
+},
+"start": 1029.7230833333344,
+"end": 1033.7869166666678
+},
+{
+"seg": 5,
+"line": 21,
+"who": "guest",
+"text": "If you host in more than one place, keep one list with every registration and every renewal date.",
+"card": {
+"type": "history",
+"year": "2026",
+"text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
+},
+"start": 1033.9869166666679,
+"end": 1040.1677083333345
+},
+{
+"seg": 5,
+"line": 22,
+"who": "host",
+"text": "All as of October twenty twenty six.",
+"card": {
+"type": "history",
+"year": "2026",
+"text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
+},
+"start": 1040.5877083333346,
+"end": 1042.6910833333345
+},
+{
+"seg": 5,
+"line": 22,
+"who": "host",
+"text": "These rules vary and they change.",
+"card": {
+"type": "history",
+"year": "2026",
+"text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
+},
+"start": 1042.8910833333346,
+"end": 1044.4890416666678
+},
+{
+"seg": 5,
+"line": 22,
+"who": "host",
+"text": "This isn't legal advice.",
+"card": {
+"type": "history",
+"year": "2026",
+"text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
+},
+"start": 1044.689041666668,
+"end": 1046.0117083333346
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "Let's get practical.",
+"card": null,
+"start": 1047.2617083333346,
+"end": 1048.3579583333346
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "Safety.",
+"card": null,
+"start": 1048.5579583333347,
+"end": 1049.2406250000013
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "What are hosts commonly expected to have?",
+"card": null,
+"start": 1049.4406250000013,
+"end": 1051.6078750000013
+},
+{
+"seg": 6,
+"line": 1,
+"who": "guest",
+"text": "Start with alarms.",
+"card": null,
+"start": 1052.0278750000014,
+"end": 1053.4132500000014
+},
+{
+"seg": 6,
+"line": 1,
+"who": "guest",
+"text": "Ontario's fire marshal guidance for short term rentals says working smoke alarms and carbon monoxide alarms should be outside each sleeping area and on every storey.",
+"card": null,
+"start": 1053.6132500000015,
+"end": 1065.0692500000014
+},
+{
+"seg": 6,
+"line": 1,
+"who": "guest",
+"text": "Local rules may require more, so check with your fire department.",
+"card": null,
+"start": 1065.2692500000014,
+"end": 1069.7705833333348
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "Does Airbnb require them?",
+"card": null,
+"start": 1070.1905833333349,
+"end": 1071.5060833333348
+},
+{
+"seg": 6,
+"line": 3,
+"who": "guest",
+"text": "Airbnb strongly urges hosts to have smoke and carbon monoxide alarms, test them regularly, and keep the safety devices section of the listing up to date.",
+"card": null,
+"start": 1071.9260833333349,
+"end": 1081.9527500000015
+},
+{
+"seg": 6,
+"line": 3,
+"who": "guest",
+"text": "If your place only has electric appliances and no attached garage, you can mark that a carbon monoxide alarm isn't needed.",
+"card": null,
+"start": 1082.1527500000016,
+"end": 1090.2504166666681
+},
+{
+"seg": 6,
+"line": 3,
+"who": "guest",
+"text": "Guests see that section, so keep it accurate.",
+"card": null,
+"start": 1090.4504166666682,
+"end": 1093.235791666668
+},
+{
+"seg": 6,
+"line": 4,
+"who": "host",
+"text": "What should be on a short term rental safety checklist, beyond alarms?",
+"card": null,
+"start": 1093.6557916666682,
+"end": 1097.4437916666682
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "A good model is the self check list the District of Squamish in B C gives its short term rental operators.",
+"card": {
+"type": "list",
+"title": "A common safety checklist",
+"items": [
+"Alarms tested monthly, logged",
+"Extinguisher mounted, serviced yearly",
+"First aid kit on hand",
+"Emergency info posted"
+],
+"source": "District of Squamish"
+},
+"start": 1097.8637916666682,
+"end": 1105.004833333335
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "Test smoke and carbon monoxide alarms monthly and keep a log.",
+"card": {
+"type": "list",
+"title": "A common safety checklist",
+"items": [
+"Alarms tested monthly, logged",
+"Extinguisher mounted, serviced yearly",
+"First aid kit on hand",
+"Emergency info posted"
+],
+"source": "District of Squamish"
+},
+"start": 1105.204833333335,
+"end": 1109.7262500000018
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "Replace smoke alarms before they're ten years old.",
+"card": {
+"type": "list",
+"title": "A common safety checklist",
+"items": [
+"Alarms tested monthly, logged",
+"Extinguisher mounted, serviced yearly",
+"First aid kit on hand",
+"Emergency info posted"
+],
+"source": "District of Squamish"
+},
+"start": 1109.9262500000018,
+"end": 1113.245208333335
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "Have a fire extinguisher mounted and serviced every year.",
+"card": {
+"type": "list",
+"title": "A common safety checklist",
+"items": [
+"Alarms tested monthly, logged",
+"Extinguisher mounted, serviced yearly",
+"First aid kit on hand",
+"Emergency info posted"
+],
+"source": "District of Squamish"
+},
+"start": 1113.4452083333351,
+"end": 1117.1937916666684
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "Keep a level one first aid kit on hand.",
+"card": {
+"type": "list",
+"title": "A common safety checklist",
+"items": [
+"Alarms tested monthly, logged",
+"Extinguisher mounted, serviced yearly",
+"First aid kit on hand",
+"Emergency info posted"
+],
+"source": "District of Squamish"
+},
+"start": 1117.3937916666684,
+"end": 1120.2427916666684
+},
+{
+"seg": 6,
+"line": 5,
+"who": "guest",
+"text": "And post a fire safety plan near the exits, plus emergency contact information.",
+"card": {
+"type": "list",
+"title": "A common safety checklist",
+"items": [
+"Alarms tested monthly, logged",
+"Extinguisher mounted, serviced yearly",
+"First aid kit on hand",
+"Emergency info posted"
+],
+"source": "District of Squamish"
+},
+"start": 1120.4427916666684,
+"end": 1126.0880000000018
+},
+{
+"seg": 6,
+"line": 6,
+"who": "host",
+"text": "Posting emergency information comes up a lot.",
+"card": {
+"type": "list",
+"title": "A common safety checklist",
+"items": [
+"Alarms tested monthly, logged",
+"Extinguisher mounted, serviced yearly",
+"First aid kit on hand",
+"Emergency info posted"
+],
+"source": "District of Squamish"
+},
+"start": 1126.5080000000019,
+"end": 1129.4946666666685
+},
+{
+"seg": 6,
+"line": 7,
+"who": "guest",
+"text": "It does, and in Toronto it's required.",
+"card": {
+"type": "list",
+"title": "A common safety checklist",
+"items": [
+"Alarms tested monthly, logged",
+"Extinguisher mounted, serviced yearly",
+"First aid kit on hand",
+"Emergency info posted"
+],
+"source": "District of Squamish"
+},
+"start": 1129.9146666666686,
+"end": 1132.845625000002
+},
+{
+"seg": 6,
+"line": 7,
+"who": "guest",
+"text": "Since June twenty twenty four, operators there have had to post emergency contact information and exit diagrams in the rental.",
+"card": {
+"type": "list",
+"title": "A common safety checklist",
+"items": [
+"Alarms tested monthly, logged",
+"Extinguisher mounted, serviced yearly",
+"First aid kit on hand",
+"Emergency info posted"
+],
+"source": "District of Squamish"
+},
+"start": 1133.045625000002,
+"end": 1141.7692916666688
+},
+{
+"seg": 6,
+"line": 8,
+"who": "host",
+"text": "Does anyone actually come and check?",
+"card": {
+"type": "list",
+"title": "A common safety checklist",
+"items": [
+"Alarms tested monthly, logged",
+"Extinguisher mounted, serviced yearly",
+"First aid kit on hand",
+"Emergency info posted"
+],
+"source": "District of Squamish"
+},
+"start": 1142.1892916666689,
+"end": 1143.987541666669
+},
+{
+"seg": 6,
+"line": 9,
+"who": "guest",
+"text": "In Toronto, yes.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1144.407541666669,
+"end": 1146.123416666669
+},
+{
+"seg": 6,
+"line": 9,
+"who": "guest",
+"text": "The city started annual compliance inspections in twenty twenty five, and the operator has to be there.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1146.3234166666691,
+"end": 1153.1082916666692
+},
+{
+"seg": 6,
+"line": 10,
+"who": "host",
+"text": "What would you put on that emergency page?",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1153.5282916666692,
+"end": 1155.5029166666693
+},
+{
+"seg": 6,
+"line": 11,
+"who": "guest",
+"text": "The full civic address, because that's what you give emergency services.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1155.9229166666694,
+"end": 1160.3389166666693
+},
+{
+"seg": 6,
+"line": 11,
+"who": "guest",
+"text": "Your phone number and a backup contact.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1160.5389166666694,
+"end": 1163.2456666666694
+},
+{
+"seg": 6,
+"line": 11,
+"who": "guest",
+"text": "Where the extinguisher, the first aid kit and the main water shutoff are.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1163.4456666666695,
+"end": 1168.1275416666695
+},
+{
+"seg": 6,
+"line": 11,
+"who": "guest",
+"text": "And the two ways out of every room, which the Ontario guidance also stresses.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1168.3275416666695,
+"end": 1173.2852916666695
+},
+{
+"seg": 6,
+"line": 11,
+"who": "guest",
+"text": "Doors and windows to the outside should open easily.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1173.4852916666696,
+"end": 1177.1332916666695
+},
+{
+"seg": 6,
+"line": 12,
+"who": "host",
+"text": "Say a guest arrives late at night at a cottage on a dirt road.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1177.5532916666696,
+"end": 1180.7959583333363
+},
+{
+"seg": 6,
+"line": 12,
+"who": "host",
+"text": "What do they need most?",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1180.9959583333364,
+"end": 1182.125500000003
+},
+{
+"seg": 6,
+"line": 13,
+"who": "guest",
+"text": "The address, the nearest hospital, and a number that will actually get answered.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1182.5455000000031,
+"end": 1187.0572916666697
+},
+{
+"seg": 6,
+"line": 13,
+"who": "guest",
+"text": "Put it in two places.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1187.2572916666697,
+"end": 1188.9212916666697
+},
+{
+"seg": 6,
+"line": 13,
+"who": "guest",
+"text": "On paper by the door, and on whatever they can open on their phone.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1189.1212916666698,
+"end": 1193.4505833333365
+},
+{
+"seg": 6,
+"line": 13,
+"who": "guest",
+"text": "And one tip for barbecues, since cottages love them.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1193.6505833333365,
+"end": 1197.0789583333365
+},
+{
+"seg": 6,
+"line": 13,
+"who": "guest",
+"text": "The Squamish list says keep them at least one metre from anything that can burn.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1197.2789583333365,
+"end": 1202.3325416666698
+},
+{
+"seg": 6,
+"line": 14,
+"who": "host",
+"text": "As always, your local fire code decides what's required where you are.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1202.75254166667,
+"end": 1207.0618750000033
+},
+{
+"seg": 6,
+"line": 14,
+"who": "host",
+"text": "This isn't legal advice.",
+"card": {
+"type": "rule",
+"title": "Toronto",
+"text": "Post emergency contact information and exit diagrams inside the rental.",
+"source": "City of Toronto",
+"as_of": "Oct 2026"
+},
+"start": 1207.2618750000033,
+"end": 1208.58454166667
+},
+{
+"seg": 7,
+"line": 0,
+"who": "host",
+"text": "Let's turn all of this into a to do list for the next few weeks.",
+"card": null,
+"start": 1209.83454166667,
+"end": 1213.0747500000034
+},
+{
+"seg": 7,
+"line": 0,
+"who": "host",
+"text": "Rowan, number one.",
+"card": null,
+"start": 1213.2747500000035,
+"end": 1214.4837916666702
+},
+{
+"seg": 7,
+"line": 1,
+"who": "guest",
+"text": "Before November twentieth, open the House rules and requests section of your Airbnb listing.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1214.9037916666703,
+"end": 1220.6970833333369
+},
+{
+"seg": 7,
+"line": 1,
+"who": "guest",
+"text": "Move your must have rules into the seven standard rules, and cut any chores a cleaner should be doing.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1220.897083333337,
+"end": 1226.9190000000035
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "Two.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1227.3390000000036,
+"end": 1227.8502916666703
+},
+{
+"seg": 7,
+"line": 3,
+"who": "guest",
+"text": "Make your signs, your binder and your welcome book match the listing.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1228.2702916666703,
+"end": 1232.486333333337
+},
+{
+"seg": 7,
+"line": 3,
+"who": "guest",
+"text": "They can repeat the rules, but they can't add new ones.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1232.686333333337,
+"end": 1236.0258750000037
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "Three.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1236.4458750000038,
+"end": 1236.9747500000037
+},
+{
+"seg": 7,
+"line": 5,
+"who": "guest",
+"text": "Find your registration or permit number.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1237.3947500000038,
+"end": 1240.2627500000037
+},
+{
+"seg": 7,
+"line": 5,
+"who": "guest",
+"text": "Check that it's on every listing and ad, and put the renewal date in your calendar.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1240.4627500000038,
+"end": 1245.4425416666704
+},
+{
+"seg": 7,
+"line": 5,
+"who": "guest",
+"text": "In Nova Scotia, that's April first.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1245.6425416666705,
+"end": 1248.4158750000038
+},
+{
+"seg": 7,
+"line": 6,
+"who": "host",
+"text": "Four.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1248.8358750000039,
+"end": 1249.3735416666705
+},
+{
+"seg": 7,
+"line": 7,
+"who": "guest",
+"text": "Check whether a principal residence rule applies to your address, especially if you rent out a suite or a second property.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1249.7935416666705,
+"end": 1257.3882083333372
+},
+{
+"seg": 7,
+"line": 8,
+"who": "host",
+"text": "And five.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1257.8082083333372,
+"end": 1258.4908750000038
+},
+{
+"seg": 7,
+"line": 9,
+"who": "guest",
+"text": "Walk through the place with a safety checklist.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1258.910875000004,
+"end": 1261.716000000004
+},
+{
+"seg": 7,
+"line": 9,
+"who": "guest",
+"text": "Test the alarms, check the extinguisher and the first aid kit, and post the emergency page by the door.",
+"card": {
+"type": "list",
+"title": "This month",
+"items": [
+"Fix Airbnb house rules by Nov 20",
+"Match signs to your listing",
+"Show your registration number",
+"Test alarms, post emergency info"
+]
+},
+"start": 1261.916000000004,
+"end": 1268.695250000004
+},
+{
+"seg": 8,
+"line": 0,
+"who": "host",
+"text": "That's episode one of the Keegix Podcast.",
+"card": {
+"type": "point",
+"text": "Start free for one property: keegix.com/start"
+},
+"start": 1269.945250000004,
+"end": 1272.2705833333375
+},
+{
+"seg": 8,
+"line": 0,
+"who": "host",
+"text": "If you'd like your house rules, checkout list and emergency information in one page guests can open on their phone, you can start free for one property at keegix dot com slash start.",
+"card": {
+"type": "point",
+"text": "Start free for one property: keegix.com/start"
+},
+"start": 1272.4705833333376,
+"end": 1283.6620833333375
+},
+{
+"seg": 8,
+"line": 1,
+"who": "host",
+"text": "Sources for every rule and number we mentioned are in the description.",
+"card": {
+"type": "point",
+"text": "Start free for one property: keegix.com/start"
+},
+"start": 1283.9620833333374,
+"end": 1287.787500000004
+},
+{
+"seg": 8,
+"line": 1,
+"who": "host",
+"text": "Thanks to Rowan, our A I character, for the host's view.",
+"card": {
+"type": "point",
+"text": "Start free for one property: keegix.com/start"
+},
+"start": 1287.987500000004,
+"end": 1291.0381666666708
+},
+{
+"seg": 8,
+"line": 2,
+"who": "guest",
+"text": "Thanks, June.",
+"card": {
+"type": "point",
+"text": "Start free for one property: keegix.com/start"
+},
+"start": 1291.4581666666709,
+"end": 1292.6705000000043
+},
+{
+"seg": 8,
+"line": 2,
+"who": "guest",
+"text": "Check your city's page, and happy hosting.",
+"card": {
+"type": "point",
+"text": "Start free for one property: keegix.com/start"
+},
+"start": 1292.8705000000043,
+"end": 1295.6747500000042
+},
+{
+"seg": 8,
+"line": 3,
+"who": "host",
+"text": "New episodes every Tuesday.",
+"card": {
+"type": "point",
+"text": "Start free for one property: keegix.com/start"
+},
+"start": 1296.0947500000043,
+"end": 1297.6411250000042
+},
+{
+"seg": 8,
+"line": 3,
+"who": "host",
+"text": "See you next week.",
+"card": {
+"type": "point",
+"text": "Start free for one property: keegix.com/start"
+},
+"start": 1297.8411250000042,
+"end": 1298.816916666671
+}
+]
+}
