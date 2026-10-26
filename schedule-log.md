@@ -180,3 +180,21 @@ YouTube uploads today: 4 (story, 2 memes, sleep stories; no Congress on Fridays)
 | 13:00 | Meme A, Lo vs Life #17 "Setting up my mom's new phone: expectation vs. reality" (expectation_reality, bruh, voiced, phone) | meme-mom-new-phone.mp4 | YouTube, Facebook, Instagram | cmvoqerrt000eo276v6cvt1l2, cmvoqersk000fo276hwfkw5ra, cmvoqert4000go276uhnxxauy |
 
 YouTube uploads today: 3 (story, 2 memes). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session days since Oct 22; every unused day in the last 30 is pro forma or has no candidates (gov/used.txt unchanged). Full cut dad-tracker-full.mp4 = copy of part 1. Note: no nightly runs found for Sat Oct 24 / Sun Oct 25 (no Oct 25 compilation). Housekeeping: deleted Oct 15-17 media (accidental-sub-*, diet-dog-*, rented-room-*, gov-mom-almost-yes, gov-one-sentence-thanksgiving, long-sleepy-stories-2-web, 6 memes).
+
+## Brand podcasts — scheduled Mon 2026-10-26 (first episodes, made in chat)
+| Time (Halifax) | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| Tue Nov 3 10:00 | Keegix Podcast ep 1 "Short-Term Rental Rules in 2026" (21.8 min) | pod-keegix-ep01-str-rules-2026.mp4 | Keegix YouTube | cmvp33kye000ho27637d4vzug |
+| Wed Nov 4 12:00 | Keegix Short 1 "Airbnb's new checkout chore rules" | pod-keegix-ep01-str-rules-2026-short1.mp4 | Keegix YT, FB, IG | cmvp352l8000jo2761a0qn4zp, cmvp352li000ko276yo2p94ne, cmvp352m7000lo276wt8g5cco |
+| Thu Nov 5 10:00 | Staffkin Podcast ep 1 "Burnout at Work" (22.1 min) | pod-staffkin-ep01-burnout.mp4 | Staffkin YouTube | cmvp34csd000io276lrp3r6wq |
+| Thu Nov 5 12:00 | Keegix Short 2 "Your door sign can't add rules" | ...-short2.mp4 | Keegix YT, FB, IG | cmvp352nc000mo276cddo4h0x, cmvp352of000no276xna52dmf, cmvp352p7000oo2764gnwbl30 |
+| Fri Nov 6 12:00 | Keegix Short 3 "No more checkout fines on Airbnb" | ...-short3.mp4 | Keegix YT, FB, IG | cmvp352rq000po276qxgdo5rm, cmvp352tg000qo2760rue1brl, cmvp352v4000ro2764h32g3lc |
+| Fri Nov 6 12:00 | Staffkin Short 1 "The man who named burnout" | pod-staffkin-ep01-burnout-short1.mp4 | Staffkin YT, FB, IG | cmvp35pi7000yo2762oo2wveu, cmvp35pig000zo276u9boqqpj, cmvp35piw0010o276sbrxb1ih |
+| Sat Nov 7 12:00 | Keegix Short 4 "Toronto's 180-night short-term rental cap" | ...-short4.mp4 | Keegix YT, FB, IG | cmvp352vt000so276ffbp78fq, cmvp352wh000to276rlri4er9, cmvp352x2000uo27600xd3fx2 |
+| Sat Nov 7 12:00 | Staffkin Short 2 "Stress or burnout? The difference" | ...-short2.mp4 | Staffkin YT, FB, IG | cmvp35pjc0011o276dcheoxvc, cmvp35pk20012o276iwq8ijug, cmvp35pkr0013o276qykfk4dj |
+| Sun Nov 8 12:00 | Keegix Short 5 "The safety checklist every host needs" | ...-short5.mp4 | Keegix YT, FB, IG | cmvp3530c000vo276hg5679ra, cmvp3531b000wo276xqone3im, cmvp3531u000xo276nac73wdl |
+| Sun Nov 8 12:00 | Staffkin Short 3 "Your best employee suddenly slips" | ...-short3.mp4 | Staffkin YT, FB, IG | cmvp35pm00014o276nggmoku5, cmvp35pmn0015o276vheawbqr, cmvp35png0016o2764ei5nf6t |
+| Mon Nov 9 12:00 | Staffkin Short 4 "The hero who never takes vacation" | ...-short4.mp4 | Staffkin YT, FB, IG | cmvp35po50017o276auoeocuc, cmvp35pp00018o276sh7persv, cmvp35ppq0019o276jii8gdgs |
+| Tue Nov 10 12:00 | Staffkin Short 5 "What not to say to a burned-out employee" | ...-short5.mp4 | Staffkin YT, FB, IG | cmvp35pqf001ao2765ax53zvw, cmvp35prd001bo2769rcc6a51, cmvp35prw001co276mwl7decb |
+
+Brand YouTube uploads: at most 2 a day. Times are AST (UTC-4) after the Nov 1 clock change.
