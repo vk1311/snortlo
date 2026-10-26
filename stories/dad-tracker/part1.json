@@ -1,0 +1,456 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": true,
+ "min_seconds": 61,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR DAD",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "text": "POV: my dad just discovered the family location app.",
+   "set": "living",
+   "state": {
+    "tv": "FAMILY|TRACKER"
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "He's sixty one. He has never felt this powerful.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "DAD|HAS GPS NOW",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   },
+   "sfx": "phonk"
+  },
+  {
+   "text": "Day one, he texts the family chat. Why is your brother at Taco Bell at eleven AM on a Tuesday?",
+   "set": "living",
+   "state": {
+    "tv": "TACO BELL|11:02 AM"
+   },
+   "sfx": "textbuzz",
+   "speaker": "boss",
+   "bubble": {
+    "text": "WHY IS HE AT TACO BELL?",
+    "x": 560,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 640,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "My brother is thirty four. He has a mortgage. He has never felt so seen.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "34 YEARS OLD|STILL GROUNDED",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "sfx": "bruh"
+  },
+  {
+   "text": "Day two, he calls me. Why did you stop for nine minutes on the highway?",
+   "set": "street",
+   "sfx": "alarm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Dad, it was traffic. And he goes, nine minutes is a long time for traffic.",
+   "set": "street",
+   "sfx": "hmm",
+   "speaker": "boss",
+   "bubble": {
+    "text": "9 MINUTES, SON.",
+    "x": 700,
+    "y": 520,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "Day three, he puts all of us up on the living room TV. Like air traffic control.",
+   "set": "living",
+   "state": {
+    "tv": "FAMILY|RADAR"
+   },
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     560,
+     860
+    ]
+   }
+  },
+  {
+   "text": "Then he zooms in on Mom. She's supposed to be at book club. She's at a go kart track. Forty miles away.",
+   "set": "living",
+   "state": {
+    "tv": "MOM:|GO KARTS?!"
+   },
+   "sfx": "busted",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 640,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     560,
+     760
+    ]
+   }
+  },
+  {
+   "text": "Book club. Every Thursday. For eleven years.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "11 YEARS|OF BOOK CLUB",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "sfx": "dundun",
+   "slow": true
+  },
+  {
+   "text": "So we all pile in the car. Me, my brother, and Dad, still in his reading glasses.",
+   "set": "street",
+   "sfx": "tirescreech",
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 500,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "text": "And there's Mom. Helmet on. Lapping a teenager.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MOM|IN FIRST PLACE",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "crowdcheer"
+  },
+  {
+   "text": "The whole book club is there. Not one of them has ever read a book.",
+   "set": "street",
+   "sfx": "fahh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 380,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co3",
+     "x": 680,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "text": "Dad marches up. Mom flips her visor and says,",
+   "set": "street",
+   "sfx": "drumroll",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 0.7,
+      "steam": true
+     }
+    },
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "at": [
+     500,
+     880
+    ]
+   }
+  },
+  {
+   "text": "How do you think I knew about the bakery every Saturday?",
+   "set": "street",
+   "sfx": "ooh",
+   "speaker": "co1",
+   "bubble": {
+    "text": "THE BAKERY, FRANK.",
+    "x": 620,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co1"
+   }
+  },
+  {
+   "text": "Mom has had the app for six years. Dad is not the admin. Mom is the admin.",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MOM IS|THE ADMIN",
+    "bg1": "#E6FFE0",
+    "bg2": "#8FD08A"
+   },
+   "sfx": "metalpipe",
+   "meme": "shake"
+  },
+  {
+   "text": "Dad deleted it that night. Mom did not.",
+   "set": "living",
+   "state": {
+    "tv": "APP|DELETED"
+   },
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 400,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "She just texted me. Why are you at Taco Bell, sweetie?",
+   "set": "bedroom",
+   "state": {
+    "phone": true
+   },
+   "sfx": "clownhorn",
+   "cast": [
+    {
+     "who": "me",
+     "x": 500,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   },
+   "pause": 0.6
+  }
+ ]
+}

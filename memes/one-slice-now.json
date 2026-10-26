@@ -1,0 +1,87 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #18",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR HUSBAND",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Me at 20, eating a whole|pizza at 2 AM:",
+   "set": "night",
+   "state": {
+    "fridge_open": true
+   },
+   "sfx": "airhorn",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "sandwich",
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.2,
+   "top_text": "12 years later:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "12 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me at 32 after ONE slice,|sleeping sitting up:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "9:15"
+   },
+   "sfx": "roast",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "me",
+     "x": 500,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "red": 0.5,
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  }
+ ]
+}
