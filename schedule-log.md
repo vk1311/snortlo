@@ -171,3 +171,12 @@ YouTube uploads today: 4 (story, 2 memes, Congress). Instagram: 3 (story, meme A
 | 22:00 | Meme B, Lo vs Life #16 "Me and the boys at 18 vs. 12 years later" (x_years_later, phonk, unvoiced, friends; moved +2h from 20:00, clashed with A) | meme-air-fryer-flex.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvkgmfs9007io2806xke97yl, cmvkgmft1007jo280ptv3nqwj, cmvkgmfto007ko280an9mndq6 |
 
 YouTube uploads today: 4 (story, 2 memes, sleep stories; no Congress on Fridays). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: Oct 22 had no candidates (gov.py find returned 0), the other unused days in the last 30 were pro forma, and the remaining July candidates are policy speeches, the already-used quorum-objection gag, or another "House will be in order" repeat; gov/used.txt unchanged. Full cut the-usual-full.mp4 = copy of part 1. Housekeeping: deleted Oct 13-14 media (diary-essay-*, wrong-table-*, gov-house-in-order, gov-take-it-outside, 4 memes).
+
+## Mon 2026-10-26 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 09:00 | Story "dad-tracker" (1 part, POV hook, family): "pov: my dad discovered the family location app #shorts" | dad-tracker-part1.mp4 | YouTube, Facebook, Instagram | cmvoqehdi0008o276o1polirx, cmvoqehe10009o276pqyn32av, cmvoqehej000ao276t7ejql8r |
+| 10:00 | Meme B, Lo vs Life #18 "Me eating pizza at 20 vs. 12 years later" (x_years_later, roast, unvoiced, deepfry, food; moved +2h from 08:00, clashed with story) | meme-one-slice-now.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvoqerpm000bo276s3zi0sk2, cmvoqerpv000co276clys4k77, cmvoqerqi000do276fe6p8g68 |
+| 13:00 | Meme A, Lo vs Life #17 "Setting up my mom's new phone: expectation vs. reality" (expectation_reality, bruh, voiced, phone) | meme-mom-new-phone.mp4 | YouTube, Facebook, Instagram | cmvoqerrt000eo276v6cvt1l2, cmvoqersk000fo276hwfkw5ra, cmvoqert4000go276uhnxxauy |
+
+YouTube uploads today: 3 (story, 2 memes). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session days since Oct 22; every unused day in the last 30 is pro forma or has no candidates (gov/used.txt unchanged). Full cut dad-tracker-full.mp4 = copy of part 1. Note: no nightly runs found for Sat Oct 24 / Sun Oct 25 (no Oct 25 compilation). Housekeeping: deleted Oct 15-17 media (accidental-sub-*, diet-dog-*, rented-room-*, gov-mom-almost-yes, gov-one-sentence-thanksgiving, long-sleepy-stories-2-web, 6 memes).
