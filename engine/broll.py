@@ -39,6 +39,10 @@ def _openverse(query):
         if PEOPLE.search(words):
             continue
         lic = "CC0" if r.get("license") == "cc0" else "Public domain"
+        for k in ("creator", "title"):     # some providers send %uXXXX / %20 escapes
+            v = r.get(k) or ""
+            v = re.sub(r"%u([0-9a-fA-F]{4})", lambda m: chr(int(m.group(1), 16)), v)
+            r[k] = urllib.parse.unquote(v)
         yield r["url"], {"title": r.get("title") or query, "creator": r.get("creator") or "unknown",
                          "license": lic, "source": r.get("foreign_landing_url") or r["url"],
                          "via": "Openverse / " + (r.get("provider") or "")}

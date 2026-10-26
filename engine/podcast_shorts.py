@@ -13,7 +13,7 @@ import json, os, sys, time
 from PIL import Image, ImageDraw
 
 import podcast as P_
-from podcast import BRANDS, DW, DH, FPS, Painter, background_loop, font, wrap, tracked, hexrgb, ff, log, CACHE
+from podcast import BRANDS, DW, DH, FPS, Painter, background_loop, font, wrap, tracked, hexrgb, ff, log, CACHE, display_text
 
 VW, VH = 1080, 1920
 TAIL = 1.6          # seconds of end card after the last word
@@ -51,8 +51,9 @@ def frame(P, B, ep, sh, ev, path, end=False):
         who = B["host"] if ev["who"] == "host" else ep["guest"]
         d.text((60, py + 44), who["name"].upper(), font=font(B["ui_bold"], 30), fill=c("accent"), anchor="ls")
         cf, lh = font(B["caption"], 50), 62
-        cl = wrap(d, ev["text"], cf, 960)
-        if len(cl) > 4: cf, lh = font(B["caption"], 42), 52; cl = wrap(d, ev["text"], cf, 960, 5)
+        txt = display_text(ev["text"])
+        cl = wrap(d, txt, cf, 960)
+        if len(cl) > 4: cf, lh = font(B["caption"], 42), 52; cl = wrap(d, txt, cf, 960, 5)
         for i, l in enumerate(cl):
             d.text((62, py + 120 + i * lh), l, font=cf, fill=(0, 0, 0, 110), anchor="ls")
             d.text((60, py + 118 + i * lh), l, font=cf, fill=c("on_dark"), anchor="ls")

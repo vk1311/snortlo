@@ -61,6 +61,12 @@ def sentences(txt):
         if p: out.append(p)
     return out
 
+def display_text(s):
+    """Spoken text -> on-screen caption: "A I" -> "AI", "W H O" -> "WHO", "B C" -> "BC", "dot com" -> ".com"."""
+    s = re.sub(r"(?<![\w'])([A-Z])((?: [A-Z])+)(?![\w'])", lambda m: (m.group(1) + m.group(2)).replace(" ", ""), s)
+    s = re.sub(r" dot (com|ca)\b", r".\1", s)
+    return re.sub(r"\.(com|ca) slash ([\w-]+)", r".\1/\2", s)
+
 def fmt_ts(t):
     t = int(t); h, m, s = t // 3600, t % 3600 // 60, t % 60
     return f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
@@ -235,7 +241,10 @@ class Painter:
         ld.ellipse((ax - r, ay - r, ax + r, ay + r), fill=fill)
         ld.text((ax, ay + 4), person["name"][0].upper(), font=font(B["head"], 96), fill=self.c("ink"), anchor="mm")
         ld.text((210, 88), person["name"], font=font(B["ui_bold"], 44), fill=self.c("on_dark"), anchor="ls")
-        ld.text((210, 124), person["role"], font=font(B["ui"], 25), fill=self.c("on_dark_muted"), anchor="ls")
+        rf = font(B["ui"], 25)
+        if ld.textlength(person["role"], font=rf) > 440: rf = font(B["ui"], 21)
+        for i, rl in enumerate(wrap(ld, person["role"], rf, 450, 2)):
+            ld.text((210, 124 + i * 28), rl, font=rf, fill=self.c("on_dark_muted"), anchor="ls")
         if not active:
             a = lay.getchannel("A").point(lambda v: int(v * .5)); lay.putalpha(a)
         im.alpha_composite(lay, (80, cy - 115))
@@ -243,13 +252,14 @@ class Painter:
     def caption(self, im, d, who, text):
         B = self.B
         name = (B["host"] if who == "host" else self.guest)["name"]
-        f = font(B["caption"], 44)
-        lines = wrap(d, text, f, 1700, 2)
-        y = 900 if len(lines) == 1 else 872
-        d.text((80, y - 52), name.upper(), font=font(B["ui_bold"], 22), fill=self.c("accent"), anchor="ls")
+        f, lh = font(B["caption"], 44), 54
+        lines = wrap(d, text, f, 1700)
+        if len(lines) > 3: f, lh = font(B["caption"], 38), 46; lines = wrap(d, text, f, 1740, 3)
+        y = {1: 900, 2: 872}.get(len(lines), 850)
+        d.text((80, y - 50), name.upper(), font=font(B["ui_bold"], 22), fill=self.c("accent"), anchor="ls")
         for i, l in enumerate(lines):
-            d.text((82, y + i * 54 + 2), l, font=f, fill=(0, 0, 0, 110), anchor="ls")
-            d.text((80, y + i * 54), l, font=f, fill=self.c("on_dark"), anchor="ls")
+            d.text((82, y + i * lh + 2), l, font=f, fill=(0, 0, 0, 110), anchor="ls")
+            d.text((80, y + i * lh), l, font=f, fill=self.c("on_dark"), anchor="ls")
 
     def panel_box(self, im, fill=None):
         x0, y0, x1, y1 = 780, 180, 1840, 800
@@ -355,7 +365,7 @@ class Painter:
         self.seat(im, d, 640, guest, ev["who"] == "guest", False)
         if ev["card"]: self.panel_card(im, d, ev["card"])
         else: self.panel_default(im, d, ev["seg"])
-        self.caption(im, d, ev["who"], ev["text"])
+        self.caption(im, d, ev["who"], display_text(ev["text"]))
         self.out(im, path)
 
     def title_frame(self, path):
