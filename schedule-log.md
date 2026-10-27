@@ -198,3 +198,12 @@ YouTube uploads today: 3 (story, 2 memes). Instagram: 3 (story, meme A, meme B).
 | Tue Nov 10 12:00 | Staffkin Short 5 "What not to say to a burned-out employee" | ...-short5.mp4 | Staffkin YT, FB, IG | cmvp35pqf001ao2765ax53zvw, cmvp35prd001bo2769rcc6a51, cmvp35prw001co276mwl7decb |
 
 Brand YouTube uploads: at most 2 a day. Times are AST (UTC-4) after the Nov 1 clock change.
+
+## Tue 2026-10-27 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 13:00 | Meme A, Lo vs Life #19 "My boss at 5:01 PM: quick question" (x_years_later, bonecrack, unvoiced, deepfry, work) | meme-quick-question-boss.mp4 | YouTube, Facebook, Instagram | cmvq5w8dk001go276rumm6f4w, cmvq5w8dv001ho2767gt7apsh, cmvq5w8eo001io276s8sfvh63 |
+| 15:00 | Meme B, Lo vs Life #20 "Mom: why are you always so tired? / Mom at 5:12 AM: goose videos" (me_vs_mom, bruh, unvoiced, deepfry, sleep; moved +2h from 13:00, clashed with A) | meme-goose-videos-5am.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvq5w8fz001jo276rki0qk1c, cmvq5w8i6001ko276utghs39z, cmvq5w8k0001lo2764ji2u7y8 |
+| 17:00 | Story "manager-is-me" (1 part, question hook, customers): "a customer asked for my manager. i am the manager. #shorts" | manager-is-me-part1.mp4 | YouTube, Facebook, Instagram | cmvq5w8ah001do2761l1sbg0s, cmvq5w8b2001eo27688elbvxm, cmvq5w8cj001fo276eki7hh5e |
+
+YouTube uploads today: 3 (story, 2 memes). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: the only new session day (Oct 26) had no candidates, and every unused day in the last 30 is pro forma ("House will be in order" opener only); gov/used.txt unchanged. Full cut manager-is-me-full.mp4 = copy of part 1. Housekeeping: deleted Oct 18 media (compile-2026-10-18, dog-will-*, gov-wrong-excuse, meme-cereal-dream, meme-rest-her-eyes). Note: rendering two memes in parallel clobbers the shared temp files; render them one at a time.
