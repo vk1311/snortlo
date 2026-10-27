@@ -1,0 +1,104 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #20",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Mom: \"Why are you|ALWAYS so tired?\"",
+   "set": "living",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 680,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 340,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.9,
+   "top_text": "Also Mom, texting me|at 5:12 AM:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "5:12"
+   },
+   "sfx": "textbuzz",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "\"look at this goose\"|+ 46 more videos:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "5:13"
+   },
+   "sfx": "bruh",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.8,
+    "on": "me"
+   }
+  }
+ ]
+}
