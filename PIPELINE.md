@@ -34,7 +34,7 @@ Optional keys: `card_title` (on-screen intro card; otherwise `title` cut at the 
 Outputs next to the mp4: `long-<slug>.chapters.txt` (paste into the YouTube description; first line is 0:00)
 and `long-<slug>-thumb.png` (1280x720).
 
-How it works: Kokoro narrates sentence by sentence (0.45 s between sentences, 1.3 s between paragraphs,
+How it works: the house voice (engine/voice_backend.py: Qwen3 on Kaggle, fallbacks Chatterbox then Kokoro) narrates sentence by sentence (0.45 s between sentences, 1.3 s between paragraphs,
 ~4 s + a soft chime between stories), mixed over a synthesized rain + soft pad bed, normalized to -18 LUFS.
 The cozy night-window scene is a 60 s seamless cairo loop rendered once (cached in /tmp/snortlo-longform),
 cut into 10 s sub-clips; the full video is a stream-copy concat of those, and only the sub-clips under a
