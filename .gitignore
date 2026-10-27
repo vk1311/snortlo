@@ -6,3 +6,6 @@ __pycache__/
 engine/sounds/raw/
 media/long-*[0-9].mp4
 media/_gov/
+engine/qc.png
+engine/.voice_engine
+engine/voice_test.wav

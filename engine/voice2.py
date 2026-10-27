@@ -3,7 +3,7 @@
 - room left after punchlines for the meme sound
 - Whisper (open source) re-listens to get exact word timings for karaoke captions
 Writes voice.wav, bruh.wav, timing.json"""
-import json, sys, numpy as np, soundfile as sf
+import json, os, sys, numpy as np, soundfile as sf
 from scipy.signal import butter, lfilter
 from kokoro_onnx import Kokoro
 from faster_whisper import WhisperModel
@@ -19,11 +19,18 @@ def say(text, speed, voice=VOICE):
     nz = np.where(np.abs(s) > 0.008)[0]
     return s[max(nz[0] - 300, 0): nz[-1] + 900].astype(np.float64)
 
+# Oct 27, 2026: spoken beats come from voice_backend (Qwen3 house voices on Kaggle, Chatterbox/Kokoro fail-safe),
+# all at 1.10x (owner's choice); "slow" beats at 0.99x. The story-level "speed" now only matters on the Kokoro fallback.
+from voice_backend import voice_lines, _tempo
+_spoken = [(b.get("voice", VOICE), b["text"]) for b in story["beats"] if b.get("text", "").strip()]
+_voiced = dict(zip(_spoken, voice_lines(_spoken, tempo=1.0))) if _spoken else {}
+TEMPO = float(os.environ.get("VOICE_TEMPO", "1.10"))
+
 audio, t, beats = [np.zeros(int(SR * 0.08))], 0.08, []
 for i, b in enumerate(story["beats"]):
     sp = BASE * (0.9 if b.get("slow") else 1.0)
     if b.get("text", "").strip():
-        s = say(b["text"], sp, b.get("voice", VOICE))
+        s = _tempo(_voiced[(b.get("voice", VOICE), b["text"])], TEMPO * (0.9 if b.get("slow") else 1.0)).astype(np.float64)
     else:  # silent beat (meme reaction shots): just hold the picture
         s = np.zeros(int(SR * b.get("hold", 1.0)))
     d = len(s) / SR

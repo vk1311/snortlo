@@ -11,7 +11,7 @@ Writes next to the mp4:
 Script format: PODCAST_FORMAT.md. Brand looks and hosts: podcast_brands.py.
 
 How it works (fast on a 2-core box):
-  audio   Kokoro TTS per sentence (2 worker processes, cached on disk) placed on a host track and a guest
+  audio   voice_backend (Qwen3-TTS on Kaggle's GPU, Chatterbox/Kokoro fail-safe) per sentence, placed on a host track and a guest
           track, plus a soft synthesized sting at the start, a chime between chapters and an outro pad.
   video   a seamless 20 s background loop (soft moving glows in brand colours, made in numpy, no stock video),
           one transparent overlay PNG per sentence (seats, captions, cards, CC0 photos) shown through the
@@ -454,20 +454,13 @@ def build(script_path, out_mp4, res=(1920, 1080), test=None):
     if test: events = events[:test]
     log(f"{len(events)} sentences, {sum(len(e['text'].split()) for e in events)} words")
 
-    # ---- TTS
-    jobs = []
-    for e in events:
-        p = host if e["who"] == "host" else guest
-        h = hashlib.sha1(f"{p['voice']}|{B['speed']}|{e['text']}".encode()).hexdigest()[:16]
-        e["tts"] = os.path.join(CACHE, "tts", h + ".npy")
-        jobs.append((e["tts"], e["text"], p["voice"], B["speed"]))
-    todo = [j for j in jobs if not os.path.exists(j[0])]
+    # ---- voices (voice_backend: Qwen3 on Kaggle -> Chatterbox -> Kokoro, 1.10x)
+    from voice_backend import voice_lines
+    lines = [((host if e["who"] == "host" else guest)["voice"], e["text"]) for e in events]
     t0 = time.time()
-    if todo:
-        log(f"TTS {len(todo)} sentences...")
-        with ProcessPoolExecutor(2, initializer=_init_worker) as ex:
-            for k, _ in enumerate(ex.map(_tts, todo, chunksize=2)):
-                if k % 50 == 0: log(f"  {k}/{len(todo)}")
+    arrays = voice_lines(lines, tempo=float(os.environ.get("VOICE_TEMPO", "1.10")))
+    for i, (e, a) in enumerate(zip(events, arrays)):
+        e["tts"] = os.path.join(work, f"v{i:04d}.npy"); np.save(e["tts"], a)
     log(f"TTS done in {time.time() - t0:.0f}s")
 
     # ---- timeline

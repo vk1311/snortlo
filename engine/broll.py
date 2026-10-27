@@ -99,6 +99,8 @@ def credit_line(c):
 
 
 def _log(c):
+    if os.path.exists(CREDITS) and c["source"] in open(CREDITS).read():
+        return                                   # already credited
     new = not os.path.exists(CREDITS)
     with open(CREDITS, "a") as f:
         if new:

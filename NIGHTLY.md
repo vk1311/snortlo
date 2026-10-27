@@ -1,4 +1,9 @@
-# Nightly task schedule (UPDATED Oct 26, 2026; the live prompt is in the scheduled task)
+# Nightly task schedule (UPDATED Oct 27, 2026; the live prompt is in the scheduled task "All channels nightly")
+
+**Oct 27, 2026:**
+- One nightly run now does every channel: Snortlo, sleep stories, and on Saturdays and Mondays the Keegix and Staffkin podcasts.
+- Voices come from Qwen3 house voices on Kaggle at 1.10x, with a fail-safe (engine/voice_backend.py, engine/nightly.py).
+- New Snortlo series "Lo Explains" posts Mon, Wed and Fri in meme B's slot (CONCEPTS.md).
 
 **Oct 26, 2026: the YouTube cap drops from 5 to 4 Snortlo uploads a day.** The owner's new Keegix Podcast and Staffkin Podcast (see PODCAST_FORMAT.md) use up to 2 uploads a day from the same shared Google quota (about 6 a day for all channels). The owner is asking Google for a free quota increase; once approved, the cap goes back to 5.
 
@@ -27,7 +32,8 @@ Every meme is an episode of Lo vs Life. See STORY_FORMAT.md for the series tag, 
 | Story Part 2 (part1_hour − 30 min) | yes | yes | yes |
 | Story Part 1 (part1_hour) | yes | yes | yes |
 | Meme A (its post_hour) | yes | yes | yes |
-| Meme B (its post_hour, moved 2 h if it clashes with A or the story) | **yes (new)** | yes | no |
+| Meme B (its post_hour, moved 2 h if it clashes with A or the story) | **yes (new)**, except Mon/Wed/Fri when Lo Explains takes this slot | yes | no |
+| Lo Explains (Mon/Wed/Fri, at meme B's hour) | yes | yes | only on 1-part days |
 | Congress Moment, 13:00 (if gov/ENABLED) | only when it fits the 4-upload cap (1-part days, never Friday) | daily | **no** |
 | Sleep stories, Fridays 21:00 (if longform/ENABLED) | yes | yes | no |
 | Story full cut, Wednesdays (2 h after Part 1) | **no (paused)** | yes | no |

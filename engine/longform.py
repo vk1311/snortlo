@@ -579,18 +579,14 @@ def main():
 
     # ---------- 2. narration -> narr.flac (streamed), TTS in worker processes
     t0 = time.time()
+    # voices: voice_backend (Qwen3 on Kaggle -> Chatterbox -> Kokoro). Sleep stories stay slow: 0.92x by default.
+    from voice_backend import voice_lines
+    speech = [p[1] for p in plan if p[0] == "speech"]
+    log(f"{len(speech)} speech chunks, {len(cfg['stories'])} stories")
+    arrays = voice_lines([(voice, t) for t in speech], tempo=speed)
     jobs = []
-    for p in plan:
-        if p[0] == "speech":
-            h = hashlib.sha1(f"{voice}|{speed}|{p[1]}".encode()).hexdigest()
-            jobs.append((os.path.join(tts_dir, h + ".npy"), p[1], voice, speed))
-    todo = [j for j in jobs if not os.path.exists(j[0])]
-    log(f"{len(jobs)} speech chunks ({len(todo)} to synthesize), {len(cfg['stories'])} stories")
-    if todo:
-        nw = max(1, min(os.cpu_count() or 2, 4))
-        with ProcessPoolExecutor(nw, initializer=_init_worker) as ex:
-            for n, _ in enumerate(ex.map(_tts, todo, chunksize=1), 1):
-                if n % 25 == 0 or n == len(todo): log(f"  tts {n}/{len(todo)}  ({time.time() - t0:.0f}s)")
+    for k, a in enumerate(arrays):
+        path = os.path.join(work, f"s{k:05d}.npy"); np.save(path, a); jobs.append((path,))
     T["tts"] = time.time() - t0
 
     t0 = time.time()

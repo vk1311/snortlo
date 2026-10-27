@@ -7,6 +7,8 @@ The month's approved topics are in `podcasts/TOPICS.md`. Only write episodes for
 **Not Snortlo.** No stories, no memes, no stick figures, no meme sounds, no "Lo". These are calm, useful,
 search-friendly conversations.
 
+Voices: the `voice` names below are the house voices in engine/voices/ (Qwen3-TTS on Kaggle, made Oct 27, 2026; they keep the old Kokoro names). Every line is spoken at 1.10x. See engine/voice_backend.py.
+
 ## The shows
 
 | | Keegix Podcast | Staffkin Podcast |
@@ -36,6 +38,7 @@ search-friendly conversations.
 
 1. **Cold open** (30 to 45 s): the most surprising fact or situation from the episode. No hello yet.
 2. **Intro** (about 1 min): show name, "I'm June, your AI host", what the episode covers, introduce the guest as an AI character.
+2b. **In the news** (60 to 90 s, optional): real news from the last 14 days, sourced, "as of <date>". See CONCEPTS.md for where to look. Skip it if there's nothing real.
 3. **4 or 5 main segments** (3 to 5 min each). Each has a clear heading that reads like a search query or chapter title.
 4. **Mid-episode brand mention** (2 or 3 sentences, natural, after segment 2 or 3).
 5. **Recap** (about 1 min): 3 to 5 takeaways.
