@@ -30,6 +30,22 @@ CBX_VENV = os.environ.get("CBX_VENV", "/tmp/cbx-venv")
 def log(*a): print("[voice]", *a, flush=True)
 
 
+# How brand names should SOUND. Captions keep the written form; only the text sent to the voice engine changes.
+import re as _re
+SAY = [
+    (r"\bAirbnb Luxe\b", lambda m: "Air bee en bee Lux"),
+    (r"\bAirbnb('s)?\b", lambda m: "Air bee en bee" + ("'s" if m.group(1) else "")),
+    (r"\bVrbo('s)?\b", lambda m: "Verbo" + ("'s" if m.group(1) else "")),
+    (r"\bKeegix('s)?\b", lambda m: "Keegix" + ("'s" if m.group(1) else "")),
+]
+
+
+def say(text):
+    for pat, rep in SAY:
+        text = _re.sub(pat, rep, text)
+    return text
+
+
 def _key(engine, voice, text):
     return hashlib.sha1(f"{engine}|{voice}|{text}".encode()).hexdigest()[:20]
 
@@ -161,6 +177,7 @@ def voice_lines(lines, tempo=DEFAULT_TEMPO, engine=None):
     raises RuntimeError only if every engine fails."""
     engine = engine or os.environ.get("VOICE_ENGINE", "auto")
     order = ORDER[engine]
+    lines = [(v, say(t)) for v, t in lines]
     result = [None] * len(lines)
     for eng in order:
         # a line already voiced by a better engine earlier tonight is reused
@@ -196,6 +213,7 @@ def record_kaggle(ok, note=""):
 
 def prefetch(lines):
     """Voice a whole night's lines in ONE Kaggle run. Returns (ok, message, consecutive_failures)."""
+    lines = [(v, say(t)) for v, t in lines]
     todo = sorted({(v, t) for v, t in lines if _known_voice(v) and not _cached("qwen3", v, t)})
     if not todo: return True, "all lines already cached", 0
     ok, msg = _kaggle(todo)

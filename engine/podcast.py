@@ -1,6 +1,6 @@
 """Keegix Podcast / Staffkin Podcast renderer: two AI voices + brand motion graphics, 20+ minute episodes.
 
-    cd engine && python3 podcast.py ../podcasts/<brand>/<slug>.json ../media/pod-<slug>.mp4 [--res 1280x720] [--test 12]
+    cd engine && python3 podcast.py ../podcasts/<brand>/<slug>.json ../media/pod-<slug>.mp4 [--res 1920x1080] [--test 12]
 
 Writes next to the mp4:
     <stem>.timeline.json     every sentence with start/end/speaker (podcast_shorts.py cuts Shorts from it)
@@ -13,17 +13,17 @@ Script format: PODCAST_FORMAT.md. Brand looks and hosts: podcast_brands.py.
 How it works (fast on a 2-core box):
   audio   voice_backend (Qwen3-TTS on Kaggle's GPU, Chatterbox/Kokoro fail-safe) per sentence, placed on a host track and a guest
           track, plus a soft synthesized sting at the start, a chime between chapters and an outro pad.
-  video   a seamless 20 s background loop (soft moving glows in brand colours, made in numpy, no stock video),
-          one transparent overlay PNG per sentence (seats, captions, cards, CC0 photos) shown through the
-          ffmpeg concat demuxer, and two live waveforms (one per voice) drawn by ffmpeg's showwaves.
-          Everything is composited and encoded in a single ffmpeg pass.
+  video   VISUAL-FIRST (owner's call, Oct 27, 2026): full-screen CC0 / public-domain photos that slowly zoom or pan
+          and change every ~7 s (cross-faded), picked from each segment's "visuals" searches. On top, one transparent
+          overlay PNG per sentence: big captions, the speaker's name with a live waveform, info cards, the chapter,
+          and a small "AI voices" note in the corner. Frames are drawn in Python and piped into one ffmpeg pass.
 """
 import hashlib, json, math, os, re, subprocess, sys, time
 from concurrent.futures import ProcessPoolExecutor
 
 import numpy as np
 import soundfile as sf
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 
 from podcast_brands import BRANDS
 import broll
@@ -35,6 +35,8 @@ DW, DH = 1920, 1080                     # design canvas; overlays are drawn here
 GAP_SENT, GAP_LINE, GAP_TURN, GAP_SEG = 0.20, 0.30, 0.42, 1.25
 STING_LEN, SPEECH_START, OUTRO_LEN = 3.2, 2.6, 7.0
 CACHE = "/tmp/snortlo-podcast"
+SHOT, XF, CARD_MAX = 7.0, 0.6, 12.0      # CARD_MAX: an info card stays up at most ~12 s, then the photos take over                     # visual layout: a new photo every ~7 s of talk, 0.6 s cross-fade
+CARD_BOX = (430, 165, 1490, 785)        # where info cards sit on the full-screen layout
 
 def log(*a): print(f"[podcast {time.strftime('%H:%M:%S')}]", *a, flush=True)
 
@@ -262,7 +264,7 @@ class Painter:
             d.text((80, y + i * lh), l, font=f, fill=self.c("on_dark"), anchor="ls")
 
     def panel_box(self, im, fill=None):
-        x0, y0, x1, y1 = 780, 180, 1840, 800
+        x0, y0, x1, y1 = CARD_BOX
         sh = Image.new("RGBA", (DW, DH), (0, 0, 0, 0))
         ImageDraw.Draw(sh).rounded_rectangle((x0, y0 + 10, x1, y1 + 10), 30, fill=(0, 0, 0, 70))
         im.alpha_composite(sh.filter(ImageFilter.GaussianBlur(14)))
@@ -356,7 +358,48 @@ class Painter:
         if src:
             d.text((X, y1 - 56), f"Source: {src}", font=font(B["ui"], 24), fill=muted, anchor="ls")
 
-    # ---------------------------------------------------------------- full frames
+    # ---------------------------------------------------------------- full frames (visual layout)
+    def scrim(self, im, top=True):
+        """Dark gradients so white text reads on any photo."""
+        g = Image.new("L", (1, DH))
+        g.putdata([int(225 * max(0, (y / DH - .58) / .42) ** 1.15) if y > DH * .58 else
+                   (int(150 * (1 - y / 230)) if top and y < 230 else 0) for y in range(DH)])
+        sh = Image.new("RGBA", (DW, DH), (8, 10, 16, 255)); sh.putalpha(g.resize((DW, DH)))
+        im.alpha_composite(sh)
+
+    def corner(self, d, credit=None):
+        B = self.B; f = font(B["ui"], 19)
+        d.text((DW - 64, 74), B["footer"], font=f, fill=hexrgb(B["on_dark_muted"], 210), anchor="rs")
+        if credit:
+            cr = f"Photo: {credit['creator'][:38]} · {credit['license']}"
+            d.text((DW - 64, 100), cr, font=font(B["ui"], 16), fill=hexrgb(B["on_dark_muted"], 170), anchor="rs")
+
+    def visual_frame(self, ev, path):
+        B = self.B; im, d = self.canvas()
+        self.scrim(im)
+        im.alpha_composite(self.logo, (64, 40))
+        si = ev["seg"]; heading = self.ep["segments"][si]["heading"]
+        kt, kf, hf = f"CHAPTER {si + 1}", font(B["ui_bold"], 22), font(B["ui"], 26)
+        kw = tracked(d, (64, 140), kt, kf, self.c("accent"))
+        room = 1150 - kw
+        if d.textlength(heading, font=hf) > room:
+            while heading and d.textlength(heading + "…", font=hf) > room: heading = heading[:-1]
+            heading = heading.rstrip(" ,:;") + "…"
+        d.text((64 + kw + 18, 141), heading, font=hf, fill=self.c("on_dark"), anchor="ls")
+        self.corner(d, ev.get("credit"))
+        if ev["card"]: self.panel_card(im, d, ev["card"])
+        name = (B["host"] if ev["who"] == "host" else self.guest)["name"]
+        d.text((290, 866), name.upper(), font=font(B["ui_bold"], 28), fill=self.c("accent"), anchor="ls")
+        text = display_text(ev["text"])
+        f, lh = font(B["caption"], 54), 64
+        lines = wrap(d, text, f, 1790)
+        if len(lines) > 2: f, lh = font(B["caption"], 46), 56; lines = wrap(d, text, f, 1790, 3)
+        y = {1: 970, 2: 940}.get(len(lines), 930)
+        for i, l in enumerate(lines):
+            d.text((67, y + i * lh + 3), l, font=f, fill=(0, 0, 0, 150), anchor="ls")
+            d.text((64, y + i * lh), l, font=f, fill=self.c("on_dark"), anchor="ls")
+        self.out(im, path)
+
     def sentence_frame(self, ev, path):
         im, d = self.canvas()
         self.chrome(im, d, ev["seg"])
@@ -370,6 +413,7 @@ class Painter:
 
     def title_frame(self, path):
         B = self.B; im, d = self.canvas()
+        im.alpha_composite(Image.new("RGBA", (DW, DH), hexrgb(B["bg"][1], 150)))
         big = Image.open(B["logo"]).convert("RGBA"); h = 84
         big = big.resize((int(big.width * h / big.height), h), Image.LANCZOS)
         im.alpha_composite(big, ((DW - big.width) // 2, 250))
@@ -377,12 +421,14 @@ class Painter:
         lines = wrap(d, self.ep["card_title"], font(B["head"], 96), 1500)
         for i, l in enumerate(lines[:3]):
             d.text((DW / 2, 540 + i * 104), l, font=font(B["head"], 96), fill=self.c("on_dark"), anchor="mm")
-        d.text((DW / 2, 560 + len(lines[:3]) * 104), f"with {B['host']['name']} and {self.guest['name']} · AI voices",
+        d.text((DW / 2, 560 + len(lines[:3]) * 104), f"with {B['host']['name']} and {self.guest['name']}",
                font=font(B["ui"], 32), fill=self.c("on_dark_muted"), anchor="mm")
+        self.corner(d)
         self.out(im, path)
 
     def end_frame(self, path):
         B = self.B; im, d = self.canvas()
+        im.alpha_composite(Image.new("RGBA", (DW, DH), hexrgb(B["bg"][1], 175)))
         big = Image.open(B["logo"]).convert("RGBA"); h = 96
         big = big.resize((int(big.width * h / big.height), h), Image.LANCZOS)
         im.alpha_composite(big, ((DW - big.width) // 2, 260))
@@ -405,6 +451,91 @@ class Painter:
         d.text((80, DH - 60), B["show"], font=font(B["ui_bold"], 44), fill=self.c("on_dark_muted"), anchor="ls")
         im.convert("RGB").resize((1280, 720), Image.LANCZOS).save(path)
 
+
+# ====================================================================== moving photos (visual layout)
+_IMG = {}
+def prep_img(path, ow, oh):
+    """Photo scaled a bit larger than the frame (room to zoom/pan), slightly darkened for text."""
+    key = (path, ow, oh)
+    if key not in _IMG:
+        if len(_IMG) > 4: _IMG.pop(next(iter(_IMG)))
+        if path is None:
+            src = Image.new("RGB", (ow, oh))
+        else:
+            src = Image.open(path).convert("RGB")
+        s = max(ow * 1.2 / src.width, oh * 1.2 / src.height)
+        src = src.resize((int(src.width * s) + 2, int(src.height * s) + 2), Image.LANCZOS)
+        _IMG[key] = ImageEnhance.Brightness(src).enhance(.80)
+    return _IMG[key]
+
+def _ease(p): p = min(max(p, 0), 1); return p * p * (3 - 2 * p)
+
+def kb_frame(src, ow, oh, motion, p):
+    """One frame of a slow Ken Burns move. motion 0 zoom in, 1 zoom out, 2 pan right, 3 pan left."""
+    W, H = src.size; p = _ease(p)
+    fw = min(W, H * ow / oh)                      # widest crop with the output's shape
+    if motion in (0, 1):
+        z = 1 + .14 * (p if motion == 0 else 1 - p); cw = fw / (1.04 * z)
+        cx, cy = W / 2 + (W - cw) * .08 * (p - .5), H / 2
+    else:
+        cw = fw / 1.10; span = (W - cw) * .42
+        cx, cy = W / 2 + span * ((p - .5) if motion == 2 else (.5 - p)), H / 2
+    ch = cw * oh / ow
+    a, e = cw / ow, ch / oh
+    return src.transform((ow, oh), Image.AFFINE, (a, 0, cx - cw / 2, 0, e, cy - ch / 2), resample=Image.BILINEAR)
+
+def gradient_img(B, ow, oh, path):
+    if not os.path.exists(path):
+        c0, c1 = np.array(hexrgb(B["bg"][0])[:3], np.float32), np.array(hexrgb(B["bg"][1])[:3], np.float32)
+        yy, xx = np.mgrid[0:oh, 0:ow].astype(np.float32)
+        k = np.clip(xx / ow * .45 + yy / oh * .55, 0, 1)[..., None]
+        Image.fromarray((c0 * (1 - k) + c1 * k).astype(np.uint8)).save(path)
+    return path
+
+def plan_shots(events, seg_starts, total, pools, fallback):
+    """Cut the episode into shots: a new photo at each chapter and every ~SHOT seconds (on a sentence start)."""
+    shots, used_last, k = [], None, {}
+    def pick(si):
+        pool = pools.get(si) or fallback
+        if not pool: return (None, None)
+        i = k.get(si, 0)
+        for _ in range(len(pool)):
+            cand = pool[i % len(pool)]; i += 1
+            if cand[0] != used_last or len(pool) == 1: break
+        k[si] = i
+        return cand
+    def start_shot(t, si):
+        nonlocal used_last
+        img, cr = pick(si); used_last = img
+        shots.append({"start": t, "seg": si, "img": img, "credit": cr, "motion": len(shots) % 4})
+    for i, e in enumerate(events):
+        if not shots:
+            start_shot(0.0, e["seg"])
+        elif e["seg"] != shots[-1]["seg"]:
+            start_shot(max(seg_starts[e["seg"]], shots[-1]["start"] + 1), e["seg"])
+        elif e["start"] - shots[-1]["start"] >= SHOT:
+            start_shot(e["start"], e["seg"])
+        e["shot"] = len(shots) - 1; e["credit"] = shots[-1]["credit"]
+    for a, b in zip(shots, shots[1:]): a["end"] = b["start"]
+    shots[-1]["end"] = total
+    return shots
+
+def base_frames(shots, ow, oh, t0, t1, blank):
+    """Yield RGB frames (bytes) of the moving-photo track from t0 to t1."""
+    j = 0
+    for f in range(int(round((t1 - t0) * FPS))):
+        t = t0 + f / FPS
+        while j + 1 < len(shots) and t >= shots[j + 1]["start"]: j += 1
+        def render(sh):
+            base = sh["start"] - XF if sh is not shots[0] else sh["start"]
+            p = (t - base) / max(sh["end"] - base, .5)
+            return kb_frame(prep_img(sh["img"] or blank, ow, oh), ow, oh, sh["motion"], p)
+        fr = render(shots[j])
+        if j + 1 < len(shots) and t >= shots[j + 1]["start"] - XF:
+            a = (t - (shots[j + 1]["start"] - XF)) / XF
+            fr = Image.blend(fr, render(shots[j + 1]), min(max(a, 0), 1))
+        yield fr.tobytes()
+
 # ====================================================================== YouTube description (YouTube caps it at 5,000 characters)
 YT_LIMIT = 4900
 def make_description(ep, B, chap, credits):
@@ -417,7 +548,7 @@ def make_description(ep, B, chap, credits):
         if credits:
             if level == 0: out += ["", "Photos (CC0 / public domain)"] + [f"- {broll.credit_line(c)}" for c in credits]
             else: out += ["", "Photos: CC0 / public domain, credits at https://github.com/vk1311/snortlo/blob/main/podcasts/CREDITS.md"]
-        out += ["", f"{B['show']} is made with AI voices. {B['cta']}."]
+        out += ["", f"{B['show']} uses AI voices; the guest is a fictional character. {B['cta']}."]
         return "\n".join(out) + "\n"
     for level in (0, 1, 2):
         txt = build(level)
@@ -433,7 +564,7 @@ def make_description(ep, B, chap, credits):
     return "\n".join(head + keep + [more] + tail)
 
 # ====================================================================== main
-def build(script_path, out_mp4, res=(1920, 1080), test=None):
+def build(script_path, out_mp4, res=(1280, 720), test=None):
     ep = json.load(open(script_path))
     B = BRANDS[ep["brand"]]
     guest = ep["guest"]
@@ -475,6 +606,11 @@ def build(script_path, out_mp4, res=(1920, 1080), test=None):
         e["start"], e["end"] = t, t + n / SR; t = e["end"]; prev = e
     speech_end = t
     total = speech_end + 0.9 + OUTRO_LEN
+    shown = {}                                  # card id -> first time on screen; hide cards after CARD_MAX
+    for e in events:
+        if e["card"] is not None:
+            first = shown.setdefault(id(e["card"]), e["start"])
+            if e["start"] - first > CARD_MAX: e["card"] = None
     N = int(math.ceil(total * SR))
     trk = {"host": np.zeros(N, np.float32), "guest": np.zeros(N, np.float32)}
     music = np.zeros(N, np.float32)
@@ -495,25 +631,35 @@ def build(script_path, out_mp4, res=(1920, 1080), test=None):
     sf.write(os.path.join(work, "mix.wav"), mix * .95, SR)
     log(f"audio {total / 60:.1f} min")
 
-    # ---- b-roll
-    broll_imgs, used = {}, set()
+    # ---- photos: several CC0 / public-domain pictures per chapter from its "visuals" searches
     assets = os.path.join(os.path.dirname(os.path.abspath(script_path)), "assets")
+    pools, used = {}, set()
     for si, seg in enumerate(ep["segments"]):
-        q = seg.get("broll")
-        if q:
-            pth, cr = broll.fetch(q, assets, avoid=used)
-            if pth: broll_imgs[si] = (pth, cr); used.add(cr["source"])
-    log(f"b-roll: {len(broll_imgs)} photos")
+        if test and si > max(e["seg"] for e in events): break
+        qs = seg.get("visuals") or ([seg["broll"]] if seg.get("broll") else [])
+        pool = []
+        for q in qs:
+            for pth, cr in broll.fetch_many(q, assets, n=int(os.environ.get("PHOTOS_PER_SEARCH", "3")), avoid=used):
+                if cr["source"] not in used: pool.append((pth, cr)); used.add(cr["source"])
+        pools[si] = pool
+    fallback = [x for v in pools.values() for x in v][:6]
+    if not fallback:
+        for q in B.get("fallback_visuals", []):
+            fallback += broll.fetch_many(q, assets, n=3)
+    log(f"photos: {sum(len(v) for v in pools.values())} across {len(pools)} chapters")
+
+    ow, oh = res
+    shots = plan_shots(events, seg_starts, total, pools, fallback)
+    log(f"shots: {len(shots)} (avg {total / len(shots):.1f}s)")
 
     # ---- overlays
-    ow, oh = res
-    P = Painter(B, ep, guest, broll_imgs, ow, oh)
+    P = Painter(B, ep, guest, {}, ow, oh)
     ovd = os.path.join(work, "ov")
     for f in os.listdir(ovd): os.remove(os.path.join(ovd, f))
     seq = []
     P.title_frame(os.path.join(ovd, "title.png")); seq.append(("title.png", events[0]["start"]))
     for i, e in enumerate(events):
-        name = f"s{i:04d}.png"; P.sentence_frame(e, os.path.join(ovd, name))
+        name = f"s{i:04d}.png"; P.visual_frame(e, os.path.join(ovd, name))
         nxt = events[i + 1]["start"] if i + 1 < len(events) else speech_end + 0.6
         if i + 1 < len(events) and events[i + 1]["seg"] != e["seg"]:
             nxt = seg_starts[events[i + 1]["seg"]]            # the next chapter's frame comes up with its chime
@@ -526,53 +672,58 @@ def build(script_path, out_mp4, res=(1920, 1080), test=None):
         f.write(f"file '{os.path.join(ovd, seq[-1][0])}'\n")
     log(f"overlays: {len(seq)} frames")
 
-    # ---- background + composite
-    bg = background_loop(B, ow, oh, os.path.join(CACHE, f"bg-{ep['brand']}-{ow}x{oh}.mp4"))
-    s = ow / DW
-    ww, wh = int(400 * s) // 2 * 2, int(56 * s) // 2 * 2
-    wx = int(290 * s); hy, gy = int((360 + 44) * s), int((640 + 44) * s)
+    # ---- composite: moving photos (piped) + overlays + live waveform, one ffmpeg pass, sized to stay under 95 MB
+    speech = trk["host"] + trk["guest"]
+    sf.write(os.path.join(work, "speech.wav"), speech, SR)
+    blank = gradient_img(B, ow, oh, os.path.join(CACHE, f"grad-{ep['brand']}-{ow}x{oh}.png"))
+    sc = ow / DW
+    ww, wh = int(200 * sc) // 2 * 2, int(44 * sc) // 2 * 2
+    wx, wy = int(64 * sc), int(832 * sc)
     col = B["accent"].lstrip("#")
-    fc = (f"[0:v]trim=duration={total:.3f},setpts=PTS-STARTPTS[bg];"
-          f"[1:v]fps={FPS},format=rgba[ov];"
-          f"[2:a]showwaves=s={ww}x{wh}:mode=cline:rate={FPS}:colors=0x{col}:scale=sqrt:draw=full,format=rgba[hw];"
-          f"[3:a]showwaves=s={ww}x{wh}:mode=cline:rate={FPS}:colors=0x{col}:scale=sqrt:draw=full,format=rgba[gw];"
-          f"[bg][ov]overlay=0:0:shortest=1[a];[a][hw]overlay={wx}:{hy}[b];[b][gw]overlay={wx}:{gy},format=yuv420p[v];"
-          f"[4:a]loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000[au]")
-    log("encoding...")
+    kbps = int(min(1800, 88 * 8 * 1024 / total - 110))          # video bitrate cap so the file fits Postiz / GitHub
+    fc = (f"[1:v]fps={FPS},format=rgba[ov];"
+          f"[2:a]showwaves=s={ww}x{wh}:mode=cline:rate={FPS}:colors=0x{col}:scale=sqrt:draw=full,format=rgba[w];"
+          f"[0:v][ov]overlay=0:0:shortest=1[a];[a][w]overlay={wx}:{wy},format=yuv420p[v];"
+          f"[3:a]loudnorm=I=-16:TP=-1.5:LRA=11,aresample=48000[au]")
+    log(f"encoding at {ow}x{oh}, video cap {kbps} kbps ...")
     t0 = time.time()
-    ff("-stream_loop", "-1", "-i", bg, "-f", "concat", "-safe", "0", "-i", os.path.join(work, "ov.txt"),
-       "-i", os.path.join(work, "host.wav"), "-i", os.path.join(work, "guest.wav"), "-i", os.path.join(work, "mix.wav"),
-       "-filter_complex", fc, "-map", "[v]", "-map", "[au]", "-t", f"{total:.3f}",
-       "-c:v", "libx264", "-preset", "veryfast", "-crf", os.environ.get("CRF", "30"), "-tune", "stillimage",
-       "-r", str(FPS), "-g", str(FPS * 10), "-c:a", "aac", "-b:a", "96k", "-ac", "1",
-       "-movflags", "+faststart", out_mp4)
+    proc = subprocess.Popen(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+        "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{ow}x{oh}", "-r", str(FPS), "-i", "-",
+        "-f", "concat", "-safe", "0", "-i", os.path.join(work, "ov.txt"),
+        "-i", os.path.join(work, "speech.wav"), "-i", os.path.join(work, "mix.wav"),
+        "-filter_complex", fc, "-map", "[v]", "-map", "[au]", "-t", f"{total:.3f}",
+        "-c:v", "libx264", "-preset", "veryfast", "-crf", os.environ.get("CRF", "26"),
+        "-maxrate", f"{kbps}k", "-bufsize", f"{kbps * 2}k", "-r", str(FPS), "-g", str(FPS * 6),
+        "-c:a", "aac", "-b:a", "96k", "-ac", "1", "-movflags", "+faststart", out_mp4], stdin=subprocess.PIPE)
+    for fr in base_frames(shots, ow, oh, 0.0, total, blank):
+        proc.stdin.write(fr)
+    proc.stdin.close()
+    if proc.wait(): raise RuntimeError("ffmpeg failed")
     log(f"encoded in {time.time() - t0:.0f}s -> {out_mp4} ({os.path.getsize(out_mp4) / 1048576:.1f} MB)")
-    if os.path.getsize(out_mp4) > 95_000_000:      # Postiz pulls from raw.githubusercontent.com: files must stay under 100 MB
-        log("over 95 MB, re-encoding at 1280x720")
-        tmp = out_mp4 + ".720.mp4"
-        ff("-i", out_mp4, "-vf", "scale=1280:720", "-c:v", "libx264", "-preset", "veryfast", "-crf", "28",
-           "-tune", "stillimage", "-g", str(FPS * 10), "-c:a", "copy", "-movflags", "+faststart", tmp)
-        os.replace(tmp, out_mp4)
-        log(f"now {os.path.getsize(out_mp4) / 1048576:.1f} MB")
 
     # ---- thumbnail, chapters, description, timeline
-    frame = os.path.join(work, "bgframe.png")
-    ff("-i", bg, "-frames:v", "1", frame)
-    P.thumbnail(Image.open(frame), stem + "-thumb.png")
+    main = next((sh["img"] for sh in shots if sh["img"] and sh["seg"] >= min(2, len(ep["segments"]) - 1)), None) or blank
+    th = ImageEnhance.Brightness(kb_frame(prep_img(main, DW, DH), DW, DH, 0, 0)).enhance(.62)
+    P.thumbnail(th, stem + "-thumb.png")
     chap = [f"{fmt_ts(0)} {ep['segments'][0]['heading']}"]
     for si in sorted(seg_starts):
         if si: chap.append(f"{fmt_ts(seg_starts[si])} {ep['segments'][si]['heading']}")
     open(stem + ".chapters.txt", "w").write("\n".join(chap) + "\n")
-    open(stem + ".description.txt", "w").write(make_description(ep, B, chap, [c for _, c in broll_imgs.values()]))
-    json.dump({"slug": ep["slug"], "brand": ep["brand"], "duration": total,
-               "events": [{k: e[k] for k in ("seg", "line", "who", "text", "card", "start", "end")} for e in events]},
+    credits, seen = [], set()
+    for sh in shots:
+        if sh["credit"] and sh["credit"]["source"] not in seen: seen.add(sh["credit"]["source"]); credits.append(sh["credit"])
+    open(stem + ".description.txt", "w").write(make_description(ep, B, chap, credits))
+    json.dump({"slug": ep["slug"], "brand": ep["brand"], "duration": total, "res": [ow, oh],
+               "shots": [{k: sh[k] for k in ("start", "end", "img", "credit", "motion", "seg")} for sh in shots],
+               "events": [{k: e.get(k) for k in ("seg", "line", "who", "text", "card", "start", "end", "shot", "credit")}
+                          for e in events]},
               open(stem + ".timeline.json", "w"), indent=0)
     log("done")
 
 
 if __name__ == "__main__":
     args = sys.argv[1:]
-    res, test = (1920, 1080), None
+    res, test = (1280, 720), None
     if "--res" in args: i = args.index("--res"); res = tuple(map(int, args[i + 1].split("x"))); del args[i:i + 2]
     if "--test" in args: i = args.index("--test"); test = int(args[i + 1]); del args[i:i + 2]
     build(args[0], args[1], res, test)

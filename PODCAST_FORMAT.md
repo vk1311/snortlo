@@ -7,7 +7,9 @@ The month's approved topics are in `podcasts/TOPICS.md`. Only write episodes for
 **Not Snortlo.** No stories, no memes, no stick figures, no meme sounds, no "Lo". These are calm, useful,
 search-friendly conversations.
 
-Voices: the `voice` names below are the house voices in engine/voices/ (Qwen3-TTS on Kaggle, made Oct 27, 2026; they keep the old Kokoro names). Every line is spoken at 1.10x. See engine/voice_backend.py.
+Voices: the `voice` names below are the house voices in engine/voices/ (Qwen3-TTS on Kaggle, made Oct 27, 2026; they keep the old Kokoro names). Every line is spoken at 1.10x. See engine/voice_backend.py. Brand names are respelled for the voice automatically (Airbnb -> "Air bee en bee", Vrbo -> "Verbo"; list in voice_backend.SAY): write them normally in the script.
+
+**Look (owner's call, Oct 27, 2026): visuals first, not a "podcast studio".** The screen is full of moving CC0 / public-domain photos that change every ~7 seconds, with big captions, info cards and a small speaker name. Every segment needs a `visuals` list (below). The owner doesn't like plain podcast visuals.
 
 ## The shows
 
@@ -22,8 +24,8 @@ Voices: the `voice` names below are the house voices in engine/voices/ (Qwen3-TT
 
 ## Honesty rules (both shows)
 
-- Hosts and guests are AI voices. The host says so in the intro, in one plain line, and the description says it too.
-- The guest is an **openly fictional AI character** with a clear role, for example "an AI character we built to play a B&B owner with twenty years behind the desk". Never present the guest as a real person or a real expert. Never invent a credential, an employer, a book or a quote for them.
+- AI disclosure (owner's call, Oct 27, 2026): **keep it small.** A small "AI voices" note sits in the corner of the screen (automatic), and the YouTube description says it (automatic). Don't say "AI host" or "AI character" in the dialogue or put it in roles.
+- The guest is a **fictional character**: introduce them as "Rowan plays a B and B owner with twenty years behind the desk. Not a real person, and not a lawyer." Never present the guest as a real person or a real expert. Never invent a credential, an employer, a book or a quote for them.
 - Every number, law, date, study or historical claim must come from a source listed in `sources`, with a URL. If you can't source it, cut it.
 - Never quote real people at length. Paraphrase. One short quote under 15 words is the maximum per source.
 - Reddit threads: retell in your own words, never quote, never give usernames or subreddit post titles. Say "a host on Reddit described…".
@@ -34,10 +36,12 @@ Voices: the `voice` names below are the house voices in engine/voices/ (Qwen3-TT
 - Keegix: never call Keegix an "Airbnb alternative". It sits beside the booking platforms.
 - Keep it respectful: humour about situations, never about guests, hosts, employees or groups of people.
 
-## Episode shape (20 to 26 minutes, 3,300 to 3,900 spoken words)
+## Episode shape (20 to 26 minutes, 3,700 to 4,300 spoken words)
+
+The Qwen3 house voices at 1.10x speak about 3 words a second including pauses, so 3,700 words is about 20.5 minutes. Under 3,700 words the episode comes out under 20 minutes (Keegix ep 1 at 3,346 words was 18.4 min).
 
 1. **Cold open** (30 to 45 s): the most surprising fact or situation from the episode. No hello yet.
-2. **Intro** (about 1 min): show name, "I'm June, your AI host", what the episode covers, introduce the guest as an AI character.
+2. **Intro** (about 1 min): show name, "I'm June", what the episode covers, introduce the guest as a character ("Rowan plays…", "not a real person").
 2b. **In the news** (60 to 90 s, optional): real news from the last 14 days, sourced, "as of <date>". See CONCEPTS.md for where to look. Skip it if there's nothing real.
 3. **4 or 5 main segments** (3 to 5 min each). Each has a clear heading that reads like a search query or chapter title.
 4. **Mid-episode brand mention** (2 or 3 sentences, natural, after segment 2 or 3).
@@ -69,11 +73,11 @@ One file per episode: `podcasts/<brand>/<slug>.json`, slug like `keegix-ep01-str
   "air_date": "2026-11-03",
   "title": "Short-Term Rental Rules in 2026: What's Changing and How It's Enforced | Keegix Podcast",
   "card_title": "Short-term rental rules in 2026",
-  "guest": {"name": "Rowan", "role": "AI character · B&B owner, 20 years", "voice": "bm_george"},
+  "guest": {"name": "Rowan", "role": "B&B owner, 20 years", "voice": "bm_george"},
   "description": "3 to 6 short lines. Line 1 says what the episode covers. Include: 'Hosts and guests on this show are AI voices. Facts are sourced below.' Rules episodes include 'Not legal advice.' Sources and chapters are appended automatically.",
   "tags": ["short term rental rules", "airbnb rules 2026"],
   "segments": [
-    {"heading": "Cold open", "broll": null, "lines": [
+    {"heading": "Cold open", "visuals": ["unmade bed", "laundry basket", "dishes sink"], "lines": [
       {"who": "host", "text": "Spoken words."},
       {"who": "guest", "text": "Spoken words.", "card": {"type": "stat", "big": "180 nights", "label": "Toronto's yearly cap for renting out a whole home", "source": "City of Toronto"}}
     ]}
@@ -87,7 +91,7 @@ One file per episode: `podcasts/<brand>/<slug>.json`, slug like `keegix-ep01-str
 
 - `guest.voice`: pick one not used in the last 3 episodes of that show. Good choices: `bm_george`, `bf_emma`, `am_adam`, `af_nicole`, `bm_lewis`, `af_sarah`, `am_eric`, `bf_isabella`, `af_kore`, `bm_daniel`. Never the host's voice.
 - `segments[].heading`: shown on screen and used as the YouTube chapter title.
-- `segments[].broll`: optional 1 to 3 word search for a CC0 / public-domain photo (Openverse, Wikimedia Commons, NASA), e.g. "cottage porch", "office desk", "factory 1920s". Use plain nouns. Leave null when nothing fits. Never search for people by name.
+- `segments[].visuals`: **required**, 4 to 8 photo searches per segment (1 to 3 plain words each) that match what's being said, in order: places, objects, scenes, e.g. "Halifax waterfront", "smoke alarm", "typewriter", "warehouse shelves". Each search brings up to 3 CC0 / public-domain photos (Openverse, Wikimedia Commons, NASA), so 6 searches fill a 4-minute segment without repeats. No people searches, no brand logos, never a person's name. (`broll`, a single search, still works as a fallback.)
 - `lines[].card`: optional on-screen card that stays up until the next card or the end of the segment. `"card": "clear"` removes it. Types:
   - `{"type": "stat", "big": "40%", "label": "short explanation", "source": "short source name"}`
   - `{"type": "list", "title": "...", "items": ["max 4 items, max 6 words each"], "source": "optional"}`
@@ -101,7 +105,7 @@ One file per episode: `podcasts/<brand>/<slug>.json`, slug like `keegix-ep01-str
 ## Before finishing
 
 - `python3 -c "import json;json.load(open('podcasts/<brand>/<slug>.json'))"` loads.
-- Count spoken words (target 3,300 to 3,900).
+- Count spoken words (target 3,700 to 4,300).
 - Scan spoken text for digits, %, $, dashes, ellipses, parentheses, all-caps words.
 - Every card and every factual line traces to an entry in `sources`.
 

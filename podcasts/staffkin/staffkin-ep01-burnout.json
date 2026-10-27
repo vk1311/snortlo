@@ -1,1025 +1,1085 @@
 {
-  "brand": "staffkin",
-  "episode": 1,
-  "slug": "staffkin-ep01-burnout",
-  "air_date": "2026-11-05",
-  "title": "Burnout at Work: The Signs, and What a Manager Actually Does | Staffkin Podcast",
-  "card_title": "Burnout at work: the signs, and what a manager does",
-  "thumb_title": "Burnout at work",
-  "guest": {
-    "name": "Dana",
-    "role": "AI character · operations manager, 15 years",
-    "voice": "bf_emma"
+ "brand": "staffkin",
+ "episode": 1,
+ "slug": "staffkin-ep01-burnout",
+ "air_date": "2026-11-05",
+ "title": "Burnout at Work: The Signs, and What a Manager Actually Does | Staffkin Podcast",
+ "card_title": "Burnout at work: the signs, and what a manager does",
+ "thumb_title": "Burnout at work",
+ "guest": {
+  "name": "Dana",
+  "role": "Operations manager, 15 years",
+  "voice": "bf_emma"
+ },
+ "description": "Burnout at work: the three signs, where the word came from (Freudenberger in the 1970s, Maslach's research, the WHO's 2019 ICD-11 listing), and what a small-business owner or manager can actually do about it.\nThree real-world situations: the reliable shift lead who starts slipping, the hero who never takes vacation, and the owner who burns out.\nThe six areas of worklife, how to have the conversation, what not to say, Nova Scotia vacation and sick leave rules, and when to point someone to an EAP or professional help.\nHosts and guests on this show are AI voices. Facts are sourced below. Not medical advice. Not legal advice.\nIf you or someone you know is in crisis in Canada, call or text 9-8-8. In Nova Scotia, the Provincial Mental Health and Addictions Crisis Line is 1-888-429-8167 (24/7). If safety is at risk, call 9-1-1.",
+ "tags": [
+  "burnout at work",
+  "employee burnout",
+  "signs of burnout",
+  "how to manage burnout",
+  "burnout vs stress",
+  "workplace mental health",
+  "small business management",
+  "manager tips",
+  "nova scotia labour standards",
+  "employee assistance program",
+  "maslach burnout",
+  "workplace psychology"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "broll": null,
+   "lines": [
+    {
+     "who": "host",
+     "text": "In nineteen seventy one, a psychologist in New York finished a year of sixteen hour days and found he couldn't get out of bed.",
+     "card": {
+      "type": "history",
+      "year": "1971",
+      "text": "A New York psychologist, after a year of 16-hour days, can't get out of bed"
+     }
+    },
+    {
+     "who": "host",
+     "text": "He'd been running a private practice all day and volunteering at a free clinic in the evenings. The word he later used for what happened to him was burnout."
+    },
+    {
+     "who": "guest",
+     "text": "And here's the part that surprises people. Nearly fifty years later, the World Health Organization decided burnout is not a medical condition. It's something that comes from work. Which means a lot of it sits on the manager's side of the desk.",
+     "card": {
+      "type": "point",
+      "text": "WHO: burnout is an occupational phenomenon, not a medical condition"
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's today's episode."
+    }
+   ],
+   "visuals": [
+    "empty office",
+    "alarm clock",
+    "coffee cup desk",
+    "rain window"
+   ]
   },
-  "description": "Burnout at work: the three signs, where the word came from (Freudenberger in the 1970s, Maslach's research, the WHO's 2019 ICD-11 listing), and what a small-business owner or manager can actually do about it.\nThree real-world situations: the reliable shift lead who starts slipping, the hero who never takes vacation, and the owner who burns out.\nThe six areas of worklife, how to have the conversation, what not to say, Nova Scotia vacation and sick leave rules, and when to point someone to an EAP or professional help.\nHosts and guests on this show are AI voices. Facts are sourced below. Not medical advice. Not legal advice.\nIf you or someone you know is in crisis in Canada, call or text 9-8-8. In Nova Scotia, the Provincial Mental Health and Addictions Crisis Line is 1-888-429-8167 (24/7). If safety is at risk, call 9-1-1.",
-  "tags": [
-    "burnout at work",
-    "employee burnout",
-    "signs of burnout",
-    "how to manage burnout",
-    "burnout vs stress",
-    "workplace mental health",
-    "small business management",
-    "manager tips",
-    "nova scotia labour standards",
-    "employee assistance program",
-    "maslach burnout",
-    "workplace psychology"
-  ],
-  "segments": [
+  {
+   "heading": "Intro",
+   "broll": null,
+   "lines": [
     {
-      "heading": "Cold open",
-      "broll": null,
-      "lines": [
-        {
-          "who": "host",
-          "text": "In nineteen seventy one, a psychologist in New York finished a year of sixteen hour days and found he couldn't get out of bed.",
-          "card": {
-            "type": "history",
-            "year": "1971",
-            "text": "A New York psychologist, after a year of 16-hour days, can't get out of bed"
-          }
-        },
-        {
-          "who": "host",
-          "text": "He'd been running a private practice all day and volunteering at a free clinic in the evenings. The word he later used for what happened to him was burnout."
-        },
-        {
-          "who": "guest",
-          "text": "And here's the part that surprises people. Nearly fifty years later, the World Health Organization decided burnout is not a medical condition. It's something that comes from work. Which means a lot of it sits on the manager's side of the desk.",
-          "card": {
-            "type": "point",
-            "text": "WHO: burnout is an occupational phenomenon, not a medical condition"
-          }
-        },
-        {
-          "who": "host",
-          "text": "That's today's episode."
-        }
-      ]
+     "who": "host",
+     "text": "Welcome to the Staffkin Podcast, the show about workplace psychology for people who manage people. I'm Sam. Every fact we use is sourced in the description."
     },
     {
-      "heading": "Intro",
-      "broll": null,
-      "lines": [
-        {
-          "who": "host",
-          "text": "Welcome to the Staffkin Podcast, the show about workplace psychology for people who manage people. I'm Sam, your A I host. Everyone you hear on this show is an A I voice, and every fact we use is sourced in the description."
-        },
-        {
-          "who": "host",
-          "text": "Today is burnout. What it actually is, where the word came from, how it's different from ordinary stress, and what a small business owner or manager can actually do about it on a Tuesday afternoon when the schedule is already short.",
-          "card": {
-            "type": "list",
-            "title": "Today",
-            "items": [
-              "What burnout actually is",
-              "Where the word came from",
-              "Three real workplace situations",
-              "What a manager can do"
-            ]
-          }
-        },
-        {
-          "who": "host",
-          "text": "My guest is Dana. Dana is an A I character we built to play an operations manager with fifteen years of running shifts, schedules and teams. Dana isn't a real person, and the workplace stories in this episode are made up examples, not real people. Welcome, Dana."
-        },
-        {
-          "who": "guest",
-          "text": "Thanks, Sam. And just to be clear up front, nothing in this episode is medical advice. I can't diagnose anyone, and neither can you as a manager. What we can do is notice, ask, and fix the parts of the job that are ours to fix.",
-          "card": {
-            "type": "point",
-            "text": "Not medical advice. Notice, ask, and fix the parts of the job you own."
-          }
-        },
-        {
-          "who": "host",
-          "text": "That's a good line to start with. Let's get into it."
-        }
+     "who": "host",
+     "text": "Today is burnout. What it actually is, where the word came from, how it's different from ordinary stress, and what a small business owner or manager can actually do about it on a Tuesday afternoon when the schedule is already short.",
+     "card": {
+      "type": "list",
+      "title": "Today",
+      "items": [
+       "What burnout actually is",
+       "Where the word came from",
+       "Three real workplace situations",
+       "What a manager can do"
       ]
+     }
     },
     {
-      "heading": "What is burnout? The three signs, and how it differs from stress",
-      "broll": "empty office",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Let's start with a definition, because people use the word for everything. A rough week, a long winter, a bad Monday."
-        },
-        {
-          "who": "guest",
-          "text": "Right. The cleanest definition we have comes from the World Health Organization. In twenty nineteen, in the eleventh edition of its International Classification of Diseases, it described burnout as a syndrome \"resulting from chronic workplace stress that has not been successfully managed.\"",
-          "card": {
-            "type": "point",
-            "text": "Burnout: chronic workplace stress that hasn't been successfully managed (WHO)"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Chronic, and not successfully managed. So it's not one bad week."
-        },
-        {
-          "who": "guest",
-          "text": "No. It's stress that has gone on for a long time without anything changing. And the W H O lists three dimensions. First, feeling drained or exhausted. Second, more mental distance from your job, or feeling negative and cynical about it. Third, reduced professional efficacy, which is a formal way of saying you don't feel effective anymore.",
-          "card": {
-            "type": "list",
-            "title": "The three dimensions",
-            "items": [
-              "Exhaustion",
-              "Mental distance or cynicism",
-              "Reduced professional efficacy"
-            ],
-            "source": "WHO, ICD-11"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Give me what those look like on a real shift."
-        },
-        {
-          "who": "guest",
-          "text": "Exhaustion is the person who looks like they've worked a full day when they clock in. Cynicism sounds like, what's the point, nobody here cares anyway. And reduced efficacy is your strongest person suddenly saying they're just not good at this job anymore."
-        },
-        {
-          "who": "host",
-          "text": "That third one is sneaky, because it can look like a performance problem."
-        },
-        {
-          "who": "guest",
-          "text": "It often gets treated like one. The Canadian Psychological Association has a fact sheet on workplace burnout. The behaviours it lists include putting things off, pulling away from coworkers, more absences, and the opposite too, coming in to work while unwell. The emotional signs include irritability, anxiety, and losing interest in work. And there are physical ones, like ongoing fatigue, headaches and trouble sleeping.",
-          "card": {
-            "type": "list",
-            "title": "Signs at work",
-            "items": [
-              "Irritability and lost interest",
-              "Pulling away from the team",
-              "More absences",
-              "Working while unwell"
-            ],
-            "source": "Canadian Psychological Association"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Now, the W H O also said something specific about what burnout is not."
-        },
-        {
-          "who": "guest",
-          "text": "Two things. It's classified as an occupational phenomenon, and it's not classified as a medical condition. It sits in a chapter for factors that influence health or bring people into contact with health services. And the W H O says the term should only be used about work, not about other areas of life.",
-          "card": {
-            "type": "point",
-            "text": "WHO: an occupational phenomenon, used only for work, not a medical condition"
-          }
-        },
-        {
-          "who": "host",
-          "text": "So if someone says they're burned out on parenting, that's a real feeling, but it's not what this definition covers."
-        },
-        {
-          "who": "guest",
-          "text": "Exactly. This definition is about the job."
-        },
-        {
-          "who": "host",
-          "text": "Let's do stress versus burnout, because those get mixed up constantly."
-        },
-        {
-          "who": "guest",
-          "text": "The Canadian Psychological Association frames it simply. Stress happens when the demands of a job are bigger than the resources you have to meet them. Burnout can develop when that stress becomes chronic and isn't managed. And burnout is tied to work, while depression and anxiety aren't limited to the job. A simple way to hold it in your head. Stress often feels like too much. Burnout can feel more like nothing left in the tank.",
-          "card": {
-            "type": "compare",
-            "left_title": "Stress",
-            "left": "Job demands outweigh the resources to meet them",
-            "right_title": "Burnout",
-            "right": "That stress becomes chronic and isn't managed"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And depression?"
-        },
-        {
-          "who": "guest",
-          "text": "This is where I want to be really careful. The Mayo Clinic notes that burnout isn't a medical diagnosis, that its symptoms can overlap with depression, and that the two are different and need different treatment. Some researchers go further. A twenty twenty four paper called Burnout, Fifty Years Later, argued that burnout can be hard to tell apart from depression, and warned that the burnout label could mean someone's depression goes untreated."
-        },
-        {
-          "who": "host",
-          "text": "So what does that mean for a manager?"
-        },
-        {
-          "who": "guest",
-          "text": "It means you don't decide which one it is. You're not qualified to, and neither am I. Your job is to notice the change, have a decent conversation, fix what's in your control at work, and point the person toward someone who is qualified. We'll get to that conversation later.",
-          "card": {
-            "type": "point",
-            "text": "Managers don't diagnose. Notice, talk, fix the job, point to help."
-          }
-        },
-        {
-          "who": "host",
-          "text": "And how common is this kind of stress in Canada?"
-        },
-        {
-          "who": "guest",
-          "text": "Statistics Canada asked workers in April twenty twenty three. Twenty one point two percent of employed people said their work related stress was high or very high. That's just over four million people. The most common source was a heavy workload, which affected twenty three point seven percent of employed people. Balancing work and personal life was next.",
-          "card": {
-            "type": "stat",
-            "big": "21.2%",
-            "label": "of employed Canadians reported high or very high work-related stress (April 2023)",
-            "source": "Statistics Canada"
-          }
-        },
-        {
-          "who": "host",
-          "text": "So roughly one in five. On a team of ten, that's about two people."
-        },
-        {
-          "who": "guest",
-          "text": "On average, yes. It won't be spread evenly across every team, but it's a useful way to picture it. And remember, high stress isn't the same thing as burnout. It's the soil burnout can grow in."
-        }
-      ]
+     "who": "host",
+     "text": "My guest is Dana. Dana plays an operations manager with fifteen years of running shifts, schedules and teams. Dana isn't a real person, and the workplace stories in this episode are made up examples, not real people. Welcome, Dana."
     },
     {
-      "heading": "Where the word burnout came from: a free clinic, a researcher, and the WHO",
-      "broll": "typewriter",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Let's go back to that man from the cold open. Who was he?"
-        },
-        {
-          "who": "guest",
-          "text": "His name was Herbert Freudenberger. He was a psychologist, born in Germany in nineteen twenty six, who worked in New York. In the early nineteen seventies, he volunteered as a counsellor at the Saint Mark's Free Clinic in the East Village. He'd work full days at his private practice and then show up at the clinic in the evening."
-        },
-        {
-          "who": "host",
-          "text": "And who did the clinic serve?"
-        },
-        {
-          "who": "guest",
-          "text": "Mostly young people from the neighbourhood, and many of them used drugs. According to one history of the term, burnout was actually slang among the clinic's patients for the effects of long term drug use. Freudenberger himself pointed instead to the burned out buildings around the clinic as the image he had in mind."
-        },
-        {
-          "who": "host",
-          "text": "So the word was already in the air."
-        },
-        {
-          "who": "guest",
-          "text": "It was. And in nineteen seventy one, after about a year of sixteen hour days, he couldn't get out of bed. He used the word for his own exhaustion, and he saw the same thing in the volunteers around him.",
-          "card": {
-            "type": "history",
-            "year": "1971",
-            "text": "After a year of 16-hour days, Freudenberger names his own exhaustion burnout"
-          }
-        },
-        {
-          "who": "host",
-          "text": "When did it get into the research?"
-        },
-        {
-          "who": "guest",
-          "text": "In nineteen seventy four, he published a paper called Staff Burn Out, in the Journal of Social Issues. It was based on what he saw in volunteer staff at the free clinic, himself included. Among the signs he described were exhaustion, headaches, trouble sleeping, and being quick to anger.",
-          "card": {
-            "type": "history",
-            "year": "1974",
-            "text": "Freudenberger publishes “Staff Burn-Out” in the Journal of Social Issues"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Then Christina Maslach comes in."
-        },
-        {
-          "who": "guest",
-          "text": "Right. Maslach is a Berkeley psychologist. In the nineteen seventies, she was interviewing people in emotionally demanding jobs. Nurses, police officers, prison guards, first responders. In confidential interviews, people described things like starting to treat the people they served as objects, and cutting corners."
-        },
-        {
-          "who": "host",
-          "text": "That's dark."
-        },
-        {
-          "who": "guest",
-          "text": "It is, but it's honest. Out of that work she described three pieces. Exhaustion. Depersonalization, which is that cold distance from the people you serve. And a reduced sense of personal accomplishment. If that sounds familiar, it's because they map closely onto the three dimensions we talked about earlier."
-        },
-        {
-          "who": "host",
-          "text": "And she built a way to measure it."
-        },
-        {
-          "who": "guest",
-          "text": "In nineteen eighty one, she and Susan Jackson published the Maslach Burnout Inventory. It became the most widely used way to measure burnout in research.",
-          "card": {
-            "type": "history",
-            "year": "1981",
-            "text": "Maslach and Jackson publish the Maslach Burnout Inventory"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And then the W H O steps in."
-        },
-        {
-          "who": "guest",
-          "text": "In May twenty nineteen, the W H O announced that burnout was included in the eleventh revision of its classification, as an occupational phenomenon. And the three dimensions it uses line up closely with that older research. Exhaustion, mental distance or cynicism, and reduced efficacy.",
-          "card": {
-            "type": "history",
-            "year": "2019",
-            "text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Is the science settled now?"
-        },
-        {
-          "who": "guest",
-          "text": "Not completely, and I think listeners deserve to hear that. That twenty twenty four paper argued the three dimensions don't fit together as neatly as people assume, and that burnout is hard to separate from depression. So researchers are still arguing about the edges. But chronic, unmanaged stress at work is clearly bad news, and a manager can change a lot about the work."
-        },
-        {
-          "who": "host",
-          "text": "And there's a Nova Scotia thread in this story, isn't there?"
-        },
-        {
-          "who": "guest",
-          "text": "There is. One of Maslach's frequent co authors is a psychologist named Michael Leiter. On a twenty sixteen paper they wrote together, he was listed at Acadia University, in Wolfville. So one of the people behind the framework we're about to use was working right here in the Annapolis Valley.",
-          "card": {
-            "type": "point",
-            "text": "Maslach's co-author Michael Leiter: listed at Acadia University, Wolfville, in 2016"
-          }
-        }
-      ]
+     "who": "guest",
+     "text": "Thanks, Sam. And just to be clear up front, nothing in this episode is medical advice. I can't diagnose anyone, and neither can you as a manager. What we can do is notice, ask, and fix the parts of the job that are ours to fix.",
+     "card": {
+      "type": "point",
+      "text": "Not medical advice. Notice, ask, and fix the parts of the job you own."
+     }
     },
     {
-      "heading": "Three burnout situations every small employer will recognize",
-      "broll": "coffee cup",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Let's make this real. Dana, give me the first one."
-        },
-        {
-          "who": "guest",
-          "text": "Say your most reliable person is a shift lead at a busy cafe. Let's call her Priya. Five years, never late, the one who covers when anyone calls in. Over about two months, she misses three shifts, and last Saturday she snapped at a customer over a cold latte."
-        },
-        {
-          "who": "host",
-          "text": "And the instinct is to write her up."
-        },
-        {
-          "who": "guest",
-          "text": "The instinct is to ask, what happened to Priya? And that's only half the question. The better question is, what happened to Priya's job? Did someone leave and never get replaced? Did she quietly pick up the ordering, the training and the closing? Has she had a full weekend off this year?",
-          "card": {
-            "type": "point",
-            "text": "Ask what happened to the job, not only what happened to the person"
-          }
-        },
-        {
-          "who": "host",
-          "text": "So you look at the workload before you look at the person."
-        },
-        {
-          "who": "guest",
-          "text": "You look at both. But you start with the job, because that's the part you own. And the change in behaviour is the signal. Five good years and two bad months tells you something changed."
-        },
-        {
-          "who": "host",
-          "text": "What do you actually say to her?"
-        },
-        {
-          "who": "guest",
-          "text": "Something like, Priya, I've noticed you've missed a few shifts lately, and Saturday seemed rough. That's not like you. How are things going? And then you stop talking. You're describing what you saw, not guessing what's wrong with her.",
-          "card": {
-            "type": "point",
-            "text": "Describe what you saw. Don't guess what's wrong."
-          }
-        },
-        {
-          "who": "host",
-          "text": "Second situation."
-        },
-        {
-          "who": "guest",
-          "text": "The hero. Every small business has one. Let's call him Marcus, the general manager at a family restaurant. No real vacation in three years. He answers texts at midnight, and the owner loves him for it."
-        },
-        {
-          "who": "host",
-          "text": "That sounds like a dream employee."
-        },
-        {
-          "who": "guest",
-          "text": "That's the trap. The Canadian Psychological Association lists personal factors that can feed burnout, like perfectionism, putting work above everything else, and trouble setting boundaries. The hero often has all three, in a place that rewards all three.",
-          "card": {
-            "type": "list",
-            "title": "Individual risk factors",
-            "items": [
-              "Perfectionism",
-              "Work above everything else",
-              "Trouble setting boundaries"
-            ],
-            "source": "Canadian Psychological Association"
-          }
-        },
-        {
-          "who": "host",
-          "text": "So the business is part of it."
-        },
-        {
-          "who": "guest",
-          "text": "The business built the hero. If everything falls over when Marcus takes a week off, that's not a Marcus problem. That's a design problem. Train someone else on the key parts of his job, then actually send him on vacation. Not one where he checks the group chat every hour. A real one."
-        },
-        {
-          "who": "host",
-          "text": "There's a legal angle to that too, right?"
-        },
-        {
-          "who": "guest",
-          "text": "There is, and we'll get to the Nova Scotia rules in a few minutes."
-        },
-        {
-          "who": "host",
-          "text": "Third one. I suspect this one hits closer to home for a lot of people listening."
-        },
-        {
-          "who": "guest",
-          "text": "The manager who burns out. Picture a woman who owns a small home care company with a dozen staff. She does the scheduling, the payroll and the hiring, covers shifts when people are sick, and handles every complaint. She's the one everyone else leans on, and there's nobody for her to lean on."
-        },
-        {
-          "who": "host",
-          "text": "Owners don't have a boss to notice."
-        },
-        {
-          "who": "guest",
-          "text": "Right. And it doesn't stay with her. Less patience, slower decisions, fewer thank yous. The team feels that, even if nobody says it out loud."
-        },
-        {
-          "who": "host",
-          "text": "So what does she do?"
-        },
-        {
-          "who": "guest",
-          "text": "The same things she'd do for anyone else. Look at the load, take something off the plate, and get support. That might mean hiring help for the paperwork, talking to another owner who runs a similar business, or talking to her own doctor or a counsellor. Owners are allowed to ask for help too."
-        },
-        {
-          "who": "host",
-          "text": "That's a good moment for a quick word about the company that makes this show.",
-          "card": {
-            "type": "point",
-            "text": "Staffkin · Hire people, not paperwork."
-          }
-        },
-        {
-          "who": "host",
-          "text": "Staffkin is a hiring and onboarding kit for small Canadian employers who don't have an H R department. It helps with job descriptions, interview guides, reference checks and onboarding checklists, so when you need to bring someone onto a stretched team, the paperwork side of hiring lives in one place. Hire people, not paperwork."
-        }
-      ]
-    },
-    {
-      "heading": "What a manager actually does: the six areas of worklife",
-      "broll": "office desk",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Okay, Dana. Practical part. What does a manager actually do?"
-        },
-        {
-          "who": "guest",
-          "text": "Maslach and Leiter have a model called the six areas of worklife. It's a list of the parts of a job where a bad fit between the person and the work can feed burnout. Workload, control, reward, community, fairness, and values.",
-          "card": {
-            "type": "list",
-            "title": "Six areas of worklife, part 1",
-            "items": [
-              "Workload",
-              "Control",
-              "Reward"
-            ],
-            "source": "Leiter & Maslach"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Walk me through them. Small business version."
-        },
-        {
-          "who": "guest",
-          "text": "Workload first. This is the obvious one. Too much work, not enough people, not enough time. One thing Maslach has pointed out is that workload mostly drives the exhaustion piece. On its own, it doesn't necessarily lead to cynicism or people feeling bad about themselves."
-        },
-        {
-          "who": "host",
-          "text": "So what do I do about workload in a twelve person shop?"
-        },
-        {
-          "who": "guest",
-          "text": "Start with a list. What does this person actually do in a week? Then ask, what can come off? Maslach makes the point that organizations are good at adding tasks and bad at taking them away. So if you add something, take something away.",
-          "card": {
-            "type": "point",
-            "text": "If you add a task, take one away."
-          }
-        },
-        {
-          "who": "host",
-          "text": "Control."
-        },
-        {
-          "who": "guest",
-          "text": "Control is how much say people have over how and when they work. The Mayo Clinic lists a lack of control over your schedule, assignments or workload as one possible cause of job burnout. Shift workers often have very little control. Small fixes help. Let people swap shifts without a fight. Post the schedule earlier. Ask before you change it."
-        },
-        {
-          "who": "host",
-          "text": "Reward."
-        },
-        {
-          "who": "guest",
-          "text": "Reward isn't only pay, although pay matters. It's recognition. A specific thank you, for something real, said where other people can hear it. The Canadian Psychological Association lists not enough recognition or pay among the work factors behind burnout."
-        },
-        {
-          "who": "host",
-          "text": "Community.",
-          "card": {
-            "type": "list",
-            "title": "Six areas of worklife, part 2",
-            "items": [
-              "Community",
-              "Fairness",
-              "Values"
-            ],
-            "source": "Leiter & Maslach"
-          }
-        },
-        {
-          "who": "guest",
-          "text": "Community is whether people feel supported by the people around them. Conflict that never gets dealt with, or one team member everyone tiptoes around, eats away at it. Deal with the conflict, and make sure nobody is working alone all the time."
-        },
-        {
-          "who": "host",
-          "text": "Fairness."
-        },
-        {
-          "who": "guest",
-          "text": "Fairness is whether decisions feel fair. Who gets the good shifts, who gets stuck with Saturdays, who gets the raise. A simple test is whether you could explain the rule out loud to the whole team."
-        },
-        {
-          "who": "host",
-          "text": "And values."
-        },
-        {
-          "who": "guest",
-          "text": "Values is the gap between what your business says it stands for and what people are actually asked to do. If your care home says residents come first, but staff are rushed so hard they can't sit with anyone for five minutes, that gap wears people down."
-        },
-        {
-          "who": "host",
-          "text": "So the big idea here is that burnout is partly a job design problem."
-        },
-        {
-          "who": "guest",
-          "text": "Yes. Maslach has a nice way of putting it. People say, if you can't take the heat, get out of the kitchen. She asks, why not turn down the heat, or redesign the kitchen? And she's clear that it's both. The person matters, and the workplace matters.",
-          "card": {
-            "type": "point",
-            "text": "Turn down the heat, or redesign the kitchen."
-          }
-        },
-        {
-          "who": "host",
-          "text": "Does the W H O say anything to managers specifically?"
-        },
-        {
-          "who": "guest",
-          "text": "It does. In September twenty twenty two, the W H O released guidelines on mental health at work, and for the first time it recommended training for managers, to help them prevent stressful work environments and respond to workers who are struggling. The same announcement estimated that about twelve billion working days are lost every year worldwide to depression and anxiety.",
-          "card": {
-            "type": "stat",
-            "big": "12 billion",
-            "label": "working days lost each year worldwide to depression and anxiety",
-            "source": "WHO and ILO, 2022"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And in Canada there's a national standard for this."
-        },
-        {
-          "who": "guest",
-          "text": "There is. It's the National Standard of Canada for Psychological Health and Safety in the Workplace, known as C S A Z ten oh three. It was commissioned by the Mental Health Commission of Canada and launched in January twenty thirteen, and the commission calls it the first of its kind in the world. It's voluntary, and it gives a framework for finding and reducing the things at work that can harm people's mental health.",
-          "card": {
-            "type": "rule",
-            "title": "Canada",
-            "text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
-            "source": "MHCC; CSA Group",
-            "as_of": "Oct 2026"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Is it only for big companies?"
-        },
-        {
-          "who": "guest",
-          "text": "No. It's meant for organizations of any size. A twelve person bakery won't run it like a hospital, but the core idea scales down. Find what's hurting people, fix what you can, and keep checking. A new edition is in the works, so look for the current version."
-        },
-        {
-          "who": "host",
-          "text": "Let's talk about time off here in Nova Scotia, since rest is part of this."
-        },
-        {
-          "who": "guest",
-          "text": "Sure. This is as of October twenty twenty six, and rules differ by province, so check the Nova Scotia Labour Standards pages for your own situation. Under the Labour Standards Code, employees get two weeks of vacation after each twelve months of work, and three weeks after eight years with the same employer. Vacation pay is at least four percent of gross wages, and six percent starting in the eighth year.",
-          "card": {
-            "type": "rule",
-            "title": "Nova Scotia vacation",
-            "text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
-            "source": "NS Labour Standards",
-            "as_of": "Oct 2026"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And who decides when it gets taken?"
-        },
-        {
-          "who": "guest",
-          "text": "The employer decides, though many let employees choose. It has to be taken within ten months after the year it was earned, and the employer has to give at least one week's notice. And full time employees have to actually take the time off. They can't just take the pay instead."
-        },
-        {
-          "who": "host",
-          "text": "So the hero who never takes vacation can be a legal issue too."
-        },
-        {
-          "who": "guest",
-          "text": "It can. Two more things. Since July twenty twenty three, Nova Scotia employers can't ask for a sick note unless someone is away more than five working days, or has already had two absences of five working days or fewer in the past twelve months. And since January twenty twenty five, the Code includes five unpaid sick days a year, plus unpaid leave of up to twenty seven weeks for a serious illness or injury, for employees with at least three months of service.",
-          "card": {
-            "type": "rule",
-            "title": "Nova Scotia leave",
-            "text": "Sick notes limited since July 2023. 5 unpaid sick days a year since Jan 2025.",
-            "source": "Government of Nova Scotia",
-            "as_of": "Oct 2026"
-          }
-        },
-        {
-          "who": "host",
-          "text": "That's a lot to keep straight."
-        },
-        {
-          "who": "guest",
-          "text": "It is. Check the official pages, or call Labour Standards if you're not sure. This isn't legal advice."
-        }
-      ]
-    },
-    {
-      "heading": "How to talk to someone who seems burned out, and when to point them to help",
-      "broll": "clock",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Let's go back to Priya. You've noticed. You want to talk. How do you set it up?"
-        },
-        {
-          "who": "guest",
-          "text": "Privately, and not in the middle of a rush. Not right after the incident with the customer either, when everyone's still heated. Ask if she has ten minutes after her shift, somewhere you won't be interrupted."
-        },
-        {
-          "who": "host",
-          "text": "And you open with what you saw."
-        },
-        {
-          "who": "guest",
-          "text": "Yes. Specific, recent, and about behaviour. I've noticed you've missed three shifts this month, and Saturday looked hard. That's not like you, and I wanted to check in. Then ask an open question. How are things going? Is anything at work making this harder?"
-        },
-        {
-          "who": "host",
-          "text": "What should a manager not say?"
-        },
-        {
-          "who": "guest",
-          "text": "A few things. Don't say, you seem depressed, or, I think you're burned out. That's a diagnosis, and you're not the person to make it. Don't say, everyone's tired, we all just have to push through. And don't make promises you can't keep, whether that's about privacy or about changes you can't deliver.",
-          "card": {
-            "type": "list",
-            "title": "Avoid saying",
-            "items": [
-              "“You seem depressed”",
-              "“We all just push through”",
-              "“Just take a few days off”",
-              "Promises you can't keep"
-            ]
-          }
-        },
-        {
-          "who": "host",
-          "text": "What about, just take a few days off?"
-        },
-        {
-          "who": "guest",
-          "text": "Rest helps, and you should offer it. But Maslach's point is that time off and self care on their own don't fix what's causing the problem. The person comes back to the same job. So pair the time off with a change to the job."
-        },
-        {
-          "who": "host",
-          "text": "So what can you offer?"
-        },
-        {
-          "who": "guest",
-          "text": "Things that are in your control. Can we take the ordering off your plate for a while? Would a different shift pattern help? Would two days off in a row make a difference? Then, after a couple of weeks, check in again. One conversation is a start, not a fix.",
-          "card": {
-            "type": "point",
-            "text": "One conversation is a start, not a fix. Check back."
-          }
-        },
-        {
-          "who": "host",
-          "text": "And if she doesn't want to talk?"
-        },
-        {
-          "who": "guest",
-          "text": "That's allowed. You've opened the door. Say the offer stands, make the changes you can anyway, and check in again later. Don't push for details about her health. That's hers to share or not."
-        },
-        {
-          "who": "host",
-          "text": "When do you point someone to professional help?"
-        },
-        {
-          "who": "guest",
-          "text": "Any time it goes beyond what a schedule change can fix, or any time you're worried about them. You don't need to figure out what it is first. The Mayo Clinic suggests that people with these signs talk to a doctor or a mental health professional. The Canadian Psychological Association points to registered psychologists, who can assess what's going on and help build a plan."
-        },
-        {
-          "who": "host",
-          "text": "And employee assistance programs."
-        },
-        {
-          "who": "guest",
-          "text": "If your business has one, this is the moment to mention it. An employee assistance program, or E A P, is a confidential, voluntary service that's free for employees. According to Opening Minds, which is part of the Mental Health Commission of Canada, it typically includes short term counselling, often three to six sessions, plus referrals, and it's usually open to immediate family too. Many also offer advice to managers.",
-          "card": {
-            "type": "list",
-            "title": "What an EAP usually offers",
-            "items": [
-              "Confidential short-term counselling",
-              "Referrals and follow-up",
-              "Support for immediate family",
-              "Advice for managers"
-            ],
-            "source": "Opening Minds (MHCC)"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And if you don't have one?"
-        },
-        {
-          "who": "guest",
-          "text": "Then know your local options before you need them. In Nova Scotia, you can call eight one one for non emergency mental health and addictions advice. The province also has a mental health and addictions crisis line that's open around the clock. We'll put that number on screen and in the description.",
-          "card": {
-            "type": "list",
-            "title": "Help in Nova Scotia",
-            "items": [
-              "811: non-emergency advice",
-              "Crisis line: 1-888-429-8167, 24/7",
-              "Call or text 988, Canada-wide",
-              "Safety at risk: call 911"
-            ],
-            "source": "Government of Nova Scotia; 988.ca"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And if it's more serious than that?"
-        },
-        {
-          "who": "guest",
-          "text": "If someone is in crisis, or thinking about suicide, they can call or text nine eight eight, anywhere in Canada, any time of day or night. It's Canada's suicide crisis helpline, and it's available in English and French. And if someone's safety is at risk right now, call nine one one."
-        },
-        {
-          "who": "host",
-          "text": "Thank you for saying that plainly. And if you're listening and that's you, please reach out. You don't need to have the right words."
-        },
-        {
-          "who": "guest",
-          "text": "And managers, that goes for you too."
-        }
-      ]
-    },
-    {
-      "heading": "Recap: five things to remember about burnout",
-      "broll": "notebook",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Let's recap. Dana, take us through it."
-        },
-        {
-          "who": "guest",
-          "text": "One. Burnout, as the W H O describes it, comes from chronic workplace stress that hasn't been managed. It's an occupational phenomenon, not a medical condition, and you don't diagnose it.",
-          "card": {
-            "type": "list",
-            "title": "Takeaways",
-            "items": [
-              "Burnout comes from unmanaged work stress",
-              "Watch for change in steady people",
-              "Fix the job, not only people",
-              "Know where to point people"
-            ]
-          }
-        },
-        {
-          "who": "host",
-          "text": "Two. Watch for change. Exhaustion, cynicism, and a sense of not being good at the job anymore, especially in someone who used to be steady."
-        },
-        {
-          "who": "guest",
-          "text": "Three. Look at the job before you look at the person. Workload, control, reward, community, fairness, and values. If you add a task, take one away."
-        },
-        {
-          "who": "host",
-          "text": "Four. Talk privately. Describe what you saw, ask, and listen. Offer changes you can actually make, then check back. And make sure people actually take their vacation."
-        },
-        {
-          "who": "guest",
-          "text": "And five. Know where to point people. Their doctor, a mental health professional, your E A P if you have one, and nine eight eight for anyone in crisis."
-        }
-      ]
-    },
-    {
-      "heading": "Outro",
-      "broll": null,
-      "lines": [
-        {
-          "who": "host",
-          "text": "That's the episode. If you're hiring to take some weight off a stretched team, Staffkin can help with the job description, the interview questions and the onboarding checklist. Try it free at staffkin.com.",
-          "card": {
-            "type": "point",
-            "text": "Try it free at staffkin.com"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Sources for everything we mentioned are in the description. Thanks to Dana, our A I character, and thanks for listening. New episodes every Thursday."
-        },
-        {
-          "who": "guest",
-          "text": "Take care of your people. And yourself."
-        }
-      ]
+     "who": "host",
+     "text": "That's a good line to start with. Let's get into it."
     }
-  ],
-  "sources": [
+   ],
+   "visuals": [
+    "office building",
+    "meeting room",
+    "whiteboard",
+    "laptop desk"
+   ]
+  },
+  {
+   "heading": "What is burnout? The three signs, and how it differs from stress",
+   "broll": "empty office",
+   "lines": [
     {
-      "label": "WHO: Burn-out an \"occupational phenomenon\": International Classification of Diseases (28 May 2019)",
-      "url": "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases"
+     "who": "host",
+     "text": "Let's start with a definition, because people use the word for everything. A rough week, a long winter, a bad Monday."
     },
     {
-      "label": "WHO and ILO: Call for new measures to tackle mental health issues at work (28 Sept 2022)",
-      "url": "https://www.who.int/news/item/28-09-2022-who-and-ilo-call-for-new-measures-to-tackle-mental-health-issues-at-work"
+     "who": "guest",
+     "text": "Right. The cleanest definition we have comes from the World Health Organization. In twenty nineteen, in the eleventh edition of its International Classification of Diseases, it described burnout as a syndrome \"resulting from chronic workplace stress that has not been successfully managed.\"",
+     "card": {
+      "type": "point",
+      "text": "Burnout: chronic workplace stress that hasn't been successfully managed (WHO)"
+     }
     },
     {
-      "label": "Freudenberger, H. J. (1974). Staff Burn-Out. Journal of Social Issues, 30(1), 159-165",
-      "url": "https://doi.org/10.1111/j.1540-4560.1974.tb00706.x"
+     "who": "host",
+     "text": "Chronic, and not successfully managed. So it's not one bad week."
     },
     {
-      "label": "History News Network: Burnout used to refer to the problems of the... (Freudenberger and the St. Mark's Free Clinic)",
-      "url": "https://historynewsnetwork.org/article/184698"
+     "who": "guest",
+     "text": "No. It's stress that has gone on for a long time without anything changing. And the W H O lists three dimensions. First, feeling drained or exhausted. Second, more mental distance from your job, or feeling negative and cynical about it. Third, reduced professional efficacy, which is a formal way of saying you don't feel effective anymore.",
+     "card": {
+      "type": "list",
+      "title": "The three dimensions",
+      "items": [
+       "Exhaustion",
+       "Mental distance or cynicism",
+       "Reduced professional efficacy"
+      ],
+      "source": "WHO, ICD-11"
+     }
     },
     {
-      "label": "Wikipedia: Herbert Freudenberger (birth year, free clinic work)",
-      "url": "https://en.wikipedia.org/wiki/Herbert_Freudenberger"
+     "who": "host",
+     "text": "Give me what those look like on a real shift."
     },
     {
-      "label": "Wikipedia: Occupational burnout, History section (signs described in the 1974 paper)",
-      "url": "https://en.wikipedia.org/wiki/Occupational_burnout"
+     "who": "guest",
+     "text": "Exhaustion is the person who looks like they've worked a full day when they clock in. Cynicism sounds like, what's the point, nobody here cares anyway. And reduced efficacy is your strongest person suddenly saying they're just not good at this job anymore."
     },
     {
-      "label": "American Psychological Association: Christina Maslach, the pioneer behind burnout research",
-      "url": "https://www.apa.org/members/content/burnout-research"
+     "who": "host",
+     "text": "That third one is sneaky, because it can look like a performance problem."
     },
     {
-      "label": "Maslach, C. & Jackson, S. E. (1981). The measurement of experienced burnout. Journal of Occupational Behaviour, 2(2), 99-113",
-      "url": "https://doi.org/10.1002/job.4030020205"
+     "who": "guest",
+     "text": "It often gets treated like one. The Canadian Psychological Association has a fact sheet on workplace burnout. The behaviours it lists include putting things off, pulling away from coworkers, more absences, and the opposite too, coming in to work while unwell. The emotional signs include irritability, anxiety, and losing interest in work. And there are physical ones, like ongoing fatigue, headaches and trouble sleeping.",
+     "card": {
+      "type": "list",
+      "title": "Signs at work",
+      "items": [
+       "Irritability and lost interest",
+       "Pulling away from the team",
+       "More absences",
+       "Working while unwell"
+      ],
+      "source": "Canadian Psychological Association"
+     }
     },
     {
-      "label": "Maslach, C. & Leiter, M. P. (2016). Understanding the burnout experience. World Psychiatry, 15(2) (author affiliations)",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4911781/"
+     "who": "host",
+     "text": "Now, the W H O also said something specific about what burnout is not."
     },
     {
-      "label": "Leiter, M. P. & Maslach, C. (2003). Areas of worklife: A structured approach to organizational predictors of job burnout",
-      "url": "https://www.emerald.com/insight/content/doi/10.1016/S1479-3555(03)03003-8/full/html"
+     "who": "guest",
+     "text": "Two things. It's classified as an occupational phenomenon, and it's not classified as a medical condition. It sits in a chapter for factors that influence health or bring people into contact with health services. And the W H O says the term should only be used about work, not about other areas of life.",
+     "card": {
+      "type": "point",
+      "text": "WHO: an occupational phenomenon, used only for work, not a medical condition"
+     }
     },
     {
-      "label": "UC Berkeley Research: Burned out? Berkeley expert's book offers roadmap to a better workplace (The Burnout Challenge)",
-      "url": "https://vcresearch.berkeley.edu/news/burned-out-berkeley-experts-book-offers-roadmap-better-workplace"
+     "who": "host",
+     "text": "So if someone says they're burned out on parenting, that's a real feeling, but it's not what this definition covers."
     },
     {
-      "label": "Bianchi, Swingler & Schonfeld (2024). Burnout: Fifty Years Later. Workplace Health & Safety",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11323411/"
+     "who": "guest",
+     "text": "Exactly. This definition is about the job."
     },
     {
-      "label": "Canadian Psychological Association: Psychology Works fact sheet, Workplace Burnout (2021)",
-      "url": "https://cpa.ca/docs/File/Publications/FactSheets/FS_WorkplaceBurnout_EN_2021.pdf"
+     "who": "host",
+     "text": "Let's do stress versus burnout, because those get mixed up constantly."
     },
     {
-      "label": "Mayo Clinic: Job burnout, how to spot it and take action",
-      "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642"
+     "who": "guest",
+     "text": "The Canadian Psychological Association frames it simply. Stress happens when the demands of a job are bigger than the resources you have to meet them. Burnout can develop when that stress becomes chronic and isn't managed. And burnout is tied to work, while depression and anxiety aren't limited to the job. A simple way to hold it in your head. Stress often feels like too much. Burnout can feel more like nothing left in the tank.",
+     "card": {
+      "type": "compare",
+      "left_title": "Stress",
+      "left": "Job demands outweigh the resources to meet them",
+      "right_title": "Burnout",
+      "right": "That stress becomes chronic and isn't managed"
+     }
     },
     {
-      "label": "Statistics Canada: Work-related stress most often caused by heavy workloads and work-life balance (June 2023)",
-      "url": "https://www.statcan.gc.ca/o1/en/node/3892"
+     "who": "host",
+     "text": "And depression?"
     },
     {
-      "label": "Mental Health Commission of Canada: National Standard for Psychological Health and Safety in the Workplace",
-      "url": "https://mentalhealthcommission.ca/workplace-standard/"
+     "who": "guest",
+     "text": "This is where I want to be really careful. The Mayo Clinic notes that burnout isn't a medical diagnosis, that its symptoms can overlap with depression, and that the two are different and need different treatment. Some researchers go further. A twenty twenty four paper called Burnout, Fifty Years Later, argued that burnout can be hard to tell apart from depression, and warned that the burnout label could mean someone's depression goes untreated."
     },
     {
-      "label": "CSA Group: CAN/CSA-Z1003-13/BNQ 9700-803/2013 (R2022)",
-      "url": "https://www.csagroup.org/store/product/2421865/"
+     "who": "host",
+     "text": "So what does that mean for a manager?"
     },
     {
-      "label": "Standards Council of Canada: Notice of intent, CSA/ASC Z1003 new edition",
-      "url": "https://scc-ccn.ca/standards/notices-of-intent/csa-group/psychological-health-and-safety-workplace"
+     "who": "guest",
+     "text": "It means you don't decide which one it is. You're not qualified to, and neither am I. Your job is to notice the change, have a decent conversation, fix what's in your control at work, and point the person toward someone who is qualified. We'll get to that conversation later.",
+     "card": {
+      "type": "point",
+      "text": "Managers don't diagnose. Notice, talk, fix the job, point to help."
+     }
     },
     {
-      "label": "Government of Nova Scotia, Labour Standards: Vacation time and vacation pay",
-      "url": "https://novascotia.ca/lae/employmentrights/vacationleavepay.asp"
+     "who": "host",
+     "text": "And how common is this kind of stress in Canada?"
     },
     {
-      "label": "Government of Nova Scotia: New sick note rules effective July 1 (30 June 2023)",
-      "url": "https://news.novascotia.ca/en/2023/06/30/new-sick-note-rules-effective-july-1"
+     "who": "guest",
+     "text": "Statistics Canada asked workers in April twenty twenty three. Twenty one point two percent of employed people said their work related stress was high or very high. That's just over four million people. The most common source was a heavy workload, which affected twenty three point seven percent of employed people. Balancing work and personal life was next.",
+     "card": {
+      "type": "stat",
+      "big": "21.2%",
+      "label": "of employed Canadians reported high or very high work-related stress (April 2023)",
+      "source": "Statistics Canada"
+     }
     },
     {
-      "label": "Government of Nova Scotia, Labour Standards: Stronger Workplaces for Nova Scotia Act changes (sick leave, serious illness leave)",
-      "url": "https://novascotia.ca/lae/employmentrights/workplaces-legislation-changes.asp"
+     "who": "host",
+     "text": "So roughly one in five. On a team of ten, that's about two people."
     },
     {
-      "label": "Retail Council of Canada: Nova Scotia delays new unpaid sick leave law to January 1, 2025",
-      "url": "https://www.retailcouncil.org/nova-scotia-delays-new-unpaid-sick-leave-law/"
-    },
-    {
-      "label": "Opening Minds (Mental Health Commission of Canada): Employee assistance programs and mental health",
-      "url": "https://openingminds.org/blogs/employee-assistance-programs-and-mental-health"
-    },
-    {
-      "label": "Government of Nova Scotia: Mental health and wellbeing (crisis line 1-888-429-8167, 811)",
-      "url": "https://novascotia.ca/mental-health/"
-    },
-    {
-      "label": "9-8-8 Suicide Crisis Helpline",
-      "url": "https://988.ca/"
-    },
-    {
-      "label": "Public Health Agency of Canada: Government of Canada launches three-digit suicide crisis helpline (30 Nov 2023)",
-      "url": "https://www.canada.ca/en/public-health/news/2023/11/government-of-canada-launches-three-digit-suicide-crisis-helpline.html"
+     "who": "guest",
+     "text": "On average, yes. It won't be spread evenly across every team, but it's a useful way to picture it. And remember, high stress isn't the same thing as burnout. It's the soil burnout can grow in."
     }
-  ],
-  "shorts": [
+   ],
+   "visuals": [
+    "empty office",
+    "desk lamp night",
+    "stack of papers",
+    "office chair",
+    "burnt match",
+    "empty battery"
+   ]
+  },
+  {
+   "heading": "Where the word burnout came from: a free clinic, a researcher, and the WHO",
+   "broll": "typewriter",
+   "lines": [
     {
-      "title": "The man who named burnout",
-      "from": [
-        0,
-        0
-      ],
-      "to": [
-        0,
-        2
-      ],
-      "caption": "In 1971 a psychologist couldn't get out of bed. He called it burnout. #burnout #workplace #management"
+     "who": "host",
+     "text": "Let's go back to that man from the cold open. Who was he?"
     },
     {
-      "title": "Stress or burnout? The difference",
-      "from": [
-        2,
-        12
-      ],
-      "to": [
-        2,
-        13
-      ],
-      "caption": "Stress feels like too much. Burnout feels like nothing left. #burnout #workplacementalhealth #management"
+     "who": "guest",
+     "text": "His name was Herbert Freudenberger. He was a psychologist, born in Germany in nineteen twenty six, who worked in New York. In the early nineteen seventies, he volunteered as a counsellor at the Saint Mark's Free Clinic in the East Village. He'd work full days at his private practice and then show up at the clinic in the evening."
     },
     {
-      "title": "Your best employee suddenly slips",
-      "from": [
-        4,
-        1
-      ],
-      "to": [
-        4,
-        3
-      ],
-      "caption": "Before you write them up, ask what happened to the job. #burnout #smallbusiness #management"
+     "who": "host",
+     "text": "And who did the clinic serve?"
     },
     {
-      "title": "The hero who never takes vacation",
-      "from": [
-        4,
-        9
-      ],
-      "to": [
-        4,
-        13
-      ],
-      "caption": "If everything falls over when one person is away, that's a design problem. #burnout #smallbusiness #leadership"
+     "who": "guest",
+     "text": "Mostly young people from the neighbourhood, and many of them used drugs. According to one history of the term, burnout was actually slang among the clinic's patients for the effects of long term drug use. Freudenberger himself pointed instead to the burned out buildings around the clinic as the image he had in mind."
     },
     {
-      "title": "What not to say to a burned-out employee",
-      "from": [
-        6,
-        4
-      ],
-      "to": [
-        6,
-        7
-      ],
-      "caption": "Don't diagnose. Describe what you saw, and fix the job too. #burnout #management #workplace"
+     "who": "host",
+     "text": "So the word was already in the air."
+    },
+    {
+     "who": "guest",
+     "text": "It was. And in nineteen seventy one, after about a year of sixteen hour days, he couldn't get out of bed. He used the word for his own exhaustion, and he saw the same thing in the volunteers around him.",
+     "card": {
+      "type": "history",
+      "year": "1971",
+      "text": "After a year of 16-hour days, Freudenberger names his own exhaustion burnout"
+     }
+    },
+    {
+     "who": "host",
+     "text": "When did it get into the research?"
+    },
+    {
+     "who": "guest",
+     "text": "In nineteen seventy four, he published a paper called Staff Burn Out, in the Journal of Social Issues. It was based on what he saw in volunteer staff at the free clinic, himself included. Among the signs he described were exhaustion, headaches, trouble sleeping, and being quick to anger.",
+     "card": {
+      "type": "history",
+      "year": "1974",
+      "text": "Freudenberger publishes “Staff Burn-Out” in the Journal of Social Issues"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Then Christina Maslach comes in."
+    },
+    {
+     "who": "guest",
+     "text": "Right. Maslach is a Berkeley psychologist. In the nineteen seventies, she was interviewing people in emotionally demanding jobs. Nurses, police officers, prison guards, first responders. In confidential interviews, people described things like starting to treat the people they served as objects, and cutting corners."
+    },
+    {
+     "who": "host",
+     "text": "That's dark."
+    },
+    {
+     "who": "guest",
+     "text": "It is, but it's honest. Out of that work she described three pieces. Exhaustion. Depersonalization, which is that cold distance from the people you serve. And a reduced sense of personal accomplishment. If that sounds familiar, it's because they map closely onto the three dimensions we talked about earlier."
+    },
+    {
+     "who": "host",
+     "text": "And she built a way to measure it."
+    },
+    {
+     "who": "guest",
+     "text": "In nineteen eighty one, she and Susan Jackson published the Maslach Burnout Inventory. It became the most widely used way to measure burnout in research.",
+     "card": {
+      "type": "history",
+      "year": "1981",
+      "text": "Maslach and Jackson publish the Maslach Burnout Inventory"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And then the W H O steps in."
+    },
+    {
+     "who": "guest",
+     "text": "In May twenty nineteen, the W H O announced that burnout was included in the eleventh revision of its classification, as an occupational phenomenon. And the three dimensions it uses line up closely with that older research. Exhaustion, mental distance or cynicism, and reduced efficacy.",
+     "card": {
+      "type": "history",
+      "year": "2019",
+      "text": "WHO includes burn-out in ICD-11 as an occupational phenomenon"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Is the science settled now?"
+    },
+    {
+     "who": "guest",
+     "text": "Not completely, and I think listeners deserve to hear that. That twenty twenty four paper argued the three dimensions don't fit together as neatly as people assume, and that burnout is hard to separate from depression. So researchers are still arguing about the edges. But chronic, unmanaged stress at work is clearly bad news, and a manager can change a lot about the work."
+    },
+    {
+     "who": "host",
+     "text": "And there's a Nova Scotia thread in this story, isn't there?"
+    },
+    {
+     "who": "guest",
+     "text": "There is. One of Maslach's frequent co authors is a psychologist named Michael Leiter. On a twenty sixteen paper they wrote together, he was listed at Acadia University, in Wolfville. So one of the people behind the framework we're about to use was working right here in the Annapolis Valley.",
+     "card": {
+      "type": "point",
+      "text": "Maslach's co-author Michael Leiter: listed at Acadia University, Wolfville, in 2016"
+     }
     }
-  ]
+   ],
+   "visuals": [
+    "typewriter",
+    "library shelves",
+    "archive documents",
+    "Geneva",
+    "medical books",
+    "old hospital"
+   ]
+  },
+  {
+   "heading": "Three burnout situations every small employer will recognize",
+   "broll": "coffee cup",
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's make this real. Dana, give me the first one."
+    },
+    {
+     "who": "guest",
+     "text": "Say your most reliable person is a shift lead at a busy cafe. Let's call her Priya. Five years, never late, the one who covers when anyone calls in. Over about two months, she misses three shifts, and last Saturday she snapped at a customer over a cold latte."
+    },
+    {
+     "who": "host",
+     "text": "And the instinct is to write her up."
+    },
+    {
+     "who": "guest",
+     "text": "The instinct is to ask, what happened to Priya? And that's only half the question. The better question is, what happened to Priya's job? Did someone leave and never get replaced? Did she quietly pick up the ordering, the training and the closing? Has she had a full weekend off this year?",
+     "card": {
+      "type": "point",
+      "text": "Ask what happened to the job, not only what happened to the person"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So you look at the workload before you look at the person."
+    },
+    {
+     "who": "guest",
+     "text": "You look at both. But you start with the job, because that's the part you own. And the change in behaviour is the signal. Five good years and two bad months tells you something changed."
+    },
+    {
+     "who": "host",
+     "text": "What do you actually say to her?"
+    },
+    {
+     "who": "guest",
+     "text": "Something like, Priya, I've noticed you've missed a few shifts lately, and Saturday seemed rough. That's not like you. How are things going? And then you stop talking. You're describing what you saw, not guessing what's wrong with her.",
+     "card": {
+      "type": "point",
+      "text": "Describe what you saw. Don't guess what's wrong."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Second situation."
+    },
+    {
+     "who": "guest",
+     "text": "The hero. Every small business has one. Let's call him Marcus, the general manager at a family restaurant. No real vacation in three years. He answers texts at midnight, and the owner loves him for it."
+    },
+    {
+     "who": "host",
+     "text": "That sounds like a dream employee."
+    },
+    {
+     "who": "guest",
+     "text": "That's the trap. The Canadian Psychological Association lists personal factors that can feed burnout, like perfectionism, putting work above everything else, and trouble setting boundaries. The hero often has all three, in a place that rewards all three.",
+     "card": {
+      "type": "list",
+      "title": "Individual risk factors",
+      "items": [
+       "Perfectionism",
+       "Work above everything else",
+       "Trouble setting boundaries"
+      ],
+      "source": "Canadian Psychological Association"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the business is part of it."
+    },
+    {
+     "who": "guest",
+     "text": "The business built the hero. If everything falls over when Marcus takes a week off, that's not a Marcus problem. That's a design problem. Train someone else on the key parts of his job, then actually send him on vacation. Not one where he checks the group chat every hour. A real one."
+    },
+    {
+     "who": "host",
+     "text": "There's a legal angle to that too, right?"
+    },
+    {
+     "who": "guest",
+     "text": "There is, and we'll get to the Nova Scotia rules in a few minutes."
+    },
+    {
+     "who": "host",
+     "text": "Third one. I suspect this one hits closer to home for a lot of people listening."
+    },
+    {
+     "who": "guest",
+     "text": "The manager who burns out. Picture a woman who owns a small home care company with a dozen staff. She does the scheduling, the payroll and the hiring, covers shifts when people are sick, and handles every complaint. She's the one everyone else leans on, and there's nobody for her to lean on."
+    },
+    {
+     "who": "host",
+     "text": "Owners don't have a boss to notice."
+    },
+    {
+     "who": "guest",
+     "text": "Right. And it doesn't stay with her. Less patience, slower decisions, fewer thank yous. The team feels that, even if nobody says it out loud."
+    },
+    {
+     "who": "host",
+     "text": "So what does she do?"
+    },
+    {
+     "who": "guest",
+     "text": "The same things she'd do for anyone else. Look at the load, take something off the plate, and get support. That might mean hiring help for the paperwork, talking to another owner who runs a similar business, or talking to her own doctor or a counsellor. Owners are allowed to ask for help too."
+    },
+    {
+     "who": "host",
+     "text": "That's a good moment for a quick word about the company that makes this show.",
+     "card": {
+      "type": "point",
+      "text": "Staffkin · Hire people, not paperwork."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Staffkin is a hiring and onboarding kit for small Canadian employers who don't have an H R department. It helps with job descriptions, interview guides, reference checks and onboarding checklists, so when you need to bring someone onto a stretched team, the paperwork side of hiring lives in one place. Hire people, not paperwork."
+    }
+   ],
+   "visuals": [
+    "coffee cup",
+    "restaurant kitchen",
+    "warehouse shelves",
+    "retail store",
+    "wall calendar",
+    "smartphone"
+   ]
+  },
+  {
+   "heading": "What a manager actually does: the six areas of worklife",
+   "broll": "office desk",
+   "lines": [
+    {
+     "who": "host",
+     "text": "Okay, Dana. Practical part. What does a manager actually do?"
+    },
+    {
+     "who": "guest",
+     "text": "Maslach and Leiter have a model called the six areas of worklife. It's a list of the parts of a job where a bad fit between the person and the work can feed burnout. Workload, control, reward, community, fairness, and values.",
+     "card": {
+      "type": "list",
+      "title": "Six areas of worklife, part 1",
+      "items": [
+       "Workload",
+       "Control",
+       "Reward"
+      ],
+      "source": "Leiter & Maslach"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Walk me through them. Small business version."
+    },
+    {
+     "who": "guest",
+     "text": "Workload first. This is the obvious one. Too much work, not enough people, not enough time. One thing Maslach has pointed out is that workload mostly drives the exhaustion piece. On its own, it doesn't necessarily lead to cynicism or people feeling bad about themselves."
+    },
+    {
+     "who": "host",
+     "text": "So what do I do about workload in a twelve person shop?"
+    },
+    {
+     "who": "guest",
+     "text": "Start with a list. What does this person actually do in a week? Then ask, what can come off? Maslach makes the point that organizations are good at adding tasks and bad at taking them away. So if you add something, take something away.",
+     "card": {
+      "type": "point",
+      "text": "If you add a task, take one away."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Control."
+    },
+    {
+     "who": "guest",
+     "text": "Control is how much say people have over how and when they work. The Mayo Clinic lists a lack of control over your schedule, assignments or workload as one possible cause of job burnout. Shift workers often have very little control. Small fixes help. Let people swap shifts without a fight. Post the schedule earlier. Ask before you change it."
+    },
+    {
+     "who": "host",
+     "text": "Reward."
+    },
+    {
+     "who": "guest",
+     "text": "Reward isn't only pay, although pay matters. It's recognition. A specific thank you, for something real, said where other people can hear it. The Canadian Psychological Association lists not enough recognition or pay among the work factors behind burnout."
+    },
+    {
+     "who": "host",
+     "text": "Community.",
+     "card": {
+      "type": "list",
+      "title": "Six areas of worklife, part 2",
+      "items": [
+       "Community",
+       "Fairness",
+       "Values"
+      ],
+      "source": "Leiter & Maslach"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Community is whether people feel supported by the people around them. Conflict that never gets dealt with, or one team member everyone tiptoes around, eats away at it. Deal with the conflict, and make sure nobody is working alone all the time."
+    },
+    {
+     "who": "host",
+     "text": "Fairness."
+    },
+    {
+     "who": "guest",
+     "text": "Fairness is whether decisions feel fair. Who gets the good shifts, who gets stuck with Saturdays, who gets the raise. A simple test is whether you could explain the rule out loud to the whole team."
+    },
+    {
+     "who": "host",
+     "text": "And values."
+    },
+    {
+     "who": "guest",
+     "text": "Values is the gap between what your business says it stands for and what people are actually asked to do. If your care home says residents come first, but staff are rushed so hard they can't sit with anyone for five minutes, that gap wears people down."
+    },
+    {
+     "who": "host",
+     "text": "So the big idea here is that burnout is partly a job design problem."
+    },
+    {
+     "who": "guest",
+     "text": "Yes. Maslach has a nice way of putting it. People say, if you can't take the heat, get out of the kitchen. She asks, why not turn down the heat, or redesign the kitchen? And she's clear that it's both. The person matters, and the workplace matters.",
+     "card": {
+      "type": "point",
+      "text": "Turn down the heat, or redesign the kitchen."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Does the W H O say anything to managers specifically?"
+    },
+    {
+     "who": "guest",
+     "text": "It does. In September twenty twenty two, the W H O released guidelines on mental health at work, and for the first time it recommended training for managers, to help them prevent stressful work environments and respond to workers who are struggling. The same announcement estimated that about twelve billion working days are lost every year worldwide to depression and anxiety.",
+     "card": {
+      "type": "stat",
+      "big": "12 billion",
+      "label": "working days lost each year worldwide to depression and anxiety",
+      "source": "WHO and ILO, 2022"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And in Canada there's a national standard for this."
+    },
+    {
+     "who": "guest",
+     "text": "There is. It's the National Standard of Canada for Psychological Health and Safety in the Workplace, known as C S A Z ten oh three. It was commissioned by the Mental Health Commission of Canada and launched in January twenty thirteen, and the commission calls it the first of its kind in the world. It's voluntary, and it gives a framework for finding and reducing the things at work that can harm people's mental health.",
+     "card": {
+      "type": "rule",
+      "title": "Canada",
+      "text": "CSA Z1003: a voluntary national standard for psychological health and safety at work",
+      "source": "MHCC; CSA Group",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Is it only for big companies?"
+    },
+    {
+     "who": "guest",
+     "text": "No. It's meant for organizations of any size. A twelve person bakery won't run it like a hospital, but the core idea scales down. Find what's hurting people, fix what you can, and keep checking. A new edition is in the works, so look for the current version."
+    },
+    {
+     "who": "host",
+     "text": "Let's talk about time off here in Nova Scotia, since rest is part of this."
+    },
+    {
+     "who": "guest",
+     "text": "Sure. This is as of October twenty twenty six, and rules differ by province, so check the Nova Scotia Labour Standards pages for your own situation. Under the Labour Standards Code, employees get two weeks of vacation after each twelve months of work, and three weeks after eight years with the same employer. Vacation pay is at least four percent of gross wages, and six percent starting in the eighth year.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia vacation",
+      "text": "2 weeks after each 12 months; 3 weeks after 8 years. Pay 4%, then 6% from year 8.",
+      "source": "NS Labour Standards",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And who decides when it gets taken?"
+    },
+    {
+     "who": "guest",
+     "text": "The employer decides, though many let employees choose. It has to be taken within ten months after the year it was earned, and the employer has to give at least one week's notice. And full time employees have to actually take the time off. They can't just take the pay instead."
+    },
+    {
+     "who": "host",
+     "text": "So the hero who never takes vacation can be a legal issue too."
+    },
+    {
+     "who": "guest",
+     "text": "It can. Two more things. Since July twenty twenty three, Nova Scotia employers can't ask for a sick note unless someone is away more than five working days, or has already had two absences of five working days or fewer in the past twelve months. And since January twenty twenty five, the Code includes five unpaid sick days a year, plus unpaid leave of up to twenty seven weeks for a serious illness or injury, for employees with at least three months of service.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia leave",
+      "text": "Sick notes limited since July 2023. 5 unpaid sick days a year since Jan 2025.",
+      "source": "Government of Nova Scotia",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's a lot to keep straight."
+    },
+    {
+     "who": "guest",
+     "text": "It is. Check the official pages, or call Labour Standards if you're not sure. This isn't legal advice."
+    }
+   ],
+   "visuals": [
+    "office desk",
+    "balance scale",
+    "clock",
+    "conference table",
+    "puzzle pieces",
+    "office plant"
+   ]
+  },
+  {
+   "heading": "How to talk to someone who seems burned out, and when to point them to help",
+   "broll": "clock",
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's go back to Priya. You've noticed. You want to talk. How do you set it up?"
+    },
+    {
+     "who": "guest",
+     "text": "Privately, and not in the middle of a rush. Not right after the incident with the customer either, when everyone's still heated. Ask if she has ten minutes after her shift, somewhere you won't be interrupted."
+    },
+    {
+     "who": "host",
+     "text": "And you open with what you saw."
+    },
+    {
+     "who": "guest",
+     "text": "Yes. Specific, recent, and about behaviour. I've noticed you've missed three shifts this month, and Saturday looked hard. That's not like you, and I wanted to check in. Then ask an open question. How are things going? Is anything at work making this harder?"
+    },
+    {
+     "who": "host",
+     "text": "What should a manager not say?"
+    },
+    {
+     "who": "guest",
+     "text": "A few things. Don't say, you seem depressed, or, I think you're burned out. That's a diagnosis, and you're not the person to make it. Don't say, everyone's tired, we all just have to push through. And don't make promises you can't keep, whether that's about privacy or about changes you can't deliver.",
+     "card": {
+      "type": "list",
+      "title": "Avoid saying",
+      "items": [
+       "“You seem depressed”",
+       "“We all just push through”",
+       "“Just take a few days off”",
+       "Promises you can't keep"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "What about, just take a few days off?"
+    },
+    {
+     "who": "guest",
+     "text": "Rest helps, and you should offer it. But Maslach's point is that time off and self care on their own don't fix what's causing the problem. The person comes back to the same job. So pair the time off with a change to the job."
+    },
+    {
+     "who": "host",
+     "text": "So what can you offer?"
+    },
+    {
+     "who": "guest",
+     "text": "Things that are in your control. Can we take the ordering off your plate for a while? Would a different shift pattern help? Would two days off in a row make a difference? Then, after a couple of weeks, check in again. One conversation is a start, not a fix.",
+     "card": {
+      "type": "point",
+      "text": "One conversation is a start, not a fix. Check back."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And if she doesn't want to talk?"
+    },
+    {
+     "who": "guest",
+     "text": "That's allowed. You've opened the door. Say the offer stands, make the changes you can anyway, and check in again later. Don't push for details about her health. That's hers to share or not."
+    },
+    {
+     "who": "host",
+     "text": "When do you point someone to professional help?"
+    },
+    {
+     "who": "guest",
+     "text": "Any time it goes beyond what a schedule change can fix, or any time you're worried about them. You don't need to figure out what it is first. The Mayo Clinic suggests that people with these signs talk to a doctor or a mental health professional. The Canadian Psychological Association points to registered psychologists, who can assess what's going on and help build a plan."
+    },
+    {
+     "who": "host",
+     "text": "And employee assistance programs."
+    },
+    {
+     "who": "guest",
+     "text": "If your business has one, this is the moment to mention it. An employee assistance program, or E A P, is a confidential, voluntary service that's free for employees. According to Opening Minds, which is part of the Mental Health Commission of Canada, it typically includes short term counselling, often three to six sessions, plus referrals, and it's usually open to immediate family too. Many also offer advice to managers.",
+     "card": {
+      "type": "list",
+      "title": "What an EAP usually offers",
+      "items": [
+       "Confidential short-term counselling",
+       "Referrals and follow-up",
+       "Support for immediate family",
+       "Advice for managers"
+      ],
+      "source": "Opening Minds (MHCC)"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And if you don't have one?"
+    },
+    {
+     "who": "guest",
+     "text": "Then know your local options before you need them. In Nova Scotia, you can call eight one one for non emergency mental health and addictions advice. The province also has a mental health and addictions crisis line that's open around the clock. We'll put that number on screen and in the description.",
+     "card": {
+      "type": "list",
+      "title": "Help in Nova Scotia",
+      "items": [
+       "811: non-emergency advice",
+       "Crisis line: 1-888-429-8167, 24/7",
+       "Call or text 988, Canada-wide",
+       "Safety at risk: call 911"
+      ],
+      "source": "Government of Nova Scotia; 988.ca"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And if it's more serious than that?"
+    },
+    {
+     "who": "guest",
+     "text": "If someone is in crisis, or thinking about suicide, they can call or text nine eight eight, anywhere in Canada, any time of day or night. It's Canada's suicide crisis helpline, and it's available in English and French. And if someone's safety is at risk right now, call nine one one."
+    },
+    {
+     "who": "host",
+     "text": "Thank you for saying that plainly. And if you're listening and that's you, please reach out. You don't need to have the right words."
+    },
+    {
+     "who": "guest",
+     "text": "And managers, that goes for you too."
+    }
+   ],
+   "visuals": [
+    "two chairs",
+    "coffee mugs",
+    "park bench",
+    "window light",
+    "telephone"
+   ]
+  },
+  {
+   "heading": "Recap: five things to remember about burnout",
+   "broll": "notebook",
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's recap. Dana, take us through it."
+    },
+    {
+     "who": "guest",
+     "text": "One. Burnout, as the W H O describes it, comes from chronic workplace stress that hasn't been managed. It's an occupational phenomenon, not a medical condition, and you don't diagnose it.",
+     "card": {
+      "type": "list",
+      "title": "Takeaways",
+      "items": [
+       "Burnout comes from unmanaged work stress",
+       "Watch for change in steady people",
+       "Fix the job, not only people",
+       "Know where to point people"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Two. Watch for change. Exhaustion, cynicism, and a sense of not being good at the job anymore, especially in someone who used to be steady."
+    },
+    {
+     "who": "guest",
+     "text": "Three. Look at the job before you look at the person. Workload, control, reward, community, fairness, and values. If you add a task, take one away."
+    },
+    {
+     "who": "host",
+     "text": "Four. Talk privately. Describe what you saw, ask, and listen. Offer changes you can actually make, then check back. And make sure people actually take their vacation."
+    },
+    {
+     "who": "guest",
+     "text": "And five. Know where to point people. Their doctor, a mental health professional, your E A P if you have one, and nine eight eight for anyone in crisis."
+    }
+   ],
+   "visuals": [
+    "notebook",
+    "sticky notes",
+    "sunrise"
+   ]
+  },
+  {
+   "heading": "Outro",
+   "broll": null,
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's the episode. If you're hiring to take some weight off a stretched team, Staffkin can help with the job description, the interview questions and the onboarding checklist. Try it free at staffkin.com.",
+     "card": {
+      "type": "point",
+      "text": "Try it free at staffkin.com"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Sources for everything we mentioned are in the description. Thanks to Dana, and thanks for listening. New episodes every Thursday."
+    },
+    {
+     "who": "guest",
+     "text": "Take care of your people. And yourself."
+    }
+   ],
+   "visuals": [
+    "sunset",
+    "city lights night"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "WHO: Burn-out an \"occupational phenomenon\": International Classification of Diseases (28 May 2019)",
+   "url": "https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases"
+  },
+  {
+   "label": "WHO and ILO: Call for new measures to tackle mental health issues at work (28 Sept 2022)",
+   "url": "https://www.who.int/news/item/28-09-2022-who-and-ilo-call-for-new-measures-to-tackle-mental-health-issues-at-work"
+  },
+  {
+   "label": "Freudenberger, H. J. (1974). Staff Burn-Out. Journal of Social Issues, 30(1), 159-165",
+   "url": "https://doi.org/10.1111/j.1540-4560.1974.tb00706.x"
+  },
+  {
+   "label": "History News Network: Burnout used to refer to the problems of the... (Freudenberger and the St. Mark's Free Clinic)",
+   "url": "https://historynewsnetwork.org/article/184698"
+  },
+  {
+   "label": "Wikipedia: Herbert Freudenberger (birth year, free clinic work)",
+   "url": "https://en.wikipedia.org/wiki/Herbert_Freudenberger"
+  },
+  {
+   "label": "Wikipedia: Occupational burnout, History section (signs described in the 1974 paper)",
+   "url": "https://en.wikipedia.org/wiki/Occupational_burnout"
+  },
+  {
+   "label": "American Psychological Association: Christina Maslach, the pioneer behind burnout research",
+   "url": "https://www.apa.org/members/content/burnout-research"
+  },
+  {
+   "label": "Maslach, C. & Jackson, S. E. (1981). The measurement of experienced burnout. Journal of Occupational Behaviour, 2(2), 99-113",
+   "url": "https://doi.org/10.1002/job.4030020205"
+  },
+  {
+   "label": "Maslach, C. & Leiter, M. P. (2016). Understanding the burnout experience. World Psychiatry, 15(2) (author affiliations)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4911781/"
+  },
+  {
+   "label": "Leiter, M. P. & Maslach, C. (2003). Areas of worklife: A structured approach to organizational predictors of job burnout",
+   "url": "https://www.emerald.com/insight/content/doi/10.1016/S1479-3555(03)03003-8/full/html"
+  },
+  {
+   "label": "UC Berkeley Research: Burned out? Berkeley expert's book offers roadmap to a better workplace (The Burnout Challenge)",
+   "url": "https://vcresearch.berkeley.edu/news/burned-out-berkeley-experts-book-offers-roadmap-better-workplace"
+  },
+  {
+   "label": "Bianchi, Swingler & Schonfeld (2024). Burnout: Fifty Years Later. Workplace Health & Safety",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11323411/"
+  },
+  {
+   "label": "Canadian Psychological Association: Psychology Works fact sheet, Workplace Burnout (2021)",
+   "url": "https://cpa.ca/docs/File/Publications/FactSheets/FS_WorkplaceBurnout_EN_2021.pdf"
+  },
+  {
+   "label": "Mayo Clinic: Job burnout, how to spot it and take action",
+   "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642"
+  },
+  {
+   "label": "Statistics Canada: Work-related stress most often caused by heavy workloads and work-life balance (June 2023)",
+   "url": "https://www.statcan.gc.ca/o1/en/node/3892"
+  },
+  {
+   "label": "Mental Health Commission of Canada: National Standard for Psychological Health and Safety in the Workplace",
+   "url": "https://mentalhealthcommission.ca/workplace-standard/"
+  },
+  {
+   "label": "CSA Group: CAN/CSA-Z1003-13/BNQ 9700-803/2013 (R2022)",
+   "url": "https://www.csagroup.org/store/product/2421865/"
+  },
+  {
+   "label": "Standards Council of Canada: Notice of intent, CSA/ASC Z1003 new edition",
+   "url": "https://scc-ccn.ca/standards/notices-of-intent/csa-group/psychological-health-and-safety-workplace"
+  },
+  {
+   "label": "Government of Nova Scotia, Labour Standards: Vacation time and vacation pay",
+   "url": "https://novascotia.ca/lae/employmentrights/vacationleavepay.asp"
+  },
+  {
+   "label": "Government of Nova Scotia: New sick note rules effective July 1 (30 June 2023)",
+   "url": "https://news.novascotia.ca/en/2023/06/30/new-sick-note-rules-effective-july-1"
+  },
+  {
+   "label": "Government of Nova Scotia, Labour Standards: Stronger Workplaces for Nova Scotia Act changes (sick leave, serious illness leave)",
+   "url": "https://novascotia.ca/lae/employmentrights/workplaces-legislation-changes.asp"
+  },
+  {
+   "label": "Retail Council of Canada: Nova Scotia delays new unpaid sick leave law to January 1, 2025",
+   "url": "https://www.retailcouncil.org/nova-scotia-delays-new-unpaid-sick-leave-law/"
+  },
+  {
+   "label": "Opening Minds (Mental Health Commission of Canada): Employee assistance programs and mental health",
+   "url": "https://openingminds.org/blogs/employee-assistance-programs-and-mental-health"
+  },
+  {
+   "label": "Government of Nova Scotia: Mental health and wellbeing (crisis line 1-888-429-8167, 811)",
+   "url": "https://novascotia.ca/mental-health/"
+  },
+  {
+   "label": "9-8-8 Suicide Crisis Helpline",
+   "url": "https://988.ca/"
+  },
+  {
+   "label": "Public Health Agency of Canada: Government of Canada launches three-digit suicide crisis helpline (30 Nov 2023)",
+   "url": "https://www.canada.ca/en/public-health/news/2023/11/government-of-canada-launches-three-digit-suicide-crisis-helpline.html"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "The man who named burnout",
+   "from": [
+    0,
+    0
+   ],
+   "to": [
+    0,
+    2
+   ],
+   "caption": "In 1971 a psychologist couldn't get out of bed. He called it burnout. #burnout #workplace #management"
+  },
+  {
+   "title": "Stress or burnout? The difference",
+   "from": [
+    2,
+    12
+   ],
+   "to": [
+    2,
+    13
+   ],
+   "caption": "Stress feels like too much. Burnout feels like nothing left. #burnout #workplacementalhealth #management"
+  },
+  {
+   "title": "Your best employee suddenly slips",
+   "from": [
+    4,
+    1
+   ],
+   "to": [
+    4,
+    3
+   ],
+   "caption": "Before you write them up, ask what happened to the job. #burnout #smallbusiness #management"
+  },
+  {
+   "title": "The hero who never takes vacation",
+   "from": [
+    4,
+    9
+   ],
+   "to": [
+    4,
+    13
+   ],
+   "caption": "If everything falls over when one person is away, that's a design problem. #burnout #smallbusiness #leadership"
+  },
+  {
+   "title": "What not to say to a burned-out employee",
+   "from": [
+    6,
+    4
+   ],
+   "to": [
+    6,
+    7
+   ],
+   "caption": "Don't diagnose. Describe what you saw, and fix the job too. #burnout #management #workplace"
+  }
+ ]
 }

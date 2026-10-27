@@ -1,916 +1,1052 @@
 {
-  "brand": "keegix",
-  "episode": 1,
-  "slug": "keegix-ep01-str-rules-2026",
-  "air_date": "2026-11-03",
-  "title": "Short-Term Rental Rules in 2026: What's Changing and How It's Enforced | Keegix Podcast",
-  "card_title": "Short-term rental rules in 2026",
-  "guest": {
-    "name": "Rowan",
-    "role": "AI character · B&B owner, 20 years",
-    "voice": "bm_george"
+ "brand": "keegix",
+ "episode": 1,
+ "slug": "keegix-ep01-str-rules-2026",
+ "air_date": "2026-11-03",
+ "title": "Short-Term Rental Rules in 2026: What's Changing and How It's Enforced | Keegix Podcast",
+ "card_title": "Short-term rental rules in 2026",
+ "guest": {
+  "name": "Rowan",
+  "role": "B&B owner, 20 years",
+  "voice": "bm_george"
+ },
+ "description": "Airbnb's new house rules policy (from Nov 20, 2026), how short-term rental rules are enforced in Nova Scotia, Halifax, Toronto, Ottawa, B.C., Quebec, New York City, Spain and the EU, and the safety basics hosts are expected to cover.\nPlus a five-step to-do list for hosts this month.\nHosts and guests on this show are AI voices. Facts are sourced below. Rowan is a fictional AI character, not a real person.\nRules are as of October 2026, vary by city and province, and change. Not legal advice.\nFree house rules checker: keegix.com/airbnb-house-rules · Start free for one property: keegix.com/start",
+ "tags": [
+  "short term rental rules",
+  "airbnb rules 2026",
+  "airbnb house rules",
+  "airbnb checkout chores",
+  "short term rental registration",
+  "nova scotia short term rental",
+  "toronto short term rental",
+  "bc short term rental registry",
+  "quebec registration number",
+  "airbnb host tips",
+  "b&b owner",
+  "short term rental safety checklist"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "broll": null,
+   "lines": [
+    {
+     "who": "host",
+     "text": "For Airbnb reservations booked from November twentieth, asking guests to strip the beds or wash the dishes at checkout is generally not allowed. And the listing editor is already flagging it."
+    },
+    {
+     "who": "guest",
+     "text": "And it isn't only the platforms tightening up. In Nova Scotia, running a short term rental without registering can bring fines of up to one hundred thousand dollars for each year. In Toronto, your registration number has to appear on every listing and every ad.",
+     "card": {
+      "type": "stat",
+      "big": "$100,000",
+      "label": "Max fine per year for an unregistered short-term rental in Nova Scotia",
+      "source": "Province of Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So today, we're going through what's changing, how it actually gets enforced, and what to do about it this month."
+    }
+   ],
+   "visuals": [
+    "unmade bed",
+    "bed sheets",
+    "laundry basket",
+    "dishes sink"
+   ]
   },
-  "description": "Airbnb's new house rules policy (from Nov 20, 2026), how short-term rental rules are enforced in Nova Scotia, Halifax, Toronto, Ottawa, B.C., Quebec, New York City, Spain and the EU, and the safety basics hosts are expected to cover.\nPlus a five-step to-do list for hosts this month.\nHosts and guests on this show are AI voices. Facts are sourced below. Rowan is a fictional AI character, not a real person.\nRules are as of October 2026, vary by city and province, and change. Not legal advice.\nFree house rules checker: keegix.com/airbnb-house-rules · Start free for one property: keegix.com/start",
-  "tags": [
-    "short term rental rules",
-    "airbnb rules 2026",
-    "airbnb house rules",
-    "airbnb checkout chores",
-    "short term rental registration",
-    "nova scotia short term rental",
-    "toronto short term rental",
-    "bc short term rental registry",
-    "quebec registration number",
-    "airbnb host tips",
-    "b&b owner",
-    "short term rental safety checklist"
-  ],
-  "segments": [
+  {
+   "heading": "Intro",
+   "broll": "cottage porch",
+   "lines": [
     {
-      "heading": "Cold open",
-      "broll": null,
-      "lines": [
-        {
-          "who": "host",
-          "text": "For Airbnb reservations booked from November twentieth, asking guests to strip the beds or wash the dishes at checkout is generally not allowed. And the listing editor is already flagging it."
-        },
-        {
-          "who": "guest",
-          "text": "And it isn't only the platforms tightening up. In Nova Scotia, running a short term rental without registering can bring fines of up to one hundred thousand dollars for each year. In Toronto, your registration number has to appear on every listing and every ad.",
-          "card": {
-            "type": "stat",
-            "big": "$100,000",
-            "label": "Max fine per year for an unregistered short-term rental in Nova Scotia",
-            "source": "Province of Nova Scotia"
-          }
-        },
-        {
-          "who": "host",
-          "text": "So today, we're going through what's changing, how it actually gets enforced, and what to do about it this month."
-        }
-      ]
+     "who": "host",
+     "text": "Welcome to the Keegix Podcast, a weekly show about running a B and B, a cottage, or a short term rental. I'm June. Every fact we use is sourced in the description.",
+     "card": "clear"
     },
     {
-      "heading": "Intro",
-      "broll": "cottage porch",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Welcome to the Keegix Podcast, a weekly show about running a B and B, a cottage, or a short term rental. I'm June, your A I host. Everyone you hear on this show is an A I voice, and the facts we use are sourced in the description.",
-          "card": "clear"
-        },
-        {
-          "who": "host",
-          "text": "This is episode one, and we're starting with rules. We'll cover Airbnb's new house rules policy, how cities and provinces in Canada enforce short term rental rules, a few examples from around the world, and the safety basics most hosts are expected to cover. Then we'll finish with a short list of what to do before the end of November."
-        },
-        {
-          "who": "host",
-          "text": "My guest is Rowan. Rowan is an A I character we built to play a B and B owner with twenty years behind the desk. Not a real person, and not a lawyer. Just a practical voice for the host's side of things. Welcome, Rowan.",
-          "card": {
-            "type": "point",
-            "text": "Rowan is an AI character playing a B&B owner. Not a real person."
-          }
-        },
-        {
-          "who": "guest",
-          "text": "Thanks, June. And I'll say it up front, since we're talking rules all episode. Everything here is as of October twenty twenty six. Rules vary a lot by city and province, and they change. Use this as a map, then check your own city's page."
-        },
-        {
-          "who": "host",
-          "text": "Good. Let's start with the one most hosts are hearing about right now."
-        }
-      ]
+     "who": "host",
+     "text": "This is episode one, and we're starting with rules. We'll cover Airbnb's new house rules policy, how cities and provinces in Canada enforce short term rental rules, a few examples from around the world, and the safety basics most hosts are expected to cover. Then we'll finish with a short list of what to do before the end of November."
     },
     {
-      "heading": "Airbnb's new house rules policy explained",
-      "broll": "house keys",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Rowan, Airbnb started rolling this out on October twentieth. What actually changes?"
-        },
-        {
-          "who": "guest",
-          "text": "The new house rules policy applies to reservations booked on or after November twentieth, twenty twenty six. The big shift is that Airbnb now splits what you tell guests into two buckets. House rules, which guests have to follow. And requests, which guests are encouraged to follow, but which aren't binding.",
-          "card": {
-            "type": "rule",
-            "title": "Airbnb",
-            "text": "New house rules policy applies to reservations booked on or after Nov 20, 2026.",
-            "source": "Airbnb Help Centre",
-            "as_of": "Oct 2026"
-          }
-        },
-        {
-          "who": "host",
-          "text": "So what counts as a house rule now?"
-        },
-        {
-          "who": "guest",
-          "text": "There are seven standard ones. Maximum overnight guests. Quiet hours. Events. Pets, including whether they're allowed and how many. Smoking, which covers vaping and e cigarettes. Commercial photography and filming. And lock up at checkout, with optional details about where to return the keys.",
-          "card": {
-            "type": "stat",
-            "big": "7",
-            "label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
-            "source": "Airbnb Resource Centre"
-          }
-        },
-        {
-          "who": "host",
-          "text": "That's a short list. Where does everything else go?"
-        },
-        {
-          "who": "guest",
-          "text": "Into requests. Those are the things you'd like guests to do during the stay or before they leave. And this is where the checkout chores come in."
-        },
-        {
-          "who": "host",
-          "text": "Which checkout chores can hosts still ask Airbnb guests to do?"
-        },
-        {
-          "who": "guest",
-          "text": "Airbnb's examples of requests that are generally allowed are pretty light. Put used dishes in the sink. Gather used towels. Separate trash and recycling into the bins inside. Turn off the air conditioning when you leave.",
-          "card": {
-            "type": "list",
-            "title": "Generally allowed requests",
-            "items": [
-              "Used dishes in the sink",
-              "Gather used towels",
-              "Sort trash into indoor bins",
-              "Air conditioning off when leaving"
-            ],
-            "source": "Airbnb"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And what's not allowed?"
-        },
-        {
-          "who": "guest",
-          "text": "Washing and putting away dishes. Stripping the beds or starting laundry. Taking garbage off site. And asking guests not to use an amenity you advertised, like the air conditioning. Airbnb's thinking is simple. If it's a job a cleaner would normally do, it shouldn't land on the guest.",
-          "card": {
-            "type": "list",
-            "title": "Generally not allowed",
-            "items": [
-              "Washing and putting away dishes",
-              "Stripping beds or starting laundry",
-              "Taking garbage off site",
-              "Avoiding an advertised amenity"
-            ],
-            "source": "Airbnb"
-          }
-        },
-        {
-          "who": "host",
-          "text": "I can hear some hosts groaning. Especially in small places where the host is the cleaner."
-        },
-        {
-          "who": "guest",
-          "text": "I get it. In a small B and B, you are the cleaner. But picture the guest's side. They paid a cleaning fee, then they spend their last hour on your sheets. Airbnb's own explanation is that surprise chores hurt the stay, and they hurt the reviews."
-        },
-        {
-          "who": "host",
-          "text": "So say your cottage is on a septic system, and you don't want wipes flushed. Is that a rule or a request?"
-        },
-        {
-          "who": "guest",
-          "text": "It isn't one of the seven standard rules, so it goes in requests. Write it plainly and say why. Please don't flush wipes, the cottage is on a septic system. Guests follow a request much more often when they understand the reason."
-        },
-        {
-          "who": "host",
-          "text": "Are there exceptions?"
-        },
-        {
-          "who": "guest",
-          "text": "A few, and they're sensible. Airbnb says what's reasonable depends on the listing type, the stay, and local factors. Its examples are limiting shower time during local drought restrictions, and asking guests to use animal proof trash bins in bear country. Those are about the place, not about saving the host some labour."
-        },
-        {
-          "who": "host",
-          "text": "What about a rule that comes from your condo board or the town? Say, no parking on the street overnight."
-        },
-        {
-          "who": "guest",
-          "text": "Airbnb lets you give notice of local rules that could lead to fines from a homeowners association, building security, or local government. You put that in the designated section of the listing. You're not fining the guest. You're warning them about someone else's rule."
-        },
-        {
-          "who": "host",
-          "text": "Can a sign by the door still add a new rule for Airbnb guests?"
-        },
-        {
-          "who": "guest",
-          "text": "No, and this part catches a lot of hosts. All house rules and requests have to be in the section of the listing called House rules and requests. Airbnb says you can't add new ones later through messages, other parts of the listing, signs in the home, or in person.",
-          "card": {
-            "type": "point",
-            "text": "On Airbnb, rules and requests must live in the listing's House rules section."
-          }
-        },
-        {
-          "who": "host",
-          "text": "So the laminated sign in the kitchen that says strip the beds before you go."
-        },
-        {
-          "who": "guest",
-          "text": "That sign can't create a new rule. Whatever is on your signs, in your binder, or in your welcome book should match the listing. It can repeat the rules and explain them. It just shouldn't add to them."
-        },
-        {
-          "who": "host",
-          "text": "That's a good habit anyway. One set of rules, said the same way everywhere."
-        },
-        {
-          "who": "guest",
-          "text": "Exactly. If a guest reads one thing on the listing and something else on the fridge, you've already lost the argument."
-        },
-        {
-          "who": "host",
-          "text": "That's the policy as of October twenty twenty six. Check Airbnb's help centre for the latest wording before you edit. This isn't legal advice."
-        }
-      ]
+     "who": "host",
+     "text": "My guest is Rowan. Rowan plays a B and B owner with twenty years behind the desk. Not a real person, and not a lawyer. Just a practical voice for the host's side of things. Welcome, Rowan.",
+     "card": {
+      "type": "point",
+      "text": "Rowan plays a B&B owner. Not a real person."
+     }
     },
     {
-      "heading": "How Airbnb enforces house rules, fees and contracts",
-      "broll": "hotel bed",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Okay, Rowan. Say a host ignores all this and keeps strip the beds in their requests. What happens?",
-          "card": "clear"
-        },
-        {
-          "who": "guest",
-          "text": "Airbnb has laid out a ladder. First, the listing editor highlights requests that don't comply. If a host saves it anyway, they get an email with tips, and they can appeal. If it still isn't resolved, guests may see an alert on the listing, something like includes cleaning requests."
-        },
-        {
-          "who": "host",
-          "text": "That's a pretty public flag."
-        },
-        {
-          "who": "guest",
-          "text": "It is. And for persistent violations, Airbnb says it may post a notice on the listing, reduce the listing's visibility in search, or take other action under its terms of service.",
-          "card": {
-            "type": "list",
-            "title": "How Airbnb enforces it",
-            "items": [
-              "Listing editor flags the request",
-              "Email with a chance to appeal",
-              "Alert guests can see",
-              "Lower search visibility"
-            ],
-            "source": "Airbnb"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Can an Airbnb host charge a guest for skipping the checkout list?"
-        },
-        {
-          "who": "guest",
-          "text": "No. Airbnb's ground rules for guests say cleaning fees cover standard cleaning, and hosts may not charge guests fees for failing to do specific cleaning or checkout tasks. You can still leave an honest review about cleanliness."
-        },
-        {
-          "who": "host",
-          "text": "And fines in general?"
-        },
-        {
-          "who": "guest",
-          "text": "The new policy says hosts can't impose fines or other penalties on guests. It also rules out charging for advertised features that weren't in the price at booking, and restricting access to anything you advertised. Fees for optional extras, like a breakfast service, can be described in your requests.",
-          "card": {
-            "type": "point",
-            "text": "No host fines on Airbnb guests. No hidden fees for advertised features."
-          }
-        },
-        {
-          "who": "host",
-          "text": "So if a guest actually causes damage?"
-        },
-        {
-          "who": "guest",
-          "text": "Talk to the guest, document it, and request reimbursement through Airbnb's Resolution Centre. That's the route Airbnb wants for damage, rather than a fine written into your house rules."
-        },
-        {
-          "who": "host",
-          "text": "Let's talk paperwork. A lot of hosts send a rental agreement, or ask for a photo of the guest's identification."
-        },
-        {
-          "who": "guest",
-          "text": "Generally, not anymore. Airbnb says hosts may not require separate contracts or ask for personal information like government identification, unless the law requires it or it's one of a few allowed cases. For contracts, those cases include legal requirements, homeowners association rules, monthly stays, Airbnb Luxe listings, and optional amenities, like a golf cart.",
-          "card": {
-            "type": "rule",
-            "title": "Airbnb contracts",
-            "text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
-            "source": "Airbnb Resource Centre",
-            "as_of": "Oct 2026"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And if a guest breaks one of the real house rules?"
-        },
-        {
-          "who": "guest",
-          "text": "Then you have some backing. Airbnb says a host can cancel without fees or other consequences if a guest breaks a house rule during the stay, or says before check in that they plan to. That's a good reason to put the rules that matter most, like your guest limit, into the standard rules and not just a paragraph of text."
-        },
-        {
-          "who": "host",
-          "text": "That's the part people miss. The rules you can lean on are the short list."
-        },
-        {
-          "who": "guest",
-          "text": "Short, clear, and in the right box."
-        },
-        {
-          "who": "host",
-          "text": "Again, this is as of October twenty twenty six, and Airbnb can update these pages. This isn't legal advice."
-        },
-        {
-          "who": "host",
-          "text": "Quick word from the people who make this show. Keegix builds a digital welcome book for hosts, a page guests open from a Q R code sign by the door, with check in, wifi, house rules and the checkout list. If you want a second look at your wording before November twentieth, there's a free house rules checker at keegix dot com that flags requests that look like the chores we just talked about.",
-          "card": {
-            "type": "point",
-            "text": "Free house rules checker: keegix.com/airbnb-house-rules"
-          }
-        }
-      ]
+     "who": "guest",
+     "text": "Thanks, June. And I'll say it up front, since we're talking rules all episode. Everything here is as of October twenty twenty six. Rules vary a lot by city and province, and they change. Use this as a map, then check your own city's page."
     },
     {
-      "heading": "How Canada enforces short-term rental rules: Nova Scotia, Halifax, Toronto, Ottawa",
-      "broll": "city skyline",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Let's move from the platform to the government. Rowan, when people say a city is cracking down, what does that actually look like?",
-          "card": "clear"
-        },
-        {
-          "who": "guest",
-          "text": "Most of it comes down to a few tools. A registration number you have to get and show on every listing. A principal residence rule, meaning you can only rent out the home you actually live in. Sometimes a cap on nights. Fines. And more and more, the platforms themselves have to check numbers and take listings down.",
-          "card": {
-            "type": "list",
-            "title": "The enforcement toolkit",
-            "items": [
-              "Registration number on listings",
-              "Principal residence rules",
-              "Night caps and fines",
-              "Platform checks and takedowns"
-            ]
-          }
-        },
-        {
-          "who": "host",
-          "text": "Start close to home. Nova Scotia."
-        },
-        {
-          "who": "guest",
-          "text": "Nova Scotia has a provincial registry. If you rent a place for twenty eight days in a row or less, you have to register before you operate. That covers short term rentals and traditional places like B and Bs, cottages, even yurts. Each location needs its own registration number, and you renew every year by April first."
-        },
-        {
-          "who": "host",
-          "text": "Say someone buys a cottage this fall that the last owner already rented out. Can they keep using that number?"
-        },
-        {
-          "who": "guest",
-          "text": "No. The province says a registration can't be transferred to a new owner. The new owner has to register before operating. And the province says to expect two to three weeks to get a number, sometimes longer, so don't leave it until the week before your first booking."
-        },
-        {
-          "who": "host",
-          "text": "What does it cost?"
-        },
-        {
-          "who": "guest",
-          "text": "It depends on the type. A primary residence short term rental is fifty dollars a year. A commercial short term rental is two thousand dollars in the busiest tier, which includes Halifax and Dartmouth, five hundred in most other communities, and two hundred and forty in a handful of smaller towns.",
-          "card": {
-            "type": "stat",
-            "big": "$50 to $2,000",
-            "label": "Nova Scotia's yearly registration fee, by type and location",
-            "source": "Province of Nova Scotia"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And how is it enforced?"
-        },
-        {
-          "who": "guest",
-          "text": "The regulations say any online ad for your place has to include your registration number, and platforms have to make sure postings show a valid one. Platforms also have to remove an ad when the minister asks, and share their records on request. On the penalty side, the province lists fines of up to one hundred thousand dollars for each year a place isn't registered. There are also administrative penalties of two thousand dollars for a first offence, four thousand for a second, and eight thousand after that.",
-          "card": {
-            "type": "rule",
-            "title": "Nova Scotia",
-            "text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
-            "source": "N.S. Short-term Rentals Registration Regulations",
-            "as_of": "Oct 2026"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Halifax adds its own layer, right?"
-        },
-        {
-          "who": "guest",
-          "text": "Yes. Since September twenty twenty three, in Halifax's residential zones, short term rentals are only allowed in the owner's primary residence. You can rent out the whole home while you're away, but a basement apartment or a backyard suite has to be rented for more than twenty eight days. Commercial and mixed use zones are different, so check the zoning for your address."
-        },
-        {
-          "who": "host",
-          "text": "What are Toronto's short term rental rules?"
-        },
-        {
-          "who": "guest",
-          "text": "You register with the city, it has to be your principal residence, and since you only have one of those, you can only run one short term rental. If you rent the entire unit, there's a cap of one hundred and eighty nights a year. Renting up to three bedrooms while you live there has no night cap. The registration fee is three hundred and ninety dollars.",
-          "card": {
-            "type": "stat",
-            "big": "180 nights",
-            "label": "Toronto's yearly cap for renting out an entire unit",
-            "source": "City of Toronto"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And the number has to show up everywhere?"
-        },
-        {
-          "who": "guest",
-          "text": "On every listing and ad, plus related invoices and receipts. Your listing's name and address must match exactly. Toronto's set fines include one thousand dollars for not registering or advertising an unregistered rental, and seven hundred dollars for going over the night cap. If it goes to court, fines can reach one hundred thousand dollars."
-        },
-        {
-          "who": "host",
-          "text": "And Ottawa?"
-        },
-        {
-          "who": "guest",
-          "text": "Ottawa uses a host permit. You need one to rent your principal residence, or part of it, for fewer than thirty nights in a row. Every listing has to show your permit number and the maximum number of overnight guests, and hosts can only list on platforms that are registered with the city. Rural cottages have their own separate permit.",
-          "card": {
-            "type": "rule",
-            "title": "Ottawa",
-            "text": "Listings must show the host permit number and maximum overnight guests.",
-            "source": "City of Ottawa",
-            "as_of": "Oct 2026"
-          }
-        },
-        {
-          "who": "host",
-          "text": "All of that is as of October twenty twenty six, and every one of these cities can change its rules. Check your city and province before you list. This isn't legal advice."
-        }
-      ]
-    },
-    {
-      "heading": "BC, Quebec and the world: registration numbers and platform takedowns",
-      "broll": "apartment building",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Now let's look at places where the platform does a lot of the enforcing. British Columbia first.",
-          "card": "clear"
-        },
-        {
-          "who": "guest",
-          "text": "B C runs a provincial registry. Since May first, twenty twenty five, hosts have had to show their provincial registration number on listings, along with a local business licence number where one is required. The yearly fee is one hundred dollars if you live in the rental, and four hundred and fifty if you don't."
-        },
-        {
-          "who": "host",
-          "text": "And the principal residence rule?"
-        },
-        {
-          "who": "guest",
-          "text": "In some parts of the province, short term rentals are limited to the host's principal residence, plus one secondary suite or accessory dwelling unit on the same property. Other areas don't apply it. The province has a map, so look up your address."
-        },
-        {
-          "who": "host",
-          "text": "Where do the platforms come in?"
-        },
-        {
-          "who": "guest",
-          "text": "This is the strict part. Larger platforms have to validate registration numbers every day through the registry. If a listing fails, the platform has to stop advertising it, block new bookings, and cancel existing ones. Platforms also send monthly data reports, including host names, addresses and booking history, and local governments can get that data for bylaw enforcement.",
-          "card": {
-            "type": "rule",
-            "title": "British Columbia",
-            "text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
-            "source": "Government of B.C.",
-            "as_of": "Oct 2026"
-          }
-        },
-        {
-          "who": "host",
-          "text": "So nobody has to knock on your door."
-        },
-        {
-          "who": "guest",
-          "text": "Right. The listing just disappears. And if a local government asks for a takedown after giving notice, the platform has five days to act."
-        },
-        {
-          "who": "host",
-          "text": "Quebec?"
-        },
-        {
-          "who": "guest",
-          "text": "Quebec is very specific about display. Every ad has to show the registration number, which is six digits. On a booking platform, the certificate's expiry date has to show too. And the registration certificate itself has to be displayed at the main entrance, where guests can see it."
-        },
-        {
-          "who": "host",
-          "text": "What are the fines like?"
-        },
-        {
-          "who": "guest",
-          "text": "For an individual, leaving the number out of an ad is one thousand to ten thousand dollars. Operating without registration is two thousand five hundred to twenty five thousand. A platform company that publishes a listing without a number faces up to one hundred thousand dollars. Quebec also expects hosts to carry liability insurance of at least two million dollars per event.",
-          "card": {
-            "type": "stat",
-            "big": "$100,000",
-            "label": "Max fine for a platform company publishing a Quebec listing without a number",
-            "source": "Gouvernement du Québec"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Let's go global. New York City is the one everyone mentions."
-        },
-        {
-          "who": "guest",
-          "text": "Under New York's Local Law eighteen, hosts register with the city's Office of Special Enforcement. A short term rental is only legal if the host lives in the same unit with the guests, and there's a limit of two guests, not counting children under four. Since September twenty twenty three, booking platforms can't process transactions for unregistered rentals.",
-          "card": {
-            "type": "rule",
-            "title": "New York City",
-            "text": "Host must live in the unit with guests. Maximum two guests, not counting children under 4.",
-            "source": "NYC Office of Special Enforcement",
-            "as_of": "Oct 2026"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Spain?"
-        },
-        {
-          "who": "guest",
-          "text": "Spain built a single national registry. Since July first, twenty twenty five, tourist and seasonal rentals need a registration code to advertise on platforms. In February twenty twenty six, the housing ministry ordered the removal of more than eighty six thousand ads for properties that didn't meet the requirements.",
-          "card": {
-            "type": "stat",
-            "big": "86,275",
-            "label": "Rental ads Spain's housing ministry ordered removed, Feb 2026",
-            "source": "The Local Spain"
-          }
-        },
-        {
-          "who": "host",
-          "text": "And Barcelona went further."
-        },
-        {
-          "who": "guest",
-          "text": "Barcelona announced in June twenty twenty four that it plans not to renew its roughly ten thousand tourist apartment licences when they come up in November twenty twenty eight. That one is worth watching for updates."
-        },
-        {
-          "who": "host",
-          "text": "And the European Union?"
-        },
-        {
-          "who": "guest",
-          "text": "The European Union's short term rental data regulation started applying on May twentieth, twenty twenty six. It sets common standards for countries that use host registration. Platforms verify registration numbers and send activity data to public authorities every month.",
-          "card": {
-            "type": "history",
-            "year": "2026",
-            "text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
-          }
-        },
-        {
-          "who": "host",
-          "text": "So the pattern really is the same everywhere."
-        },
-        {
-          "who": "guest",
-          "text": "Get a number, show the number, and expect the platform to check the number. If you host in more than one place, keep one list with every registration and every renewal date."
-        },
-        {
-          "who": "host",
-          "text": "All as of October twenty twenty six. These rules vary and they change. This isn't legal advice."
-        }
-      ]
-    },
-    {
-      "heading": "Short-term rental safety checklist: alarms, extinguishers, first aid",
-      "broll": "smoke alarm",
-      "lines": [
-        {
-          "who": "host",
-          "text": "Let's get practical. Safety. What are hosts commonly expected to have?",
-          "card": "clear"
-        },
-        {
-          "who": "guest",
-          "text": "Start with alarms. Ontario's fire marshal guidance for short term rentals says working smoke alarms and carbon monoxide alarms should be outside each sleeping area and on every storey. Local rules may require more, so check with your fire department."
-        },
-        {
-          "who": "host",
-          "text": "Does Airbnb require them?"
-        },
-        {
-          "who": "guest",
-          "text": "Airbnb strongly urges hosts to have smoke and carbon monoxide alarms, test them regularly, and keep the safety devices section of the listing up to date. If your place only has electric appliances and no attached garage, you can mark that a carbon monoxide alarm isn't needed. Guests see that section, so keep it accurate."
-        },
-        {
-          "who": "host",
-          "text": "What should be on a short term rental safety checklist, beyond alarms?"
-        },
-        {
-          "who": "guest",
-          "text": "A good model is the self check list the District of Squamish in B C gives its short term rental operators. Test smoke and carbon monoxide alarms monthly and keep a log. Replace smoke alarms before they're ten years old. Have a fire extinguisher mounted and serviced every year. Keep a level one first aid kit on hand. And post a fire safety plan near the exits, plus emergency contact information.",
-          "card": {
-            "type": "list",
-            "title": "A common safety checklist",
-            "items": [
-              "Alarms tested monthly, logged",
-              "Extinguisher mounted, serviced yearly",
-              "First aid kit on hand",
-              "Emergency info posted"
-            ],
-            "source": "District of Squamish"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Posting emergency information comes up a lot."
-        },
-        {
-          "who": "guest",
-          "text": "It does, and in Toronto it's required. Since June twenty twenty four, operators there have had to post emergency contact information and exit diagrams in the rental."
-        },
-        {
-          "who": "host",
-          "text": "Does anyone actually come and check?"
-        },
-        {
-          "who": "guest",
-          "text": "In Toronto, yes. The city started annual compliance inspections in twenty twenty five, and the operator has to be there.",
-          "card": {
-            "type": "rule",
-            "title": "Toronto",
-            "text": "Post emergency contact information and exit diagrams inside the rental.",
-            "source": "City of Toronto",
-            "as_of": "Oct 2026"
-          }
-        },
-        {
-          "who": "host",
-          "text": "What would you put on that emergency page?"
-        },
-        {
-          "who": "guest",
-          "text": "The full civic address, because that's what you give emergency services. Your phone number and a backup contact. Where the extinguisher, the first aid kit and the main water shutoff are. And the two ways out of every room, which the Ontario guidance also stresses. Doors and windows to the outside should open easily."
-        },
-        {
-          "who": "host",
-          "text": "Say a guest arrives late at night at a cottage on a dirt road. What do they need most?"
-        },
-        {
-          "who": "guest",
-          "text": "The address, the nearest hospital, and a number that will actually get answered. Put it in two places. On paper by the door, and on whatever they can open on their phone. And one tip for barbecues, since cottages love them. The Squamish list says keep them at least one metre from anything that can burn."
-        },
-        {
-          "who": "host",
-          "text": "As always, your local fire code decides what's required where you are. This isn't legal advice."
-        }
-      ]
-    },
-    {
-      "heading": "Recap: what hosts should do this month",
-      "broll": null,
-      "lines": [
-        {
-          "who": "host",
-          "text": "Let's turn all of this into a to do list for the next few weeks. Rowan, number one.",
-          "card": "clear"
-        },
-        {
-          "who": "guest",
-          "text": "Before November twentieth, open the House rules and requests section of your Airbnb listing. Move your must have rules into the seven standard rules, and cut any chores a cleaner should be doing.",
-          "card": {
-            "type": "list",
-            "title": "This month",
-            "items": [
-              "Fix Airbnb house rules by Nov 20",
-              "Match signs to your listing",
-              "Show your registration number",
-              "Test alarms, post emergency info"
-            ]
-          }
-        },
-        {
-          "who": "host",
-          "text": "Two."
-        },
-        {
-          "who": "guest",
-          "text": "Make your signs, your binder and your welcome book match the listing. They can repeat the rules, but they can't add new ones."
-        },
-        {
-          "who": "host",
-          "text": "Three."
-        },
-        {
-          "who": "guest",
-          "text": "Find your registration or permit number. Check that it's on every listing and ad, and put the renewal date in your calendar. In Nova Scotia, that's April first."
-        },
-        {
-          "who": "host",
-          "text": "Four."
-        },
-        {
-          "who": "guest",
-          "text": "Check whether a principal residence rule applies to your address, especially if you rent out a suite or a second property."
-        },
-        {
-          "who": "host",
-          "text": "And five."
-        },
-        {
-          "who": "guest",
-          "text": "Walk through the place with a safety checklist. Test the alarms, check the extinguisher and the first aid kit, and post the emergency page by the door."
-        }
-      ]
-    },
-    {
-      "heading": "Outro",
-      "broll": null,
-      "lines": [
-        {
-          "who": "host",
-          "text": "That's episode one of the Keegix Podcast. If you'd like your house rules, checkout list and emergency information in one page guests can open on their phone, you can start free for one property at keegix dot com slash start.",
-          "card": {
-            "type": "point",
-            "text": "Start free for one property: keegix.com/start"
-          }
-        },
-        {
-          "who": "host",
-          "text": "Sources for every rule and number we mentioned are in the description. Thanks to Rowan, our A I character, for the host's view."
-        },
-        {
-          "who": "guest",
-          "text": "Thanks, June. Check your city's page, and happy hosting."
-        },
-        {
-          "who": "host",
-          "text": "New episodes every Tuesday. See you next week."
-        }
-      ]
+     "who": "host",
+     "text": "Good. Let's start with the one most hosts are hearing about right now."
     }
-  ],
-  "sources": [
+   ],
+   "visuals": [
+    "cottage porch",
+    "bed and breakfast",
+    "guest house",
+    "cabin lake"
+   ]
+  },
+  {
+   "heading": "Airbnb's new house rules policy explained",
+   "broll": "house keys",
+   "lines": [
     {
-      "label": "Airbnb Help Centre: Reasonable house rules and requests",
-      "url": "https://www.airbnb.com/help/article/4168"
+     "who": "host",
+     "text": "Rowan, Airbnb started rolling this out on October twentieth. What actually changes?"
     },
     {
-      "label": "Airbnb Resource Centre: Important changes to house rules",
-      "url": "https://www.airbnb.ca/resources/hosting-homes/a/important-changes-to-house-rules-21"
+     "who": "guest",
+     "text": "The new house rules policy applies to reservations booked on or after November twentieth, twenty twenty six. The big shift is that Airbnb now splits what you tell guests into two buckets. House rules, which guests have to follow. And requests, which guests are encouraged to follow, but which aren't binding.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb",
+      "text": "New house rules policy applies to reservations booked on or after Nov 20, 2026.",
+      "source": "Airbnb Help Centre",
+      "as_of": "Oct 2026"
+     }
     },
     {
-      "label": "Airbnb Help Centre: Ground rules for guests",
-      "url": "https://www.airbnb.ca/help/article/2894"
+     "who": "host",
+     "text": "So what counts as a house rule now?"
     },
     {
-      "label": "Airbnb Help Centre: Smoke and carbon monoxide alarms",
-      "url": "https://www.airbnb.ca/help/article/514"
+     "who": "guest",
+     "text": "There are seven standard ones. Maximum overnight guests. Quiet hours. Events. Pets, including whether they're allowed and how many. Smoking, which covers vaping and e cigarettes. Commercial photography and filming. And lock up at checkout, with optional details about where to return the keys.",
+     "card": {
+      "type": "stat",
+      "big": "7",
+      "label": "Standard house rules Airbnb hosts can set, from guest limits to lock-up at checkout",
+      "source": "Airbnb Resource Centre"
+     }
     },
     {
-      "label": "Skift: Airbnb's new policy for hosts (Oct 21, 2026)",
-      "url": "https://skift.com/2026/10/21/airbnbs-new-policy-for-hosts-dont-ask-guests-to-wash-dishes-or-strip-beds/"
+     "who": "host",
+     "text": "That's a short list. Where does everything else go?"
     },
     {
-      "label": "Province of Nova Scotia: Register your short-term accommodation",
-      "url": "https://www.novascotia.ca/register-your-short-term-accommodation"
+     "who": "guest",
+     "text": "Into requests. Those are the things you'd like guests to do during the stay or before they leave. And this is where the checkout chores come in."
     },
     {
-      "label": "Nova Scotia Short-term Rentals Registration Regulations",
-      "url": "https://novascotia.ca/JUST/regulations/regs/strentals.htm"
+     "who": "host",
+     "text": "Which checkout chores can hosts still ask Airbnb guests to do?"
     },
     {
-      "label": "CBC News: Short-term rentals now restricted in Halifax residential areas",
-      "url": "https://amp.cbc.ca/news/canada/nova-scotia/short-term-rentals-now-restricted-in-halifax-residential-areas-1.6955362"
+     "who": "guest",
+     "text": "Airbnb's examples of requests that are generally allowed are pretty light. Put used dishes in the sink. Gather used towels. Separate trash and recycling into the bins inside. Turn off the air conditioning when you leave.",
+     "card": {
+      "type": "list",
+      "title": "Generally allowed requests",
+      "items": [
+       "Used dishes in the sink",
+       "Gather used towels",
+       "Sort trash into indoor bins",
+       "Air conditioning off when leaving"
+      ],
+      "source": "Airbnb"
+     }
     },
     {
-      "label": "Global News: Halifax short-term rental regulations take effect Sept. 1, 2023",
-      "url": "https://globalnews.ca/news/9929103/halifax-short-term-rental-regulations-2"
+     "who": "host",
+     "text": "And what's not allowed?"
     },
     {
-      "label": "Halifax Regional Council: Short-term rental regulations public hearing (Case 22423)",
-      "url": "https://cdn.halifax.ca/media/81201"
+     "who": "guest",
+     "text": "Washing and putting away dishes. Stripping the beds or starting laundry. Taking garbage off site. And asking guests not to use an amenity you advertised, like the air conditioning. Airbnb's thinking is simple. If it's a job a cleaner would normally do, it shouldn't land on the guest.",
+     "card": {
+      "type": "list",
+      "title": "Generally not allowed",
+      "items": [
+       "Washing and putting away dishes",
+       "Stripping beds or starting laundry",
+       "Taking garbage off site",
+       "Avoiding an advertised amenity"
+      ],
+      "source": "Airbnb"
+     }
     },
     {
-      "label": "City of Toronto: Short-term rental operators and hosts",
-      "url": "https://www.toronto.ca/community-people/housing-shelter/rental-housing-rights-information/short-term-rentals/short-term-rental-operators-hosts/"
+     "who": "host",
+     "text": "I can hear some hosts groaning. Especially in small places where the host is the cleaner."
     },
     {
-      "label": "City of Ottawa: Short-term rentals",
-      "url": "https://ottawa.ca/en/business/permits-and-licences/short-term-rentals"
+     "who": "guest",
+     "text": "I get it. In a small B and B, you are the cleaner. But picture the guest's side. They paid a cleaning fee, then they spend their last hour on your sheets. Airbnb's own explanation is that surprise chores hurt the stay, and they hurt the reviews."
     },
     {
-      "label": "Government of B.C.: Register as a short-term rental host",
-      "url": "https://www2.gov.bc.ca/gov/content/housing-tenancy/short-term-rentals/registry/host-registration"
+     "who": "host",
+     "text": "So say your cottage is on a septic system, and you don't want wipes flushed. Is that a rule or a request?"
     },
     {
-      "label": "Government of B.C.: Platform requirements",
-      "url": "https://www2.gov.bc.ca/gov/content/housing-tenancy/short-term-rentals/registry/platform-registration/platform-requirements"
+     "who": "guest",
+     "text": "It isn't one of the seven standard rules, so it goes in requests. Write it plainly and say why. Please don't flush wipes, the cottage is on a septic system. Guests follow a request much more often when they understand the reason."
     },
     {
-      "label": "Gouvernement du Québec: Affichage (registration number display)",
-      "url": "https://www.quebec.ca/tourisme-et-loisirs/hebergement-touristique/affichage"
+     "who": "host",
+     "text": "Are there exceptions?"
     },
     {
-      "label": "Gouvernement du Québec: Infractions et amendes (offences and fines)",
-      "url": "https://www.quebec.ca/tourisme-et-loisirs/hebergement-touristique/infractions-et-amendes"
+     "who": "guest",
+     "text": "A few, and they're sensible. Airbnb says what's reasonable depends on the listing type, the stay, and local factors. Its examples are limiting shower time during local drought restrictions, and asking guests to use animal proof trash bins in bear country. Those are about the place, not about saving the host some labour."
     },
     {
-      "label": "NYC Office of Special Enforcement: What is Local Law 18",
-      "url": "https://www.nyc.gov/site/specialenforcement/hosting-STRs/what-is-local-law-18.page"
+     "who": "host",
+     "text": "What about a rule that comes from your condo board or the town? Say, no parking on the street overnight."
     },
     {
-      "label": "NYC Office of Special Enforcement: Short-term rental registration",
-      "url": "https://www.nyc.gov/site/specialenforcement/registration-law/registration.page"
+     "who": "guest",
+     "text": "Airbnb lets you give notice of local rules that could lead to fines from a homeowners association, building security, or local government. You put that in the designated section of the listing. You're not fining the guest. You're warning them about someone else's rule."
     },
     {
-      "label": "La Moncloa (Government of Spain): Registro Único de Arrendamientos",
-      "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2025/020625-campana-registro-unico-alquileres.aspx"
+     "who": "host",
+     "text": "Can a sign by the door still add a new rule for Airbnb guests?"
     },
     {
-      "label": "The Local Spain: Spain orders removal of 80,000 more short-term rental listings (Feb 2026)",
-      "url": "https://www.thelocal.es/20260204/spain-orders-removal-of-80000-more-illegally-listed-short-term-rentals"
+     "who": "guest",
+     "text": "No, and this part catches a lot of hosts. All house rules and requests have to be in the section of the listing called House rules and requests. Airbnb says you can't add new ones later through messages, other parts of the listing, signs in the home, or in person.",
+     "card": {
+      "type": "point",
+      "text": "On Airbnb, rules and requests must live in the listing's House rules section."
+     }
     },
     {
-      "label": "Catalan News: Barcelona to eliminate tourist apartments by November 2028",
-      "url": "https://catalannews.com/business/item/barcelona-eliminate-tourist-apartments-november-2028-21-june-2024"
+     "who": "host",
+     "text": "So the laminated sign in the kitchen that says strip the beds before you go."
     },
     {
-      "label": "European Commission: Common EU rules on data sharing for short-term rentals",
-      "url": "https://transition-pathways.europa.eu/construction/crosscutting-eu-policies-legislation/common-eu-rules-data-sharing-short-term"
+     "who": "guest",
+     "text": "That sign can't create a new rule. Whatever is on your signs, in your binder, or in your welcome book should match the listing. It can repeat the rules and explain them. It just shouldn't add to them."
     },
     {
-      "label": "EUR-Lex: Regulation (EU) 2024/1028",
-      "url": "https://eur-lex.europa.eu/eli/reg/2024/1028/oj"
+     "who": "host",
+     "text": "That's a good habit anyway. One set of rules, said the same way everywhere."
     },
     {
-      "label": "Ontario Fire Marshal short-term rentals handout (via Windsor Fire & Rescue)",
-      "url": "https://cdn.windsorfire.com/wp-content/uploads/WFRS-OFM-Short-Term-Rentals-Handout.pdf"
+     "who": "guest",
+     "text": "Exactly. If a guest reads one thing on the listing and something else on the fridge, you've already lost the argument."
     },
     {
-      "label": "District of Squamish: Short-term rental safety audit checklist",
-      "url": "https://squamish.ca/assets/Planning/Short-Term-Rentals/STR_Safety-Audit-Checklist.pdf"
+     "who": "host",
+     "text": "That's the policy as of October twenty twenty six. Check Airbnb's help centre for the latest wording before you edit. This isn't legal advice."
     }
-  ],
-  "shorts": [
+   ],
+   "visuals": [
+    "house keys",
+    "front door",
+    "guest bedroom",
+    "bathroom towels",
+    "dish rack",
+    "recycling bins",
+    "bear proof bin",
+    "checklist clipboard"
+   ]
+  },
+  {
+   "heading": "How Airbnb enforces house rules, fees and contracts",
+   "broll": "hotel bed",
+   "lines": [
     {
-      "title": "Airbnb's new checkout chore rules",
-      "from": [
-        2,
-        6
-      ],
-      "to": [
-        2,
-        9
-      ],
-      "caption": "Airbnb's new house rules start Nov 20, 2026: what hosts can and can't ask at checkout. #airbnbhost #shorttermrental #bnbhost"
+     "who": "host",
+     "text": "Okay, Rowan. Say a host ignores all this and keeps strip the beds in their requests. What happens?",
+     "card": "clear"
     },
     {
-      "title": "Your door sign can't add rules",
-      "from": [
-        2,
-        18
-      ],
-      "to": [
-        2,
-        21
-      ],
-      "caption": "On Airbnb, house rules now have to live in one place on the listing. #airbnbhost #houserules #shorttermrental"
+     "who": "guest",
+     "text": "Airbnb has laid out a ladder. First, the listing editor highlights requests that don't comply. If a host saves it anyway, they get an email with tips, and they can appeal. If it still isn't resolved, guests may see an alert on the listing, something like includes cleaning requests."
     },
     {
-      "title": "No more checkout fines on Airbnb",
-      "from": [
-        3,
-        4
-      ],
-      "to": [
-        3,
-        9
-      ],
-      "caption": "Cleaning fees cover standard cleaning, and fines are out. Here's what Airbnb says. #airbnbhost #bnbhost #shorttermrental"
+     "who": "host",
+     "text": "That's a pretty public flag."
     },
     {
-      "title": "Toronto's 180-night short-term rental cap",
-      "from": [
-        4,
-        12
+     "who": "guest",
+     "text": "It is. And for persistent violations, Airbnb says it may post a notice on the listing, reduce the listing's visibility in search, or take other action under its terms of service.",
+     "card": {
+      "type": "list",
+      "title": "How Airbnb enforces it",
+      "items": [
+       "Listing editor flags the request",
+       "Email with a chance to appeal",
+       "Alert guests can see",
+       "Lower search visibility"
       ],
-      "to": [
-        4,
-        15
-      ],
-      "caption": "Toronto's short-term rental rules in one minute, as of Oct 2026. Not legal advice. #toronto #airbnbhost #shorttermrental"
+      "source": "Airbnb"
+     }
     },
     {
-      "title": "The safety checklist every host needs",
-      "from": [
-        6,
-        4
-      ],
-      "to": [
-        6,
-        7
-      ],
-      "caption": "Alarms, extinguisher, first aid, emergency info. A practical checklist for hosts. #hostingtips #airbnbhost #firesafety"
+     "who": "host",
+     "text": "Can an Airbnb host charge a guest for skipping the checkout list?"
+    },
+    {
+     "who": "guest",
+     "text": "No. Airbnb's ground rules for guests say cleaning fees cover standard cleaning, and hosts may not charge guests fees for failing to do specific cleaning or checkout tasks. You can still leave an honest review about cleanliness."
+    },
+    {
+     "who": "host",
+     "text": "And fines in general?"
+    },
+    {
+     "who": "guest",
+     "text": "The new policy says hosts can't impose fines or other penalties on guests. It also rules out charging for advertised features that weren't in the price at booking, and restricting access to anything you advertised. Fees for optional extras, like a breakfast service, can be described in your requests.",
+     "card": {
+      "type": "point",
+      "text": "No host fines on Airbnb guests. No hidden fees for advertised features."
+     }
+    },
+    {
+     "who": "host",
+     "text": "So if a guest actually causes damage?"
+    },
+    {
+     "who": "guest",
+     "text": "Talk to the guest, document it, and request reimbursement through Airbnb's Resolution Centre. That's the route Airbnb wants for damage, rather than a fine written into your house rules."
+    },
+    {
+     "who": "host",
+     "text": "Let's talk paperwork. A lot of hosts send a rental agreement, or ask for a photo of the guest's identification."
+    },
+    {
+     "who": "guest",
+     "text": "Generally, not anymore. Airbnb says hosts may not require separate contracts or ask for personal information like government identification, unless the law requires it or it's one of a few allowed cases. For contracts, those cases include legal requirements, homeowners association rules, monthly stays, Airbnb Luxe listings, and optional amenities, like a golf cart.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb contracts",
+      "text": "Separate contracts only for legal or HOA requirements, monthly stays, Luxe, or optional amenities.",
+      "source": "Airbnb Resource Centre",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And if a guest breaks one of the real house rules?"
+    },
+    {
+     "who": "guest",
+     "text": "Then you have some backing. Airbnb says a host can cancel without fees or other consequences if a guest breaks a house rule during the stay, or says before check in that they plan to. That's a good reason to put the rules that matter most, like your guest limit, into the standard rules and not just a paragraph of text."
+    },
+    {
+     "who": "host",
+     "text": "That's the part people miss. The rules you can lean on are the short list."
+    },
+    {
+     "who": "guest",
+     "text": "Short, clear, and in the right box."
+    },
+    {
+     "who": "host",
+     "text": "Again, this is as of October twenty twenty six, and Airbnb can update these pages. This isn't legal advice."
+    },
+    {
+     "who": "host",
+     "text": "Quick word from the people who make this show. Keegix builds a digital welcome book for hosts, a page guests open from a Q R code sign by the door, with check in, wifi, house rules and the checkout list. If you want a second look at your wording before November twentieth, there's a free house rules checker at keegix dot com that flags requests that look like the chores we just talked about.",
+     "card": {
+      "type": "point",
+      "text": "Free house rules checker: keegix.com/airbnb-house-rules"
+     }
     }
-  ]
+   ],
+   "visuals": [
+    "hotel bed",
+    "laptop desk",
+    "smartphone",
+    "broken glass",
+    "golf cart",
+    "calendar",
+    "fountain pen"
+   ]
+  },
+  {
+   "heading": "How Canada enforces short-term rental rules: Nova Scotia, Halifax, Toronto, Ottawa",
+   "broll": "city skyline",
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's move from the platform to the government. Rowan, when people say a city is cracking down, what does that actually look like?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Most of it comes down to a few tools. A registration number you have to get and show on every listing. A principal residence rule, meaning you can only rent out the home you actually live in. Sometimes a cap on nights. Fines. And more and more, the platforms themselves have to check numbers and take listings down.",
+     "card": {
+      "type": "list",
+      "title": "The enforcement toolkit",
+      "items": [
+       "Registration number on listings",
+       "Principal residence rules",
+       "Night caps and fines",
+       "Platform checks and takedowns"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Start close to home. Nova Scotia."
+    },
+    {
+     "who": "guest",
+     "text": "Nova Scotia has a provincial registry. If you rent a place for twenty eight days in a row or less, you have to register before you operate. That covers short term rentals and traditional places like B and Bs, cottages, even yurts. Each location needs its own registration number, and you renew every year by April first."
+    },
+    {
+     "who": "host",
+     "text": "Say someone buys a cottage this fall that the last owner already rented out. Can they keep using that number?"
+    },
+    {
+     "who": "guest",
+     "text": "No. The province says a registration can't be transferred to a new owner. The new owner has to register before operating. And the province says to expect two to three weeks to get a number, sometimes longer, so don't leave it until the week before your first booking."
+    },
+    {
+     "who": "host",
+     "text": "What does it cost?"
+    },
+    {
+     "who": "guest",
+     "text": "It depends on the type. A primary residence short term rental is fifty dollars a year. A commercial short term rental is two thousand dollars in the busiest tier, which includes Halifax and Dartmouth, five hundred in most other communities, and two hundred and forty in a handful of smaller towns.",
+     "card": {
+      "type": "stat",
+      "big": "$50 to $2,000",
+      "label": "Nova Scotia's yearly registration fee, by type and location",
+      "source": "Province of Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And how is it enforced?"
+    },
+    {
+     "who": "guest",
+     "text": "The regulations say any online ad for your place has to include your registration number, and platforms have to make sure postings show a valid one. Platforms also have to remove an ad when the minister asks, and share their records on request. On the penalty side, the province lists fines of up to one hundred thousand dollars for each year a place isn't registered. There are also administrative penalties of two thousand dollars for a first offence, four thousand for a second, and eight thousand after that.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia",
+      "text": "Online ads must include your registration number. Platforms must remove ads when the minister asks.",
+      "source": "N.S. Short-term Rentals Registration Regulations",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Halifax adds its own layer, right?"
+    },
+    {
+     "who": "guest",
+     "text": "Yes. Since September twenty twenty three, in Halifax's residential zones, short term rentals are only allowed in the owner's primary residence. You can rent out the whole home while you're away, but a basement apartment or a backyard suite has to be rented for more than twenty eight days. Commercial and mixed use zones are different, so check the zoning for your address."
+    },
+    {
+     "who": "host",
+     "text": "What are Toronto's short term rental rules?"
+    },
+    {
+     "who": "guest",
+     "text": "You register with the city, it has to be your principal residence, and since you only have one of those, you can only run one short term rental. If you rent the entire unit, there's a cap of one hundred and eighty nights a year. Renting up to three bedrooms while you live there has no night cap. The registration fee is three hundred and ninety dollars.",
+     "card": {
+      "type": "stat",
+      "big": "180 nights",
+      "label": "Toronto's yearly cap for renting out an entire unit",
+      "source": "City of Toronto"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And the number has to show up everywhere?"
+    },
+    {
+     "who": "guest",
+     "text": "On every listing and ad, plus related invoices and receipts. Your listing's name and address must match exactly. Toronto's set fines include one thousand dollars for not registering or advertising an unregistered rental, and seven hundred dollars for going over the night cap. If it goes to court, fines can reach one hundred thousand dollars."
+    },
+    {
+     "who": "host",
+     "text": "And Ottawa?"
+    },
+    {
+     "who": "guest",
+     "text": "Ottawa uses a host permit. You need one to rent your principal residence, or part of it, for fewer than thirty nights in a row. Every listing has to show your permit number and the maximum number of overnight guests, and hosts can only list on platforms that are registered with the city. Rural cottages have their own separate permit.",
+     "card": {
+      "type": "rule",
+      "title": "Ottawa",
+      "text": "Listings must show the host permit number and maximum overnight guests.",
+      "source": "City of Ottawa",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "All of that is as of October twenty twenty six, and every one of these cities can change its rules. Check your city and province before you list. This isn't legal advice."
+    }
+   ],
+   "visuals": [
+    "Halifax waterfront",
+    "Toronto skyline",
+    "Ottawa parliament",
+    "Nova Scotia coast",
+    "Peggys Cove lighthouse",
+    "city hall"
+   ]
+  },
+  {
+   "heading": "BC, Quebec and the world: registration numbers and platform takedowns",
+   "broll": "apartment building",
+   "lines": [
+    {
+     "who": "host",
+     "text": "Now let's look at places where the platform does a lot of the enforcing. British Columbia first.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "B C runs a provincial registry. Since May first, twenty twenty five, hosts have had to show their provincial registration number on listings, along with a local business licence number where one is required. The yearly fee is one hundred dollars if you live in the rental, and four hundred and fifty if you don't."
+    },
+    {
+     "who": "host",
+     "text": "And the principal residence rule?"
+    },
+    {
+     "who": "guest",
+     "text": "In some parts of the province, short term rentals are limited to the host's principal residence, plus one secondary suite or accessory dwelling unit on the same property. Other areas don't apply it. The province has a map, so look up your address."
+    },
+    {
+     "who": "host",
+     "text": "Where do the platforms come in?"
+    },
+    {
+     "who": "guest",
+     "text": "This is the strict part. Larger platforms have to validate registration numbers every day through the registry. If a listing fails, the platform has to stop advertising it, block new bookings, and cancel existing ones. Platforms also send monthly data reports, including host names, addresses and booking history, and local governments can get that data for bylaw enforcement.",
+     "card": {
+      "type": "rule",
+      "title": "British Columbia",
+      "text": "Larger platforms validate registration numbers daily and must remove listings that fail.",
+      "source": "Government of B.C.",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So nobody has to knock on your door."
+    },
+    {
+     "who": "guest",
+     "text": "Right. The listing just disappears. And if a local government asks for a takedown after giving notice, the platform has five days to act."
+    },
+    {
+     "who": "host",
+     "text": "Quebec?"
+    },
+    {
+     "who": "guest",
+     "text": "Quebec is very specific about display. Every ad has to show the registration number, which is six digits. On a booking platform, the certificate's expiry date has to show too. And the registration certificate itself has to be displayed at the main entrance, where guests can see it."
+    },
+    {
+     "who": "host",
+     "text": "What are the fines like?"
+    },
+    {
+     "who": "guest",
+     "text": "For an individual, leaving the number out of an ad is one thousand to ten thousand dollars. Operating without registration is two thousand five hundred to twenty five thousand. A platform company that publishes a listing without a number faces up to one hundred thousand dollars. Quebec also expects hosts to carry liability insurance of at least two million dollars per event.",
+     "card": {
+      "type": "stat",
+      "big": "$100,000",
+      "label": "Max fine for a platform company publishing a Quebec listing without a number",
+      "source": "Gouvernement du Québec"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Let's go global. New York City is the one everyone mentions."
+    },
+    {
+     "who": "guest",
+     "text": "Under New York's Local Law eighteen, hosts register with the city's Office of Special Enforcement. A short term rental is only legal if the host lives in the same unit with the guests, and there's a limit of two guests, not counting children under four. Since September twenty twenty three, booking platforms can't process transactions for unregistered rentals.",
+     "card": {
+      "type": "rule",
+      "title": "New York City",
+      "text": "Host must live in the unit with guests. Maximum two guests, not counting children under 4.",
+      "source": "NYC Office of Special Enforcement",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Spain?"
+    },
+    {
+     "who": "guest",
+     "text": "Spain built a single national registry. Since July first, twenty twenty five, tourist and seasonal rentals need a registration code to advertise on platforms. In February twenty twenty six, the housing ministry ordered the removal of more than eighty six thousand ads for properties that didn't meet the requirements.",
+     "card": {
+      "type": "stat",
+      "big": "86,275",
+      "label": "Rental ads Spain's housing ministry ordered removed, Feb 2026",
+      "source": "The Local Spain"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And Barcelona went further."
+    },
+    {
+     "who": "guest",
+     "text": "Barcelona announced in June twenty twenty four that it plans not to renew its roughly ten thousand tourist apartment licences when they come up in November twenty twenty eight. That one is worth watching for updates."
+    },
+    {
+     "who": "host",
+     "text": "And the European Union?"
+    },
+    {
+     "who": "guest",
+     "text": "The European Union's short term rental data regulation started applying on May twentieth, twenty twenty six. It sets common standards for countries that use host registration. Platforms verify registration numbers and send activity data to public authorities every month.",
+     "card": {
+      "type": "history",
+      "year": "2026",
+      "text": "EU short-term rental data rules apply from 20 May: number checks, monthly data."
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the pattern really is the same everywhere."
+    },
+    {
+     "who": "guest",
+     "text": "Get a number, show the number, and expect the platform to check the number. If you host in more than one place, keep one list with every registration and every renewal date."
+    },
+    {
+     "who": "host",
+     "text": "All as of October twenty twenty six. These rules vary and they change. This isn't legal advice."
+    }
+   ],
+   "visuals": [
+    "Vancouver skyline",
+    "Quebec City",
+    "Manhattan skyline",
+    "Barcelona street",
+    "apartment building",
+    "Lisbon rooftops"
+   ]
+  },
+  {
+   "heading": "Short-term rental safety checklist: alarms, extinguishers, first aid",
+   "broll": "smoke alarm",
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's get practical. Safety. What are hosts commonly expected to have?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Start with alarms. Ontario's fire marshal guidance for short term rentals says working smoke alarms and carbon monoxide alarms should be outside each sleeping area and on every storey. Local rules may require more, so check with your fire department."
+    },
+    {
+     "who": "host",
+     "text": "Does Airbnb require them?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb strongly urges hosts to have smoke and carbon monoxide alarms, test them regularly, and keep the safety devices section of the listing up to date. If your place only has electric appliances and no attached garage, you can mark that a carbon monoxide alarm isn't needed. Guests see that section, so keep it accurate."
+    },
+    {
+     "who": "host",
+     "text": "What should be on a short term rental safety checklist, beyond alarms?"
+    },
+    {
+     "who": "guest",
+     "text": "A good model is the self check list the District of Squamish in B C gives its short term rental operators. Test smoke and carbon monoxide alarms monthly and keep a log. Replace smoke alarms before they're ten years old. Have a fire extinguisher mounted and serviced every year. Keep a level one first aid kit on hand. And post a fire safety plan near the exits, plus emergency contact information.",
+     "card": {
+      "type": "list",
+      "title": "A common safety checklist",
+      "items": [
+       "Alarms tested monthly, logged",
+       "Extinguisher mounted, serviced yearly",
+       "First aid kit on hand",
+       "Emergency info posted"
+      ],
+      "source": "District of Squamish"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Posting emergency information comes up a lot."
+    },
+    {
+     "who": "guest",
+     "text": "It does, and in Toronto it's required. Since June twenty twenty four, operators there have had to post emergency contact information and exit diagrams in the rental."
+    },
+    {
+     "who": "host",
+     "text": "Does anyone actually come and check?"
+    },
+    {
+     "who": "guest",
+     "text": "In Toronto, yes. The city started annual compliance inspections in twenty twenty five, and the operator has to be there.",
+     "card": {
+      "type": "rule",
+      "title": "Toronto",
+      "text": "Post emergency contact information and exit diagrams inside the rental.",
+      "source": "City of Toronto",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "What would you put on that emergency page?"
+    },
+    {
+     "who": "guest",
+     "text": "The full civic address, because that's what you give emergency services. Your phone number and a backup contact. Where the extinguisher, the first aid kit and the main water shutoff are. And the two ways out of every room, which the Ontario guidance also stresses. Doors and windows to the outside should open easily."
+    },
+    {
+     "who": "host",
+     "text": "Say a guest arrives late at night at a cottage on a dirt road. What do they need most?"
+    },
+    {
+     "who": "guest",
+     "text": "The address, the nearest hospital, and a number that will actually get answered. Put it in two places. On paper by the door, and on whatever they can open on their phone. And one tip for barbecues, since cottages love them. The Squamish list says keep them at least one metre from anything that can burn."
+    },
+    {
+     "who": "host",
+     "text": "As always, your local fire code decides what's required where you are. This isn't legal advice."
+    }
+   ],
+   "visuals": [
+    "smoke alarm",
+    "fire extinguisher",
+    "first aid kit",
+    "carbon monoxide detector",
+    "exit sign",
+    "staircase"
+   ]
+  },
+  {
+   "heading": "Host questions: welcome books, fines, rooms and cottages",
+   "visuals": [
+    "welcome book",
+    "guest room",
+    "cottage dock",
+    "barbecue grill",
+    "house manual",
+    "wooden cabin"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Before the recap, a few quick questions hosts keep asking about all of this. Rowan, first one. Can I still have a welcome book or a house manual?"
+    },
+    {
+     "who": "guest",
+     "text": "Yes, and you should. A welcome book is a great place to explain how the home works. The catch is what we covered earlier. It can repeat the house rules and requests from your listing, but it can't add new ones. So if the binder says no guests after ten and the listing doesn't, the listing wins.",
+     "card": {
+      "type": "compare",
+      "left_title": "Welcome book can",
+      "left": "Repeat your listing's rules and explain the home",
+      "right_title": "Welcome book can't",
+      "right": "Add new rules after booking"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Second. A guest leaves the place a mess. Can I charge a cleaning penalty?"
+    },
+    {
+     "who": "guest",
+     "text": "Not as a fine for skipping checkout tasks. Airbnb says the cleaning fee covers standard cleaning. If there's actual damage, talk to the guest, document it, and use the Resolution Centre. And you can always leave an honest review."
+    },
+    {
+     "who": "host",
+     "text": "Third. I only rent out a spare room in the house I live in. Do the rules still apply to me?"
+    },
+    {
+     "who": "guest",
+     "text": "Often, yes, just lighter. In Nova Scotia, a short term rental in your primary residence still needs a registration number, and it's the lowest fee, fifty dollars a year. In Toronto, renting up to three bedrooms while you live there has no night cap, but you still register.",
+     "card": {
+      "type": "stat",
+      "big": "$50",
+      "label": "Yearly Nova Scotia registration for a short-term rental in your primary residence",
+      "source": "Province of Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "One more before the cottages. I also advertise on Facebook and my own website. Does the registration number go there too?"
+    },
+    {
+     "who": "guest",
+     "text": "In Nova Scotia, yes. The regulations say any online ad for your place has to include your registration number, not just the booking platforms. Toronto is similar. The number goes on every listing and ad, and even on related invoices and receipts. The simplest habit is to put it everywhere your address or your listing name appears."
+    },
+    {
+     "who": "host",
+     "text": "Last one. Rural cottages. Same rules as the city?"
+    },
+    {
+     "who": "guest",
+     "text": "Not always. Ottawa, for example, has a separate permit for rural cottages. So look up the rules for the exact address, not just the city name. And for cottages, the safety basics matter even more. Test the alarms, mount the extinguisher, and keep the barbecue at least one metre from anything that can burn."
+    },
+    {
+     "who": "host",
+     "text": "Good. Same reminder as before. This is as of October twenty twenty six, and it isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "Recap: what hosts should do this month",
+   "broll": null,
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's turn all of this into a to do list for the next few weeks. Rowan, number one.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Before November twentieth, open the House rules and requests section of your Airbnb listing. Move your must have rules into the seven standard rules, and cut any chores a cleaner should be doing.",
+     "card": {
+      "type": "list",
+      "title": "This month",
+      "items": [
+       "Fix Airbnb house rules by Nov 20",
+       "Match signs to your listing",
+       "Show your registration number",
+       "Test alarms, post emergency info"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Two."
+    },
+    {
+     "who": "guest",
+     "text": "Make your signs, your binder and your welcome book match the listing. They can repeat the rules, but they can't add new ones."
+    },
+    {
+     "who": "host",
+     "text": "Three."
+    },
+    {
+     "who": "guest",
+     "text": "Find your registration or permit number. Check that it's on every listing and ad, and put the renewal date in your calendar. In Nova Scotia, that's April first."
+    },
+    {
+     "who": "host",
+     "text": "Four."
+    },
+    {
+     "who": "guest",
+     "text": "Check whether a principal residence rule applies to your address, especially if you rent out a suite or a second property."
+    },
+    {
+     "who": "host",
+     "text": "And five."
+    },
+    {
+     "who": "guest",
+     "text": "Walk through the place with a safety checklist. Test the alarms, check the extinguisher and the first aid kit, and post the emergency page by the door."
+    }
+   ],
+   "visuals": [
+    "notebook pen",
+    "checklist",
+    "cottage interior",
+    "window sunrise"
+   ]
+  },
+  {
+   "heading": "Outro",
+   "broll": null,
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's episode one of the Keegix Podcast. If you'd like your house rules, checkout list and emergency information in one page guests can open on their phone, you can start free for one property at keegix dot com slash start.",
+     "card": {
+      "type": "point",
+      "text": "Start free for one property: keegix.com/start"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Sources for every rule and number we mentioned are in the description. Thanks to Rowan for the host's view."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, June. Check your city's page, and happy hosting."
+    },
+    {
+     "who": "host",
+     "text": "New episodes every Tuesday. See you next week."
+    }
+   ],
+   "visuals": [
+    "lake sunset",
+    "porch chairs",
+    "cabin snow"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Airbnb Help Centre: Reasonable house rules and requests",
+   "url": "https://www.airbnb.com/help/article/4168"
+  },
+  {
+   "label": "Airbnb Resource Centre: Important changes to house rules",
+   "url": "https://www.airbnb.ca/resources/hosting-homes/a/important-changes-to-house-rules-21"
+  },
+  {
+   "label": "Airbnb Help Centre: Ground rules for guests",
+   "url": "https://www.airbnb.ca/help/article/2894"
+  },
+  {
+   "label": "Airbnb Help Centre: Smoke and carbon monoxide alarms",
+   "url": "https://www.airbnb.ca/help/article/514"
+  },
+  {
+   "label": "Skift: Airbnb's new policy for hosts (Oct 21, 2026)",
+   "url": "https://skift.com/2026/10/21/airbnbs-new-policy-for-hosts-dont-ask-guests-to-wash-dishes-or-strip-beds/"
+  },
+  {
+   "label": "Province of Nova Scotia: Register your short-term accommodation",
+   "url": "https://www.novascotia.ca/register-your-short-term-accommodation"
+  },
+  {
+   "label": "Nova Scotia Short-term Rentals Registration Regulations",
+   "url": "https://novascotia.ca/JUST/regulations/regs/strentals.htm"
+  },
+  {
+   "label": "CBC News: Short-term rentals now restricted in Halifax residential areas",
+   "url": "https://amp.cbc.ca/news/canada/nova-scotia/short-term-rentals-now-restricted-in-halifax-residential-areas-1.6955362"
+  },
+  {
+   "label": "Global News: Halifax short-term rental regulations take effect Sept. 1, 2023",
+   "url": "https://globalnews.ca/news/9929103/halifax-short-term-rental-regulations-2"
+  },
+  {
+   "label": "Halifax Regional Council: Short-term rental regulations public hearing (Case 22423)",
+   "url": "https://cdn.halifax.ca/media/81201"
+  },
+  {
+   "label": "City of Toronto: Short-term rental operators and hosts",
+   "url": "https://www.toronto.ca/community-people/housing-shelter/rental-housing-rights-information/short-term-rentals/short-term-rental-operators-hosts/"
+  },
+  {
+   "label": "City of Ottawa: Short-term rentals",
+   "url": "https://ottawa.ca/en/business/permits-and-licences/short-term-rentals"
+  },
+  {
+   "label": "Government of B.C.: Register as a short-term rental host",
+   "url": "https://www2.gov.bc.ca/gov/content/housing-tenancy/short-term-rentals/registry/host-registration"
+  },
+  {
+   "label": "Government of B.C.: Platform requirements",
+   "url": "https://www2.gov.bc.ca/gov/content/housing-tenancy/short-term-rentals/registry/platform-registration/platform-requirements"
+  },
+  {
+   "label": "Gouvernement du Québec: Affichage (registration number display)",
+   "url": "https://www.quebec.ca/tourisme-et-loisirs/hebergement-touristique/affichage"
+  },
+  {
+   "label": "Gouvernement du Québec: Infractions et amendes (offences and fines)",
+   "url": "https://www.quebec.ca/tourisme-et-loisirs/hebergement-touristique/infractions-et-amendes"
+  },
+  {
+   "label": "NYC Office of Special Enforcement: What is Local Law 18",
+   "url": "https://www.nyc.gov/site/specialenforcement/hosting-STRs/what-is-local-law-18.page"
+  },
+  {
+   "label": "NYC Office of Special Enforcement: Short-term rental registration",
+   "url": "https://www.nyc.gov/site/specialenforcement/registration-law/registration.page"
+  },
+  {
+   "label": "La Moncloa (Government of Spain): Registro Único de Arrendamientos",
+   "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/vivienda-agenda-urbana/paginas/2025/020625-campana-registro-unico-alquileres.aspx"
+  },
+  {
+   "label": "The Local Spain: Spain orders removal of 80,000 more short-term rental listings (Feb 2026)",
+   "url": "https://www.thelocal.es/20260204/spain-orders-removal-of-80000-more-illegally-listed-short-term-rentals"
+  },
+  {
+   "label": "Catalan News: Barcelona to eliminate tourist apartments by November 2028",
+   "url": "https://catalannews.com/business/item/barcelona-eliminate-tourist-apartments-november-2028-21-june-2024"
+  },
+  {
+   "label": "European Commission: Common EU rules on data sharing for short-term rentals",
+   "url": "https://transition-pathways.europa.eu/construction/crosscutting-eu-policies-legislation/common-eu-rules-data-sharing-short-term"
+  },
+  {
+   "label": "EUR-Lex: Regulation (EU) 2024/1028",
+   "url": "https://eur-lex.europa.eu/eli/reg/2024/1028/oj"
+  },
+  {
+   "label": "Ontario Fire Marshal short-term rentals handout (via Windsor Fire & Rescue)",
+   "url": "https://cdn.windsorfire.com/wp-content/uploads/WFRS-OFM-Short-Term-Rentals-Handout.pdf"
+  },
+  {
+   "label": "District of Squamish: Short-term rental safety audit checklist",
+   "url": "https://squamish.ca/assets/Planning/Short-Term-Rentals/STR_Safety-Audit-Checklist.pdf"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Airbnb's new checkout chore rules",
+   "from": [
+    2,
+    6
+   ],
+   "to": [
+    2,
+    9
+   ],
+   "caption": "Airbnb's new house rules start Nov 20, 2026: what hosts can and can't ask at checkout. #airbnbhost #shorttermrental #bnbhost"
+  },
+  {
+   "title": "Your door sign can't add rules",
+   "from": [
+    2,
+    18
+   ],
+   "to": [
+    2,
+    21
+   ],
+   "caption": "On Airbnb, house rules now have to live in one place on the listing. #airbnbhost #houserules #shorttermrental"
+  },
+  {
+   "title": "No more checkout fines on Airbnb",
+   "from": [
+    3,
+    4
+   ],
+   "to": [
+    3,
+    9
+   ],
+   "caption": "Cleaning fees cover standard cleaning, and fines are out. Here's what Airbnb says. #airbnbhost #bnbhost #shorttermrental"
+  },
+  {
+   "title": "Toronto's 180-night short-term rental cap",
+   "from": [
+    4,
+    12
+   ],
+   "to": [
+    4,
+    15
+   ],
+   "caption": "Toronto's short-term rental rules in one minute, as of Oct 2026. Not legal advice. #toronto #airbnbhost #shorttermrental"
+  },
+  {
+   "title": "The safety checklist every host needs",
+   "from": [
+    6,
+    4
+   ],
+   "to": [
+    6,
+    7
+   ],
+   "caption": "Alarms, extinguisher, first aid, emergency info. A practical checklist for hosts. #hostingtips #airbnbhost #firesafety"
+  }
+ ]
 }
