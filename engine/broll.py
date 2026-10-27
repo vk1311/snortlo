@@ -20,7 +20,24 @@ SKIP_PROVIDERS = {"rawpixel"}          # editor watermarks / login walls
 # Photos of identifiable people next to topics like burnout or bad bosses would imply things about them,
 # so anything that looks like a portrait is skipped. Scenes, objects and places only.
 PEOPLE = re.compile(r"\b(portrait|man|men|woman|women|person|people|girl|boy|guy|lady|selfie|mr|mrs|ms|dr|"
-                    r"senator|president|ceo|employee|worker|astronaut|actor|actress|model|headshot|smiling|face)\b", re.I)
+                    r"senator|president|ceo|employee|worker|workers|astronaut|actor|actress|model|headshot|smiling|face|"
+                    r"soldier|soldiers|army|military|troops|airman|marine|navy|war|wartime|holocaust|ghetto|nazi|refugee|"
+                    r"children|child|kids|crowd|family|prisoner|police|students|staff|team|oval office|white house|"
+                    r"bust|statue|sculpture|relief|painting|hand|hands)\b", re.I)
+# Photos a human rejected on review (engine/broll_block.txt): never used again.
+_BLOCK_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "broll_block.txt")
+BLOCK = {l.strip() for l in open(_BLOCK_FILE) if l.strip() and not l.startswith("#")} if os.path.exists(_BLOCK_FILE) else set()
+
+
+def usable(im):
+    """Reject thin panoramas, near-black frames and washed-out scans or line drawings."""
+    from PIL import ImageStat
+    w, h = im.size
+    if w / h > 2.4 or w < 900 or w < h * 1.2:
+        return False
+    st = ImageStat.Stat(im.convert("L").resize((64, 64)))
+    mean, sd = st.mean[0], st.stddev[0]
+    return 45 <= mean <= 225 and sd >= 28
 
 
 def _get(url, timeout=25):
@@ -60,7 +77,7 @@ def _openverse(query):
 
 def _commons(query):
     q = urllib.parse.urlencode({"action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
-                                "gsrsearch": f"{query} filetype:bitmap", "gsrlimit": 50, "prop": "imageinfo",
+                                "gsrsearch": f"{query} filetype:bitmap -war -military -soldier -army -holocaust -portrait", "gsrlimit": 50, "prop": "imageinfo",
                                 "iiprop": "url|size|extmetadata", "iiurlwidth": 1280,          # a standard (pre-cached) thumbnail size: far fewer 429s
                                 "iiextmetadatafilter": "LicenseShortName|Artist"})
     data = json.loads(_get("https://commons.wikimedia.org/w/api.php?" + q, timeout=20))
@@ -104,19 +121,19 @@ def fetch(query, outdir, avoid=()):
     key = hashlib.sha1(query.lower().encode()).hexdigest()[:10]
     meta_path = os.path.join(outdir, key + ".json")
     img_path = os.path.join(outdir, key + ".jpg")
-    if os.path.exists(meta_path) and os.path.exists(img_path):
+    if os.path.exists(meta_path) and os.path.exists(img_path) and json.load(open(meta_path))["source"] not in BLOCK:
         return img_path, json.load(open(meta_path))
     space = re.search(r"\b(space|earth|moon|planet|rocket|satellite|stars|galaxy|aurora)\b", query, re.I)
     for gen in ((_commons, _openverse, _nasa) if space else (_commons, _openverse)):
         try:
             for url, credit in gen(query):
-                if credit["source"] in avoid:
+                if credit["source"] in avoid or credit["source"] in BLOCK:
                     continue
                 try:
                     im = Image.open(io.BytesIO(_get(url))).convert("RGB")
                 except Exception:
                     continue
-                if im.width < 900 or im.width < im.height * 1.2:     # landscape only
+                if not usable(im):
                     continue
                 im.thumbnail((1600, 1600))
                 im.save(img_path, quality=86)
@@ -138,7 +155,8 @@ def fetch_many(query, outdir, n=3, avoid=()):
     key = hashlib.sha1(("many|" + query.lower()).encode()).hexdigest()[:10]
     idx = os.path.join(outdir, key + ".many.json")
     if os.path.exists(idx):
-        got = [(p, c) for p, c in json.load(open(idx)) if os.path.exists(p)]
+        got = [(p, c) for p, c in json.load(open(idx))
+               if os.path.exists(p) and c["source"] not in BLOCK and usable(Image.open(p).convert("RGB"))]
         if got:
             return [(p, c) for p, c in got if c["source"] not in avoid] or got
     space = re.search(r"\b(space|earth|moon|planet|rocket|satellite|stars|galaxy|aurora)\b", query, re.I)
@@ -147,13 +165,13 @@ def fetch_many(query, outdir, n=3, avoid=()):
         try:
             for url, credit in gen(query):
                 if len(got) >= n: break
-                if credit["source"] in avoid or any(c["source"] == credit["source"] for _, c in got):
+                if credit["source"] in avoid or credit["source"] in BLOCK or any(c["source"] == credit["source"] for _, c in got):
                     continue
                 try:
                     im = Image.open(io.BytesIO(_get(url))).convert("RGB")
                 except Exception:
                     continue
-                if im.width < 900 or im.width < im.height * 1.2:
+                if not usable(im):
                     continue
                 im.thumbnail((1700, 1700))
                 p = os.path.join(outdir, f"{key}-{len(got)}.jpg"); im.save(p, quality=86)

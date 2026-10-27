@@ -108,6 +108,7 @@ One file per episode: `podcasts/<brand>/<slug>.json`, slug like `keegix-ep01-str
 - Count spoken words (target 3,700 to 4,300).
 - Scan spoken text for digits, %, $, dashes, ellipses, parentheses, all-caps words.
 - Every card and every factual line traces to an entry in `sources`.
+- After rendering: review every photo (`python3 engine/nightly.py photos media/pod-<slug>.timeline.json`, then look at engine/photos.png), block anything with people, war or military scenes, politicians, logos, dark frames or off-topic shots (`nightly.py block …`), and re-render.
 
 ## Render
 

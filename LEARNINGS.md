@@ -26,6 +26,7 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Chatterbox (backup voice) needs the CPU-only torch reinstall and the float32 patches in voice_backend._ensure_chatterbox().
 - Brand names the voice gets wrong go in voice_backend.SAY (Airbnb -> "Air bee en bee"). Check any new brand or place name by ear once.
 - Photos: Wikimedia Commons first (CC0 / public domain only), then Openverse. Both throttle bursts (HTTP 429), so broll.py paces requests; expect about 30 s per search.
+- ALWAYS review podcast photos before scheduling: `python3 engine/nightly.py photos media/pod-<slug>.timeline.json`, look at engine/photos.png, then `nightly.py block <timeline> <numbers>` for anything with people (even hands), war/military/historic-tragedy images, recognizable politicians or offices, logos, black frames, or off-topic shots, and re-render. On Oct 27 the first review blocked 61 of 187 photos, including a wartime crowd photo found by "burnt match". The title filter alone is NOT enough.
 - Photo searches: plain nouns for places and objects ("smoke alarm", "Halifax waterfront"). People searches are skipped, and abstract words ("burnout", "policy") return junk.
 - The owner wants podcasts to be visual first: full-screen photos changing every ~7 s, cards, big captions. Never go back to a static "studio" look.
 - AI disclosure is one small corner note plus the description. No "AI host" or "AI character" in dialogue, cards or roles.
@@ -34,4 +35,5 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Snortlo memes: "x years later" format and 8 AM posts lead (small samples).
 
 ## Night log (newest first; keep the last 14 nights, one to three lines each)
+- 2026-10-27 (set-up day): photo review caught people, war and off-topic photos that slipped past the title filter; added broll_block.txt, a stronger filter (no strips, dark frames or scans), and the photos/block review step.
 - 2026-10-27 (set-up day, not a nightly run): moved all channels to the Qwen3 house voices; podcasts switched to the visual-first look; Airbnb pronunciation fixed; started this file.
