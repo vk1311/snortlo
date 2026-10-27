@@ -1,0 +1,20 @@
+{
+ "_about": "House voices for every channel, designed once with Qwen3-TTS VoiceDesign (Oct 27, 2026). Keys keep the old Kokoro names so existing scripts work unchanged. Each voice is saved as <key>.wav + its transcript below; Qwen3-TTS Base clones from that clip every night. Original voices, not copies of any real person.",
+ "ref_text": "Okay, so here is the thing nobody tells you. You can plan every little detail, and life will still find a way to surprise you. Honestly? That is half the fun.",
+ "voices": {
+  "af_bella": {"used_for": "June, Keegix Podcast host; Snortlo narrator option", "instruct": "A bright, warm, confident American woman in her late twenties. Friendly podcast host energy, clear and expressive, natural conversational rhythm, smiling while she talks."},
+  "am_michael": {"used_for": "Sam, Staffkin Podcast host; Snortlo narrator option", "instruct": "A calm, grounded American man in his mid thirties with a warm baritone. Thoughtful radio host, relaxed pace, kind and reassuring, never stiff."},
+  "am_puck": {"used_for": "Snortlo top narrator", "instruct": "A playful, energetic young American man in his early twenties. Comedic timing, quick and expressive, slightly mischievous, sounds like he is telling a funny story to friends."},
+  "af_heart": {"used_for": "Snortlo narrator option; sleep stories", "instruct": "A soft, warm young American woman with a gentle storyteller voice. Cozy, unhurried and soothing, like reading a bedtime story to a friend."},
+  "bm_george": {"used_for": "podcast guest", "instruct": "A mature British man in his fifties, warm and wry, slightly gravelly, a seasoned bed and breakfast owner who has seen it all."},
+  "bf_emma": {"used_for": "podcast guest", "instruct": "A confident British woman in her forties, practical, kind and direct, an experienced operations manager."},
+  "am_adam": {"used_for": "podcast guest", "instruct": "A relaxed, friendly American man in his forties, easygoing small business owner with a down to earth voice."},
+  "af_nicole": {"used_for": "podcast guest", "instruct": "A soft spoken, thoughtful American woman in her thirties, measured and calm, like a counsellor."},
+  "bm_lewis": {"used_for": "podcast guest", "instruct": "An articulate young British man in his late twenties, curious and upbeat, clear diction."},
+  "af_sarah": {"used_for": "podcast guest", "instruct": "A lively, outgoing American woman in her thirties, fast talker with a big laugh in her voice."},
+  "am_eric": {"used_for": "podcast guest", "instruct": "A deep voiced, steady American man in his fifties, slow and authoritative but friendly."},
+  "bf_isabella": {"used_for": "podcast guest", "instruct": "A bright young British woman in her twenties, quick witted and cheerful."},
+  "af_kore": {"used_for": "podcast guest", "instruct": "An energetic young Canadian woman in her twenties, upbeat and friendly, casual and modern."},
+  "bm_daniel": {"used_for": "podcast guest", "instruct": "An older British man in his sixties, gentle and wise, soft spoken with a slight rasp."}
+ }
+}
