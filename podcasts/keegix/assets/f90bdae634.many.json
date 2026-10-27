@@ -2,10 +2,10 @@
  [
   "/home/claude/snortlo/podcasts/keegix/assets/f90bdae634-0.jpg",
   {
-   "title": "(Barcelona) Bust de matrona representant Barcelona - Eusebi Arnau - Museu Nacional d'Art de Catalunya",
-   "creator": "Didier Descouens",
-   "license": "Public domain",
-   "source": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Bust_de_matrona_representant_Barcelona_-_Eusebi_Arnau_-_Museu_Nacional_d%27Art_de_Catalunya.jpg",
+   "title": "Street art in Carrer de Ferlandina, Barcelona, 2023",
+   "creator": "DimiTalen",
+   "license": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Street_art_in_Carrer_de_Ferlandina,_Barcelona,_2023.jpg",
    "via": "Wikimedia Commons",
    "query": "Barcelona street"
   }
@@ -13,10 +13,21 @@
  [
   "/home/claude/snortlo/podcasts/keegix/assets/f90bdae634-1.jpg",
   {
-   "title": "Barcelona Cathedral Interior - Crucifixion of St. Eulalia by Pedro Villar",
-   "creator": "Didier Descouens",
-   "license": "Public domain",
-   "source": "https://commons.wikimedia.org/wiki/File:Barcelona_Cathedral_Interior_-_Crucifixion_of_St._Eulalia_by_Pedro_Villar.jpg",
+   "title": "Carrer del Taulat (Barcelona), Street sign, October 2023",
+   "creator": "Beno\u00eet Prieur",
+   "license": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Carrer_del_Taulat_(Barcelona),_Street_sign,_October_2023.JPG",
+   "via": "Wikimedia Commons",
+   "query": "Barcelona street"
+  }
+ ],
+ [
+  "/home/claude/snortlo/podcasts/keegix/assets/f90bdae634-2.jpg",
+  {
+   "title": "Rambla del Poblenou (Barcelona) Street sign, October 2023",
+   "creator": "Beno\u00eet Prieur",
+   "license": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Rambla_del_Poblenou_(Barcelona)_Street_sign,_October_2023.JPG",
    "via": "Wikimedia Commons",
    "query": "Barcelona street"
   }
