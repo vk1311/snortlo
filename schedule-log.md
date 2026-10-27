@@ -207,3 +207,20 @@ Brand YouTube uploads: at most 2 a day. Times are AST (UTC-4) after the Nov 1 cl
 | 17:00 | Story "manager-is-me" (1 part, question hook, customers): "a customer asked for my manager. i am the manager. #shorts" | manager-is-me-part1.mp4 | YouTube, Facebook, Instagram | cmvq5w8ah001do2761l1sbg0s, cmvq5w8b2001eo27688elbvxm, cmvq5w8cj001fo276eki7hh5e |
 
 YouTube uploads today: 3 (story, 2 memes). Instagram: 3 (story, meme A, meme B). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: the only new session day (Oct 26) had no candidates, and every unused day in the last 30 is pro forma ("House will be in order" opener only); gov/used.txt unchanged. Full cut manager-is-me-full.mp4 = copy of part 1. Housekeeping: deleted Oct 18 media (compile-2026-10-18, dog-will-*, gov-wrong-excuse, meme-cereal-dream, meme-rest-her-eyes). Note: rendering two memes in parallel clobbers the shared temp files; render them one at a time.
+
+## Brand podcasts: RE-SCHEDULED Tue 2026-10-27 (re-voiced with Qwen3, visual-first re-render)
+Vatsal deleted the Oct 26 versions above in Postiz himself; these replace them in the same slots. Keegix ep 1 now 20.4 min (added a "Host questions" chapter), Staffkin ep 1 now 20.7 min. Media pinned to commit be69025.
+| Time (Halifax) | Item | Channels | Postiz IDs |
+|---|---|---|---|
+| Tue Nov 3 10:00 | Keegix Podcast ep 1 | Keegix YouTube | cmvr144yy001qo2763prkm3yb |
+| Thu Nov 5 10:00 | Staffkin Podcast ep 1 | Staffkin YouTube | cmvr144zj001ro276cmkophnz |
+| Wed Nov 4 12:00 | Keegix Short 1 | Keegix YT, FB, IG | cmvr14shf001so276m51jkmdr, cmvr14shq001to276vbrdtxj0, cmvr14si5001uo276o2zp7khl |
+| Thu Nov 5 12:00 | Keegix Short 2 | Keegix YT, FB, IG | cmvr14sin001vo276rmt9tl3k, cmvr14sj7001wo276qx0qsljh, cmvr14skl001xo2763dgt4c7l |
+| Fri Nov 6 12:00 | Keegix Short 3 | Keegix YT, FB, IG | cmvr14sld001yo276uhipfy01, cmvr14sma001zo276y7n3be0m, cmvr14smz0020o276oulsw2zp |
+| Sat Nov 7 12:00 | Keegix Short 4 | Keegix YT, FB, IG | cmvr14soe0021o2763n7c9e28, cmvr14spi0022o276h7hsfnlx, cmvr14sqk0023o2769xf8urm3 |
+| Sun Nov 8 12:00 | Keegix Short 5 | Keegix YT, FB, IG | cmvr14srj0024o276q0f5egix, cmvr14ssl0025o276lor8kee4, cmvr14stq0026o276vontmzze |
+| Fri Nov 6 12:00 | Staffkin Short 1 | Staffkin YT, FB, IG | cmvr15do20027o276rwvervdz, cmvr15dob0028o276g9ybc2ka, cmvr15dot0029o276ftajr709 |
+| Sat Nov 7 12:00 | Staffkin Short 2 | Staffkin YT, FB, IG | cmvr15dpl002ao276i3mmuc0o, cmvr15dqq002bo276gxr8g2ug, cmvr15drh002co276wkerxvng |
+| Sun Nov 8 12:00 | Staffkin Short 3 | Staffkin YT, FB, IG | cmvr15dsw002do276ztr2sg5a, cmvr15duc002eo2769fortbxm, cmvr15dv2002fo2767z7q1ak4 |
+| Mon Nov 9 12:00 | Staffkin Short 4 | Staffkin YT, FB, IG | cmvr15dwe002go2766p7i9293, cmvr15dxl002ho276x1hhll4w, cmvr15dyc002io276qvdabv82 |
+| Tue Nov 10 12:00 | Staffkin Short 5 | Staffkin YT, FB, IG | cmvr15dz3002jo2765o3ezl8a, cmvr15e0a002ko2768j8h7fi4, cmvr15e1j002lo276xfvuxj4z |
