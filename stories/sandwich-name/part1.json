@@ -1,0 +1,308 @@
+{
+ "channel": "Snortlo",
+ "format": "concept",
+ "series": "Lo Explains #1",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR LUNCH BUDDY",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "WHY|SANDWICH?"
+   },
+   "text": "Why is a sandwich called a sandwich?",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "hold": "sandwich"
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "JOHN MONTAGU|4TH EARL OF SANDWICH",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "text": "Blame this guy. John Montagu, the fourth Earl of Sandwich. Born in seventeen eighteen.",
+   "sfx": "fanfare"
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true
+   },
+   "text": "The legend says he was gambling, and he would not leave the table. For twenty four hours.",
+   "sfx": "dundun",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true
+   },
+   "text": "So he asked for beef between two pieces of toast. One hand for food. One hand for cards.",
+   "sfx": "crunch",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "sandwich",
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true
+   },
+   "text": "His friends see it and go, I'll have what Sandwich is having.",
+   "sfx": "ding",
+   "speaker": "co2",
+   "bubble": {
+    "text": "SAME AS SANDWICH!",
+    "x": 700,
+    "y": 520,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "hold": "sandwich"
+    },
+    {
+     "who": "co2",
+     "x": 680,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 900,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "1762:|'A SANDWICH'",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   },
+   "text": "In seventeen sixty two, the historian Edward Gibbon wrote in his journal about rich men at a club, eating a Sandwich.",
+   "sfx": "typebell"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "WAIT|WHAT?"
+   },
+   "text": "But wait. That gambling story comes from a French travel book. And the writer never even named him.",
+   "sfx": "busted",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "THE LEGEND:|PROBABLY FAKE",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "text": "Historians think it's probably made up.",
+   "sfx": "huh"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "OLD|NEWS"
+   },
+   "text": "And meat in bread wasn't new anyway. Farm workers in France were doing it long before London had a word for it.",
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "OLD|NEWS"
+   },
+   "text": "Jewish tradition even says the ancient sage Hillel wrapped lamb and bitter herbs in flat bread for Passover.",
+   "sfx": "ooh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "PIZZA|PALACE"
+   },
+   "text": "So the Earl didn't invent the sandwich. He just got his name on it.",
+   "sfx": "clownhorn",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SANDWICH ISLANDS|= HAWAII",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "text": "He even got islands. Captain Cook named the Sandwich Islands after him. Today we call them Hawaii.",
+   "sfx": "aura"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "PIZZA|PALACE"
+   },
+   "text": "So next time you eat a sandwich, you're eating a gambling legend that's probably fake.",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": -1,
+     "pose": "eat",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "hold": "sandwich"
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  }
+ ]
+}
