@@ -32,8 +32,11 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - AI disclosure is one small corner note plus the description. No "AI host" or "AI character" in dialogue, cards or roles.
 - Podcast length: the new voices are faster. Write 3,700 to 4,300 spoken words for 20+ minutes (3,346 words came out at 18.4 min). The nightly prompt's older "3,300-3,900" figure is outdated; this file and PODCAST_FORMAT.md win.
 - Snortlo: 1-part stories and question hooks lead so far (small samples); am_puck is the strongest narrator; all-lowercase titles do best (see REPORT.md).
+- Living-room `tv` text: max ~10 characters per line, and keep Lo at x≈360 with no zoom on him, or the camera crops the TV (caught on qc Oct 28).
+- Congress: the House has been pro forma since mid-September (election recess). If gov.py find returns [] for the 3 newest unused days, skip it without trying more days.
 - Snortlo memes: "x years later" format and 8 AM posts lead (small samples).
 
 ## Night log (newest first; keep the last 14 nights, one to three lines each)
+- 2026-10-28: clean run, Kaggle OK first try. QC caught TV text cropped in meme B; fixed and added the tv-text rule here and in STORY_FORMAT.md. Congress skipped again (recess). First Lo Explains (sandwich). Numbers: too few new samples to call anything.
 - 2026-10-27 (set-up day): photo review caught people, war and off-topic photos that slipped past the title filter; added broll_block.txt, a stronger filter (no strips, dark frames or scans), and the photos/block review step.
 - 2026-10-27 (set-up day, not a nightly run): moved all channels to the Qwen3 house voices; podcasts switched to the visual-first look; Airbnb pronunciation fixed; started this file.

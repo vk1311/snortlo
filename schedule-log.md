@@ -224,3 +224,14 @@ Vatsal deleted the Oct 26 versions above in Postiz himself; these replace them i
 | Sun Nov 8 12:00 | Staffkin Short 3 | Staffkin YT, FB, IG | cmvr15dsw002do276ztr2sg5a, cmvr15duc002eo2769fortbxm, cmvr15dv2002fo2767z7q1ak4 |
 | Mon Nov 9 12:00 | Staffkin Short 4 | Staffkin YT, FB, IG | cmvr15dwe002go2766p7i9293, cmvr15dxl002ho276x1hhll4w, cmvr15dyc002io276qvdabv82 |
 | Tue Nov 10 12:00 | Staffkin Short 5 | Staffkin YT, FB, IG | cmvr15dz3002jo2765o3ezl8a, cmvr15e0a002ko2768j8h7fi4, cmvr15e1j002lo276xfvuxj4z |
+
+## Wed 2026-10-28 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #21 "Teacher: I'll pick the groups" (teacher_class, roast, unvoiced, deepfry, friends) | meme-pick-the-groups.mp4 | YouTube, Facebook, Instagram | cmvrlixzf002no276d26hpjt4, cmvrlixzv002oo276rwb96ls0, cmvrliy10002po276du1ibtld |
+| 12:00 | Story "sals-coupon" (1 part, question hook, customers, am_puck): "a customer paid with a coupon from 1997. #shorts" | sals-coupon-part1.mp4 | YouTube, Facebook, Instagram | cmvrliy29002qo276hfsxdcdy, cmvrliy2v002ro276fqwj5unt, cmvrliy3u002so276oji6ajvo |
+| 14:00 | Story full cut (Wednesday) | sals-coupon-full.mp4 | Facebook | cmvrliy54002to2768u2h48i3 |
+| 20:00 | Lo Explains #1 "why is a sandwich called a sandwich?" | sandwich-name-part1.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvrliy5w002uo276n0z57q8q, cmvrliy6b002vo276tt1rp78r, cmvrliy9z002wo276qnv07ekc |
+| 22:00 | Meme B, Lo vs Life #22 "we should hang out soon" (expectation_reality, metalpipe, friends; Wed = FB only, moved +2h from 20:00) | meme-hang-out-soon.mp4 | Facebook | cmvrliyb7002xo276ntl5cwpp |
+
+YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: re-ran gov.py find on the last unused older days (Sep 17, 21, 24): no candidates; every unused day since Sep 17 is pro forma. Voices: Qwen3 on Kaggle, OK first try (30 lines, 185 s). Housekeeping: deleted Oct 19 media (ghost-roommate-*, gov-mom-brag-cousin, meme-eat-anything, meme-pickup-report).

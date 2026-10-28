@@ -51,7 +51,7 @@ Stage layout: ground is y=1180. Kitchen fridge at x 350-580, stove/counter x 680
 - Keep it light: no politics, no punching down, nothing hateful or sexual, no real private people.
 
 ## New sets
-`bedroom` (state: `dark`, `phone` = blue phone glow, `clock`), `classroom` (`board` = "LINE1|LINE2", `clock`), `street` (`night`), `living` (`tv` = "TEXT|TEXT", `dark`). `closeup` also takes `show: "text"` with `big` ("YOU|TOO?!") and `color`.
+`bedroom` (state: `dark`, `phone` = blue phone glow, `clock`), `classroom` (`board` = "LINE1|LINE2", `clock`), `street` (`night`), `living` (`tv` = "TEXT|TEXT", `dark`; keep each tv line to about 10 characters and don't zoom on a character standing near the TV, or the text gets cropped). `closeup` also takes `show: "text"` with `big` ("YOU|TOO?!") and `color`.
 
 ## Sounds (83, see engine/sounds/CREDITS.md)
 Any name below works in `sfx`. Use `random:punch` / `random:accent` to let the engine pick. Every use gets a slight random pitch/volume change so repeats never sound identical.
