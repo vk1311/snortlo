@@ -35,8 +35,10 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Living-room `tv` text: max ~10 characters per line, and keep Lo at x≈360 with no zoom on him, or the camera crops the TV (caught on qc Oct 28).
 - Congress: the House has been pro forma since mid-September (election recess). If gov.py find returns [] for the 3 newest unused days, skip it without trying more days.
 - Snortlo memes: "x years later" format and 8 AM posts lead (small samples).
+- Shorts renders cap video at 12 Mbps (anim_render.py): deepfry grain made a 12 s meme 42 MB; now ~13 MB. If a file is still big, check for grain/shake, not length.
 
 ## Night log (newest first; keep the last 14 nights, one to three lines each)
+- 2026-10-29: clean run, Kaggle OK first try (144 s). QC: Lo stood in front of the kitchen sign in meme A; moved him and re-rendered. Improvement: capped Shorts bitrate at 12 Mbps (deepfry meme 42 MB -> 13 MB, tested). Congress skipped (no new session days). Numbers: not enough new samples.
 - 2026-10-28: clean run, Kaggle OK first try. QC caught TV text cropped in meme B; fixed and added the tv-text rule here and in STORY_FORMAT.md. Congress skipped again (recess). First Lo Explains (sandwich). Numbers: too few new samples to call anything.
 - 2026-10-27 (set-up day): photo review caught people, war and off-topic photos that slipped past the title filter; added broll_block.txt, a stronger filter (no strips, dark frames or scans), and the photos/block review step.
 - 2026-10-27 (set-up day, not a nightly run): moved all channels to the Qwen3 house voices; podcasts switched to the visual-first look; Airbnb pronunciation fixed; started this file.

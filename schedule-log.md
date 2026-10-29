@@ -235,3 +235,12 @@ Vatsal deleted the Oct 26 versions above in Postiz himself; these replace them i
 | 22:00 | Meme B, Lo vs Life #22 "we should hang out soon" (expectation_reality, metalpipe, friends; Wed = FB only, moved +2h from 20:00) | meme-hang-out-soon.mp4 | Facebook | cmvrliyb7002xo276ntl5cwpp |
 
 YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: re-ran gov.py find on the last unused older days (Sep 17, 21, 24): no candidates; every unused day since Sep 17 is pro forma. Voices: Qwen3 on Kaggle, OK first try (30 lines, 185 s). Housekeeping: deleted Oct 19 media (ghost-roommate-*, gov-mom-brag-cousin, meme-eat-anything, meme-pickup-report).
+
+## Thu 2026-10-29 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #23 "Me at 9 vs. me at 29 when the repair is ONLY $600" (x_years_later, phonk, unvoiced, deepfry, money) | meme-only-600.mp4 | YouTube, Facebook, Instagram | cmvt0z8ai006jo276iwh93yf6, cmvt0z8ay006ko276hsafhct0, cmvt0z8bc006lo276yb0serfp |
+| 09:00 | Story "gary-rents-my-tools" (1 part, question hook, neighbours, am_puck, emoji_end): "My neighbour borrowed my ladder and opened a business 🤯 #shorts" | gary-rents-my-tools-part1.mp4 | YouTube, Facebook, Instagram | cmvt0z8c1006mo276y3q1qeqs, cmvt0z8d5006no276g0nv66zz, cmvt0z8e4006oo276zevsfm26 |
+| 12:00 | Meme B, Lo vs Life #24 "Nobody: / Me telling the waiter it's my bestie's birthday" (nobody_me, phonk, unvoiced, deepfry, friends; moved from 08:00 past the 09:00 story) | meme-fake-birthday.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvt0z8gn006po276q69e4r22, cmvt0z8hd006qo276qayd6yun, cmvt0z8i4006ro276qoc3mtao |
+
+YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Oct 26 (recess). Thursday: no Lo Explains, no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (16 lines, 144 s). Full cut = copy of part 1. Housekeeping: deleted Oct 20 media (cat-second-family-*, meme-reels-at-2am, meme-we-have-food-at-home).

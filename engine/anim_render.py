@@ -248,7 +248,7 @@ enc = subprocess.Popen([
     "-i", "voice.wav", "-i", "fx.wav", "-i", "music.wav", "-filter_complex",
     "[1:a]aresample=48000,apad,asplit[v1][v2];[3:a]volume=0.8[m];[m][v2]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=300[md];"
     f"[v1][2:a][md]amix=inputs=3:normalize=0:weights=1 0.85 0.6,alimiter=limit=0.92,atrim=0:{DUR:.2f}[a]",
-    "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
+    "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-maxrate", "12M", "-bufsize", "24M", "-pix_fmt", "yuv420p",
     "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", "-t", f"{DUR:.2f}", OUT], stdin=subprocess.PIPE)
 for n in range(N):
     enc.stdin.write(render_frame(n).tobytes())
