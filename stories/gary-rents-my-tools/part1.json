@@ -1,0 +1,442 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR NEIGHBOUR",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "street",
+   "text": "How does your neighbour borrow one ladder and end up owning your whole garage?",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "set": "street",
+   "text": "It starts small. Gary from next door leans over the fence. Hey buddy, can I borrow your ladder?",
+   "sfx": "pop",
+   "speaker": "co1",
+   "bubble": {
+    "text": "CAN I BORROW|YOUR LADDER?",
+    "x": 360,
+    "y": 560,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Sure, Gary. Next week, the drill. Then the hedge trimmer. Then the leaf blower. Then the other leaf blower.",
+   "sfx": "tick",
+   "cards": [
+    "LADDER",
+    "DRILL",
+    "TRIMMER",
+    "BLOWER",
+    "BLOWER 2"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MY GARAGE:|(ECHO)",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   },
+   "text": "By October my garage is empty. Just me, one broom, and a lot of echo.",
+   "sfx": "crickets"
+  },
+  {
+   "set": "street",
+   "text": "So I walk next door to get my stuff back. And Gary's garage has a new sign.",
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": -1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "to": 480
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "LO'S TOOLS|TEN BUCKS A DAY",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "text": "It says, Lo's tools. Ten bucks a day.",
+   "sfx": "busted",
+   "meme": "shake"
+  },
+  {
+   "set": "street",
+   "text": "There's a line down the driveway. The lady from number nine is renting my leaf blower. It has my name on it.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 200,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 420,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 820,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Gary spots me and yells, buddy! Great news! You're booked solid till Christmas!",
+   "sfx": "huh",
+   "speaker": "co1",
+   "bubble": {
+    "text": "YOU'RE BOOKED|TILL CHRISTMAS!",
+    "x": 380,
+    "y": 560,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 0.4
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "co1"
+   }
+  },
+  {
+   "set": "street",
+   "text": "I said, Gary, that's my stuff. He said, exactly. That's why it's called Lo's tools.",
+   "sfx": "clownhorn",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "I'm about to lose it. Then he hands me an envelope.",
+   "sfx": "dundun",
+   "props": [
+    {
+     "type": "paper",
+     "x": 540,
+     "y": 980
+    }
+   ],
+   "cast": [
+    {
+     "who": "co1",
+     "x": 380,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "reach",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "fx": {
+      "steam": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "YOUR HALF:|$900",
+    "bg1": "#FFF3D6",
+    "bg2": "#F2C98A"
+   },
+   "text": "Inside is my half. Nine hundred dollars.",
+   "sfx": "cashregister"
+  },
+  {
+   "set": "street",
+   "text": "Nine hundred dollars. For a ladder I used one time, to get a frisbee off the roof.",
+   "sfx": "ooh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.7,
+    "on": "me"
+   }
+  },
+  {
+   "set": "street",
+   "text": "So now we're partners. Gary handles the customers. I buy the tools. Gary does not buy anything.",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Last night he leans over the fence again. Hey buddy, can I borrow your car?",
+   "sfx": "gasp",
+   "speaker": "co1",
+   "bubble": {
+    "text": "CAN I BORROW|YOUR CAR?",
+    "x": 360,
+    "y": 560,
+    "tail": 30
+   },
+   "state": {
+    "night": true
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "I said yes. Obviously. It's a taxi now. Four point nine stars.",
+   "sfx": "phonk",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "set": "street",
+   "text": "My wife wants her car back. Gary says she's booked till Christmas.",
+   "sfx": "sadtrombone",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  }
+ ]
+}

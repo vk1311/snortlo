@@ -1,5 +1,5 @@
 # Snortlo experiment scoreboard
-_updated 2026-10-28 · score = average log(1 + views_72h) on YouTube, higher is better_
+_updated 2026-10-29 · score = average log(1 + views_72h) on YouTube, higher is better_
 
 ## stories
 
@@ -14,10 +14,10 @@ _updated 2026-10-28 · score = average log(1 + views_72h) on YouTube, higher is 
 
 ## memes
 
-- format: **x_years_later** 7.45 (n=7) · **me_vs_mom** 7.38 (n=1) · **nobody_me** 7.17 (n=1) · **expectation_reality** 7.17 (n=1) · **teacher_class** 7.13 (n=2) · **when_you** 6.40 (n=4) · **pov** – (n=0) · **starter_pack** – (n=0)
-- punch_sound: **bruh** 7.35 (n=4) · **phonk** 7.31 (n=1) · **fahh** 7.18 (n=4) · **metalpipe** 7.12 (n=2) · **random:punch** 7.07 (n=2) · **vineboom** 6.65 (n=3) · **bonecrack** – (n=0) · **roast** – (n=0)
-- length: **long_12_16s** 7.20 (n=10) · **short_6_9s** 6.96 (n=6)
-- voiced: **False** 7.12 (n=11) · **True** 7.08 (n=5)
-- deepfry: **True** 7.16 (n=5) · **False** 7.09 (n=11)
-- post_hour: **8** 7.56 (n=5) · **13** 7.01 (n=3) · **20** 6.82 (n=7)
-- theme: **friends** 7.24 (n=2) · **money** 7.23 (n=6) · **food** 7.13 (n=4) · **family** 6.89 (n=1) · **sleep** 6.83 (n=3) · **work** – (n=0) · **school** – (n=0) · **phone** – (n=0)
+- format: **x_years_later** 7.38 (n=8) · **me_vs_mom** 7.38 (n=1) · **expectation_reality** 7.17 (n=1) · **teacher_class** 7.13 (n=2) · **nobody_me** 7.04 (n=2) · **when_you** 6.40 (n=4) · **pov** – (n=0) · **starter_pack** – (n=0)
+- punch_sound: **phonk** 7.31 (n=1) · **bruh** 7.26 (n=5) · **fahh** 7.18 (n=4) · **metalpipe** 7.12 (n=2) · **random:punch** 7.07 (n=2) · **vineboom** 6.71 (n=4) · **bonecrack** – (n=0) · **roast** – (n=0)
+- length: **long_12_16s** 7.15 (n=12) · **short_6_9s** 6.96 (n=6)
+- voiced: **False** 7.11 (n=12) · **True** 7.05 (n=6)
+- deepfry: **True** 7.12 (n=6) · **False** 7.07 (n=12)
+- post_hour: **8** 7.56 (n=5) · **13** 7.01 (n=3) · **20** 6.84 (n=9)
+- theme: **friends** 7.24 (n=2) · **money** 7.18 (n=7) · **food** 7.08 (n=5) · **family** 6.89 (n=1) · **sleep** 6.83 (n=3) · **work** – (n=0) · **school** – (n=0) · **phone** – (n=0)

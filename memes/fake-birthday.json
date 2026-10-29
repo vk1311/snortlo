@@ -1,0 +1,97 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #24",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 1.6,
+   "top_text": "Nobody:",
+   "set": "kitchen",
+   "state": {
+    "sign": "PASTA|PLACE"
+   },
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.8,
+   "top_text": "Me telling the waiter it's my|bestie's birthday (it's not):",
+   "set": "kitchen",
+   "state": {
+    "sign": "PASTA|PLACE"
+   },
+   "sfx": "phonk",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 260,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.6
+     }
+    },
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 860,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  }
+ ]
+}

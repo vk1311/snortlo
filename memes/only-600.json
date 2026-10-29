@@ -1,0 +1,107 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #23",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me at 9: when I'm a grown-up|I'm buying ALL the candy",
+   "set": "kitchen",
+   "state": {
+    "sign": "CANDY|STORE"
+   },
+   "sfx": "airhorn",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.4,
+   "top_text": "20 years later:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "20 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me at 29 when the mechanic says|it's ONLY $600:",
+   "set": "street",
+   "sfx": "phonk",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 740,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce",
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "Living the dream|(the dream was candy)",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$600|LET'S GOOO",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "bruh",
+   "meme": "deepfry"
+  }
+ ]
+}
