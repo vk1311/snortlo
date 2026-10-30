@@ -244,3 +244,14 @@ YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Con
 | 12:00 | Meme B, Lo vs Life #24 "Nobody: / Me telling the waiter it's my bestie's birthday" (nobody_me, phonk, unvoiced, deepfry, friends; moved from 08:00 past the 09:00 story) | meme-fake-birthday.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvt0z8gn006po276q69e4r22, cmvt0z8hd006qo276qayd6yun, cmvt0z8i4006ro276qoc3mtao |
 
 YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Oct 26 (recess). Thursday: no Lo Explains, no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (16 lines, 144 s). Full cut = copy of part 1. Housekeeping: deleted Oct 20 media (cat-second-family-*, meme-reels-at-2am, meme-we-have-food-at-home).
+
+## Fri 2026-10-30 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 09:00 | Story "apology-cake" (1 part, pov hook, customers, am_puck, emoji_end): "This guy orders an apology cake every Friday. Then he eats it 🎂 #shorts" (69.9 s) | apology-cake-part1.mp4 | YouTube, Facebook, Instagram | cmvuk7zba006so2761vamzoce, cmvuk7zbw006to276t077grj1, cmvuk7zcb006uo276ggacztxs |
+| 13:00 | Lo Explains #2 "why does everything cost .99?" (53 s) | price-99-part1.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvuk7zcu006vo276eyngsph3, cmvuk7zdo006wo276xekqyco4, cmvuk7zew006xo276l5w7jxks |
+| 15:00 | Meme B, Lo vs Life #26 "Teacher: share it with the class / my bestie: shares it" (teacher_class, phonk, voiced, deepfry, friends; Fri = FB only, moved +2h from 13:00) | meme-share-with-class.mp4 | Facebook | cmvuk7zfj006yo276x6ctetpi |
+| 20:00 | Meme A, Lo vs Life #25 "Mom: phones rot your brain / Mom at dinner: level 4,012" (me_vs_mom, phonk, voiced, deepfry, phone) | meme-mom-level-4000.mp4 | YouTube, Facebook, Instagram | cmvuk7zgm006zo2760greso6t, cmvuk7zi70070o276vuvvetue, cmvuk7zji0071o2767n9uf94u |
+| 21:00 | Sleep stories #4 "Fall Asleep Fast 🌙 6 Gentle Stories Under the Stars" (51 min, 6 new stories, 7,393 words) | long-sleepy-stories-4-web.mp4 | YouTube, Facebook | cmvuk7zki0072o276vax2ru8a, cmvuk7zlw0073o276yuyfh0a8 |
+
+YouTube uploads today: 4 (story, Lo Explains, meme A, sleep stories). Instagram: 3 (story, Lo Explains, meme A). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: new session day Oct 29 had no candidates (pro forma); Oct 26 and Oct 22 also empty. Friday: no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (712 lines incl. the sleep story, 3,501 s on Kaggle). Full cut = copy of part 1. Housekeeping: deleted Oct 21 media (mom-group-chat-*, gov-say-grace, meme-nap-time-revenge, meme-show-mom-one-photo).

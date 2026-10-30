@@ -35,9 +35,12 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Living-room `tv` text: max ~10 characters per line, and keep Lo at x≈360 with no zoom on him, or the camera crops the TV (caught on qc Oct 28).
 - Congress: the House has been pro forma since mid-September (election recess). If gov.py find returns [] for the 3 newest unused days, skip it without trying more days.
 - Snortlo memes: "x years later" format and 8 AM posts lead (small samples).
+- Anything over ~8 min (nightly.py voices, sleep-story render, shrink.sh) must run with nohup in the background and be polled; the shell tool kills foreground commands at 10 min (killed voices and shrink on Oct 30). Sleep-story Fridays: ~700 lines take ~60 min on Kaggle; kaggle_tts.py now scales its wait with job size.
+- Speech bubbles: "|" is a line break (fixed in anim.wrapc Oct 30; it used to print literally).
 - Shorts renders cap video at 12 Mbps (anim_render.py): deepfry grain made a 12 s meme 42 MB; now ~13 MB. If a file is still big, check for grain/shake, not length.
 
 ## Night log (newest first; keep the last 14 nights, one to three lines each)
+- 2026-10-30: Kaggle OK first try but slow (712 lines incl. sleep story, 58 min); first foreground try was killed by the 10-min shell cap, so long steps now run in background. QC: speech bubble printed "|" literally; fixed wrapc. Improvement: Kaggle wait scales with line count so a big night isn't logged as "Kaggle down" (would have deferred podcasts). Memes came out 10.7/11.8 s for the 12-16 s arm; lengthened silent holds. Numbers: am_puck 6.65 (n=8) leads; music on beats off (n=19 vs 13); lowercase titles lead (n=11); Lo Explains #1 got 987 views.
 - 2026-10-29: clean run, Kaggle OK first try (144 s). QC: Lo stood in front of the kitchen sign in meme A; moved him and re-rendered. Improvement: capped Shorts bitrate at 12 Mbps (deepfry meme 42 MB -> 13 MB, tested). Congress skipped (no new session days). Numbers: not enough new samples.
 - 2026-10-28: clean run, Kaggle OK first try. QC caught TV text cropped in meme B; fixed and added the tv-text rule here and in STORY_FORMAT.md. Congress skipped again (recess). First Lo Explains (sandwich). Numbers: too few new samples to call anything.
 - 2026-10-27 (set-up day): photo review caught people, war and off-topic photos that slipped past the title filter; added broll_block.txt, a stronger filter (no strips, dark frames or scans), and the photos/block review step.
