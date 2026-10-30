@@ -1,0 +1,177 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #26",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Something funny? Why don't you share it with the whole class?",
+   "voice": "am_michael",
+   "top_text": "Teacher:",
+   "set": "classroom",
+   "state": {
+    "board": "QUIET|PLEASE"
+   },
+   "speaker": "co1",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "hips",
+     "act": "talk",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 880,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "Me, praying my bestie|says nothing:",
+   "set": "classroom",
+   "state": {
+    "board": "QUIET|PLEASE"
+   },
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 640,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "text": "Okay so. He still sleeps with a night light.",
+   "voice": "af_bella",
+   "top_text": "My bestie:",
+   "set": "classroom",
+   "state": {
+    "board": "QUIET|PLEASE"
+   },
+   "speaker": "co2",
+   "sfx": "gasp",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 880,
+     "facing": -1,
+     "pose": "point",
+     "act": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 600,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me for the rest|of the school year:",
+   "set": "classroom",
+   "state": {
+    "board": "NIGHT|LIGHT GUY"
+   },
+   "sfx": "phonk",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "red": 0.7
+     }
+    },
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "laugh",
+     "act": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 920,
+     "facing": -1,
+     "pose": "laugh",
+     "act": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "on": "me"
+   }
+  }
+ ]
+}

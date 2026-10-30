@@ -337,6 +337,8 @@ def draw_prop(c, pr, x, y, t, held=False, facing=1):
         for i, l in enumerate(lines_): text(c, l, x, by + 46 + i * 58, 44, INKC)
 
 def wrapc(c, s, maxw):
+    if "|" in s:  # "|" is a forced line break (bubbles were drawing it literally, caught on qc Oct 30)
+        return [l for part in s.split("|") for l in wrapc(c, part.strip(), maxw)]
     out, cur = [], ""
     for w in s.split():
         tst = (cur + " " + w).strip()

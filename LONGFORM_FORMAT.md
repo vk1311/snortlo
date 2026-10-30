@@ -84,6 +84,7 @@ One weekly compilation of calm, original "stories to fall asleep to" for YouTube
 - Compilation 1: midnight laundromat with a lost-sock board; lighthouse caretaker and an opinionated gull called the Captain; night baker on a snowy morning; a cat who runs Elm Lane; overnight sleeper train with cocoa; night custodian reading the returned library books.
 - Compilation 2: late night bus (bank 1); beekeeper wrapping hives (7); snowed-in inn (13); ferry at dusk (4); tortoise in a walled garden (22); houseboat in the rain (18).
 - Compilation 3: greenhouse on a frosty night (2); clock shop chiming at closing (3); retired postman and his dog (12); hotel night porter in the snow (19); mountain hut warden in the rain (5); seaside ice cream kiosk on the last warm day (25).
+- Compilation 4: tea shop on a rainy afternoon (9); night nurse for newborn lambs (16); museum night watchman saying good night to the paintings (8); mending nets by lamplight as the boats come home (10); owl keeping watch over an orchard (24); girl and grandfather stargazing from the roof (20).
 
 ## Story idea bank (25)
 

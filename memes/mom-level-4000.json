@@ -1,0 +1,145 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #25",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Put that phone down. It'll rot your brain.",
+   "voice": "af_bella",
+   "top_text": "My mom, every day|of my childhood:",
+   "set": "kitchen",
+   "state": {
+    "sign": "HOME|SWEET HOME"
+   },
+   "speaker": "co2",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 780,
+     "facing": -1,
+     "pose": "point",
+     "act": "talk",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "co2"
+   }
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "My mom at family dinner|in 2026:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "LEVEL|4,012",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "sfx": "textbuzz"
+  },
+  {
+   "text": "Mom. The food is here.",
+   "top_text": "Me:",
+   "set": "office",
+   "state": {
+    "table": true,
+    "cooler": false
+   },
+   "speaker": "me",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 640,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Shh. Not now. I'm on level four thousand.",
+   "voice": "af_bella",
+   "top_text": "Mom:",
+   "set": "office",
+   "state": {
+    "table": true,
+    "cooler": false
+   },
+   "speaker": "co2",
+   "sfx": "phonk",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 640,
+     "facing": -1,
+     "pose": "hold",
+     "act": "shake",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "fx": {
+      "red": 0.6
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "co2"
+   }
+  }
+ ]
+}

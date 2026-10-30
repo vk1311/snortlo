@@ -87,15 +87,17 @@ def run(cfg, out_dir):
     code, out = kaggle("kernels", "push", "-p", work)
     if code != 0 or "error" in out.lower() and "successfully" not in out.lower():
         return False, "push failed: " + out[-400:]
+    # big nights (sleep story + podcast) take ~5 s per line on the T4; scale the wait so a slow run isn't logged as "Kaggle down"
+    wait = max(MAX_WAIT, 900 + 8 * len(cfg.get("jobs", [])))
     t0, status = time.time(), ""
-    while time.time() - t0 < MAX_WAIT:
+    while time.time() - t0 < wait:
         time.sleep(20)
         code, status = kaggle("kernels", "status", f"{USER}/{SLUG}")
         s = status.lower()
         if "complete" in s: break
         if "error" in s or "cancel" in s: return False, "run failed: " + status[-300:]
     else:
-        return False, f"timed out after {MAX_WAIT}s ({status[-120:]})"
+        return False, f"timed out after {wait}s ({status[-120:]})"
     dl = tempfile.mkdtemp(prefix="kgout-")
     code, out = kaggle("kernels", "output", f"{USER}/{SLUG}", "-p", dl, timeout=1800)
     zp = os.path.join(dl, "tts_out.zip")
