@@ -1,0 +1,98 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #27",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.8,
+   "top_text": "Our group chat at 16:|600 messages before first period",
+   "set": "bedroom",
+   "state": {
+    "phone": true,
+    "clock": "6:40"
+   },
+   "sfx": "textbuzz",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "laugh",
+     "act": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cards": [
+    "LOL",
+    "OMG",
+    "CALL?"
+   ],
+   "cam": {
+    "zoom": 1.0
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.6,
+   "top_text": "15 years later:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "15 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "",
+   "hold": 4.2,
+   "top_text": "Our group chat at 31:|one photo of a gutter sale",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "gutters 30% off",
+     "(3 days ago)",
+     "seen by 4"
+    ],
+    "bg1": "#E6F4FF",
+    "bg2": "#8CC3F2"
+   },
+   "sfx": "phonk"
+  },
+  {
+   "text": "",
+   "hold": 3.8,
+   "top_text": "Me replying \"nice\"|on day four, feeling SO social:",
+   "set": "living",
+   "state": {
+    "tv": "NICE|SENT"
+   },
+   "sfx": "aura",
+   "cast": [
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  }
+ ]
+}

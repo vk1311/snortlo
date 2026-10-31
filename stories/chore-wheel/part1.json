@@ -1,0 +1,433 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": false,
+ "min_seconds": 61,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR ROOMMATE",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "CHORE|WHEEL"
+   },
+   "text": "POV: your roommate made a chore wheel, and it has landed on you eleven times in a row.",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 280,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "CHORE|WHEEL"
+   },
+   "text": "Dishes. Me. Trash. Me. Bathroom. Spin it again. Still me.",
+   "sfx": "tick",
+   "cards": [
+    "DISHES",
+    "TRASH",
+    "BATHROOM"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "11 IN|A ROW",
+    "bg1": "#E6F4FF",
+    "bg2": "#8CC3F2"
+   },
+   "text": "Eleven in a row. I looked up the odds. I did not understand the odds. But they're bad.",
+   "sfx": "huh"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "CHORE|WHEEL"
+   },
+   "text": "He just shrugs. The wheel has spoken, bro. It's totally random.",
+   "sfx": "hmm",
+   "speaker": "co1",
+   "bubble": {
+    "text": "THE WHEEL|HAS SPOKEN",
+    "x": 340,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 280,
+     "facing": 1,
+     "pose": "shrug",
+     "act": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   }
+  },
+  {
+   "set": "night",
+   "state": {
+    "clock": "2:00"
+   },
+   "text": "So at two in the morning, I sneak into the kitchen with my phone flashlight.",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "to": 700,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MAGNET|TAPED ON",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "text": "I flip the wheel over. There is a magnet. Taped to the back.",
+   "sfx": "reveal"
+  },
+  {
+   "set": "night",
+   "state": {
+    "clock": "2:01"
+   },
+   "text": "And a second magnet glued under the counter. Right under my name.",
+   "sfx": "busted",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "set": "night",
+   "state": {
+    "clock": "2:02"
+   },
+   "text": "This man engineered a chore wheel. He used a level. He has a system.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "night",
+   "state": {
+    "clock": "2:03"
+   },
+   "text": "So I peel it off and glue it under his name. Revenge smells like clean dishes.",
+   "sfx": "evillaugh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "CHORE|WHEEL"
+   },
+   "text": "Next morning he spins it. Lands on him. He stares at it for a full minute.",
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "drink",
+     "hold": "cup",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "CHORE|WHEEL"
+   },
+   "text": "Then he clears his throat. Okay. New rule. Best two out of three.",
+   "sfx": "fahh",
+   "speaker": "co1",
+   "bubble": {
+    "text": "BEST 2|OUT OF 3",
+    "x": 340,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "act": "talk",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "CHORE|WHEEL"
+   },
+   "text": "He blows on the wheel like it's a pair of dice. Spins it.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "closed",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "HIM|AGAIN"
+   },
+   "text": "Him. Him again. He's sweating. I'm eating cereal like it's a movie.",
+   "sfx": "metalpipe",
+   "meme": "slowzoom",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "eat",
+     "act": "bounce",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "night",
+   "state": {
+    "clock": "3:00"
+   },
+   "text": "That night, I hear a drill. He's building a brand new wheel.",
+   "sfx": "alarm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NOT IT|NOT IT",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "text": "This one has no names at all. Every single slice just says, not it.",
+   "sfx": "bonk"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "NOT IT"
+   },
+   "text": "So now nobody does the dishes. We just spin it every morning, to feel something.",
+   "sfx": "laughtrack",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "act": "bounce",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "celebrate",
+     "act": "bounce",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     540,
+     800
+    ]
+   }
+  }
+ ]
+}

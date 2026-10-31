@@ -94,6 +94,8 @@ def run(cfg, out_dir):
         time.sleep(20)
         code, status = kaggle("kernels", "status", f"{USER}/{SLUG}")
         s = status.lower()
+        if int(time.time() - t0) % 300 < 20:  # progress line every ~5 min, so a background log shows it's alive
+            print(f"[kaggle] {int(time.time() - t0)}s, {len(cfg.get('jobs', []))} lines: {status.strip()[-80:]}", file=sys.stderr, flush=True)
         if "complete" in s: break
         if "error" in s or "cancel" in s: return False, "run failed: " + status[-300:]
     else:

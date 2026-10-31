@@ -1,0 +1,989 @@
+{
+ "brand": "keegix",
+ "episode": 2,
+ "slug": "keegix-ep02-slow-season",
+ "air_date": "2026-11-10",
+ "title": "How to Get Bookings in the Slow Season: Pricing, Minimum Stays & Photos | Keegix Podcast",
+ "card_title": "Getting bookings in the slow season",
+ "guest": {
+  "name": "Maya",
+  "role": "Cottage host, 15 winters",
+  "voice": "bf_emma"
+ },
+ "description": "How short-term rental and B&B hosts can get bookings in the slow season: why demand drops (with Nova Scotia's 2025 numbers), setting a price floor, Smart Pricing minimums and custom prices, minimum stays and advance notice, weekly, monthly and last-minute discounts, and winter listing photos. Plus this week's news: Vrbo's new 12% host commission.\nA four-week slow season plan you can start today.\nHosts and guests on this show are AI voices. Facts are sourced below. Maya is a fictional character, not a real person.\nPlatform settings are as of October 2026 and change often. Length-of-stay rules vary by city and province. Not legal advice.\nStart free for one property: keegix.com/start",
+ "tags": [
+  "airbnb slow season",
+  "how to get more bookings on airbnb",
+  "airbnb smart pricing",
+  "airbnb minimum stay",
+  "airbnb pricing strategy",
+  "airbnb weekly discount",
+  "airbnb listing photos",
+  "short term rental off season",
+  "vrbo commission 2026",
+  "bnb host tips",
+  "cottage rental winter",
+  "keegix podcast"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "visuals": [
+    "empty beach",
+    "snowy cottage",
+    "beach umbrella",
+    "frosted window"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "In Nova Scotia last year, August sold about three hundred and ninety four thousand room nights. January sold about one hundred and thirty six thousand. Same province, same rooms, almost three times the demand.",
+     "card": {
+      "type": "stat",
+      "big": "394k vs 136k",
+      "label": "Room nights sold in Nova Scotia, August vs January 2025",
+      "source": "Tourism Nova Scotia"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And occupancy tells the same story. Eighty percent in August. Thirty nine percent in January. If your calendar looks empty right now, you're not doing something wrong. You're in the slow season."
+    },
+    {
+     "who": "host",
+     "text": "So today, we're talking about what you can actually do about it. Pricing, minimum stays, discounts, photos, and a simple plan for the next few months."
+    }
+   ]
+  },
+  {
+   "heading": "Intro",
+   "visuals": [
+    "cottage porch",
+    "lighthouse",
+    "harbour boats",
+    "cabin lake",
+    "wood stove"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Welcome to the Keegix Podcast, a weekly show about running a B and B, a cottage or a short term rental. I'm June. Every fact we use is sourced in the description.",
+     "card": "clear"
+    },
+    {
+     "who": "host",
+     "text": "This is episode two, and it's the one a lot of hosts are searching for right about now. How to get bookings in the slow season. We'll look at why demand drops, how to set your prices without panicking, how minimum stays and advance notice quietly block bookings, which discounts actually show up to guests, and how to refresh your listing photos for winter."
+    },
+    {
+     "who": "host",
+     "text": "My guest today is Maya. Maya plays a cottage host on the south shore of Nova Scotia, with fifteen winters of quiet calendars behind her. Not a real person. Just a practical voice for the host's side of things. Welcome, Maya.",
+     "card": {
+      "type": "point",
+      "text": "Maya plays a cottage host. Not a real person."
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, June. And a quick note before we start. When we talk about platform settings, we're describing how they work as of late October, twenty twenty six. Platforms change their menus all the time, so if a button has moved, it's probably still there under a new name."
+    },
+    {
+     "who": "host",
+     "text": "Good. Before we get into the settings, there's one piece of news this week that touches pricing for a lot of hosts."
+    }
+   ]
+  },
+  {
+   "heading": "In the news: Vrbo's new host commission",
+   "visuals": [
+    "calculator",
+    "receipt paper",
+    "laptop desk",
+    "coins jar",
+    "calendar wall"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "As of October twenty ninth, twenty twenty six, Vrbo moved hosts to a single commission model. Vrbo's parent company announced it at the start of October.",
+     "card": {
+      "type": "rule",
+      "title": "Vrbo, from Oct 29, 2026",
+      "text": "Pay per booking: 12% commission, including payment processing. 12% to 15% by region.",
+      "source": "Expedia Group newsroom",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "The headline number is a flat twelve percent commission on bookings, and that includes payment processing. Depending on the region, the rate can run from twelve to fifteen percent, and hosts can see their own rate in their dashboard."
+    },
+    {
+     "who": "host",
+     "text": "And the subscription option is going away?"
+    },
+    {
+     "who": "guest",
+     "text": "Right. The yearly subscription model is being retired. Hosts on a subscription move over when their current term ends. And the commission is charged on the nightly rate plus fees the host adds, like cleaning or pet fees. Taxes and refundable damage deposits are left out."
+    },
+    {
+     "who": "host",
+     "text": "What about bookings people already made?"
+    },
+    {
+     "who": "guest",
+     "text": "Bookings made before the change keep the old rate. It's based on the date of the booking, not the date of the stay. One more detail matters for today's topic. Vrbo said it won't raise base rates automatically to cover the new commission, and it suggests hosts review their minimum and maximum price limits and seasonal settings."
+    },
+    {
+     "who": "host",
+     "text": "Which is a pretty good lead in to the rest of this episode. If you list on more than one platform, take ten minutes this week to check what you actually take home per night on each one.",
+     "card": {
+      "type": "point",
+      "text": "Check your take-home per night on every platform."
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Why the slow season happens",
+   "visuals": [
+    "autumn leaves",
+    "empty parking lot",
+    "snow road",
+    "quiet harbour",
+    "bare trees",
+    "rainy window"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's start with the why. Maya, when you look at a year of bookings, what does the shape look like?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "For most leisure places, it's a hill. In Nova Scotia's numbers for twenty twenty five, room nights climbed from about one hundred and eighty three thousand in April, up to that August peak, and stayed strong in September at about three hundred and thirty nine thousand. Then it slides. October was about two hundred and ninety four thousand, November about two hundred and thirteen thousand, and December about one hundred and fifty thousand.",
+     "card": {
+      "type": "list",
+      "title": "Nova Scotia room nights, 2025",
+      "items": [
+       "Aug: 394,000",
+       "Sep: 339,000",
+       "Nov: 213,000",
+       "Jan: 136,000"
+      ],
+      "source": "Tourism Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So November isn't empty. It's just not August."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. November occupancy was about fifty nine percent across the province. That's a real market. It's just a different guest, booking in a different way, often closer to the date."
+    },
+    {
+     "who": "host",
+     "text": "Who is that guest, in your experience?"
+    },
+    {
+     "who": "guest",
+     "text": "In my cottage, the off season guest usually has a reason that isn't the beach. Someone visiting family for a long weekend. Someone working remotely for a week who wants a change of view. A couple who wants a quiet room with a wood stove and a book. Someone in town for a medical appointment or a work contract. None of those people care about your kayaks."
+    },
+    {
+     "who": "host",
+     "text": "That's the part people miss. The listing still sells kayaks."
+    },
+    {
+     "who": "guest",
+     "text": "It does. Most of us wrote our listing in June, took the photos in July, and set our prices for August. Then we leave all of that running into January and wonder why nothing happens."
+    },
+    {
+     "who": "host",
+     "text": "And the bigger picture in Nova Scotia is that the province is pushing for more visitors outside the summer.",
+     "card": {
+      "type": "stat",
+      "big": "$3.7 billion",
+      "label": "Nova Scotia tourism revenue in 2025, up 8%",
+      "source": "Province of Nova Scotia"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Right. The province reported three point seven billion dollars in tourism revenue for twenty twenty five, up eight percent, and it talks openly about becoming a year round destination. So the off season is a market people are trying to grow. Hosts who set up for it now will be ready if it does."
+    },
+    {
+     "who": "host",
+     "text": "Wherever you are, you can do the same exercise. Look up your province, state or city's tourism numbers by month. Most tourism offices publish them. Then circle your three weakest months. Those are the months this episode is about."
+    },
+    {
+     "who": "guest",
+     "text": "And look at your own calendar from last year next to it. Your quiet months might not match the province. A ski area flips the whole thing upside down.",
+     "card": {
+      "type": "point",
+      "text": "Circle your three weakest months, then plan for them."
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Pricing strategy: Smart Pricing, minimums and custom prices",
+   "visuals": [
+    "price tag",
+    "calculator",
+    "calendar desk",
+    "notebook pen",
+    "coffee mug",
+    "laptop desk"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's talk price, because it's the first thing everyone touches. Maya, what's the most common slow season pricing mistake?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Two opposite ones. Some hosts never touch their summer price, so they're the most expensive option on the map in November. Others panic and drop to a price they'll resent, and then they're cleaning for almost nothing. The fix for both is the same. Decide your floor before you start."
+    },
+    {
+     "who": "host",
+     "text": "Your floor meaning the lowest nightly price you'll accept."
+    },
+    {
+     "who": "guest",
+     "text": "Yes. Add up what one stay actually costs you. Cleaning, laundry, heat in winter, supplies, platform fees. That number, plus something for your time, is your floor. Write it down. Then every decision after that gets easier.",
+     "card": {
+      "type": "point",
+      "text": "Set your price floor first: cleaning, heat, supplies, fees, your time."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Walk me through a quick example. Made up numbers are fine."
+    },
+    {
+     "who": "guest",
+     "text": "Sure, purely as an example. Say cleaning and laundry come to sixty dollars a stay, heat and power for a winter night are about twenty, and supplies like coffee, soap and toilet paper are about ten. That's ninety dollars before the platform takes its share and before you've paid yourself anything. If you then accept a seventy dollar night, you're paying the guest to stay."
+    },
+    {
+     "who": "host",
+     "text": "And that happens more than people think."
+    },
+    {
+     "who": "guest",
+     "text": "It does, because the costs are spread out. The cleaning bill comes one day, the power bill comes a month later, and the booking looked fine on the day it came in. Doing the math once, on paper, is what stops it."
+    },
+    {
+     "who": "host",
+     "text": "A lot of hosts use automatic pricing tools. Airbnb's is called Smart Pricing. How does it actually work?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb describes it as adjusting your nightly price based on demand, using hundreds of factors about your listing and your area. You turn it on in your pricing settings, and you enter a minimum and a maximum price.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb Smart Pricing",
+      "text": "Adjusts nightly price with demand. You set a minimum and maximum; you can override single nights.",
+      "source": "Airbnb Help Centre",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the minimum is where your floor goes."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. That's the whole trick. Smart Pricing can only go as low as the minimum you give it. If you set it to something you'd hate, it might find it."
+    },
+    {
+     "who": "host",
+     "text": "Can you still set a special price for one weekend?"
+    },
+    {
+     "who": "guest",
+     "text": "Yes. Airbnb says you can set a custom price for specific dates without turning Smart Pricing off. So if you know there's a big hockey tournament or a wedding at the hall down the road, you can price that weekend yourself."
+    },
+    {
+     "who": "host",
+     "text": "Are there settings that fight with each other?"
+    },
+    {
+     "who": "guest",
+     "text": "A few, and they catch people. Airbnb notes that weekly, monthly and trip length discounts override Smart Pricing. Early bird discounts can push the guest's price below your Smart Pricing minimum. And if you want separate weekend pricing, you have to turn Smart Pricing off.",
+     "card": {
+      "type": "list",
+      "title": "Settings that interact",
+      "items": [
+       "Length discounts override it",
+       "Early bird can go below minimum",
+       "Weekend pricing needs it off"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So check the price a guest actually sees, not just the price you typed."
+    },
+    {
+     "who": "guest",
+     "text": "Always. Open your listing like a guest would, pick a few dates in your slow months, and look at the total. That's the number that wins or loses the booking."
+    },
+    {
+     "who": "host",
+     "text": "What about comparing yourself to other places nearby?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb has a tool for that in the pricing settings. You select up to thirty one days and look at similar listings nearby. It compares on things like location, size, amenities and ratings. If you're well above places like yours for the same dates, that's a signal. Not an order. A signal."
+    },
+    {
+     "who": "host",
+     "text": "And if you're the only place with a hot tub and a view of the harbour?"
+    },
+    {
+     "who": "guest",
+     "text": "Then you might be worth more, and that's fine. But your photos and your title need to prove it in two seconds. We'll get to that."
+    }
+   ]
+  },
+  {
+   "heading": "Minimum stay, advance notice and trip length",
+   "visuals": [
+    "calendar wall",
+    "alarm clock",
+    "suitcase",
+    "door key",
+    "house keys",
+    "front door"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Now, the settings people forget they even set. Minimum stay and advance notice. Maya, why do these matter so much in the slow season?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Because they quietly hide you. In summer, a two or three night minimum makes sense. You're full anyway, and fewer turnovers save your back. In November, the same rule means the guest who wants one Tuesday night never even sees you."
+    },
+    {
+     "who": "host",
+     "text": "Airbnb actually suggests this in its own low season advice."
+    },
+    {
+     "who": "guest",
+     "text": "It does. Their low season guide suggests allowing shorter stays, and you can set the minimum by day of the week. So, for example, one night stays midweek, but not on a Friday or a Saturday. That way you protect your weekends and still catch the weeknight traveller.",
+     "card": {
+      "type": "compare",
+      "left_title": "Summer",
+      "left": "3-night minimum, weekends full",
+      "right_title": "Slow season",
+      "right": "1-night midweek, 2 nights Fri-Sat"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And advance notice?"
+    },
+    {
+     "who": "guest",
+     "text": "Advance notice is how far ahead a guest has to book. If yours says three days, nobody can book you tonight or tomorrow. Airbnb's guide says you can set it as short as the same day, and you can still review requests that come in with less notice than your setting."
+    },
+    {
+     "who": "host",
+     "text": "But same day bookings sound stressful."
+    },
+    {
+     "who": "guest",
+     "text": "They can be, which is why it depends on how you check people in. One host in Airbnb's guide makes last minute bookings work with self check in and scheduled messages. If you have to drive forty minutes to hand over a key, same day might not be for you. If guests can let themselves in and find everything on their phone, it's a lot easier."
+    },
+    {
+     "who": "host",
+     "text": "There's another thing minimum stays do that people don't notice. Gap nights."
+    },
+    {
+     "who": "guest",
+     "text": "Yes, the lonely night in the middle. Say one guest checks out on Sunday and the next checks in on Tuesday. Monday is open, but if your minimum is two nights, nobody can ever book it. Over a winter, those single nights add up."
+    },
+    {
+     "who": "host",
+     "text": "So what do you do about them?"
+    },
+    {
+     "who": "guest",
+     "text": "Every week or two, scroll your calendar for single open nights between bookings. Check whether your platform lets you relax the minimum for that date, and set a custom price for that one night. A Monday night at a fair price is better than a Monday night at nothing. And it's often exactly the night a traveller passing through is looking for."
+    },
+    {
+     "who": "host",
+     "text": "What's the longest end of trip length? Should hosts cap stays?"
+    },
+    {
+     "who": "guest",
+     "text": "This is where you have to check your local rules. Airbnb itself says to make sure your length of stay limits follow local rules. In some places, a stay over a certain length is treated differently from a short term rental. So before you invite a three month guest, look up what your city and province say. Rules vary a lot, and this isn't legal advice.",
+     "card": {
+      "type": "rule",
+      "title": "Longer stays",
+      "text": "Check local rules before allowing long stays; some places treat them differently from short-term rentals.",
+      "source": "Airbnb Resource Centre",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Good. So the short version of this segment?"
+    },
+    {
+     "who": "guest",
+     "text": "Look at three numbers in your calendar settings today. Minimum nights, maximum nights and advance notice. Ask if each one still makes sense for a Tuesday in January.",
+     "card": {
+      "type": "list",
+      "title": "Check today",
+      "items": [
+       "Minimum nights",
+       "Maximum nights",
+       "Advance notice"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Discounts that guests actually see",
+   "visuals": [
+    "shop sign",
+    "price tag",
+    "calendar desk",
+    "coffee mug",
+    "winter cabin",
+    "snow porch"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's talk discounts. There are a lot of them now. Which ones matter?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "I think of three kinds. Discounts for booking late, discounts for staying long, and one off promotions. Airbnb's low season guide covers all three, and the interesting part is which ones get a little callout on your listing."
+    },
+    {
+     "who": "host",
+     "text": "Start with late bookings."
+    },
+    {
+     "who": "guest",
+     "text": "A last minute discount applies to bookings made one to twenty eight days before check in. Airbnb says a discount of ten percent or more off your sixty day median price earns a callout on your listing. In their guide, one host says fifteen percent is the most they'd go, and they keep a minimum price floor.",
+     "card": {
+      "type": "stat",
+      "big": "10%+",
+      "label": "Last-minute discount size that earns a callout on Airbnb",
+      "source": "Airbnb Resource Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "There's that floor again."
+    },
+    {
+     "who": "guest",
+     "text": "It keeps coming back. Discounts stack on top of your price, so your floor is what keeps you sane."
+    },
+    {
+     "who": "host",
+     "text": "Next, long stays."
+    },
+    {
+     "who": "guest",
+     "text": "Weekly discounts apply to stays of seven nights or more. Monthly discounts apply to stays of twenty eight nights or more. Airbnb says discounts of ten percent or more show up in search results, and every discount is shown next to the original price in the price breakdown.",
+     "card": {
+      "type": "list",
+      "title": "Length-of-stay discounts",
+      "items": [
+       "Weekly: 7+ nights",
+       "Monthly: 28+ nights",
+       "10%+ shows in search"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Why are long stays so good for the slow season?"
+    },
+    {
+     "who": "guest",
+     "text": "Because one guest for two weeks is one cleaning, one set of laundry and one check in, instead of five or six. Airbnb puts it as higher occupancy and lower turnover. Think about who might want that in winter. A travelling nurse, a contractor on a job, someone between homes, someone who just wants a month somewhere quiet."
+    },
+    {
+     "who": "host",
+     "text": "There's also something Airbnb adds on its own for monthly stays, right?"
+    },
+    {
+     "who": "guest",
+     "text": "Yes. Airbnb says that in some cases it adds Monthly Stay Savings to stays of twenty eight nights or more. It can combine with your own discount, and Airbnb pays for it, so it doesn't come out of the host's payout."
+    },
+    {
+     "who": "host",
+     "text": "And the third kind, promotions?"
+    },
+    {
+     "who": "guest",
+     "text": "A custom promotion lets you pick dates and set a percentage off. Airbnb says fifteen percent or more earns a callout. There are conditions though. Your listing needs at least three bookings, with one in the past year, and the dates have to have been open for at least twenty eight days.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb custom promotion",
+      "text": "15% or more earns a callout. Needs 3 bookings, 1 in the past year; dates open 28+ days.",
+      "source": "Airbnb Resource Centre",
+      "as_of": "Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "One small rule I noticed. After a discount, the nightly price can't drop below ten dollars."
+    },
+    {
+     "who": "guest",
+     "text": "Right, that's in Airbnb's help article. If you're anywhere near that, something has gone very wrong with your floor."
+    },
+    {
+     "who": "host",
+     "text": "So which one would you start with?"
+    },
+    {
+     "who": "guest",
+     "text": "For most cottages and B and Bs in a quiet month, I'd start with a weekly discount and a modest last minute discount, both above your floor. Then watch for a few weeks before adding anything else. If you change five things at once, you'll never know which one worked.",
+     "card": {
+      "type": "point",
+      "text": "Start with weekly + last-minute discounts. Change one thing at a time."
+     }
+    }
+   ]
+  },
+  {
+   "heading": "A word from Keegix",
+   "visuals": [
+    "front door",
+    "welcome mat",
+    "house keys",
+    "wood stove",
+    "snow shovel"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "A quick word from the show's sponsor, which is us. Keegix is a digital welcome book for hosts. Guests scan a small sign by the door, or open one link, and see check in steps, the wifi, parking, house rules, local picks and the checkout list. No app for the guest to download.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "And in the slow season, that's where the winter details live. Where the snow shovel is, how the heat pump works, which restaurants are still open in January. If you're taking same day bookings with self check in, it means the guest has what they need before you're even awake. You can start free for one property at keegix dot com slash start.",
+     "card": {
+      "type": "point",
+      "text": "Start free for one property: keegix.com/start"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Listing photos for the off season",
+   "visuals": [
+    "wood stove",
+    "cozy bedroom",
+    "snowy cottage",
+    "winter cabin",
+    "fireplace",
+    "bookshelf",
+    "kitchen table"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's talk photos. Maya, you said earlier most listings are still selling summer.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "They are. And the photos are the first thing a guest judges. Airbnb's photo guide says to choose an eye catching cover photo, because that's what guests see in search results. If your cover photo is a sunny dock and it's sleeting outside, you're selling a stay nobody can have right now."
+    },
+    {
+     "who": "host",
+     "text": "So swap the cover photo by season."
+    },
+    {
+     "who": "guest",
+     "text": "That's the simplest change you can make. In winter, I lead with the wood stove and a lamp on, and a window with snow outside. Same cottage. Totally different promise. A guest looking for a quiet winter weekend sees themselves in it."
+    },
+    {
+     "who": "host",
+     "text": "What does Airbnb say about the basics?"
+    },
+    {
+     "who": "guest",
+     "text": "Their guide says to submit at least five photos, more if you need them. It suggests at least eight hundred by twelve hundred pixels, files up to ten megabytes, which most phones can do easily. And it says to use good light, natural light if possible, and avoid dark images and extreme flash.",
+     "card": {
+      "type": "list",
+      "title": "Photo basics",
+      "items": [
+       "5 photos or more",
+       "800 x 1,200 px minimum",
+       "Natural light, no harsh flash",
+       "Eye-catching cover photo"
+      ],
+      "source": "Airbnb Resource Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Winter light is tricky, though. It's dark at five."
+    },
+    {
+     "who": "guest",
+     "text": "It is. So I shoot in the middle of the day, with every lamp on as well. You want the room to look warm, not gloomy. And clear the clutter from summer. Nobody needs to see the pool noodles in December."
+    },
+    {
+     "who": "host",
+     "text": "What else should be in a winter photo set?"
+    },
+    {
+     "who": "guest",
+     "text": "The things a winter guest worries about. A photo of the cleared driveway or parking, so they know they won't get stuck. The heat source, whether that's a stove or baseboard heaters. A desk or table with a good chair, for the person working remotely. A full kitchen, for the person staying a week. Each photo should answer a question."
+    },
+    {
+     "who": "host",
+     "text": "And the title and description?"
+    },
+    {
+     "who": "guest",
+     "text": "Same idea. If your title says steps from the beach, add something true for winter. Wood stove. Fast wifi. Weekly rates. And in the description, put your winter details near the top, not buried under the summer activities."
+    },
+    {
+     "who": "host",
+     "text": "I like the idea that each photo answers a question.",
+     "card": {
+      "type": "point",
+      "text": "Every photo should answer a guest's question."
+     }
+    },
+    {
+     "who": "guest",
+     "text": "It saves a lot of messages too. The fewer questions a guest has to ask before booking, the more likely they just book."
+    }
+   ]
+  },
+  {
+   "heading": "Finding the off season guest",
+   "visuals": [
+    "train station",
+    "desk lamp",
+    "hockey rink",
+    "farmers market",
+    "country road",
+    "bookshelf"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Maya, you mentioned the off season guest has a reason that isn't the beach. How do hosts actually reach those people?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Start by writing down the reasons someone might come to your area in a quiet month. Every town has them. A hospital or a university. A hockey tournament weekend. A craft fair, a winter festival, a wedding venue. Family visiting for the holidays. Then make sure your listing says something useful to each of those people."
+    },
+    {
+     "who": "host",
+     "text": "Give me an example."
+    },
+    {
+     "who": "guest",
+     "text": "Say your cottage is twenty minutes from a regional hospital. Somebody coming in for a week of appointments for a family member doesn't care about the hiking trail. They want to know it's quiet, there's a kitchen, the parking is easy and the wifi works. If your description mentions the drive time to the hospital and your weekly rate, you've just spoken to that person directly."
+    },
+    {
+     "who": "host",
+     "text": "And the remote worker?"
+    },
+    {
+     "who": "guest",
+     "text": "For them, it's the desk, the chair, the wifi speed and the coffee. A photo of a real workspace does more than a paragraph. If you've run a speed test, you can say what you measured, and keep it honest. Don't promise what the connection can't do on a stormy night."
+    },
+    {
+     "who": "host",
+     "text": "What about guests who stayed with you before?"
+    },
+    {
+     "who": "guest",
+     "text": "That's the group most hosts forget. Somebody who loved your place in July might love it in February, if they knew it was open and warm. Depending on the platform and your local privacy rules, you may or may not be able to contact them outside the booking platform, so follow the platform's messaging rules. But a friendly note inside the platform, or a line in your checkout message saying you're open all winter, costs nothing."
+    },
+    {
+     "who": "host",
+     "text": "And local events?"
+    },
+    {
+     "who": "guest",
+     "text": "Check your town's events page every month or so. If there's a big event, that weekend shouldn't be priced like a dead Tuesday. Set a custom price for those dates, and maybe a minimum of two nights, because demand is there. Then go back to your quiet settings the week after."
+    },
+    {
+     "who": "host",
+     "text": "So the calendar has a few bright spots, even in winter."
+    },
+    {
+     "who": "guest",
+     "text": "It does. The hosts who do well in the slow season usually aren't the cheapest. They're the ones who noticed the bright spots and spoke to the guests who were already coming.",
+     "card": {
+      "type": "point",
+      "text": "Find the reasons people already visit in winter. Speak to them."
+     }
+    }
+   ]
+  },
+  {
+   "heading": "A simple slow season plan",
+   "visuals": [
+    "notebook pen",
+    "calendar wall",
+    "checklist clipboard",
+    "coffee mug",
+    "snow porch",
+    "lighthouse"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's put this together into something hosts can actually do. Maya, if someone is listening on a quiet Tuesday in November, what's the plan?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "I'd do it in four weeks, one small job a week. Week one, numbers. Work out your floor price per night. Look at your province or city's monthly tourism numbers and your own calendar from last year, and circle your slowest months.",
+     "card": {
+      "type": "list",
+      "title": "Week 1: numbers",
+      "items": [
+       "Work out your floor",
+       "Circle 3 slow months",
+       "Check take-home per platform"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Week two?"
+    },
+    {
+     "who": "guest",
+     "text": "Week two, settings. Put your floor in as your minimum if you use automatic pricing. Lower your minimum nights for weeknights. Shorten your advance notice if your check in allows it. Check that your trip length limits follow local rules."
+    },
+    {
+     "who": "host",
+     "text": "Week three?"
+    },
+    {
+     "who": "guest",
+     "text": "Week three, discounts. Add a weekly discount and maybe a modest last minute one, both above your floor. Then leave them alone for a while so you can tell what's working."
+    },
+    {
+     "who": "host",
+     "text": "And week four?"
+    },
+    {
+     "who": "guest",
+     "text": "Week four, the listing. New winter cover photo, the winter questions answered in photos, and the winter details moved to the top of your description. Then update your welcome book or house manual with the winter information, so the guests who do book have a good stay and leave a good review.",
+     "card": {
+      "type": "list",
+      "title": "Weeks 2 to 4",
+      "items": [
+       "Settings: minimums, notice",
+       "Discounts: weekly, last-minute",
+       "Listing: winter photos + details"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "And then wait?"
+    },
+    {
+     "who": "guest",
+     "text": "Then watch. Check your views and bookings every week or two. If nothing has moved after a month, change one thing. Usually it's the price or the cover photo."
+    },
+    {
+     "who": "host",
+     "text": "One thing I keep thinking about. None of this costs money."
+    },
+    {
+     "who": "guest",
+     "text": "Right. Most of it is a couple of evenings with a cup of tea. The slow season is the one time of year you actually have those evenings."
+    }
+   ]
+  },
+  {
+   "heading": "Recap: five takeaways",
+   "visuals": [
+    "lighthouse",
+    "quiet harbour",
+    "cabin lake",
+    "winter cabin"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's recap. Number one. The slow season is a real market, just a smaller one with a different guest. In Nova Scotia, November still ran at about fifty nine percent occupancy.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Number two. Set your floor price first, and use it as the minimum in any automatic pricing tool. Check what the guest actually pays after discounts.",
+     "card": {
+      "type": "list",
+      "title": "Takeaways",
+      "items": [
+       "Slow season is a market",
+       "Floor price first",
+       "Loosen minimums, notice",
+       "Weekly + last-minute deals",
+       "Winter cover photo"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Number three. Loosen your minimum nights on weeknights and shorten advance notice, if your check in allows it, and check your local rules on longer stays."
+    },
+    {
+     "who": "guest",
+     "text": "Number four. Start with a weekly discount and a modest last minute one. Discounts of ten percent or more get a callout on Airbnb, and longer stays mean fewer turnovers."
+    },
+    {
+     "who": "host",
+     "text": "And number five. Swap your cover photo for winter, and make every photo answer a winter guest's question. And if you list on Vrbo, check your take home after the new commission."
+    }
+   ]
+  },
+  {
+   "heading": "Outro",
+   "visuals": [
+    "lake sunset",
+    "porch chairs",
+    "cabin snow"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's episode two of the Keegix Podcast. If you want your winter house notes, check in steps and local picks on one page guests open on their phone, you can start free for one property at keegix dot com slash start.",
+     "card": {
+      "type": "point",
+      "text": "Start free for one property: keegix.com/start"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Sources for every number and setting we mentioned are in the description. Thanks to Maya for the host's view."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, June. Set your floor, and enjoy the quiet."
+    },
+    {
+     "who": "host",
+     "text": "Next week, host horror stories, and what the rules actually say about damage, cancellations and insurance. New episodes every Tuesday. See you then."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Tourism Nova Scotia: Accommodations, Tourism Indicators 2025",
+   "url": "https://tourismns.ca/sites/default/files/2026-04/Accommodations_TourismIndicators_2025_optimized.pdf"
+  },
+  {
+   "label": "Province of Nova Scotia: Tourism revenues reached $3.7 billion in 2025",
+   "url": "https://news.novascotia.ca/en/2026/04/21/tourism-revenues-reached-37-billion-2025"
+  },
+  {
+   "label": "Expedia Group newsroom: Vrbo Compensation Model Changes (Oct 2026)",
+   "url": "https://www.expedia.com/newsroom/?p=66888"
+  },
+  {
+   "label": "Airbnb Help Centre: Smart Pricing",
+   "url": "https://www.airbnb.ca/help/article/1168"
+  },
+  {
+   "label": "Airbnb Help Centre: Length-of-stay discounts",
+   "url": "https://www.airbnb.ca/help/article/1233"
+  },
+  {
+   "label": "Airbnb Resource Centre: Six ways to prepare for low season",
+   "url": "https://www.airbnb.com/resources/hosting-homes/a/six-ways-to-prepare-for-low-season-700"
+  },
+  {
+   "label": "Airbnb Resource Centre: How to select and add high-quality photos",
+   "url": "https://www.airbnb.com/resources/hosting-homes/a/711?locale=en"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "August vs January for hosts",
+   "from": [
+    0,
+    0
+   ],
+   "to": [
+    0,
+    2
+   ],
+   "caption": "Slow calendar? You're not doing it wrong. Nova Scotia's 2025 numbers show how big the off-season drop is. #airbnbhost #shorttermrental #bnbhost"
+  },
+  {
+   "title": "Are you paying guests to stay?",
+   "from": [
+    4,
+    4
+   ],
+   "to": [
+    4,
+    7
+   ],
+   "caption": "Work out your price floor before you discount anything. Made-up example, real math. #airbnbhost #hostingtips #shorttermrental"
+  },
+  {
+   "title": "The empty night hiding in your calendar",
+   "from": [
+    5,
+    8
+   ],
+   "to": [
+    5,
+    11
+   ],
+   "caption": "Gap nights: the single open night your minimum stay quietly blocks. #airbnbhost #hostingtips #bnbhost"
+  },
+  {
+   "title": "Why winter hosts love long stays",
+   "from": [
+    6,
+    8
+   ],
+   "to": [
+    6,
+    11
+   ],
+   "caption": "One guest for two weeks = one cleaning. Weekly and monthly stays, explained. #airbnbhost #shorttermrental #cottagelife"
+  },
+  {
+   "title": "Your summer cover photo is costing you",
+   "from": [
+    8,
+    0
+   ],
+   "to": [
+    8,
+    3
+   ],
+   "caption": "Swap your cover photo by season. Sell the stay guests can have right now. #airbnbhost #listingphotos #bnbhost"
+  }
+ ]
+}
