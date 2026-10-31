@@ -264,3 +264,15 @@ YouTube uploads today: 4 (story, Lo Explains, meme A, sleep stories). Instagram:
 | 20:00 | Meme B, Lo vs Life #28 "The 'I deserve a treat' starter pack" (starter_pack, bonecrack, unvoiced, deepfry, money) | meme-treat-myself-pack.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvvwmoof007ao276rg8uno02, cmvvwmorl007bo276hmiy2t6c, cmvvwmov1007co276j001zq8m |
 
 YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Oct 29 (recess). Saturday: no Lo Explains. Voices: Qwen3 on Kaggle, OK first try (373 lines incl. Keegix ep 2, 1,046 s on Kaggle). Full cut = copy of part 1. Housekeeping: deleted Oct 22 media (thermostat-war-*, gov-fifteen-more-seconds, meme-fridge-respawn, meme-night-is-young).
+
+### Keegix Podcast ep 2 (made Sat 2026-10-31; times AST, UTC-4)
+| Time (Halifax) | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| Tue Nov 10 10:00 | Keegix Podcast ep 2 "How to Get Bookings in the Slow Season" (20.2 min, guest Maya / bf_emma) | pod-keegix-ep02-slow-season.mp4 | Keegix YouTube | cmvw04lbv007do276daweemmq |
+| Wed Nov 11 12:00 | Keegix Short 1 "August vs January for hosts" | ...-short1.mp4 | Keegix YT, FB, IG | cmvw05em6007eo276ozgcvykx, cmvw05emf007fo276g9nav41h, cmvw05emr007go276dpyuj99x |
+| Thu Nov 12 12:00 | Keegix Short 2 "Are you paying guests to stay?" | ...-short2.mp4 | Keegix YT, FB, IG | cmvw05en7007ho276xh3iv3s1, cmvw05ent007io2768yns9lb0, cmvw05eou007jo2765btdpp8e |
+| Fri Nov 13 12:00 | Keegix Short 3 "The empty night hiding in your calendar" | ...-short3.mp4 | Keegix YT, FB, IG | cmvw05epr007ko276xndtpf8j, cmvw05eqf007lo276mvzvfeun, cmvw05erj007mo276f6suwrs3 |
+| Sat Nov 14 12:00 | Keegix Short 4 "Why winter hosts love long stays" | ...-short4.mp4 | Keegix YT, FB, IG | cmvw05es1007no276uet78n2l, cmvw05esp007oo2767wqa7b9j, cmvw05et5007po276xnrmr46b |
+| Sun Nov 15 12:00 | Keegix Short 5 "Your summer cover photo is costing you" | ...-short5.mp4 | Keegix YT, FB, IG | cmvw05etq007qo276lrchwvpd, cmvw05eum007ro276jxc945e8, cmvw05evj007so2766kwsevr1 |
+
+Brand YouTube: Nov 10 = 2 (ep + Staffkin Short 5); Nov 11-15 = 1 Keegix each, leaving 1 for Staffkin ep 2 / its Shorts. Clash check: Postiz's read agent is broken (missing API key), so Pappu's Keegix batch times could not be read; the 12:00 slot matches ep 1's pattern. Media pinned to commit 2f868ad.
