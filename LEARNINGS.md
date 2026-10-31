@@ -36,6 +36,7 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Congress: the House has been pro forma since mid-September (election recess). If gov.py find returns [] for the 3 newest unused days, skip it without trying more days.
 - Snortlo memes: "x years later" format and 8 AM posts lead (small samples).
 - Anything over ~8 min (nightly.py voices, sleep-story render, shrink.sh) must run with nohup in the background and be polled; the shell tool kills foreground commands at 10 min (killed voices and shrink on Oct 30). Sleep-story Fridays: ~700 lines take ~60 min on Kaggle; kaggle_tts.py now scales its wait with job size.
+- Postiz's ask_postiz agent fails (no OpenAI key in Postiz), so the brand queue can't be read for the clash check; use the planned 12:00 slot and say so in the report.
 - Meme `cards`: 3 cards of max ~6 characters, and no cam zoom on that beat, or they overlap and crop (caught on qc Oct 31).
 - Openverse can time out on every call for a whole night; broll.py now skips it after 3 failures (Oct 31). Commons alone is enough.
 - Speech bubbles: "|" is a line break (fixed in anim.wrapc Oct 30; it used to print literally).
