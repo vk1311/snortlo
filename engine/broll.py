@@ -55,7 +55,12 @@ def _get(url, timeout=25):
             time.sleep(min(wait, 30))
 
 
+_OV_FAILS = [0]   # circuit breaker: Openverse sometimes times out on every call; stop asking after 3 failures
+
+
 def _openverse(query):
+    if _OV_FAILS[0] >= 3:
+        return []
     q = urllib.parse.urlencode({"q": query, "license": "cc0,pdm", "category": "photograph",
                                 "page_size": 20, "mature": "false", "aspect_ratio": "wide", "size": "large"})
     data = json.loads(_get("https://api.openverse.org/v1/images/?" + q, timeout=12))
@@ -178,6 +183,9 @@ def fetch_many(query, outdir, n=3, avoid=()):
                 credit["query"] = query; got.append((p, credit)); _log(credit)
         except Exception as e:
             print(f"[broll] {gen.__name__} failed for {query!r}: {e}", file=sys.stderr)
+            if gen is _openverse:
+                _OV_FAILS[0] += 1
+                if _OV_FAILS[0] == 3: print("[broll] Openverse failed 3 times; skipping it for the rest of this run", file=sys.stderr)
             time.sleep(2)
         if len(got) >= n: break
     if got:

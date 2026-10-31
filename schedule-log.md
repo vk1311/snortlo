@@ -255,3 +255,12 @@ YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Con
 | 21:00 | Sleep stories #4 "Fall Asleep Fast 🌙 6 Gentle Stories Under the Stars" (51 min, 6 new stories, 7,393 words) | long-sleepy-stories-4-web.mp4 | YouTube, Facebook | cmvuk7zki0072o276vax2ru8a, cmvuk7zlw0073o276yuyfh0a8 |
 
 YouTube uploads today: 4 (story, Lo Explains, meme A, sleep stories). Instagram: 3 (story, Lo Explains, meme A). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: new session day Oct 29 had no candidates (pro forma); Oct 26 and Oct 22 also empty. Friday: no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (712 lines incl. the sleep story, 3,501 s on Kaggle). Full cut = copy of part 1. Housekeeping: deleted Oct 21 media (mom-group-chat-*, gov-say-grace, meme-nap-time-revenge, meme-show-mom-one-photo).
+
+## Sat 2026-10-31 (nightly run)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #27 "Our group chat at 16 vs. at 31" (x_years_later, phonk, unvoiced, no deepfry, friends) | meme-group-chat-at-16.mp4 | YouTube, Facebook, Instagram | cmvvwmohv0074o276bfrh7oi8, cmvvwmoid0075o27675i6sa7v, cmvvwmoit0076o276ad46kdqf |
+| 09:00 | Story "chore-wheel" (1 part, pov hook, roommates, am_puck, no music, all_lowercase): "pov: my roommate's chore wheel picked me 11 times in a row #shorts" (69.4 s) | chore-wheel-part1.mp4 | YouTube, Facebook, Instagram | cmvvwmojb0077o276f8eld29m, cmvvwmokq0078o2762vlysxv0, cmvvwmomp0079o276yxxj82v4 |
+| 20:00 | Meme B, Lo vs Life #28 "The 'I deserve a treat' starter pack" (starter_pack, bonecrack, unvoiced, deepfry, money) | meme-treat-myself-pack.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvvwmoof007ao276rg8uno02, cmvvwmorl007bo276hmiy2t6c, cmvvwmov1007co276j001zq8m |
+
+YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Oct 29 (recess). Saturday: no Lo Explains. Voices: Qwen3 on Kaggle, OK first try (373 lines incl. Keegix ep 2, 1,046 s on Kaggle). Full cut = copy of part 1. Housekeeping: deleted Oct 22 media (thermostat-war-*, gov-fifteen-more-seconds, meme-fridge-respawn, meme-night-is-young).
