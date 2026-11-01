@@ -276,3 +276,13 @@ YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Con
 | Sun Nov 15 12:00 | Keegix Short 5 "Your summer cover photo is costing you" | ...-short5.mp4 | Keegix YT, FB, IG | cmvw05etq007qo276lrchwvpd, cmvw05eum007ro276jxc945e8, cmvw05evj007so2766kwsevr1 |
 
 Brand YouTube: Nov 10 = 2 (ep + Staffkin Short 5); Nov 11-15 = 1 Keegix each, leaving 1 for Staffkin ep 2 / its Shorts. Clash check: Postiz's read agent is broken (missing API key), so Pappu's Keegix batch times could not be read; the 12:00 slot matches ep 1's pattern. Media pinned to commit 2f868ad.
+
+## Sun 2026-11-01 (nightly run; times AST, UTC-4 after DST ended)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #29 "Day one vs. 3 years later at 4:59" (x_years_later, bonecrack, unvoiced, deepfry, work) | meme-clock-out-early.mp4 | YouTube, Facebook, Instagram | cmvxbb12y007to276ct9n71ys, cmvxbb13o007uo276ppmqiklu, cmvxbb143007vo27696qmcxzq |
+| 10:00 | Meme B, Lo vs Life #30 "Expectation vs. reality: my new phone" (expectation_reality, random:punch, unvoiced, deepfry, phone; moved +2h from 08:00) | meme-organized-phone.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvxbb15g007wo276kzy43kq6, cmvxbb166007xo2762ujyb72t, cmvxbb16p007yo276ukzqx4yv |
+| 12:00 | Weekly compilation (dad-tracker, manager-is-me, sals-coupon, gary-rents-my-tools, apology-cake, chore-wheel; 7.1 min, 18 MB) | compile-2026-11-01.mp4 | Facebook | cmvxbb180007zo276hef7qz3n |
+| 17:00 | Story "one-grape" (1 part, question hook, customers, am_puck, emoji_end): "Why does this man buy one grape every morning? 🍇 #shorts" (67.0 s) | one-grape-part1.mp4 | YouTube, Facebook, Instagram | cmvxbb18w0080o276s51szy1h, cmvxbb1a20081o276777puci7, cmvxbb1as0082o276kwilbdea |
+
+YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Oct 29 (recess). Sunday: no Lo Explains, no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (14 lines, 150 s). Full cut = copy of part 1. Housekeeping: deleted Oct 23 media (the-usual-*, meme-air-fryer-flex, meme-extra-broccoli, long-sleepy-stories-3-web).

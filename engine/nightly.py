@@ -118,7 +118,15 @@ def cmd_qc(files):
         except ValueError:
             rows.append({"file": f, "error": "unreadable"}); continue
         mb = os.path.getsize(f) / 1048576
-        rows.append({"file": os.path.basename(f), "seconds": round(dur, 1), "MB": round(mb, 1), "over_99MB": mb > 99})
+        row = {"file": os.path.basename(f), "seconds": round(dur, 1), "MB": round(mb, 1), "over_99MB": mb > 99}
+        try:  # a crashed render leaves a short video stream under full-length audio (Nov 1); flag it loudly
+            vdur = float(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=duration",
+                                         "-of", "csv=p=0", f], capture_output=True, text=True).stdout.strip())
+            if vdur < dur - 1:
+                row["BROKEN"] = f"video stream {vdur:.1f}s < audio {dur:.1f}s: the render crashed, check the render log"
+        except ValueError:
+            pass
+        rows.append(row)
         for frac in (0.25, 0.7):
             tp = f"/tmp/qc_{len(thumbs)}.png"
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", str(dur * frac), "-i", f, "-frames:v", "1",
