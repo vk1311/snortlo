@@ -117,7 +117,7 @@ def frame(n, surf):
         ti = tb["start"] + blen * i / len(cards)
         if t >= ti:
             s = A.spring(t - ti, 12, 16); x = 220 + i * 320
-            c.save(); c.translate(x, 470); c.rotate((-1) ** i * .06); c.scale(s, s)
+            c.save(); c.translate(x, 470); c.rotate((-1) ** i * .06); s = max(.01, s); c.scale(s, s)
             A.rrect(c, -130, -100, 260, 200, 18); A.fill_stroke(c, "#FFFFFF", A.INKC, 8)
             A.rrect(c, -130, -100, 260, 56, 18); A.fill_stroke(c, "#E0453A", A.INKC, 8)
             A.text(c, txt, 0, 30, 80); c.restore()
@@ -144,7 +144,7 @@ def draw_end_card(c, t):
     wmax = max(c.text_extents(l)[4] for l in lines); sc = min(1, (W - 200) / max(wmax, 1)); sz = size * sc
     hh = len(lines) * sz * 1.2 + 60; ww = min(W - 100, wmax * sc + 110)
     s = max(0.01, A.spring(t - t0, 14, 16)) * (1 + 0.025 * math.sin((t - t0) * 9))
-    c.save(); c.translate(W / 2, 1490 if MEME else 1270); c.rotate(-0.035); c.scale(s, s)
+    c.save(); c.translate(W / 2, 1490 if MEME else 1270); c.rotate(-0.035); c.scale(max(.01, s), max(.01, s))
     A.rrect(c, -ww / 2, -hh / 2, ww, hh, 30); A.fill_stroke(c, "#FFD23F", A.INKC, 8)
     for i, l in enumerate(lines):
         A.text(c, l, 0, -hh / 2 + 30 + sz * 1.2 * (i + 0.62), sz, (0.05, 0.05, 0.07))
@@ -170,7 +170,7 @@ def draw_top_text(c, txt, bt):
     c.select_font_face(A.FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); c.set_font_size(size)
     wmax = max(c.text_extents(l)[4] for l in lines); sc = min(1, (W - 140) / max(wmax, 1))
     hh = (len(lines) * size * 1.18 + 50) * sc; s = max(0.01, A.spring(bt, 14, 18))
-    c.save(); c.translate(W / 2, 250 + hh / 2); c.scale(s, s)
+    c.save(); c.translate(W / 2, 250 + hh / 2); c.scale(max(.01, s), max(.01, s))
     A.rrect(c, -W / 2 + 40, -hh / 2, W - 80, hh, 26); A.fill_stroke(c, "#FFFFFF", A.INKC, 6)
     for i, l in enumerate(lines):
         A.text(c, l, 0, -hh / 2 + (25 + size * 1.18 * (i + 0.62)) * sc, size * sc, (0.05, 0.05, 0.07))
@@ -202,7 +202,7 @@ def draw_captions(c, t):
     total = sum(widths) + space * (len(toks) - 1)
     s = 0.8 + 0.2 * A.spring(t - ch[0]["s"] + 0.04, 16, 22)
     if total * s > W - 80: s *= (W - 80) / (total * s)
-    c.save(); c.translate(W / 2, 1470 + (250 if MEME else 0)); c.scale(s, s)
+    c.save(); c.translate(W / 2, 1470 + (250 if MEME else 0)); c.scale(max(.01, s), max(.01, s))
     x = -total / 2
     cur_i = max([i for i, w in enumerate(ch) if w["s"] - 0.02 <= t] or [0])
     for i, (tk, wd, w) in enumerate(zip(toks, widths, ch)):

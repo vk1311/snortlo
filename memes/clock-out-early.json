@@ -1,0 +1,116 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #29",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR COWORKER",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 4.0,
+   "top_text": "Me on day one at the new job:|\"I don't mind staying late!\"",
+   "set": "office",
+   "state": {
+    "whiteboard": "WELCOME|NEW GUY"
+   },
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "celebrate",
+     "act": "bounce",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.0
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.6,
+   "top_text": "3 years later:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "3 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "",
+   "hold": 4.0,
+   "top_text": "Me at 4:58 with my jacket on|and one foot out the door:",
+   "set": "office",
+   "state": {
+    "whiteboard": " "
+   },
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cards": [
+    "4:58",
+    "4:59",
+    "BYE"
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "My boss at 4:59:|\"Got a quick sec?\"",
+   "set": "office",
+   "state": {
+    "whiteboard": "QUICK|SEC?"
+   },
+   "sfx": "bonecrack",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  }
+ ]
+}

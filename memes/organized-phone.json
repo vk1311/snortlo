@@ -1,0 +1,9 @@
+{"channel": "Snortlo", "format": "meme", "series": "Lo vs Life #30", "voice": "am_puck", "speed": 1.15, "music": false,
+ "end_card": {"text": "SEND THIS TO|YOUR MOM", "secs": 2},
+ "beats": [
+  {"text": "", "hold": 3.8, "top_text": "Expectation: my new phone|stays organized this time", "set": "bedroom", "state": {"phone": true, "clock": "9:00"}, "sfx": "sparkle",
+   "cast": [{"who": "me", "x": 540, "facing": 1, "pose": "relax", "face": {"eyes": "smug", "mouth": "smile"}}], "cam": {"zoom": 1.0}},
+  {"text": "", "hold": 4.4, "top_text": "Reality, two weeks later:", "set": "closeup", "state": {"show": "notebig", "note_lines": ["4,812 screenshots", "63 open tabs", "battery 1%"], "bg1": "#E6F4FF", "bg2": "#8CC3F2"}, "sfx": "textbuzz"},
+  {"text": "", "hold": 4.0, "top_text": "Me when my mom asks|to borrow it for \"one quick call\":", "set": "living", "state": {"tv": "NO|SIGNAL"}, "sfx": "random:punch", "meme": "deepfry",
+   "cast": [{"who": "me", "x": 360, "facing": 1, "pose": "shocked", "face": {"eyes": "wide", "mouth": "o"}, "fx": {"sweat": true}}]}
+ ]}
