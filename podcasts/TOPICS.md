@@ -19,7 +19,7 @@ Backups: Airbnb vs Vrbo for hosts; Airbnb taxes in Canada; starting a B&B busine
 | Air date | Slug | Topic | Status |
 |---|---|---|---|
 | Nov 5 | staffkin-ep01-burnout | Burnout: the signs, and what a manager actually does (term coined in the 1970s; WHO ICD-11; your most reliable person starts missing shifts) | made Oct 26, scheduled |
-| Nov 12 | staffkin-ep02-power-plays | Office power plays: credit-stealers, underminers and favourites (1960s obedience experiments) | to do |
+| Nov 12 | staffkin-ep02-power-plays | Office power plays: credit-stealers, underminers and favourites (1960s obedience experiments) | made Nov 2, scheduled |
 | Nov 19 | staffkin-ep03-why-good-people-quit | Why good employees quit, and the signs before they do (Hawthorne studies, the Great Resignation) | to do |
 | Nov 26 | staffkin-ep04-psych-safety | Psychological safety and workplace conflict in Canada (1990s hospital study, Google's team research, Canada's national standard) | to do |
 Backups: imposter syndrome at work; people-pleasing at work; quiet quitting.

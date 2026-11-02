@@ -90,10 +90,18 @@ def _kaggle(todo):
     with tempfile.TemporaryDirectory() as d:
         jf = os.path.join(d, "jobs.json"); json.dump(jobs, open(jf, "w"))
         out = os.path.join(d, "out")
-        r = subprocess.run([sys.executable, os.path.join(HERE, "kaggle_tts.py"), "clone", jf, out],
-                           capture_output=True, text=True)
-        msg = (r.stdout + r.stderr).strip().splitlines()[-1:] or ["no output"]
-        if r.returncode != 0: return False, msg[0]
+        # Stream kaggle_tts progress lines to our stderr live (so a nohup log shows them),
+        # and keep the last line as the status message.
+        pr = subprocess.Popen([sys.executable, os.path.join(HERE, "kaggle_tts.py"), "clone", jf, out],
+                              stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        lines = []
+        for line in pr.stdout:
+            line = line.rstrip()
+            if line:
+                lines.append(line); print(line, file=sys.stderr, flush=True)
+        pr.wait()
+        msg = lines[-1:] or ["no output"]
+        if pr.returncode != 0: return False, msg[0]
         n = 0
         for j in jobs:
             p = os.path.join(out, j["id"] + ".wav")

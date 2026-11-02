@@ -23,7 +23,8 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 **Setup and ops**
 - Postiz integration IDs: copy them from integrationList, never retype them (a typo'd Staffkin ID failed once).
 - Kaggle token: Google Docs may show the underscore escaped as "\_"; remove the backslash.
-- Anything over ~8 min (voices on big nights, sleep-story render, shrink.sh) runs with nohup in the background and is polled; the shell tool kills foreground commands at 10 min. kaggle_tts.py scales its wait with job size and prints progress every ~5 min.
+- Anything over ~8 min (voices on big nights, sleep-story render, shrink.sh) runs with nohup in the background and is polled; the shell tool kills foreground commands at 10 min (and poll with `sleep` under 5 min per call, setting the tool timeout). kaggle_tts.py scales its wait with job size; since Nov 2 voice_backend streams its progress lines into the nightly.py log.
+- Never `pkill -f` a pattern that also matches your own shell command line (it kills the tool call); kill by PID.
 - Chatterbox (backup voice) needs the CPU-only torch reinstall and the float32 patches in voice_backend._ensure_chatterbox().
 - ALWAYS read every `"ok"` in the `nightly.py render` output: a failed item still leaves a file behind (Nov 1: a 5.8 s video under 14 s of audio). qc now flags this as "BROKEN".
 - Postiz's ask_postiz agent fails (no OpenAI key), so brand queues can't be read for the clash check; use the planned 12:00 slot and say so.
@@ -33,8 +34,9 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Brand names the voice gets wrong go in voice_backend.SAY. Check any new brand or place name by ear once.
 **Podcasts**
 - Visual first: full-screen photos changing every ~7 s, cards, big captions. Never a static "studio" look. AI disclosure = one small corner note + description; no "AI host"/"AI character" anywhere on screen or in dialogue.
-- Length: write 3,700-4,300 spoken words for 20+ min (the new voices are faster; this beats the prompt's older 3,300-3,900).
+- Length: write 3,700-4,300 spoken words for 20+ min (the new voices are faster; this beats the prompt's older 3,300-3,900). 3,724 words = 19.6 min, so aim for 3,900+. Plan 6 main segments, not 4; a practical 'how to say it' segment is easy, sourced-fact-free length.
 - Photos: plain nouns for places and objects; people and abstract words return junk. Commons first (CC0/PD), Openverse second with a 3-failure circuit breaker; ~30-45 s per search, so start podcast renders early.
+- Mood words in searches ("quiet office", "break room", "training class", "laptop meeting") return paintings, people and soldiers; use objects ("desk lamp", "empty chairs", "whiteboard").
 - ALWAYS review photos: `nightly.py photos <timeline>`, look at engine/photos.png, `nightly.py block` people (even hands), military/tragedy, politicians, logos, black or off-topic frames, then re-render and re-run `photos` (replacements can be bad too).
 **Snortlo writing and look**
 - Winners so far (REPORT.md, small n): 1-part stories (6.70, n=6 vs 5.49, n=8), question hooks, am_puck, all-lowercase titles, music on; memes: x_years_later, 8 AM posts, unvoiced. Customers is the best story theme (n=3).
@@ -44,6 +46,7 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Congress: the House is pro forma (election recess since mid-September). If gov.py find returns [] for the 3 newest unused days, skip it.
 
 ## Night log (newest first; keep the last 14 nights, one to three lines each)
+- 2026-11-02 (Mon): Kaggle OK first try (388 lines incl. Staffkin ep 2, 1,117 s), but the nohup log stayed empty for 18 min because voice_backend captured kaggle_tts output; it now streams it (tested). QC: Kyle stood over the living-room TV text; moved him to x=640 and re-rendered. Photo review took three passes and blocked 28 (people, police, soldiers, a painting, a logo, a foreign parliament); Openverse timed out again, Commons carried it. Writing note: Staffkin ep 2 first draft came in at 3,100 words; a 'how to have the conversation' segment and a 4th situation got it to 3,724 (19.6 min). Congress skipped (recess). Numbers: no new calls.
 - 2026-11-01 (Sun): Kaggle OK first try (14 lines, 150 s). Meme A's render crashed (cairo zero-scale on a pop-in card at its exact start frame) but left a half-length file that qc's sizes didn't catch; fixed by clamping every pop-in scale in anim_render.py, and qc now flags video shorter than audio. Congress skipped (recess). Weekly compilation: 6 stories, 7.1 min. Numbers: 1-part beats 2-part (6.70 n=6 vs 5.49 n=8); emoji_end trails all_lowercase (5.59 n=8 vs 6.33 n=15).
 - 2026-10-31: Kaggle OK first try (373 lines incl. Keegix ep 2, 18 min), but the background log was silent the whole time; kaggle_tts.py now prints a progress line every ~5 min. QC: meme A cards cropped and Lo covered the TV; fixed and re-rendered. Openverse timed out on every search and Commons throttled hard (HTTP 429), so each podcast render took ~45 min; added an Openverse circuit breaker. Photo review blocked 19 photos over two passes (people, logos, a meeting). Numbers: no new calls (samples still small).
 - 2026-10-30: Kaggle OK first try but slow (712 lines incl. sleep story, 58 min); first foreground try was killed by the 10-min shell cap, so long steps now run in background. QC: speech bubble printed "|" literally; fixed wrapc. Improvement: Kaggle wait scales with line count so a big night isn't logged as "Kaggle down" (would have deferred podcasts). Memes came out 10.7/11.8 s for the 12-16 s arm; lengthened silent holds. Numbers: am_puck 6.65 (n=8) leads; music on beats off (n=19 vs 13); lowercase titles lead (n=11); Lo Explains #1 got 987 views.

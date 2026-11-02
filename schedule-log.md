@@ -286,3 +286,13 @@ Brand YouTube: Nov 10 = 2 (ep + Staffkin Short 5); Nov 11-15 = 1 Keegix each, le
 | 17:00 | Story "one-grape" (1 part, question hook, customers, am_puck, emoji_end): "Why does this man buy one grape every morning? 🍇 #shorts" (67.0 s) | one-grape-part1.mp4 | YouTube, Facebook, Instagram | cmvxbb18w0080o276s51szy1h, cmvxbb1a20081o276777puci7, cmvxbb1as0082o276kwilbdea |
 
 YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Oct 29 (recess). Sunday: no Lo Explains, no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (14 lines, 150 s). Full cut = copy of part 1. Housekeeping: deleted Oct 23 media (the-usual-*, meme-air-fryer-flex, meme-extra-broccoli, long-sleepy-stories-3-web).
+
+## Mon 2026-11-02 (nightly run; times AST, UTC-4)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme B, Lo vs Life #32 "Me on day one: call me anytime / me when my boss calls at 5:01" (x_years_later, roast, unvoiced, deepfry, work; Mon = FB only) | meme-call-me-anytime.mp4 | Facebook | cmvytyz1m008co2766emoagoz |
+| 09:00 | Story "label-everything" (1 part, question hook, roommates, am_puck, caps_word): "Why does my roommate label EVERYTHING? #shorts" (67.5 s) | label-everything-part1.mp4 | YouTube, Facebook, Instagram | cmvytyyw10083o2768laawve7, cmvytyywk0084o276li6t0w7d, cmvytyywu0085o27691l4y2is |
+| 10:00 | Lo Explains #3 "Who got the world's first speeding ticket?" (60.4 s; meme B's 08:00 slot moved +2h) | first-speeding-ticket-part1.mp4 | YouTube, Facebook, Instagram (1-part day) | cmvytyyxf0086o276d412xv5q, cmvytyyxw0087o276ax1btuy5, cmvytyyyi0088o276jgewwh7e |
+| 13:00 | Meme A, Lo vs Life #31 "My first work video call vs. 2 years later" (x_years_later, metalpipe, unvoiced, deepfry, work) | meme-camera-on-day-one.mp4 | YouTube, Facebook, Instagram | cmvytyyyz0089o276peu4fyaq, cmvytyyzv008ao27630lo1pr6, cmvytyz0h008bo276adl9bvm5 |
+
+YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Oct 29 (recess). Voices: Qwen3 on Kaggle, OK first try (388 lines incl. Staffkin ep 2, 1,117 s). Full cut = copy of part 1. Housekeeping: deleted stale long-sleepy-stories-3 thumb/chapters (Oct 23).
