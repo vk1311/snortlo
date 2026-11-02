@@ -296,3 +296,15 @@ YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Con
 | 13:00 | Meme A, Lo vs Life #31 "My first work video call vs. 2 years later" (x_years_later, metalpipe, unvoiced, deepfry, work) | meme-camera-on-day-one.mp4 | YouTube, Facebook, Instagram | cmvytyyyz0089o276peu4fyaq, cmvytyyzv008ao27630lo1pr6, cmvytyz0h008bo276adl9bvm5 |
 
 YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Oct 29 (recess). Voices: Qwen3 on Kaggle, OK first try (388 lines incl. Staffkin ep 2, 1,117 s). Full cut = copy of part 1. Housekeeping: deleted stale long-sleepy-stories-3 thumb/chapters (Oct 23).
+
+### Staffkin Podcast ep 2 (made Mon 2026-11-02; times AST, UTC-4)
+| Time (Halifax) | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| Thu Nov 12 10:00 | Staffkin Podcast ep 2 "Office Power Plays: Credit-Stealers, Underminers and Favourites" (19.6 min, 3,724 words, guest Nora / af_nicole) | pod-staffkin-ep02-power-plays.mp4 | Staffkin YouTube | cmvyyczx5008do2768lzzcn3b |
+| Fri Nov 13 12:00 | Staffkin Short 1 "Would you have pressed the last switch?" | ...-short1.mp4 | Staffkin YT, FB, IG | cmvyydlk8008eo276o7wwko6j, cmvyydlki008fo276iq9ltehm, cmvyydll2008go27699jc0gex |
+| Sat Nov 14 12:00 | Staffkin Short 2 "Why a nice boss can hurt more" | ...-short2.mp4 | Staffkin YT, FB, IG | cmvyydlln008ho276hs87567o, cmvyydlm2008io276vx8zn3f1, cmvyydlnn008jo276ds2t7ait |
+| Sun Nov 15 12:00 | Staffkin Short 3 "Someone presented your idea as theirs" | ...-short3.mp4 | Staffkin YT, FB, IG | cmvyydloe008ko276abef3mft, cmvyydlov008lo276sb5pftwh, cmvyydlpu008mo276h41guchr |
+| Mon Nov 16 12:00 | Staffkin Short 4 "92% of executives have seen this" | ...-short4.mp4 | Staffkin YT, FB, IG | cmvyydlrb008no276gp4x8m31, cmvyydlse008oo276zrd3g31n, cmvyydlte008po276yplxzjx2 |
+| Tue Nov 17 12:00 | Staffkin Short 5 "What rudeness at work really costs" | ...-short5.mp4 | Staffkin YT, FB, IG | cmvyydltw008qo276missb2m1, cmvyydlui008ro276xaawi3zd, cmvyydluy008so2762s4gudsu |
+
+Brand YouTube: Nov 12 = 2 (ep + Keegix Short 2); Nov 13-15 = 2 (Keegix + Staffkin Shorts); Nov 16 = 1; Nov 17 = 2 if Keegix ep 3 airs at 10:00 (Keegix ep 3's Shorts must start Nov 18). Clash check: Postiz's read agent is still broken, so Pappu's Staffkin batch times couldn't be read; used the planned 12:00 slot. Photo review: 3 passes, 28 photos blocked.
