@@ -1,0 +1,212 @@
+{
+ "channel": "Snortlo",
+ "format": "concept",
+ "series": "Lo Explains #3",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR DRIVING BUDDY",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "street",
+   "text": "Who got the world's first speeding ticket? And how fast was he actually going?",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "1896|ENGLAND",
+    "bg1": "#F3EBDD",
+    "bg2": "#C9A97A"
+   },
+   "text": "January, eighteen ninety six. A village in Kent, England. Walter Arnold is driving one of the very first cars.",
+   "sfx": "tick"
+  },
+  {
+   "set": "street",
+   "text": "The speed limit for cars back then? Two miles an hour. That's walking speed. Slow walking.",
+   "sfx": "bruh",
+   "cards": [
+    "2 MPH"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "RED|FLAG",
+    "bg1": "#FFE3E3",
+    "bg2": "#E07A7A"
+   },
+   "text": "And the law said a person had to walk in front of your car, holding a red flag.",
+   "sfx": "huh"
+  },
+  {
+   "set": "street",
+   "text": "Walter had no flag guy. And he was flying. Eight miles an hour. Four times the limit.",
+   "sfx": "airhorn",
+   "meme": "shake",
+   "cards": [
+    "8 MPH",
+    "x4"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "to": 820,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "COP ON A|BICYCLE",
+    "bg1": "#E3EEFF",
+    "bg2": "#7A9BE0"
+   },
+   "text": "Now the wait, what part. A police officer spotted him, jumped on a bicycle, and chased him for about five miles.",
+   "sfx": "busted",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "street",
+   "text": "On a bicycle. And he caught him.",
+   "sfx": "waitwhat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "set": "classroom",
+   "state": {
+    "board": "4 CHARGES|1896"
+   },
+   "text": "Walter went to court on four charges. Speeding, no flag walker, too few people in the car, and no name on it.",
+   "sfx": "oof",
+   "cards": [
+    "SPEED",
+    "NO FLAG",
+    "NO NAME"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "classroom",
+   "state": {
+    "board": "NEW LIMIT|14 MPH"
+   },
+   "text": "Guilty on all of them. But later that same year, the rules changed. No more flag walker, and the limit jumped to fourteen miles an hour.",
+   "sfx": "success",
+   "cast": [
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Drivers celebrated with a big run from London to Brighton. And Walter drove in it.",
+   "sfx": "fanfare",
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NEVER RACE|A BIKE COP",
+    "bg1": "#E9F7E1",
+    "bg2": "#8BC47A"
+   },
+   "text": "So the first speeder in history got caught by a guy on a bike. Never race a cop on a bicycle.",
+   "sfx": "laughtrack"
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR ROOMMATE",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "kitchen",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "lunch",
+     "cup"
+    ],
+    "sign": "KYLE'S|FRIDGE"
+   },
+   "text": "Why does my roommate put his name on everything in our apartment?",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "KYLE|KYLE|KYLE",
+    "bg1": "#FFF4C2",
+    "bg2": "#F2B640"
+   },
+   "text": "Every single egg in the carton has a tiny label. Kyle. Kyle. Kyle. Twelve times. I counted.",
+   "sfx": "tick",
+   "cards": [
+    "KYLE",
+    "KYLE",
+    "KYLE"
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "lunch",
+     "cup"
+    ],
+    "sign": "KYLE'S|BUTTER"
+   },
+   "text": "The butter says Kyle. The ketchup says Kyle. He labelled the ice cubes. Individually.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "KYLE'S|TV"
+   },
+   "text": "So I ask him. Kyle, why the labels? He goes, things go missing around here.",
+   "sfx": "hmm",
+   "speaker": "co1",
+   "bubble": {
+    "text": "THINGS GO|MISSING",
+    "x": 640,
+    "y": 540,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "KYLE'S|TV"
+   },
+   "text": "Bro, it's just us. Nothing has ever gone missing. Except my patience.",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "LABEL|WAR"
+   },
+   "text": "So I buy my own label maker. I label the fridge. He labels the light inside the fridge.",
+   "sfx": "scratch",
+   "cards": [
+    "LO",
+    "KYLE",
+    "LO"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "clock": "7:00"
+   },
+   "text": "Then I wake up with a sticky note on my forehead. Kyle's roommate. Do not touch.",
+   "sfx": "busted",
+   "meme": "shake",
+   "bubble": {
+    "text": "KYLE'S|ROOMMATE",
+    "x": 560,
+    "y": 480,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "clock": "7:01"
+   },
+   "text": "And honestly? Kind of sweet. He's protecting me.",
+   "sfx": "aww",
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "KYLE'S|TOOTHBRUSH",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   },
+   "text": "Then I go brush my teeth. My toothbrush says Kyle.",
+   "sfx": "caught"
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "MINE|NOW"
+   },
+   "text": "He says, you borrowed it once last year. It's mine now.",
+   "sfx": "fahh",
+   "speaker": "co1",
+   "bubble": {
+    "text": "IT'S MINE|NOW",
+    "x": 640,
+    "y": 540,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "RENT|KYLE'S",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "text": "So on the first of the month, I take the rent bill. And I put one tiny label on it. Kyle.",
+   "sfx": "payding",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "PAID|IN FULL"
+   },
+   "text": "He stares at it for a full minute. Then he pays the whole thing. He goes, fair. It has my name on it.",
+   "sfx": "ko",
+   "speaker": "co1",
+   "bubble": {
+    "text": "FAIR.",
+    "x": 640,
+    "y": 540,
+    "tail": -30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "KYLE'S|BILLS"
+   },
+   "text": "Now I'm labelling the internet bill. The power bill. My car insurance. I have never been this rich.",
+   "sfx": "cashregister",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "hold",
+     "hold": "paper",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "KYLE'S|BILLS"
+   },
+   "text": "Last night I heard the label maker clicking. I'm scared to check what's on my door.",
+   "sfx": "ohno",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  }
+ ]
+}

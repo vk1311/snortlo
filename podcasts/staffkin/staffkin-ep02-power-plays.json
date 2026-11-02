@@ -1,0 +1,960 @@
+{
+ "brand": "staffkin",
+ "episode": 2,
+ "slug": "staffkin-ep02-power-plays",
+ "air_date": "2026-11-12",
+ "title": "Office Power Plays: Credit-Stealers, Underminers and Favourites | Staffkin Podcast",
+ "card_title": "Office power plays: credit-stealers, underminers, favourites",
+ "thumb_title": "Office power plays",
+ "guest": {
+  "name": "Nora",
+  "role": "Restaurant and retail manager, 18 years",
+  "voice": "af_nicole"
+ },
+ "description": "Office power plays: the credit-stealer, the underminer and the favourite, and what a manager can actually do about each one.\nThe history: Machiavelli's The Prince (1513) and Milgram's 1961 obedience experiments, plus research on social undermining, favouritism in promotions and the cost of rudeness at work.\nNova Scotia's workplace harassment policy rules (since Sept 1, 2025), and two federal updates from October 2026.\nHosts and guests on this show are AI voices. Facts are sourced below. Not legal advice.\nIf you or someone you know is in crisis in Canada, call or text 9-8-8.",
+ "tags": [
+  "office politics",
+  "credit stealing at work",
+  "workplace favouritism",
+  "social undermining",
+  "milgram experiment",
+  "workplace harassment nova scotia",
+  "toxic coworker",
+  "how to deal with a coworker who takes credit",
+  "small business management",
+  "manager tips",
+  "workplace psychology",
+  "incivility at work"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "visuals": [
+    "old laboratory",
+    "control panel",
+    "university campus",
+    "electric switch"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "In the summer of nineteen sixty one, at Yale University, a psychologist asked ordinary people from the town to give electric shocks to a stranger in the next room. The shocks were fake. The people didn't know that."
+    },
+    {
+     "who": "host",
+     "text": "Every time the stranger got an answer wrong, the shock went up. By the end, the switch said four hundred and fifty volts. And about sixty five percent of the people in the first study went all the way to the last switch, because a man in a grey lab coat calmly told them to continue.",
+     "card": {
+      "type": "history",
+      "year": "1961",
+      "text": "Yale obedience study: about 65% went to the final 450 V switch"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And here's the part that matters for your workplace. When the man in the lab coat gave his orders over the phone instead of standing in the room, obedience dropped to about one in five. Power works best up close. Today, we talk about what that means for the people you manage."
+    }
+   ]
+  },
+  {
+   "heading": "Intro",
+   "visuals": [
+    "office building",
+    "meeting room",
+    "whiteboard",
+    "conference table"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Welcome to the Staffkin Podcast, the show about workplace psychology for people who manage people. I'm Sam. Every fact we use is sourced in the description."
+    },
+    {
+     "who": "host",
+     "text": "Today is office power plays. The coworker who takes credit for your work. The one who is lovely to your face and quietly sinks you in meetings. And the boss who has a favourite and doesn't think anyone noticed. Everyone noticed.",
+     "card": {
+      "type": "list",
+      "title": "Today",
+      "items": [
+       "Credit-stealers",
+       "Underminers",
+       "Favourites",
+       "What a manager actually does"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "My guest is Nora. Nora plays a restaurant and retail manager with eighteen years of schedules, staff rooms and awkward conversations. Nora isn't a real person, and every workplace story today is a made up example. Welcome, Nora."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Sam. And one thing up front. We're going to talk about some research and some rules, but nothing today is legal advice, and nobody listening should diagnose a coworker as a villain because of a podcast. Most power plays are small, and most of them can be fixed by the person running the team.",
+     "card": {
+      "type": "point",
+      "text": "Most power plays are small, and the manager can fix most of them."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Good. That's the spirit of the whole episode. Before we start, a little news."
+    }
+   ]
+  },
+  {
+   "heading": "In the news: equal pay and a new retention program",
+   "visuals": [
+    "parliament building",
+    "calculator",
+    "paycheque",
+    "factory floor",
+    "training classroom"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "As of early November twenty twenty six, two things from Ottawa are worth knowing about. First, on October twentieth, new equal pay rules came into force under the Canada Labour Code.",
+     "card": {
+      "type": "history",
+      "year": "Oct 20, 2026",
+      "text": "New equal pay rules under the Canada Labour Code take effect"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Those rules say a federally regulated employer can't pay someone a lower rate just because they're part time or temporary, when they do substantially the same work as someone full time in the same place. An employee can ask for a wage review, and the employer has to answer in writing within ninety days."
+    },
+    {
+     "who": "host",
+     "text": "And who counts as federally regulated?"
+    },
+    {
+     "who": "guest",
+     "text": "Banks, airlines, railways, trucking across provinces, telecom. So a café in Truro or a dental office in Kentville is provincially regulated, and these particular rules don't apply to them. Worth knowing so you don't panic, or so you do, if you run a trucking company.",
+     "card": {
+      "type": "rule",
+      "title": "Federal equal pay",
+      "text": "Federally regulated employers can't pay less based only on part-time or temporary status",
+      "source": "Littler",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Second, on October twenty second, the federal government launched the Workforce Retention and Retraining Program. It's meant to help employers keep workers instead of laying them off, and it can cover up to one thousand dollars per employee for training, plus income support for people on reduced hours through E I work sharing.",
+     "card": {
+      "type": "stat",
+      "big": "$1,000",
+      "label": "per employee for training, Workforce Retention and Retraining Program",
+      "source": "Employment and Social Development Canada"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "It runs until March twenty twenty eight. If you're a small employer having a slow stretch and you were thinking about cutting hours, it's worth reading the details on the Canada dot C A page before you decide. The link is in the description. This isn't legal advice."
+    },
+    {
+     "who": "host",
+     "text": "Alright. On to power."
+    }
+   ]
+  },
+  {
+   "heading": "What is an office power play? Credit-stealers, underminers and favourites",
+   "visuals": [
+    "chess board",
+    "office desk",
+    "sticky notes",
+    "closed door",
+    "coffee cup",
+    "filing cabinet"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's define the thing. When people say office politics or power plays, what do they actually mean?"
+    },
+    {
+     "who": "guest",
+     "text": "I'd say it's any move where someone uses status, information or a relationship to get ahead at somebody else's cost, instead of doing better work. And on a small team it usually shows up in three costumes."
+    },
+    {
+     "who": "guest",
+     "text": "The first is the credit-stealer. You did the work, they presented it. Sometimes it's blunt, they literally say I put this together. Sometimes it's softer. They send the final email to the owner, and your name just isn't in it.",
+     "card": {
+      "type": "list",
+      "title": "Three costumes",
+      "items": [
+       "The credit-stealer",
+       "The underminer",
+       "The favourite"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "That one stings because it's so small. You can't really complain about an email."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. That's why it works. The second is the underminer. Researchers actually have a name for this, social undermining. A team of researchers, Michelle Duffy, Dan Ganster and Milan Pagon, studied it in two thousand two with six hundred and eighty five members of the national police force in Slovenia.",
+     "card": {
+      "type": "stat",
+      "big": "685",
+      "label": "police officers in the 2002 social undermining study",
+      "source": "University of Arkansas"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Police officers. Why police?"
+    },
+    {
+     "who": "guest",
+     "text": "A big, structured workplace with supervisors and coworkers, so they could compare the two. They described undermining as behaviour that, from the target's point of view, is meant to hurt them. Showing dislike, criticising, getting in the way of their goals. It can be direct, like a put down, or indirect, like not defending someone when they're blamed for something."
+    },
+    {
+     "who": "host",
+     "text": "Not defending someone. That's a quiet one."
+    },
+    {
+     "who": "guest",
+     "text": "It's the quietest one. And the findings were not quiet. Undermining from bosses and coworkers went along with more health complaints, lower confidence, and more bad behaviour back at work, things like sabotage and unnecessary days off. And the harm from undermining was stronger than the benefit from support."
+    },
+    {
+     "who": "host",
+     "text": "So you can't just balance it out by being nice the rest of the time."
+    },
+    {
+     "who": "guest",
+     "text": "Worse than that. The researchers expected that a supervisor who also gave support would soften the blow. It went the other way. When the same supervisor both supported and undermined someone, the undermining hurt more. People got more watchful, because they never knew which version of the boss was going to show up.",
+     "card": {
+      "type": "point",
+      "text": "Support plus undermining from the same boss hurts more, not less."
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's the boss who's your best friend on Monday and throws you under the bus on Wednesday."
+    },
+    {
+     "who": "guest",
+     "text": "That's the one. And the third costume is the favourite. The person who always gets the good shifts, the training, the trip to the trade show. Sometimes they earned it. But if nobody can say why they got it, everyone else will make up a reason, and the reason they make up is never flattering to you as the manager."
+    },
+    {
+     "who": "host",
+     "text": "So three costumes. Credit-stealing, undermining and favouritism. Before we get to fixing them, I want to go back in time a bit. Because people have been writing about power for a very long time."
+    }
+   ]
+  },
+  {
+   "heading": "A short history of power: Machiavelli and the Milgram experiments",
+   "visuals": [
+    "Florence",
+    "old manuscript",
+    "library shelves",
+    "Yale campus",
+    "laboratory equipment",
+    "old telephone"
+   ],
+   "lines": [
+    {
+     "who": "guest",
+     "text": "Five hundred years at least. In fifteen thirteen, a Florentine diplomat named Niccolò Machiavelli wrote a short book about how to gain power and keep it. It wasn't published until fifteen thirty two, after he'd died. We know it as The Prince.",
+     "card": {
+      "type": "history",
+      "year": "1513",
+      "text": "Machiavelli writes The Prince; it's published in 1532, after his death"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And his name became an adjective."
+    },
+    {
+     "who": "guest",
+     "text": "It did. Machiavellian came to mean cunning, two faced manoeuvring. Which is a bit unfair to the man, but it tells you something. People have always recognised the type. The colleague who's playing a game you didn't know you were in."
+    },
+    {
+     "who": "host",
+     "text": "Then jump to nineteen sixty one, the study from the cold open."
+    },
+    {
+     "who": "guest",
+     "text": "Right. Stanley Milgram started his obedience experiments at Yale in August of nineteen sixty one, and published the first results in nineteen sixty three. The volunteers thought they were helping with a study about learning. A man in a lab coat told them to give shocks for wrong answers, and the shocks got bigger each time."
+    },
+    {
+     "who": "guest",
+     "text": "In the main study, about sixty five percent went to the full four hundred and fifty volts. Every single person in it went to at least three hundred. These weren't cruel people. They were mail carriers, teachers, salespeople. The pressure came from the situation.",
+     "card": {
+      "type": "stat",
+      "big": "65%",
+      "label": "went to the full 450 volts in Milgram's main study",
+      "source": "Milgram experiment, Wikipedia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "But you said the variations were the interesting part."
+    },
+    {
+     "who": "guest",
+     "text": "For a manager, they're everything. When the learner was in the same room, obedience dropped to forty percent. When the orders came by telephone, about twenty one percent. And when two other volunteers in the room refused to go on, only four out of forty kept going.",
+     "card": {
+      "type": "list",
+      "title": "What lowered obedience",
+      "items": [
+       "Learner in the same room: 40%",
+       "Orders by phone: 21%",
+       "Two peers refuse: 4 of 40"
+      ],
+      "source": "Milgram experiment, Wikipedia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Two people saying no changed almost everything."
+    },
+    {
+     "who": "guest",
+     "text": "That's the lesson I'd take to work. Power plays survive when everyone stays quiet. One or two people calmly saying, actually, that was Jess's idea, changes the whole room."
+    },
+    {
+     "who": "host",
+     "text": "And I should say, the research isn't without critics."
+    },
+    {
+     "who": "guest",
+     "text": "No. A researcher named Gina Perry went through Milgram's records and argued in twenty twelve that he shaped the results, and that many volunteers didn't fully believe the shocks were real. So hold the exact numbers loosely. The broad point, that people go along with authority more than they expect to, has held up well enough to stay in every psychology textbook.",
+     "card": {
+      "type": "point",
+      "text": "Hold the exact numbers loosely. The pattern is what matters."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Which brings us to the modern version. Not lab coats. Group chats and team meetings."
+    }
+   ]
+  },
+  {
+   "heading": "Four power plays every small team will recognize",
+   "visuals": [
+    "restaurant kitchen",
+    "laptop meeting",
+    "retail store",
+    "work schedule",
+    "break room",
+    "smartphone"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's do situations. Nora, give me the credit-stealer."
+    },
+    {
+     "who": "guest",
+     "text": "Say you run a small marketing agency in Halifax. Your junior designer, Leah, comes up with the idea that wins a client. In the meeting with the client, your senior account manager presents it and says, so what we came up with is. Leah is sitting right there. She says nothing."
+    },
+    {
+     "who": "host",
+     "text": "And the account manager might not even think they did anything wrong. They might think we means the team."
+    },
+    {
+     "who": "guest",
+     "text": "Very often they do think that. Which is why the fix isn't a big confrontation. As the manager, you say it out loud in the room. Leah, this was your idea, walk them through how you got there. You've just given credit, and you've shown everyone how credit works on this team.",
+     "card": {
+      "type": "point",
+      "text": "Name the person who did the work, out loud, in the room."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And afterwards?"
+    },
+    {
+     "who": "guest",
+     "text": "Afterwards, privately, with the account manager. Not, you stole her idea. More like, I want the people who did the work to present it. Next time, bring Leah in for that part. Keep it about how the team works, not about their character."
+    },
+    {
+     "who": "host",
+     "text": "Okay. The underminer."
+    },
+    {
+     "who": "guest",
+     "text": "A hardware store in the Valley. Your assistant manager, Brent, is warm and helpful when you're around. But the new cashier tells you that when you're not there, Brent sighs at her questions, corrects her in front of customers, and tells other staff she won't last."
+    },
+    {
+     "who": "host",
+     "text": "That's the support and undermining combo from the study."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. And here's the trap. The cashier will probably look like the problem first. She'll seem nervous, she'll make more mistakes, she might start calling in. If you only look at her performance, you'll blame the wrong person.",
+     "card": {
+      "type": "point",
+      "text": "The target of undermining often looks like the problem first."
+     }
+    },
+    {
+     "who": "host",
+     "text": "So what do you do with Brent?"
+    },
+    {
+     "who": "guest",
+     "text": "You start by watching for yourself. Work a few shifts alongside them. Then you talk to Brent about specific behaviour you saw. Correcting her in front of a customer. Saying she won't last. And you tell him plainly what you expect instead. Coaching her is part of his job, and it's how he'll be measured."
+    },
+    {
+     "who": "host",
+     "text": "And the favourite?"
+    },
+    {
+     "who": "guest",
+     "text": "A café with eight staff. The owner's niece works there. She gets every Saturday off, she's first in line for the barista course, and nobody can remember the last time she closed. Nobody says a word, because it's the owner's niece."
+    },
+    {
+     "who": "host",
+     "text": "And maybe she's great at the job."
+    },
+    {
+     "who": "guest",
+     "text": "Maybe she's the best barista in the building. That's the thing about favouritism. The problem isn't always who gets picked. It's that nobody can see how the picking happens. When the reasons are invisible, people fill them in, and they fill them in with family, friendship, or who laughs at the boss's jokes."
+    },
+    {
+     "who": "host",
+     "text": "There's a survey on this that surprised me."
+    },
+    {
+     "who": "guest",
+     "text": "From Georgetown University's business school. They surveyed senior executives at large American companies about promotions. Ninety two percent said they'd seen favouritism in promotions, and eighty four percent said they'd seen it at their own company. Twenty three percent admitted they'd practised it themselves.",
+     "card": {
+      "type": "stat",
+      "big": "92%",
+      "label": "of senior executives had seen favouritism in promotions",
+      "source": "Georgetown McDonough survey, via NBC News"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And that's only the ones who admitted it."
+    },
+    {
+     "who": "guest",
+     "text": "Right. And one more number from the same survey. Fifty six percent said that when they had more than one candidate for a promotion, they already knew who they wanted before the process started. And ninety six percent of those ended up promoting that person.",
+     "card": {
+      "type": "compare",
+      "left_title": "Knew who they wanted",
+      "left": "56% of executives",
+      "right_title": "Then promoted that person",
+      "right": "96% of them"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the interview was a formality."
+    },
+    {
+     "who": "guest",
+     "text": "Often, yes. And your staff can feel that. Which is why the fix for favouritism is mostly about process, not about feelings."
+    },
+    {
+     "who": "host",
+     "text": "Let me add a fourth one, because I think every team has it. The person who keeps information to themselves."
+    },
+    {
+     "who": "guest",
+     "text": "The gatekeeper. Oh, yes. Say a small accounting office. One bookkeeper, Carol, is the only one who knows how the payroll software handles statutory holidays. She's been asked to write it down three times. It never quite gets written down."
+    },
+    {
+     "who": "host",
+     "text": "And when she's on vacation, everything stops."
+    },
+    {
+     "who": "guest",
+     "text": "Everything stops, and everyone calls her at the cottage, and she's quietly reminded the whole office how much they need her. Sometimes that's insecurity, not strategy. People who worry about their job hold on to the thing that makes them needed."
+    },
+    {
+     "who": "host",
+     "text": "So what's the fix?"
+    },
+    {
+     "who": "guest",
+     "text": "Make sharing part of the job, and take away the fear at the same time. Tell her, your knowledge is valuable, and I want it written down so you can actually take a holiday without your phone. Then give her a deadline and a bit of protected time to do it. Then thank her for it in front of the team. You've turned a power play into credit she earned.",
+     "card": {
+      "type": "point",
+      "text": "Turn hoarded knowledge into credit the person earns for sharing it."
+     }
+    },
+    {
+     "who": "host",
+     "text": "I like that, because it doesn't treat her as the bad guy."
+    },
+    {
+     "who": "guest",
+     "text": "Most of these people aren't bad guys. They're responding to how the place works. Change how the place works, and most of the behaviour changes with it."
+    }
+   ]
+  },
+  {
+   "heading": "Brand break",
+   "visuals": [
+    "notebook",
+    "desk lamp",
+    "pen and paper"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Quick word from us. Staffkin is a hiring and onboarding kit for small Canadian employers with no H R person. It helps you write the job description, build the same interview questions for every candidate, and score them side by side, which happens to be exactly what makes a promotion or a hire look fair to everyone watching.",
+     "card": {
+      "type": "point",
+      "text": "Staffkin: hiring and onboarding for small Canadian teams"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Back to Nora."
+    }
+   ]
+  },
+  {
+   "heading": "What a manager actually does about power plays",
+   "visuals": [
+    "balance scale",
+    "clipboard",
+    "calendar",
+    "open door",
+    "team table",
+    "checklist"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's get practical. Say I run a team of twelve. What do I actually change on Monday?"
+    },
+    {
+     "who": "guest",
+     "text": "Four things. First, make the work visible. If ideas and results live in your head, credit goes to whoever talks loudest. If you keep a simple shared list of who's working on what, credit is already written down before anyone can take it.",
+     "card": {
+      "type": "list",
+      "title": "Four fixes",
+      "items": [
+       "Make the work visible",
+       "Make the picking visible",
+       "Stop the small rudeness",
+       "Be the two people who say no"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Like a whiteboard in the back room."
+    },
+    {
+     "who": "guest",
+     "text": "A whiteboard is perfect. A shared doc is fine. It just needs names on it. Second, make the picking visible. When there's a good shift, a course, a promotion, say ahead of time what you're looking for, let anyone put their hand up, and use the same questions for everyone. Then tell people why the person who got it, got it."
+    },
+    {
+     "who": "host",
+     "text": "Even when it's awkward."
+    },
+    {
+     "who": "guest",
+     "text": "Especially when it's awkward. If the owner's niece really is the best fit for the barista course, you can say that, with reasons. If you can't come up with reasons, that's useful information for you too."
+    },
+    {
+     "who": "host",
+     "text": "Third?"
+    },
+    {
+     "who": "guest",
+     "text": "Stop the small rudeness. Power plays rarely start big. They start with eye rolls, interruptions, being left off the email. And there's research on what that costs. Christine Porath and Christine Pearson surveyed eight hundred managers and employees across seventeen industries about being treated rudely at work.",
+     "card": {
+      "type": "stat",
+      "big": "800",
+      "label": "managers and employees surveyed across 17 industries",
+      "source": "Porath and Pearson, via ScienceDaily"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And what did people do about it?"
+    },
+    {
+     "who": "guest",
+     "text": "Forty eight percent of the people treated rudely deliberately cut back on their effort. Eighty percent lost work time worrying about it. Seventy eight percent said their commitment to the organisation dropped. Twelve percent left the job. And one in four said they took it out on customers.",
+     "card": {
+      "type": "list",
+      "title": "After rudeness at work",
+      "items": [
+       "48% cut their effort",
+       "80% lost time worrying",
+       "12% left the job",
+       "25% took it out on customers"
+      ],
+      "source": "Porath and Pearson"
+     }
+    },
+    {
+     "who": "host",
+     "text": "One in four took it out on customers. That's the part a restaurant owner should hear."
+    },
+    {
+     "who": "guest",
+     "text": "Because your customer never sees the eye roll in the kitchen. They just get the server who's had enough. And in the same research, half of workers in twenty eleven said they were treated rudely at least once a week, up from about a quarter in nineteen ninety eight."
+    },
+    {
+     "who": "host",
+     "text": "And the fourth fix?"
+    },
+    {
+     "who": "guest",
+     "text": "Be the two people who say no. Remember the Milgram variation, where two peers refused and almost everyone stopped. On a team, you're the most powerful peer in the room. When you calmly say, hang on, that was Leah's idea, or, let's let her finish, you've made it normal for everyone else to say it too.",
+     "card": {
+      "type": "point",
+      "text": "When the manager speaks up first, the room follows."
+     }
+    },
+    {
+     "who": "host",
+     "text": "What about the manager who's the problem? The one with the favourite?"
+    },
+    {
+     "who": "guest",
+     "text": "Then it's worth an honest look in the mirror. Who have I given the good stuff to in the last three months? Who do I chat with, and who do I only talk to when something's wrong? You don't need to be friends with everyone. But you do need to be fair to everyone, and the team has to be able to see it."
+    },
+    {
+     "who": "host",
+     "text": "And if I'm the one being undermined, by my own boss?"
+    },
+    {
+     "who": "guest",
+     "text": "Write things down. Dates, what was said, what happened. Keep doing good work where people can see it. Find one ally, someone you trust. And if it starts to affect your sleep or your health, talk to someone, a doctor, your employee assistance program if you have one, or a friend. If you're ever in crisis, in Canada you can call or text nine eight eight, any time."
+    }
+   ]
+  },
+  {
+   "heading": "How to talk to someone who's playing power games",
+   "visuals": [
+    "two chairs",
+    "coffee mugs",
+    "quiet office",
+    "window light",
+    "park bench",
+    "notepad"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's say I've noticed it. I've watched the shifts, I've seen it myself. How do I actually have the conversation?"
+    },
+    {
+     "who": "guest",
+     "text": "Privately, soon, and about behaviour, not personality. Pick a quiet time, not right after the incident when everyone's hot, but not three weeks later either. A day or two is about right."
+    },
+    {
+     "who": "host",
+     "text": "And how do I open?"
+    },
+    {
+     "who": "guest",
+     "text": "Start with what you saw, plainly. Something like, on Tuesday, when Leah's design came up with the client, you presented it as yours, and you didn't mention her. Then stop and let them answer. Don't stack up six examples in the first minute. They'll just defend themselves against the list.",
+     "card": {
+      "type": "list",
+      "title": "The conversation",
+      "items": [
+       "Private, within a day or two",
+       "What you saw, plainly",
+       "Then stop and listen",
+       "Clear expectation, and follow up"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "What if they say, I didn't mean it like that?"
+    },
+    {
+     "who": "guest",
+     "text": "Believe them, if you can. Lots of people really didn't. Then say, I understand, and here's how it landed, and here's what I need from now on. Intent matters for how you feel about them. It doesn't change what you need them to do."
+    },
+    {
+     "who": "host",
+     "text": "And what if they push back? They say, you're just taking her side."
+    },
+    {
+     "who": "guest",
+     "text": "Then you go back to the expectation, calmly. I'm not taking sides. On this team, the person who does the work presents it, or gets named. That's the same rule for you, for her and for me. Then you check in a couple of weeks later. Most people fix it once they know someone's paying attention."
+    },
+    {
+     "who": "host",
+     "text": "And if it keeps happening?"
+    },
+    {
+     "who": "guest",
+     "text": "Then it's a performance issue like any other. You write down what you've seen and what you asked for, and you follow your normal process. And if it starts to look like a pattern of intimidating or degrading someone, it may be more than a performance issue, which is where the rules come in."
+    },
+    {
+     "who": "host",
+     "text": "One more. What do I say to the person who was on the receiving end? The cashier, or Leah."
+    },
+    {
+     "who": "guest",
+     "text": "Say you noticed, and say you're dealing with it. You don't have to give them every detail of the other conversation. But nobody should have to wonder whether their manager saw it. Silence from you can feel like agreement, even when it isn't.",
+     "card": {
+      "type": "point",
+      "text": "Tell the person on the receiving end you saw it, and you're on it."
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's a good line. Silence can feel like agreement."
+    }
+   ]
+  },
+  {
+   "heading": "When a power play becomes harassment: Nova Scotia rules",
+   "visuals": [
+    "Halifax waterfront",
+    "law books",
+    "office binder",
+    "courthouse",
+    "notice board"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's talk about the line. When does a power play stop being office politics and become something legal?"
+    },
+    {
+     "who": "guest",
+     "text": "As of November twenty twenty six, and this is Nova Scotia, rules vary by province. Since September first, twenty twenty five, the province's Occupational Health and Safety Act has required provincially regulated employers to have a written harassment policy.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia",
+      "text": "Provincially regulated employers need a written workplace harassment policy since Sept 1, 2025",
+      "source": "DLA Piper; Stewart McKelvey",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And how does it define harassment?"
+    },
+    {
+     "who": "guest",
+     "text": "Roughly, it's either one serious incident or a pattern of repeated, unwelcome conduct, comments or actions that degrade, intimidate or threaten someone, whether or not that was the intention. It includes bullying, harassment based on things protected under the Human Rights Act, and inappropriate sexual conduct."
+    },
+    {
+     "who": "host",
+     "text": "So the underminer at the hardware store who tells everyone the new cashier won't last, week after week."
+    },
+    {
+     "who": "guest",
+     "text": "Could cross that line, if it's repeated and it's intimidating or degrading. That's exactly why the documentation matters. And here's the other side. The definition excludes normal actions an employer or supervisor takes to manage and direct workers. Giving feedback, setting a schedule, a fair performance conversation. Those aren't harassment, even if nobody enjoys them."
+    },
+    {
+     "who": "host",
+     "text": "That's an important point for managers who are nervous about giving feedback at all."
+    },
+    {
+     "who": "guest",
+     "text": "Very important. Managing isn't harassing. Doing it with contempt, in front of customers, over and over, might be."
+    },
+    {
+     "who": "host",
+     "text": "What does the policy need to include?"
+    },
+    {
+     "who": "guest",
+     "text": "The summaries we read say it needs a definition that matches the regulation, a statement that employees have a right to a harassment free workplace, how to report it, including how to complain about a supervisor or the employer, a commitment to investigate every complaint, no reprisals for good faith complaints, and how people are told the outcome. Every employee needs training on it, and you review it every three years.",
+     "card": {
+      "type": "list",
+      "title": "Policy must cover",
+      "items": [
+       "A matching definition",
+       "How to report it",
+       "Investigating every complaint",
+       "Training for every employee"
+      ],
+      "source": "DLA Piper"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So if you run a small business in Nova Scotia and you don't have one."
+    },
+    {
+     "who": "guest",
+     "text": "Get one. The province has a guide, and the summaries are linked in the description. This isn't legal advice, and if you're facing a real complaint, talk to an employment lawyer or the province's occupational health and safety division."
+    }
+   ]
+  },
+  {
+   "heading": "Recap: five things to remember about power plays",
+   "visuals": [
+    "notebook",
+    "sticky notes",
+    "sunrise",
+    "coffee cup"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's wrap it up. Nora, five things."
+    },
+    {
+     "who": "guest",
+     "text": "One. Power plays come in three costumes. Credit-stealing, undermining and favouritism. Two. Undermining from someone who's also supportive hurts more, not less, so consistency matters more than kindness on a good day.",
+     "card": {
+      "type": "list",
+      "title": "Remember",
+      "items": [
+       "Three costumes",
+       "Consistency beats niceness",
+       "Make work and picking visible",
+       "Small rudeness is expensive",
+       "Speak up first"
+      ]
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Three. Make the work visible and make the picking visible, and most credit-stealing and favouritism has nowhere to hide. Four. Small rudeness is expensive. It costs effort, focus, staff and customers. Five. Be the two people in the Milgram study who said no. When you speak up first, your team will follow."
+    },
+    {
+     "who": "guest",
+     "text": "And one bonus. If someone on your team is on the receiving end, tell them you saw it. Silence from the manager can feel like agreement, even when it isn't. That one sentence costs you nothing, and it might keep a good person from quitting."
+    },
+    {
+     "who": "host",
+     "text": "And managing isn't harassing. But know the line, and have the policy."
+    }
+   ]
+  },
+  {
+   "heading": "Outro",
+   "visuals": [
+    "sunset",
+    "city lights night"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's the episode. If you're promoting or hiring and want it to look as fair as it is, Staffkin can help with consistent interview questions and side by side scoring. Try it free at staffkin.com.",
+     "card": {
+      "type": "point",
+      "text": "Try it free at staffkin.com"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Sources for everything we mentioned are in the description. Next week, why good employees quit, and the signs before they do. Thanks to Nora, and thanks for listening."
+    },
+    {
+     "who": "guest",
+     "text": "Be fair, and let people see it."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Milgram experiment (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Milgram_experiment"
+  },
+  {
+   "label": "Britannica: The Prince",
+   "url": "https://www.britannica.com/topic/The-Prince"
+  },
+  {
+   "label": "University of Arkansas: Good cop/bad cop supervisors reduce employee productivity (social undermining study)",
+   "url": "https://news.uark.edu/articles/10024/good-copbad-cop-supervisors-reduce-employee-productivity"
+  },
+  {
+   "label": "NBC News: No promotion yet? Maybe you're not the boss' favorite (Georgetown survey)",
+   "url": "https://www.nbcnews.com/id/wbna44458255"
+  },
+  {
+   "label": "ScienceDaily: Rude behaviour at work (Porath and Pearson, 2013)",
+   "url": "https://www.sciencedaily.com/releases/2013/01/130130184048.htm"
+  },
+  {
+   "label": "DLA Piper: Nova Scotia employers required to implement workplace harassment policy (Sept 2025)",
+   "url": "https://www.dlapiper.com/insights/publications/2025/09/nova-scotia-employers-required-to-implement-workplace-harassment-policy"
+  },
+  {
+   "label": "Stewart McKelvey: New harassment prevention obligations for Nova Scotia employers",
+   "url": "https://stewartmckelvey.com/thought-leadership/new-harassment-prevention-obligations-for-nova-scotia-employers/"
+  },
+  {
+   "label": "Littler: Canada federal equal pay provisions in force October 2026",
+   "url": "https://www.littler.com/news-analysis/asap/canada-federal-update-equal-pay-provisions-force-effective-october-2026"
+  },
+  {
+   "label": "ESDC: Workforce Retention and Retraining Program launched (Oct 22, 2026)",
+   "url": "https://www.canada.ca/en/employment-social-development/news/2026/10/workforce-retention-and-retraining-program-launched-to-help-employers-keep-their-workforce-while-facing-economic-challenges.html"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Would you have pressed the last switch?",
+   "from": [
+    0,
+    0
+   ],
+   "to": [
+    0,
+    2
+   ],
+   "caption": "In 1961, about 65% of people went to the last switch because a man in a lab coat said so. Here's what that means at work. #workplace #psychology #management"
+  },
+  {
+   "title": "Why a nice boss can hurt more",
+   "from": [
+    3,
+    8
+   ],
+   "to": [
+    3,
+    11
+   ],
+   "caption": "A boss who supports you AND undermines you does more damage than one who just undermines. #toxicboss #workplace #management"
+  },
+  {
+   "title": "Someone presented your idea as theirs",
+   "from": [
+    5,
+    1
+   ],
+   "to": [
+    5,
+    3
+   ],
+   "caption": "The fix for a credit-stealer isn't a fight. It's one sentence, said out loud, in the room. #officepolitics #manager #worklife"
+  },
+  {
+   "title": "92% of executives have seen this",
+   "from": [
+    5,
+    16
+   ],
+   "to": [
+    5,
+    21
+   ],
+   "caption": "Most promotions are decided before the interview even starts. #favouritism #promotion #workplace"
+  },
+  {
+   "title": "What rudeness at work really costs",
+   "from": [
+    7,
+    9
+   ],
+   "to": [
+    7,
+    11
+   ],
+   "caption": "1 in 4 people treated rudely at work take it out on customers. #smallbusiness #workplace #management"
+  }
+ ]
+}
