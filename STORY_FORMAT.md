@@ -48,6 +48,7 @@ Stage layout: ground is y=1180. Kitchen fridge at x 350-580, stove/counter x 680
 - **Share sticker:** `"end_card": {"text": "SEND THIS TO|YOUR <BROTHER/WIFE/BESTIE>", "secs": 2.5}`, naming whoever the story is about.
 - A meme sound every one or two lines; vary them. Visual punch (zoom/shake) on the big moments.
 - Original stories only: real threads can inspire the premise, but rewrite everything, change the details, use no real names, and never copy text.
+- Theme `seasonal` (arm added Nov 3): build the premise on what's happening this month (fall leaves, first snow, holiday parties, New Year's resolutions), outdoor scenes on the `street` set.
 - Keep it light: no politics, no punching down, nothing hateful or sexual, no real private people.
 
 ## New sets

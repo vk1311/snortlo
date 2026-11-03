@@ -308,3 +308,12 @@ YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Con
 | Tue Nov 17 12:00 | Staffkin Short 5 "What rudeness at work really costs" | ...-short5.mp4 | Staffkin YT, FB, IG | cmvyydltw008qo276missb2m1, cmvyydlui008ro276xaawi3zd, cmvyydluy008so2762s4gudsu |
 
 Brand YouTube: Nov 12 = 2 (ep + Keegix Short 2); Nov 13-15 = 2 (Keegix + Staffkin Shorts); Nov 16 = 1; Nov 17 = 2 if Keegix ep 3 airs at 10:00 (Keegix ep 3's Shorts must start Nov 18). Clash check: Postiz's read agent is still broken, so Pappu's Staffkin batch times couldn't be read; used the planned 12:00 slot. Photo review: 3 passes, 28 photos blocked.
+
+## Tue 2026-11-03 (nightly run; times AST, UTC-4)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 09:00 | Story "leaf-war" (1 part, question hook, neighbours, am_puck, all_lowercase): "why does my neighbour blow his leaves onto my lawn? #shorts" (74.7 s) | leaf-war-part1.mp4 | YouTube, Facebook, Instagram | cmw087hhr0090o276iy22asvb, cmw087hi70091o276d1xlk79o, cmw087hin0092o276m3hly81f |
+| 13:00 | Meme A, Lo vs Life #33 "POV: you said sounds good to an email you didn't read" (pov, random:punch, voiced, deepfry, work; 12.4 s) | meme-didnt-read-email.mp4 | YouTube, Facebook, Instagram | cmw087hix0093o276h1yk6gam, cmw087hjr0094o276kl6g6l4o, cmw087hkc0095o2760reg984v |
+| 20:00 | Meme B, Lo vs Life #34 "Expectation vs. reality: my work lunch plan" (expectation_reality, bonecrack, unvoiced, deepfry, work; 13.6 s) | meme-lunch-week-plan.mp4 | YouTube, Facebook, Instagram (1-part day) | cmw087hkn0096o276lhooo5e4, cmw087hky0097o276jtnxxg66, cmw087hla0098o276kmp20p03 |
+
+YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: the only new House day (Nov 2) returned no candidates (pro forma). Tuesday: no Lo Explains, no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (19 lines, 164 s). Full cut = copy of part 1. Housekeeping: deleted Oct 26 media (dad-tracker-*, meme-mom-new-phone, meme-one-slice-now).
