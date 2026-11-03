@@ -1,0 +1,561 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR NEIGHBOUR",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "street",
+   "text": "Why does my neighbour blow all his leaves onto my lawn every single fall?",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "set": "street",
+   "text": "Every Saturday, seven in the morning, Gord fires up his leaf blower and points it straight at my yard.",
+   "sfx": "alarm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "shake"
+    }
+   ],
+   "cards": [
+    "7 AM",
+    "VROOM",
+    "SAT"
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MY LAWN|CRUNCH",
+    "bg1": "#FFE7C2",
+    "bg2": "#E08A3C"
+   },
+   "text": "His lawn? Spotless. My lawn? A crunchy brown carpet.",
+   "sfx": "bruh"
+  },
+  {
+   "set": "street",
+   "text": "So I buy my own leaf blower. And I blow every leaf right back.",
+   "sfx": "rizz",
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Gord buys a bigger one. Gas powered. It sounds like a jet taking off.",
+   "sfx": "airhorn",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "angry",
+      "mouth": "grin"
+     },
+     "act": "shake"
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "So I get a backpack blower. He gets two. One in each hand. Like a cowboy.",
+   "sfx": "phonk",
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   }
+  },
+  {
+   "set": "street",
+   "text": "Three weeks. Same pile of leaves. Flying back and forth over the fence like a tennis ball.",
+   "sfx": "tick",
+   "cards": [
+    "GORD",
+    "LO",
+    "GORD"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Then I look up. Neither of us even has a tree.",
+   "sfx": "busted",
+   "meme": "shake",
+   "slow": true,
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "set": "street",
+   "text": "The leaves come from Marge across the street. And she's been on her porch the whole time. With popcorn.",
+   "sfx": "gasp",
+   "cast": [
+    {
+     "who": "me",
+     "x": 880,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 540,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "She's selling tickets. Five bucks. Ten for the front row.",
+   "sfx": "cashregister",
+   "speaker": "co2",
+   "bubble": {
+    "text": "FRONT ROW|TEN BUCKS",
+    "x": 540,
+    "y": 500,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 880,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 540,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Gord and I look at each other. One silent nod. Blowers up.",
+   "sfx": "dundun",
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     540,
+     800
+    ]
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "TEAM|WORK",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   },
+   "text": "We blow every single leaf across the street onto Marge's lawn. Teamwork.",
+   "sfx": "whoosh",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "street",
+   "text": "Marge doesn't even flinch. She goes, thank you, boys. I compost.",
+   "sfx": "huh",
+   "speaker": "co2",
+   "bubble": {
+    "text": "THANK YOU|BOYS",
+    "x": 540,
+    "y": 500,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 880,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 540,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Then she hands us each a pumpkin pie. Paid for with our ticket money.",
+   "sfx": "aww",
+   "cast": [
+    {
+     "who": "me",
+     "x": 880,
+     "facing": -1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 540,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Best fall ever. Gord and I are friends now. We rake together.",
+   "sfx": "yay",
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Then this morning, Marge plants three brand new trees. Right on the edge. Facing our houses.",
+   "sfx": "metalpipe",
+   "meme": "shake",
+   "cards": [
+    "TREE",
+    "TREE",
+    "TREE"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 880,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co2",
+     "x": 540,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Gord already bought two more blowers. Season two starts Saturday.",
+   "sfx": "fahh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 780,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "pause": 0.6
+  }
+ ]
+}
