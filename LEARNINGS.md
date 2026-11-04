@@ -46,6 +46,9 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Speech bubbles: "|" is a line break.
 - Congress: the House is pro forma (election recess since mid-September). If gov.py find returns [] for the 3 newest unused days, skip it.
 
+## Temporary (delete after Nov 8, 2026)
+- Nov 5-8: election_aftermath theme is forced on stories and both memes by experiments/overrides.json (Vatsal, Nov 4). Rules in STORY_FORMAT.md: the shared experience only, no parties, candidates, results, fraud talk or voting advice. Congress Moments stay as normal (the House is back Nov 9); they never touch the election.
+
 ## Night log (newest first; keep the last 14 nights, one to three lines each)
 - 2026-11-04 (Wed): setup.sh failed on a connection reset mid-download of the Kokoro model and left a truncated file the old `[ -f ]` check would have trusted forever; setup.sh now downloads to .part with retries and renames only when complete (tested). Kaggle OK first try (30 lines, 208 s). QC: "TEAL CAP MINE" cards cropped by a 1.5x cam zoom in the story; removed the zoom and re-rendered. Meme B came out 11.0 s for the 12-16 s arm; lengthened holds to 13.2 s. Congress skipped (no new day). Numbers: 1-part 6.35 (n=10) vs 2-part 5.49 (n=8); am_puck 6.53 (n=14) leads af_heart 5.79 (n=6).
 - 2026-11-03 (Tue): clean run, Kaggle OK first try (19 lines, 164 s); no fixes needed. QC fine (no TV/sign overlaps; street set worked for a 3-person scene with x=200/540/880). Congress skipped (Nov 2 pro forma, find returned []). Improvement: added a 'seasonal' story theme arm (leaf blowers, snow, holidays) since the calendar is a free source of premises. Numbers: 1-part 6.45 (n=9) vs 2-part 5.49 (n=8); am_puck 6.60 (n=13) still leads.

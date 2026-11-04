@@ -1,0 +1,29 @@
+{
+ "_about": "Owner-approved temporary overrides. While today's America/Halifax date is between 'from' and 'until' (inclusive), pick.py forces these settings. Arms in 'window_only' can only be picked inside their window; outside it pick.py skips them, so they never come back on their own.",
+ "overrides": [
+  {
+   "name": "election aftermath week",
+   "from": "2026-11-05",
+   "until": "2026-11-08",
+   "approved": "Vatsal, Nov 4, 2026: 'do it for a few days, theme it as stories about election and reactions and safe stuff'",
+   "story": {
+    "theme": "election_aftermath"
+   },
+   "meme": {
+    "theme": "election_aftermath"
+   },
+   "window_only": {
+    "story": {
+     "theme": [
+      "election_aftermath"
+     ]
+    },
+    "meme": {
+     "theme": [
+      "election_aftermath"
+     ]
+    }
+   }
+  }
+ ]
+}

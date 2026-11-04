@@ -14,7 +14,7 @@ Short animated explainers starring Lo, our teal-cap guy, in the normal Snortlo s
   - **Your body explained:** how sleep works; why we yawn; hiccups; brain freeze; ~~why onions make you cry~~ (Lo Explains #4, Nov 4); goosebumps; why your stomach growls; why your foot "falls asleep"
   - **Geography:** the country with the most time zones; a town split by a border; the coldest inhabited place; why Canada has so many lakes; places with weird names
   - **Ancient times:** the oldest written complaint; ancient Roman fast food; who invented the toothbrush; ancient board games
-  - **History stories:** ~~how the sandwich got its name~~ (Lo Explains #1, Oct 28); ~~the first speeding ticket~~ (Lo Explains #3, Nov 2); the Great Emu War; why we say "OK"; the man who sold the Eiffel Tower (fraud story, keep it light)
+  - **History stories:** ~~how the sandwich got its name~~ (Lo Explains #1, Oct 28); ~~the first speeding ticket~~ (Lo Explains #3, Nov 2); the Great Emu War; why we say "OK"; the man who sold the Eiffel Tower (fraud story, keep it light); why Americans vote on a Tuesday (good for Fri Nov 6 while the election theme runs; history only, nothing about current parties or results)
   - **Business explained:** ~~why everything ends in .99~~ (Lo Explains #2, Oct 30); how free apps make money; why airlines overbook; what a franchise really is; why stores put milk at the back
   - **Meme trend reviews:** where a currently trending meme format came from and why it spreads. Talk about the format; never reuse anyone's clip.
 - **Logging:** `python3 engine/log_post.py concept <slug> 1 "<title>" '{"series":"Lo Explains"}' <UTC time>` so it shows up in metrics.

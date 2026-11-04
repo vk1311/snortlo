@@ -48,7 +48,8 @@
    "neighbours",
    "dating",
    "pets",
-   "seasonal"
+   "seasonal",
+   "election_aftermath"
   ]
  },
  "meme": {
@@ -97,7 +98,8 @@
    "sleep",
    "phone",
    "money",
-   "friends"
+   "friends",
+   "election_aftermath"
   ]
  }
 }

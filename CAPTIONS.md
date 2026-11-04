@@ -25,3 +25,5 @@ Rules:
 - Short: two lines max, about 10–14 words. Read it out loud; if it doesn't land in 2 seconds, rewrite it.
 - Write 5 options, pick the one you'd actually send to a friend.
 - Emojis go in the post caption, not the on-screen text (the video font can't draw them).
+
+**Election aftermath captions (Nov 5-8, 2026 only):** same rules as STORY_FORMAT.md's `election_aftermath` theme. Good: "Me after six months of election ads|when a normal ad comes on:", "The family group chat|the morning after the election:", "Me at 2 AM refreshing the map|like I'm on the campaign:". Bad: anything naming a party, candidate, winner or loser, red/blue as a team, or "rigged". Hashtags: #election #relatable (never party or candidate tags).

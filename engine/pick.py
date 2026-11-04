@@ -1,8 +1,28 @@
 """Choose tonight's experiment settings and write the scoreboard.
-Usage: python3 engine/pick.py story|meme   -> prints JSON {variable: arm}, and rewrites experiments/REPORT.md"""
+Usage: python3 engine/pick.py story|meme [YYYY-MM-DD]   -> prints JSON {variable: arm}, and rewrites experiments/REPORT.md"""
 import csv, json, math, os, random, sys, datetime as dt
 
 ARMS = json.load(open("experiments/arms.json")); LOG = "experiments/log.csv"
+OVR = "experiments/overrides.json"   # owner-approved temporary overrides (see the file's _about)
+
+def today_halifax():
+    try:
+        from zoneinfo import ZoneInfo
+        return dt.datetime.now(ZoneInfo("America/Halifax")).date().isoformat()
+    except Exception:
+        return (dt.datetime.utcnow() - dt.timedelta(hours=4)).date().isoformat()
+
+def overrides(series, day=None):
+    """-> (forced {var: arm}, blocked {var: [arms]}) for tonight."""
+    day = day or today_halifax(); forced, blocked = {}, {}
+    if not os.path.exists(OVR): return forced, blocked
+    for o in json.load(open(OVR)).get("overrides", []):
+        active = o["from"] <= day <= o["until"]
+        if active: forced.update(o.get(series, {}))
+        else:
+            for var, arms in o.get("window_only", {}).get(series, {}).items():
+                blocked.setdefault(var, []).extend(arms)
+    return forced, blocked
 
 def scored_rows(series):
     if not os.path.exists(LOG): return []
@@ -22,9 +42,11 @@ def stats(series):
             table[var][json.dumps(a)] = (len(xs), sum(xs) / len(xs) if xs else None)
     return table
 
-def pick(series):
-    t = stats(series); choice = {}
+def pick(series, day=None):
+    t = stats(series); choice = {}; forced, blocked = overrides(series, day)
     for var, arms in ARMS[series].items():
+        if var in forced: choice[var] = forced[var]; continue
+        arms = [a for a in arms if a not in blocked.get(var, [])]
         under = [a for a in arms if t[var][json.dumps(a)][0] < ARMS["min_samples"]]
         if under and random.random() < 0.6: choice[var] = random.choice(under)        # still learning: try unknowns
         elif random.random() < ARMS["explore_rate"]: choice[var] = random.choice(arms)  # keep exploring
@@ -46,4 +68,5 @@ def report():
 
 if __name__ == "__main__":
     series = sys.argv[1] if len(sys.argv) > 1 else "story"
-    report(); print(json.dumps(pick(series)))
+    day = sys.argv[2] if len(sys.argv) > 2 else None   # optional YYYY-MM-DD, for testing
+    report(); print(json.dumps(pick(series, day)))
