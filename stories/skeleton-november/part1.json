@@ -1,0 +1,352 @@
+{
+ "channel": "Snortlo",
+ "voice": "af_heart",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "neighbours",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR NEIGHBOUR",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "street",
+   "text": "Why does my neighbour still have a giant Halloween skeleton on his lawn? It's November.",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "12 FEET|OF BONES",
+    "bg1": "#EDE6F7",
+    "bg2": "#6B4FA0"
+   },
+   "text": "Twelve feet tall. Glowing red eyes. Right across from my bedroom window.",
+   "sfx": "dundun"
+  },
+  {
+   "set": "street",
+   "text": "So I asked Dale, politely, when it's coming down.",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "talk",
+     "act": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 320,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "speaker": "me"
+  },
+  {
+   "set": "street",
+   "text": "He said, never. He's a year round guy now. He just changes the outfit.",
+   "sfx": "bruh",
+   "bubble": {
+    "text": "HE'S A YEAR|ROUND GUY",
+    "x": 320,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 320,
+     "facing": 1,
+     "pose": "point",
+     "act": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "speaker": "co1"
+  },
+  {
+   "set": "street",
+   "text": "Then I noticed what the outfit was. A teal cap. My teal cap. The one that blew off my porch last week.",
+   "sfx": "reveal",
+   "cards": [
+    "TEAL",
+    "CAP",
+    "MINE"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.6,
+      "steam": true
+     }
+    }
+   ],
+   "meme": "shake"
+  },
+  {
+   "set": "street",
+   "text": "Dale said finders keepers. Also, the skeleton has grown attached to it.",
+   "sfx": "clownhorn",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 320,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "speaker": "co1"
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "2:00"
+   },
+   "text": "So at two in the morning, I made a plan. Get in. Grab the cap. Get out.",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "I tiptoed across the street. I climbed the ladder. I reached for my cap.",
+   "sfx": "tick",
+   "slow": true,
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "to": 600,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MOTION|SENSOR",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "text": "That's when I learned the skeleton has a motion sensor.",
+   "sfx": "alarm"
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "It screamed. Every porch light on the street came on. And the ladder tipped.",
+   "sfx": "metalpipe",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "meme": "shake",
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "So now I'm lying on Dale's lawn, in my pajamas and fuzzy slippers, hugging a twelve foot skeleton.",
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "me",
+     "x": 600,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "Dale opens the door, takes one look, and says, oh. You two are dating now?",
+   "sfx": "roast",
+   "bubble": {
+    "text": "YOU TWO ARE|DATING NOW?",
+    "x": 300,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "laugh",
+     "act": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 0.8
+     }
+    }
+   ],
+   "speaker": "co1"
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "GROUP|CHAT",
+    "bg1": "#E3F0FF",
+    "bg2": "#3D7DD8"
+   },
+   "text": "By breakfast, the photo was in the neighbourhood group chat. Forty seven likes.",
+   "sfx": "textbuzz"
+  },
+  {
+   "set": "street",
+   "text": "I did get my cap back though. Dale gave it to me. Because the skeleton has a new outfit now.",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MY|SLIPPERS",
+    "bg1": "#FFF4D6",
+    "bg2": "#E0A33C"
+   },
+   "text": "My fuzzy slippers. I ran home without them. The skeleton is wearing them till Christmas.",
+   "sfx": "vineboom",
+   "pause": 0.6
+  }
+ ]
+}

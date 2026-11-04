@@ -1,0 +1,9 @@
+{"channel": "Snortlo", "format": "meme", "series": "Lo vs Life #35", "voice": "am_puck", "speed": 1.15, "music": false,
+ "theme": "money",
+ "end_card": {"text": "SEND THIS TO|YOUR WIFE", "secs": 2},
+ "beats": [
+  {"text": "Babe! We're rich!", "top_text": "Expectation: me after my|two dollar an hour raise", "set": "living", "state": {"tv": "RAISE|$$$"}, "speaker": "me", "sfx": "fanfare",
+   "cast": [{"who": "me", "x": 360, "facing": 1, "pose": "celebrate", "act": "bounce", "face": {"eyes": "happy", "mouth": "grin"}}]},
+  {"text": "", "hold": 1.2, "top_text": "Reality:", "set": "closeup", "state": {"show": "text", "big": "REALITY", "bg1": "#E8E1F7", "bg2": "#9C8BC4"}, "sfx": "whoosh"},
+  {"text": "", "hold": 2.4, "top_text": "My first paycheck after taxes:", "set": "closeup", "state": {"show": "text", "big": "+$11.40", "bg1": "#FFE3E3", "bg2": "#D9534F"}, "sfx": "random:punch", "meme": "deepfry"}
+ ]}

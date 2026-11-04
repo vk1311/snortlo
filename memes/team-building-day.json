@@ -1,0 +1,125 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #36",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "work",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR COWORKER",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Today, we bond like a family!",
+   "voice": "am_michael",
+   "top_text": "Expectation: the fun|team building day",
+   "set": "office",
+   "state": {
+    "whiteboard": "FUN|DAY!"
+   },
+   "speaker": "boss",
+   "sfx": "sparkle",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "celebrate",
+     "act": "bounce",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 980,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 1.6,
+   "top_text": "Reality:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "REALITY",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "Can I please go back to my emails?",
+   "top_text": "Me, three hours into|the trust fall workshop:",
+   "set": "office",
+   "state": {
+    "whiteboard": "TRUST|FALLS"
+   },
+   "speaker": "me",
+   "sfx": "sadviolin",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "pause": 0.6
+  },
+  {
+   "text": "Great news! We're doing this every month now!",
+   "voice": "am_michael",
+   "top_text": "My boss at 4:55:",
+   "set": "office",
+   "state": {
+    "whiteboard": "MONTHLY|!!!"
+   },
+   "speaker": "boss",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "act": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "EVERY|MONTH?!",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "sfx": "random:punch"
+  }
+ ]
+}
