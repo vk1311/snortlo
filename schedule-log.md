@@ -317,3 +317,9 @@ Brand YouTube: Nov 12 = 2 (ep + Keegix Short 2); Nov 13-15 = 2 (Keegix + Staffki
 | 20:00 | Meme B, Lo vs Life #34 "Expectation vs. reality: my work lunch plan" (expectation_reality, bonecrack, unvoiced, deepfry, work; 13.6 s) | meme-lunch-week-plan.mp4 | YouTube, Facebook, Instagram (1-part day) | cmw087hkn0096o276lhooo5e4, cmw087hky0097o276jtnxxg66, cmw087hla0098o276kmp20p03 |
 
 YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: the only new House day (Nov 2) returned no candidates (pro forma). Tuesday: no Lo Explains, no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (19 lines, 164 s). Full cut = copy of part 1. Housekeeping: deleted Oct 26 media (dad-tracker-*, meme-mom-new-phone, meme-one-slice-now).
+
+### Keegix ep 1 re-post (Tue 2026-11-03, evening)
+The 10:00 upload failed on YouTube with "Video too long": the Keegix and Staffkin brand channels weren't phone-verified, so YouTube capped them at 15 min. Vatsal verified both at youtube.com/verify. The failed post (cmvr144yy001qo2763prkm3yb) is left in Postiz.
+| Time (Halifax) | Item | Channels | Postiz IDs |
+|---|---|---|---|
+| Tue Nov 3 21:00 | Keegix Podcast ep 1 (re-post, media pinned to be69025) | Keegix YouTube | cmw1e6go20099o276ptyhv2pe |

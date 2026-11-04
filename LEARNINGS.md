@@ -55,3 +55,5 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - 2026-10-28: clean run, Kaggle OK first try. QC caught TV text cropped in meme B; fixed and added the tv-text rule here and in STORY_FORMAT.md. Congress skipped again (recess). First Lo Explains (sandwich). Numbers: too few new samples to call anything.
 - 2026-10-27 (set-up day): photo review caught people, war and off-topic photos that slipped past the title filter; added broll_block.txt, a stronger filter (no strips, dark frames or scans), and the photos/block review step.
 - 2026-10-27 (set-up day, not a nightly run): moved all channels to the Qwen3 house voices; podcasts switched to the visual-first look; Airbnb pronunciation fixed; started this file.
+
+- 2026-11-03: YouTube rejects videos over 15 min on channels that aren't phone-verified ("Upload failed: Video too long"). Keegix and Staffkin are now verified. Any NEW YouTube channel must be verified (youtube.com/verify, switched to that channel) before it gets a long video.
