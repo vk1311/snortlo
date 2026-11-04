@@ -323,3 +323,14 @@ The 10:00 upload failed on YouTube with "Video too long": the Keegix and Staffki
 | Time (Halifax) | Item | Channels | Postiz IDs |
 |---|---|---|---|
 | Tue Nov 3 21:00 | Keegix Podcast ep 1 (re-post, media pinned to be69025) | Keegix YouTube | cmw1e6go20099o276ptyhv2pe |
+
+## Wed 2026-11-04 (nightly run; times AST, UTC-4)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 09:00 | Story "skeleton-november" (1 part, question hook, neighbours, af_heart, all_lowercase): "why does my neighbour still have a halloween skeleton up? #shorts" (74.4 s) | skeleton-november-part1.mp4 | YouTube, Facebook, Instagram | cmw1nxjj4009ao276u7um7fjv, cmw1nxjjs009bo276yx1841q7, cmw1nxjk8009co276gzahh06d |
+| 11:00 | Story full cut (Wednesday, FB only) | skeleton-november-full.mp4 | Facebook | cmw1nxjla009do276fo9n3aoi |
+| 13:00 | Meme A, Lo vs Life #35 "Expectation vs. reality: my $2 raise" (expectation_reality, random:punch, short, voiced, deepfry, money; 6.2 s) | meme-two-dollar-raise.mp4 | YouTube, Facebook, Instagram | cmw1nxjmr009eo276jipal8hp, cmw1nxjng009fo2761kusgbz4, cmw1nxjo6009go276079uy9ol |
+| 15:00 | Lo Explains #4 "Why do onions make you cry?" (59.7 s; meme B's 13:00 slot moved +2h) | onion-tears-part1.mp4 | YouTube, Facebook, Instagram (1-part day) | cmw1nxjqk009ho276f670pq8b, cmw1nxjup009io27660ficl9v, cmw1nxjwd009jo2762k5fnrhb |
+| 17:00 | Meme B, Lo vs Life #36 "The fun team building day vs. my boss at 4:55" (expectation_reality, random:punch, long, voiced, no deepfry, work; 13.2 s; Wed = FB only, moved +4h past A and Lo Explains) | meme-team-building-day.mp4 | Facebook | cmw1nxjxi009ko276ugr8damm |
+
+YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Nov 2 (pro forma/election recess). Wednesday: no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (30 lines, 208 s). Full cut = copy of part 1. Housekeeping: deleted Oct 27 media (manager-is-me-*, meme-quick-question-boss, meme-goose-videos-5am).
