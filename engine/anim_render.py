@@ -64,7 +64,7 @@ def frame(n, surf):
     # punch zoom + shake for meme moments
     extra, shake = 0.0, 0.0
     pa = punch_at(b, tb)
-    if b.get("sfx") in PUNCH and t > pa:
+    if (b.get("sfx") in PUNCH or b.get("sfx") == "random:punch") and t > pa:
         dt = t - pa; extra = 0.22 * math.exp(-dt * 2.5); shake = 14 * math.exp(-dt * 6)
     if b.get("meme") == "shake": shake = max(shake, 7)
     if b.get("meme") == "slowzoom": z *= 1 + 0.12 * min(1, bt / max(blen, .1))
@@ -233,21 +233,41 @@ if os.environ.get("STILLS"):
     sys.exit()
 
 # ---- audio
+# Level-match every sound to the narration (Nov 4, owner: "some meme voices are so loud I can't hear
+# stories"). Before this, raw clip levels made the sound track louder than the voice (-17 vs -21 LUFS).
+# Each clip's loud part is scaled to sit FX_PUNCH_DB / FX_ACCENT_DB under the voice's speech level,
+# and the mix below also ducks sounds while someone is talking.
+FX_PUNCH_DB, FX_ACCENT_DB = -4.0, -10.0
+def _rms(x, floor):
+    x = x if x.ndim == 1 else x.mean(axis=1); a = np.abs(x); m = a.max() if len(a) else 0
+    sel = x[a > floor * m] if m > 0 else x
+    return float(np.sqrt(np.mean(sel ** 2))) if len(sel) else 0.0
+VOICE_RMS = _rms(v, 0.05) or 0.1
+def level(s, rel_db):
+    r = _rms(s, 0.1)
+    if r <= 0: return s
+    g = VOICE_RMS * 10 ** (rel_db / 20) / r
+    pk = np.abs(s).max() * g
+    if pk > 0.9: g *= 0.9 / pk          # never clip a single sound
+    return s * g
 fx = np.zeros(int(DUR * sfx.SR) + sfx.SR * 4)
 for b, tb in zip(B, T):
     name = b.get("sfx")
     if not name: continue
-    _, s = sfx.get(name, rng_fx); at = punch_at(b, tb) if name in PUNCH else tb["start"] - 0.05
-    i = int(max(0, at) * sfx.SR); fx[i:i + len(s)] += s[:len(fx) - i] * (0.8 if name in PUNCH else 0.5)
+    real, s = sfx.get(name, rng_fx); hit = name in PUNCH or real in PUNCH   # random:punch resolves to a punch
+    at = punch_at(b, tb) if hit else tb["start"] - 0.05
+    s = level(s, FX_PUNCH_DB if hit else FX_ACCENT_DB)
+    i = int(max(0, at) * sfx.SR); fx[i:i + len(s)] += s[:len(fx) - i]
 if MEME and story.get("sting", True):  # sound logo: Lo's little snort opens every meme
-    _, s = sfx.get("snort", rng_fx); fx[:len(s)] += s * 0.6
+    _, s = sfx.get("snort", rng_fx); s = level(s, FX_ACCENT_DB); fx[:len(s)] += s
 sf.write("fx.wav", fx[:int(DUR * sfx.SR)], sfx.SR)
 sf.write("music.wav", sfx.music(DUR, bpm=story.get("bpm", 96)) * (1 if story.get("music", True) else 0), sfx.SR)
 enc = subprocess.Popen([
     "ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
     "-i", "voice.wav", "-i", "fx.wav", "-i", "music.wav", "-filter_complex",
-    "[1:a]aresample=48000,apad,asplit[v1][v2];[3:a]volume=0.8[m];[m][v2]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=300[md];"
-    f"[v1][2:a][md]amix=inputs=3:normalize=0:weights=1 0.85 0.6,alimiter=limit=0.92,atrim=0:{DUR:.2f}[a]",
+    "[1:a]aresample=48000,apad,asplit=3[v1][v2][v3];[3:a]volume=0.8[m];[m][v2]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=300[md];"
+    "[2:a]aresample=48000[fxr];[fxr][v3]sidechaincompress=threshold=0.04:ratio=4:attack=5:release=250[fxd];"  # sounds duck under speech
+    f"[v1][fxd][md]amix=inputs=3:normalize=0:weights=1 1 0.6,loudnorm=I=-15:TP=-1.5:LRA=11,aresample=48000,atrim=0:{DUR:.2f}[a]",
     "-map", "0:v", "-map", "[a]", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-maxrate", "12M", "-bufsize", "24M", "-pix_fmt", "yuv420p",
     "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", "-t", f"{DUR:.2f}", OUT], stdin=subprocess.PIPE)
 for n in range(N):

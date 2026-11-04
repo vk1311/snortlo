@@ -246,15 +246,24 @@ def draw_prop(c, pr, x, y, t, held=False, facing=1):
         c.save(); c.translate(x, y); c.rotate(.5); c.new_path(); c.move_to(-40, -8); c.curve_to(0, -30, 40, -20, 60, 30); c.curve_to(30, 10, -10, 20, -40, 8); c.close_path()
         fill_stroke(c, "#E0453A", INKC, 6); line(c, (-40, 0), (-60, -16), 8, hexc("#3E9A3A")); c.restore()
     elif ty == "note":
-        c.save(); c.translate(x, y); c.rotate(pr.get("rot", -.08)); rrect(c, -110, -80, 220, 160, 6); fill_stroke(c, "#FFF6A8", INKC, 6)
-        if pr.get("lines"):
-            for k, ln in enumerate(pr["lines"]): text(c, ln, 0, -44 + k * 30, 22, INKC)
+        c.save(); c.translate(x, y); c.rotate(pr.get("rot", -.08))
+        lines = pr.get("lines") or []
+        if lines:  # Nov 4 (owner: "sticky notes not clear to read"): bigger, heavier text; the note grows to fit
+            c.select_font_face(FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); size = 30
+            c.set_font_size(size); widest = max(c.text_extents(l)[2] for l in lines)
+            if widest > 300: size *= 300 / widest; widest = 300
+            nw, gap = max(220, widest + 60), size * 1.3
+            nh = max(160, gap * len(lines) + 56)
+            rrect(c, -nw / 2, -nh / 2, nw, nh, 6); fill_stroke(c, "#FFF3A0", INKC, 6)
+            for k, ln in enumerate(lines): text(c, ln, 0, (k - (len(lines) - 1) / 2) * gap + 4, size, hexc("#1A1A1A"))
         else:
+          rrect(c, -110, -80, 220, 160, 6); fill_stroke(c, "#FFF6A8", INKC, 6)
           for k in range(4):  # unreadable scribble: the cliffhanger
             c.new_path(); c.move_to(-80, -40 + k * 28)
             for j in range(16): c.line_to(-80 + j * 10, -40 + k * 28 + 6 * math.sin(j * 1.9 + k))
             c.set_source_rgb(*INKC); c.set_line_width(4); c.stroke()
-        c.set_source_rgba(.85, .85, .85, .8); rrect(c, -40, -96, 80, 30, 3); c.fill()
+        top = -(max(160, (pr.get("lines") and len(pr["lines"]) * 39 + 56) or 160)) / 2  # tape sits on the note's top edge
+        c.set_source_rgba(.85, .85, .85, .8); rrect(c, -40, top - 16, 80, 30, 3); c.fill()
         c.restore()
     elif ty == "dog":  # chubby cartoon dog; feet at y. keys: dir (1 = faces right), fat (1.0-1.6), eyes (dot/sad/happy/wide), s (scale)
         d = pr.get("dir", facing); fat = pr.get("fat", 1.0); s = pr.get("s", 1.0); ey = pr.get("eyes", "dot")
@@ -461,7 +470,10 @@ def set_closeup(c, t, st):
         draw_prop(c, dict(type="note", rot=-0.04 + 0.01 * math.sin(t * 2), lines=st.get("note_lines")), 0, 0, t); c.restore()
     elif what == "note":
         lunchbox(c, 540, 900, 5.0, label=False)
-        draw_prop(c, dict(type="note", rot=-0.06 + 0.02 * math.sin(t * 2), lines=st.get("note_lines")), 540, 800, t)
+        if st.get("note_lines"):  # readable note on the lunchbox: draw it 1.8x (Nov 4)
+            c.save(); c.translate(540, 800); c.scale(1.8, 1.8)
+            draw_prop(c, dict(type="note", rot=-0.06 + 0.02 * math.sin(t * 2), lines=st.get("note_lines")), 0, 0, t); c.restore()
+        else: draw_prop(c, dict(type="note", rot=-0.06 + 0.02 * math.sin(t * 2)), 540, 800, t)
     elif what == "text":  # big reaction text, e.g. "3:00 AM" or "???"
         c.save(); c.translate(540, 820); sc = 1 + 0.04 * math.sin(t * 5); c.scale(sc, sc)
         lines = st.get("big", "???").split("|"); c.select_font_face(FONT, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); c.set_font_size(170)
