@@ -334,3 +334,12 @@ The 10:00 upload failed on YouTube with "Video too long": the Keegix and Staffki
 | 17:00 | Meme B, Lo vs Life #36 "The fun team building day vs. my boss at 4:55" (expectation_reality, random:punch, long, voiced, no deepfry, work; 13.2 s; Wed = FB only, moved +4h past A and Lo Explains) | meme-team-building-day.mp4 | Facebook | cmw1nxjxi009ko276ugr8damm |
 
 YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Nov 2 (pro forma/election recess). Wednesday: no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (30 lines, 208 s). Full cut = copy of part 1. Housekeeping: deleted Oct 27 media (manager-is-me-*, meme-quick-question-boss, meme-goose-videos-5am).
+
+## Thu 2026-11-05 (nightly run; times AST, UTC-4)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 09:00 | Story "pie-fund-fines" (1 part, in_media_res hook, election_aftermath, am_puck, emoji_end): "My mom fined me $5 for one emoji in the family group chat 😭 #shorts" (71.8 s) | pie-fund-fines-part1.mp4 | YouTube, Facebook, Instagram | cmw33asai009xo276i2m9b93k, cmw33asaz009yo276sp4ad2h0, cmw33asbg009zo27629x1v6ks |
+| 13:00 | Meme A, Lo vs Life #37 "Me vs. my mom the morning after the election" (me_vs_mom, fahh, long, voiced, deepfry; 12.4 s) | meme-map-spreadsheet-mom.mp4 | YouTube, Facebook, Instagram | cmw33asbz00a0o276hpngt94d, cmw33asfa00a1o276y44o7p6e, cmw33asgl00a2o276wpon9rmo |
+| 20:00 | Meme B, Lo vs Life #38 "POV: the first normal ad after election season" (pov, fahh, long, voiced, deepfry; 12.5 s) | meme-normal-ad-approves.mp4 | YouTube, Facebook, Instagram (1-part day) | cmw33asi400a3o276s950ifb6, cmw33ask000a4o276tugbf8dg, cmw33aslb00a5o276l468za4d |
+
+YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Nov 2 (election recess; House back Nov 9). Thursday: no Lo Explains, no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (21 lines, 228 s). Full cut = copy of part 1. Housekeeping: nothing older than 8 days except kept files (samples, unpublished pod-* Shorts).

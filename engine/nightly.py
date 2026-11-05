@@ -87,8 +87,21 @@ def cmd_voices(paths):
     print(json.dumps(decision, indent=1))
 
 
+def layout_warnings(d):
+    """Cheap pre-render checks for mistakes QC keeps catching (Nov 2 and Nov 5: a character standing over the living-room TV)."""
+    warn = []
+    for i, b in enumerate(d.get("beats", [])):
+        if b.get("set") == "living":
+            for c in b.get("cast", []):
+                if c.get("x", 0) >= 600 or c.get("to", 0) >= 600:
+                    warn.append(f"beat {i}: {c.get('who')} at x={c.get('x')} stands over the living-room TV (keep x < 600)")
+        if b.get("cards") and (b.get("cam") or {}).get("zoom", 1) > 1.1:
+            warn.append(f"beat {i}: cards with a cam zoom get cropped")
+    return warn
+
+
 def cmd_render(pairs):
-    env = dict(os.environ, VOICE_ENGINE=open(ENGINE_FILE).read().strip() if os.path.exists(ENGINE_FILE) else "auto")
+    env =dict(os.environ, VOICE_ENGINE=open(ENGINE_FILE).read().strip() if os.path.exists(ENGINE_FILE) else "auto")
     root = os.path.dirname(HERE); results = []
     for pair in pairs:
         src, out = pair.split("=", 1)
@@ -102,7 +115,11 @@ def cmd_render(pairs):
             else:
                 subprocess.run([sys.executable, "podcast.py", src, out], check=True, cwd=HERE, env=env)
                 subprocess.run([sys.executable, "podcast_shorts.py", src, out], check=True, cwd=HERE, env=env)
-            results.append({"src": src, "out": out, "ok": True, "seconds": round(time.time() - t0)})
+            r = {"src": src, "out": out, "ok": True, "seconds": round(time.time() - t0)}
+            if k == "short":
+                w = layout_warnings(json.load(open(src)))
+                if w: r["layout_warnings"] = w
+            results.append(r)
         except subprocess.CalledProcessError as e:
             results.append({"src": src, "out": out, "ok": False, "error": str(e)[:200]})
     print(json.dumps({"voice_engine": env["VOICE_ENGINE"], "results": results}, indent=1))
