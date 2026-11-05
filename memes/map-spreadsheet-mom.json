@@ -1,0 +1,96 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #37",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "election_aftermath",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Finally. No more ads. No more maps. Just peace.",
+   "top_text": "Me: the election is finally|over, I can relax now",
+   "set": "living",
+   "state": {
+    "tv": "THE END"
+   },
+   "speaker": "me",
+   "sfx": "sparkle",
+   "cast": [
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 1.0,
+   "top_text": "My mom at 6 AM:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "6:00"
+   },
+   "sfx": "textbuzz",
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Did you see the map? I made a spreadsheet. I'll explain every county. Call me.",
+   "voice": "af_bella",
+   "top_text": "My mom at 6 AM:",
+   "set": "living",
+   "speaker": "co2",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 540,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "Me, 40 minutes into|the spreadsheet:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "COUNTY|47 OF 3000",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "sfx": "fahh",
+   "meme": "deepfry"
+  }
+ ]
+}

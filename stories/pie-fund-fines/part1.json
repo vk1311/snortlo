@@ -1,0 +1,351 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "election_aftermath",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR GRANDPA",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "7:02"
+   },
+   "text": "I just got fined five dollars by my own mother. For one emoji.",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "FAMILY|CHAT",
+    "bg1": "#E3F0FF",
+    "bg2": "#3D7DD8"
+   },
+   "text": "It started the morning after the election, in the family group chat.",
+   "sfx": "textbuzz"
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "PIE|FUND"
+   },
+   "text": "Mom posted one rule. Anyone who mentions the election pays five dollars into the Thanksgiving pie fund.",
+   "sfx": "cashregister",
+   "bubble": {
+    "text": "FIVE DOLLARS|PER MENTION",
+    "x": 520,
+    "y": 500,
+    "tail": 30
+   },
+   "speaker": "co2",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 540,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "text": "Ten minutes later, my brother tried to dodge it. He called it, the thing that happened on Tuesday.",
+   "sfx": "hmm",
+   "bubble": {
+    "text": "THE THING ON|TUESDAY",
+    "x": 520,
+    "y": 500,
+    "tail": 30
+   },
+   "speaker": "co1",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 540,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "FINED",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "text": "Mom fined him. Then she fined him again for arguing about the fine.",
+   "sfx": "brokeboi"
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NO WORDS|STILL $5",
+    "bg1": "#FFF4D6",
+    "bg2": "#E0A33C"
+   },
+   "text": "My aunt sent a photo of a map with no words. Fined.",
+   "sfx": "bonk"
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "phone": true
+   },
+   "text": "So I sent the eyes emoji. Just the eyes. Fined. Apparently my eyes were political.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$400",
+    "bg1": "#E8F7E1",
+    "bg2": "#4E9A3A"
+   },
+   "text": "But by Thursday, the pie fund had four hundred dollars. And most of it was from grandpa.",
+   "sfx": "busted",
+   "meme": "shake"
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "TOO CLOSE|TO CALL"
+   },
+   "text": "Grandpa uses voice to text. He does not know it's always on.",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 540,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "TOO CLOSE|TO CALL"
+   },
+   "text": "Every time the news said too close to call, grandpa yelled, oh come on. And his phone sent it to the group.",
+   "sfx": "airhorn",
+   "bubble": {
+    "text": "OH COME ON",
+    "x": 520,
+    "y": 480,
+    "tail": 30
+   },
+   "speaker": "co3",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 540,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "act": "shake",
+     "fx": {
+      "red": 0.6,
+      "steam": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "80 TIMES|3 DAYS",
+    "bg1": "#EDE6F7",
+    "bg2": "#6B4FA0"
+   },
+   "text": "Eighty times. In three days.",
+   "sfx": "oof",
+   "pause": 0.4
+  },
+  {
+   "set": "living",
+   "text": "Grandpa was furious. He said he wasn't talking about the election. He was yelling at the weatherman.",
+   "sfx": "clownhorn",
+   "speaker": "co3",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 540,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "text": "Mom didn't care. Rules are rules. Grandpa paid up, in coins, in a pickle jar, on her porch.",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 200,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    },
+    {
+     "who": "co3",
+     "x": 540,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "ONE|PIE",
+    "bg1": "#FFF4D6",
+    "bg2": "#E0A33C"
+   },
+   "text": "So Mom spent the whole fund on one giant pie. The biggest pie the bakery ever made.",
+   "sfx": "angelchoir"
+  },
+  {
+   "set": "living",
+   "text": "Grandpa took the first bite, and said, oh come on, that's good.",
+   "sfx": "pop",
+   "speaker": "co3",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 540,
+     "facing": -1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "FINED",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "text": "His phone sent it to the group. Five dollars.",
+   "sfx": "vineboom",
+   "pause": 0.6
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #38",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "election_aftermath",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR HUSBAND",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Introducing new honey toast. It's warm. It's crunchy.",
+   "voice": "am_michael",
+   "top_text": "POV: the first normal ad|after six months of election ads",
+   "set": "living",
+   "state": {
+    "tv": "TOAST|AD"
+   },
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Wait. Nobody's yelling? Nobody approved this message?",
+   "top_text": "POV: the first normal ad|after six months of election ads",
+   "set": "living",
+   "state": {
+    "tv": "TOAST|AD"
+   },
+   "speaker": "me",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "I'm honey toast, and I approve this message.",
+   "voice": "am_michael",
+   "top_text": "The toast:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "I APPROVE|THIS TOAST",
+    "bg1": "#FFF4D6",
+    "bg2": "#E0A33C"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "",
+   "hold": 2.0,
+   "top_text": "Me:",
+   "set": "living",
+   "state": {
+    "tv": "TOAST|AD"
+   },
+   "sfx": "fahh",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  }
+ ]
+}
