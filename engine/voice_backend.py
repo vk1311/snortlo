@@ -92,8 +92,10 @@ def _kaggle(todo):
         out = os.path.join(d, "out")
         # Stream kaggle_tts progress lines to our stderr live (so a nohup log shows them),
         # and keep the last line as the status message.
-        pr = subprocess.Popen([sys.executable, os.path.join(HERE, "kaggle_tts.py"), "clone", jf, out],
-                              stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        # -u: the child is on a pipe, so without it Python block-buffers and nothing shows until it exits (Nov 6).
+        pr = subprocess.Popen([sys.executable, "-u", os.path.join(HERE, "kaggle_tts.py"), "clone", jf, out],
+                              stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
+                              env=dict(os.environ, PYTHONUNBUFFERED="1"))
         lines = []
         for line in pr.stdout:
             line = line.rstrip()

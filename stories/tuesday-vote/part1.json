@@ -1,0 +1,211 @@
+{
+ "channel": "Snortlo",
+ "format": "concept",
+ "series": "Lo Explains #5",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR HISTORY NERD",
+  "secs": 2.5
+ },
+ "sources": [
+  "https://www.npr.org/sections/itsallpolitics/2012/10/23/162484410/why-are-elections-on-tuesdays",
+  "https://www.cbsnews.com/news/why-are-presidential-elections-always-held-on-a-tuesday"
+ ],
+ "beats": [
+  {
+   "set": "street",
+   "text": "Why do Americans vote on a Tuesday? Not a Saturday, when people are actually free?",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BLAME THE|HORSES",
+    "bg1": "#FFF4D6",
+    "bg2": "#E0A33C"
+   },
+   "text": "Short answer? Blame the horses.",
+   "sfx": "dundun"
+  },
+  {
+   "set": "street",
+   "text": "For decades, every state picked its own election day. It was a total mess.",
+   "sfx": "scratch",
+   "cards": [
+    "NOV 3",
+    "NOV 9",
+    "DEC 1"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "1845",
+    "bg1": "#E3F0FF",
+    "bg2": "#3D7DD8"
+   },
+   "text": "So in eighteen forty five, Congress picked one day for the whole country.",
+   "sfx": "ding"
+  },
+  {
+   "set": "street",
+   "text": "Back then, lots of voters were farmers. Getting to the polls could take a full day by horse and buggy.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "to": 880
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Sunday was the day of rest, so nobody wanted to travel then. That ruled out Monday.",
+   "sfx": "tick",
+   "cards": [
+    "SUN",
+    "MON",
+    "NOPE"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MARKET|DAY",
+    "bg1": "#E8F7E1",
+    "bg2": "#4E9A3A"
+   },
+   "text": "Wednesday? That was market day. You do not mess with market day.",
+   "sfx": "bonk"
+  },
+  {
+   "set": "street",
+   "text": "Wait, what? The whole country's election day was planned around a buggy ride and a farmers market?",
+   "sfx": "waitwhat",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  },
+  {
+   "set": "street",
+   "text": "And November? Planting was over, the harvest was in, and winter hadn't wrecked the roads yet.",
+   "sfx": "ding",
+   "cards": [
+    "CROPS",
+    "DONE",
+    "GO"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "TUESDAY|WINS",
+    "bg1": "#EDE6F7",
+    "bg2": "#6B4FA0"
+   },
+   "text": "So Tuesday won. Ride in on Monday, vote on Tuesday, home in time for market day.",
+   "sfx": "success"
+  },
+  {
+   "set": "street",
+   "text": "Today, hardly anyone rides a buggy to vote. But the Tuesday stayed. Like the horse is still waiting outside.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ]
+  }
+ ]
+}

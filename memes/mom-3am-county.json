@@ -1,0 +1,119 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #40",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "election_aftermath",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Mom when I was ten:|bedtime is 8 PM, no exceptions",
+   "set": "kitchen",
+   "state": {
+    "clock": "8:00"
+   },
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 820,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Same mom, election night,|3 AM:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "3:00"
+   },
+   "sfx": "doorslam",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "Mom: wake up, you|HAVE to see this county",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WAKE UP|THIS COUNTY",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "sfx": "alarm"
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me in class the next morning:",
+   "set": "classroom",
+   "state": {
+    "board": "MATH|TEST"
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "meme": "shake"
+  }
+ ]
+}

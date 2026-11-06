@@ -1,0 +1,158 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #39",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "election_aftermath",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR COWORKER",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 1.2,
+   "top_text": "The 'stayed up all night|refreshing the map' starter pack:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "STARTER|PACK",
+    "bg1": "#E3F0FF",
+    "bg2": "#3D7DD8"
+   },
+   "sfx": "pop"
+  },
+  {
+   "text": "Four cold coffees.",
+   "top_text": "The 'stayed up all night|refreshing the map' starter pack:",
+   "set": "kitchen",
+   "speaker": "me",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 820,
+     "facing": -1,
+     "pose": "drink",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "hold": "cup"
+    }
+   ],
+   "props": [
+    {
+     "type": "cup",
+     "x": 700,
+     "y": 890
+    },
+    {
+     "type": "cup",
+     "x": 760,
+     "y": 890
+    }
+   ]
+  },
+  {
+   "text": "Phone at two percent.",
+   "top_text": "The 'stayed up all night|refreshing the map' starter pack:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "3:12"
+   },
+   "speaker": "me",
+   "sfx": "alarm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "text": "This county is key. About a county you never heard of before tonight.",
+   "top_text": "The 'stayed up all night|refreshing the map' starter pack:",
+   "set": "living",
+   "state": {
+    "tv": "LIVE MAP"
+   },
+   "speaker": "me",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "Too close to call. For the eleventh time.",
+   "top_text": "The 'stayed up all night|refreshing the map' starter pack:",
+   "set": "living",
+   "state": {
+    "tv": "TOO CLOSE"
+   },
+   "speaker": "me",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.0,
+   "top_text": "Me at the 9 AM meeting:",
+   "set": "office",
+   "state": {
+    "whiteboard": "Q4|GOALS"
+   },
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 560,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  }
+ ]
+}

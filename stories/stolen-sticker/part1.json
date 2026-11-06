@@ -1,0 +1,395 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "election_aftermath",
+ "hook_style": "question",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR DAD",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "living",
+   "state": {
+    "tv": "I VOTED"
+   },
+   "text": "Have you ever seen a grown man guard a sticker like it's a newborn baby?",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "I VOTED",
+    "bg1": "#E3F0FF",
+    "bg2": "#3D7DD8"
+   },
+   "text": "My dad voted on Tuesday, and he came home wearing the little I voted sticker like a gold medal.",
+   "sfx": "fanfare"
+  },
+  {
+   "set": "living",
+   "text": "He wore it to dinner. He wore it to bed. He moved it onto his pajamas.",
+   "sfx": "boing",
+   "cards": [
+    "DINNER",
+    "BED",
+    "PJS"
+   ],
+   "cast": [
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "clock": "7:00"
+   },
+   "text": "On Wednesday, he wore it in the shower. He said it's waterproof if you believe in it.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "AISLE 5|CEREAL"
+   },
+   "text": "On Thursday we went grocery shopping. Halfway down the cereal aisle, he stopped and grabbed his chest.",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 820,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "GONE",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "text": "The sticker was gone.",
+   "sfx": "reveal",
+   "meme": "shake",
+   "pause": 0.3
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "AISLE 5|CEREAL"
+   },
+   "text": "My dad found the manager. The manager got on the intercom.",
+   "sfx": "alarm",
+   "speaker": "boss",
+   "bubble": {
+    "text": "ATTENTION|SHOPPERS",
+    "x": 560,
+    "y": 500,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 560,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 860,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "LOST:|ONE STICKER",
+    "bg1": "#FFF4D6",
+    "bg2": "#E0A33C"
+   },
+   "text": "A man has lost a sticker, he said. It is very important to him.",
+   "sfx": "crickets"
+  },
+  {
+   "set": "kitchen",
+   "text": "Twelve strangers got down on the floor to help. A cashier checked every loaf of bread.",
+   "sfx": "drumroll",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 200,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 500,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "dot",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 820,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "hold": "sandwich"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WRONG|STICKER",
+    "bg1": "#E8F7E1",
+    "bg2": "#4E9A3A"
+   },
+   "text": "Someone found a sticker on a banana. Wrong sticker. Dad was offended.",
+   "sfx": "bonk"
+  },
+  {
+   "set": "kitchen",
+   "text": "Then my mom turned around. The sticker was stuck to her back, from when Dad hugged her in a panic.",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 400,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 160,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "co2"
+   }
+  },
+  {
+   "set": "kitchen",
+   "text": "And Mom said, finally. I've been looking for that since Tuesday.",
+   "sfx": "busted",
+   "meme": "shake",
+   "speaker": "co2",
+   "bubble": {
+    "text": "THAT'S|MINE",
+    "x": 520,
+    "y": 480,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 400,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 820,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.7
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "THEY RAN|OUT",
+    "bg1": "#EDE6F7",
+    "bg2": "#6B4FA0"
+   },
+   "text": "Turns out the poll workers ran out of stickers right before my dad's turn. So he took hers off her coat in the parking lot.",
+   "sfx": "oof"
+  },
+  {
+   "set": "living",
+   "text": "Three days. He was guarding a stolen sticker.",
+   "sfx": "fahh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   }
+  },
+  {
+   "set": "kitchen",
+   "text": "Mom peeled it off, stuck it on her own chest, and walked out of the store like a champion.",
+   "sfx": "aura",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 600,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "to": 980
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "text": "Dad is already counting the days until the next election. Mom bought him a sticker book.",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co2",
+     "x": 520,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  }
+ ]
+}
