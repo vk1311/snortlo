@@ -343,3 +343,14 @@ YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Con
 | 20:00 | Meme B, Lo vs Life #38 "POV: the first normal ad after election season" (pov, fahh, long, voiced, deepfry; 12.5 s) | meme-normal-ad-approves.mp4 | YouTube, Facebook, Instagram (1-part day) | cmw33asi400a3o276s950ifb6, cmw33ask000a4o276tugbf8dg, cmw33aslb00a5o276l468za4d |
 
 YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no new House session day since Nov 2 (election recess; House back Nov 9). Thursday: no Lo Explains, no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (21 lines, 228 s). Full cut = copy of part 1. Housekeeping: nothing older than 8 days except kept files (samples, unpublished pod-* Shorts).
+
+## Fri 2026-11-06 (nightly run; times AST, UTC-4)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #39 "The 'stayed up all night refreshing the map' starter pack" (starter_pack, vineboom, long, voiced, no deepfry, election_aftermath; 13.3 s) | meme-all-night-map.mp4 | YouTube, Facebook, Instagram | cmw4jqhkl00a6o276cciryym3, cmw4jqhl900a7o276qc1fekso, cmw4jqhlv00a8o276miqu7sfp |
+| 10:00 | Lo Explains #5 "Why do Americans vote on a Tuesday?" (50.3 s; sources NPR 2012, CBS 2016; moved +2h from meme B's 08:00) | tuesday-vote-part1.mp4 | YouTube, Facebook, Instagram (1-part day) | cmw4jqhm600a9o276h2tn5ph2, cmw4jqhmm00aao276l9nouunq, cmw4jqhnc00abo276o7kfirxi |
+| 12:00 | Story "stolen-sticker" (1 part, question hook, election_aftermath, am_puck, all_lowercase): "my dad guarded his i voted sticker for 3 days. it wasn't even his #shorts" (68.3 s) | stolen-sticker-part1.mp4 | YouTube, Facebook, Instagram | cmw4jqhnr00aco276bqaw5g7u, cmw4jqhoa00ado276yy5mhtl3, cmw4jqhop00aeo2767aj08xs4 |
+| 14:00 | Meme B, Lo vs Life #40 "Mom: bedtime is 8 PM / same mom, election night, 3 AM" (me_vs_mom, vineboom, long, unvoiced, no deepfry; Fri = FB only, moved from 08:00 past 10:00 and 12:00) | meme-mom-3am-county.mp4 | Facebook | cmw4jqhpb00afo2764x2g5way |
+| 21:00 | Sleep stories #5 "Cozy Bedtime Stories for Adults 🌙 Candlelight, Pumpkins and Late Radio" (44.2 min, 6 new stories, 6,931 words) | long-sleepy-stories-5-web.mp4 | YouTube (thumbnail, tags, chapters), Facebook | cmw4k2ns800ago276cva5pd03, cmw4k2nsv00aho276ua30z7k3 |
+
+YouTube uploads today: 4 (meme A, Lo Explains, story, sleep stories). Instagram: 3 (meme A, Lo Explains, story). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: the new House day Nov 5 returned no candidates (pro forma; House back Nov 9). Friday: no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (578 lines incl. the sleep story, 1,581 s on Kaggle). Full cut = copy of part 1. Housekeeping: deleted Oct 28 media (sals-coupon-*, sandwich-name-part1, meme-hang-out-soon, meme-pick-the-groups).
