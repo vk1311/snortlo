@@ -1,0 +1,82 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #41",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "election_aftermath",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Mom: \"I'm done with politics.|Never again.\"",
+   "set": "kitchen",
+   "state": {
+    "clock": "9:00"
+   },
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 220,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Mom, two hours later, explaining|the Senate to the mailman:",
+   "set": "street",
+   "sfx": "fahh",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "hold": "paper",
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "meme": "shake"
+  }
+ ]
+}

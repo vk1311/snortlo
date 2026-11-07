@@ -1,0 +1,305 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_michael",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "election_aftermath",
+ "hook_style": "question",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR GRANDMA",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "I ALREADY|VOTED",
+    "bg1": "#E3F0FF",
+    "bg2": "#3D7DD8"
+   },
+   "text": "Why does my grandma answer every single phone call with, I already voted?",
+   "sfx": "vineboom"
+  },
+  {
+   "set": "living",
+   "text": "Six months of campaign calls broke something in her. Calls at breakfast. Texts at dinner. A robot that somehow knew her cat's name.",
+   "sfx": "textbuzz",
+   "cards": [
+    "CALLS",
+    "TEXTS",
+    "ROBOT"
+   ],
+   "cast": [
+    {
+     "who": "co2",
+     "x": 260,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "me",
+     "x": 520,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "RING RING"
+   },
+   "text": "So now, the second her phone rings, she picks up and says it. I already voted. Click.",
+   "sfx": "bonk",
+   "speaker": "co2",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 260,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 520,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "PIZZA|NIGHT"
+   },
+   "text": "The pizza place called to confirm her order. I already voted. Click. No pizza.",
+   "sfx": "sadtrombone",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 200,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "BINGO|TONIGHT"
+   },
+   "text": "Her church called to ask who's bringing pie to bingo. I already voted. Click.",
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 260,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 520,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "So I drove over to gently explain that the election is over, and she can say hello again.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "speaker": "me"
+  },
+  {
+   "set": "street",
+   "text": "She looked me dead in the eye and said, sweetie, I know it's over. I'm not confused. I'm free.",
+   "sfx": "busted",
+   "speaker": "co2",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": 1,
+     "pose": "evil",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "co2"
+   }
+  },
+  {
+   "set": "street",
+   "text": "Turns out, I already voted is the perfect way out of everything. Nobody argues with it. Nobody calls back.",
+   "sfx": "aura",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 540,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "text": "The bake sale lady. The neighbour who borrows her ladder. My aunt, asking to stay two weeks at Christmas. I already voted. Click.",
+   "sfx": "fahh",
+   "cards": [
+    "BAKE",
+    "LADDER",
+    "AUNT"
+   ],
+   "cast": [
+    {
+     "who": "co2",
+     "x": 200,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "phone": true,
+    "dark": true,
+    "clock": "9:12"
+   },
+   "text": "Then last night my phone rang. It was Grandma. Calling me.",
+   "sfx": "textbuzz",
+   "cast": [
+    {
+     "who": "me",
+     "x": 500,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "GRANDMA|CALLING",
+    "bg1": "#FFF3D6",
+    "bg2": "#E0A030"
+   },
+   "text": "I picked up and said, hi Grandma, are we still on for Sunday dinner?",
+   "sfx": "tick"
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "I ALREADY|VOTED",
+    "bg1": "#FFE3E3",
+    "bg2": "#D84040"
+   },
+   "text": "And my own grandma said, I already voted, and hung up on me.",
+   "sfx": "metalpipe",
+   "pause": 0.4
+  },
+  {
+   "set": "living",
+   "text": "She called me. To hang up on me. Just to practise.",
+   "sfx": "laughtrack",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  }
+ ]
+}

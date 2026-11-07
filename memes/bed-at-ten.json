@@ -1,0 +1,71 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #42",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "election_aftermath",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "POV: you're the only one in the group|chat who went to bed at 10",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "10:00"
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "The group chat at 7 AM:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "412 NEW|MESSAGES",
+    "bg1": "#FFE3E3",
+    "bg2": "#D84040"
+   },
+   "sfx": "textbuzz"
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me, fully rested,|reading it like a novel:",
+   "set": "kitchen",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 220,
+     "facing": 1,
+     "pose": "drink",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1151 @@
+{
+ "brand": "keegix",
+ "episode": 3,
+ "slug": "keegix-ep03-host-horror-stories",
+ "air_date": "2026-11-17",
+ "title": "Airbnb Host Horror Stories: Damage Claims, Cancellations & Insurance Explained | Keegix Podcast",
+ "card_title": "Host horror stories, and what the rules say",
+ "guest": {
+  "name": "Dana",
+  "role": "B&B and cottage host",
+  "voice": "af_nicole"
+ },
+ "description": "Host horror stories from Reddit, retold as composites, and what the rules actually say: Airbnb's party rules, how to file a damage claim with AirCover and the 14-day window, guest cancellation policies, host cancellation fees, the 72-hour refund rule, Vrbo damage deposits, and home insurance for short-term rentals in Canada.\nPlus a simple way to document your rental so you're ready if something goes wrong.\nHosts and guests on this show are AI voices. Facts are sourced below. Dana is a fictional character, not a real person.\nPlatform rules are as of November 2026 and change often. Insurance varies by province and company. Not legal advice.\nFree house rules tool: keegix.com/airbnb-house-rules · Start free for one property: keegix.com/start",
+ "tags": [
+  "airbnb host horror stories",
+  "airbnb damage claim",
+  "aircover for hosts",
+  "airbnb resolution centre",
+  "airbnb cancellation policy",
+  "airbnb host cancellation fee",
+  "vrbo damage deposit",
+  "short term rental insurance canada",
+  "does home insurance cover airbnb",
+  "airbnb party policy",
+  "bnb host tips",
+  "keegix podcast"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "visuals": [
+    "broken lamp",
+    "stained carpet",
+    "calendar",
+    "house keys"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "A guest checks out. The host walks in and finds a burn mark on the counter, a stain on the rug, and a lamp in two pieces. It's a busy month, so they plan to deal with it in a few weeks. On Airbnb, by then, it may be too late.",
+     "card": {
+      "type": "stat",
+      "big": "14 days",
+      "label": "To start a damage request in Airbnb's Resolution Centre, counted from the guest's checkout",
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb gives hosts fourteen days from the guest's checkout to start a damage request in the Resolution Centre. Then the guest gets twenty four hours to answer. A lot of host horror stories are really timing stories."
+    },
+    {
+     "who": "host",
+     "text": "So today, we're retelling the kinds of horror stories hosts share on Reddit, and then looking at what the rules actually say. Damage, cancellations, and insurance."
+    }
+   ]
+  },
+  {
+   "heading": "Intro",
+   "visuals": [
+    "cottage porch",
+    "lighthouse",
+    "front door",
+    "harbour boats",
+    "guest book"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Welcome to the Keegix Podcast, a weekly show about running a B and B, a cottage or a short term rental. I'm June. Every fact we use is sourced in the description.",
+     "card": "clear"
+    },
+    {
+     "who": "host",
+     "text": "This is episode three. Host horror stories, and what the rules say. We'll go through the party nobody booked, damage claims and the deadlines that come with them, guests who cancel and hosts who have to, complaints that turn into refunds, damage deposits on Vrbo, and the insurance question a lot of Canadian hosts never ask."
+    },
+    {
+     "who": "host",
+     "text": "My guest today is Dana. Dana plays a host who runs a three room B and B and a small rental cottage in Nova Scotia. Not a real person, and not a lawyer. Welcome, Dana.",
+     "card": {
+      "type": "point",
+      "text": "Dana plays a B&B and cottage host. Not a real person."
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, June. Two quick notes. The stories today are composites. We read a lot of host posts on Reddit, blended the common ones together and changed the details, so none of them is one person's story. And the rules are as of November twenty twenty six. Platforms update their help pages often, so check the latest version before you act."
+    },
+    {
+     "who": "host",
+     "text": "Good. Let's start with the one every host dreads."
+    }
+   ]
+  },
+  {
+   "heading": "The party nobody booked: what Airbnb's party rules say",
+   "visuals": [
+    "empty bottles",
+    "porch light",
+    "parked cars",
+    "garden lawn",
+    "patio chair",
+    "recycling bin"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Dana, the party story. What does it usually look like?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "A host on Reddit described a booking for two people, a quiet weekend in the country. Friday, around midnight, the neighbour texts a photo. Eleven cars on the lawn and music you can hear from the road. By Sunday there's a broken patio chair, a carpet that smells like a bar, and a very full recycling bin."
+    },
+    {
+     "who": "host",
+     "text": "And the host is three hours away."
+    },
+    {
+     "who": "guest",
+     "text": "Usually. That's what makes it a horror story. You find out from someone else, and you can't just walk over."
+    },
+    {
+     "who": "host",
+     "text": "So what do Airbnb's rules say about parties?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb says it prohibits disruptive parties and events under its community disturbance policy. It also screens bookings for signs of a possible party, and it may block some higher risk reservations before they ever reach you.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb: parties",
+      "text": "Disruptive parties and events are prohibited. Airbnb screens and may block higher-risk bookings.",
+      "source": "Airbnb Resource Centre",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Are there warning signs hosts can watch for?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb lists a few. Local guests booking around graduation or prom. A guest with little travel history on Airbnb. A booking made for someone underage. A guest count that doesn't fit the home, like two people in a six bedroom house. And holiday nights, including Canada Day, Halloween and New Year's Eve.",
+     "card": {
+      "type": "list",
+      "title": "Warning signs Airbnb lists",
+      "items": [
+       "Local booking on a big holiday",
+       "Little travel history",
+       "Booking for someone underage",
+       "2 guests, 6 bedrooms"
+      ],
+      "source": "Airbnb Resource Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "None of those mean the guest is up to something."
+    },
+    {
+     "who": "guest",
+     "text": "Right, and that matters. Plenty of locals book a night away for a good reason. Airbnb's suggestion is to ask, politely. Why are you booking close to home, and will anyone who isn't on the reservation be visiting? Then pay attention if the answers are vague."
+    },
+    {
+     "who": "host",
+     "text": "And if your gut says no before check in?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb says to gather your evidence and contact Airbnb Support. You may be able to cancel, and Airbnb may waive the cancellation fees. That's a lot better than cancelling on your own and taking the penalty, which we'll get to."
+    },
+    {
+     "who": "host",
+     "text": "Say the party is already happening. What then?"
+    },
+    {
+     "who": "guest",
+     "text": "First, don't go and confront anyone in person. Airbnb is clear on that. Message the guest through the app, so there's a record, then contact Airbnb Support. If anyone's safety is at risk, call local emergency services right away. And share what you have, like texts from the neighbour, readings from a noise monitor, or video from an outside camera.",
+     "card": {
+      "type": "point",
+      "text": "Never confront in person. Message in the app, then call Airbnb Support."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Cameras and noise monitors are allowed?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb says noise monitors and outside security cameras have to be disclosed in the guest safety section of your listing. Disclosed is the key word."
+    },
+    {
+     "who": "host",
+     "text": "And prevention for next time?"
+    },
+    {
+     "who": "guest",
+     "text": "Set a maximum number of overnight guests and quiet hours in your house rules. Keep the description short and specific, like no parties or events. Airbnb also suggests thinking about a two night minimum. And under Airbnb's new house rules policy, which takes effect November twentieth, if a guest breaks a house rule during the stay, or says before check in that they plan to, the host can cancel without fees or other consequences.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb, from Nov 20, 2026",
+      "text": "Guest breaks a house rule, or says they will? The host can cancel without fees.",
+      "source": "Airbnb Resource Centre",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the guest limit should be a real house rule, not a line buried in the description."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. The rules you can lean on are the ones in the right box. That's all as of November twenty twenty six. This isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "How to file an Airbnb damage claim: AirCover and the 14-day window",
+   "visuals": [
+    "red wine stain",
+    "sofa",
+    "kitchen counter",
+    "camera",
+    "receipts",
+    "tool box",
+    "paint can"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Okay. The morning after the party, or after any rough stay. Dana, what's the damage story you see most often?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "A host on Reddit described a red wine stain on a pale sofa, a scorch mark on the counter from a hot pan, and a bath towel used to mop up something dark. They cleaned up, replaced the towels, and figured they'd sort out the money later. Three weeks later, they went to file. That's the part that goes wrong."
+    },
+    {
+     "who": "host",
+     "text": "Because of the deadline."
+    },
+    {
+     "who": "guest",
+     "text": "Yes. Airbnb's help centre says to file your request in the Resolution Centre within fourteen days of the responsible guest's checkout. Not fourteen days from when you noticed. From checkout."
+    },
+    {
+     "who": "host",
+     "text": "Walk me through the steps."
+    },
+    {
+     "who": "guest",
+     "text": "Step one, document the damage. Photos or videos, repair or cleaning estimates, and receipts. Step two, file in the Resolution Centre and ask the guest for the amount. Step three, the guest has twenty four hours to respond. If they don't respond, pay only part, or say no, you can submit a Host damage protection request, and Airbnb Support reviews it.",
+     "card": {
+      "type": "list",
+      "title": "Airbnb damage claim steps",
+      "items": [
+       "Photos, estimates, receipts",
+       "Resolution Centre within 14 days",
+       "Guest has 24 hours",
+       "Then Host damage protection"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And if the answer comes back and you don't agree?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb says some requests may be reviewed automatically. If you don't accept the result, you can ask for a human review and add more evidence. So keep everything, even after you've filed."
+    },
+    {
+     "who": "host",
+     "text": "What is Host damage protection, exactly? People call it insurance."
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb is careful about that. It says Host damage protection is not insurance. It's part of what Airbnb calls AirCover for Hosts, and it reimburses hosts up to three million American dollars for damage caused by guests.",
+     "card": {
+      "type": "stat",
+      "big": "$3M USD",
+      "label": "Airbnb Host damage protection limit. Airbnb says it is not insurance.",
+      "source": "Airbnb"
+     }
+    },
+    {
+     "who": "host",
+     "text": "What does it cover?"
+    },
+    {
+     "who": "guest",
+     "text": "Damage guests cause to your home, your furnishings, valuables and belongings. Damage to parked cars and boats. Extra cleaning for things like stains, pet accidents, smoke odour, or extra guests you didn't approve. And lost income, if you have to cancel confirmed bookings because of the damage."
+    },
+    {
+     "who": "host",
+     "text": "So the party house actually fits a few of those."
+    },
+    {
+     "who": "guest",
+     "text": "It does. The broken chair, the deep clean, and maybe the next booking you had to cancel."
+    },
+    {
+     "who": "host",
+     "text": "And what's left out?"
+    },
+    {
+     "who": "guest",
+     "text": "Ordinary wear and tear. Natural disasters, like earthquakes and hurricanes. Injury or damage to guests and other people, which is a separate piece we'll get to with insurance. And routine checkout cleaning, like laundry, dishes and trash. Airbnb also says other limitations apply.",
+     "card": {
+      "type": "compare",
+      "left_title": "Usually in",
+      "left": "Guest damage, deep cleaning, smoke odour, lost bookings",
+      "right_title": "Left out",
+      "right": "Wear and tear, natural disasters, routine cleaning"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Wear and tear is where a lot of arguments start."
+    },
+    {
+     "who": "guest",
+     "text": "It is. A frayed towel after two years is wear and tear. A towel with hair dye on it the morning after checkout is a different story. The closer your before photo is to the stay, the easier that line is to draw."
+    },
+    {
+     "who": "host",
+     "text": "Airbnb's party guide had a tip on this, too."
+    },
+    {
+     "who": "guest",
+     "text": "Photograph everything before you clean. Itemize the damage. File within fourteen days after the reservation ends. Then leave a clear, factual review. Factual is the important word. Describe what happened, not what you think of the person.",
+     "card": {
+      "type": "point",
+      "text": "Photograph before you clean. Itemize. File within 14 days."
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's Airbnb's process as of November twenty twenty six. This isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "A word from Keegix",
+   "visuals": [
+    "front door",
+    "welcome mat",
+    "house keys",
+    "checklist clipboard"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "A quick word from the people who make this show. We build a digital welcome book for hosts, one page guests open from a sign by the door, with check in steps, the wifi, the house rules and the checkout list. When the rules guests read in the house match the rules on your listing, there's a lot less to argue about later.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "And if you'd like a second look at your house rules wording, there's a free house rules tool at keegix dot com slash airbnb house rules.",
+     "card": {
+      "type": "point",
+      "text": "Free house rules tool: keegix.com/airbnb-house-rules"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Airbnb cancellation policies: when the guest cancels",
+   "visuals": [
+    "calendar",
+    "suitcase",
+    "rainy window",
+    "envelope",
+    "long weekend cottage",
+    "empty bedroom"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's talk cancellations, because there are two horror stories here. One where the guest cancels, and one where the host has to.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Start with the guest. A host on Reddit described a guest who cancelled two days before a long weekend, then sent a long, upset message asking for every dollar back. The host felt awful. They also had a policy that said otherwise, and a weekend nobody else was going to book."
+    },
+    {
+     "who": "host",
+     "text": "So who decides?"
+    },
+    {
+     "who": "guest",
+     "text": "Mostly, the cancellation policy you picked. Airbnb has several standard ones for stays under twenty eight nights. Flexible gives guests a full refund up to twenty four hours before check in. Moderate gives a full refund up to five days before.",
+     "card": {
+      "type": "list",
+      "title": "Airbnb policies, under 28 nights",
+      "items": [
+       "Flexible: full refund to 24h before",
+       "Moderate: full refund 5+ days out",
+       "Limited: full refund 14+ days out",
+       "Firm: full refund 30+ days out"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And the stricter ones?"
+    },
+    {
+     "who": "guest",
+     "text": "Limited, for bookings made on or after October first, twenty twenty five, gives a full refund fourteen or more days before check in, and half back between seven and fourteen days. Inside seven days, the host is paid in full. Firm works the same way, but the full refund line is thirty days out. Strict and the super strict policies are invitation only."
+    },
+    {
+     "who": "host",
+     "text": "So in that story, the policy decides what the guest gets back."
+    },
+    {
+     "who": "guest",
+     "text": "Under most of them, yes. Two days out on Firm or Limited, the host is paid in full. On Moderate, the host is paid one night plus half of the unused nights. On Flexible, the guest gets everything back."
+    },
+    {
+     "who": "host",
+     "text": "Are there any windows that override that?"
+    },
+    {
+     "who": "guest",
+     "text": "A couple. All the standard policies include a twenty four hour free cancellation window, as long as the booking was made at least seven days before check in. And a guest can get a full or partial refund no matter your policy if the cancellation comes from a major disruptive event, or is covered by Airbnb's rebooking and refund policy.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb, any policy",
+      "text": "24-hour free cancellation if booked 7+ days ahead. Major disruptive events can override.",
+      "source": "Airbnb Help Centre",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Is there an option for hosts who want more certainty?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb lets you offer a discounted non refundable rate alongside your standard policy. Guests who pick it don't get a refund if they cancel, though the twenty four hour window can still apply. It's a trade. A lower price for a booking that sticks."
+    },
+    {
+     "who": "host",
+     "text": "And the upset message? What do you do with that?"
+    },
+    {
+     "who": "guest",
+     "text": "That part is a judgment call, and no rule makes it for you. What helps is reading your policy back to yourself before you reply, and answering calmly. A policy you chose on purpose is a lot easier to stand behind than one you picked in a hurry the day you listed.",
+     "card": {
+      "type": "point",
+      "text": "Choose your cancellation policy on purpose, before you need it."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Policies as of November twenty twenty six. This isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "When the host has to cancel: Airbnb host cancellation fees",
+   "visuals": [
+    "burst pipe",
+    "wet floor",
+    "wrench",
+    "plumbing",
+    "snowy road",
+    "calendar"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Now the other side. Dana, the host who has to cancel.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "A host on Reddit described walking into their cottage the day before a booking and finding a burst pipe. Water across the kitchen floor, the heat off, and a family arriving tomorrow. They cancelled, and then they got the email about the penalty."
+    },
+    {
+     "who": "host",
+     "text": "What are Airbnb's host cancellation fees?"
+    },
+    {
+     "who": "guest",
+     "text": "There's a minimum of fifty American dollars. If you cancel forty eight hours or less before check in, or after check in, the fee is fifty percent of the reservation amount for the nights not stayed. Between forty eight hours and thirty days out, it's twenty five percent. More than thirty days out, it's ten percent.",
+     "card": {
+      "type": "list",
+      "title": "Airbnb host cancellation fees",
+      "items": [
+       "48h or less: 50%",
+       "48h to 30 days: 25%",
+       "Over 30 days: 10%",
+       "Minimum $50 USD"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Fifty percent of what, exactly?"
+    },
+    {
+     "who": "guest",
+     "text": "The base rate, the cleaning fee and any pet fees. Taxes and guest fees aren't included. And the host gets no payout for that reservation. If it was already paid out, Airbnb takes it back from future payouts."
+    },
+    {
+     "who": "host",
+     "text": "Is that all?"
+    },
+    {
+     "who": "guest",
+     "text": "No. Airbnb can block your calendar so you can't take another booking for those dates. And for cancelling confirmed bookings without a valid reason, a host can have the listing or account suspended or removed, and can lose Superhost status.",
+     "card": {
+      "type": "point",
+      "text": "Host cancels: a fee, no payout, and maybe a blocked calendar."
+     }
+    },
+    {
+     "who": "host",
+     "text": "But a burst pipe isn't the host's fault."
+    },
+    {
+     "who": "guest",
+     "text": "Which is why there are waivers. Airbnb may waive the fees for a major disruptive event, or for certain valid reasons beyond the host's control. You have to provide documentation, and Airbnb decides after reviewing it. Even with a waiver, the calendar can still be blocked, and there's still no payout for that stay.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb fee waivers",
+      "text": "Possible for major disruptive events or valid reasons beyond your control. Documentation required.",
+      "source": "Airbnb Help Centre",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So, documentation again."
+    },
+    {
+     "who": "guest",
+     "text": "Always. In the pipe story, that's photos of the water, the plumber's invoice with a date on it, and the messages showing when you found it. And keep it honest. Airbnb says false statements can lead to the account being closed."
+    },
+    {
+     "who": "host",
+     "text": "What would you do in that spot?"
+    },
+    {
+     "who": "guest",
+     "text": "Contact Airbnb Support before you press cancel, explain what happened, and send the evidence. Then message the guest early, so they have as much time as possible to find another place. They're having a bad day too."
+    },
+    {
+     "who": "host",
+     "text": "And for winter cottages in particular?"
+    },
+    {
+     "who": "guest",
+     "text": "Prevention. The Insurance Bureau of Canada notes that if you're away for more than four days during the normal heating season, you generally need to drain the plumbing or have the place checked regularly. Otherwise, freezing damage would likely be excluded. So the pipe story can turn into an insurance story too.",
+     "card": {
+      "type": "rule",
+      "title": "Insurance Bureau of Canada",
+      "text": "Away 4+ days in heating season? Drain the plumbing or have the place checked.",
+      "source": "IBC",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Fees and waivers as of November twenty twenty six. This isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "Guest complaints and refunds: Airbnb's 72-hour rule",
+   "visuals": [
+    "hot tub",
+    "door lock",
+    "unmade bed",
+    "kitchen sink",
+    "cleaning supplies",
+    "checklist"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Here's a horror story with no damage in it at all. The complaint.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "A host on Reddit described a guest messaging on day three to say the hot tub had never worked, and asking for a refund. The host said it was the first they'd heard of it. Both sides felt wronged."
+    },
+    {
+     "who": "host",
+     "text": "What does Airbnb's policy say?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb has a rebooking and refund policy for what it calls reservation issues. Those include the host cancelling, the guest not being able to get in, a place that isn't reasonably clean and sanitary or has a safety or health hazard, and a place that's significantly different from the listing.",
+     "card": {
+      "type": "list",
+      "title": "Airbnb reservation issues",
+      "items": [
+       "Host cancels",
+       "Guest can't get in",
+       "Not clean, or unsafe",
+       "Not as advertised"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And a broken hot tub counts?"
+    },
+    {
+     "who": "guest",
+     "text": "Significantly different includes an advertised amenity that's missing or not working. So yes, it can. That group also covers the wrong type of space, the wrong number of rooms, the wrong location, or a person or pet in the home that wasn't disclosed."
+    },
+    {
+     "who": "host",
+     "text": "Is there a time limit for the guest?"
+    },
+    {
+     "who": "guest",
+     "text": "Yes. The guest has to report within seventy two hours of discovering the issue, to Airbnb or to the host. Late reports may be allowed if reporting sooner wasn't feasible. And where it's feasible, the guest is supposed to tell the host and try to sort it out directly first.",
+     "card": {
+      "type": "stat",
+      "big": "72 hours",
+      "label": "Guest's window to report an issue, from when they discover it",
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the host should get a chance to fix it."
+    },
+    {
+     "who": "guest",
+     "text": "That's the idea, though the policy doesn't set a fixed time for it. Hosts can also dispute a claimed issue by contacting Airbnb. But here's the hard part. If a refund is given, the host's payout is reduced by the amount refunded. And this policy takes precedence over your cancellation policy."
+    },
+    {
+     "who": "host",
+     "text": "So how do hosts protect themselves here?"
+    },
+    {
+     "who": "guest",
+     "text": "Make the listing match the house. If the hot tub is closed for the winter, say so on the listing, not on a note taped to the lid. Test the things you advertise before each arrival. And make it easy for guests to tell you early. A line in your check in message that says, if anything isn't working, message me today, can turn a day three refund into a day one fix.",
+     "card": {
+      "type": "point",
+      "text": "If an amenity is closed, say so on the listing. Not on the lid."
+     }
+    },
+    {
+     "who": "host",
+     "text": "As of November twenty twenty six. This isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "Vrbo damage deposits and security deposits",
+   "visuals": [
+    "piggy bank",
+    "coins",
+    "calculator",
+    "receipt paper",
+    "shower door",
+    "cabin lake"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's switch platforms. A lot of hosts also list on Vrbo, where deposits work differently. Dana, what are the options?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Vrbo's help centre describes three things a host may ask for at booking. A card on file, a refundable damage deposit, or Property Damage Protection. The host sets the amount, and guests see it under the house rules or at checkout, before they book.",
+     "card": {
+      "type": "list",
+      "title": "Vrbo: what hosts can ask for",
+      "items": [
+       "Card on file",
+       "Refundable damage deposit",
+       "Property Damage Protection"
+      ],
+      "source": "Vrbo Help"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Start with the card on file."
+    },
+    {
+     "who": "guest",
+     "text": "The guest is only charged if the host files a claim. The guest's card details aren't shared with the host, and no hold is placed on the card. The host has fourteen days after checkout to look over the property and submit a claim."
+    },
+    {
+     "who": "host",
+     "text": "Fourteen days again."
+    },
+    {
+     "who": "guest",
+     "text": "It keeps showing up. On both platforms, about two weeks after checkout is your window, so the post stay check can't wait for a quiet week.",
+     "card": {
+      "type": "compare",
+      "left_title": "Airbnb",
+      "left": "Resolution Centre request within 14 days of checkout",
+      "right_title": "Vrbo",
+      "right": "Card-on-file claim within 14 days after checkout"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And the refundable deposit?"
+    },
+    {
+     "who": "guest",
+     "text": "The guest pays it upfront at booking. If no claim is filed, it's refunded after fourteen days, and the guest's bank may take up to seven business days to release the money. If the host reports damage, the guest might not get all of it back, and Vrbo tells guests to talk to the host directly about the costs."
+    },
+    {
+     "who": "host",
+     "text": "And Property Damage Protection?"
+    },
+    {
+     "who": "guest",
+     "text": "Vrbo describes it as an optional insurance product that covers damage up to its coverage amount. Some hosts let guests buy it instead of paying a deposit. The details live in the coverage itself, so read them before you rely on it."
+    },
+    {
+     "who": "host",
+     "text": "What's the horror story here?"
+    },
+    {
+     "who": "guest",
+     "text": "A host on Reddit described putting off a cracked shower door for a few weeks, because the deposit was sitting there and felt safe. By the time they went to claim, the money was already on its way back to the guest. Whatever platform you use, the day the guest checks out is the day your claim clock starts.",
+     "card": {
+      "type": "point",
+      "text": "Checkout day starts the claim clock, on every platform."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Deposit settings as of November twenty twenty six. This isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "Does home insurance cover Airbnb? Questions for your insurer in Canada",
+   "visuals": [
+    "insurance papers",
+    "smoke alarm",
+    "fire extinguisher",
+    "snowy cottage",
+    "frozen pipe",
+    "filing cabinet",
+    "notebook pen"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Now the one that keeps hosts up at night. Insurance. Dana, the story?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "A host on Reddit described a small kitchen fire at their cottage during a guest's stay. Nobody was hurt. Then the adjuster's questions started. How often is it rented? Did your insurer know? That's when the host realized they'd never told anyone."
+    },
+    {
+     "who": "host",
+     "text": "What does the Insurance Bureau of Canada say about that?"
+    },
+    {
+     "who": "guest",
+     "text": "In its advice for short term rental owners in Atlantic Canada, the Insurance Bureau of Canada says regular homeowner's insurance may not cover short term rentals. And it warns that if you don't disclose the change in how the home is used, and something like a fire happens, your policy could be voided.",
+     "card": {
+      "type": "rule",
+      "title": "Insurance Bureau of Canada",
+      "text": "Regular home insurance may not cover short-term rentals. Not disclosing could void your policy.",
+      "source": "IBC",
+      "as_of": "Jul 2024"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Voided. That's the scariest word in this episode."
+    },
+    {
+     "who": "guest",
+     "text": "It is. The bureau's advice is simple. Contact your insurance company to confirm coverage before you list, and tell them about the change in how you're using your home or your second property."
+    },
+    {
+     "who": "host",
+     "text": "Why does renting change things so much?"
+    },
+    {
+     "who": "guest",
+     "text": "Because the risk changes. In a piece on renting out a room, the bureau explains that a home policy covers property, contents and personal liability for you, your spouse and your dependants. Other people staying there aren't in that picture. And on cottages, it says how often the place is used, and whether you rent it out, short or long term, has to be disclosed to your insurer.",
+     "card": {
+      "type": "point",
+      "text": "Tell your insurer before you list. Keep a written record."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And seasonal places can have narrower coverage?"
+    },
+    {
+     "who": "guest",
+     "text": "The bureau says coverage on part time properties may be limited to named perils, meaning only the causes listed in the policy, and all risks coverage may not be available. That's worth knowing before the first winter, not after."
+    },
+    {
+     "who": "host",
+     "text": "What about Airbnb's own coverage? Doesn't AirCover handle this?"
+    },
+    {
+     "who": "guest",
+     "text": "It covers some things, but it isn't a replacement for knowing your own policy. Airbnb's host liability insurance goes up to one million American dollars if you're found legally responsible for a guest's injury, damage to or theft of their things, or damage a guest causes to common areas. It also covers co hosts and cleaners. It doesn't cover intentional acts. And damage to your own place falls under Host damage protection, which, again, Airbnb says isn't insurance.",
+     "card": {
+      "type": "stat",
+      "big": "$1M USD",
+      "label": "Airbnb Host liability insurance, if you're found legally responsible",
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So what should a host actually ask their insurer?"
+    },
+    {
+     "who": "guest",
+     "text": "Here's my list, built from the bureau's advice. One. Does my policy cover the home while it's rented to paying guests, or do I need a different policy or an add on? Two. Does it cover lost rental income if guests have to leave because of an insured loss? Three. Does it cover my legal defence if a guest sues me over an injury or damage? Four. Are there rules about leaving the place empty in winter?",
+     "card": {
+      "type": "list",
+      "title": "Ask your insurer",
+      "items": [
+       "Covered while rented?",
+       "Lost rental income?",
+       "Liability and defence costs?",
+       "Winter vacancy rules?"
+      ],
+      "source": "IBC"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And five?"
+    },
+    {
+     "who": "guest",
+     "text": "Five isn't a question. Get the answer in writing. The bureau suggests keeping a written record that you told your insurer. And it has long recommended keeping an up to date inventory of what's in the home, so you know your coverage fits what you actually have."
+    },
+    {
+     "who": "host",
+     "text": "Insurance rules and policies vary by province and by company, so check with your own insurer or broker. As of November twenty twenty six, this isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "How to document your rental: photos, checklists and house rules",
+   "visuals": [
+    "camera",
+    "checklist clipboard",
+    "clean bedroom",
+    "kitchen counter",
+    "file folders",
+    "calendar"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's make this practical. Every story today came back to evidence. Dana, how do you actually document a rental?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Start with a baseline. Once a season, walk through the whole place and take photos and a short video of every room, in the same order every time. Open the oven. Lift the mattress protector. Get the sofa cushions, the counters and the floors. Save it all in a folder with the date on it.",
+     "card": {
+      "type": "list",
+      "title": "Baseline photo walk",
+      "items": [
+       "Every room, same order",
+       "Close-ups of valuable items",
+       "Date on the folder",
+       "Redo every season"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Then after every stay?"
+    },
+    {
+     "who": "guest",
+     "text": "A quick checkout walk with a checklist, before you start cleaning. Airbnb's advice after a party is to photograph everything before you clean, and honestly, that works for any stay. If something's wrong, a photo, the date and a short note go straight into a folder for that booking."
+    },
+    {
+     "who": "host",
+     "text": "What about receipts?"
+    },
+    {
+     "who": "guest",
+     "text": "Keep the receipt for anything you buy for the rental. The sofa, the lamp, the good towels. If you ever claim for damage on Airbnb, you'll want estimates or receipts. A photo of a receipt in the same folder takes ten seconds.",
+     "card": {
+      "type": "point",
+      "text": "Keep receipts for everything in the rental. Same folder."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And house rules play a part?"
+    },
+    {
+     "who": "guest",
+     "text": "A big one. The clearer your rules are on the listing, the easier every conversation gets. Guest limit, quiet hours, no parties, pets. Then repeat them where guests will actually read them, in your welcome book and your check in message, in the same words."
+    },
+    {
+     "who": "host",
+     "text": "And the deadline habit you mentioned?"
+    },
+    {
+     "who": "guest",
+     "text": "Every checkout day, add a calendar reminder for twelve days later that says check for damage. If nothing happened, delete it. If something did, you're still inside the window on Airbnb and for a Vrbo card on file.",
+     "card": {
+      "type": "point",
+      "text": "On checkout day, set a reminder for day 12."
+     }
+    },
+    {
+     "who": "host",
+     "text": "I like that. It costs nothing."
+    },
+    {
+     "who": "guest",
+     "text": "It's the cheapest thing in this whole episode."
+    },
+    {
+     "who": "host",
+     "text": "One last thing. Tone."
+    },
+    {
+     "who": "guest",
+     "text": "Yes. Most guests are lovely, and most messy stays are accidents. When something goes wrong, write to the guest the way you'd want to be written to. Say what you found, show the photo, name the amount and how you got to it. Calm and specific is easier for everyone to answer, including Airbnb Support."
+    }
+   ]
+  },
+  {
+   "heading": "Recap: five takeaways",
+   "visuals": [
+    "lighthouse",
+    "quiet harbour",
+    "cottage porch",
+    "calendar"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's recap. Number one. On Airbnb, you have fourteen days from the guest's checkout to start a damage request in the Resolution Centre. Document first, then file.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Number two. Host damage protection covers a lot, up to three million American dollars, but Airbnb says it isn't insurance, and it doesn't cover wear and tear or routine cleaning.",
+     "card": {
+      "type": "list",
+      "title": "Takeaways",
+      "items": [
+       "14 days from checkout",
+       "Damage protection isn't insurance",
+       "Know your cancellation policy"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Number three. Know your cancellation policy before a guest cancels. And if you have to cancel, contact Airbnb Support with your evidence before you press the button."
+    },
+    {
+     "who": "guest",
+     "text": "Number four. Tell your insurer before you list, ask what's covered while it's rented, and keep the answer in writing.",
+     "card": {
+      "type": "list",
+      "title": "Takeaways",
+      "items": [
+       "Tell your insurer first",
+       "Photograph before you clean",
+       "Set a checkout-day reminder"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "And number five. Photograph before you clean, keep your receipts, and set a reminder on checkout day."
+    }
+   ]
+  },
+  {
+   "heading": "Outro",
+   "visuals": [
+    "porch chairs",
+    "lake sunset",
+    "front door",
+    "snowy cottage"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's episode three of the Keegix Podcast. If you want your house rules, check in steps and checkout list on one page guests open on their phone, you can start free for one property at keegix dot com slash start.",
+     "card": {
+      "type": "point",
+      "text": "Start free for one property: keegix.com/start"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Sources for every rule and number we mentioned are in the description. Thanks to Dana for the host's view."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, June. Take the photos, and set the reminder."
+    },
+    {
+     "who": "host",
+     "text": "Next week, the standards and minimums guests expect. Essential amenities, fire safety, and a good local guide. New episodes every Tuesday. See you then."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Airbnb Help Centre: AirCover for Hosts and Host damage protection (how to request reimbursement)",
+   "url": "https://www.airbnb.ca/help/article/279"
+  },
+  {
+   "label": "Airbnb: AirCover for Hosts",
+   "url": "https://www.airbnb.ca/guarantee?locale=en"
+  },
+  {
+   "label": "Airbnb Help Centre: Host liability insurance",
+   "url": "https://www.airbnb.ca/help/article/937"
+  },
+  {
+   "label": "Airbnb Resource Centre: Tips to help prevent parties at your property",
+   "url": "https://www.airbnb.ca/resources/hosting-homes/a/tips-to-help-prevent-parties-at-your-property-223"
+  },
+  {
+   "label": "Airbnb Resource Centre: Important changes to house rules (from Nov 20, 2026)",
+   "url": "https://www.airbnb.ca/resources/hosting-homes/a/important-changes-to-house-rules-21"
+  },
+  {
+   "label": "Airbnb Help Centre: Cancellation policies for your listing",
+   "url": "https://www.airbnb.com/help/article/475?locale=en"
+  },
+  {
+   "label": "Airbnb Help Centre: Host cancellation fees and penalties",
+   "url": "https://www.airbnb.ca/help/article/990"
+  },
+  {
+   "label": "Airbnb Help Centre: Rebooking and Refund Policy",
+   "url": "https://www.airbnb.ca/help/article/2868"
+  },
+  {
+   "label": "Vrbo Help: How do damage deposits work?",
+   "url": "https://help.vrbo.com/articles/How-do-damage-deposits-work"
+  },
+  {
+   "label": "Vrbo Help: About refundable damage deposits",
+   "url": "https://help.vrbo.com/articles/About-refundable-damage-deposits"
+  },
+  {
+   "label": "Insurance Bureau of Canada: Own a short-term rental in Atlantic Canada? Insurance tips (Jul 2024)",
+   "url": "https://www.ibc.ca/news-insights/in-focus/own-a-short-term-rental-in-atlantic-canada-protect-your-investment-with-these-insurance-tips"
+  },
+  {
+   "label": "Insurance Bureau of Canada: Renting out a room? What you need to know about insurance (May 2025)",
+   "url": "https://www.ibc.ca/news-insights/in-focus/renting-out-a-room-what-you-need-to-know-about-insurance"
+  },
+  {
+   "label": "Insurance Bureau of Canada: Cottage coverage (Nova Scotia)",
+   "url": "https://www.ibc.ca/ns/home/recreational-properties/cottage"
+  },
+  {
+   "label": "Insurance Bureau of Canada news release: renting out your home, tell your insurer (Jun 2015)",
+   "url": "https://newswire.ca/news-releases/f1-grand-prix-fifa-and-the-upcoming-tourist-season-all-good-reasons-to-rent-out-ones-home-but-be-careful-there-are-risks-517864101.html"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "The 14-day damage claim deadline",
+   "from": [
+    3,
+    1
+   ],
+   "to": [
+    3,
+    3
+   ],
+   "caption": "Found damage after checkout? On Airbnb, the clock starts at checkout, not when you notice. #airbnbhost #shorttermrental #bnbhost"
+  },
+  {
+   "title": "What to do when guests throw a party",
+   "from": [
+    2,
+    12
+   ],
+   "to": [
+    2,
+    15
+   ],
+   "caption": "Party at your rental? Don't confront anyone in person. Here's the order of steps Airbnb gives hosts. #airbnbhost #hostingtips #shorttermrental"
+  },
+  {
+   "title": "Airbnb's host cancellation fees, explained",
+   "from": [
+    6,
+    2
+   ],
+   "to": [
+    6,
+    5
+   ],
+   "caption": "Cancelling a guest costs more than the fee. Here's how Airbnb's host cancellation penalties work. #airbnbhost #shorttermrental #bnbhost"
+  },
+  {
+   "title": "Your home insurance may not cover guests",
+   "from": [
+    9,
+    1
+   ],
+   "to": [
+    9,
+    3
+   ],
+   "caption": "Renting out your home or cottage? Tell your insurer before you list. Canadian insurance advice, explained. #airbnbcanada #shorttermrental #homeinsurance"
+  },
+  {
+   "title": "Vrbo damage deposits: three options",
+   "from": [
+    8,
+    1
+   ],
+   "to": [
+    8,
+    5
+   ],
+   "caption": "Card on file, refundable deposit, or damage protection. How Vrbo deposits work, and the 14-day window. #vrbohost #shorttermrental #bnbhost"
+  }
+ ]
+}
