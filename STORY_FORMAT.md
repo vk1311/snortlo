@@ -36,6 +36,7 @@ Stage layout: ground is y=1180. Kitchen fridge at x 350-580, stove/counter x 680
 ## Writing rules
 - **Stories are 1 or 2 parts (since Oct 16, 2026).** pick.py's `parts` setting decides. **Every part must be satisfying on its own:** someone who only ever sees that one video gets a complete joke with a payoff.
 - **Length:** each part is about 210-230 words, so it runs 61-70 s at 1.2x (keep it over 1 minute).
+  - **Words per voice (house voices at speed 1.1, measured Nov 7, 2026):** am_puck ~3.5 words/s (210-240 words = 61-70 s); af_heart about the same; **am_michael ~2.8 words/s, so write 180-195 words** (232 words came out 83 s). Check the `voice:` seconds in the render output and trim a beat if a story runs over ~75 s.
 - **Openings and pacing:** open on the hook in the first line, with no intro and a sound in the first 1.5 s. Put a twist or reveal, with a combo sound, around the 30 s beat; that's where viewers drop off.
 - **1-part stories:**
   - Full arc in one video: hook, escalation, twist, payoff.
