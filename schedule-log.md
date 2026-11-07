@@ -354,3 +354,23 @@ YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Con
 | 21:00 | Sleep stories #5 "Cozy Bedtime Stories for Adults 🌙 Candlelight, Pumpkins and Late Radio" (44.2 min, 6 new stories, 6,931 words) | long-sleepy-stories-5-web.mp4 | YouTube (thumbnail, tags, chapters), Facebook | cmw4k2ns800ago276cva5pd03, cmw4k2nsv00aho276ua30z7k3 |
 
 YouTube uploads today: 4 (meme A, Lo Explains, story, sleep stories). Instagram: 3 (meme A, Lo Explains, story). TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: the new House day Nov 5 returned no candidates (pro forma; House back Nov 9). Friday: no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (578 lines incl. the sleep story, 1,581 s on Kaggle). Full cut = copy of part 1. Housekeeping: deleted Oct 28 media (sals-coupon-*, sandwich-name-part1, meme-hang-out-soon, meme-pick-the-groups).
+
+## Sat 2026-11-07 (nightly run; times AST, UTC-4)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #41 "My mom, two hours after quitting politics" (me_vs_mom, fahh, short, unvoiced, no deepfry, election_aftermath; 7.7 s) | meme-done-with-politics.mp4 | YouTube, Facebook, Instagram | cmw5z5gtg00aio276dvh8xulu, cmw5z5gu000ajo276u5inmcoa, cmw5z5guh00ako276sqmf5mh2 |
+| 09:00 | Story "already-voted" (1 part, question hook, election_aftermath, am_michael, all_lowercase): "why does my grandma answer every call with i already voted? #shorts" (75.3 s) | already-voted-part1.mp4 | YouTube, Facebook, Instagram | cmw5z5gw600alo276hwngfw6a, cmw5z5gx100amo276t8bvkpbu, cmw5z5gxd00ano276nv31v9rw |
+| 12:00 | Meme B, Lo vs Life #42 "POV: the only one in the group chat who slept" (pov, vineboom, short, unvoiced, no deepfry; 9.2 s; picked 08:00, moved past meme A and the story) | meme-bed-at-ten.mp4 | YouTube, Facebook, Instagram (1-part day) | cmw5z5gxs00aoo276vq0x4tbo, cmw5z5gy600apo2761r1xwz0u, cmw5z5gyj00aqo276l9pf3qwk |
+
+YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no House session day since Nov 5 (pro forma; House back Nov 9). Voices: Qwen3 on Kaggle, OK first try (387 lines incl. Keegix ep 3, 1,267 s). Full cut = copy of part 1. Housekeeping: deleted Oct 29 media (gary-rents-my-tools-*, meme-fake-birthday, meme-only-600).
+
+### Keegix Podcast ep 3 "Airbnb Host Horror Stories: Damage Claims, Cancellations & Insurance Explained" (made Nov 7; 21.9 min, 4,053 words, guest Dana/af_nicole, no news segment)
+Brand queues not read for the clash check (ask_postiz has no OpenAI key); used the planned 12:00 slot. Brand YouTube: Nov 19 = Keegix short + Staffkin ep 3 = 2.
+| Time (Halifax) | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| Tue Nov 17 10:00 | Episode (thumbnail, 12 tags, description + chapters) | pod-keegix-ep03-host-horror-stories.mp4 (pinned 9065d34) | Keegix YouTube | cmw61xxeq00aro276t3oga4cn |
+| Wed Nov 18 12:00 | Short 1 "The 14-day damage claim deadline" | -short1.mp4 | Keegix YT, FB, IG | cmw61yqij00aso2761lhhj1jj, cmw61yqis00ato276s8g3h6s5, cmw61yqj500auo276klgtij97 |
+| Thu Nov 19 12:00 | Short 2 "What to do when guests throw a party" | -short2.mp4 | Keegix YT, FB, IG | cmw61yqjp00avo276ggv6491i, cmw61yqkp00awo276fs6i3x2e, cmw61yqms00axo2764m6ovoyg |
+| Fri Nov 20 12:00 | Short 3 "Airbnb's host cancellation fees, explained" | -short3.mp4 | Keegix YT, FB, IG | cmw61yqnv00ayo2768h64abg3, cmw61yqon00azo276fkh9gz8r, cmw61yqq000b0o276nyy95r0v |
+| Sat Nov 21 12:00 | Short 4 "Your home insurance may not cover guests" | -short4.mp4 | Keegix YT, FB, IG | cmw61yqqq00b1o276onr2a1pe, cmw61yqra00b2o276zu7c04na, cmw61yqsk00b3o276zpbjjgzi |
+| Sun Nov 22 12:00 | Short 5 "Vrbo damage deposits: three options" | -short5.mp4 | Keegix YT, FB, IG | cmw61yqxb00b4o276elrsuylr, cmw61yqz400b5o276bz0n67vj, cmw61yr0o00b6o2767mhz55ef |
