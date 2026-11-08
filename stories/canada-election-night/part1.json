@@ -1,0 +1,342 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "election_aftermath",
+ "hook_style": "shock_statement",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR ROOMMATE",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "living",
+   "state": {
+    "tv": "RESULTS|LIVE"
+   },
+   "text": "My Canadian roommate called in sick to work for an election he can't even vote in.",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     },
+     "hold": "cup"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NOT EVEN|AMERICAN",
+    "bg1": "#E3F0FF",
+    "bg2": "#3D7DD8"
+   },
+   "text": "He's from Nova Scotia. He has never once lived in the States.",
+   "sfx": "huh"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": ""
+   },
+   "text": "But on Tuesday night he had snacks, two laptops, and a giant map taped to our kitchen wall.",
+   "sfx": "pop",
+   "cards": [
+    "SNACKS",
+    "LAPTOP",
+    "MAP"
+   ],
+   "cast": [
+    {
+     "who": "co1",
+     "x": 880,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "COUNTING"
+   },
+   "text": "He knew what time every state closed its polls. He knew counties I have never heard of. He called his mom with updates.",
+   "sfx": "textbuzz",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 240,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 500,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "COUNTING"
+   },
+   "text": "His mom is also Canadian. She still asked for a full recap at breakfast.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "2:00"
+   },
+   "text": "Then at two in the morning, I asked him one simple question.",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 700,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WHO'S|YOUR MP?",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "text": "Who is your own member of parliament?",
+   "sfx": "busted",
+   "meme": "shake",
+   "pause": 0.3
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "2:01"
+   },
+   "text": "Silence. The man who could name a county clerk four thousand kilometres away could not name one person from his own riding.",
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 540,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   }
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "2:05"
+   },
+   "text": "So he looked it up. He scrolled. He went very quiet. Then he turned the laptop around.",
+   "sfx": "drumroll",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 400,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "IT'S|GARY",
+    "bg1": "#FFF4D6",
+    "bg2": "#E0A33C"
+   },
+   "text": "It was Gary. Gary from the grocery store. Gary who has waved at him every Saturday for three years.",
+   "sfx": "waitwhat"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "AISLE 5|CEREAL"
+   },
+   "text": "He has never waved back. Not once.",
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "So on Saturday he marched into that store and waved first. Big wave. Both arms.",
+   "sfx": "aura",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "Gary looked right at him and said, sorry buddy, do I know you?",
+   "sfx": "fahh",
+   "meme": "shake",
+   "speaker": "boss",
+   "bubble": {
+    "text": "DO I|KNOW YOU?",
+    "x": 700,
+    "y": 500,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.7
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "PARLIAMENT"
+   },
+   "text": "Now he watches parliament on TV every afternoon. Nobody else in Canada does. Not even Gary.",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ]
+  }
+ ]
+}

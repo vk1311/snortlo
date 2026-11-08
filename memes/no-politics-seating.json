@@ -1,0 +1,107 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #43",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "election_aftermath",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Mom: \"No politics at|Thanksgiving this year.\"",
+   "set": "kitchen",
+   "state": {
+    "clock": "6:00"
+   },
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 220,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.8,
+   "top_text": "Also mom, doing the|seating chart:",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "UNCLE RAY:",
+     "GARAGE",
+     "(ALONE)"
+    ]
+   },
+   "sfx": "tick"
+  },
+  {
+   "text": "",
+   "hold": 4.2,
+   "top_text": "Me, seated between the two|uncles who didn't get the memo:",
+   "set": "kitchen",
+   "sfx": "fahh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 200,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 880,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "act": "talk"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  }
+ ]
+}

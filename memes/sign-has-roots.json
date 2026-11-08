@@ -1,0 +1,138 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #44",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "election_aftermath",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR NEIGHBOUR",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Hey. The election was last week. Your sign is still up.",
+   "top_text": "POV: it's November and your neighbour's|election sign is still on the lawn",
+   "set": "street",
+   "sfx": "ding",
+   "speaker": "me",
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "dot",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "I'm keeping it up for the memories.",
+   "voice": "am_michael",
+   "top_text": "POV: it's November and your neighbour's|election sign is still on the lawn",
+   "set": "street",
+   "sfx": "hmm",
+   "speaker": "co3",
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "Bro, it's got leaves frozen to it.",
+   "top_text": "POV: it's November and your neighbour's|election sign is still on the lawn",
+   "set": "street",
+   "sfx": "boing",
+   "speaker": "me",
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "It has roots now. It's family.",
+   "voice": "am_michael",
+   "top_text": "Him:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "IT HAS|ROOTS",
+    "bg1": "#E8F7E1",
+    "bg2": "#4E9A3A"
+   },
+   "sfx": "fahh"
+  },
+  {
+   "text": "",
+   "hold": 1.8,
+   "top_text": "Me:",
+   "set": "street",
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "me",
+     "x": 280,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  }
+ ]
+}
