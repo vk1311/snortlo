@@ -374,3 +374,13 @@ Brand queues not read for the clash check (ask_postiz has no OpenAI key); used t
 | Fri Nov 20 12:00 | Short 3 "Airbnb's host cancellation fees, explained" | -short3.mp4 | Keegix YT, FB, IG | cmw61yqnv00ayo2768h64abg3, cmw61yqon00azo276fkh9gz8r, cmw61yqq000b0o276nyy95r0v |
 | Sat Nov 21 12:00 | Short 4 "Your home insurance may not cover guests" | -short4.mp4 | Keegix YT, FB, IG | cmw61yqqq00b1o276onr2a1pe, cmw61yqra00b2o276zu7c04na, cmw61yqsk00b3o276zpbjjgzi |
 | Sun Nov 22 12:00 | Short 5 "Vrbo damage deposits: three options" | -short5.mp4 | Keegix YT, FB, IG | cmw61yqxb00b4o276elrsuylr, cmw61yqz400b5o276bz0n67vj, cmw61yr0o00b6o2767mhz55ef |
+
+## Sun 2026-11-08 (nightly run; times AST, UTC-4)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #43 "Mom: no politics at Thanksgiving / also mom, doing the seating chart" (me_vs_mom, fahh, long, unvoiced, no deepfry, election_aftermath; 12.8 s) | meme-no-politics-seating.mp4 | YouTube, Facebook, Instagram | cmw7dg5ts00b7o276xk4mnzfb, cmw7dg5u900b8o276w51w8y68, cmw7dg5ut00b9o276k5q6razl |
+| 09:00 | Story "canada-election-night" (1 part, shock_statement hook, election_aftermath, am_puck, all_lowercase): "my canadian roommate called in sick for an election he can't vote in #shorts" (66.0 s) | canada-election-night-part1.mp4 | YouTube, Facebook, Instagram | cmw7dg5v800bao276id79qkn8, cmw7dg5wx00bbo276a3oq0xsr, cmw7dg5xi00bco276vf9eix1p |
+| 12:00 | Weekly compilation (one-grape, label-everything, leaf-war, skeleton-november, pie-fund-fines, stolen-sticker, already-voted; 8.6 min, 21 MB). Description listed the 7 stories but only the first chapter time (my slip; compile.py now writes .description.html) | compile-2026-11-08.mp4 | Facebook | cmw7dg5xx00bdo276q8gcp9cl |
+| 14:00 | Meme B, Lo vs Life #44 "POV: your neighbour's election sign is still up in November" (pov, fahh, long, voiced, no deepfry; 12.5 s; picked 08:00, moved past meme A, story and the 12:00 compilation) | meme-sign-has-roots.mp4 | YouTube, Facebook, Instagram (1-part day) | cmw7dg5yi00beo276tuae3rvv, cmw7dg5yw00bfo2761cmjt94p, cmw7dg5ze00bgo2767qthdylb |
+
+YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Congress Moment SKIPPED: no House session day since Nov 5 (pro forma; House back Nov 9). Sunday: no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (18 lines, 168 s). Full cut = copy of part 1. Housekeeping: deleted Oct 31 media (chore-wheel-*, meme-group-chat-at-16, meme-treat-myself-pack); kept pod-keegix-ep02 (Shorts still publishing).

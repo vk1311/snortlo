@@ -19,39 +19,39 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Voices, the look of the videos, the AI note, honesty rules, anything about his brands' positioning.
 - Anything that costs money or needs a new account or login.
 
-## Rules of thumb (keep under 30 lines; edit, don't just append; last weekly rewrite Nov 1)
+## Rules of thumb (keep under 30 lines; edit, don't just append; last weekly rewrite Nov 8)
 **Setup and ops**
-- Postiz integration IDs: copy them from integrationList, never retype them (a typo'd Staffkin ID failed once).
-- If setup.sh fails on a network reset, just rerun it (downloads now resume via .part files). Export KAGGLE_USERNAME in the same shell call that runs nightly.py.
-- Kaggle token: Google Docs may show the underscore escaped as "\_"; remove the backslash.
-- Anything over ~8 min (voices on big nights, sleep-story render, shrink.sh) runs with nohup in the background and is polled; the shell tool kills foreground commands at 10 min (and poll with `sleep` under 5 min per call, setting the tool timeout). kaggle_tts.py scales its wait with job size; since Nov 2 voice_backend streams its progress lines into the nightly.py log.
-- Never `pkill -f` a pattern that also matches your own shell command line (it kills the tool call); kill by PID.
+- Postiz integration IDs: copy them from integrationList, never retype them. ask_postiz fails (no OpenAI key), so brand queues can't be read for the clash check; use the planned 12:00 slot and say so.
+- Kaggle token: Google Docs shows the underscore as "\_"; remove the backslash. Export KAGGLE_USERNAME in the same shell call that runs nightly.py. If setup.sh fails on a network reset, rerun it (downloads resume).
+- Anything over ~8 min (voices on big nights, sleep-story render, shrink.sh, compile.py) runs with nohup in the background and is polled with `sleep` under 5 min per call; the shell tool kills foreground commands at 10 min. Never `pkill -f` a pattern matching your own command; kill by PID.
 - Chatterbox (backup voice) needs the CPU-only torch reinstall and the float32 patches in voice_backend._ensure_chatterbox().
-- ALWAYS read every `"ok"` in the `nightly.py render` output: a failed item still leaves a file behind (Nov 1: a 5.8 s video under 14 s of audio). qc now flags this as "BROKEN".
-- Postiz's ask_postiz agent fails (no OpenAI key), so brand queues can't be read for the clash check; use the planned 12:00 slot and say so.
-- Halifax is UTC-4 from Nov 1 (DST ended); it was UTC-3 before. Recheck the offset in March.
+- ALWAYS read every `"ok"` and `layout_warnings` in the `nightly.py render` output; a failed item still leaves a file behind (qc flags it "BROKEN"). Render memes in ONE render call (in parallel they clobber temp files).
+- Halifax is UTC-4 from Nov 1 (DST ended); recheck the offset in March.
+- Sunday compilation: paste media/compile-<date>.description.html as the Facebook content (it has the chapter times); never hand-type chapters.
+- Media mtimes come from git checkout, so housekeeping goes by the dates in schedule-log.md, not `find -mtime`.
 **Files and media**
-- Every media file < 99 MB (Postiz pulls from raw.githubusercontent.com). podcast.py caps bitrate from length; Shorts cap at 12 Mbps. A big Short means grain/shake, not length.
+- Every media file < 99 MB (Postiz pulls from raw.githubusercontent.com). Shorts cap at 12 Mbps; podcast.py caps bitrate from length.
 - Brand names the voice gets wrong go in voice_backend.SAY. Check any new brand or place name by ear once.
+- A new YouTube channel must be phone-verified before any video over 15 min.
 **Podcasts**
-- Visual first: full-screen photos changing every ~7 s, cards, big captions. Never a static "studio" look. AI disclosure = one small corner note + description; no "AI host"/"AI character" anywhere on screen or in dialogue.
-- Length: write 3,700-4,300 spoken words for 20+ min (the new voices are faster; this beats the prompt's older 3,300-3,900). 3,724 words = 19.6 min, so aim for 3,900+. Plan 6 main segments, not 4; a practical 'how to say it' segment is easy, sourced-fact-free length.
-- Photos: plain nouns for places and objects; people and abstract words return junk. Commons first (CC0/PD), Openverse second with a 3-failure circuit breaker; ~30-45 s per search, so start podcast renders early.
-- Mood words in searches ("quiet office", "break room", "training class", "laptop meeting") return paintings, people and soldiers; use objects ("desk lamp", "empty chairs", "whiteboard").
-- ALWAYS review photos: `nightly.py photos <timeline>`, look at engine/photos.png, `nightly.py block` people (even hands), military/tragedy, politicians, logos, black or off-topic frames, then re-render and re-run `photos` (replacements can be bad too).
+- Visual first: full-screen photos every ~7 s, cards, big captions; AI disclosure = one small corner note + description only.
+- Length: write 3,900-4,300 spoken words for 20+ min (3,724 = 19.6 min). Plan 6 segments; a "how to say it" segment is easy sourced-fact-free length.
+- Photos: plain nouns for places and objects (no mood words, no people). Commons first, Openverse second with its circuit breaker; ~30-45 s per search, so start podcast renders early.
+- ALWAYS review photos: `nightly.py photos`, look at engine/photos.png, `nightly.py block` people (even hands), military/tragedy, politicians, logos, paintings with people, off-topic frames; re-render and review again.
 **Snortlo writing and look**
-- Winners so far (REPORT.md, small n): 1-part stories (6.70, n=6 vs 5.49, n=8), question hooks, am_puck, all-lowercase titles, music on; memes: x_years_later, 8 AM posts, unvoiced. Customers is the best story theme (n=3).
-- Story length depends on the narrator: am_michael needs ~185 words for 65 s; am_puck/af_heart ~225 (STORY_FORMAT.md).
-- Living-room `tv` text: max ~10 characters per line; keep EVERY character at x<600 (the TV is at x≈680-880) with no zoom on them. Read `layout_warnings` in the render output and fix before QC.
-- `cards` (memes AND stories): 3 cards of max ~6 characters, no cam zoom on that beat (a 1.5x zoom crops the outer cards), and blank the whiteboard/sign behind them (cards cover x≈90-1090, y≈370-570).
-- Speech bubbles: "|" is a line break.
-- Never repeat a joke: before writing a meme, `grep -h top_text memes/*.json` for the same setup (Nov 6: a 'mom bans phones, then lives on hers' meme nearly repeated #25). Same for story premises: `ls stories/`.
-- Congress: the House is pro forma (election recess since mid-September). If gov.py find returns [] for the 3 newest unused days, skip it.
+- Winners (REPORT.md Nov 8): 1-part stories 6.09 (n=14) vs 2-part 5.49 (n=8); am_puck 6.35 (n=17) vs am_michael 5.36 (n=9); all_lowercase titles 6.10 (n=19); music on 5.95 (n=32) vs off 5.42 (n=14). Memes: 8 AM 6.98 (n=13), unvoiced 6.71 (n=27), no deepfry 6.83 (n=19) vs 6.44 (n=20), me_vs_mom 7.45 (n=3).
+- Story length by narrator at 1.1x: am_puck/af_heart ~3.5 words/s (210-240 words); am_michael ~2.8 words/s (180-195 words). 211 words of am_puck = 66 s.
+- Living-room `tv` text: max ~10 characters per line; every character at x<600 with no zoom on them. `cards`: 3 cards of max ~6 characters, no cam zoom on that beat, blank sign/whiteboard behind them.
+- Never repeat a joke or premise: `grep -h top_text memes/*.json` for the setup and `ls stories/` before writing.
+- Congress: the House was pro forma Sep-Nov 8 (election recess), back Nov 9. If gov.py find returns [] for the 3 newest unused days, skip it; from Nov 9 expect real days again.
+- election_aftermath theme ended Nov 8 (overrides.json window over; pick.py won't pick it again).
 
-## Temporary (delete after Nov 8, 2026)
-- Nov 5-8: election_aftermath theme is forced on stories and both memes by experiments/overrides.json (Vatsal, Nov 4). Rules in STORY_FORMAT.md: the shared experience only, no parties, candidates, results, fraud talk or voting advice. Congress Moments stay as normal (the House is back Nov 9); they never touch the election.
+## Proposals for Vatsal (Sunday review; each is also a Sit-Down List item)
+- 2026-11-08: Make every story 1 part (retire 2-part stories). 1-part averages 6.09 (n=14) vs 2-part 5.49 (n=8), and a 1-part day frees a YouTube slot for meme B or Congress. Yes/no?
+- 2026-11-08: Make am_puck the only story narrator (drop am_michael and af_bella from the story voice arms). am_puck 6.35 (n=17) vs af_bella 5.41 (n=13) and am_michael 5.36 (n=9). Yes/no?
 
 ## Night log (newest first; keep the last 14 nights, one to three lines each)
+- 2026-11-08 (Sun): clean run, Kaggle OK first try (18 lines, 168 s). Slip: typed the compilation's Facebook chapters by hand and only the first got a time; root fix: compile.py now writes media/compile-<date>.description.html (title + chapter times, tested) and a rule of thumb says to paste it. Weekly review: rules rewritten, Temporary election section retired, 2 proposals. Congress skipped (House back Nov 9). Numbers: 1-part 6.09 (n=14) vs 2-part 5.49 (n=8); 8 AM memes 6.98 (n=13).
 - 2026-11-07 (Sat): Kaggle OK first try (387 lines incl. Keegix ep 3, 1,267 s). Story first came out 83 s: am_michael at 1.1 speaks ~2.8 words/s vs am_puck ~3.5, so 232 words was too many; cut two beats (75 s) and added per-voice word targets to STORY_FORMAT.md. Photo review blocked 19 (paintings with people, crowds, a logo storefront, cranes, a plane); Commons 429s slowed b-roll to ~20 min. Pappu's sheet had no STR news rows and the web had nothing confirmable, so ep 3 has no news segment. Congress skipped (no new days). Numbers: me_vs_mom memes lead (7.45, n=3), 8 AM meme slot leads (6.98, n=13); am_michael trails (5.36, n=9).
 - 2026-11-06 (Fri): clean run, Kaggle OK first try (578 lines incl. sleep stories 5, 1,581 s). Meme B's first draft (mom bans phones, then is glued to hers) repeated Lo vs Life #25 from Oct 30; caught and rewritten. Root fix: rule of thumb to grep memes/ top_text for the setup before writing. Hardening: voice_backend runs kaggle_tts unbuffered (-u). Congress skipped (Nov 5 pro forma). Numbers: question hooks now lead (6.14, n=12); 1-part 6.23 (n=12) vs 2-part 5.49 (n=8); am_puck 6.41 (n=16).
 - 2026-11-05 (Thu): clean run, Kaggle OK first try (21 lines, 228 s). QC: mom and grandpa stood over the living-room TV text (third time this month); moved them to x<600 and re-rendered. Root fix: `nightly.py render` now prints `layout_warnings` (character at x>=600 on the living set, cards under a cam zoom) for every short, tested. Congress skipped (recess). First election_aftermath night (story + both memes). Numbers: no new calls.
@@ -64,6 +64,5 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - 2026-10-29: clean run, Kaggle OK first try (144 s). QC: Lo stood in front of the kitchen sign in meme A; moved him and re-rendered. Improvement: capped Shorts bitrate at 12 Mbps (deepfry meme 42 MB -> 13 MB, tested). Congress skipped (no new session days). Numbers: not enough new samples.
 - 2026-10-28: clean run, Kaggle OK first try. QC caught TV text cropped in meme B; fixed and added the tv-text rule here and in STORY_FORMAT.md. Congress skipped again (recess). First Lo Explains (sandwich). Numbers: too few new samples to call anything.
 - 2026-10-27 (set-up day): photo review caught people, war and off-topic photos that slipped past the title filter; added broll_block.txt, a stronger filter (no strips, dark frames or scans), and the photos/block review step.
-- 2026-10-27 (set-up day, not a nightly run): moved all channels to the Qwen3 house voices; podcasts switched to the visual-first look; Airbnb pronunciation fixed; started this file.
 
 - 2026-11-03: YouTube rejects videos over 15 min on channels that aren't phone-verified ("Upload failed: Video too long"). Keegix and Staffkin are now verified. Any NEW YouTube channel must be verified (youtube.com/verify, switched to that channel) before it gets a long video.

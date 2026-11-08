@@ -38,6 +38,10 @@ def main():
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", "-movflags", "+faststart", out], check=True)
     fmt = lambda x: f"{int(x // 60)}:{int(x % 60):02d}" if x < 3600 else f"{int(x // 3600)}:{int(x % 3600 // 60):02d}:{int(x % 60):02d}"
     open(out.rsplit(".", 1)[0] + ".chapters.txt", "w").write("\n".join(f"{fmt(a)} {n}" for a, n in chapters) + "\n")
+    # Ready-to-paste Postiz content (Facebook needs the chapters in the description; Nov 8 a hand-typed one lost them)
+    html = [f"<p>{title}</p>"] + [f"<p>{fmt(a)} {n}</p>" for a, n in chapters] + ["<p>#storytime #funny #snortlo</p>"]
+    open(out.rsplit(".", 1)[0] + ".description.html", "w").write("".join(html) + "\n")
+    print("postiz content:", out.rsplit(".", 1)[0] + ".description.html")
     card(title, f"{len(pairs)} stories · {int(t // 60)} min", out.rsplit(".", 1)[0] + "-thumb.png")
     subprocess.run(["rm", "-rf", work])
     mb = os.path.getsize(out) / 1048576; print(f"done {out} {t / 60:.1f} min {mb:.0f} MB")
