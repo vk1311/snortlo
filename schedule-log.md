@@ -395,3 +395,14 @@ YouTube uploads today: 3. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Con
 | 14:00 | Meme B, Lo vs Life #46 "Me at 19: I'll learn to cook when I'm older / 10 years later: $400 knife set, same pasta every night" (x_years_later, phonk, long, unvoiced, no deepfry, food; Mon = FB only; picked 08:00, moved past the others) | meme-pasta-every-night.mp4 | Facebook | cmw8u6s5w00bwo276assigap8 |
 
 YouTube uploads today: 4 (meme A, story, Lo Explains, Congress). Instagram: 3 (meme A, story, Lo Explains). TikTok skipped (no TIKTOK_APPROVED). Congress: the newest unused days are pro forma, but `gov.py unused` (new) found older unused days with candidates; used 2026-07-20. Voices: Qwen3 on Kaggle, OK first try (432 lines incl. Staffkin ep 3, 1,280 s) + 1 extra line later (129 s). Full cut = copy of part 1. Housekeeping: deleted Oct 30-Nov 1 media (apology-cake-*, price-99-part1, meme-mom-level-4000, meme-share-with-class, long-sleepy-stories-4*, compile-2026-11-01*, meme-clock-out-early, meme-organized-phone, one-grape-*) and pod-keegix-ep01-* (all Shorts published).
+
+### Staffkin Podcast ep 3 "Why Good Employees Quit (and the Signs Before They Do)" (made Mon 2026-11-09; 21.1 min, 4,021 words, guest Theo / bm_george; news segment: StatCan October LFS)
+Brand queues not read for the clash check (ask_postiz has no OpenAI key); used the planned 12:00 slot. Brand YouTube: Nov 19 = Staffkin ep 3 + Keegix Short 2 = 2; Nov 20-22 = 2 (Keegix + Staffkin Shorts); Nov 23 = 1; Nov 24 = 2 if Keegix ep 4 airs 10:00. Photo review: 2 passes, 24 photos blocked (people, logos, panoramas, a screenshot).
+| Time (Halifax) | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| Thu Nov 19 10:00 | Episode (thumbnail, 12 tags, description + chapters) | pod-staffkin-ep03-why-good-people-quit.mp4 | Staffkin YouTube | cmw8x8tph00bzo2765gy349qk |
+| Fri Nov 20 12:00 | Short 1 "Your team feels calm. It might be a waiting room." | -short1.mp4 | Staffkin YT, FB, IG | cmw8x9ei900c0o2765md9sjuv, cmw8x9eij00c1o2763m59h1jj, cmw8x9eiu00c2o276zok13iar |
+| Sat Nov 21 12:00 | Short 2 "Pay ranked 16th in why people quit" | -short2.mp4 | Staffkin YT, FB, IG | cmw8x9ej800c3o276teygpjpc, cmw8x9eju00c4o276ai3vsl3d, cmw8x9elu00c5o276jaiw0adj |
+| Sun Nov 22 12:00 | Short 3 "The lighting experiment that fooled everyone" | -short3.mp4 | Staffkin YT, FB, IG | cmw8x9ems00c6o276v11njyhq, cmw8x9eo700c7o276dy1ofz8h, cmw8x9eqx00c8o276egltw4xk |
+| Mon Nov 23 12:00 | Short 4 "The quiet sign your best person is leaving" | -short4.mp4 | Staffkin YT, FB, IG | cmw8x9ers00c9o276ainwpuw0, cmw8x9evp00cao276142x1y3w, cmw8x9f1700cbo276chroz112 |
+| Tue Nov 24 12:00 | Short 5 "Nobody asked them before they quit" | -short5.mp4 | Staffkin YT, FB, IG | cmw8x9f2700cco276rhttnpoi, cmw8x9f2q00cdo276s8q7b1ac, cmw8x9f3b00ceo2767hio7eua |
