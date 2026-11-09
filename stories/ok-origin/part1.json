@@ -1,0 +1,278 @@
+{
+ "channel": "Snortlo",
+ "series": "Lo Explains #6",
+ "format": "concept",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WHY|OK?",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   },
+   "text": "Why do we say O K? It's one of the most common words on Earth, and it started as a spelling joke.",
+   "sfx": "vineboom"
+  },
+  {
+   "set": "classroom",
+   "state": {
+    "board": "BOSTON|1839"
+   },
+   "text": "Boston, eighteen thirty nine. Newspaper writers have a weird hobby.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "classroom",
+   "state": {
+    "board": "BOSTON|1839"
+   },
+   "text": "They abbreviate phrases. On purpose. Badly.",
+   "sfx": "pop",
+   "cards": [
+    "O.W.",
+    "K.Y.",
+    "S.P."
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "OLL|WRIGHT",
+    "bg1": "#FFE7C2",
+    "bg2": "#E08A3C"
+   },
+   "text": "O W meant oll wright. Spelled wrong. That was the whole joke.",
+   "sfx": "bruh"
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "O.K. =",
+     "OLL KORRECT",
+     "MARCH 23, 1839"
+    ]
+   },
+   "text": "Then on March twenty third, the Boston Morning Post prints O K. Short for oll korrect.",
+   "sfx": "dundun"
+  },
+  {
+   "set": "classroom",
+   "state": {
+    "board": "LOL|1839"
+   },
+   "text": "Hilarious, in eighteen thirty nine. Most of these jokes died fast.",
+   "sfx": "sadtrombone",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "classroom",
+   "state": {
+    "board": "WHY DID|OK LIVE?"
+   },
+   "text": "So why did O K survive? A president's nickname.",
+   "sfx": "reveal",
+   "meme": "shake",
+   "slow": true,
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "classroom",
+   "state": {
+    "board": "OLD|KINDERHOOK"
+   },
+   "text": "Martin Van Buren was from Kinderhook, New York. Supporters called him Old Kinderhook. O K.",
+   "sfx": "ding",
+   "cards": [
+    "OLD",
+    "KINDER",
+    "HOOK"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "classroom",
+   "state": {
+    "board": "VOTE|FOR OK"
+   },
+   "text": "In eighteen forty they started O K clubs, and the slogan was Vote for O K.",
+   "sfx": "crowdcheer",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "set": "classroom",
+   "state": {
+    "board": "VOTE|FOR OK"
+   },
+   "text": "He lost. But the word won.",
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "desk",
+   "text": "In the nineteen sixties, a Columbia University scholar named Allen Walker Read dug through old newspapers and proved it.",
+   "sfx": "shutter",
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "hold": "paper"
+    }
+   ]
+  },
+  {
+   "set": "desk",
+   "text": "Before that, people swore it came from Choctaw, German army slang, or a rum label. No evidence for any of them.",
+   "sfx": "huh",
+   "cards": [
+    "NOPE",
+    "NOPE",
+    "NOPE"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "OLL|KORRECT",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "text": "So every time you text O K, you're finishing an almost two hundred year old spelling joke.",
+   "sfx": "goat"
+  },
+  {
+   "set": "classroom",
+   "state": {
+    "board": "OLL|KORRECT"
+   },
+   "text": "Oll korrect.",
+   "sfx": "rimshot",
+   "pause": 0.8,
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  }
+ ]
+}

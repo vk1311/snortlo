@@ -1,0 +1,117 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #45",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "family",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me at 14: \"Mom, why do you take|400 photos of everything?\"",
+   "set": "living",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 260,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 560,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     420,
+     860
+    ]
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.6,
+   "top_text": "16 years later:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "16 YEARS|LATER",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "",
+   "hold": 3.8,
+   "top_text": "Me at 30, with 2,000 photos|of my dog sleeping:",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "PHOTOS: 2,014",
+     "DOG: ASLEEP",
+     "IN ALL OF THEM"
+    ]
+   },
+   "sfx": "tick"
+  },
+  {
+   "text": "",
+   "hold": 4.2,
+   "top_text": "Mom, scrolling through them|like it's her victory lap:",
+   "set": "living",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 180,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "me",
+     "x": 500,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "red": 0.5
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co2"
+   }
+  }
+ ]
+}

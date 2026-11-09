@@ -1,0 +1,1091 @@
+{
+ "brand": "staffkin",
+ "episode": 3,
+ "slug": "staffkin-ep03-why-good-people-quit",
+ "air_date": "2026-11-19",
+ "title": "Why Good Employees Quit (and the Signs Before They Do) | Staffkin Podcast",
+ "card_title": "Why good employees quit, and the signs before they do",
+ "thumb_title": "Why good people quit",
+ "guest": {
+  "name": "Theo",
+  "role": "Operations manager, warehouses and hotels, 20 years",
+  "voice": "bm_george"
+ },
+ "description": "Why good employees quit, the 13 signs researchers found in the months before they go, and what a manager can actually do: stay conversations, specific recognition and room to grow.\nThe history: the Hawthorne studies (1924-1933) and what later economists found in the original data, plus the Great Resignation and the MIT Sloan research on toxic culture.\nIn the news: Canada's and Nova Scotia's October 2026 jobs numbers. Nova Scotia notice rules when someone quits, and the overtime change coming April 1, 2027.\nHosts and guests on this show are AI voices. Facts are sourced below. Not legal advice.\nIf you or someone you know is in crisis in Canada, call or text 9-8-8.",
+ "tags": [
+  "why employees quit",
+  "employee retention",
+  "signs an employee is about to quit",
+  "stay interview questions",
+  "hawthorne studies",
+  "great resignation",
+  "toxic work culture",
+  "quiet quitting",
+  "nova scotia labour standards",
+  "small business management",
+  "manager tips",
+  "workplace psychology"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "visuals": [
+    "factory building",
+    "light bulb",
+    "brick factory",
+    "old workshop"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "In nineteen twenty four, at a giant electrical plant outside Chicago, researchers started turning the lights up and down on factory workers to see if brighter light made people work harder."
+    },
+    {
+     "who": "host",
+     "text": "For years, the story went like this. Output went up when the lights got brighter. And output went up when the lights got dimmer. People weren't responding to the light. They were responding to being noticed.",
+     "card": {
+      "type": "history",
+      "year": "1924",
+      "text": "Lighting tests begin at the Hawthorne Works, a Western Electric plant near Chicago"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And here's the twist. Decades later, two economists dug up the original lighting data, and that famous version of the story didn't hold up. But the bigger lesson from those studies did. How people feel about the place they work matters more than almost anything you can bolt onto the building. Today, that's why your best people leave."
+    }
+   ]
+  },
+  {
+   "heading": "Intro",
+   "visuals": [
+    "office building",
+    "empty office chair",
+    "coffee cup",
+    "notebook"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Welcome to the Staffkin Podcast, the show about workplace psychology for people who manage people. I'm Sam. Every fact we use is sourced in the description."
+    },
+    {
+     "who": "host",
+     "text": "Today, why good employees quit, and the signs before they do. Not the person who was never a fit. The one you were counting on. The one who hands you a letter on a Friday and you think, wait, I had no idea.",
+     "card": {
+      "type": "list",
+      "title": "Today",
+      "items": [
+       "Why good people quit",
+       "Where the research came from",
+       "The signs before they go",
+       "What a manager actually does"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "My guest is Theo. Theo plays an operations manager who has run warehouse and hotel teams for twenty years. Theo isn't a real person, and every workplace story today is a made up example. Welcome, Theo."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Sam. And let me say this up front. Nobody keeps every good person forever, and you shouldn't try. People move for school, for family, for a partner's job, for a dream. The goal isn't zero quits. The goal is that nobody leaves for a reason you could have fixed and didn't know about.",
+     "card": {
+      "type": "point",
+      "text": "The goal isn't zero quits. It's no surprise quits you could have fixed."
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's a good line to build on. First, a quick look at the news."
+    }
+   ]
+  },
+  {
+   "heading": "In the news: October's jobs numbers for Canada and Nova Scotia",
+   "visuals": [
+    "Halifax harbour",
+    "calculator",
+    "newspaper",
+    "shipping containers",
+    "city skyline"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "As of early November twenty twenty six, Statistics Canada's latest Labour Force Survey covers October. Across Canada, employment was basically flat, and the unemployment rate rose to six point seven percent.",
+     "card": {
+      "type": "stat",
+      "big": "6.7%",
+      "label": "Canada's unemployment rate, October 2026",
+      "source": "Statistics Canada, Nov 6, 2026"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Nova Scotia came in a little better. The unemployment rate here was six point two percent, down a touch, and employment in the province grew by about zero point four percent, to roughly five hundred and forty three thousand people working.",
+     "card": {
+      "type": "stat",
+      "big": "6.2%",
+      "label": "Nova Scotia unemployment rate, October 2026",
+      "source": "Statistics Canada"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And wages?"
+    },
+    {
+     "who": "guest",
+     "text": "Average hourly wages across Canada were up two point two percent from a year earlier, to about thirty seven dollars and eighty nine cents an hour. Youth unemployment was high, at thirteen point seven percent."
+    },
+    {
+     "who": "host",
+     "text": "So why does that matter for an episode about people quitting?"
+    },
+    {
+     "who": "guest",
+     "text": "Because a softer job market changes how quitting looks, not whether people are unhappy. When jobs feel scarce, people who are fed up often stay put and go quiet. Then the market picks up, and the people who were quietly waiting leave together. If your team feels calm right now, that might be real. Or it might be a waiting room."
+    },
+    {
+     "who": "host",
+     "text": "A waiting room. That's a little scary. Alright, let's get into it."
+    }
+   ]
+  },
+  {
+   "heading": "Why good employees quit: what the research says",
+   "visuals": [
+    "office corridor",
+    "desk lamp",
+    "filing cabinet",
+    "conference table",
+    "open door",
+    "sticky notes"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Theo, let's start with the big question. When a good person quits, what's usually going on?"
+    },
+    {
+     "who": "guest",
+     "text": "The honest answer is that it's usually the job around them, not the pay alone. Gallup has been studying this for a long time. One of their best known findings is that managers account for at least seventy percent of the difference in engagement between teams.",
+     "card": {
+      "type": "stat",
+      "big": "70%",
+      "label": "of the variance in team engagement comes from the manager",
+      "source": "Gallup"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Seventy percent. From one person."
+    },
+    {
+     "who": "guest",
+     "text": "From the person closest to them. And in that same Gallup research, about one in two adults said they had left a job at some point in their career to get away from a manager."
+    },
+    {
+     "who": "host",
+     "text": "Okay, but people always say they quit because of money. Is that just a polite cover story?"
+    },
+    {
+     "who": "guest",
+     "text": "Sometimes. Money is real. A Randstad survey of Canadian workers this past summer found that about twenty three percent wanted to switch jobs this year, and the top reason was low pay, at forty eight percent. Work life balance was next, then a lack of room to grow.",
+     "card": {
+      "type": "list",
+      "title": "Why Canadians want to switch",
+      "items": [
+       "Low pay: 48%",
+       "Work-life balance: 40%",
+       "No room to grow: 34%"
+      ],
+      "source": "Randstad Canada, 2026"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "But look at what happens when researchers study who actually leaves, not what people say on a survey. M I T Sloan Management Review looked at tens of millions of employee profiles during the Great Resignation. A toxic culture was about ten times more powerful than pay at predicting who would quit. Pay ranked sixteenth.",
+     "card": {
+      "type": "stat",
+      "big": "10.4x",
+      "label": "toxic culture vs pay in predicting who quit",
+      "source": "MIT Sloan Management Review"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Sixteenth. Wow."
+    },
+    {
+     "who": "guest",
+     "text": "And what did they mean by toxic? Not just yelling. Things like people not being treated with respect, cutthroat behaviour, people being shut out, and leaders who don't act ethically. The other top predictors were job insecurity, constant reorganizing, and failing to recognize good work."
+    },
+    {
+     "who": "host",
+     "text": "So pay gets people to look around, but the culture decides if they actually go."
+    },
+    {
+     "who": "guest",
+     "text": "That's how I'd put it. And here's one that surprised me. In that same study, lateral career moves, meaning a chance to try a different role at the same level, were about twelve times more predictive of someone staying than a promotion."
+    },
+    {
+     "who": "host",
+     "text": "Twelve times. So the warehouse lead who wants to try scheduling for a while?"
+    },
+    {
+     "who": "guest",
+     "text": "Let them try it. That's not a reward for being bored. It's how you keep someone curious enough to stay."
+    },
+    {
+     "who": "host",
+     "text": "What about Canada specifically? Are people leaving a lot right now?"
+    },
+    {
+     "who": "guest",
+     "text": "Less than a few years ago. Statistics Canada reported early last year that about six percent of permanent employees planned to leave their job within twelve months, and the rate of people actually changing jobs was lower than before the pandemic. Sales and service jobs had the highest share planning to leave.",
+     "card": {
+      "type": "stat",
+      "big": "6.1%",
+      "label": "of permanent employees planned to leave within 12 months",
+      "source": "Statistics Canada via Canadian HR Reporter, 2025"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So fewer people leaving overall, but the ones who leave are probably the ones with options."
+    },
+    {
+     "who": "guest",
+     "text": "Which is often your best people. The person everyone else calls when the system goes down. They have options in any market."
+    }
+   ]
+  },
+  {
+   "heading": "A short history: the Hawthorne studies and the Great Resignation",
+   "visuals": [
+    "old factory",
+    "telephone switchboard",
+    "industrial workshop",
+    "light bulb",
+    "old library",
+    "typewriter"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's go back to that cold open. Tell me about Hawthorne."
+    },
+    {
+     "who": "guest",
+     "text": "The Hawthorne Works was a Western Electric plant outside Chicago. Western Electric made telephone equipment for A T and T. Starting in nineteen twenty four, researchers ran a series of studies there that went on for about nine years.",
+     "card": {
+      "type": "history",
+      "year": "1924-1933",
+      "text": "The Hawthorne studies run at Western Electric's plant near Chicago"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "The first round, from nineteen twenty four to nineteen twenty seven, tested lighting. Brighter, dimmer, different departments. And according to Harvard's Baker Library, which holds the records, the researchers found no meaningful link between the light level and how much people produced."
+    },
+    {
+     "who": "host",
+     "text": "So the lights didn't matter."
+    },
+    {
+     "who": "guest",
+     "text": "Not in any clear way. So they tried something else. In nineteen twenty seven, they set up a small test room with five women assembling telephone relays. They changed rest breaks, hours, and pay incentives, and output went up. But they couldn't tell why. Was it the breaks? The small group? Or the special attention these women were suddenly getting?",
+     "card": {
+      "type": "history",
+      "year": "1927",
+      "text": "Relay Assembly Test Room: five women, changing breaks, hours and pay"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And that's where Elton Mayo comes in."
+    },
+    {
+     "who": "guest",
+     "text": "Right. Mayo was a professor at Harvard Business School, and in nineteen twenty eight the plant asked him for help. He and his colleague Fritz Roethlisberger pushed the work toward what they called human relations. Group norms. Motivation. How supervisors treat people. Roethlisberger is the one who described the Hawthorne effect, meaning people change how they work because they're being observed."
+    },
+    {
+     "who": "host",
+     "text": "And then those two economists come along."
+    },
+    {
+     "who": "guest",
+     "text": "Steven Levitt and John List went looking for the original lighting data, found it, and analyzed it. They published in two thousand nine. Their conclusion was that the famous claim, output rising with every single change in the lights, was basically fiction. There were only hints of a subtler effect.",
+     "card": {
+      "type": "history",
+      "year": "2009",
+      "text": "Levitt and List reanalyze the original lighting data"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the most famous story in management history is partly a myth."
+    },
+    {
+     "who": "guest",
+     "text": "The lighting part, yes. But what came out of Hawthorne, the idea that people's working relationships and how they feel treated shape their effort, has held up in a lot of later research. That's the part I'd keep."
+    },
+    {
+     "who": "host",
+     "text": "Fast forward to twenty twenty one."
+    },
+    {
+     "who": "guest",
+     "text": "The Great Resignation. The term came from Anthony Klotz, a professor at Texas A and M, and it took off after a Bloomberg interview in May twenty twenty one. In the United States, a record four and a half million people quit their jobs in November twenty twenty one alone.",
+     "card": {
+      "type": "stat",
+      "big": "4.5 million",
+      "label": "Americans quit in November 2021, a record",
+      "source": "U.S. Labor Department JOLTS, via Fox 13"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And that's the period the M I T Sloan study looked at."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. So the history lines up nicely. A hundred years ago, researchers went in thinking it was about the lights, and found it was about people. During the Great Resignation, a lot of employers thought it was about pay, and the data said it was mostly about culture."
+    }
+   ]
+  },
+  {
+   "heading": "Brand break",
+   "visuals": [
+    "notebook",
+    "desk lamp",
+    "pen and paper"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Quick word from us. Staffkin is a hiring and onboarding kit for small Canadian employers with no H R person. It helps you write the job description, ask every candidate the same interview questions, and give new people a clear first few weeks, which is where a lot of early quitting starts.",
+     "card": {
+      "type": "point",
+      "text": "Staffkin: hiring and onboarding for small Canadian teams"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Back to Theo."
+    }
+   ]
+  },
+  {
+   "heading": "The signs someone is about to quit",
+   "visuals": [
+    "empty desk",
+    "wall clock",
+    "parking lot",
+    "calendar",
+    "coat rack",
+    "window rain"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Okay, the part everyone wants. What are the signs?"
+    },
+    {
+     "who": "guest",
+     "text": "There's a nice piece of research on this. Two management professors, Timothy Gardner at Utah State and Peter Hom at Arizona State, asked managers what changed in people in the months before they left. They narrowed it down to thirteen signs, and they were published in the Harvard Business Review in twenty sixteen."
+    },
+    {
+     "who": "guest",
+     "text": "Here's the key thing, and people skip it. Every sign is about change. Not someone who's always quiet. Someone who's quieter than they used to be.",
+     "card": {
+      "type": "point",
+      "text": "Every warning sign is a change from that person's normal."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Give me a few."
+    },
+    {
+     "who": "guest",
+     "text": "Their productivity drops. They become less of a team player. They do the minimum more often. They lose interest in pleasing their manager. They stop wanting to commit to anything long term.",
+     "card": {
+      "type": "list",
+      "title": "Signs, part one",
+      "items": [
+       "Productivity drops",
+       "Less of a team player",
+       "Does the minimum more",
+       "Avoids long-term plans"
+      ],
+      "source": "Gardner and Hom, HBR 2016"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And then the rest. A more negative attitude. Less effort and focus. More complaints about the job, and about the boss. Leaving early more often. Less enthusiasm for what the company is trying to do. And less interest in working with customers.",
+     "card": {
+      "type": "list",
+      "title": "Signs, part two",
+      "items": [
+       "More complaints",
+       "Leaves early more often",
+       "Less interest in customers",
+       "Less focus and effort"
+      ],
+      "source": "Gardner and Hom, HBR 2016"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Let's make it real. Give me a situation."
+    },
+    {
+     "who": "guest",
+     "text": "Say your best front desk person at a hotel, call her Priya, used to volunteer for every training session. She built the cheat sheet the whole team uses. This fall she stops. She doesn't sign up for the holiday schedule. When you mention next summer's renovation, she just nods.",
+     "card": {
+      "type": "point",
+      "text": "Not signing up for next season is a classic sign."
+     }
+    },
+    {
+     "who": "host",
+     "text": "The avoiding long term commitments one."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. She isn't being lazy. She's quietly stopped picturing herself there. And a manager who's busy will read that as, great, she's low maintenance right now. That's the trap. The quiet season before someone leaves often looks like the easiest stretch you've had with them."
+    },
+    {
+     "who": "host",
+     "text": "Another one."
+    },
+    {
+     "who": "guest",
+     "text": "A shift lead in a warehouse, call him Marcus, always grumbled about the scanner system, that's just Marcus. But now he's complaining about you. About how decisions get made. And he's leaving at the exact end of his shift instead of staying ten minutes to hand off."
+    },
+    {
+     "who": "host",
+     "text": "And none of that is a crime."
+    },
+    {
+     "who": "guest",
+     "text": "None of it. That's important. These are not things to punish. They're a smoke alarm, not a fire. Your move is a conversation, not a write up."
+    },
+    {
+     "who": "host",
+     "text": "What about quiet quitting? Is that the same thing?"
+    },
+    {
+     "who": "guest",
+     "text": "It overlaps. Gallup used that phrase in twenty twenty two for people who are not engaged, doing the job but not much more, and they estimated that at least half of the U.S. workforce fit that description. Some of those people are just tired. Some of them are on their way out. The signs we just went through help you tell the difference, because they're about a change in a person, not a permanent label.",
+     "card": {
+      "type": "stat",
+      "big": "50%+",
+      "label": "of the U.S. workforce were 'quiet quitters' in 2022",
+      "source": "Gallup"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And stress? I imagine some of these signs look a lot like someone who's just having a hard time."
+    },
+    {
+     "who": "guest",
+     "text": "They can. In Gallup's latest numbers for Canada, fifty eight percent of workers said they felt a lot of stress during the previous day. So be kind about it. Don't diagnose anyone. If someone tells you they're really not okay, point them to help. In Canada, anyone can call or text nine eight eight, any time.",
+     "card": {
+      "type": "point",
+      "text": "In crisis in Canada? Call or text 9-8-8, any time."
+     }
+    }
+   ]
+  },
+  {
+   "heading": "What a manager actually does: stay conversations, recognition and room to grow",
+   "visuals": [
+    "coffee shop table",
+    "two coffee cups",
+    "clipboard",
+    "park bench",
+    "staircase",
+    "whiteboard"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So you've spotted a sign. Now what?"
+    },
+    {
+     "who": "guest",
+     "text": "Talk to them, and do it before you see any signs at all. Here's the Gallup number that should scare every manager. When they surveyed people who had recently left a job voluntarily, forty two percent said their manager or organization could have done something to prevent it.",
+     "card": {
+      "type": "stat",
+      "big": "42%",
+      "label": "of people who quit say it could have been prevented",
+      "source": "Gallup, 2024"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And forty five percent said that in the three months before they left, nobody had a single conversation with them about how they were doing or their future at the company.",
+     "card": {
+      "type": "stat",
+      "big": "45%",
+      "label": "had no conversation about their future in the 3 months before leaving",
+      "source": "Gallup, 2024"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Nobody asked."
+    },
+    {
+     "who": "guest",
+     "text": "Nobody asked. So the first fix is free. Some people call it a stay interview. You sit down with someone who isn't leaving and ask why they stay, and what would make them think about going."
+    },
+    {
+     "who": "host",
+     "text": "Does it actually work?"
+    },
+    {
+     "who": "guest",
+     "text": "There's not a mountain of research yet. One study of one hundred and thirty two support workers found that people who didn't get a stay interview were more likely to leave. But that's a link, not proof. I'd still do it, because the cost is half an hour and a coffee."
+    },
+    {
+     "who": "host",
+     "text": "What do you ask?"
+    },
+    {
+     "who": "guest",
+     "text": "Keep it simple. What's the best part of your week here? What's the most annoying part? If you could change one thing about your job, what would it be? Is there something you want to learn that you're not getting to? And what might tempt you to leave?",
+     "card": {
+      "type": "list",
+      "title": "Stay conversation",
+      "items": [
+       "Best part of your week?",
+       "Most annoying part?",
+       "One thing you'd change?",
+       "What might tempt you away?"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "That last one feels risky to ask."
+    },
+    {
+     "who": "guest",
+     "text": "It feels risky, but they're already thinking it. You'd rather hear it from them in October than from their letter in January. And then, this is the key, you have to do something with the answer, even if it's small, and tell them you did."
+    },
+    {
+     "who": "host",
+     "text": "How often?"
+    },
+    {
+     "who": "guest",
+     "text": "Gallup's advice is short and frequent. Something like a fifteen to thirty minute check in each week, not one big review a year. For a small team, I'd say a real conversation with each person every month, and a proper stay conversation twice a year."
+    },
+    {
+     "who": "host",
+     "text": "What about recognition? People roll their eyes at employee of the month."
+    },
+    {
+     "who": "guest",
+     "text": "They should. Remember, failing to recognize good work was one of the top predictors in that M I T Sloan study. But recognition that works is specific and soon. Not, great job everyone. More like, the way you calmed down that guest at the desk last night saved us a refund and a bad review. Thank you."
+    },
+    {
+     "who": "host",
+     "text": "And room to grow."
+    },
+    {
+     "who": "guest",
+     "text": "That's the lateral move point. In a small business you may not have a promotion to give. But you can let the line cook learn ordering. Let the cashier train the new hire. Let the driver try dispatch on Tuesdays. Those moves were twelve times more predictive of someone staying than a promotion."
+    },
+    {
+     "who": "host",
+     "text": "And pay?"
+    },
+    {
+     "who": "guest",
+     "text": "Check it honestly. If you're well under the market for that job in your area, the nicest culture in the world will lose someone to a two dollar raise eventually. Look at what similar jobs are posting for, and at least know where you stand."
+    },
+    {
+     "who": "host",
+     "text": "Because losing someone isn't cheap."
+    },
+    {
+     "who": "guest",
+     "text": "It's not. Gallup estimates that replacing someone costs around forty percent of their salary for frontline staff, about eighty percent for technical staff, and up to two hundred percent for leaders. That's the hiring, the training, and all the mistakes while someone new learns the job.",
+     "card": {
+      "type": "list",
+      "title": "Cost to replace someone",
+      "items": [
+       "Frontline: ~40% of salary",
+       "Technical: ~80%",
+       "Leaders: up to 200%"
+      ],
+      "source": "Gallup, 2024"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Three quitting situations every small employer will recognize",
+   "visuals": [
+    "hotel lobby",
+    "warehouse shelves",
+    "restaurant kitchen",
+    "delivery van",
+    "staff room",
+    "time clock"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's do some situations. Theo, these are all made up, but I bet people will recognize them."
+    },
+    {
+     "who": "guest",
+     "text": "Situation one. The star who got too good. Say you run a small bakery and your best baker, call her Leah, can do every station. So every time someone calls in sick, Leah covers. Every time there's a rush order, Leah stays late. You love her for it."
+    },
+    {
+     "who": "host",
+     "text": "And she's exhausted."
+    },
+    {
+     "who": "guest",
+     "text": "She's exhausted, and she's noticed that being great at her job mostly gets her more work. Nobody else gets asked. Her pay hasn't changed. And one day a bigger bakery offers her a head baker title with set hours."
+    },
+    {
+     "who": "host",
+     "text": "So what should the owner have done?"
+    },
+    {
+     "who": "guest",
+     "text": "Spread the load before it breaks her. Train a second person on her stations so she isn't the only backup. Pay the person who carries the extra weight, or give them something they actually want, like first pick of shifts. And say out loud that you see it. The worst message you can send a star is that the reward for good work is more work."
+    },
+    {
+     "who": "host",
+     "text": "Situation two."
+    },
+    {
+     "who": "guest",
+     "text": "The new hire who leaves in the first month. Say you hire a cook, call him Jordan. On his first day, the person who was supposed to train him is off. Nobody shows him where anything is. He spends a week guessing, gets snapped at for doing things the wrong way, and on day nine he just stops coming in."
+    },
+    {
+     "who": "host",
+     "text": "And everyone says, well, he wasn't committed."
+    },
+    {
+     "who": "guest",
+     "text": "That's the story people tell. But from Jordan's side, nobody had planned for him. The first few weeks are when someone decides whether this place is organized and whether anyone cares if they succeed. A simple plan fixes most of it. Who trains them, what they learn in week one, who they eat lunch with, and a check in at the end of the first week and the first month."
+    },
+    {
+     "who": "host",
+     "text": "That sounds almost too simple."
+    },
+    {
+     "who": "guest",
+     "text": "It is simple. It just has to be written down, because on a busy day nobody remembers to do the simple thing."
+    },
+    {
+     "who": "host",
+     "text": "And situation three."
+    },
+    {
+     "who": "guest",
+     "text": "The long timer who checks out. Say you have a dispatcher, call him Ray, who has been with you for twelve years. He knows every customer by name. Lately he's stopped suggesting improvements. When you roll out a new system, he says, sure, whatever you want."
+    },
+    {
+     "who": "host",
+     "text": "That sounds like resignation. In both senses."
+    },
+    {
+     "who": "guest",
+     "text": "It can be. Long timers often quit after a change that made them feel their experience didn't count. A new manager who didn't ask them anything. A reorganization that moved their desk and their responsibilities without a conversation. Remember, constant reorganizing was one of the top predictors of quitting in that M I T Sloan research."
+    },
+    {
+     "who": "host",
+     "text": "So with Ray, what do you do?"
+    },
+    {
+     "who": "guest",
+     "text": "Ask him for help, and mean it. Before the next change, sit with him and say, you know these customers better than anyone, what will break if we do this? Then use some of what he says. People don't need to win every decision. They need to know their experience was part of it."
+    },
+    {
+     "who": "host",
+     "text": "So the star needs the load shared, the new hire needs a plan, and the long timer needs to be asked."
+    },
+    {
+     "who": "guest",
+     "text": "That's the episode in one sentence, honestly. Most quitting is somebody feeling unseen for a long time."
+    }
+   ]
+  },
+  {
+   "heading": "How to have a stay conversation that doesn't feel weird",
+   "visuals": [
+    "coffee mug",
+    "quiet office",
+    "window light",
+    "notepad",
+    "walking path"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Theo, I want to go back to the stay conversation, because I think a lot of managers will feel awkward doing it. How do you start?"
+    },
+    {
+     "who": "guest",
+     "text": "You tell them why you're doing it, so nobody panics. Something like, I'm doing a quick check in with everyone on the team. Nothing's wrong. I just want to know what's working for you and what isn't, before it becomes a problem."
+    },
+    {
+     "who": "host",
+     "text": "Because if you just say, can I see you for a minute, everyone assumes they're in trouble."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. Second, do it somewhere relaxed. A coffee, a walk around the block, the quiet corner of the warehouse. Not across your desk with the door closed."
+    },
+    {
+     "who": "host",
+     "text": "What if they say everything's fine?"
+    },
+    {
+     "who": "guest",
+     "text": "Most people will, at first. So ask smaller, more concrete questions. What's one thing that slows you down every week? Who on the team do you like working with? Is there anything you used to enjoy here that you don't get to do anymore? Small questions get honest answers."
+    },
+    {
+     "who": "host",
+     "text": "And then you write it down."
+    },
+    {
+     "who": "guest",
+     "text": "Write it down, pick one thing you can actually do, and come back in two weeks and say, you mentioned the scanner keeps freezing, we ordered two new ones. That follow up is the whole point. A conversation with no follow up teaches people that talking to you doesn't change anything."
+    },
+    {
+     "who": "host",
+     "text": "What if they tell you something you can't fix, like they want a lot more money and you can't afford it?"
+    },
+    {
+     "who": "guest",
+     "text": "Be honest. Say, I can't do that right now, here's what I can do, and here's when I can look at it again. People can handle a no. What they can't handle is pretending the conversation didn't happen."
+    },
+    {
+     "who": "host",
+     "text": "And if they tell you they're thinking of leaving?"
+    },
+    {
+     "who": "guest",
+     "text": "Thank them. Really. They just gave you something most managers never get, which is time. Ask what would change their mind, and whether it's something you can do. And if the answer is no, help them leave well. You'll keep a friend of the business, and the rest of the team will notice."
+    }
+   ]
+  },
+  {
+   "heading": "When they do quit: notice rules in Nova Scotia and leaving well",
+   "visuals": [
+    "envelope",
+    "desk",
+    "Nova Scotia coast",
+    "lighthouse",
+    "handshake statue",
+    "door handle"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's say you did everything right and someone still decides to go. What are the rules in Nova Scotia?"
+    },
+    {
+     "who": "guest",
+     "text": "As of November twenty twenty six, under Nova Scotia's Labour Standards Code, if someone has worked for you for at least three months but less than two years, they're expected to give you one week's written notice. Two years or more, it's two weeks.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia: employee notice",
+      "text": "3 months to under 2 years: 1 week written notice. 2+ years: 2 weeks",
+      "source": "Nova Scotia Labour Standards",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Under three months, no notice is required. And an employee doesn't have to give notice if the employer broke the terms of the job, for example by not paying wages or cutting pay or hours. Some groups, like unionized workers and on site construction workers, have different rules. Rules vary by province, so if your team is somewhere else, check your own province. This isn't legal advice."
+    },
+    {
+     "who": "host",
+     "text": "And there's a labour code change coming that our listeners should know about."
+    },
+    {
+     "who": "guest",
+     "text": "Yes. In September, the province announced amendments to the Labour Standards Code. The big one for most small employers is that the overtime threshold drops from forty eight hours a week to forty four, along with new protections for tips. Those take effect on April first, twenty twenty seven. The notice periods we just talked about aren't changing.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia overtime",
+      "text": "Overtime threshold drops from 48 to 44 hours a week on April 1, 2027",
+      "source": "Province of Nova Scotia",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Okay. So beyond the rules, how do you handle the actual moment?"
+    },
+    {
+     "who": "guest",
+     "text": "Three things. First, say thank you before you say anything else. Not, who's going to cover your shifts? That's the moment they'll remember."
+    },
+    {
+     "who": "guest",
+     "text": "Second, ask one honest question. What could we have done differently? Then listen and don't argue. You're not trying to change their mind. You're trying to learn something for the people who are staying."
+    },
+    {
+     "who": "guest",
+     "text": "Third, leave the door open. Good people come back, especially in a small town. And the way you treat someone who's leaving is the clearest message the rest of your team will ever get about how much they matter.",
+     "card": {
+      "type": "list",
+      "title": "When someone quits",
+      "items": [
+       "Say thank you first",
+       "Ask one honest question",
+       "Don't argue",
+       "Leave the door open"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Should you make a counter offer?"
+    },
+    {
+     "who": "guest",
+     "text": "Sometimes, if the reason really was pay and you can fix it fairly for everyone in that role. But if the reason is the culture or their manager, a raise just delays the letter. Fix the real thing."
+    }
+   ]
+  },
+  {
+   "heading": "Recap: five things to remember about why good people quit",
+   "visuals": [
+    "notebook",
+    "sticky notes",
+    "checklist",
+    "sunrise"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's wrap it up. Theo, give me the five things."
+    },
+    {
+     "who": "guest",
+     "text": "One. People mostly leave the job around them, not the pay alone. Managers drive at least seventy percent of the difference in engagement, and culture beat pay by about ten to one in predicting who quit.",
+     "card": {
+      "type": "list",
+      "title": "Remember",
+      "items": [
+       "Culture and managers matter most",
+       "Watch for change",
+       "Ask before they go",
+       "Let people grow sideways"
+      ]
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Two. Watch for change, not personality. Less interest in the future, the minimum more often, more complaints about you. A smoke alarm, not a fire."
+    },
+    {
+     "who": "guest",
+     "text": "Three. Ask before they go. Forty five percent of people who quit had no conversation about their future in the three months before they left. A stay conversation costs a coffee."
+    },
+    {
+     "who": "guest",
+     "text": "Four. Recognize specific work soon, and give people room to grow sideways, even in a tiny business."
+    },
+    {
+     "who": "guest",
+     "text": "Five. When someone does leave, know the notice rules, say thank you first, and leave the door open."
+    },
+    {
+     "who": "host",
+     "text": "And remember the lighting story. The lights were never the point. The people were."
+    }
+   ]
+  },
+  {
+   "heading": "Outro",
+   "visuals": [
+    "sunset",
+    "city lights night"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's the episode. If you're hiring someone to replace a person who left, Staffkin can help you write the job description, ask fair interview questions, and plan a solid first few weeks. Try it free at staffkin.com.",
+     "card": {
+      "type": "point",
+      "text": "Try it free at staffkin.com"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Sources for everything we mentioned are in the description. Next week, psychological safety and workplace conflict in Canada. Thanks to Theo, and thanks for listening."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Sam. Go ask somebody why they stay."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Harvard Business School Baker Library: The Hawthorne Studies, introduction",
+   "url": "https://www.library.hbs.edu/hc/hawthorne/intro.html"
+  },
+  {
+   "label": "Baker Library: The illumination tests and the Relay Assembly Test Room",
+   "url": "https://www.library.hbs.edu/hc/hawthorne/03.html"
+  },
+  {
+   "label": "Baker Library: Elton Mayo",
+   "url": "https://www.library.hbs.edu/hc/hawthorne/04.html"
+  },
+  {
+   "label": "Baker Library: The Hawthorne effect and the legacy of the studies",
+   "url": "https://www.library.hbs.edu/hc/hawthorne/09.html"
+  },
+  {
+   "label": "Levitt and List, Was There Really a Hawthorne Effect at the Hawthorne Plant? NBER Working Paper 15016 (2009)",
+   "url": "https://www.nber.org/papers/w15016"
+  },
+  {
+   "label": "Texas A&M Today: Anthony Klotz and the Great Resignation (Feb 2022)",
+   "url": "https://stories.tamu.edu/?p=302178"
+  },
+  {
+   "label": "Fox 13 / Labor Department JOLTS: record 4.5 million quits in November 2021",
+   "url": "https://www.fox13now.com/news/national/a-record-4-5-million-americans-quit-their-jobs-in-november-labor-department-says"
+  },
+  {
+   "label": "MIT Sloan Management Review: Toxic Culture Is Driving the Great Resignation",
+   "url": "https://sloanreview.mit.edu/article/toxic-culture-is-driving-the-great-resignation/"
+  },
+  {
+   "label": "Gallup: Employees Want a Lot More From Their Managers (2015)",
+   "url": "https://gallup.com/workplace/236570/employees-lot-managers.aspx"
+  },
+  {
+   "label": "Gallup: Employee Turnover Is Often Preventable but Ignored (2024, updated 2026)",
+   "url": "https://www.gallup.com/workplace/646538/employee-turnover-preventable-often-ignored.aspx"
+  },
+  {
+   "label": "Gallup: State of the Global Workplace, Canada country data (2026)",
+   "url": "https://www.gallup.com/workplace/704834/state-global-workplace-canada-country-level-data.aspx"
+  },
+  {
+   "label": "Gallup: Is Quiet Quitting Real? (2022)",
+   "url": "https://www.gallup.com/workplace/398306/quiet-quitting-real.aspx"
+  },
+  {
+   "label": "SHRM: 13 Signs Someone Is About to Quit, According to Research (Gardner and Hom)",
+   "url": "https://www.shrm.org/topics-tools/news/employee-relations/13-signs-someone-to-quit-according-to-research"
+  },
+  {
+   "label": "Arizona State W. P. Carey: Thirteen signs someone is about to quit (2016)",
+   "url": "https://news.wpcarey.asu.edu/20161025-thirteen-signs-someone-about-quit-according-research"
+  },
+  {
+   "label": "Social Innovations Journal: stay interviews and turnover among direct support staff (2024)",
+   "url": "https://socialinnovationsjournal.com/index.php/sij/article/view/8971"
+  },
+  {
+   "label": "Canadian HR Reporter: Randstad survey, nearly 1 in 4 Canadian workers looking to switch jobs (Jul 2026)",
+   "url": "https://www.hrreporter.com/focus-areas/recruitment-and-staffing/nearly-1-in-4-canadian-workers-looking-to-switch-jobs-this-year-survey/394645"
+  },
+  {
+   "label": "Canadian HR Reporter: Statistics Canada, job-changing rate lowers for Canadian workers (Feb 2025)",
+   "url": "https://www.hrreporter.com/focus-areas/recruitment-and-staffing/job-changing-rate-lowers-for-canadian-workers-statcan/391184"
+  },
+  {
+   "label": "Statistics Canada, The Daily: Labour Force Survey, October 2026 (Nov 6, 2026)",
+   "url": "https://www150.statcan.gc.ca/daily-quotidien/261106/dq261106a-eng.htm"
+  },
+  {
+   "label": "Nova Scotia Labour Standards: when an employee quits",
+   "url": "https://novascotia.ca/lae/employmentrights/employeenowork.asp"
+  },
+  {
+   "label": "Province of Nova Scotia: Changes to Labour Standards Code (Sep 8, 2026)",
+   "url": "https://news.novascotia.ca/en/2026/09/08/changes-labour-standards-code-will-strengthen-protections-workers"
+  },
+  {
+   "label": "9-8-8 Suicide Crisis Helpline (Canada)",
+   "url": "https://988.ca"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Your team feels calm. It might be a waiting room.",
+   "from": [
+    2,
+    4
+   ],
+   "to": [
+    2,
+    6
+   ],
+   "caption": "Quiet isn't always happy. When the job market softens, unhappy people wait. #management #smallbusiness #novascotia"
+  },
+  {
+   "title": "Pay ranked 16th in why people quit",
+   "from": [
+    3,
+    6
+   ],
+   "to": [
+    3,
+    9
+   ],
+   "caption": "Toxic culture predicted quitting about 10x better than pay. #management #employeeretention #leadership"
+  },
+  {
+   "title": "The lighting experiment that fooled everyone",
+   "from": [
+    0,
+    0
+   ],
+   "to": [
+    0,
+    2
+   ],
+   "caption": "The most famous story in management history is partly a myth. The lesson isn't. #psychology #history #management"
+  },
+  {
+   "title": "The quiet sign your best person is leaving",
+   "from": [
+    6,
+    6
+   ],
+   "to": [
+    6,
+    9
+   ],
+   "caption": "Not signing up for next season is a classic warning sign. #management #employeeretention #smallbusiness"
+  },
+  {
+   "title": "Nobody asked them before they quit",
+   "from": [
+    7,
+    1
+   ],
+   "to": [
+    7,
+    5
+   ],
+   "caption": "45% of people who quit had no conversation about their future first. #management #leadership #smallbusiness"
+  }
+ ]
+}
