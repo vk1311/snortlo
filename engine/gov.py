@@ -219,6 +219,15 @@ def render(clip_path, out):
 if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "days": print(session_days()[-30:])
+    elif cmd == "unused":
+        # Unused session days, newest first, with the cached candidate count (None = not scanned yet).
+        here = os.path.dirname(os.path.abspath(__file__)); gdir = os.path.join(here, "..", "gov")
+        used = {l.split()[0] for l in open(os.path.join(gdir, "used.txt")) if l.strip()}
+        for d in reversed(session_days()):
+            if d in used: continue
+            f = os.path.join(gdir, f"candidates-{d}.json")
+            n = len(json.load(open(f))) if os.path.exists(f) else None
+            print(d, n)
     elif cmd == "find":
         day = sys.argv[2] if len(sys.argv) > 2 else session_days()[-1]
         for c in find(day, int(sys.argv[3]) if len(sys.argv) > 3 else 8): print(json.dumps(c)[:400])

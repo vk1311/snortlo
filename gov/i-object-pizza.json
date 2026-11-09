@@ -1,0 +1,14 @@
+{
+ "day": "20260720",
+ "start": 17121.9,
+ "end": 17150.56,
+ "end_on_word": "object",
+ "tail": 0.6,
+ "top_text": "Me: \"Great, so we all agree on pizza.\"|My brother, one second later:",
+ "sfx": [
+  {"at_word": "object", "name": "vineboom", "delay": 0.05, "gain": 0.8},
+  {"at_word": "object", "name": "laughtrack", "delay": 0.8, "gain": 0.45}
+ ],
+ "hold_end": 2.2,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-07-20, caption clock 17121.9-17150.56; the chair announces a bill passed on a voice vote and a member immediately objects to the vote; procedural moment only, no policy content in clip"
+}
