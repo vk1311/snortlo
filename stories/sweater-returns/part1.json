@@ -1,0 +1,444 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": false,
+ "min_seconds": 61,
+ "theme": "customers",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR HUSBAND",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "A woman has returned the exact same ugly Christmas sweater to my store six years in a row.",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "ONE EYED|REINDEER",
+    "bg1": "#DFF3E2",
+    "bg2": "#4E9A5E"
+   },
+   "text": "Green. A reindeer with one googly eye, and a nose that blinks.",
+   "sfx": "boing"
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "Every December she slaps it on the counter and says, it was a gift. I don't want it.",
+   "sfx": "slap",
+   "speaker": "co2",
+   "bubble": {
+    "text": "I DON'T|WANT IT",
+    "x": 320,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 320,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "act": "talk",
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "And every year she has a brand new receipt. From our store. Dated that same week.",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "Here's the thing. We stopped ordering that sweater six years ago. It is the only one left.",
+   "sfx": "dundun",
+   "cards": [
+    "SOLD",
+    "OUT",
+    "2020"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "After every return, it goes on the clearance rack. Nine ninety nine.",
+   "sfx": "cashregister",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "So this year I watched the rack. Two days later, a man walks straight to it, like he's on a mission.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 150,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 950,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "to": 620
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "HER|HUSBAND",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "text": "It was her husband.",
+   "sfx": "busted",
+   "meme": "shake",
+   "slow": true,
+   "pause": 0.6
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "He's been buying it back every year as her Christmas present. The same sweater. Six times.",
+   "sfx": "gasp",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 320,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "I told her. She went pale. She goes, he thinks I love it?",
+   "sfx": "waitwhat",
+   "speaker": "co2",
+   "bubble": {
+    "text": "HE THINKS|I LOVE IT?",
+    "x": 320,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 320,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "co2"
+   }
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "Turns out the only time he ever sees her wear it is on the way here. To return it.",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "So he thinks it's her favourite. And she thinks he has the worst taste on the planet.",
+   "sfx": "oof",
+   "cards": [
+    "HIM",
+    "HER",
+    "ME"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "Next morning, the husband is at my counter. Holding the sweater.",
+   "sfx": "doorslam",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 320,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "pause": 0.5
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "He goes, my wife gave me this for my birthday. I'd like to return it.",
+   "sfx": "clownhorn",
+   "speaker": "co1",
+   "bubble": {
+    "text": "I'D LIKE TO|RETURN IT",
+    "x": 320,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 320,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "act": "talk",
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "co1"
+   }
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "whiteboard": "RETURNS|DESK"
+   },
+   "text": "It's back on the clearance rack. Nine ninety nine. Please. Somebody take it.",
+   "sfx": "sadtrombone",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "pause": 1.0
+  }
+ ]
+}

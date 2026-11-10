@@ -1,0 +1,65 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #48",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "school",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR STUDY BUDDY",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "The \"night before the test\"|starter pack:",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "phone": true,
+    "clock": "2:14"
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "drink",
+     "hold": "cup",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cards": [
+    "COLA",
+    "CHIPS",
+    "PANIC"
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Making flashcards for two hours|and reading none of them:",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "FLASHCARDS",
+     "made: 140",
+     "read: 0"
+    ],
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "sfx": "phonk"
+  }
+ ]
+}
