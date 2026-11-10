@@ -406,3 +406,13 @@ Brand queues not read for the clash check (ask_postiz has no OpenAI key); used t
 | Sun Nov 22 12:00 | Short 3 "The lighting experiment that fooled everyone" | -short3.mp4 | Staffkin YT, FB, IG | cmw8x9ems00c6o276v11njyhq, cmw8x9eo700c7o276dy1ofz8h, cmw8x9eqx00c8o276egltw4xk |
 | Mon Nov 23 12:00 | Short 4 "The quiet sign your best person is leaving" | -short4.mp4 | Staffkin YT, FB, IG | cmw8x9ers00c9o276ainwpuw0, cmw8x9evp00cao276142x1y3w, cmw8x9f1700cbo276chroz112 |
 | Tue Nov 24 12:00 | Short 5 "Nobody asked them before they quit" | -short5.mp4 | Staffkin YT, FB, IG | cmw8x9f2700cco276rhttnpoi, cmw8x9f2q00cdo276s8q7b1ac, cmw8x9f3b00ceo2767hio7eua |
+
+## Tue 2026-11-10 (nightly run; times AST, UTC-4)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #47 "POV: you told your dad you paid a guy to change your oil / Dad, four minutes later, in my driveway with a flashlight" (pov, phonk, long, unvoiced, no deepfry, family; 14.2 s) | meme-dad-oil-change.mp4 | YouTube, Facebook, Instagram | cmwa8j83u00cfo2766lbeqnqi, cmwa8j84b00cgo2764osiooy6, cmwa8j84t00cho276v6pj23gf |
+| 09:00 | Story "sweater-returns" (1 part, shock_statement hook, customers, am_puck, no music, all_lowercase): "a woman returned the same ugly christmas sweater six years in a row #shorts" (66.2 s, 222 words) | sweater-returns-part1.mp4 | YouTube, Facebook, Instagram | cmwa8j85b00cio276guh1vleh, cmwa8j86200cjo276lumhsapu, cmwa8j86p00cko276t9rbd92a |
+| 11:00 | Meme B, Lo vs Life #48 "The 'night before the test' starter pack" (starter_pack, phonk, short, unvoiced, no deepfry, school; 8.1 s; picked 08:00, moved 2 h past the story and 2 h before Congress) | meme-flashcards-pack.mp4 | YouTube, Facebook, Instagram (1-part day) | cmwa8j88y00clo276m2n3fv2b, cmwa8j8at00cmo276kkog5yvc, cmwa8j8dk00cno276ttc3i140 |
+| 13:00 | Congress Moment "outvoted-no" (2026-11-09 floor: chair calls a voice vote on a suspension, "those opposed, no", rules two thirds in the affirmative; procedural only; chair is R; 16.2 s) | gov-outvoted-no.mp4 | Facebook, YouTube (1-part day, 4th upload) | cmwa8j8ey00coo276n9jgejfg, cmwa8j8gd00cpo276eq3s2fvh |
+
+YouTube uploads today: 4. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Tuesday: no podcast, no Lo Explains, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (15 lines, 154 s). Full cut = copy of part 1. Housekeeping: nothing older than 8 days left (Nov 1 media already deleted; pod-staffkin-ep01 kept, last Short today).
