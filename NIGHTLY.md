@@ -5,7 +5,7 @@
 - Voices come from Qwen3 house voices on Kaggle at 1.10x, with a fail-safe (engine/voice_backend.py, engine/nightly.py).
 - New Snortlo series "Lo Explains" posts Mon, Wed and Fri in meme B's slot (CONCEPTS.md).
 
-**Oct 26, 2026: the YouTube cap drops from 5 to 4 Snortlo uploads a day.** The owner's new Keegix Podcast and Staffkin Podcast (see PODCAST_FORMAT.md) use up to 2 uploads a day from the same shared Google quota (about 6 a day for all channels). The owner is asking Google for a free quota increase; once approved, the cap goes back to 5.
+**Nov 11, 2026: Google approved the quota increase. An upload now costs 1 unit instead of 1,600, and the shared project allows 100 uploads a day, so the Snortlo YouTube cap is back to 5** (it was 4 from Oct 26). Google granted the quota only for the use case in the application (our own original videos on our own channels via Postiz), so stay within that.
 
 Owner approved on Oct 15, 2026 (after the first-week analytics review):
 - 1–2 part stories where every part stands on its own
@@ -34,12 +34,12 @@ Every meme is an episode of Lo vs Life. See STORY_FORMAT.md for the series tag, 
 | Meme A (its post_hour) | yes | yes | yes |
 | Meme B (its post_hour, moved 2 h if it clashes with A or the story) | **yes (new)**, except Mon/Wed/Fri when Lo Explains takes this slot | yes | no |
 | Lo Explains (Mon/Wed/Fri, at meme B's hour) | yes | yes | only on 1-part days |
-| Congress Moment, 13:00 (if gov/ENABLED) | only when it fits the 4-upload cap (1-part days, never Friday) | daily | **no** |
+| Congress Moment, 13:00 (if gov/ENABLED) | when it fits the 5-upload cap (always on non-Fridays) | daily | **no** |
 | Sleep stories, Fridays 21:00 (if longform/ENABLED) | yes | yes | no |
 | Story full cut, Wednesdays (2 h after Part 1) | **no (paused)** | yes | no |
 | Weekly compilation, Sundays 12:00 | **no (paused)** | yes | no |
 
-- **YouTube:** at most **4** uploads a day. Fill in this order: the story parts (1 or 2), meme A, meme B, then Congress. On Fridays the sleep story takes the last slot (so Congress is off YouTube, and on 2-part Fridays meme B is too). 2-part day = Part 1, Part 2, meme A, meme B. 1-part day = the story, meme A, meme B, Congress. The upload quota is shared with the owner's other channels, so never go over 4.
+- **YouTube:** at most **5** uploads a day (since Nov 11, 2026). Fill in this order: the story parts (1 or 2), meme A, the 3rd item (Lo Explains on Mon/Wed/Fri, otherwise meme B), Congress, then meme B on Lo Explains days. On Fridays the sleep story takes the last slot. Count before scheduling and never go over 5.
 - **Instagram:** 3 reels a day: Part 2, Part 1 and meme A, or on 1-part days the story plus memes A and B. Reach stalled after Oct 11 while we were posting 6 a day.
 - **Share stickers:** every meme and every Part 2 ends with a "SEND THIS TO YOUR …" sticker (`end_card`, see STORY_FORMAT.md). Part 1 ends with "PART 2 IS UP / ON THE PROFILE".
 - **Experiments:** log both memes (A and B) with log_post.py now that both go to YouTube.

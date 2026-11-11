@@ -1,3 +1,5 @@
+**APPROVED Nov 11, 2026:** uploads now cost 1 unit; 100 uploads a day for the project. Snortlo cap set back to 5.
+
 # YouTube upload quota increase (for the owner to submit)
 
 All 4 YouTube channels (Snortlo, Keegix, Staffkin, Waypoint Software) post through one Google Cloud project
