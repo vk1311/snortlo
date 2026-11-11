@@ -416,3 +416,15 @@ Brand queues not read for the clash check (ask_postiz has no OpenAI key); used t
 | 13:00 | Congress Moment "outvoted-no" (2026-11-09 floor: chair calls a voice vote on a suspension, "those opposed, no", rules two thirds in the affirmative; procedural only; chair is R; 16.2 s) | gov-outvoted-no.mp4 | Facebook, YouTube (1-part day, 4th upload) | cmwa8j8ey00coo276n9jgejfg, cmwa8j8gd00cpo276eq3s2fvh |
 
 YouTube uploads today: 4. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Tuesday: no podcast, no Lo Explains, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (15 lines, 154 s). Full cut = copy of part 1. Housekeeping: nothing older than 8 days left (Nov 1 media already deleted; pod-staffkin-ep01 kept, last Short today).
+
+## Wed 2026-11-11 (nightly run; times AST, UTC-4)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme A, Lo vs Life #49 "The mom's freezer starter pack" (starter_pack, bonecrack, long, unvoiced, no deepfry, food; 14.6 s) | meme-moms-freezer-pack.mp4 | YouTube, Facebook, Instagram | cmwbnzmm800cqo276aipzcjit, cmwbnzmmq00cro276n73xpznb, cmwbnzmnm00cso276ven7cjl2 |
+| 09:00 | Story "lights-standoff" (1 part, question hook, seasonal, am_michael, music, all_lowercase): "why has every house on my street had christmas lights up for two weeks and not one is on? #shorts" (69.5 s, 183 words) | lights-standoff-part1.mp4 | YouTube, Facebook, Instagram | cmwbnzmod00cto2761f8un3z4, cmwbnzmpo00cuo2769eh7tho0, cmwbnzmre00cvo276vl31han5 |
+| 11:00 | Story full cut (Wednesday) | lights-standoff-full.mp4 | Facebook | cmwbnzmsm00cwo276r99yhmo2 |
+| 13:00 | Congress Moment "will-suspend" (2026-11-10 floor: member asks unanimous consent, chair tells him to suspend mid-sentence; procedural only, party ?; 12.2 s) | gov-will-suspend.mp4 | YouTube (4th upload), Facebook | cmwbnzmtu00cxo276fbeburxu, cmwbnzmvc00cyo276bss6cr1p |
+| 15:00 | Lo Explains #7 "Why is the milk always at the back of the store?" (58.1 s; sources NPR Planet Money via TPR, Mental Floss; meme B's 08:00 moved past the story, full cut and Congress) | milk-at-back-part1.mp4 | YouTube, Facebook, Instagram (1-part day) | cmwbnzmyi00czo276i887ark2, cmwbnzn0900d0o2764qzyqpf9, cmwbnzn1l00d1o276kmea4jwx |
+| 17:00 | Meme B, Lo vs Life #50 "Show and tell: mom's bag of bags" (teacher_class, phonk, long, unvoiced, no deepfry, family; Wed = FB only) | meme-bag-of-bags.mp4 | Facebook | cmwbnzn2o00d2o276uuz8ghj1 |
+
+YouTube uploads today: 4 (meme A, story, Congress, Lo Explains). Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Wednesday: no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (25 lines, 263 s). Full cut = copy of part 1. Congress: Nov 10 scanned for the first time (8 candidates; most were partisan speeches, took the procedural cut-off). Housekeeping: deleted Nov 2 media (label-everything-*, first-speeding-ticket-*, meme-call-me-anytime, meme-camera-on-day-one) and pod-staffkin-ep01-* (last Short published Nov 10).

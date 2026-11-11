@@ -97,6 +97,10 @@ def layout_warnings(d):
                     warn.append(f"beat {i}: {c.get('who')} at x={c.get('x')} stands over the living-room TV (keep x < 600)")
         if b.get("cards") and (b.get("cam") or {}).get("zoom", 1) > 1.1:
             warn.append(f"beat {i}: cards with a cam zoom get cropped")
+        st = b.get("state") or {}
+        busy = [k for k in ("whiteboard", "board", "sign") if st.get(k)]
+        if b.get("cards") and busy:  # Nov 11: cards covered "BUILD THE BASKET" and "SHOW AND TELL"
+            warn.append(f"beat {i}: cards pop in over the {busy[0]} text; blank it on this beat")
         long_cards = [t for t in b.get("cards", []) if len(str(t)) > 5]
         if long_cards:  # Nov 10: "COFFEE" + "SNACKS" overlapped side by side
             warn.append(f"beat {i}: cards longer than 5 characters overlap their neighbours: {long_cards}")
