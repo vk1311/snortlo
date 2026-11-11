@@ -1,0 +1,206 @@
+{
+ "channel": "Snortlo",
+ "series": "Lo Explains #7",
+ "format": "concept",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR ROOMMATE",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WHY|BACK?",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   },
+   "text": "Why is the milk always at the very back of the grocery store? You came for one thing. Now you're on a hike.",
+   "sfx": "vineboom"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [],
+    "clock": "6:00"
+   },
+   "text": "Most people think it's a trap. And okay. A little bit, it is.",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 800,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Store people even have a name for it. Building the basket. On your way to the milk, you pass chips, cake and soap you did not need.",
+   "sfx": "cashregister",
+   "cards": [
+    "CHIPS",
+    "CAKE",
+    "SOAP"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WAIT|WHAT?",
+    "bg1": "#F7EEDC",
+    "bg2": "#D2A65A"
+   },
+   "text": "But here's the part nobody tells you. The real boss of the store is the fridge.",
+   "sfx": "waitwhat"
+  },
+  {
+   "set": "street",
+   "text": "Delivery trucks unload at the back. And milk has to stay cold the whole way. Cold truck. Cold room. Cold shelf.",
+   "sfx": "whoosh",
+   "cards": [
+    "TRUCK",
+    "ROOM",
+    "SHELF"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "LOADING|DOCK",
+    "cooler": false
+   },
+   "text": "So the giant cold room sits right by the loading dock, and the milk goes right in front of it. Less walking. Less money.",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "70 TO 80|YEARS",
+    "cooler": false
+   },
+   "text": "One supermarket consultant told N P R stores have done it this way for seventy to eighty years.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "BOOK|STORE",
+    "cooler": false
+   },
+   "text": "And an economist pointed out, if hiding things worked, bookstores would hide the bestsellers. They don't.",
+   "sfx": "roast",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BOTH",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "text": "So who's right? Basically, both. The fridge picked the spot. The cookies just got lucky.",
+   "sfx": "rimshot"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [],
+    "clock": "7:30"
+   },
+   "text": "Anyway. I went in for milk. I came out with cake, soap, and no milk.",
+   "sfx": "sadtrombone",
+   "meme": "shake",
+   "pause": 0.8,
+   "cast": [
+    {
+     "who": "me",
+     "x": 800,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "hold": "lunch"
+    }
+   ]
+  }
+ ]
+}

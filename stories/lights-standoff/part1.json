@@ -1,0 +1,426 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_michael",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "seasonal",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR NEIGHBOUR",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "Why has every house on my street had Christmas lights up for two weeks, and not one of them is on?",
+   "sfx": "vineboom",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "LIGHTS:|OFF",
+    "bg1": "#E3E8F7",
+    "bg2": "#5B6BA8"
+   },
+   "text": "Fourteen houses. Fully decorated. Pitch black.",
+   "sfx": "crickets"
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "So I asked my neighbour Dave. He looked left. He looked right. Then he whispered.",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "Nobody goes first. Whoever turns on first is the too early house.",
+   "sfx": "dundun",
+   "speaker": "co1",
+   "bubble": {
+    "text": "NOBODY|GOES FIRST",
+    "x": 700,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "Last year it was Dave. November tenth. People still call him Mister November.",
+   "sfx": "clownhorn",
+   "cards": [
+    "NOV",
+    "10TH",
+    "DAVE"
+   ],
+   "cast": [
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "STREET RULES",
+     "1. NOBODY",
+     "GOES FIRST"
+    ],
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "text": "There's even a group chat. Pinned message. Rule number one, nobody goes first.",
+   "sfx": "textbuzz"
+  },
+  {
+   "set": "living",
+   "state": {
+    "dark": true
+   },
+   "text": "So every night, fourteen grown men stand at fourteen windows, holding the plug.",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "Then last night, at nine sharp, the house on the corner lights up.",
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 880,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "GRANDMA|JOAN",
+    "bg1": "#F7E1E8",
+    "bg2": "#C47A93"
+   },
+   "text": "It's Grandma Joan. She's eighty seven. She fears nothing.",
+   "sfx": "busted",
+   "meme": "shake",
+   "slow": true,
+   "pause": 0.5
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "Four seconds later, the whole street is on. Like a stadium.",
+   "sfx": "airhorn",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 540,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 880,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "Dave actually cried. He said, it's over. I'm free.",
+   "sfx": "aww",
+   "speaker": "co1",
+   "bubble": {
+    "text": "I'M|FREE",
+    "x": 620,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 640,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "closed",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "This morning Grandma Joan came out, looked at the street, and frowned.",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "She goes, oh, I was just testing the bulbs.",
+   "sfx": "waitwhat",
+   "speaker": "co3",
+   "bubble": {
+    "text": "JUST TESTING|THE BULBS",
+    "x": 700,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "co3"
+   }
+  },
+  {
+   "set": "street",
+   "state": {
+    "night": true
+   },
+   "text": "Her lights are off again. Ours are not. We are now the too early street.",
+   "sfx": "sadtrombone",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "dark": true
+   },
+   "text": "And Dave is back at his window. Watching the next street over.",
+   "sfx": "bruh",
+   "pause": 1.0,
+   "cast": [
+    {
+     "who": "co1",
+     "x": 400,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     }
+    }
+   ]
+  }
+ ]
+}

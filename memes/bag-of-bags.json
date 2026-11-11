@@ -1,0 +1,122 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #50",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "family",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Teacher: \"Bring something special|from home for show and tell\"",
+   "set": "classroom",
+   "state": {
+    "board": "SHOW AND|TELL",
+    "clock": "9:05"
+   },
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "The other kids: a rock collection,|a hamster, a trophy",
+   "set": "classroom",
+   "state": {
+    "board": "",
+    "clock": "9:10"
+   },
+   "sfx": "pop",
+   "cards": [
+    "ROCK",
+    "PET",
+    "CUP"
+   ],
+   "cast": [
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me, holding up my mom's|bag full of plastic bags:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BAG OF|BAGS",
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "sfx": "aura"
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Mom at 3:05 PM, finding out|the bag of bags left the house:",
+   "set": "classroom",
+   "state": {
+    "board": "",
+    "clock": "3:05"
+   },
+   "sfx": "phonk",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 540,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.8,
+      "steam": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "co1"
+   }
+  }
+ ]
+}

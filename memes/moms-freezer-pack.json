@@ -1,0 +1,107 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #49",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "food",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "The \"mom's freezer\"|starter pack:",
+   "set": "kitchen",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [],
+    "clock": "6:00"
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 800,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cards": [
+    "TUBS",
+    "BAGS",
+    "PEAS"
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "An ice cream tub that has|never had ice cream in it:",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "VANILLA",
+     "(it's chili)",
+     "since 2019"
+    ],
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "sfx": "ding"
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "One bag of frozen peas that has|been an ice pack since 1998:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "PEAS|SINCE 98",
+    "bg1": "#E2F3E0",
+    "bg2": "#6FAF6A"
+   },
+   "sfx": "slideup"
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me at 30, opening the ice cream|at mom's house at midnight:",
+   "set": "night",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [],
+    "clock": "12:04"
+   },
+   "sfx": "bonecrack",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 800,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true,
+      "red": 0.5
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.6,
+    "on": "me"
+   }
+  }
+ ]
+}
