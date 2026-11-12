@@ -27,7 +27,6 @@
   "title_style": [
    "emoji_end",
    "all_lowercase",
-   "caps_word",
    "quote_from_story"
   ],
   "part1_hour": [
@@ -97,5 +96,8 @@
    "friends",
    "election_aftermath"
   ]
- }
+ },
+ "_retired": [
+  "2026-11-12 story title_style caps_word (5.37, n=13; all_lowercase 6.11, n=22)"
+ ]
 }

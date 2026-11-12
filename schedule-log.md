@@ -428,3 +428,13 @@ YouTube uploads today: 4. Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Tue
 | 17:00 | Meme B, Lo vs Life #50 "Show and tell: mom's bag of bags" (teacher_class, phonk, long, unvoiced, no deepfry, family; Wed = FB only) | meme-bag-of-bags.mp4 | Facebook | cmwbnzn2o00d2o276uuz8ghj1 |
 
 YouTube uploads today: 4 (meme A, story, Congress, Lo Explains). Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Wednesday: no podcast, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (25 lines, 263 s). Full cut = copy of part 1. Congress: Nov 10 scanned for the first time (8 candidates; most were partisan speeches, took the procedural cut-off). Housekeeping: deleted Nov 2 media (label-everything-*, first-speeding-ticket-*, meme-call-me-anytime, meme-camera-on-day-one) and pod-staffkin-ep01-* (last Short published Nov 10).
+
+## Thu 2026-11-12 (nightly run; times AST, UTC-4)
+| Time | Item | File | Channels | Postiz IDs |
+|---|---|---|---|---|
+| 08:00 | Meme B, Lo vs Life #52 "The grandma's house starter pack / You look thin. Eat something. / You eat like a bird." (starter_pack, phonk, long, voiced, no deepfry, family; 12.8 s) | meme-grandmas-house-pack.mp4 | YouTube, Facebook, Instagram (1-part day) | cmwd3ubnf00dro276op6acjuu, cmwd3ubny00dso27647wm8nwo, cmwd3ubos00dto2765rwif65d |
+| 13:00 | Congress Moment "army-navy" (2026-11-11 floor: member yielding time says a colleague served in the Army, corrects to Navy, "oh my god"; clip starts after the preceding partisan sentence; party ?; 18.0 s) | gov-army-navy.mp4 | Facebook, YouTube (4th upload) | cmwd3ubqv00duo2764yxkg5rv, cmwd3ubu600dvo2766pd1hiu7 |
+| 17:00 | Story "three-dinner-rules" (1 part, number_list hook, dating, am_puck, no music, caps_word): "I broke ALL three rules at my girlfriend's family dinner #shorts" (73.0 s, 205 words) | three-dinner-rules-part1.mp4 | YouTube, Facebook, Instagram | cmwd3ubw200dwo276hz5shioc, cmwd3ubwm00dxo276y7vh4686, cmwd3ubxn00dyo2762fqryn2j |
+| 20:00 | Meme A, Lo vs Life #51 "The dad on a road trip starter pack" (starter_pack, phonk, long, unvoiced, no deepfry, family; 14.6 s) | meme-road-trip-dad-pack.mp4 | YouTube, Facebook, Instagram | cmwd3ubyn00dzo276rjwpg8jh, cmwd3ubzb00e0o27692zw0s6z, cmwd3uc0y00e1o276w25shcn7 |
+
+YouTube uploads today: 4 (meme B, Congress, story, meme A). Instagram: 3. TikTok skipped (no TIKTOK_APPROVED). Thursday: no podcast, no Lo Explains, no deferred episodes. Voices: Qwen3 on Kaggle, OK first try (22 lines, 197 s) + story re-voice (175 s). Full cut = copy of part 1. Congress: first Congress render showed the wrong moment (alignment bug, fixed in gov.py) and was re-cut before scheduling. Housekeeping: deleted Nov 3 media (leaf-war-*, meme-didnt-read-email, meme-lunch-week-plan).
