@@ -8,7 +8,8 @@ A = lambda n: os.path.join(HERE, "brand_assets", n)
 BRANDS = {
     "keegix": {
         "show": "Keegix Podcast",
-        "host": {"name": "June", "role": "Host", "voice": "af_bella"},
+        "host": {"name": "Nicole", "role": "Host", "voice": "af_nicole"},
+        "guest_voice": "bm_daniel",            # fixed second voice (Vatsal, Nov 11)
         "speed": 1.04,
         "bg": ("#15304A", "#0E2236"),          # harbour navy -> deep navy
         "glows": ("#F4C430", "#E3ECE9", "#2F5C80"),
@@ -31,7 +32,8 @@ BRANDS = {
     },
     "staffkin": {
         "show": "Staffkin Podcast",
-        "host": {"name": "Sam", "role": "Host", "voice": "am_michael"},
+        "host": {"name": "Eric", "role": "Host", "voice": "am_eric"},
+        "guest_voice": "am_adam",              # fixed second voice (Vatsal, Nov 11)
         "speed": 1.04,
         "bg": ("#2E2A6B", "#23213F"),          # indigo -> ink
         "glows": ("#7B8CF5", "#EEF0FD", "#4A44A0"),

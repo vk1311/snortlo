@@ -568,6 +568,8 @@ def build(script_path, out_mp4, res=(1280, 720), test=None):
     ep = json.load(open(script_path))
     B = BRANDS[ep["brand"]]
     guest = ep["guest"]
+    if B.get("guest_voice"):   # each show has a fixed second voice (Vatsal, Nov 11, 2026)
+        guest = {**guest, "voice": B["guest_voice"]}
     host = B["host"]
     assert guest["voice"] != host["voice"], "guest voice must differ from the host's"
     stem = os.path.splitext(out_mp4)[0]
@@ -589,7 +591,7 @@ def build(script_path, out_mp4, res=(1280, 720), test=None):
     from voice_backend import voice_lines
     lines = [((host if e["who"] == "host" else guest)["voice"], e["text"]) for e in events]
     t0 = time.time()
-    arrays = voice_lines(lines, tempo=float(os.environ.get("VOICE_TEMPO", "1.10")))
+    arrays = voice_lines(lines, tempo=float(os.environ.get("PODCAST_TEMPO", "1.0")))   # normal speed: 1.10x hurt his head (Nov 10)
     for i, (e, a) in enumerate(zip(events, arrays)):
         e["tts"] = os.path.join(work, f"v{i:04d}.npy"); np.save(e["tts"], a)
     log(f"TTS done in {time.time() - t0:.0f}s")

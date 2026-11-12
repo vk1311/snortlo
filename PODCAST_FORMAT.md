@@ -17,7 +17,9 @@ Voices: the `voice` names below are the house voices in engine/voices/ (Qwen3-TT
 |---|---|---|
 | Airs | Tuesdays 10:00 Halifax | Thursdays 10:00 Halifax |
 | Scope | The whole B&B and short-term rental industry, worldwide, with Canadian examples: growing bookings, rules and how they're enforced, real host problems (Reddit threads retold), local guides, standards and minimums | Workplace psychology for people who manage people: burnout, power plays, why people quit, conflict, motivation. Every episode mixes the psychology, a bit of history, and real workplace situations |
-| Host (fixed) | **June**, voice `af_bella` | **Sam**, voice `am_michael` |
+| Host (fixed) | **Nicole**, voice `af_nicole` | **Eric**, voice `am_eric` |
+| Second voice (fixed) | `bm_daniel` (the guest character, any name) | `am_adam` (the guest character, any name) |
+| Speed | normal (1.0x) | normal (1.0x) |
 | Brand mention | Once mid-episode and once at the end, max | Once mid-episode and once at the end, max |
 | CTA | keegix.com/start (free for one property) or a free Keegix tool that fits the topic, e.g. keegix.com/airbnb-house-rules | "Try it free at staffkin.com" |
 | Spelling | Canadian (colour, neighbour, centre) | Canadian (behaviour, labour, centre) |
@@ -41,7 +43,7 @@ Voices: the `voice` names below are the house voices in engine/voices/ (Qwen3-TT
 The Qwen3 house voices at 1.10x speak about 3 words a second including pauses, so 3,700 words is about 20.5 minutes. Under 3,700 words the episode comes out under 20 minutes (Keegix ep 1 at 3,346 words was 18.4 min).
 
 1. **Cold open** (30 to 45 s): the most surprising fact or situation from the episode. No hello yet.
-2. **Intro** (about 1 min): show name, "I'm June", what the episode covers, introduce the guest as a character ("Rowan plays…", "not a real person").
+2. **Intro** (about 1 min): show name, "I'm Nicole" / "I'm Eric", what the episode covers, introduce the guest as a character ("Rowan plays…", "not a real person").
 2b. **In the news** (60 to 90 s, optional): real news from the last 14 days, sourced, "as of <date>". See CONCEPTS.md for where to look. Skip it if there's nothing real.
 3. **4 or 5 main segments** (3 to 5 min each). Each has a clear heading that reads like a search query or chapter title.
 4. **Mid-episode brand mention** (2 or 3 sentences, natural, after segment 2 or 3).
@@ -89,7 +91,7 @@ One file per episode: `podcasts/<brand>/<slug>.json`, slug like `keegix-ep01-str
 }
 ```
 
-- `guest.voice`: pick one not used in the last 3 episodes of that show. Good choices: `bm_george`, `bf_emma`, `am_adam`, `af_nicole`, `bm_lewis`, `af_sarah`, `am_eric`, `bf_isabella`, `af_kore`, `bm_daniel`. Never the host's voice.
+- `guest.voice`: always the show's fixed second voice: `bm_daniel` for Keegix, `am_adam` for Staffkin (Vatsal, Nov 11, 2026). The renderer enforces it. The guest's name and role can still change each episode.
 - `segments[].heading`: shown on screen and used as the YouTube chapter title.
 - `segments[].visuals`: **required**, 4 to 8 photo searches per segment (1 to 3 plain words each) that match what's being said, in order: places, objects, scenes, e.g. "Halifax waterfront", "smoke alarm", "typewriter", "warehouse shelves". Each search brings up to 3 CC0 / public-domain photos (Openverse, Wikimedia Commons, NASA), so 6 searches fill a 4-minute segment without repeats. No people searches, no brand logos, never a person's name. (`broll`, a single search, still works as a fallback.)
 - `lines[].card`: optional on-screen card that stays up until the next card or the end of the segment. `"card": "clear"` removes it. Types:

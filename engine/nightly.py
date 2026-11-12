@@ -39,7 +39,8 @@ def lines_for(path):
     elif k == "podcast":
         import podcast as P
         from podcast_brands import BRANDS
-        host, guest = BRANDS[d["brand"]]["host"], d["guest"]
+        B = BRANDS[d["brand"]]
+        host, guest = B["host"], ({**d["guest"], "voice": B["guest_voice"]} if B.get("guest_voice") else d["guest"])
         for seg in d["segments"]:
             for ln in seg["lines"]:
                 for s in P.sentences(ln["text"]):

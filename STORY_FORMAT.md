@@ -91,7 +91,7 @@ Short (6–16 s) recreations of well-known meme formats, drawn with our cast. To
 - Layout: white caption band on top, scene below, karaoke captions near the bottom.
 - `top_text`: the meme caption for that beat ("Nobody:", "Me at 3 AM:", "POV: …"; `|` = new line).
 - `text` may be empty for a silent reaction shot; then set `hold` (seconds). A punch `sfx` on a silent shot hits as the shot appears.
-- `voice` per beat lets characters sound different (e.g. mom = af_bella).
+- `voice` per beat lets characters sound different (e.g. mom = af_nicole). Side-character voices (Vatsal, Nov 11, 2026): women `af_nicole`; men `am_adam` or `bm_daniel`; `bm_george` / `bm_lewis` also fine on Snortlo. Never `af_bella` or `am_michael` (he rejected them). Narrator stays `am_puck`.
 - `meme: "deepfry"` = crushed, oversaturated, grainy look from the punch onwards. Use on the final punch only.
 - Recreate the *format*, never the original image, clip or character. No copyrighted characters, no real people.
 - **Recurring series "Lo vs Life" (since Oct 16, 2026):** every meme stars **Lo**, our teal-cap guy (cast `me`), against everyday life: his wife, mom, brother, bestie, boss, money and sleep.
