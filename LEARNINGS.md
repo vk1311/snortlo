@@ -47,8 +47,8 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - election_aftermath theme ended Nov 8 (overrides.json window over; pick.py won't pick it again).
 
 ## Proposals for Vatsal (Sunday review; each is also a Sit-Down List item)
-- 2026-11-08: Make every story 1 part (retire 2-part stories). 1-part averages 6.09 (n=14) vs 2-part 5.49 (n=8), and a 1-part day frees a YouTube slot for meme B or Congress. Yes/no?
-- 2026-11-08: Make am_puck the only story narrator (drop am_michael and af_bella from the story voice arms). am_puck 6.35 (n=17) vs af_bella 5.41 (n=13) and am_michael 5.36 (n=9). Yes/no?
+- APPROVED by Vatsal Nov 11, 2026 (arms.json now parts [1]): Make every story 1 part (retire 2-part stories). 1-part averages 6.09 (n=14) vs 2-part 5.49 (n=8), and a 1-part day frees a YouTube slot for meme B or Congress. Yes/no?
+- APPROVED by Vatsal Nov 11, 2026 (arms.json now narrator_voice [am_puck]): Make am_puck the only story narrator (drop am_michael and af_bella from the story voice arms). am_puck 6.35 (n=17) vs af_bella 5.41 (n=13) and am_michael 5.36 (n=9). Yes/no?
 
 ## Night log (newest first; keep the last 14 nights, one to three lines each)
 - 2026-11-11 (Wed): clean run, Kaggle OK first try (25 lines, 263 s). QC: cards popped in over a filled whiteboard (Lo Explains) and classroom board (meme B); blanked both and re-rendered. Root fix: `layout_warnings` now flags cards on any beat whose whiteboard/board/sign has text (tested). Congress: first scan of Nov 10; 6 of 8 candidates were partisan speeches, took the procedural 'gentleman will suspend' cut-off. Numbers: am_michael keeps trailing (5.47, n=10) vs am_puck 6.36 (n=19); starter_pack memes trail (4.94, n=2), tonight is the 3rd sample.
