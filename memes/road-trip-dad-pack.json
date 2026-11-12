@@ -1,0 +1,93 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #51",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "family",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR DAD",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "The \"dad on a road trip\"|starter pack:",
+   "set": "street",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 540,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cards": [
+    "MAP",
+    "GAS",
+    "SNACK"
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "The snacks he packed so we|never have to stop:",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "1 bag pretzels",
+     "for 9 hours",
+     "(shared)"
+    ],
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "sfx": "ding"
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me asking for a bathroom|break, hour 6:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "HOLD IT.|WE'RE MAKING|GOOD TIME",
+    "bg1": "#E2F3E0",
+    "bg2": "#6FAF6A"
+   },
+   "sfx": "slideup"
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Me at 35, driving my own kids,|passing every gas station:",
+   "set": "street",
+   "sfx": "phonk",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  }
+ ]
+}

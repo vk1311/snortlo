@@ -1,0 +1,150 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #52",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "family",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR GRANDMA",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "The \"grandma's house\"|starter pack:",
+   "set": "living",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 400,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cards": [
+    "CANDY",
+    "SOUP",
+    "QUILT"
+   ]
+  },
+  {
+   "text": "Help yourself, sweetie.",
+   "voice": "af_nicole",
+   "top_text": "The candy dish, one solid|block since 1987:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "CANDY|BRICK",
+    "bg1": "#FBE3E3",
+    "bg2": "#C9605A"
+   },
+   "sfx": "bonk"
+  },
+  {
+   "text": "You look thin. Eat something.",
+   "voice": "af_nicole",
+   "top_text": "Grandma, four minutes after|my third plate:",
+   "set": "living",
+   "speaker": "co1",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "worried",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 540,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "text": "Grandma, I just ate three plates.",
+   "top_text": "Me:",
+   "set": "living",
+   "speaker": "me",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 540,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "That's why you're so thin. You eat like a bird.",
+   "voice": "af_nicole",
+   "top_text": "Grandma:",
+   "set": "living",
+   "speaker": "co1",
+   "sfx": "phonk",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 260,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 540,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "co1"
+   }
+  }
+ ]
+}

@@ -149,8 +149,10 @@ def align(cues, start, end, words):
     cw = [(norm(x), c["s"]) for c in cues if start - 30 <= c["s"] <= end + 30 for x in c["t"].split() if norm(x)]
     ww = [norm(w["w"]) for w in words]
     sm = difflib.SequenceMatcher(None, [a for a, _ in cw], ww, autojunk=False)
-    deltas = [words[b + k]["s"] - cw[a + k][1] for a, b, n in sm.get_matching_blocks() if n >= 3 for k in range(n)]
-    if not deltas: raise SystemExit("could not line up captions with the audio")
+    deltas = [words[b + k]["s"] - cw[a + k][1] for a, b, n in sm.get_matching_blocks() if n >= 3 for k in range(n)
+              if start - 2 <= cw[a + k][1] <= end + 2]  # only words from the clip itself count (Nov 12: neighbouring cues matched by chance)
+    inside = sum(1 for _, t in cw if start - 2 <= t <= end + 2)
+    if len(deltas) < max(4, 0.3 * inside): raise SystemExit(f"could not line up captions with the audio ({len(deltas)}/{inside} clip words found)")
     return float(np.median(deltas))
 
 def ass_from_words(words, path):
@@ -178,10 +180,14 @@ def render(clip_path, out):
     m3u8, vtt, _ = media(day); cues, off = parse_vtt(get(vtt, 120))
     s, e = clip["start"], clip["end"]; pad = 20
     work = os.path.join(os.path.dirname(os.path.abspath(out)), "_gov"); os.makedirs(work, exist_ok=True)
-    win0 = s + off - 25 - pad  # rough guess at the stream clock; Whisper fixes it below
-    raw = f"{work}/window.mp4"; fetch(m3u8, win0, (e - s) + 2 * pad + 25, raw)
-    words = whisper_words(raw)
-    delta = align(cues, s, e, words)          # local time = caption time + delta
+    raw = f"{work}/window.mp4"
+    for pad in (20, 60, 120):  # widen the window until the clip's own words are really in it
+        win0 = s + off - 25 - pad  # rough guess at the stream clock; Whisper fixes it below
+        fetch(m3u8, win0, (e - s) + 2 * pad + 25, raw)
+        words = whisper_words(raw)
+        try: delta = align(cues, s, e, words); break  # local time = caption time + delta
+        except SystemExit as err: print(f"pad {pad}: {err}; widening")
+    else: raise SystemExit("clip words not found in the video; pick another moment")
     a, b = s + delta - 0.4, e + delta + 1.0
     if clip.get("end_on_word"):              # end right after a given word (e.g. EXPIRED)
         hit = next((w for w in words if w["s"] >= a and norm(w["w"]) == norm(clip["end_on_word"])), None)
