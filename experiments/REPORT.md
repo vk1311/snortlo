@@ -8,7 +8,7 @@ _updated 2026-11-12 · score = average log(1 + views_72h) on YouTube, higher is 
 - narrator_voice: **am_puck** 6.34 (n=20)
 - speed: **1.1** 6.10 (n=12)
 - music: **True** 6.00 (n=36) · **False** 5.42 (n=14)
-- title_style: **all_lowercase** 6.11 (n=22) · **emoji_end** 5.85 (n=12) · **quote_from_story** 5.76 (n=3) · **caps_word** 5.37 (n=13)
+- title_style: **all_lowercase** 6.11 (n=22) · **emoji_end** 5.85 (n=12) · **quote_from_story** 5.76 (n=3)
 - part1_hour: **9** 5.99 (n=17) · **12** 5.77 (n=15) · **17** 5.56 (n=15)
 - theme: **customers** 6.90 (n=5) · **election_aftermath** 6.33 (n=4) · **family** 6.03 (n=9) · **school** 6.03 (n=9) · **work** 5.79 (n=6) · **neighbours** 5.43 (n=3) · **pets** 5.40 (n=5) · **roommates** 5.13 (n=3) · **dating** 4.98 (n=6) · **seasonal** – (n=0)
 
