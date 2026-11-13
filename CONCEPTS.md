@@ -11,7 +11,7 @@ Short animated explainers starring Lo, our teal-cap guy, in the normal Snortlo s
 - **Facts:** every fact needs a source the run actually opened (official, university, museum, encyclopedia). Put the sources in the YouTube/Facebook description as "Sources: …". Leave out anything you can't confirm. No medical advice. Body topics explain how things work and never tell anyone what to take or do.
 - **Topic bank** (rotate, never repeat a topic in stories/, strike it here when used):
   - **Dreams:** why we forget dreams; why you can't read in dreams; falling dreams; lucid dreaming basics; do animals dream
-  - **Your body explained:** how sleep works; why we yawn; hiccups; brain freeze; ~~why onions make you cry~~ (Lo Explains #4, Nov 4); goosebumps; why your stomach growls; why your foot "falls asleep"
+  - **Your body explained:** how sleep works; why we yawn; hiccups; brain freeze; ~~why onions make you cry~~ (Lo Explains #4, Nov 4); goosebumps; why your stomach growls; ~~why your foot "falls asleep"~~ (Lo Explains #8, Nov 13)
   - **Geography:** the country with the most time zones; a town split by a border; the coldest inhabited place; why Canada has so many lakes; places with weird names
   - **Ancient times:** the oldest written complaint; ancient Roman fast food; who invented the toothbrush; ancient board games
   - **History stories:** ~~how the sandwich got its name~~ (Lo Explains #1, Oct 28); ~~the first speeding ticket~~ (Lo Explains #3, Nov 2); the Great Emu War; ~~why we say "OK"~~ (Lo Explains #6, Nov 9); the man who sold the Eiffel Tower (fraud story, keep it light); ~~why Americans vote on a Tuesday~~ (Lo Explains #5, Nov 6)

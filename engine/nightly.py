@@ -102,6 +102,14 @@ def layout_warnings(d):
         busy = [k for k in ("whiteboard", "board", "sign") if st.get(k)]
         if b.get("cards") and busy:  # Nov 11: cards covered "BUILD THE BASKET" and "SHOW AND TELL"
             warn.append(f"beat {i}: cards pop in over the {busy[0]} text; blank it on this beat")
+        bub = b.get("bubble") or {}
+        if bub and b.get("set") == "office" and st.get("whiteboard") and bub.get("x", 0) < 700 and bub.get("y", 9999) < 700:
+            # Nov 13: a speech bubble at (320, 520) sat on top of the "AISLE 7|SCREWS" whiteboard
+            warn.append(f"beat {i}: speech bubble covers the whiteboard text; blank the whiteboard on this beat")
+        if b.get("set") == "office" and st.get("cooler", True) is not False:
+            for c in b.get("cast", []):
+                if 800 <= max(c.get("x", 0), c.get("to", 0)) <= 960:  # Nov 13: a character overlapped the water cooler
+                    warn.append(f"beat {i}: {c.get('who')} at x={c.get('x')} overlaps the water cooler (set cooler false or move)")
         long_cards = [t for t in b.get("cards", []) if len(str(t)) > 5]
         if long_cards:  # Nov 10: "COFFEE" + "SNACKS" overlapped side by side
             warn.append(f"beat {i}: cards longer than 5 characters overlap their neighbours: {long_cards}")

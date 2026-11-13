@@ -86,8 +86,9 @@ One weekly compilation of calm, original "stories to fall asleep to" for YouTube
 - Compilation 3: greenhouse on a frosty night (2); clock shop chiming at closing (3); retired postman and his dog (12); hotel night porter in the snow (19); mountain hut warden in the rain (5); seaside ice cream kiosk on the last warm day (25).
 - Compilation 4: tea shop on a rainy afternoon (9); night nurse for newborn lambs (16); museum night watchman saying good night to the paintings (8); mending nets by lamplight as the boats come home (10); owl keeping watch over an orchard (24); girl and grandfather stargazing from the roof (20).
 - Compilation 5: overnight radio host (17); allotment pumpkin count (15); candle maker's last batch (14); bandstand after the last concert (11); cobbler's notes (23); post office on the last evening before the holiday (6).
+- Compilation 6: bookbinder mending a family cookbook (21); snowplow driver before dawn (new); piano tuner in an empty school hall before the winter concert (new); hedgehog making her winter bed in a woodpile (new); seaside station café waiting for the last train in fog (new); library knitting circle on a windy night (new).
 
-## Story idea bank (25)
+## Story idea bank (25 + refill 26-40; numbers 1-25 are all used by compilation 6, start from 26)
 
 1. A night-shift bus driver on the last route of the evening, with three regular passengers who never speak but always wave.
 2. An old woman who runs a tiny greenhouse and talks each plant through a frosty night.
@@ -114,3 +115,19 @@ One weekly compilation of calm, original "stories to fall asleep to" for YouTube
 23. A cobbler who leaves each repaired pair of shoes on the shelf with a little note.
 24. An owl who keeps watch over a sleeping orchard and approves of very little.
 25. A seaside ice cream kiosk closing up at the end of the last warm day of the year.
+26. A lock keeper on a quiet canal opening the gates for the last narrowboat of the evening.
+27. A night at a small mountain weather station, reading the instruments by torchlight.
+28. A baker's cat who inspects every loaf before dawn.
+29. A village bell ringer practising very softly on a snowy evening.
+30. A greenhouse of winter oranges and the old gardener who wraps each pot in straw.
+31. A tailor hemming a long winter coat by lamplight.
+32. A farmer bringing the cows in from the field at dusk in light rain.
+33. A florist making up wreaths on the evening before the first frost market.
+34. A boy and his grandmother making jam on a wet afternoon.
+35. A small island ferry office where the clerk writes the tide times on a chalkboard.
+36. A sheepdog who counts the flock twice before bed.
+37. A toy repair shop mending a wind-up bear.
+38. A night train attendant turning down the berths and handing out blankets.
+39. A beach hut owner closing up for winter, stacking deckchairs.
+40. A map maker drawing a quiet valley by candlelight.
+
