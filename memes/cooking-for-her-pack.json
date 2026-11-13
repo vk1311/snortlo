@@ -1,0 +1,100 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #53",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "food",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR GIRLFRIEND",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "The \"cooking dinner for my|girlfriend\" starter pack:",
+   "set": "kitchen",
+   "state": {
+    "sign": "",
+    "clock": "6:00"
+   },
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 800,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cards": [
+    "PAN",
+    "OIL",
+    "PRAY"
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.3,
+   "top_text": "The recipe, 20 minutes in:",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "step 1: preheat",
+     "step 2: panic",
+     "step 3: ???"
+    ],
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "sfx": "ding"
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "The smoke alarm, who is|now part of the date:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BEEP|BEEP|BEEP",
+    "bg1": "#FBE3E0",
+    "bg2": "#D9675B"
+   },
+   "sfx": "alarm",
+   "meme": "shake"
+  },
+  {
+   "text": "",
+   "hold": 3.8,
+   "top_text": "Me at 8 PM, ordering pizza|like it was the plan all along:",
+   "set": "living",
+   "state": {
+    "tv": "PIZZA|NIGHT"
+   },
+   "sfx": "phonk",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #54",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "work",
+ "end_card": {
+  "text": "SEND THIS TO|YOUR COWORKER",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "The \"Friday at 4 PM\"|office starter pack:",
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cards": [
+    "COAT",
+    "KEYS",
+    "BYE"
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.3,
+   "top_text": "My calendar after 3 PM:",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "3:00 nothing",
+     "3:30 nothing",
+     "4:00 (on purpose)"
+    ],
+    "bg1": "#E3EEF9",
+    "bg2": "#7FA6CF"
+   },
+   "sfx": "tick"
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me replying to every email|with one word:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NOTED.",
+    "bg1": "#EFEFEF",
+    "bg2": "#9A9A9A"
+   },
+   "sfx": "typebell"
+  },
+  {
+   "text": "",
+   "hold": 3.8,
+   "top_text": "Me at 4:59, already in the|parking lot with the car running:",
+   "set": "street",
+   "sfx": "phonk",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  }
+ ]
+}

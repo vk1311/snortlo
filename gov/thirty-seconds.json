@@ -1,0 +1,14 @@
+{
+ "day": "20261112",
+ "start": 4832.6,
+ "end": 4842.66,
+ "end_on_word": "reserve",
+ "tail": 0.6,
+ "top_text": "Mom: \"Screen time's over.\"|Me, who just sat down:",
+ "sfx": [
+  {"at_word": "expired", "name": "recordscratch", "delay": 0.05, "gain": 0.8},
+  {"at_word": "had", "name": "huh", "delay": 0.3, "gain": 0.7}
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-11-12, caption clock ~4829-4843; the chair tells a member his time has expired, he repeats 'all my time has expired? the 30 seconds that I had?' and reserves; clip starts after the policy exchange, procedural only"
+}

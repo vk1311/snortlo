@@ -1,0 +1,222 @@
+{
+ "channel": "Snortlo",
+ "series": "Lo Explains #8",
+ "format": "concept",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "IT'S NOT|YOUR BLOOD",
+    "bg1": "#E3F2EE",
+    "bg2": "#8CC7B8"
+   },
+   "text": "Why does your foot fall asleep? Most people think the blood gets cut off. Mostly, it's not your blood.",
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "EPISODE|FOUR"
+   },
+   "text": "You sit on your foot for one episode. You stand up. And your leg is just gone.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "FOOT TO|BRAIN",
+    "cooler": false
+   },
+   "text": "Here's what's really going on. Your nerves are like cables, carrying messages between your foot and your brain.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Sit on your foot, or cross your legs too long, and you squish those cables. The messages stop getting through.",
+   "sfx": "squeak",
+   "cards": [
+    "SIT",
+    "CROSS",
+    "OOPS"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WAIT|WHAT?",
+    "bg1": "#F7EEDC",
+    "bg2": "#D2A65A"
+   },
+   "text": "And here's the weird part. The pins and needles don't mean it's getting worse.",
+   "sfx": "waitwhat"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "PINS AND|NEEDLES",
+    "cooler": false
+   },
+   "text": "They show up when you move again. That's your nerves waking back up and sending signals again.",
+   "sfx": "sparkle",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "PARES|THESIA",
+    "cooler": false
+   },
+   "text": "Doctors even have a name for that tingle. Paresthesia.",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "One neurologist compared a nerve to a garden hose. Step on it, the water stops. Step off, it all comes rushing back.",
+   "sfx": "splash",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "A FEW|MINUTES",
+    "cooler": false
+   },
+   "text": "And the everyday kind usually only lasts a few minutes.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BUFFERING",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "text": "So your foot isn't asleep. It's buffering.",
+   "sfx": "rimshot"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "fridge_open": false,
+    "clock": "11:00"
+   },
+   "text": "Anyway. I stood up too fast and walked straight into the fridge.",
+   "sfx": "sadtrombone",
+   "meme": "shake",
+   "pause": 0.8,
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  }
+ ]
+}
