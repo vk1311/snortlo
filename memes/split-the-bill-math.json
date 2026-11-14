@@ -1,0 +1,63 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #56",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "school",
+ "hook": {
+  "pillars": "caption text + tick sfx + hand-up pose",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MATH TEACHER",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me in grade 5: \"When will I EVER|use math in real life?\"",
+   "set": "classroom",
+   "state": {
+    "board": "7 x 8 = ?"
+   },
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Me at 30, splitting a $187 bill|6 ways at 11 PM with no tip app:",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "187 / 6 =",
+     "31.1666...",
+     "PLUS TIP??"
+    ]
+   },
+   "sfx": "phonk",
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     540,
+     900
+    ]
+   }
+  }
+ ]
+}

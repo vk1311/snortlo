@@ -1,0 +1,370 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "seasonal",
+ "hook": {
+  "pillars": "headline text RUNNING SINCE 7 AM + vineboom + slow zoom",
+  "formula": "question (You vs Problem-style curiosity)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR COWORKER",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "RUNNING|SINCE 7 AM",
+    "bg1": "#E3EEF7",
+    "bg2": "#4E7FA8"
+   },
+   "text": "Why has my coworker's car been running in the parking lot since seven this morning?",
+   "sfx": "vineboom",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "It's November. It's freezing. Derek remote starts his car at seven, and it just runs. All day.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.15,
+    "at": [
+     540,
+     820
+    ]
+   }
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "cooler": false,
+    "whiteboard": ""
+   },
+   "text": "Lunch? Running. Three PM meeting? Running. Snowing sideways? Still running.",
+   "sfx": "tick",
+   "cards": [
+    "NOON",
+    "3 PM",
+    "SNOW"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "cooler": false,
+    "whiteboard": ""
+   },
+   "text": "So I asked him. He goes, I like it warm when I leave. I said, Derek, you leave at five.",
+   "sfx": "bruh",
+   "speaker": "co1",
+   "bubble": {
+    "text": "I LIKE IT|WARM",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "RICH?|OR CONFUSED?",
+    "bg1": "#FFF1D9",
+    "bg2": "#E0A84E"
+   },
+   "text": "The office group chat started a poll. Is Derek rich, or just confused? Confused was winning.",
+   "sfx": "textbuzz"
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "cooler": false,
+    "whiteboard": ""
+   },
+   "text": "Then Priya from accounting looks out the window and says, Derek, that's not your car.",
+   "sfx": "recordscratch",
+   "speaker": "co2",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 320,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "co1"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NOT|HIS CAR",
+    "bg1": "#FFE0E0",
+    "bg2": "#F28F8F"
+   },
+   "text": "Same model. Same grey. Same dent. His fob has been starting a stranger's car. For three weeks.",
+   "sfx": "busted",
+   "meme": "shake"
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "Derek's real car is parked one row back. Covered in frost. Like a sad snow cone.",
+   "sfx": "sadtrombone",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "He scraped it with a library card for twenty minutes.",
+   "sfx": "squeak",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 540,
+     "facing": 1,
+     "pose": "reach",
+     "face": {
+      "eyes": "angry",
+      "mouth": "wavy"
+     },
+     "act": "shake"
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "cooler": false,
+    "whiteboard": "WHO IS|THE ANGEL?"
+   },
+   "text": "And the stranger? He's been leaving thank you notes on the windshield. To the parking lot angel.",
+   "sfx": "angelchoir",
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "DEAR ANGEL,",
+     "WARMEST CAR",
+     "IN NOVA SCOTIA"
+    ]
+   },
+   "text": "Dear angel. Warmest car in Nova Scotia. You changed my mornings.",
+   "sfx": "aww"
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "cooler": false,
+    "whiteboard": ""
+   },
+   "text": "We all looked at Derek. Derek looked at the floor.",
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "cooler": false,
+    "whiteboard": ""
+   },
+   "text": "Then the boss walked in, holding his keys and a coffee, and said, Derek. Was it you?",
+   "sfx": "dundun",
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "boss"
+   }
+  },
+  {
+   "set": "office",
+   "state": {
+    "table": true,
+    "cooler": false,
+    "whiteboard": "EMPLOYEE|OF THE MONTH"
+   },
+   "text": "Derek is now employee of the month. He never told him the truth. He just bought a second fob.",
+   "sfx": "phonk",
+   "pause": 0.6,
+   "cast": [
+    {
+     "who": "co1",
+     "x": 540,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  }
+ ]
+}

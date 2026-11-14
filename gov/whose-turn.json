@@ -1,0 +1,23 @@
+{
+ "day": "20260721",
+ "start": 33866.0,
+ "end": 33887.6,
+ "tail": 0.6,
+ "top_text": "Me insisting it's still my turn|to pick the movie:",
+ "sfx": [
+  {
+   "at_word": "suspend",
+   "name": "recordscratch",
+   "delay": 0.05,
+   "gain": 0.8
+  },
+  {
+   "at_word": "used",
+   "name": "bruh",
+   "delay": 0.9,
+   "gain": 0.7
+  }
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-07-21, caption clock ~33866-33888; the chair says the gentlelady's time has expired and the other side gets none, recognizes the next member, then tells the gentlelady to suspend because she has used up all her time; procedural argument over time only"
+}

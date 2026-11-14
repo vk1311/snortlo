@@ -1,0 +1,1198 @@
+{
+ "brand": "keegix",
+ "episode": 4,
+ "slug": "keegix-ep04-standards-minimums",
+ "air_date": "2026-11-24",
+ "title": "Airbnb Essential Amenities, Smoke Alarms & Local Guides: The Standards Guests Expect | Keegix Podcast",
+ "card_title": "The standards and minimums guests expect",
+ "guest": {
+  "name": "Callum",
+  "role": "Guesthouse host, South Shore",
+  "voice": "bm_daniel"
+ },
+ "hook": {
+  "pillars": "headline text (5 essentials list card) + pop sfx on card + slow zoom on photo",
+  "formula": "Unexpected Truth"
+ },
+ "description": "The standards and minimums guests expect from a B&B, cottage or short-term rental: Airbnb's five essential amenities and what happens if you tick the box, the host ground rules (accuracy, check-in, cleanliness, response times), smoke and carbon monoxide alarms in Canada, Nova Scotia registration and fire safety, how to build a local guide guests use, and how it all feeds the Guest Favourite badge.\nIn the news: Airbnb's house rules policy for bookings from Nov 20, 2026.\nHosts and guests on this show are AI voices. Facts are sourced below. Callum is a fictional character, not a real person.\nPlatform rules are as of November 2026 and change often. Fire and registration rules vary by province and town. Not legal advice.\nFree house rules tool: keegix.com/airbnb-house-rules · Start free for one property: keegix.com/start",
+ "tags": [
+  "airbnb essential amenities",
+  "airbnb essentials list",
+  "airbnb host standards",
+  "airbnb response time",
+  "smoke alarm short term rental",
+  "carbon monoxide alarm airbnb",
+  "nova scotia short term rental registration",
+  "airbnb guidebook",
+  "airbnb guest favourite",
+  "bnb host checklist",
+  "airbnb house rules november 2026",
+  "keegix podcast"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "visuals": [
+    "toilet paper roll",
+    "folded towels",
+    "bed pillows",
+    "smoke detector"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Most hosts think Airbnb requires five essentials in every listing. Toilet paper, soap, a towel and a pillow for every guest, and linens for every bed. The opposite is true. Airbnb only strongly encourages them.",
+     "card": {
+      "type": "list",
+      "title": "Airbnb's five essentials",
+      "items": [
+       "Toilet paper",
+       "Soap for hands and body",
+       "1 towel and 1 pillow per guest",
+       "Linens for each guest bed"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "But here's the catch. If you tick the essentials box on your listing and those things aren't in the house, Airbnb says the listing can face penalties, up to removal. So the minimum isn't optional once you've promised it. Whatever you tick is the floor."
+    },
+    {
+     "who": "host",
+     "text": "So today, the standards guests actually expect, the ones written down, and the ones nobody writes down. Amenities, smoke and carbon monoxide alarms, and a local guide worth opening."
+    }
+   ]
+  },
+  {
+   "heading": "Intro",
+   "visuals": [
+    "lighthouse",
+    "cottage porch",
+    "harbour boats",
+    "guest book",
+    "front door"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Welcome to the Keegix Podcast, a weekly show about running a B and B, a cottage or a short term rental. I'm Nicole. Every fact we use is sourced in the description.",
+     "card": "clear"
+    },
+    {
+     "who": "host",
+     "text": "This is episode four. Standards and minimums guests expect. We'll go through Airbnb's essential amenities, the ground rules every host is measured on, smoke and carbon monoxide alarms in Canada, what Nova Scotia asks of tourist accommodations, how to build a local guide guests actually use, and how all of this turns into the Guest Favourite badge."
+    },
+    {
+     "who": "host",
+     "text": "My guest today is Callum. Callum plays a host who runs a four room guesthouse on the South Shore of Nova Scotia. Not a real person, and not a lawyer. Welcome, Callum.",
+     "card": {
+      "type": "point",
+      "text": "Callum plays a guesthouse host. Not a real person."
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Nicole. One quick note before we start. Everything about platform rules today is as of November twenty twenty six. Airbnb updates its help pages often, and fire rules vary by province and by town, so check the current version where you are."
+    },
+    {
+     "who": "host",
+     "text": "Good. Let's start with what changed this month."
+    }
+   ]
+  },
+  {
+   "heading": "In the news: Airbnb's November 20 house rules policy",
+   "visuals": [
+    "calendar",
+    "kitchen sink",
+    "unmade bed",
+    "house keys",
+    "laptop desk"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "As of mid November twenty twenty six, the big news for hosts is a date. Airbnb's new house rules policy applies to every reservation booked on or after November twentieth.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb house rules policy",
+      "text": "Applies to all reservations booked on or after November 20, 2026",
+      "source": "Airbnb Help Centre",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And it lines up with today's topic, because it's really about standards. Hosts can't ask for checkout tasks that take significant effort or time. Airbnb's own examples are stripping the beds and washing the dishes."
+    },
+    {
+     "who": "host",
+     "text": "What else is off the table?"
+    },
+    {
+     "who": "guest",
+     "text": "Hosts can't set their own fines or penalties. They can't ask guests to sign a separate contract, or ask for something like a government issued I D, unless the law requires it. And a new rule can't be added after booking, not by message, not by a sign on the fridge, not in person.",
+     "card": {
+      "type": "list",
+      "title": "From Nov 20, hosts can't",
+      "items": [
+       "Ask for big checkout chores",
+       "Charge their own fines",
+       "Add rules after booking",
+       "Require separate contracts"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Skift reported that hosts now choose from seven standard house rules, and that repeat violations can cost a host Superhost or Guest Favourite status."
+    },
+    {
+     "who": "guest",
+     "text": "So the practical point for today is simple. If guests expect the place to be ready, the work of getting it ready sits with the host. Your standards have to be built into the cleaning, not into the checkout list."
+    },
+    {
+     "who": "host",
+     "text": "Rules vary by place, and this isn't legal advice. Now, the essentials."
+    }
+   ]
+  },
+  {
+   "heading": "Airbnb essential amenities: the five basics every guest expects",
+   "visuals": [
+    "toilet paper roll",
+    "soap bar",
+    "bath towels",
+    "bed pillows",
+    "bed linens",
+    "linen closet"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Callum, walk me through the five essentials. What exactly does Airbnb list?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Five things. Toilet paper. Soap for hands and body. One towel per guest. One pillow per guest. And linens for each guest bed. That's the whole list. Notice what's not on it. No coffee, no shampoo, no hair dryer.",
+     "card": {
+      "type": "list",
+      "title": "The essentials",
+      "items": [
+       "Toilet paper",
+       "Hand and body soap",
+       "1 towel per guest",
+       "1 pillow per guest"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And you said they're not required."
+    },
+    {
+     "who": "guest",
+     "text": "Right. Airbnb's wording is that it strongly encourages hosts to provide them in every listing. There was a time Airbnb told hosts these would soon be required, and then it changed course. Its official account posted that hosts would get the choice."
+    },
+    {
+     "who": "host",
+     "text": "So why would a host not provide them?"
+    },
+    {
+     "who": "guest",
+     "text": "Some listings are unusual. A cabin where guests bring their own sleeping bags, say, or a simple bunk room priced for that. But the post also said something I'd put on a sticky note. Only select the essentials option if you really are providing those items.",
+     "card": {
+      "type": "point",
+      "text": "Only tick Essentials if every item is really in the house."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And if you tick it and they're missing?"
+    },
+    {
+     "who": "guest",
+     "text": "Then the help page says the listing may be subject to penalties, including removal from Airbnb. So the real rule is that your listing is a promise. Whatever you tick is the minimum."
+    },
+    {
+     "who": "host",
+     "text": "Let's make that concrete. Say a family of five books a two bedroom cottage. What does the essentials promise mean on the day?"
+    },
+    {
+     "who": "guest",
+     "text": "Five towels, at least. Five pillows, at least, one per guest. Linens on every bed they could sleep in, including the pull out couch if it's listed as a bed. And here's the part people miss. That's the floor for the listed number of guests, not the number of guests you expect.",
+     "card": {
+      "type": "stat",
+      "big": "1 per guest",
+      "label": "Towels and pillows, counted by guests, not by beds",
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So if the listing says it sleeps six?"
+    },
+    {
+     "who": "guest",
+     "text": "Then I'd stock for six every time, plus a spare set. A towel goes missing, a pillowcase gets stained. In my guesthouse, every room has one more towel than the maximum number of guests. It costs a few dollars and it saves a message at ten at night."
+    },
+    {
+     "who": "host",
+     "text": "What about the things that aren't on the list but guests still expect? Coffee, salt, a hair dryer."
+    },
+    {
+     "who": "guest",
+     "text": "That's where accuracy comes in, which is our next section. The rule of thumb is that anything in your amenities list has to be there, and it has to work. If the photos show a coffee maker, guests will expect coffee. If you don't supply it, say so plainly in the listing."
+    },
+    {
+     "who": "host",
+     "text": "Because a missing item you never promised is a small thing."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. A missing item you did promise becomes an accuracy problem, and on Airbnb, accuracy is one of the ratings that follows you."
+    }
+   ]
+  },
+  {
+   "heading": "Airbnb host ground rules: accuracy, check-in, cleanliness and response times",
+   "visuals": [
+    "door keypad",
+    "front door",
+    "cleaning supplies",
+    "vacuum cleaner",
+    "smartphone",
+    "clock"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So beyond the essentials, what does Airbnb actually hold hosts to?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "There's a help page called the host reliability standards. It covers accuracy, check in, cleanliness, communication and cancellations. None of them are about luxury. They're about the place being what you said, when you said it.",
+     "card": {
+      "type": "list",
+      "title": "Airbnb host ground rules",
+      "items": [
+       "Accuracy",
+       "Check in",
+       "Cleanliness",
+       "Communication"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Start with accuracy."
+    },
+    {
+     "who": "guest",
+     "text": "The listing should accurately describe the home and reflect the features and amenities that will be available. And a host shouldn't change the details of a booking after it's accepted without the guest agreeing. So if the hot tub is broken, you tell the guest before they arrive. You don't let them find out."
+    },
+    {
+     "who": "host",
+     "text": "Check in?"
+    },
+    {
+     "who": "guest",
+     "text": "Correct directions, updated keycodes, and access for the whole stay. That last part matters in winter. If the guest can't get in because the lockbox is frozen or the path isn't cleared, that's a check in failure, even if the code was right."
+    },
+    {
+     "who": "host",
+     "text": "Cleanliness."
+    },
+    {
+     "who": "guest",
+     "text": "The place should be clean and free of health hazards before check in, and cleaned between every stay. Every stay. A one night booking gets the same turnover as a week.",
+     "card": {
+      "type": "point",
+      "text": "Clean between every stay, even a one-night booking."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And communication. This is the one with actual numbers, right?"
+    },
+    {
+     "who": "guest",
+     "text": "For messages that come in during local daytime hours, Airbnb sets response times. If check in is more than five days away, reply within three days. If it's close to check in, or it's time sensitive during the stay, within one hour. Other questions during the stay, or within five days of arrival, within twelve hours.",
+     "card": {
+      "type": "list",
+      "title": "Airbnb response times",
+      "items": [
+       "Check-in 5+ days away: 3 days",
+       "Urgent or near check-in: 1 hour",
+       "Other, during stay: 12 hours"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "One hour is a tight standard for a small host with a day job."
+    },
+    {
+     "who": "guest",
+     "text": "It is. That's why the best small hosts answer the urgent questions before guests ask them. Where's the key, where do I park, how does the heat work, what's the wifi. If those answers are already in front of the guest, the one hour messages mostly stop."
+    },
+    {
+     "who": "host",
+     "text": "And cancellations?"
+    },
+    {
+     "who": "guest",
+     "text": "Short version. Hosts should not cancel confirmed reservations, except for valid reasons outside their control. And on ratings, there's no number published, but the page says hosts should avoid too many low ratings, and that repeated low ratings can lead to enforcement."
+    },
+    {
+     "who": "host",
+     "text": "So the standard isn't five stars. It's no surprises."
+    },
+    {
+     "who": "guest",
+     "text": "That's how I'd put it. Guests forgive a small place. They don't forgive a place that wasn't what the listing said."
+    }
+   ]
+  },
+  {
+   "heading": "How to write a listing that matches the house",
+   "visuals": [
+    "laptop desk",
+    "notebook",
+    "living room",
+    "coffee maker",
+    "hair dryer",
+    "bookshelf"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Callum, let's go back to accuracy for a minute, because it seems to be behind half the bad reviews. How do you write a listing that matches the house?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "I do one thing every season. I stand in each room with the listing open on my phone and read it out loud. Every amenity, every photo caption, every line of the description. If I say a thing that isn't true in that room, I fix the listing, or I fix the room, that day."
+    },
+    {
+     "who": "host",
+     "text": "What do hosts usually get wrong?"
+    },
+    {
+     "who": "guest",
+     "text": "Three things. Old photos. A room that was repainted or a couch that was replaced three years ago. Amenities that only work sometimes, like a wifi signal that drops in the back bedroom. And words that oversell. Steps from the beach, when it's a ten minute walk down a hill."
+    },
+    {
+     "who": "host",
+     "text": "So how do you word the small stuff?"
+    },
+    {
+     "who": "guest",
+     "text": "Plainly, and before the guest has to ask. The wifi is good in the kitchen and living room, weaker upstairs. There's a coffee maker and a starter bag of coffee, bring more for a long stay. The stairs to the loft are steep. Guests don't mind limits. They mind finding out at ten at night.",
+     "card": {
+      "type": "point",
+      "text": "Guests don't mind limits. They mind surprises."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And when something breaks mid season?"
+    },
+    {
+     "who": "guest",
+     "text": "Tell upcoming guests before they arrive, take it off the amenities if it won't be fixed in time, and offer what you can. That's the accuracy standard in practice. A broken dishwasher you warned someone about is a small thing. A broken dishwasher they discovered is a review."
+    },
+    {
+     "who": "host",
+     "text": "It sounds like the listing is really the first part of the stay."
+    },
+    {
+     "who": "guest",
+     "text": "It is. It's the part the guest experiences before they ever see your house. If it's honest, everything after it gets easier."
+    }
+   ]
+  },
+  {
+   "heading": "A word from Keegix",
+   "visuals": [
+    "front door",
+    "welcome mat",
+    "house keys",
+    "checklist clipboard"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "A quick word from the people who make this show. Keegix makes a digital welcome book for hosts. It's one page guests open from a sign by the door, with the check in steps, the wifi, the heat, the house rules and your local picks. It's the place the answers to those one hour questions can live.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "And if you want to tidy up your house rules for the November changes, there's a free house rules tool at keegix dot com slash airbnb house rules.",
+     "card": {
+      "type": "point",
+      "text": "Free house rules tool: keegix.com/airbnb-house-rules"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Smoke and carbon monoxide alarms: what Airbnb and Canada recommend",
+   "visuals": [
+    "smoke detector",
+    "fire extinguisher",
+    "wood stove",
+    "fireplace",
+    "propane tank",
+    "hallway"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Now the standard that matters most and gets checked least. Smoke and carbon monoxide alarms. What does Airbnb say?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb strongly urges hosts to install smoke and carbon monoxide alarms in spaces that use fuel burning appliances. It also says local rules may require more than one working smoke and carbon monoxide alarm. So again, the platform recommends, and your local law may require."
+    },
+    {
+     "who": "host",
+     "text": "Do guests see whether a place has them?"
+    },
+    {
+     "who": "guest",
+     "text": "They can. The alarm status a host enters is shown on the listing, as part of the amenities and with the safety information. So a guest choosing between two cottages can see which one says it has a carbon monoxide alarm.",
+     "card": {
+      "type": "point",
+      "text": "Your alarm status shows on your listing's safety info."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And Airbnb has a free alarm offer, right?"
+    },
+    {
+     "who": "guest",
+     "text": "Eligible active hosts can request one free combined smoke and carbon monoxide alarm. Airbnb's own advice on that page is to install more than one. One alarm is a start, not a plan."
+    },
+    {
+     "who": "host",
+     "text": "Why carbon monoxide specifically?"
+    },
+    {
+     "who": "guest",
+     "text": "Because it's impossible to detect without an alarm. No smell, no colour. Airbnb's help page points to fireplaces, fuel burning appliances, attached garages, generators and grills. In Nova Scotia that's a lot of cottages. Wood stoves, propane heaters, oil furnaces.",
+     "card": {
+      "type": "list",
+      "title": "Carbon monoxide sources",
+      "items": [
+       "Fireplaces and wood stoves",
+       "Fuel-burning appliances",
+       "Attached garages",
+       "Generators and grills"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "What if the place is all electric?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb lets hosts with only electric appliances and no attached garage mark a carbon monoxide alarm as not necessary. But if there's a fireplace, a propane barbecue on a covered deck, anything that burns fuel, I wouldn't skip it."
+    },
+    {
+     "who": "host",
+     "text": "What does Health Canada say about where they go?"
+    },
+    {
+     "who": "guest",
+     "text": "Health Canada says homes with fuel burning appliances should have at least one carbon monoxide alarm with a battery backup, and the most important place is the hallway outside the sleeping areas. It also says to look for a certification mark on the alarm and the packaging.",
+     "card": {
+      "type": "rule",
+      "title": "Health Canada",
+      "text": "At least one battery-backed CO alarm; most important spot is the hallway outside sleeping areas",
+      "source": "Health Canada",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And smoke alarms?"
+    },
+    {
+     "who": "guest",
+     "text": "Nova Scotia's Fire Marshal put out a reminder in twenty twenty four. Replace smoke alarms when they're ten years old, or when they stop responding to a test. Test them every month. And have them in every bedroom, outside sleeping areas, and on every level.",
+     "card": {
+      "type": "stat",
+      "big": "10 years",
+      "label": "Replace smoke alarms at 10 years, or when they fail a test",
+      "source": "NS Office of the Fire Marshal"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Ten years is the one people forget. The alarm still beeps when you press the button, so it feels fine."
+    },
+    {
+     "who": "guest",
+     "text": "Right. There's a date printed on most of them. Look at it. And the same release had a number that stuck with me. Over three years, twenty four percent of fire deaths in Nova Scotia happened in homes with no smoke alarm, or one that wasn't working.",
+     "card": {
+      "type": "stat",
+      "big": "24%",
+      "label": "Of NS fire deaths over 3 years: homes with no working smoke alarm",
+      "source": "Province of Nova Scotia, Oct 2024"
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's not a guest comfort issue anymore."
+    },
+    {
+     "who": "guest",
+     "text": "No. It's the one standard where a guest can't check your work. They'll never test your alarms. So the host has to."
+    }
+   ]
+  },
+  {
+   "heading": "Nova Scotia short-term rental registration and fire safety",
+   "visuals": [
+    "Nova Scotia coast",
+    "Halifax waterfront",
+    "farmhouse",
+    "fire hydrant",
+    "registration form",
+    "fishing village"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's talk about Nova Scotia's own rules. Callum, start with registration.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "As of November twenty twenty six, if you rent a place in Nova Scotia for stays of twenty eight days in a row or less, you register with the province. You need the registration number to advertise on sites like Airbnb, Booking dot com, Expedia and Vrbo. And you renew it by April first every year.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia",
+      "text": "Register stays of 28 days or less; renew by April 1 each year",
+      "source": "Province of Nova Scotia",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "What does it cost?"
+    },
+    {
+     "who": "guest",
+     "text": "It depends on the type. A short term rental in your primary residence is fifty dollars. A traditional tourist accommodation, like a B and B, is fifty dollars for one to four bedrooms, or one hundred and fifty for five or more. Renting rooms in your own home falls in that group. A commercial short term rental is two thousand, five hundred, or two hundred and forty dollars, depending on the community.",
+     "card": {
+      "type": "list",
+      "title": "NS registration fees",
+      "items": [
+       "Primary residence: $50",
+       "B&B, 1-4 bedrooms: $50",
+       "B&B, 5+ bedrooms: $150",
+       "Commercial: $240 to $2,000"
+      ],
+      "source": "Province of Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And if you just don't register?"
+    },
+    {
+     "who": "guest",
+     "text": "The province says you can be fined up to one hundred thousand dollars for each year you're not registered. That's the ceiling, not a typical fine, but it tells you how seriously they take it.",
+     "card": {
+      "type": "stat",
+      "big": "$100,000",
+      "label": "Maximum fine for each year you're not registered",
+      "source": "Province of Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Now fire safety. Is there a provincial checklist for short term rentals?"
+    },
+    {
+     "who": "guest",
+     "text": "Not one single checklist I could point you to. Tourism Nova Scotia says there are mandatory fire safety requirements for fixed roof and campground accommodations, and it tells operators to contact their municipal fire or building inspector, or a deputy fire marshal. It also says an occupancy permit may be required."
+    },
+    {
+     "who": "host",
+     "text": "So the honest answer is, call your local inspector."
+    },
+    {
+     "who": "guest",
+     "text": "It is. And I'd call before you list, not after. Ask three questions. Does my place count as a tourist accommodation under your rules? What alarms and exits do you need to see? And do I need an occupancy permit? Write down who you spoke to and the date.",
+     "card": {
+      "type": "list",
+      "title": "Ask your fire inspector",
+      "items": [
+       "Does my place count?",
+       "Which alarms and exits?",
+       "Do I need a permit?",
+       "Note the name and date"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "For bigger places, there's more in the regulations, right?"
+    },
+    {
+     "who": "guest",
+     "text": "For boarding and lodging houses, Nova Scotia's fire safety regulations call for alarms on every storey and in each sleeping room, connected to each other. Those regulations don't name B and Bs or short term rentals directly, so don't assume they're your rulebook. But interconnected alarms are a good standard to aim for anyway. If one goes off, they all go off."
+    },
+    {
+     "who": "host",
+     "text": "Rules vary by town and they change, so check your municipality. This isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "How to make a local guide guests actually use",
+   "visuals": [
+    "bakery",
+    "farmers market",
+    "walking trail",
+    "beach",
+    "lighthouse",
+    "map"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's do the fun standard. The local guide. What do guests actually want from it?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Fewer, better picks. Guests don't want a list of every restaurant in the county. They want to know where you'd go. One bakery, one place for dinner, one walk, one rainy day plan, the closest grocery store and the closest gas station."
+    },
+    {
+     "who": "host",
+     "text": "Airbnb has a guidebook feature for this, right?"
+    },
+    {
+     "who": "guest",
+     "text": "It does. A guidebook holds your recommendations, places to eat, shops, green spaces, sights and neighbourhood tips, with a title and cover photo, and you link it to your listings. A few things surprised me. Guidebooks are public, so anyone can see them on Airbnb. You can share them outside Airbnb, or print them. And they belong to your host account, not to a single listing.",
+     "card": {
+      "type": "list",
+      "title": "Airbnb guidebooks",
+      "items": [
+       "Your local picks",
+       "Public on Airbnb",
+       "Shareable and printable",
+       "Belongs to your account"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Public is interesting. So write it like a guest from anywhere could read it."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. No door codes, no private details, nothing you wouldn't put on a sign. The practical stuff, the codes and the wifi, goes in the private check in instructions or your welcome book."
+    },
+    {
+     "who": "host",
+     "text": "What makes a pick good?"
+    },
+    {
+     "who": "guest",
+     "text": "Three things. Why you like it, in one line. When to go, because hours on the South Shore change a lot in winter. And how far it is, in minutes, not kilometres. Guests think in minutes.",
+     "card": {
+      "type": "list",
+      "title": "A good local pick",
+      "items": [
+       "Why you like it",
+       "When to go",
+       "How far, in minutes"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "And seasons."
+    },
+    {
+     "who": "guest",
+     "text": "Seasons are the big one in Atlantic Canada. Half the ice cream places close by October. A guide written in July can send a November guest to a locked door. I check mine twice a year, in spring and in fall, and I mark anything seasonal."
+    },
+    {
+     "who": "host",
+     "text": "And the emergency basics."
+    },
+    {
+     "who": "guest",
+     "text": "Those belong in every guide. The nearest hospital, a pharmacy, the after hours number for you or your cleaner, and nine one one for emergencies. It feels grim to write, but it's the page that matters most on the one night it's needed."
+    },
+    {
+     "who": "host",
+     "text": "So the guide is a standard too. Not a nice extra."
+    },
+    {
+     "who": "guest",
+     "text": "It's the standard guests feel first. Before they've judged the towels, they've judged whether they could find the place and find dinner."
+    }
+   ]
+  },
+  {
+   "heading": "Airbnb Guest Favourites: how standards turn into a badge",
+   "visuals": [
+    "gold trophy",
+    "reviews stars",
+    "cozy bedroom",
+    "coffee cup",
+    "cottage window"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's connect all of this to something hosts care about. The Guest Favourite badge. How does Airbnb decide?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "First, you need enough history. A minimum of five reviews in the past four years, with at least one of those in the past two years.",
+     "card": {
+      "type": "stat",
+      "big": "5 reviews",
+      "label": "In the past 4 years, with at least 1 in the past 2 years",
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And then?"
+    },
+    {
+     "who": "guest",
+     "text": "Then Airbnb looks at the overall rating and the category ratings. Check in, cleanliness, accuracy, communication, location and value. Plus the host cancellation rate, how often reviews get removed, quality incidents, and how guests and hosts communicate."
+    },
+    {
+     "who": "host",
+     "text": "Is there a magic rating number?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb doesn't publish one. You'll see figures quoted online, but I couldn't find a cutoff on Airbnb's own page, so I wouldn't chase a number. Look at the categories instead. Four of the six are the ground rules we just talked about. Check in, cleanliness, accuracy, communication.",
+     "card": {
+      "type": "compare",
+      "left_title": "What you control",
+      "left": "Check-in, cleanliness, accuracy, communication",
+      "right_title": "What you mostly don't",
+      "right": "Location and, partly, value"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the badge is basically a report card on the minimums."
+    },
+    {
+     "who": "guest",
+     "text": "That's how I see it. The essentials, the honest listing, the clean room, the quick answer. Do those every time and the badge tends to follow. Skip them and no amount of nice soap will fix it."
+    },
+    {
+     "who": "host",
+     "text": "And the Top ten percent label?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb says it only shows when a place has at least one review in the past two years. So a seasonal place that sat empty for two years starts over, in a way."
+    },
+    {
+     "who": "host",
+     "text": "What about when a low rating does come in? Say a four on cleanliness."
+    },
+    {
+     "who": "guest",
+     "text": "I treat it as information, not an insult. I read the written review, I ask my cleaner what was different that day, and I fix the cause. A hair on a towel usually means the towel check got skipped, not that the cleaner is bad. Then I reply to the review once, calmly, and say what changed."
+    },
+    {
+     "who": "host",
+     "text": "Not an argument in public."
+    },
+    {
+     "who": "guest",
+     "text": "Never. Future guests read the reply more than the review. A calm reply that says, thank you, we've added a second towel check, tells them the standard is real."
+    }
+   ]
+  },
+  {
+   "heading": "Winter minimums for cottages and B and Bs in Atlantic Canada",
+   "visuals": [
+    "snowy cottage",
+    "snow shovel",
+    "wool blanket",
+    "thermostat",
+    "firewood",
+    "icy driveway"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Before the checklist, let's do the season we're in. What does a winter guest expect that a summer guest doesn't?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Heat that's easy to understand. That's number one. Guests arrive tired, it's dark at five, and they face a thermostat or a heat pump remote they've never seen. If they can't make the place warm in two minutes, the first message you get is a complaint."
+    },
+    {
+     "who": "host",
+     "text": "So what do you do about it?"
+    },
+    {
+     "who": "guest",
+     "text": "A short note right beside the thermostat, and the same note in the welcome book. What temperature it's set to, how to turn it up, and what not to touch. If there's a wood stove, I write whether guests may use it at all, and if they may, exactly how. If I'd rather they didn't, I say so and make sure the place is warm without it."
+    },
+    {
+     "who": "host",
+     "text": "What else?"
+    },
+    {
+     "who": "guest",
+     "text": "Extra blankets in a place they can find. A shovel and a bag of ice melt by the door. An ice scraper if they'll be parking outside. A flashlight in the kitchen drawer, because storms knock the power out here. None of those are on Airbnb's essentials list, but in a Maritime winter they are the essentials.",
+     "card": {
+      "type": "list",
+      "title": "Winter extras guests notice",
+      "items": [
+       "Simple heat instructions",
+       "Extra blankets",
+       "Shovel and ice melt",
+       "Flashlight"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "And the driveway."
+    },
+    {
+     "who": "guest",
+     "text": "The driveway is a check in standard. If a guest can't get up the hill or the path to the door is ice, they can't get in, and that's on the host. I have someone lined up to clear it before every winter arrival, and I tell the guest in the check in message who that is."
+    },
+    {
+     "who": "host",
+     "text": "Do you change the listing for winter?"
+    },
+    {
+     "who": "guest",
+     "text": "I do. The photos stay honest. If the deck furniture is in the shed and the hot tub is drained, it comes off the amenities until spring. Remember the accuracy rule. The listing has to reflect what will actually be available on the dates they book."
+    },
+    {
+     "who": "host",
+     "text": "And pipes, I'd guess, if the place sits empty between guests."
+    },
+    {
+     "who": "guest",
+     "text": "That's the host's side of winter. I keep the heat on low between bookings and I check the place after any cold snap. A burst pipe the day before check in is the kind of story nobody wants to tell on this show."
+    }
+   ]
+  },
+  {
+   "heading": "A simple minimum standards checklist for hosts",
+   "visuals": [
+    "checklist clipboard",
+    "linen closet",
+    "smoke detector",
+    "kitchen",
+    "guest book",
+    "front porch"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's turn this into a checklist a host could use tonight. Callum, if you were setting up a new place, what's on it?",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Start with the bathroom and beds. Toilet paper with a spare roll. Hand and body soap. One towel per listed guest, plus one. One pillow per listed guest. Clean linens on every bed you list, including the sofa bed.",
+     "card": {
+      "type": "list",
+      "title": "Beds and bath",
+      "items": [
+       "Spare toilet paper",
+       "Hand and body soap",
+       "Towels: guests plus 1",
+       "Linens on every listed bed"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Then safety."
+    },
+    {
+     "who": "guest",
+     "text": "Working smoke alarms in every bedroom, outside sleeping areas and on every level. A carbon monoxide alarm in the hallway outside the bedrooms if anything burns fuel. Check the date on every alarm and replace anything ten years old. Test them monthly, or at every turnover if you can.",
+     "card": {
+      "type": "list",
+      "title": "Safety",
+      "items": [
+       "Smoke alarm every bedroom and level",
+       "CO alarm outside bedrooms",
+       "Replace at 10 years",
+       "Test monthly"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Then the listing."
+    },
+    {
+     "who": "guest",
+     "text": "Read your amenities list out loud while you stand in the house. Anything that isn't there, or doesn't work, comes off the list today. Update your alarm status so guests see it. And make sure your Nova Scotia registration number is current, renewed by April first."
+    },
+    {
+     "who": "host",
+     "text": "Then arrival."
+    },
+    {
+     "who": "guest",
+     "text": "Directions that work in the dark. A keycode that's tested after every change. A cleared path in winter. The answers to the four big questions, where's the key, where do I park, how does the heat work, and what's the wifi, in one place the guest sees before they need to message you."
+    },
+    {
+     "who": "host",
+     "text": "And the guide."
+    },
+    {
+     "who": "guest",
+     "text": "Six picks with why, when and how far. Emergency numbers. Seasonal notes. Checked every spring and fall."
+    },
+    {
+     "who": "host",
+     "text": "That's not a long list."
+    },
+    {
+     "who": "guest",
+     "text": "It isn't. That's the point. The minimums are short. They just have to be done every single time."
+    }
+   ]
+  },
+  {
+   "heading": "Recap: five takeaways",
+   "visuals": [
+    "lighthouse",
+    "quiet harbour",
+    "cottage porch",
+    "calendar"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's recap. Number one. Airbnb's five essentials are toilet paper, soap, a towel and a pillow per guest, and linens for each bed. They're encouraged, not required, but if you tick the box, they have to be there.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Number two. Airbnb measures hosts on accuracy, check in, cleanliness and communication, with response times as short as one hour near check in.",
+     "card": {
+      "type": "list",
+      "title": "Takeaways",
+      "items": [
+       "Ticked = promised",
+       "No surprises",
+       "Alarms you test"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Number three. Install smoke and carbon monoxide alarms, put the carbon monoxide alarm outside the bedrooms, and replace smoke alarms at ten years."
+    },
+    {
+     "who": "guest",
+     "text": "Number four. In Nova Scotia, register stays of twenty eight days or less, renew by April first, and call your local fire inspector before you list.",
+     "card": {
+      "type": "list",
+      "title": "Takeaways",
+      "items": [
+       "Register and renew by April 1",
+       "Call your fire inspector",
+       "Fewer, better local picks"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "And number five. A good local guide is short, seasonal and honest, and it's public on Airbnb, so keep private details out of it."
+    }
+   ]
+  },
+  {
+   "heading": "Outro",
+   "visuals": [
+    "porch chairs",
+    "lake sunset",
+    "front door",
+    "snowy cottage"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's episode four of the Keegix Podcast. If you want your check in steps, house rules and local picks on one page guests open on their phone, you can start free for one property at keegix dot com slash start.",
+     "card": {
+      "type": "point",
+      "text": "Start free for one property: keegix.com/start"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Sources for every rule and number we mentioned are in the description. Thanks to Callum for the host's view."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Nicole. Check the date on your smoke alarms tonight."
+    },
+    {
+     "who": "host",
+     "text": "New episodes every Tuesday. See you next week."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Airbnb Help Centre: What are essential amenities?",
+   "url": "https://www.airbnb.ca/help/article/2343"
+  },
+  {
+   "label": "Airbnb Community (official account): Clarification on essential amenities, hosts can choose",
+   "url": "https://community.withairbnb.com/t5/Airbnb-updates/Clarification-on-essential-amenities-Hosts-can-choose/m-p/759239"
+  },
+  {
+   "label": "Airbnb Help Centre: Host reliability standards",
+   "url": "https://www.airbnb.ca/help/article/2895"
+  },
+  {
+   "label": "Airbnb Help Centre: Guest Favourites and highlights",
+   "url": "https://www.airbnb.ca/help/article/3495"
+  },
+  {
+   "label": "Airbnb Help Centre: Smoke and carbon monoxide alarms",
+   "url": "https://www.airbnb.ca/help/article/515"
+  },
+  {
+   "label": "Airbnb Help Centre: Carbon monoxide alarm on your listing",
+   "url": "https://www.airbnb.ca/help/article/3288"
+  },
+  {
+   "label": "Airbnb Help Centre: Free smoke and CO alarm for hosts",
+   "url": "https://www.airbnb.ca/help/article/3267"
+  },
+  {
+   "label": "Airbnb Help Centre: Guidebooks",
+   "url": "https://www.airbnb.ca/help/article/249"
+  },
+  {
+   "label": "Airbnb Help Centre: House rules policy (bookings from Nov 20, 2026)",
+   "url": "https://www.airbnb.ca/help/article/4168"
+  },
+  {
+   "label": "Skift: Airbnb's new policy for hosts (Oct 21, 2026)",
+   "url": "https://skift.com/2026/10/21/airbnbs-new-policy-for-hosts-dont-ask-guests-to-wash-dishes-or-strip-beds/"
+  },
+  {
+   "label": "Province of Nova Scotia: Register your short-term accommodation",
+   "url": "https://www.novascotia.ca/register-your-short-term-accommodation"
+  },
+  {
+   "label": "Tourism Nova Scotia: Operating an accommodation business",
+   "url": "https://tourismns.ca/development/business-development/operating-accommodation-business"
+  },
+  {
+   "label": "Province of Nova Scotia: Working smoke alarms save lives (Oct 4, 2024)",
+   "url": "https://news.novascotia.ca/en/2024/10/04/working-smoke-alarms-save-lives-homes"
+  },
+  {
+   "label": "Nova Scotia Fire Safety Regulations",
+   "url": "https://novascotia.ca/JUST/regulations/regs/fsfiresf.htm"
+  },
+  {
+   "label": "Health Canada: Preventing carbon monoxide exposure",
+   "url": "https://www.canada.ca/en/health-canada/services/air-quality/pollutants/carbon-monoxide/preventing-exposure.html"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Airbnb's essentials aren't required. But...",
+   "from": [
+    0,
+    0
+   ],
+   "to": [
+    0,
+    1
+   ],
+   "caption": "Airbnb's five essentials are encouraged, not required. Tick the box without them and your listing can be penalized. #airbnbhost #shorttermrental #bnbhost"
+  },
+  {
+   "title": "Replace smoke alarms at 10 years",
+   "from": [
+    7,
+    13
+   ],
+   "to": [
+    7,
+    17
+   ],
+   "caption": "Your smoke alarm still beeps, so it feels fine. Check the date on it tonight. #airbnbhost #firesafety #shorttermrental"
+  },
+  {
+   "title": "Airbnb's 1-hour response rule",
+   "from": [
+    4,
+    9
+   ],
+   "to": [
+    4,
+    11
+   ],
+   "caption": "Close to check-in, Airbnb expects a reply within an hour. The trick: answer the questions before guests ask. #airbnbhost #hostingtips #bnbhost"
+  },
+  {
+   "title": "Registering a rental in Nova Scotia",
+   "from": [
+    8,
+    1
+   ],
+   "to": [
+    8,
+    3
+   ],
+   "caption": "Renting in Nova Scotia for 28 days or less? Register, renew by April 1, and know the fees. #novascotia #shorttermrental #airbnbcanada"
+  },
+  {
+   "title": "What makes a local guide worth opening",
+   "from": [
+    9,
+    6
+   ],
+   "to": [
+    9,
+    11
+   ],
+   "caption": "Guests don't want every restaurant in the county. They want where you'd go. #airbnbhost #localguide #bnbhost"
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #55",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "family",
+ "hook": {
+  "pillars": "caption text + pop sfx + dad pointing walk-in",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR DAD",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me at 10: \"Why does Dad yell|every time the door is open?\"",
+   "set": "living",
+   "state": {
+    "tv": "CARTOONS"
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 200,
+     "to": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 520,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "dot",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Me, 25 years later, when my kid|leaves it open for 2 seconds:",
+   "set": "street",
+   "state": {},
+   "sfx": "vineboom",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.8,
+      "steam": true
+     }
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.35,
+    "on": "me"
+   }
+  }
+ ]
+}
