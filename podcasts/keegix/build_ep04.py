@@ -154,7 +154,7 @@ segs.append({"heading": "How to make a local guide guests actually use", "visual
     L(H, "So the guide is a standard too. Not a nice extra."),
     L(G, "It's the standard guests feel first. Before they've judged the towels, they've judged whether they could find the place and find dinner."),
 ]})
-segs.append({"heading": "Airbnb Guest Favourites: how standards turn into a badge", "visuals": ["gold trophy", "reviews stars", "cozy bedroom", "coffee cup", "cottage window"], "lines": [
+segs.append({"heading": "Airbnb Guest Favourites: how standards turn into a badge", "visuals": ["guest book", "hotel bell", "cozy bedroom", "coffee cup", "cottage window"], "lines": [
     L(H, "Let's connect all of this to something hosts care about. The Guest Favourite badge. How does Airbnb decide?", "clear"),
     L(G, "First, you need enough history. A minimum of five reviews in the past four years, with at least one of those in the past two years.",
       {"type": "stat", "big": "5 reviews", "label": "In the past 4 years, with at least 1 in the past 2 years", "source": "Airbnb Help Centre"}),
