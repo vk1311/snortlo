@@ -21,8 +21,7 @@
    1.1
   ],
   "music": [
-   true,
-   false
+   true
   ],
   "title_style": [
    "emoji_end",
@@ -98,6 +97,7 @@
   ]
  },
  "_retired": [
-  "2026-11-12 story title_style caps_word (5.37, n=13; all_lowercase 6.11, n=22)"
+  "2026-11-12 story title_style caps_word (5.37, n=13; all_lowercase 6.11, n=22)",
+  "2026-11-15 story music false (5.39, n=16; music on 5.96, n=37)"
  ]
 }

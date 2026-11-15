@@ -19,42 +19,40 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Voices, the look of the videos, the AI note, honesty rules, anything about his brands' positioning.
 - Anything that costs money or needs a new account or login.
 
-## Rules of thumb (keep under 30 lines; edit, don't just append; last weekly rewrite Nov 8)
+## Rules of thumb (keep under 30 lines; edit, don't just append; last weekly rewrite Nov 15)
 **Setup and ops**
-- Postiz integration IDs: copy them from integrationList, never retype them. ask_postiz fails (no OpenAI key), so brand queues can't be read for the clash check; use the planned 12:00 slot and say so.
-- Kaggle token: Google Docs shows the underscore as "\_"; remove the backslash. Export KAGGLE_USERNAME in the same shell call that runs nightly.py. If setup.sh fails on a network reset, rerun it (downloads resume).
-- Anything over ~8 min (voices on big nights, sleep-story render, shrink.sh, compile.py) runs with nohup in the background and is polled with `sleep` under 5 min per call; the shell tool kills foreground commands at 10 min. Never `pkill -f` a pattern matching your own command; kill by PID.
+- Postiz IDs: copy from integrationList, never retype. ask_postiz fails (no OpenAI key), so brand queues can't be read for the clash check; use the planned 12:00 slot and say so.
+- Kaggle token: Google Docs shows the underscore as "\_"; remove the backslash. Export KAGGLE_USERNAME in the same shell call that runs nightly.py. If setup.sh fails on a network reset, rerun it.
+- The shell tool's DEFAULT timeout is 2 min: run voices, `nightly.py render` with a story, compile.py, podcasts and shrink.sh with nohup in the background and poll with `sleep` (pass a longer timeout). Never `pkill -f` a pattern matching your own command; kill by PID.
 - Chatterbox (backup voice) needs the CPU-only torch reinstall and the float32 patches in voice_backend._ensure_chatterbox().
-- ALWAYS read every `"ok"` and `layout_warnings` in the `nightly.py render` output; a failed item still leaves a file behind (qc flags it "BROKEN"). Render memes in ONE render call (in parallel they clobber temp files).
+- ALWAYS read every `"ok"`, `layout_warnings` and the `done ... <seconds>` line in `nightly.py render`; a failed item still leaves a file behind (qc flags it "BROKEN"). Render memes in ONE render call.
 - Halifax is UTC-4 from Nov 1 (DST ended); recheck the offset in March.
-- Sunday compilation: paste media/compile-<date>.description.html as the Facebook content (it has the chapter times); never hand-type chapters.
-- Media mtimes come from git checkout, so housekeeping goes by the dates in schedule-log.md, not `find -mtime`.
+- Sunday compilation: paste media/compile-<date>.description.html as the Facebook content; never hand-type chapters. Housekeeping goes by the dates in schedule-log.md, not `find -mtime`.
+- Ad-hoc whisper checks: faster_whisper can't decode files with this PyAV; gov.py render already refuses a cut whose caption words aren't in the audio, so trust that + the qc frame.
 **Files and media**
-- Every media file < 99 MB (Postiz pulls from raw.githubusercontent.com). Shorts cap at 12 Mbps; podcast.py caps bitrate from length.
-- Brand names the voice gets wrong go in voice_backend.SAY. Check any new brand or place name by ear once.
-- A new YouTube channel must be phone-verified before any video over 15 min.
-**Podcasts**
+- Every media file < 99 MB (Postiz pulls from raw.githubusercontent.com). Brand names the voice gets wrong go in voice_backend.SAY.
+- A new YouTube channel must be phone-verified before any video over 15 min (Waypoint episodes can run to 15:30).
+**Podcasts (and Waypoint, same pipeline)**
 - Visual first: full-screen photos every ~7 s, cards, big captions; AI disclosure = one small corner note + description only.
-- Length: write 3,900-4,300 spoken words for 20+ min (3,724 = 19.6 min). Plan 6 segments; a "how to say it" segment is easy sourced-fact-free length.
-- Photos: plain nouns for places and objects (no mood words, no people; abstract searches like 'reviews stars' or 'gold trophy' pull NASA crew photos). Commons first, Openverse second with its circuit breaker; ~30-45 s per search, so start podcast renders early.
-- ALWAYS review photos: `nightly.py photos`, look at engine/photos.png, `nightly.py block` people (even hands), military/tragedy, politicians, logos, paintings with people, off-topic frames; re-render and review again.
+- Length: 3,900-4,300 spoken words for 20+ min (3,724 = 19.6 min). Plan 6 segments.
+- Photos: plain nouns for places and objects (no mood words, no people; 'reviews stars'/'gold trophy' pull NASA crews). Commons first, Openverse second; ~30-45 s per search, start renders early.
+- ALWAYS review photos (`nightly.py photos` + engine/photos.png) and `nightly.py block` people (even hands), military/tragedy, politicians, logos, paintings with people, off-topic frames; re-render and review again.
 **Snortlo writing and look**
-- Winners (REPORT.md Nov 8): 1-part stories 6.09 (n=14) vs 2-part 5.49 (n=8); am_puck 6.35 (n=17) vs am_michael 5.36 (n=9); all_lowercase titles 6.10 (n=19); music on 5.95 (n=32) vs off 5.42 (n=14). Memes: 8 AM 6.98 (n=13), unvoiced 6.71 (n=27), no deepfry 6.83 (n=19) vs 6.44 (n=20), me_vs_mom 7.45 (n=3).
-- Story length by narrator at 1.1x: am_puck/af_heart ~3.5 words/s (210-240 words); am_michael ~2.8 words/s (180-195 words). 211 words of am_puck = 66 s.
-- Living-room `tv` text: max ~10 characters per line; every character at x<600 with no zoom on them. `cards`: 3 cards of max 5 characters, no cam zoom on that beat, blank sign/whiteboard/board on that beat (layout_warnings flags all three).
+- Winners (REPORT.md Nov 15): am_puck 6.23 (n=22); music on 5.96 (n=37; off retired Nov 15); all_lowercase titles 5.97 (n=25); customers theme 6.56 (n=6), seasonal 5.05 (n=2) and dating 4.98 (n=6) trail. Memes: x_years_later 7.12 (n=16), 8 AM 6.76 (n=19), unvoiced 6.69 (n=34) vs voiced 6.13 (n=16), no deepfry 6.66 (n=28) vs 6.32 (n=22).
+- Story length: am_puck with pauses runs ~3.1-3.2 words/s: 200-215 words = 64-74 s (230 words = 81 s). One combo per video (busted/roast etc.), on the twist.
+- Meme length: the unvoiced render adds ~1.2 s to the sum of holds, so for the long_12_16s arm make holds sum to >= 11.5 s (10.2 s gave 11.4 s on Nov 15).
+- Living-room `tv` text: max ~10 characters per line, characters at x<600, no zoom on them. `cards`: max 5 characters, no cam zoom on that beat, blank sign/whiteboard/board on that beat.
 - Never repeat a joke or premise: `grep -h top_text memes/*.json` for the setup and `ls stories/` before writing.
-- Congress: run `python3 engine/gov.py unused` first: it lists unused session days newest first with cached candidate counts (0 = pro forma). Recent days were pro forma for weeks while older July/Aug days still had 8 unused candidates each; take the newest day with real candidates instead of skipping.
-- Congress: 96 session days were never scanned ("None" in `gov.py unused`), so the cache looked dry. While the podcast or sleep story renders, run `gov.py find` on the next 3-4 unscanned days in the background (~2 min each) so tomorrow always has candidates.
-- Congress: a candidate's start often includes the debate before the funny moment; whisper the cut and move `start` up so the clip opens on the moment itself.
-- Congress: ALWAYS check the rendered clip's words match the moment (qc frame captions, or whisper the mp4). Since Nov 12 gov.py refuses to cut if the clip's own caption words aren't in the audio.
-- Story length with pauses/slow beats: plan ~205-215 words of am_puck for 70-74 s (230 words = 81 s on Nov 12).
-- election_aftermath theme ended Nov 8 (overrides.json window over; pick.py won't pick it again).
+- Congress: `python3 engine/gov.py unused` first; take the newest day with real candidates (Jul 13 still has 6 unused). While something long renders, `gov.py find` the next 3-4 unscanned (None) days in the background so tomorrow has candidates.
+- Congress: candidate starts often include debate before the moment; move `start` up so the clip opens on it, and check the qc frame's caption words match the moment.
 
 ## Proposals for Vatsal (Sunday review; each is also a Sit-Down List item)
-- APPROVED by Vatsal Nov 11, 2026 (arms.json now parts [1]): Make every story 1 part (retire 2-part stories). 1-part averages 6.09 (n=14) vs 2-part 5.49 (n=8), and a 1-part day frees a YouTube slot for meme B or Congress. Yes/no?
-- APPROVED by Vatsal Nov 11, 2026 (arms.json now narrator_voice [am_puck]): Make am_puck the only story narrator (drop am_michael and af_bella from the story voice arms). am_puck 6.35 (n=17) vs af_bella 5.41 (n=13) and am_michael 5.36 (n=9). Yes/no?
+- APPROVED Nov 11, 2026: every story 1 part (arms.json parts [1]); am_puck the only story narrator.
+- NEW Nov 15, 2026: Drop the 5 PM story slot and post stories at 9 AM or noon only. 9 AM 5.84 (n=20), noon 5.77 (n=15), 5 PM 5.56 (n=15). Yes/no?
+- NEW Nov 15, 2026: Use the free 5th Snortlo YouTube slot on Sat-Thu (most days use 4 of 5) for a third Lo vs Life meme on YouTube only, at 20:00 (20:00 memes 6.57, n=14). Yes/no?
 
 ## Night log (newest first; keep the last 14 nights, one to three lines each)
+- 2026-11-15 (Sun): clean run, Kaggle OK first try (13 lines, 157 s). Meme A came out 11.4 s for the 12-16 s arm (holds summed 10.2 s); lengthened to 12.6 s and added the hold-sum rule. Long renders hit the shell's 2-min default timeout; rule now says so. Congress from Jul 13 (reading stumble 'laid on the. to be laid on the table'). Improvement: retired story music=false (5.39, n=16 vs 5.96, n=37). Weekly review: rules rewritten, 2 proposals. Numbers: x_years_later memes 7.12 (n=16); story themes seasonal/dating trail (n=2, n=6).
 - 2026-11-14 (Sat): Kaggle OK first try (401 lines incl. Keegix ep 4, 1,376 s). Congress: Nov 13 was pro forma and the only scanned day with real candidates was Jul 21; first cut ended mid-word, trimmed `end` so it closes on 'used up all of her time'. Root fix + improvement: pre-scanned 4 old unscanned days during the podcast render (Jul 13 has 8 candidates now) and added the rule of thumb. Photo review: 3 passes (23 blocked: brand logos, people, a flat-earth map, astronauts); 'reviews stars' searches return NASA astronauts, so that search was swapped for plain nouns ('guest book', 'hotel bell'). Numbers: no new calls (REPORT unchanged; hooks log only started Nov 12).
 - 2026-11-13 (Fri): clean run, Kaggle OK first try (578 lines incl. sleep stories 6, 1,801 s). QC: speech bubbles sat on the story's whiteboard text and a character overlapped the water cooler; blanked the board on bubble beats, hid the cooler, re-rendered. Root fix: `layout_warnings` now flags both (tested on sweater-returns). Congress: first cut opened on debate lines; trimmed start 3.6 s so the clip opens on 'your time has expired'. Improvement: the sleep-story premise bank was used up (only #21 left), refilled it with 15 new premises (26-40). Numbers: customers theme leads stories (6.90, n=5); starter_pack memes still trail (4.94, n=2, 2 more tonight).
 - 2026-11-12 (Thu): Kaggle OK first try (22 lines, 197 s; story re-voiced after a trim, 6 lines, 175 s). Story first came out 80.9 s at 230 words (pauses + slow beats run am_puck at ~2.85 words/s, not 3.5); cut to 205 words (73.0 s). QC caught the Congress clip showing the WRONG moment (a partisan speech 2 min earlier): gov.py's align() had matched 3-word runs from neighbouring cues. Root fix: align only counts words inside the clip and needs 30% of them, and render widens the window (20/60/120 s pad) until they're found (tested: found at 120 s). Improvement: retired the caps_word title arm (5.37, n=13 vs all_lowercase 6.11, n=22).
@@ -68,6 +66,5 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - 2026-11-04 (Wed): setup.sh failed on a connection reset mid-download of the Kokoro model and left a truncated file the old `[ -f ]` check would have trusted forever; setup.sh now downloads to .part with retries and renames only when complete (tested). Kaggle OK first try (30 lines, 208 s). QC: "TEAL CAP MINE" cards cropped by a 1.5x cam zoom in the story; removed the zoom and re-rendered. Meme B came out 11.0 s for the 12-16 s arm; lengthened holds to 13.2 s. Congress skipped (no new day). Numbers: 1-part 6.35 (n=10) vs 2-part 5.49 (n=8); am_puck 6.53 (n=14) leads af_heart 5.79 (n=6).
 - 2026-11-03 (Tue): clean run, Kaggle OK first try (19 lines, 164 s); no fixes needed. QC fine (no TV/sign overlaps; street set worked for a 3-person scene with x=200/540/880). Congress skipped (Nov 2 pro forma, find returned []). Improvement: added a 'seasonal' story theme arm (leaf blowers, snow, holidays) since the calendar is a free source of premises. Numbers: 1-part 6.45 (n=9) vs 2-part 5.49 (n=8); am_puck 6.60 (n=13) still leads.
 - 2026-11-02 (Mon): Kaggle OK first try (388 lines incl. Staffkin ep 2, 1,117 s), but the nohup log stayed empty for 18 min because voice_backend captured kaggle_tts output; it now streams it (tested). QC: Kyle stood over the living-room TV text; moved him to x=640 and re-rendered. Photo review took three passes and blocked 28 (people, police, soldiers, a painting, a logo, a foreign parliament); Openverse timed out again, Commons carried it. Writing note: Staffkin ep 2 first draft came in at 3,100 words; a 'how to have the conversation' segment and a 4th situation got it to 3,724 (19.6 min). Congress skipped (recess). Numbers: no new calls.
-- 2026-11-01 (Sun): Kaggle OK first try (14 lines, 150 s). Meme A's render crashed (cairo zero-scale on a pop-in card at its exact start frame) but left a half-length file that qc's sizes didn't catch; fixed by clamping every pop-in scale in anim_render.py, and qc now flags video shorter than audio. Congress skipped (recess). Weekly compilation: 6 stories, 7.1 min. Numbers: 1-part beats 2-part (6.70 n=6 vs 5.49 n=8); emoji_end trails all_lowercase (5.59 n=8 vs 6.33 n=15).
 
 - 2026-11-03: YouTube rejects videos over 15 min on channels that aren't phone-verified ("Upload failed: Video too long"). Keegix and Staffkin are now verified. Any NEW YouTube channel must be verified (youtube.com/verify, switched to that channel) before it gets a long video.
