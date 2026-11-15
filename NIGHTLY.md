@@ -24,6 +24,7 @@ Earlier schedule: Oct 8.
 - On 1-part days Instagram gets the story plus memes A and B.
 
 ## Memes: "Lo vs Life"
+- **Meme C (Vatsal approved Nov 15, 2026):** a third Lo vs Life meme fills the 5th Snortlo YouTube slot. YouTube ONLY (no Facebook, no Instagram), always at **20:00**. Make it only when a YouTube slot is still free after everything else in the fill order (usually Tue, Thu, Sat, Sun; never Fridays, and Mon/Wed only if Congress or meme B didn't use a slot). Run `python3 engine/pick.py meme` a third time and follow it except `post_hour` (always 20); never repeat a joke from A or B. Series number continues (A, B, C in order), same share sticker and caption rules. Log it with `log_post.py meme <slug> C ...` with "post_hour": 20. If meme A or B would land within 1 h of 20:00, move that one, not meme C.
 Every meme is an episode of Lo vs Life. See STORY_FORMAT.md for the series tag, the snort sound logo and the #LoVsLife hashtag.
 - Every story still gets a full cut (`media/<slug>-full.mp4`). It's used for the Wednesday Facebook post and the Sunday Facebook compilation.
 
@@ -37,10 +38,11 @@ Every meme is an episode of Lo vs Life. See STORY_FORMAT.md for the series tag, 
 | Lo Explains (Mon/Wed/Fri, at meme B's hour) | yes | yes | only on 1-part days |
 | Congress Moment, 13:00 (if gov/ENABLED) | when it fits the 5-upload cap (always on non-Fridays) | daily | **no** |
 | Sleep stories, Fridays 21:00 (if longform/ENABLED) | yes | yes | no |
+| Meme C (20:00, only when a 5th YouTube slot is free; since Nov 15, 2026) | yes | no | no |
 | Story full cut, Wednesdays (2 h after Part 1) | **no (paused)** | yes | no |
 | Weekly compilation, Sundays 12:00 | **no (paused)** | yes | no |
 
-- **YouTube:** at most **5** uploads a day (since Nov 11, 2026). Fill in this order: the story parts (1 or 2), meme A, the 3rd item (Lo Explains on Mon/Wed/Fri, otherwise meme B), Congress, then meme B on Lo Explains days. On Fridays the sleep story takes the last slot. Count before scheduling and never go over 5.
+- **YouTube:** at most **5** uploads a day (since Nov 11, 2026). Fill in this order: the story parts (1 or 2), meme A, the 3rd item (Lo Explains on Mon/Wed/Fri, otherwise meme B), Congress, then meme B on Lo Explains days, then meme C (since Nov 15, 2026) in any slot still free. On Fridays the sleep story takes the last slot (no meme C). Count before scheduling and never go over 5.
 - **Instagram:** 3 reels a day: Part 2, Part 1 and meme A, or on 1-part days the story plus memes A and B. Reach stalled after Oct 11 while we were posting 6 a day.
 - **Share stickers:** every meme and every Part 2 ends with a "SEND THIS TO YOUR …" sticker (`end_card`, see STORY_FORMAT.md). Part 1 ends with "PART 2 IS UP / ON THE PROFILE".
 - **Experiments:** log both memes (A and B) with log_post.py now that both go to YouTube.
