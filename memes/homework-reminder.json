@@ -1,0 +1,129 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #58",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": false,
+ "theme": "school",
+ "hook": {
+  "pillars": "caption text + ding sfx + hand-up pose",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 4.0,
+   "top_text": "POV: you reminded the teacher|she forgot to give homework",
+   "sfx": "ding",
+   "set": "classroom",
+   "state": {
+    "board": ""
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 260,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 680,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 920,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.8,
+   "top_text": "Teacher: \"Thank you! Since you're|so eager: chapters 4 AND 5\"",
+   "sfx": "pop",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "HOMEWORK:",
+     "CH 4 + 5",
+     "DUE MONDAY"
+    ],
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   }
+  },
+  {
+   "text": "",
+   "hold": 4.2,
+   "top_text": "The whole class at recess:",
+   "sfx": "roast",
+   "meme": "deepfry",
+   "set": "street",
+   "state": {},
+   "cast": [
+    {
+     "who": "co1",
+     "x": 220,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 460,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 700,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 940,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  }
+ ]
+}

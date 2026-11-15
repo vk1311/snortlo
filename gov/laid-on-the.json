@@ -1,0 +1,12 @@
+{
+ "day": "20260713",
+ "start": 19385.7,
+ "end": 19403.0,
+ "tail": 0.6,
+ "top_text": "Me reading my part of the group project|out loud for the first time:",
+ "sfx": [
+  {"at_word": "table", "name": "bruh", "delay": 0.4, "gain": 0.7}
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-07-13, caption clock ~19386-19403; a member reads a unanimous consent request to vacate a vote and lay motions on the table, stumbles ('laid on the. to be laid on the table'), the chair says without objection; procedural only"
+}
