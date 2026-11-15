@@ -48,7 +48,7 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 
 ## Proposals for Vatsal (Sunday review; each is also a Sit-Down List item)
 - APPROVED Nov 11, 2026: every story 1 part (arms.json parts [1]); am_puck the only story narrator.
-- NEW Nov 15, 2026: Drop the 5 PM story slot and post stories at 9 AM or noon only. 9 AM 5.84 (n=20), noon 5.77 (n=15), 5 PM 5.56 (n=15). Yes/no?
+- APPROVED by Vatsal Nov 15, 2026 (arms.json part1_hour now [9, 12]): Drop the 5 PM story slot and post stories at 9 AM or noon only. 9 AM 5.84 (n=20), noon 5.77 (n=15), 5 PM 5.56 (n=15). Yes/no?
 - NEW Nov 15, 2026: Use the free 5th Snortlo YouTube slot on Sat-Thu (most days use 4 of 5) for a third Lo vs Life meme on YouTube only, at 20:00 (20:00 memes 6.57, n=14). Yes/no?
 
 ## Night log (newest first; keep the last 14 nights, one to three lines each)

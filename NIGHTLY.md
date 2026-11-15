@@ -18,6 +18,7 @@ Owner approved on Oct 15, 2026 (after the first-week analytics review):
 Earlier schedule: Oct 8.
 
 ## Stories (always on): 1 or 2 parts, never 3
+- **Nov 15, 2026 (Vatsal approved):** stories post at 9 AM or noon only; the 5 PM slot is dropped (5 PM 5.56, n=15 vs 9 AM 5.84, n=20 and noon 5.77, n=15).
 - pick.py's `parts` setting (1 or 2) is an experiment.
 - Part 1 (or the single part) posts at the picked `part1_hour`. In 2-part stories, Part 2 posts **30 minutes before** Part 1, so Part 1's "PART 2 IS UP" sticker is true and the two sit side by side on the profile.
 - On 1-part days Instagram gets the story plus memes A and B.

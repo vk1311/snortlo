@@ -9,7 +9,7 @@ _updated 2026-11-15 · score = average log(1 + views_72h) on YouTube, higher is 
 - speed: **1.1** 5.88 (n=15)
 - music: **True** 5.96 (n=37)
 - title_style: **all_lowercase** 5.97 (n=25) · **emoji_end** 5.85 (n=12) · **quote_from_story** 5.76 (n=3)
-- part1_hour: **9** 5.84 (n=20) · **12** 5.77 (n=15) · **17** 5.56 (n=15)
+- part1_hour: **9** 5.84 (n=20) · **12** 5.77 (n=15)
 - theme: **customers** 6.56 (n=6) · **election_aftermath** 6.33 (n=4) · **family** 6.03 (n=9) · **school** 6.03 (n=9) · **work** 5.79 (n=6) · **neighbours** 5.43 (n=3) · **pets** 5.40 (n=5) · **roommates** 5.13 (n=3) · **seasonal** 5.05 (n=2) · **dating** 4.98 (n=6)
 
 ## memes
