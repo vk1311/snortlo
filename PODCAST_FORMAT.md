@@ -50,6 +50,9 @@ The Qwen3 house voices at 1.10x speak about 3 words a second including pauses, s
 5. **Recap** (about 1 min): 3 to 5 takeaways.
 6. **Outro** (30 s): CTA, "sources are in the description", next week's topic if known.
 
+**Re-hooks (Vatsal, Nov 16, 2026):** about every 60 to 90 seconds of talk, put a line that gives people a reason to keep watching. Use a tease of what's coming ("And the third one is the one that actually costs hosts money."), an open question answered a little later, a surprising number, or "here's the part nobody tells you". Never fake ones: whatever you tease must pay off in the episode. Analytics on Nov 16 showed the 20-minute episodes keep only about 7 to 11% of viewers, so this is the main fix.
+Each re-hook is also a ready start point for a Short: when picking the 5 `shorts`, start clips on these lines.
+
 Dialogue style:
 - Natural conversation. The host asks and reacts; the guest explains. Turns of 1 to 5 sentences, with a few longer explanations.
 - Use concrete situations: "Say your best line cook starts showing up late and snapping at servers."
@@ -102,12 +105,13 @@ One file per episode: `podcasts/<brand>/<slug>.json`, slug like `keegix-ep01-str
   - `{"type": "rule", "title": "Where", "text": "What the rule says, max 18 words", "source": "...", "as_of": "Oct 2026"}`
   - `{"type": "history", "year": "1974", "text": "What happened, max 16 words"}`
   Aim for one card every 30 to 60 seconds of talk.
-- `shorts`: exactly 5 clips. `from` and `to` are `[segment index, line index]`, inclusive, both zero-based. Each clip runs 30 to 55 seconds (roughly 80 to 140 words), starts with a line that works as a hook on its own, and makes sense without the rest of the episode. Don't cut mid-thought.
+- `shorts`: exactly 5 clips. `from` and `to` are `[segment index, line index]`, inclusive, both zero-based. Each clip runs 30 to 55 seconds (roughly 80 to 140 words), starts on a re-hook line (see Episode shape) that works as a hook on its own, and makes sense without the rest of the episode. Don't cut mid-thought.
 
 ## Before finishing
 
 - `python3 -c "import json;json.load(open('podcasts/<brand>/<slug>.json'))"` loads.
 - Count spoken words (target 3,700 to 4,300).
+- Re-hooks: walk the script and check no stretch of more than ~270 spoken words (about 90 s) goes without one, and every tease pays off.
 - Scan spoken text for digits, %, $, dashes, ellipses, parentheses, all-caps words.
 - Every card and every factual line traces to an entry in `sources`.
 - After rendering: review every photo (`python3 engine/nightly.py photos media/pod-<slug>.timeline.json`, then look at engine/photos.png), block anything with people, war or military scenes, politicians, logos, dark frames or off-topic shots (`nightly.py block …`), and re-render.

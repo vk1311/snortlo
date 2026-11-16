@@ -38,6 +38,9 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - Length: 3,900-4,300 spoken words for 20+ min (3,724 = 19.6 min). Plan 6 segments.
 - Photos: plain nouns for places and objects (no mood words, no people; 'reviews stars'/'gold trophy' pull NASA crews; 'nurse station', 'delivery truck', 'front desk' pull people, use 'stethoscope', 'cardboard boxes'). Commons first, Openverse second; ~30-45 s per search, start renders early.
 - ALWAYS review photos (`nightly.py photos` + engine/photos.png) and `nightly.py block` people (even hands), military/tragedy, politicians, logos, paintings with people, off-topic frames; re-render and review again.
+**Long videos (podcasts and Waypoint explainers)**
+- Re-hook every 60 to 90 s (tease, open question, surprising number; every tease pays off), and start each Short on a re-hook line. Rule in PODCAST_FORMAT.md (Vatsal, Nov 16); Waypoint explainers follow it too (put it in waypoint/WAYPOINT_FORMAT.md when that file exists). Not for sleep stories. Check it worked in experiments/channels.csv (avg_view_pct of episodes, was 7-11% on Nov 16).
+
 **Snortlo writing and look**
 - Winners (REPORT.md Nov 15): am_puck 6.23 (n=22); music on 5.96 (n=37; off retired Nov 15); all_lowercase titles 5.97 (n=25); customers theme 6.56 (n=6), seasonal 5.05 (n=2) and dating 4.98 (n=6) trail. Memes: x_years_later 7.12 (n=16), 8 AM 6.76 (n=19), unvoiced 6.69 (n=34) vs voiced 6.13 (n=16), no deepfry 6.66 (n=28) vs 6.32 (n=22).
 - Story length: am_puck with pauses runs ~3.1-3.2 words/s: 200-215 words = 64-74 s (230 words = 81 s). One combo per video (busted/roast etc.), on the twist.
