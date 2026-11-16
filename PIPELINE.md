@@ -1,14 +1,14 @@
 # Nightly pipeline (run by the "Snortlo nightly story" scheduled task)
 
-1. `bash engine/setup.sh`
-2. Score past posts: `python3 engine/metrics.py` (reads YouTube view counts into experiments/log.csv)
+1. `bash engine/setup.sh`, then restore the YouTube Analytics keys: read the private Google Doc **"youtube-analytics-token"** (Drive connector, like the "kaggle-token" doc) and pipe its text into `python3 engine/yt_auth.py restore` (writes ~/.youtube/, prints only the channel labels). Never print, commit or message its contents.
+2. Score past posts: `python3 engine/metrics.py` (views for experiments/log.csv, plus retention columns avg_view_s / avg_view_pct / subs_gained when ~/.youtube/ is restored; also writes experiments/channels.csv with every upload on Snortlo, Keegix, Staffkin and Waypoint, Shorts and episodes). Without the keys it falls back to scraping public view counts.
 3. Pick tonight's settings: `python3 engine/pick.py story` and `python3 engine/pick.py meme` (also rewrites experiments/REPORT.md)
 4. Write the story (2 parts, see STORY_FORMAT.md) and memes to match the picked settings; render with `engine/make_video.sh <json> <mp4>`
 5. Upload via Postiz (raw.githubusercontent.com URLs), schedule, and log each YouTube post with `engine/log_post.py`
 6. Commit + push
 
 Experiment variables and their options live in experiments/arms.json. The scoreboard is experiments/REPORT.md.
-YouTube is the scoreboard because it is the only platform readable without logins; posts go to Facebook/Instagram with the same settings.
+YouTube is the scoreboard; posts go to Facebook/Instagram with the same settings. Picks still score on views at 72 h; REPORT.md shows retention (ret = average % watched) next to each arm for information only. Switching the score to retention needs Vatsal's OK.
 
 ## Long-form sleep stories
 

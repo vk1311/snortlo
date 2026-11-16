@@ -42,6 +42,18 @@ def stats(series):
             table[var][json.dumps(a)] = (len(xs), sum(xs) / len(xs) if xs else None)
     return table
 
+def retention_stats(series):
+    """Report only (does NOT drive picks): average % of each video watched per arm, from YouTube Analytics."""
+    if not os.path.exists(LOG): return {}
+    rows = [(json.loads(r["variants"] or "{}"), float(r["avg_view_pct"])) for r in csv.DictReader(open(LOG))
+            if r["series"] == series and (r.get("avg_view_pct") or "").strip()]
+    out = {}
+    for var, arms in ARMS[series].items():
+        for a in arms:
+            xs = [p for v, p in rows if v.get(var) == a]
+            out[(var, json.dumps(a))] = (len(xs), sum(xs) / len(xs) if xs else None)
+    return out
+
 def pick(series, day=None):
     t = stats(series); choice = {}; forced, blocked = overrides(series, day)
     for var, arms in ARMS[series].items():
@@ -56,12 +68,17 @@ def pick(series, day=None):
     return choice
 
 def report():
-    lines = [f"# Snortlo experiment scoreboard", f"_updated {dt.date.today()} · score = average log(1 + {ARMS['metric']}) on YouTube, higher is better_", ""]
+    lines = [f"# Snortlo experiment scoreboard", f"_updated {dt.date.today()} · score = average log(1 + {ARMS['metric']}) on YouTube, higher is better_",
+             "_ret = average % of the video watched (YouTube Analytics, lifetime). Shown for information only: picks still use the score above._", ""]
     for series in ("story", "meme"):
         lines += [f"## {'stories' if series == 'story' else 'memes'}", ""]
+        ret = retention_stats(series)
         for var, arms in stats(series).items():
             ranked = sorted(arms.items(), key=lambda kv: -(kv[1][1] or -1))
-            cells = [f"**{json.loads(a)}** {('%.2f' % m) if m is not None else '–'} (n={n})" for a, (n, m) in ranked]
+            def cell(a, n, m):
+                rn, rm = ret.get((var, a), (0, None))
+                return f"**{json.loads(a)}** {('%.2f' % m) if m is not None else '–'} (n={n})" + (f", ret {rm:.0f}% (n={rn})" if rm is not None else "")
+            cells = [cell(a, n, m) for a, (n, m) in ranked]
             lines.append(f"- {var}: " + " · ".join(cells))
         lines.append("")
     open("experiments/REPORT.md", "w").write("\n".join(lines))

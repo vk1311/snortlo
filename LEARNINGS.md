@@ -22,6 +22,7 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 ## Rules of thumb (keep under 30 lines; edit, don't just append; last weekly rewrite Nov 15)
 **Setup and ops**
 - Postiz IDs: copy from integrationList, never retype. ask_postiz fails (no OpenAI key), so brand queues can't be read for the clash check; use the planned 12:00 slot and say so.
+- YouTube Analytics (since Nov 16): at the START of every run, read the Drive Doc "youtube-analytics-token" and pipe its text into `python3 engine/yt_auth.py restore` (strips the "\_" itself), BEFORE metrics.py. Never print or commit it. If metrics.py says "API failed", note it in the report; views still come from the fallback. Brand podcasts, their Shorts and Waypoint explainers are scored in experiments/channels.csv.
 - Kaggle token: Google Docs shows the underscore as "\_"; remove the backslash. Export KAGGLE_USERNAME in the same shell call that runs nightly.py. If setup.sh fails on a network reset, rerun it.
 - The shell tool's DEFAULT timeout is 2 min: run voices, `nightly.py render` with a story, compile.py, podcasts and shrink.sh with nohup in the background and poll with `sleep` (pass a longer timeout). Never `pkill -f` a pattern matching your own command; kill by PID.
 - Chatterbox (backup voice) needs the CPU-only torch reinstall and the float32 patches in voice_backend._ensure_chatterbox().
@@ -50,6 +51,8 @@ The nightly run ("All channels nightly") **reads this file at the start** of eve
 - APPROVED Nov 11, 2026: every story 1 part (arms.json parts [1]); am_puck the only story narrator.
 - APPROVED by Vatsal Nov 15, 2026 (arms.json part1_hour now [9, 12]): Drop the 5 PM story slot and post stories at 9 AM or noon only. 9 AM 5.84 (n=20), noon 5.77 (n=15), 5 PM 5.56 (n=15). Yes/no?
 - APPROVED by Vatsal Nov 15, 2026 (NIGHTLY.md 'Meme C'): Use the free 5th Snortlo YouTube slot on Sat-Thu (most days use 4 of 5) for a third Lo vs Life meme on YouTube only, at 20:00 (20:00 memes 6.57, n=14). Yes/no?
+
+- PROPOSAL (Nov 16, 2026, from the YouTube Analytics hookup): once ~2 weeks of retention is in REPORT.md, score experiments on views at 72 h AND average % watched (e.g. log views x retention), not views alone, so hooks that get clicks but lose people early stop winning. Not switched; needs Vatsal's yes.
 
 ## Night log (newest first; keep the last 14 nights, one to three lines each)
 - 2026-11-16 (Mon): Kaggle OK first try (464 lines incl. Staffkin ep 4, 1,261 s). All scanned Congress days were pro forma; background `gov.py find` run from engine/ wrote candidates to engine/gov/ (invisible to `gov.py unused`). Root fix: gov.py find now always writes to the repo's gov/ (tested), and 3 more unscanned June days pre-scanned for tomorrow. Congress from Jun 30 (chair: 'the House will be in order' x3). Photo review took 3 passes and blocked 32 (people, hands, logos on mugs/receipts/floppies/trucks, plane and space shots, paintings); 'nurse station' and 'delivery truck' kept returning people, swapped for object nouns. Staffkin ep 4 first draft was 3,536 words; a 4th situation and a 'warning signs' segment got it to 3,922 (22.8 min). Numbers: number_list story hooks lead (6.07, n=4, too few to call); bruh is the top meme punch (6.90, n=9).

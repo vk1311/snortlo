@@ -6,6 +6,11 @@ run restores them from Vatsal's Google Doc "youtube-analytics-token" (like the K
   python3 engine/yt_auth.py url                 -> prints the sign-in link (needs ~/.youtube/client.json)
   python3 engine/yt_auth.py code '<pasted URL or code>' <label>   -> saves ~/.youtube/token-<label>.json
   python3 engine/yt_auth.py test <label>        -> last 28 days: views, watch time, avg view %, subs
+  python3 engine/yt_auth.py restore < doc.txt   -> rebuild ~/.youtube/ from the Google Doc's text (nightly setup)
+
+Google Doc "youtube-analytics-token" holds ONE JSON object:
+  {"client_id": "...", "client_secret": "...", "tokens": {"snortlo": "<refresh token>", "keegix": "...", ...}}
+Google Docs may show "_" as "\\_"; restore strips those backslashes. Prints labels only, never a secret.
 """
 import json, os, sys, urllib.parse, urllib.request, datetime as dt
 
@@ -49,6 +54,15 @@ def main():
         json.dump({"refresh_token": t["refresh_token"]}, open(p, "w")); os.chmod(p, 0o600)
         ch = get("https://www.googleapis.com/youtube/v3/channels?part=snippet&mine=true", t["access_token"])
         print("saved", label, "->", [i["snippet"]["title"] for i in ch.get("items", [])])
+    elif cmd == "restore":
+        raw = sys.stdin.read().replace("\\_", "_")
+        d = json.loads(raw[raw.index("{"): raw.rindex("}") + 1])
+        p = os.path.join(DIR, "client.json")
+        json.dump({"client_id": d["client_id"].strip(), "client_secret": d["client_secret"].strip()}, open(p, "w")); os.chmod(p, 0o600)
+        for label, rt in d.get("tokens", {}).items():
+            p = os.path.join(DIR, f"token-{label}.json")
+            json.dump({"refresh_token": rt.strip()}, open(p, "w")); os.chmod(p, 0o600)
+        print("restored ~/.youtube:", ", ".join(sorted(d.get("tokens", {}))) or "no tokens")
     elif cmd == "test":
         tok = access_token(sys.argv[2])
         end = dt.date.today(); start = end - dt.timedelta(days=28)
