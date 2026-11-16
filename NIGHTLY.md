@@ -37,7 +37,7 @@ Every meme is an episode of Lo vs Life. See STORY_FORMAT.md for the series tag, 
 | Meme B (its post_hour, moved 2 h if it clashes with A or the story) | **yes (new)**, except Mon/Wed/Fri when Lo Explains takes this slot | yes | no |
 | Lo Explains (Mon/Wed/Fri, at meme B's hour) | yes | yes | only on 1-part days |
 | Congress Moment, 13:00 (if gov/ENABLED) | when it fits the 5-upload cap (always on non-Fridays) | daily | **no** |
-| Sleep stories, Fridays 21:00 (if longform/ENABLED) | yes | yes | no |
+| Sleep stories, Fridays 21:00 (if longform/ENABLED; settings from `pick.py sleep`, logged with log_post.py since Nov 16, 2026) | yes | yes | no |
 | Meme C (20:00, only when a 5th YouTube slot is free; since Nov 15, 2026) | yes | no | no |
 | Story full cut, Wednesdays (2 h after Part 1) | **no (paused)** | yes | no |
 | Weekly compilation, Sundays 12:00 | **no (paused)** | yes | no |

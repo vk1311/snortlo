@@ -1,5 +1,5 @@
 """Choose tonight's experiment settings and write the scoreboard.
-Usage: python3 engine/pick.py story|meme [YYYY-MM-DD]   -> prints JSON {variable: arm}, and rewrites experiments/REPORT.md"""
+Usage: python3 engine/pick.py story|meme|sleep [YYYY-MM-DD]   -> prints JSON {variable: arm}, and rewrites experiments/REPORT.md"""
 import csv, json, math, os, random, sys, datetime as dt
 
 ARMS = json.load(open("experiments/arms.json")); LOG = "experiments/log.csv"
@@ -24,11 +24,13 @@ def overrides(series, day=None):
                 blocked.setdefault(var, []).extend(arms)
     return forced, blocked
 
+def metric(series): return ARMS.get("metric_by_series", {}).get(series, ARMS["metric"])
+
 def scored_rows(series):
     if not os.path.exists(LOG): return []
     out = []
     for r in csv.DictReader(open(LOG)):
-        v = r.get(ARMS["metric"]) or ""
+        v = r.get(metric(series)) or ""
         if r["series"] == series and v.strip():
             out.append((json.loads(r["variants"] or "{}"), math.log1p(float(v))))
     return out
@@ -70,8 +72,9 @@ def pick(series, day=None):
 def report():
     lines = [f"# Snortlo experiment scoreboard", f"_updated {dt.date.today()} · score = average log(1 + {ARMS['metric']}) on YouTube, higher is better_",
              "_ret = average % of the video watched (YouTube Analytics, lifetime). Shown for information only: picks still use the score above._", ""]
-    for series in ("story", "meme"):
-        lines += [f"## {'stories' if series == 'story' else 'memes'}", ""]
+    names = {"story": "stories", "meme": "memes", "sleep": f"sleep stories (Fridays; score uses {metric('sleep')})"}
+    for series in [x for x in names if x in ARMS]:
+        lines += [f"## {names[series]}", ""]
         ret = retention_stats(series)
         for var, arms in stats(series).items():
             ranked = sorted(arms.items(), key=lambda kv: -(kv[1][1] or -1))

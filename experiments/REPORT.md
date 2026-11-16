@@ -22,3 +22,10 @@ _ret = average % of the video watched (YouTube Analytics, lifetime). Shown for i
 - deepfry: **False** 6.49 (n=31), ret 104% (n=31) · **True** 6.32 (n=22), ret 101% (n=22)
 - post_hour: **8** 6.59 (n=21), ret 94% (n=21) · **20** 6.46 (n=15), ret 121% (n=15) · **13** 6.17 (n=10), ret 103% (n=10)
 - theme: **school** 6.91 (n=1), ret 93% (n=1) · **sleep** 6.83 (n=5), ret 152% (n=5) · **money** 6.76 (n=10), ret 113% (n=10) · **friends** 6.62 (n=5), ret 94% (n=5) · **food** 6.60 (n=10), ret 96% (n=10) · **phone** 6.50 (n=5), ret 93% (n=5) · **family** 6.17 (n=5), ret 96% (n=5) · **work** 5.83 (n=5), ret 84% (n=5) · **election_aftermath** 5.72 (n=7), ret 94% (n=7)
+
+## sleep stories (Fridays; score uses views_7d)
+
+- title_style: **cozy_tales** 2.48 (n=1), ret 24% (n=1) · **fall_asleep_fast** 1.95 (n=1), ret 17% (n=1) · **bedtime_adults_theme** 1.78 (n=2), ret 18% (n=2) · **grown_ups_theme** 1.39 (n=1), ret 16% (n=1) · **minutes_bedtime** – (n=0)
+- length_min: **45** 1.87 (n=5), ret 19% (n=5) · **60** – (n=0)
+- theme: **mixed** 2.22 (n=2), ret 21% (n=2) · **autumn** 1.95 (n=1), ret 34% (n=1) · **night_shifts** 1.61 (n=1), ret 2% (n=1) · **rain** 1.39 (n=1), ret 16% (n=1) · **snow_winter** – (n=0) · **seaside** – (n=0)
+- thumb_title: **Sleepy Stories** 1.87 (n=5), ret 19% (n=5) · **Fall Asleep Fast** – (n=0) · **Bedtime Stories** – (n=0) · **Cozy Stories** – (n=0)

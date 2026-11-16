@@ -99,5 +99,36 @@
   "2026-11-12 story title_style caps_word (5.37, n=13; all_lowercase 6.11, n=22)",
   "2026-11-15 story music false (5.39, n=16; music on 5.96, n=37)",
   "2026-11-15 story part1_hour 17 (5.56, n=15; 9 AM 5.84, n=20; noon 5.77, n=15) - approved by Vatsal Nov 15, 2026"
- ]
+ ],
+ "metric_by_series": {
+  "sleep": "views_7d"
+ },
+ "sleep": {
+  "title_style": [
+   "cozy_tales",
+   "grown_ups_theme",
+   "bedtime_adults_theme",
+   "fall_asleep_fast",
+   "minutes_bedtime"
+  ],
+  "length_min": [
+   45,
+   60
+  ],
+  "theme": [
+   "mixed",
+   "rain",
+   "snow_winter",
+   "autumn",
+   "seaside",
+   "night_shifts"
+  ],
+  "thumb_title": [
+   "Sleepy Stories",
+   "Fall Asleep Fast",
+   "Bedtime Stories",
+   "Cozy Stories"
+  ]
+ },
+ "_about_sleep": "Sleep stories (Fridays), added Nov 16, 2026 at Vatsal's request: keep them and experiment inside them. Scored on views_7d (they're slow and tiny, 72 h is too noisy). Arms: title_style = the title patterns in LONGFORM_FORMAT.md; length_min 45 = 6 stories, 60 = 8 stories; theme = the overall setting; thumb_title = the big thumbnail text. The first 6 compilations were backfilled from their titles (all ~45 min, thumb 'Sleepy Stories'); their views_72h/24h are blank and views_7d = views on Nov 16. Voice and speed stay fixed (needs Vatsal's OK)."
 }

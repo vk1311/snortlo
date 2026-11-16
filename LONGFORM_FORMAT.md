@@ -2,6 +2,15 @@
 
 One weekly compilation of calm, original "stories to fall asleep to" for YouTube and Facebook. One JSON file per compilation in `longform/`, named `sleepy-stories-<n>.json`. Example: `longform/sleepy-stories-1.json`.
 
+## Experiments (since Nov 16, 2026; Vatsal: keep sleep stories, but keep testing inside them)
+
+Before writing, run `python3 engine/pick.py sleep` and follow every setting it prints:
+- `title_style`: `cozy_tales` = "Cozy Stories to Fall Asleep To 🌙 N Calm Tales…", `grown_ups_theme` = "Sleepy Stories for Grown-Ups 🌙 <3 settings>", `bedtime_adults_theme` = "Bedtime Stories for Adults 🌙 <3 settings>", `fall_asleep_fast` = "Fall Asleep Fast 🌙 N Gentle Stories <setting>", `minutes_bedtime` = "<45|60> Minutes of Calm Bedtime Stories for Adults".
+- `length_min`: 45 = 6 stories (about 7,000 to 7,500 words), 60 = 8 stories (about 9,500 to 10,000 words). Story length stays 1,000 to 1,300 words.
+- `theme`: the whole compilation's setting. `mixed` = varied settings as below; `rain`, `snow_winter`, `autumn`, `seaside` or `night_shifts` = every story shares that setting (still vary people, animals, indoor and outdoor).
+- `thumb_title`: put it in the JSON's `thumb_title` (the big thumbnail text).
+After scheduling, log it so it gets scored: `python3 engine/log_post.py sleep sleepy-stories-<n> 1 "<exact YouTube title>" '<the picked JSON>' <posted_at ISO UTC>`. Scored on views after 7 days (experiments/REPORT.md).
+
 ## JSON shape
 
 ```json
@@ -17,18 +26,18 @@ One weekly compilation of calm, original "stories to fall asleep to" for YouTube
 - Valid UTF-8 JSON. Check it loads with `python3 -c "import json;json.load(open('longform/sleepy-stories-N.json'))"`.
 - `voice` stays `af_heart` and `speed` stays `0.92` unless the renderer changes.
 - Story paragraphs are separated by a blank line (`\n\n`). No other formatting inside `text`.
-- Exactly 6 stories.
+- 6 stories for `length_min` 45, 8 for 60 (see Experiments).
 
 ## Length targets
 
-- Each story: 1,000 to 1,300 words. Whole compilation: about 7,000 to 7,500 words, roughly 45 to 50 minutes at a slow pace.
+- Each story: 1,000 to 1,300 words. Whole compilation: about 7,000 to 7,500 words (6 stories, roughly 45 to 50 minutes at a slow pace) or 9,500 to 10,000 words (8 stories, about 60 minutes).
 - Intro: 80 to 120 words. Outro: 60 to 90 words.
 - Count the words before you finish and report them per story and in total.
 
 ## Titles
 
 - YouTube title under 90 characters, ends with `| Snortlo`, one 🌙 at most.
-- Rotate patterns so weeks don't look identical:
+- The pattern comes from `pick.py sleep` (`title_style`, see Experiments). The patterns:
   - `Cozy Stories to Fall Asleep To 🌙 6 Calm Tales | Snortlo`
   - `Sleepy Stories for Grown-Ups 🌙 Rain, Tea and Quiet Places | Snortlo`
   - `45 Minutes of Calm Bedtime Stories for Adults | Snortlo`
