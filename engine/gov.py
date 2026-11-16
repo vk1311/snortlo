@@ -74,7 +74,8 @@ def find(day, n=8):
     for c in keep:  # loudness: shouting and gavels score higher
         c["loud"] = loudness(m3u8, c["start"] + off, c["end"] - c["start"]); c["score"] = round(c["score"] + 3 * c["loud"], 2)
     keep.sort(key=lambda c: -c["score"]); keep = keep[:n]
-    os.makedirs("gov", exist_ok=True); json.dump(keep, open(f"gov/candidates-{day}.json", "w"), indent=1)
+    gdir = os.path.join(HERE, "..", "gov")  # repo gov/, whatever the cwd (Nov 16: engine/gov/ was created by mistake)
+    os.makedirs(gdir, exist_ok=True); json.dump(keep, open(os.path.join(gdir, f"candidates-{day}.json"), "w"), indent=1)
     return keep
 
 SEG = 2.0  # House HLS uses 2-second fMP4 segments, numbered from 0 at the stream start

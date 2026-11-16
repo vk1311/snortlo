@@ -53,7 +53,7 @@ segs.append(dict(heading="What is psychological safety? The definition, and what
  H("And the last one, that it means never feeling uncomfortable."),
  G("Right. Telling your boss the schedule doesn't work is always going to feel a little uncomfortable. Safety doesn't remove the discomfort. It just means the discomfort is worth it, because you've seen what happens when people speak up. Nothing bad. Usually something gets fixed."),
 ]))
-segs.append(dict(heading="A short history: the hospital study that looked like a mistake", visuals=["hospital hallway", "medicine bottles", "hospital bed", "nurse station", "clipboard", "city skyline"], lines=[
+segs.append(dict(heading="A short history: the hospital study that looked like a mistake", visuals=["hospital hallway", "medicine bottles", "hospital bed", "stethoscope", "clipboard", "city skyline"], lines=[
  H("Let's go back to that cold open. The hospital study. Tell me how it actually went."),
  G("Edmondson published it in nineteen ninety six. She studied eight unit teams, picked at random from two teaching hospitals in a big city. For six months, the researchers tracked drug errors. Things like a wrong dose or a missed medication.",
    {"type": "history", "year": "1996", "text": "Eight hospital units tracked for six months for drug errors"}),
@@ -168,7 +168,7 @@ segs.append(dict(heading="What a manager actually does: five habits that build p
  H("That one is hard when it's your best performer."),
  G("It's the hardest. But think about what it costs. You might be keeping one strong person and quietly losing what four other people would have told you."),
 ]))
-segs.append(dict(heading="A quick check: signs your team doesn't feel safe to speak up", visuals=["clock on wall", "empty meeting room", "notice board", "cash register", "delivery truck"], lines=[
+segs.append(dict(heading="A quick check: signs your team doesn't feel safe to speak up", visuals=["clock on wall", "empty meeting room", "notice board", "cash register", "cardboard boxes"], lines=[
  H("How would I know if my own team doesn't feel safe? Nobody's going to tell me, that's kind of the point."),
  G("Right, so you look for signs instead. None of these prove anything on their own, but a few together are worth paying attention to. First sign. Bad news arrives late. You find out about the problem on the day it explodes, not the week it started.",
    {"type": "list", "title": "Warning signs", "items": ["Bad news arrives late", "The same two people talk", "Customers find the mistakes", "Everything is fine"]}),
