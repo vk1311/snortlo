@@ -1,0 +1,64 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #60",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "school",
+ "hook": {
+  "pillars": "caption text + slideup sfx + bounce",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.3,
+   "top_text": "Me in grade 2: \"When I'm a grown-up|I'll stay up as late as I want!\"",
+   "set": "classroom",
+   "state": {
+    "board": "BEDTIME|8 PM"
+   },
+   "sfx": "slideup",
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.7,
+   "top_text": "Me at 31, in bed at 9:15|because I wanted to:",
+   "set": "bedroom",
+   "state": {
+    "clock": "9:15"
+   },
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    }
+   ]
+  }
+ ]
+}

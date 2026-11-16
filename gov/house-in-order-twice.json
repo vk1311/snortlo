@@ -1,0 +1,12 @@
+{
+ "day": "20260630",
+ "start": 15304.0,
+ "end": 15330.5,
+ "tail": 0.6,
+ "top_text": "Me trying to tell ONE story|at the family dinner:",
+ "sfx": [
+  {"at_word": "suspend", "name": "recordscratch", "delay": 0.2, "gain": 0.7}
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-06-30, caption clock ~15302-15332; after a vote, the chair calls the House to order, a member from Louisiana starts offering a motion, the chair tells him to suspend and calls 'the House will be in order' twice more; procedural only"
+}

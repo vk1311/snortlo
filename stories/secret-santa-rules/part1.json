@@ -1,0 +1,330 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "seasonal",
+ "hook": {
+  "pillars": "headline text 5 RULES / 1 DAVE + whoosh + slow zoom",
+  "formula": "number_list hook (Unexpected Truth-style: rules vs Dave)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR COWORKER",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "5 RULES|1 DAVE",
+    "bg1": "#FDE8E8",
+    "bg2": "#D96B6B"
+   },
+   "text": "Our office Secret Santa has five rules. Dave broke all five before December.",
+   "sfx": "whoosh",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "SECRET|SANTA"
+   },
+   "text": "Rule one. Keep it secret. Dave pulled a name out of the hat and yelled, I got Linda! Four seconds.",
+   "sfx": "bruh",
+   "speaker": "co1",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "me",
+     "x": 620,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "RULE 2|NO SPYING"
+   },
+   "text": "Rule two. No spying on your person. Dave asked Linda for her shoe size. Twice. In a meeting.",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 250,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 560,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": ""
+   },
+   "cards": [
+    "KEV",
+    "PRIYA",
+    "KEV"
+   ],
+   "text": "Rule three. No swapping names. Dave swapped with Kevin. Then Priya. Then Kevin again, somehow.",
+   "sfx": "boing",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 250,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "RULE 3|NO SWAPS"
+   },
+   "text": "So I cornered him at the water cooler. Dave. Why are you like this?",
+   "sfx": "hmm",
+   "speaker": "me",
+   "cast": [
+    {
+     "who": "me",
+     "x": 230,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "3 YEARS",
+     "IN A ROW"
+    ],
+    "bg1": "#E8F1F8",
+    "bg2": "#7FA6C9"
+   },
+   "text": "He goes, Linda has been my Secret Santa three years in a row. And every single year, she gets it perfect.",
+   "sfx": "busted",
+   "meme": "shake"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": ""
+   },
+   "text": "Last year she got him the tiny cactus he wanted. He never told anyone. He just looked at one. Once.",
+   "sfx": "aww",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 400,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "RULE 4|$20 MAX"
+   },
+   "text": "So this year, he was getting her back. Rule four, twenty dollar limit. He bought her a two hundred dollar espresso machine.",
+   "sfx": "cashregister",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 250,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    },
+    {
+     "who": "me",
+     "x": 560,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "RULE 5|OPEN TOGETHER"
+   },
+   "text": "Rule five. Everyone opens gifts together. Dave made Linda open hers first. She cried. Kevin cried. I'm not saying I cried.",
+   "sfx": "sadviolin",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 250,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 520,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": ""
+   },
+   "text": "Then Linda wipes her eyes, and hands Dave a tiny box.",
+   "sfx": "drumroll",
+   "slow": true,
+   "cast": [
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "co2"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "TO: DAVE",
+     "FROM: LINDA",
+     "YEAR 4"
+    ],
+    "bg1": "#E3F5E1",
+    "bg2": "#7DBF75"
+   },
+   "text": "To Dave. From your Secret Santa. Linda. Year four.",
+   "sfx": "dundun",
+   "meme": "shake"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": ""
+   },
+   "text": "There were twelve names in that hat. Nobody knows how she does it. H R is investigating.",
+   "sfx": "crickets",
+   "pause": 0.6,
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 560,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  }
+ ]
+}

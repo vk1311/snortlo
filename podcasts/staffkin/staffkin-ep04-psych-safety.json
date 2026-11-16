@@ -1,0 +1,1076 @@
+{
+ "brand": "staffkin",
+ "episode": 4,
+ "slug": "staffkin-ep04-psych-safety",
+ "air_date": "2026-11-26",
+ "title": "Psychological Safety at Work: What It Really Means (and What Google Found) | Staffkin Podcast",
+ "card_title": "Psychological safety and workplace conflict",
+ "thumb_title": "Why quiet teams are risky",
+ "guest": {
+  "name": "Owen",
+  "role": "Restaurant and care home manager, 20 years",
+  "voice": "am_adam"
+ },
+ "hook": {
+  "pillars": "history card 1996 + pop on card + slow zoom on hospital corridor",
+  "formula": "Unexpected Truth"
+ },
+ "description": "What psychological safety at work really means, where the idea came from, and what a manager can actually do about workplace conflict.\nThe research: Amy Edmondson's 1996 hospital study and 1999 team study, and Google's research on 180 teams.\nIn Canada: the voluntary National Standard for Psychological Health and Safety in the Workplace, and Nova Scotia's harassment prevention policy rules (in force since Sept 1, 2025). In the news: the 2026 living wage for Nova Scotia.\nHosts and guests on this show are AI voices. Facts are sourced below. Not legal advice.\nIf you or someone you know is in crisis in Canada, call or text 9-8-8.",
+ "tags": [
+  "psychological safety",
+  "psychological safety at work",
+  "what is psychological safety",
+  "amy edmondson",
+  "google project aristotle",
+  "workplace conflict",
+  "conflict resolution at work",
+  "national standard psychological health and safety",
+  "nova scotia harassment policy",
+  "small business management",
+  "manager tips",
+  "workplace psychology"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "visuals": [
+    "hospital corridor",
+    "medicine cabinet",
+    "pill bottles",
+    "clipboard"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "In the nineteen nineties, a young researcher went into two big city hospitals expecting to prove something obvious. Teams with better leaders make fewer medication mistakes."
+    },
+    {
+     "who": "host",
+     "text": "Her data said the exact opposite. The units with the best rated managers had the most errors on record. Some of them had about ten times more than others.",
+     "card": {
+      "type": "history",
+      "year": "1996",
+      "text": "A hospital study finds the best-led units report the most drug errors"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And the twist is the whole episode. Those teams probably weren't making more mistakes. They were the only ones saying so out loud. Everywhere else, the mistakes were still happening. People just kept quiet."
+    }
+   ]
+  },
+  {
+   "heading": "Intro",
+   "visuals": [
+    "office building",
+    "coffee mug",
+    "notebook",
+    "meeting room"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Welcome to the Staffkin Podcast, the show about workplace psychology for people who manage people. I'm Sam. Every fact we use is sourced in the description."
+    },
+    {
+     "who": "host",
+     "text": "Today, psychological safety and workplace conflict. What the phrase actually means, where it came from, what Google found when it studied its own teams, and what the rules in Canada and here in Nova Scotia expect from an employer.",
+     "card": {
+      "type": "list",
+      "title": "Today",
+      "items": [
+       "What psychological safety means",
+       "The hospital study",
+       "Google's 180 teams",
+       "Canada's standard and NS rules"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "My guest is Owen. Owen plays a manager who has run restaurant and care home teams for twenty years. Owen isn't a real person, and every workplace story today is a made up example. Welcome, Owen."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Sam. And I want to clear something up before we start, because this phrase gets a bad reputation. Psychological safety does not mean everyone is comfortable all the time. It doesn't mean nobody gets told their work isn't good enough. Some of the safest teams I can picture are also the toughest ones.",
+     "card": {
+      "type": "point",
+      "text": "Psychological safety isn't comfort. It's being able to speak up."
+     }
+    },
+    {
+     "who": "host",
+     "text": "We'll get to that. First, a quick look at the news."
+    }
+   ]
+  },
+  {
+   "heading": "In the news: Nova Scotia's 2026 living wage",
+   "visuals": [
+    "Halifax harbour",
+    "calculator",
+    "grocery receipt",
+    "apartment building",
+    "bus stop"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "As of mid November twenty twenty six, the Canadian Centre for Policy Alternatives has published its new living wage numbers for Nova Scotia, Newfoundland and Labrador, and Prince Edward Island. The report came out on November ninth."
+    },
+    {
+     "who": "guest",
+     "text": "The living wage is what they calculate a household needs to cover basic costs where they live. For Halifax this year, it's thirty dollars an hour, up from twenty nine dollars and forty cents last year.",
+     "card": {
+      "type": "stat",
+      "big": "$30/hr",
+      "label": "Halifax living wage, 2026 (up from $29.40)",
+      "source": "CCPA Nova Scotia, Nov 9, 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And the minimum wage?"
+    },
+    {
+     "who": "guest",
+     "text": "Nova Scotia's minimum wage is seventeen dollars an hour, in effect since October first. The report says the gap between the living wage and the minimum wage in the province is just under twelve dollars an hour, and that close to half of the Nova Scotia labour market earns less than the living wage.",
+     "card": {
+      "type": "compare",
+      "left_title": "Minimum wage",
+      "left": "$17/hr since Oct 1",
+      "right_title": "Halifax living wage",
+      "right": "$30/hr"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Northern Nova Scotia went up a lot too, right?"
+    },
+    {
+     "who": "guest",
+     "text": "Global News reported it rose almost ten percent, to twenty eight dollars an hour, mostly because of rent. And to be clear, the living wage is voluntary. It's not a legal minimum. It's a benchmark."
+    },
+    {
+     "who": "host",
+     "text": "So why does that belong in an episode about psychological safety?"
+    },
+    {
+     "who": "guest",
+     "text": "Because money stress walks into work with people. If someone on your team is worried about rent, they are much less likely to put their hand up and say, I made a mistake, or, I don't think this plan works. Speaking up feels risky when you can't afford to lose the job. That's the climate a lot of small teams are working in right now, so it's worth knowing."
+    },
+    {
+     "who": "host",
+     "text": "Fair. Alright, let's get into it."
+    }
+   ]
+  },
+  {
+   "heading": "What is psychological safety? The definition, and what it isn't",
+   "visuals": [
+    "office furniture",
+    "factory floor",
+    "empty chairs",
+    "whiteboard",
+    "sticky notes",
+    "workbench"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's start with the definition. Where does the phrase actually come from?"
+    },
+    {
+     "who": "guest",
+     "text": "The version everyone uses comes from a researcher named Amy Edmondson. In nineteen ninety nine she published a study defining team psychological safety as a shared belief, held by people on a team, that the team is safe for interpersonal risk taking.",
+     "card": {
+      "type": "point",
+      "text": "A shared belief that the team is safe for interpersonal risk taking"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Interpersonal risk taking. Give me that in normal words."
+    },
+    {
+     "who": "guest",
+     "text": "Anything you might do at work that could make you look ignorant, incompetent, negative or disruptive. Asking a question that sounds basic. Admitting you dropped the ball. Saying, I think we're doing this wrong. Asking for help. Every one of those carries a small social risk. Psychological safety is the belief that you won't be punished or humiliated for taking it."
+    },
+    {
+     "who": "host",
+     "text": "And it's a team thing, not a personality thing."
+    },
+    {
+     "who": "guest",
+     "text": "That's the key word in the definition. Shared. It's not about whether one person is confident. The same person can be bold on one team and silent on another. It's about what the group has learned to expect when someone speaks up."
+    },
+    {
+     "who": "host",
+     "text": "Where did she study it?"
+    },
+    {
+     "who": "guest",
+     "text": "At an office furniture manufacturer with about five thousand people. She sent surveys to fifty three teams, and four hundred and twenty seven people from fifty one teams answered. Sales teams, product teams, self managed teams on the factory floor.",
+     "card": {
+      "type": "stat",
+      "big": "51 teams",
+      "label": "427 people at a furniture maker surveyed for the 1999 study",
+      "source": "Edmondson, 1999"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And what did she find?"
+    },
+    {
+     "who": "guest",
+     "text": "That teams with higher psychological safety did more learning behaviour. Asking for feedback, talking about errors, testing assumptions, asking people outside the team for help. Her measure of safety explained a big share of the differences in learning between teams. Now, she was honest about the limits. It was one company and one point in time, so it shows a link, not proof of cause."
+    },
+    {
+     "who": "host",
+     "text": "Now let's do the myths. What is it not?"
+    },
+    {
+     "who": "guest",
+     "text": "Myth one. It means being nice. It doesn't. Nice teams often avoid hard conversations, which is the opposite of safe. A safe team can say, this isn't good enough, without anyone getting humiliated.",
+     "card": {
+      "type": "list",
+      "title": "It is not",
+      "items": [
+       "Being nice all the time",
+       "Lower standards",
+       "Everyone agreeing",
+       "Never feeling uncomfortable"
+      ]
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Myth two. It means lower standards. Also no. Picture a grid. High standards and low safety is an anxious team. People work hard and hide problems. Low standards and high safety is a comfortable team that coasts. You want both high. That's where people learn fast."
+    },
+    {
+     "who": "host",
+     "text": "Myth three?"
+    },
+    {
+     "who": "guest",
+     "text": "That it means everyone agrees. A team where nobody ever disagrees isn't safe. It's quiet. Disagreement about the work is a sign that people feel free to speak."
+    },
+    {
+     "who": "host",
+     "text": "And the last one, that it means never feeling uncomfortable."
+    },
+    {
+     "who": "guest",
+     "text": "Right. Telling your boss the schedule doesn't work is always going to feel a little uncomfortable. Safety doesn't remove the discomfort. It just means the discomfort is worth it, because you've seen what happens when people speak up. Nothing bad. Usually something gets fixed."
+    }
+   ]
+  },
+  {
+   "heading": "A short history: the hospital study that looked like a mistake",
+   "visuals": [
+    "hospital hallway",
+    "medicine bottles",
+    "hospital bed",
+    "nurse station",
+    "clipboard",
+    "city skyline"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's go back to that cold open. The hospital study. Tell me how it actually went."
+    },
+    {
+     "who": "guest",
+     "text": "Edmondson published it in nineteen ninety six. She studied eight unit teams, picked at random from two teaching hospitals in a big city. For six months, the researchers tracked drug errors. Things like a wrong dose or a missed medication.",
+     "card": {
+      "type": "history",
+      "year": "1996",
+      "text": "Eight hospital units tracked for six months for drug errors"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And she surveyed the staff too."
+    },
+    {
+     "who": "guest",
+     "text": "Nurses, doctors and pharmacists. Two hundred and eighty nine got the survey, and one hundred and fifty nine answered. They rated things like how good their nurse manager was and how well the unit worked together."
+    },
+    {
+     "who": "host",
+     "text": "So the expectation was, good teams, fewer errors."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. And the error rates across the units varied a lot. From about two point three errors per thousand patient days, to about twenty three point seven. Roughly ten times apart.",
+     "card": {
+      "type": "stat",
+      "big": "2.3 to 23.7",
+      "label": "Detected drug errors per 1,000 patient days across 8 units",
+      "source": "Edmondson, 1996"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And when she lined those up against the survey, the units whose people rated their manager and their team most highly had the highest error rates. Not the lowest."
+    },
+    {
+     "who": "host",
+     "text": "Which sounds like a disaster for her theory."
+    },
+    {
+     "who": "guest",
+     "text": "It did. And here's the bit I love. Instead of hiding the result, she asked what it meant. The errors in the study were the errors that got found and recorded. So the number depends on two things. How many mistakes people make, and how willing they are to report them."
+    },
+    {
+     "who": "host",
+     "text": "And you can't tell those apart from the numbers."
+    },
+    {
+     "who": "guest",
+     "text": "No, and she said so plainly. She wrote that actual errors and detected errors were mixed up in a way the data couldn't separate. So she didn't claim the open units made fewer real mistakes. She said the data couldn't show that. What it did suggest is that on some units, people felt safe enough to say, I got this wrong. On others, they didn't."
+    },
+    {
+     "who": "host",
+     "text": "Did the paper call it psychological safety?"
+    },
+    {
+     "who": "guest",
+     "text": "Not yet. She talked about how safe it felt to discuss mistakes. The phrase and the measure came three years later, with that furniture company study. But this is where the idea started."
+    },
+    {
+     "who": "host",
+     "text": "Why does a hospital study from the nineties matter to someone running a bakery in Truro?"
+    },
+    {
+     "who": "guest",
+     "text": "Because every workplace has its version of a medication error. The walk in fridge that's been reading a bit warm. The forklift with the sticky brake. The customer order somebody forgot. If the person who noticed doesn't feel safe saying it, the problem doesn't go away. It just goes quiet. The low error number on your whiteboard might be the scariest number you have."
+    },
+    {
+     "who": "host",
+     "text": "A quiet problem isn't a solved problem.",
+     "card": {
+      "type": "point",
+      "text": "A low number of reported mistakes can mean people stopped reporting"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "What Google found when it studied 180 teams",
+   "visuals": [
+    "computer server room",
+    "laptop desk",
+    "data chart",
+    "glass office",
+    "conference table"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Now the study everyone quotes. Google."
+    },
+    {
+     "who": "guest",
+     "text": "Google ran a research project on what makes its teams effective. Its re work guide, first published in twenty fifteen, says it looked at one hundred and eighty teams. One hundred and fifteen engineering teams and sixty five sales teams.",
+     "card": {
+      "type": "stat",
+      "big": "180 teams",
+      "label": "115 engineering teams and 65 sales teams studied",
+      "source": "Google re:Work"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And they expected, what, the smartest people win?"
+    },
+    {
+     "who": "guest",
+     "text": "A lot of people did. But the guide says what really mattered was less about who was on the team, and more about how the team worked together. They found five things, and they list psychological safety first."
+    },
+    {
+     "who": "host",
+     "text": "Walk me through the five."
+    },
+    {
+     "who": "guest",
+     "text": "One. Psychological safety. Can we take risks on this team without feeling insecure or embarrassed? Two. Dependability. Can we count on each other to do quality work on time? Three. Structure and clarity. Are goals, roles and plans clear?",
+     "card": {
+      "type": "list",
+      "title": "Google's five dynamics",
+      "items": [
+       "Psychological safety",
+       "Dependability",
+       "Structure and clarity",
+       "Meaning and impact"
+      ]
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Four. Meaning. Is the work personally important to the people doing it? And five. Impact. Do we believe the work matters?"
+    },
+    {
+     "who": "host",
+     "text": "And what didn't matter much?"
+    },
+    {
+     "who": "guest",
+     "text": "This is the part small employers should hear. The guide lists things that were not significantly connected to team effectiveness at Google. Whether people sat together. Making decisions by consensus. How extroverted people were. Individual performance. Workload size. Seniority. Team size. How long people had been there.",
+     "card": {
+      "type": "list",
+      "title": "Mattered less at Google",
+      "items": [
+       "Who sits together",
+       "Seniority and tenure",
+       "Team size",
+       "How outgoing people are"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "So a team of four in a kitchen isn't at a disadvantage."
+    },
+    {
+     "who": "guest",
+     "text": "Not on this measure. Now, Google is one company with its own kind of jobs, so I wouldn't treat it as a law of nature. But it lines up with Edmondson's work, and it's good news for small teams. You don't need a big budget or star hires to build the thing that mattered most. You need habits."
+    },
+    {
+     "who": "host",
+     "text": "And dependability and clarity come right after it."
+    },
+    {
+     "who": "guest",
+     "text": "Which matters, because people sometimes hear safety and think soft. But look at the list. Do your work on time. Know what your job is. Those are tough expectations. Safety is what lets people say, I can't hit that deadline, early, instead of the night before."
+    }
+   ]
+  },
+  {
+   "heading": "Brand break",
+   "visuals": [
+    "notebook",
+    "desk lamp",
+    "pen and paper"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Quick word from us. Staffkin is a hiring and onboarding kit for small Canadian employers with no H R person. It helps you write clear job descriptions, ask every candidate the same fair interview questions, and give new people a clear first few weeks. Clear roles from day one are a big part of the structure and clarity we just talked about.",
+     "card": {
+      "type": "point",
+      "text": "Staffkin: hiring and onboarding for small Canadian teams"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Back to Owen."
+    }
+   ]
+  },
+  {
+   "heading": "Canada's national standard and Nova Scotia's harassment rules",
+   "visuals": [
+    "Province House Halifax",
+    "law books",
+    "filing cabinet",
+    "safety sign",
+    "hard hat",
+    "binder"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's bring it home to Canada. There's actually a national standard for this, right?"
+    },
+    {
+     "who": "guest",
+     "text": "There is. As of November twenty twenty six, the National Standard of Canada for Psychological Health and Safety in the Workplace has been around since January twenty thirteen. It was commissioned by the Mental Health Commission of Canada, which describes it as the first of its kind in the world.",
+     "card": {
+      "type": "history",
+      "year": "2013",
+      "text": "Canada launches a national standard for psychological health and safety at work"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Is it the law?"
+    },
+    {
+     "who": "guest",
+     "text": "No. It's voluntary. The commission calls it a set of voluntary guidelines and tools, for organizations of all sizes in all sectors. And its page says a second edition is coming soon, so watch for that.",
+     "card": {
+      "type": "rule",
+      "title": "Canada",
+      "text": "The national standard is voluntary guidance for workplaces of any size",
+      "source": "Mental Health Commission of Canada",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "What's in it?"
+    },
+    {
+     "who": "guest",
+     "text": "It lists thirteen workplace factors that affect people's mental health. I'll read a few. Organizational culture. Clear leadership and expectations. Civility and respect. Workload management. Recognition and reward. Involvement and influence. Psychological protection, which is basically the same idea we've been talking about.",
+     "card": {
+      "type": "list",
+      "title": "A few of the 13 factors",
+      "items": [
+       "Clear leadership",
+       "Civility and respect",
+       "Workload management",
+       "Psychological protection"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "So it's a checklist a small employer could actually use."
+    },
+    {
+     "who": "guest",
+     "text": "As a way to look at your workplace, yes. You don't need a consultant to ask, are expectations clear here? Do people get recognized? Is the workload sane? Those questions are free."
+    },
+    {
+     "who": "host",
+     "text": "And Nova Scotia has gone further with harassment."
+    },
+    {
+     "who": "guest",
+     "text": "Right. As of September first, twenty twenty five, under the Stronger Workplaces for Nova Scotia Act, all provincially regulated workplaces in Nova Scotia need a written harassment prevention policy. The province's announcement didn't mention any size cut off.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia",
+      "text": "Since Sept 1, 2025, provincially regulated workplaces need a written harassment prevention policy",
+      "source": "Province of Nova Scotia",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "What does the policy have to cover?"
+    },
+    {
+     "who": "guest",
+     "text": "According to the province, it has to set out expectations, explain how people report concerns, and explain how complaints will be investigated. It has to commit to confidentiality and to no retaliation against people who report. Staff have to be trained on it, and it has to be reviewed at least every three years.",
+     "card": {
+      "type": "list",
+      "title": "The NS policy must cover",
+      "items": [
+       "Expectations",
+       "How to report",
+       "How complaints are investigated",
+       "Confidentiality, no retaliation"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Why did the province do it?"
+    },
+    {
+     "who": "guest",
+     "text": "The announcement gave one number that stuck with me. Workers' compensation in Nova Scotia recorded one hundred and ninety four psychological workplace injuries in twenty twenty four, up from one hundred and fifty three years earlier.",
+     "card": {
+      "type": "stat",
+      "big": "194",
+      "label": "Psychological workplace injuries recorded by WCB Nova Scotia in 2024, up from 150",
+      "source": "Province of Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And notice the no retaliation part. That's psychological safety written into a regulation."
+    },
+    {
+     "who": "guest",
+     "text": "It is. A reporting process only works if people believe nothing bad happens when they use it. Rules vary by province, and some workplaces are federally regulated instead, so check which rules apply to you. This isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "Four workplace conflict situations every small employer will recognize",
+   "visuals": [
+    "restaurant kitchen",
+    "walk in fridge",
+    "care home hallway",
+    "schedule calendar",
+    "front desk",
+    "toolbox"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's get practical. Give me some situations. Made up, but real enough."
+    },
+    {
+     "who": "guest",
+     "text": "Situation one. The walk in fridge. Say you run a restaurant. A newer cook, call her Jess, notices the walk in has been reading a few degrees warm all week. The head chef has been there fifteen years and is known for snapping. Jess says nothing.",
+     "card": {
+      "type": "point",
+      "text": "Situation 1: the new cook who doesn't mention the warm fridge"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And what happens?"
+    },
+    {
+     "who": "guest",
+     "text": "Either nothing, and you got lucky. Or a whole shipment spoils, or worse, someone gets sick. And when it comes out, the chef says, why didn't anyone tell me? And everyone in the kitchen knows exactly why."
+    },
+    {
+     "who": "host",
+     "text": "So what does the owner do?"
+    },
+    {
+     "who": "guest",
+     "text": "Two things. With the chef, privately, you talk about the reaction, not the person. When people bring you problems, the way you respond decides whether they bring you the next one. And with the whole kitchen, you make reporting part of the job. A quick check at the start of the shift. Anything broken, warm, weird or worrying? Then you thank whoever speaks up. Every time. Even when it's bad news. Especially then."
+    },
+    {
+     "who": "host",
+     "text": "Situation two."
+    },
+    {
+     "who": "guest",
+     "text": "The two veterans. A care home, two senior aides who've worked together for years, and they've stopped talking. One thinks the other leaves her the hard residents. The other thinks she's being accused of being lazy. Now the whole shift tiptoes around them, and the new staff pick sides.",
+     "card": {
+      "type": "point",
+      "text": "Situation 2: two senior staff who stopped talking"
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's the one that wrecks a team."
+    },
+    {
+     "who": "guest",
+     "text": "It is, because it turns a work problem into a personal one. The trick is to pull it back to the work. Sit them down together, and talk about how the resident assignments are made. Make the system visible. If one person really is getting the heavy load, fix the system. If they're not, the numbers show it, and nobody has to call anyone lazy."
+    },
+    {
+     "who": "host",
+     "text": "So you're not refereeing feelings. You're fixing the schedule."
+    },
+    {
+     "who": "guest",
+     "text": "Mostly. You still listen. You let each of them say how it felt, without interrupting. But the fix lives in the work. And then you check back in two weeks, because one meeting rarely ends a cold war."
+    },
+    {
+     "who": "host",
+     "text": "And situation three."
+    },
+    {
+     "who": "guest",
+     "text": "The meeting where nobody talks. A small trades company. The owner announces a new scheduling system at the Monday meeting and asks, any questions? Silence. Everyone nods. Two weeks later, half the crew is working around it, and the owner hears from a customer that a job got missed.",
+     "card": {
+      "type": "point",
+      "text": "Situation 3: the meeting where everyone nods and nobody agrees"
+     }
+    },
+    {
+     "who": "host",
+     "text": "I've been in that meeting."
+    },
+    {
+     "who": "guest",
+     "text": "Everyone has. Any questions, asked by the boss, in front of everyone, is the hardest question in the world to answer honestly. So change the question. Ask, what's one thing that could go wrong with this? Or, who's going to find this hardest? You're giving permission to disagree, and you're making it a normal part of the meeting, not an act of rebellion."
+    },
+    {
+     "who": "host",
+     "text": "And maybe ask people one on one, too."
+    },
+    {
+     "who": "guest",
+     "text": "Yes. Some people will never say it in a group, and that's fine. A two minute chat by the truck gets you the truth the meeting didn't."
+    },
+    {
+     "who": "host",
+     "text": "Give me one more. A quieter one."
+    },
+    {
+     "who": "guest",
+     "text": "Situation four. The new hire who stops asking. A shop takes on a new clerk. First week, she asks a lot of questions. How do I void this sale? Where do the returns go? Second week, she asks a senior clerk something, and he sighs and says, I already showed you that. Third week, she stops asking. She starts guessing.",
+     "card": {
+      "type": "point",
+      "text": "Situation 4: the new hire who stops asking and starts guessing"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And the guesses are where the mistakes come from."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. Returns put in the wrong pile, a refund done the wrong way, and nobody connects it to that one sigh. The fix is small. Tell new people, out loud, that questions are expected for the first month, and give them one named person to ask. Then tell that person that answering questions is part of their job, not a favour. A clear first few weeks takes the risk out of asking."
+    }
+   ]
+  },
+  {
+   "heading": "What a manager actually does: five habits that build psychological safety",
+   "visuals": [
+    "coffee cups",
+    "checklist",
+    "open door",
+    "notebook and pen",
+    "sunrise window",
+    "workshop tools"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So pull it together. If I manage five or fifty people, what do I actually do on Monday?"
+    },
+    {
+     "who": "guest",
+     "text": "Five habits. Habit one. Go first. Admit your own mistakes out loud, and early. If the owner says, I messed up the order this week, here's what I'm changing, everyone learns that mistakes are something you talk about, not something you hide.",
+     "card": {
+      "type": "list",
+      "title": "Five habits",
+      "items": [
+       "Go first on mistakes",
+       "Ask real questions",
+       "Respond well to bad news",
+       "Keep high standards"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Habit two."
+    },
+    {
+     "who": "guest",
+     "text": "Ask real questions. Not, any questions? But, what am I missing? What would you do differently? And then stop talking long enough for someone to answer. Silence feels long to the manager. It's normal for the team."
+    },
+    {
+     "who": "host",
+     "text": "Habit three."
+    },
+    {
+     "who": "guest",
+     "text": "Respond well to bad news. This is the big one. The moment someone brings you a problem is a test, and everyone is watching how you pass it. Start with thank you. Then ask what happened. Then fix it together. You can still be disappointed. Just don't make the messenger pay for it.",
+     "card": {
+      "type": "point",
+      "text": "Start with thank you. Then ask what happened. Then fix it together."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Even when the person who brings the bad news is the person who caused it?"
+    },
+    {
+     "who": "guest",
+     "text": "Even then. Maybe especially then. If owning up gets you yelled at, people stop owning up. You can still have a serious talk about how to avoid it next time. But they should leave that talk knowing that telling you was the right call."
+    },
+    {
+     "who": "host",
+     "text": "Habit four."
+    },
+    {
+     "who": "guest",
+     "text": "Keep the bar high. Be clear about what good work looks like, and say so when work falls short. Safety and standards go together. Remember the grid. Comfortable and coasting isn't the goal."
+    },
+    {
+     "who": "host",
+     "text": "And five."
+    },
+    {
+     "who": "guest",
+     "text": "Deal with the person who makes it unsafe. Most small teams have one. The eye roller, the one who mocks questions, the one whose temper everybody manages around. If you let it slide because they're good at their job, the whole team learns what you'll tolerate. You talk to them about the behaviour, specifically, and you follow through.",
+     "card": {
+      "type": "point",
+      "text": "Habit 5: address the behaviour that makes speaking up risky"
+     }
+    },
+    {
+     "who": "host",
+     "text": "That one is hard when it's your best performer."
+    },
+    {
+     "who": "guest",
+     "text": "It's the hardest. But think about what it costs. You might be keeping one strong person and quietly losing what four other people would have told you."
+    }
+   ]
+  },
+  {
+   "heading": "A quick check: signs your team doesn't feel safe to speak up",
+   "visuals": [
+    "clock on wall",
+    "empty meeting room",
+    "notice board",
+    "cash register",
+    "delivery truck"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "How would I know if my own team doesn't feel safe? Nobody's going to tell me, that's kind of the point."
+    },
+    {
+     "who": "guest",
+     "text": "Right, so you look for signs instead. None of these prove anything on their own, but a few together are worth paying attention to. First sign. Bad news arrives late. You find out about the problem on the day it explodes, not the week it started.",
+     "card": {
+      "type": "list",
+      "title": "Warning signs",
+      "items": [
+       "Bad news arrives late",
+       "The same two people talk",
+       "Customers find the mistakes",
+       "Everything is fine"
+      ]
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Second sign. In meetings, the same one or two people do all the talking, and everyone else waits to see what the boss thinks before they say anything."
+    },
+    {
+     "who": "host",
+     "text": "Third?"
+    },
+    {
+     "who": "guest",
+     "text": "Your customers find your mistakes before your staff tell you about them. If a complaint is the first time you hear that the dishwasher has been broken for three days, someone knew, and didn't feel they could say it."
+    },
+    {
+     "who": "guest",
+     "text": "Fourth sign. Everything is always fine. You ask how the shift went, and the answer is always fine. Real work is never always fine. Fine is often what people say when they've decided it isn't worth it to say more."
+    },
+    {
+     "who": "host",
+     "text": "And if I see those signs, what's the first move?"
+    },
+    {
+     "who": "guest",
+     "text": "Don't announce a culture program. Just change how you react the next time someone brings you something. Thank them, in front of the team if they're comfortable with that. People believe what they see you do much more than anything you say in a meeting. One good reaction does more than ten speeches."
+    }
+   ]
+  },
+  {
+   "heading": "How to have the conversation when conflict gets personal",
+   "visuals": [
+    "two coffee mugs",
+    "quiet room",
+    "park bench",
+    "table and chairs",
+    "window light"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's talk about the conversation itself. Two people on your team are in a real conflict. Where do you start?"
+    },
+    {
+     "who": "guest",
+     "text": "Talk to each of them alone first. Not to decide who's right, but to listen. Ask, what's going on from your side? And, what would good look like? Write down what they want, not just what they're angry about."
+    },
+    {
+     "who": "host",
+     "text": "And then together?"
+    },
+    {
+     "who": "guest",
+     "text": "If it's safe to do so, yes. Set the rules at the start. One person talks at a time. We're here to fix how we work, not to decide who's a bad person. Then let each person say what they need, and look for the part of the work you can change. A schedule. A handover. Who does what."
+    },
+    {
+     "who": "host",
+     "text": "What if one of them is clearly upset, not just annoyed?"
+    },
+    {
+     "who": "guest",
+     "text": "Then slow down. Ask how they're doing, and mean it. You're not their counsellor, and you shouldn't try to diagnose anything. But you can tell them about any support your workplace has, like an employee assistance program if you offer one, and you can be flexible for a bit. And if someone ever tells you they're in crisis, in Canada they can call or text nine eight eight, any time."
+    },
+    {
+     "who": "host",
+     "text": "And when is it not a conflict anymore?"
+    },
+    {
+     "who": "guest",
+     "text": "When it's harassment, or someone's being threatened, or one person is targeting another. That's not a both sides conversation. That's where your harassment policy and its investigation process come in, and in Nova Scotia you're required to have one. Take it seriously, keep it confidential, and make sure the person who reported it doesn't pay a price for it."
+    }
+   ]
+  },
+  {
+   "heading": "Recap: five things to remember about psychological safety",
+   "visuals": [
+    "notebook",
+    "sticky notes",
+    "checklist",
+    "sunrise"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's wrap it up. Owen, give me the five things."
+    },
+    {
+     "who": "guest",
+     "text": "One. Psychological safety is a shared belief that it's safe to take interpersonal risks on a team. Asking, admitting, disagreeing. It's not about being nice, and it's not lower standards.",
+     "card": {
+      "type": "list",
+      "title": "Remember",
+      "items": [
+       "Safety is about speaking up",
+       "Few reports can mean silence",
+       "How you work beats who's on the team",
+       "Know the NS policy rules"
+      ]
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Two. A low number of reported problems can be a warning sign. In the hospital study, the best led units reported the most errors."
+    },
+    {
+     "who": "guest",
+     "text": "Three. At Google, how a team worked mattered more than who was on it, and psychological safety topped the list. Good news for small teams."
+    },
+    {
+     "who": "guest",
+     "text": "Four. Canada has a voluntary national standard with thirteen factors you can use as a free checklist. And in Nova Scotia, provincially regulated workplaces need a written harassment prevention policy, with training and no retaliation."
+    },
+    {
+     "who": "guest",
+     "text": "Five. Go first, ask real questions, thank the messenger, keep the bar high, and deal with whoever makes speaking up risky."
+    },
+    {
+     "who": "host",
+     "text": "And remember the cold open. The quiet team isn't always the healthy one."
+    }
+   ]
+  },
+  {
+   "heading": "Outro",
+   "visuals": [
+    "sunset",
+    "city lights night"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's the episode. If you're hiring and want every new person to start with clear expectations from day one, Staffkin can help with the job description, fair interview questions and a solid first few weeks. Try it free at staffkin.com.",
+     "card": {
+      "type": "point",
+      "text": "Try it free at staffkin.com"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Sources for everything we mentioned are in the description. Thanks to Owen, and thanks for listening."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Sam. Go thank the next person who brings you bad news."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Psych Safety Field Guide: Edmondson (1996), Learning from Mistakes Is Easier Said Than Done",
+   "url": "https://explore.psychsafety.com/n/edmondson-1996/"
+  },
+  {
+   "label": "Psych Safety Field Guide: Edmondson (1999), Psychological Safety and Learning Behavior in Work Teams",
+   "url": "https://explore.psychsafety.com/n/edmondson-1999/"
+  },
+  {
+   "label": "Google re:Work: Guide to understanding team effectiveness",
+   "url": "https://rework.withgoogle.com/intl/en/guides/understand-team-effectiveness"
+  },
+  {
+   "label": "Mental Health Commission of Canada: National Standard for Psychological Health and Safety in the Workplace",
+   "url": "https://mentalhealthcommission.ca/workplace-standard/"
+  },
+  {
+   "label": "WorkSafe Saskatchewan: the 13 psychosocial factors",
+   "url": "https://www.worksafesask.ca/why-is-psychological-health-safety-important/"
+  },
+  {
+   "label": "Province of Nova Scotia: New workplace harassment regulations effective September 1 (Aug 12, 2025)",
+   "url": "https://news.novascotia.ca/en/2025/08/12/new-workplace-harassment-regulations-effective-september-1"
+  },
+  {
+   "label": "Canadian Lawyer: New workplace harassment regulations come into force in NS",
+   "url": "https://www.canadianlawyermag.com/practice-areas/labour-and-employment/new-workplace-harassment-regulations-come-into-force-in-ns-in-september/392897"
+  },
+  {
+   "label": "CCPA: 2026 living wages for NL, NS and PEI (Nov 9, 2026)",
+   "url": "https://www.policyalternatives.ca/news-research/2026-living-wages-nl-ns-pei/"
+  },
+  {
+   "label": "Global News: Many workers in Nova Scotia, New Brunswick earning below living wage (Nov 9, 2026)",
+   "url": "https://globalnews.ca/news/12142784/living-wage-new-brunswick-nova-scotia/"
+  },
+  {
+   "label": "9-8-8 Suicide Crisis Helpline",
+   "url": "https://988.ca/"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "The best teams reported the most mistakes",
+   "from": [
+    0,
+    0
+   ],
+   "to": [
+    0,
+    2
+   ],
+   "caption": "The best-led hospital units had the most errors on record. Here's why that's good news. #psychologicalsafety #management #leadership"
+  },
+  {
+   "title": "What Google found didn't matter",
+   "from": [
+    5,
+    8
+   ],
+   "to": [
+    5,
+    10
+   ],
+   "caption": "Seniority, team size, who sits together: not what made Google's teams work. #management #smallbusiness #teamwork"
+  },
+  {
+   "title": "When everything is always fine",
+   "from": [
+    10,
+    5
+   ],
+   "to": [
+    10,
+    7
+   ],
+   "caption": "Fine is often what people say when speaking up doesn't feel worth it. #management #leadership #smallbusiness"
+  },
+  {
+   "title": "What to say when someone brings bad news",
+   "from": [
+    9,
+    5
+   ],
+   "to": [
+    9,
+    7
+   ],
+   "caption": "Start with thank you. Then ask what happened. Then fix it together. #management #leadership #novascotia"
+  },
+  {
+   "title": "The new hire who stopped asking questions",
+   "from": [
+    8,
+    19
+   ],
+   "to": [
+    8,
+    21
+   ],
+   "caption": "One sigh can turn questions into guesses. #onboarding #management #smallbusiness"
+  }
+ ]
+}

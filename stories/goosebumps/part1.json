@@ -1,0 +1,216 @@
+{
+ "channel": "Snortlo",
+ "series": "Lo Explains #9",
+ "format": "concept",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "hook": {
+  "pillars": "headline text TINY MUSCLES YOU FORGOT + recordscratch + slow zoom",
+  "formula": "Unexpected Truth"
+ },
+ "sources": [
+  "https://www.nih.gov/news-events/nih-research-matters/what-goosebumps-are",
+  "https://neurosciencenews.com/goosebumps-reason-16669/"
+ ],
+ "end_card": {
+  "text": "SEND THIS TO|YOUR COLD FRIEND",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "TINY MUSCLES|YOU FORGOT",
+    "bg1": "#E8F1F8",
+    "bg2": "#7FA6C9"
+   },
+   "text": "Why do you get goosebumps? Most people think it's just your skin. It's actually tiny muscles you forgot you had.",
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "You step outside in November, and your arms instantly look like a plucked chicken.",
+   "sfx": "chicken",
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "wide",
+      "mouth": "wavy"
+     },
+     "act": "shake",
+     "fx": {
+      "sweat": false
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "HAIR +|MUSCLE",
+    "cooler": false
+   },
+   "text": "Your hair follicles have tiny muscles attached. Scientists call them arrector pili muscles.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "cards": [
+    "COLD",
+    "NERVE",
+    "PULL"
+   ],
+   "text": "When you get cold, a nerve tells those muscles to squeeze. They pull each hair straight up. Bump.",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "FUR =|WARM",
+    "cooler": false
+   },
+   "text": "For animals with thick fur, that fluffs it all up and helps keep them warm.",
+   "sfx": "boing",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "For us? Not so much. We don't have enough hair. We just get bumpy, and stay cold.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WAIT|WHAT?",
+    "bg1": "#F7EEDC",
+    "bg2": "#D2A65A"
+   },
+   "text": "But here's the wild part.",
+   "sfx": "waitwhat"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "COLD =|NEW HAIR",
+    "cooler": false
+   },
+   "text": "In a twenty twenty Harvard study in mice, that same nerve and muscle also woke up the stem cells that grow hair.",
+   "sfx": "sparkle",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "UNDER|2 WEEKS",
+    "cooler": false
+   },
+   "text": "When the cold kept going, the mice started growing new hair in less than two weeks.",
+   "sfx": "ooh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "So goosebumps aren't useless. They're your body's very lazy attempt at a winter coat.",
+   "sfx": "clowned",
+   "pause": 0.5,
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ]
+  }
+ ]
+}
