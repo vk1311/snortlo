@@ -1,0 +1,13 @@
+{
+ "day": "20260629",
+ "start": 7228.23,
+ "end": 7234.6,
+ "end_on_word": "kibben",
+ "tail": 0.6,
+ "top_text": "Autocorrect, but it happens|to you out loud:",
+ "sfx": [
+  {"at_word": "excuse", "name": "recordscratch", "delay": 0.0, "gain": 0.7}
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-06-29, caption clock ~7228-7235; the chair opens the day ('the House will be in order'), introduces the prayer 'offered by Chapter', corrects himself 'excuse me, Chaplain Kibben'; procedural only, no views"
+}

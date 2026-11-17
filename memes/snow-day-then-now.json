@@ -1,0 +1,65 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #61",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "school",
+ "hook": {
+  "pillars": "caption text + pop sfx + bounce",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.3,
+   "top_text": "Me in grade 3 when they|cancel school for snow:",
+   "set": "living",
+   "state": {
+    "tv": "SNOW DAY|NO SCHOOL"
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.7,
+   "top_text": "Me at 32 when it snows|and work is still open:",
+   "set": "street",
+   "state": {},
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  }
+ ]
+}
