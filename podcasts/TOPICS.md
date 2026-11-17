@@ -24,22 +24,23 @@ Backups: Airbnb vs Vrbo for hosts; Airbnb taxes in Canada; starting a B&B busine
 | Nov 26 | staffkin-ep04-psych-safety | Psychological safety and workplace conflict in Canada (1990s hospital study, Google's team research, Canada's national standard) | made Nov 16, scheduled |
 Backups: imposter syndrome at work; people-pleasing at work; quiet quitting.
 
-## December 2026 (awaiting approval, drafted Nov 11 from Google + YouTube autocomplete)
+## December 2026 (approved Nov 17, 2026; drafted Nov 11 from Google + YouTube autocomplete)
 ### Keegix Podcast (Tuesdays 10:00 Halifax)
 | Air date | Slug | Topic | Status |
 |---|---|---|---|
-| Dec 1 | keegix-ep05-fees-cancellations | Airbnb host fees and cancellation policies explained (the single host fee, what guests see, strict vs flexible) | awaiting approval |
-| Dec 8 | keegix-ep06-guest-id | Can a host ask for a guest's ID or passport? What the Nov 20 rules allow, and what to do instead | awaiting approval |
-| Dec 15 | keegix-ep07-winter-ready | Getting a cabin or cottage ready for winter guests (heat, pipes, snow, driveway, what to put in the welcome book) | awaiting approval |
-| Dec 22 | keegix-ep08-registries-canada | Short-term rental registries and rules across Canada (BC registry, big-city rules, Nova Scotia registration) | awaiting approval |
-| Dec 29 | keegix-ep09-automation | Short-term rental automation for small hosts (messages, check-in, cleaning turnovers) without losing the personal touch | awaiting approval |
-Backups: short-term rental insurance; Airbnb hosting for beginners in Canada; vacation rental cleaning.
+| Dec 1 | keegix-ep05-fees-cancellations | Airbnb host fees and cancellation policies explained (the single host fee, what guests see, strict vs flexible) | to do |
+| Dec 8 | keegix-ep06-guest-id | Can a host ask for a guest's ID or passport? What the Nov 20 rules allow, and what to do instead | to do |
+| Dec 15 | keegix-ep07-winter-ready | Getting a cabin or cottage ready for winter guests (heat, pipes, snow, driveway, what to put in the welcome book) | to do |
+| Wed Dec 16 (bonus) | keegix-ep07b-cleaning | Vacation rental cleaning: the turnover checklist, timing between guests, hiring a cleaner vs doing it yourself, and what guests notice first. Owner asked for this bonus episode on Nov 17. Make it on Sat Dec 5 or Sat Dec 12 (whichever run has it 3-12 days out first). Episode YouTube 10:00. Its Shorts don't follow the usual 5 days in a row (every day Dec 17-20 already has 2 brand YouTube uploads): post them Dec 21, Dec 23, Dec 28, Dec 30 and Jan 4 (at 15:00 where a Keegix Short already holds 12:00; recheck the 2-a-day cap for Jan 4 once January is planned) | to do |
+| Dec 22 | keegix-ep08-registries-canada | Short-term rental registries and rules across Canada (BC registry, big-city rules, Nova Scotia registration) | to do |
+| Dec 29 | keegix-ep09-automation | Short-term rental automation for small hosts (messages, check-in, cleaning turnovers) without losing the personal touch. Cleaning itself is covered on Dec 16, so keep turnovers to scheduling tools and link back to that episode | to do |
+Backups: short-term rental insurance; Airbnb hosting for beginners in Canada. (Vacation rental cleaning moved up to the Dec 16 bonus.)
 ### Staffkin Podcast (Thursdays 10:00 Halifax)
 | Air date | Slug | Topic | Status |
 |---|---|---|---|
-| Dec 3 | staffkin-ep05-toxic-boss | The toxic boss: the signs, the research on abusive supervision, and what a team can do | awaiting approval |
-| Dec 10 | staffkin-ep06-bullying | Workplace bullying and harassment in Canada: what counts, what the rules say, what a manager does first | awaiting approval |
-| Dec 17 | staffkin-ep07-work-stress | Work stress: where it comes from, the early signs, and what actually helps (kind, no diagnosing, 9-8-8 when relevant) | awaiting approval |
-| Dec 24 | staffkin-ep08-motivation | What actually motivates employees (Herzberg's hygiene factors, self-determination theory, the bonus myth) | awaiting approval |
-| Dec 31 | staffkin-ep09-communication | Why workplace messages go wrong, and how small teams fix it | awaiting approval |
+| Dec 3 | staffkin-ep05-toxic-boss | The toxic boss: the signs, the research on abusive supervision, and what a team can do | to do |
+| Dec 10 | staffkin-ep06-bullying | Workplace bullying and harassment in Canada: what counts, what the rules say, what a manager does first | to do |
+| Dec 17 | staffkin-ep07-work-stress | Work stress: where it comes from, the early signs, and what actually helps (kind, no diagnosing, 9-8-8 when relevant) | to do |
+| Dec 24 | staffkin-ep08-motivation | What actually motivates employees (Herzberg's hygiene factors, self-determination theory, the bonus myth) | to do |
+| Dec 31 | staffkin-ep09-communication | Why workplace messages go wrong, and how small teams fix it | to do |
 Backups: imposter syndrome at work; people-pleasing at work; quiet quitting.
