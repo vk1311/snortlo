@@ -84,3 +84,9 @@ python3 podcast_shorts.py ../podcasts/<brand>/<slug>.json ../media/pod-<slug>.mp
 - Posting (Postiz): episode on YouTube only at 10:00 on air day (Keegix Tue, Staffkin Thu); Shorts one a day at
   12:00 on the following five days to YouTube + Facebook + Instagram of that brand. At most 2 brand YouTube
   uploads a day; Snortlo is capped at 4 so the shared quota (~6/day) holds.
+
+## Waypoint YouTube explainers (since Nov 17, 2026)
+Tuesday and Thursday nights: one 10-15 min single-narrator explainer for the Waypoint Software YouTube channel.
+Format and rules: waypoint/WAYPOINT_FORMAT.md; approved topics: waypoint/TOPICS.md. Same renderer as the podcasts
+(engine/podcast.py, brand "waypoint" in engine/podcast_brands.py) via `nightly.py render ../waypoint/<slug>.json=../media/wp-<slug>.mp4`,
+which also cuts 3 vertical Shorts. Photo review and `nightly.py block` exactly as for podcasts.
