@@ -40,11 +40,12 @@ def lines_for(path):
         import podcast as P
         from podcast_brands import BRANDS
         B = BRANDS[d["brand"]]
-        host, guest = B["host"], ({**d["guest"], "voice": B["guest_voice"]} if B.get("guest_voice") else d["guest"])
-        for seg in d["segments"]:
+        host = B["host"]
+        guest = host if B.get("solo") else ({**d["guest"], "voice": B["guest_voice"]} if B.get("guest_voice") else d["guest"])
+        for seg in d["segments"]:   # Waypoint explainers (brand "waypoint", solo): every line is the narrator's
             for ln in seg["lines"]:
                 for s in P.sentences(ln["text"]):
-                    out.append(((host if ln["who"] == "host" else guest)["voice"], s))
+                    out.append(((host if ln["who"] == "host" or B.get("solo") else guest)["voice"], s))
     else:
         import longform as L
         v = d.get("voice", "af_heart")

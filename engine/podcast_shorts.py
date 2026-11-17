@@ -48,7 +48,12 @@ def frame(P, B, ep, sh, ev, path, end=False):
         d.text((VW / 2, y), l, font=hf, fill=c("on_dark"), anchor="mt"); y += 74
     d.rectangle((VW / 2 - 60, y + 14, VW / 2 + 60, y + 21), fill=c("accent"))
     py = y + 50
-    if end:
+    if end and B.get("solo"):       # Waypoint: last 2 s are a small waypointns.ca tag
+        mk = Image.open(B["logo"]).convert("RGBA").resize((220, 220), Image.LANCZOS)
+        im.alpha_composite(mk, ((VW - 220) // 2, py + 120))
+        d.text((VW / 2, py + 430), B["cta"], font=font(B["head"], 80), fill=c("on_dark"), anchor="mm")
+        d.text((VW / 2, py + 520), "Full video on our channel", font=font(B["ui"], 40), fill=c("on_dark_muted"), anchor="mm")
+    elif end:
         d.text((VW / 2, py + 200), "Full episode on YouTube", font=font(B["ui"], 44), fill=c("on_dark_muted"), anchor="mm")
         d.text((VW / 2, py + 280), B["show"], font=font(B["head"], 76), fill=c("on_dark"), anchor="mm")
         d.text((VW / 2, py + 380), B["cta"], font=font(B["ui"], 38), fill=c("on_dark_muted"), anchor="mm")
@@ -60,7 +65,8 @@ def frame(P, B, ep, sh, ev, path, end=False):
                fill=(255, 255, 255, 190), anchor="rs")
         cy = py + PH + 30
         who = B["host"] if ev["who"] == "host" else ep["guest"]
-        d.text((300, cy + 40), who["name"].upper(), font=font(B["ui_bold"], 30), fill=c("accent"), anchor="ls")
+        if not B.get("solo"):
+            d.text((300, cy + 40), who["name"].upper(), font=font(B["ui_bold"], 30), fill=c("accent"), anchor="ls")
         cf, lh = font(B["caption"], 50), 62
         txt = display_text(ev["text"])
         cl = wrap(d, txt, cf, 960)
@@ -76,7 +82,8 @@ def build(script_path, ep_mp4):
     ep = json.load(open(script_path)); B = BRANDS[ep["brand"]]
     stem = os.path.splitext(ep_mp4)[0]
     tl = json.load(open(stem + ".timeline.json"))
-    P = Painter(B, ep, ep["guest"], {}, DW, DH)
+    P = Painter(B, ep, ep.get("guest", {"name": "", "role": ""}), {}, DW, DH)
+    TAIL_ = 2.0 if B.get("solo") else TAIL
     shots = tl.get("shots") or []
     blank = gradient_img(B, PW, PH, os.path.join(CACHE, f"grad-{ep['brand']}-{PW}x{PH}.png"))
     bg = background_loop(B, VW, VH, os.path.join(CACHE, f"bg-{ep['brand']}-{VW}x{VH}.mp4"))
@@ -87,7 +94,7 @@ def build(script_path, ep_mp4):
         if not evs:
             log(f"short {k}: no lines in range {lo}-{hi}, skipped"); continue
         t0, t1 = max(evs[0]["start"] - 0.25, 0), evs[-1]["end"] + 0.35
-        dur = t1 - t0 + TAIL
+        dur = t1 - t0 + TAIL_
         work = os.path.join(CACHE, ep["slug"], f"short{k}"); os.makedirs(work, exist_ok=True)
         seq, photo_y = [], None
         for i, e in enumerate(evs):
@@ -96,7 +103,7 @@ def build(script_path, ep_mp4):
             a = 0 if i == 0 else e["start"] - t0
             b = (evs[i + 1]["start"] - t0) if i + 1 < len(evs) else (t1 - t0)
             seq.append((name, b - a))
-        endp = os.path.join(work, "end.png"); frame(P, B, ep, sh, None, endp, end=True); seq.append((endp, TAIL))
+        endp = os.path.join(work, "end.png"); frame(P, B, ep, sh, None, endp, end=True); seq.append((endp, TAIL_))
         with open(os.path.join(work, "ov.txt"), "w") as f:
             for name, d_ in seq: f.write(f"file '{name}'\nduration {max(d_, 1 / FPS):.4f}\n")
             f.write(f"file '{seq[-1][0]}'\n")
@@ -113,13 +120,19 @@ def build(script_path, ep_mp4):
         py = photo_y or 600
         fc = (f"[0:v]trim=duration={dur:.3f},setpts=PTS-STARTPTS[bg];[1:v]fps={FPS},format=rgba[ov];"
               f"[2:v]setpts=PTS-STARTPTS[ph];"
-              f"[3:a]atrim=duration={t1 - t0:.3f},apad=pad_dur={TAIL},asplit[a1][a2];"
+              f"[3:a]atrim=duration={t1 - t0:.3f},apad=pad_dur={TAIL_},asplit[a1][a2];"
               f"[a1]showwaves=s=210x48:mode=cline:rate={FPS}:colors=0x{col}:scale=sqrt:draw=full,format=rgba[w];"
               f"[bg][ph]overlay=60:{py}:eof_action=pass[x0];[x0][ov]overlay=0:0:shortest=1[x];"
               f"[x][w]overlay=60:{py + PH + 30 + 4}:shortest=1,format=yuv420p[v]")
         mp4 = f"{stem}-short{k}.mp4"
+        if sh.get("sfx"):           # HOOKS (Nov 12): sound effect on the opening motion
+            import soundfile as sf_
+            from podcast import hook_sound, SR as PSR
+            hw = os.path.join(work, "hook.wav"); sf_.write(hw, hook_sound(sh["sfx"], int(1.6 * PSR), 0.05, 0.6), PSR)
+            fc = fc.replace("[a2]", "[a2r]") + f";[4:a]aresample=48000,volume=0.8[hk];[a2r]aresample=48000[a2m];[a2m][hk]amix=inputs=2:duration=first:normalize=0[a2]"
         ff("-stream_loop", "-1", "-i", bg, "-f", "concat", "-safe", "0", "-i", os.path.join(work, "ov.txt"),
-           "-i", clip, "-ss", f"{t0:.3f}", "-i", ep_mp4, "-filter_complex", fc, "-map", "[v]", "-map", "[a2]",
+           "-i", clip, "-ss", f"{t0:.3f}", "-i", ep_mp4, *(["-i", os.path.join(work, "hook.wav")] if sh.get("sfx") else []),
+           "-filter_complex", fc, "-map", "[v]", "-map", "[a2]",
            "-t", f"{dur:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "24", "-r", str(FPS),
            "-g", str(FPS * 2), "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", mp4)
         out.append({"file": os.path.basename(mp4), "title": sh["title"], "caption": sh.get("caption", ""),

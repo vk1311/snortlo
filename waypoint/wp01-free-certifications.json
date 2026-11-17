@@ -1,0 +1,614 @@
+{
+ "brand": "waypoint",
+ "format": "waypoint-explainer",
+ "episode": 1,
+ "slug": "wp01-free-certifications",
+ "air_date": "2026-11-23",
+ "topic": 1,
+ "title": "Free Certifications Worth More Than an MBA (for Small Business Owners)",
+ "card_title": "Free certifications worth more than an MBA",
+ "thumb_title": "FREE BEATS AN MBA?",
+ "hook": {
+  "pillars": "headline text card '$0 vs an MBA' + whoosh on the opening photo zoom + slow zoom on the first photo",
+  "formula": "Unexpected Truth ('Most people think... the opposite is often true')"
+ },
+ "hook_sfx": "whoosh",
+ "description": "Which free certificates and training actually help you run a small business in Canada, which ones aren't really free, and what to do with them. An honest look: none of these replace a degree, but some teach exactly what closes small businesses in year one.\nRules are as of November 2026 and vary by industry. This isn't legal or tax advice.\nwaypointns.ca",
+ "tags": [
+  "free certifications",
+  "free certifications for small business",
+  "is an mba worth it",
+  "small business canada",
+  "nova scotia small business",
+  "cra liaison officer",
+  "google analytics certification",
+  "hubspot academy",
+  "meta blueprint certification cost",
+  "food handler course nova scotia"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open: zero dollars vs an MBA",
+   "visuals": [
+    "lecture hall seats",
+    "calculator receipts",
+    "bakery display",
+    "harbour boats"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Most people think the smart way to learn business is a degree. For a new small business in Canada, the opposite is often true.",
+     "card": {
+      "type": "point",
+      "text": "$0 vs an MBA: what actually helps in year one?"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Some of the most useful training you can get as an owner costs nothing. Not a discount. Nothing."
+    },
+    {
+     "who": "host",
+     "text": "One is a free visit from the tax people that is not an audit. One is a course that Nova Scotia requires in every food business. And one popular marketing certificate that a lot of people assume is free actually charges you for the exam."
+    },
+    {
+     "who": "host",
+     "text": "Let's go through what's worth your time, what isn't, and what to do this week."
+    }
+   ]
+  },
+  {
+   "heading": "What school teaches vs what sinks a small business",
+   "visuals": [
+    "lecture hall",
+    "textbook pile",
+    "library shelves",
+    "empty storefront",
+    "for lease sign",
+    "ledger book"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "First, what a business degree actually gives you. An M B A teaches the big frames. Finance, accounting, marketing, operations, strategy. You learn to read a balance sheet and think about a whole company."
+    },
+    {
+     "who": "host",
+     "text": "That's real value. It also comes with a network and a credential that employers recognise. If you want to climb inside a big organisation, it can matter a lot."
+    },
+    {
+     "who": "host",
+     "text": "But here's the part school doesn't spend much time on. Almost every business in this country is small.",
+     "card": {
+      "type": "stat",
+      "big": "98.2%",
+      "label": "of Canadian employer businesses were small businesses, December 2024",
+      "source": "ISED, Key Small Business Statistics 2025"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Federal numbers put it at about ninety eight percent of employer businesses. And a lot of those businesses don't make it. Depending on which federal data set you read, somewhere around six or seven in ten new businesses are still open after five years.",
+     "card": {
+      "type": "stat",
+      "big": "6 to 7 in 10",
+      "label": "new businesses still operating after five years, depending on the data set",
+      "source": "ISED KSBS 2025; BDC"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the question for a new owner isn't, do I have the fancy credential. Customers almost never ask. The question is, do I know the boring things that close businesses."
+    },
+    {
+     "who": "host",
+     "text": "Messy books and a surprise tax bill. A health or safety rule you didn't know existed. Paying for ads with no idea if they worked."
+    },
+    {
+     "who": "host",
+     "text": "Those three problems line up with three kinds of free training. And the first one comes from the last place most people would look.",
+     "card": {
+      "type": "list",
+      "title": "Three things that quietly close businesses",
+      "items": [
+       "Messy books, surprise tax bills",
+       "Rules you didn't know about",
+       "Ads you can't measure"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Why tiny service businesses need this most",
+   "visuals": [
+    "toolbox",
+    "pickup truck",
+    "cargo van",
+    "paint cans",
+    "garden tools",
+    "sewing machine"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Before the free stuff, one number that changes how you should think about all of this."
+    },
+    {
+     "who": "host",
+     "text": "According to the Business Development Bank of Canada, more than half of Canadian businesses have fewer than four employees. Almost three quarters have fewer than ten.",
+     "card": {
+      "type": "stat",
+      "big": "55.3%",
+      "label": "of Canadian businesses have fewer than four employees",
+      "source": "BDC, using ISED data"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Think about what that means. In a business with three people, there is no accounting department. There's no safety officer. There's no marketing team. There's you, at the kitchen table, at eleven at night."
+    },
+    {
+     "who": "host",
+     "text": "A big company sends one person to learn tax rules and another to learn advertising. A three person company sends the owner to learn all of it."
+    },
+    {
+     "who": "host",
+     "text": "And here's the part that should get the attention of anyone running a service business. The Business Development Bank of Canada also looks at businesses ten years after they open.",
+     "card": {
+      "type": "compare",
+      "left_title": "Goods-producing",
+      "left": "50.8% still operating after 10 years",
+      "right_title": "Services-producing",
+      "right": "35.2% still operating after 10 years"
+     }
+    },
+    {
+     "who": "host",
+     "text": "About half of goods producing businesses are still operating at ten years. For services producing businesses, it's about thirty five percent."
+    },
+    {
+     "who": "host",
+     "text": "Cleaners, landscapers, salons, movers, trades, consultants. Lots of service businesses are easy to start, which also means they're easy to close."
+    },
+    {
+     "who": "host",
+     "text": "Nobody can tell you the one reason from those numbers alone, and I won't pretend to. But if the owner is the whole training budget, then free training isn't a small thing. It's the budget."
+    },
+    {
+     "who": "host",
+     "text": "So let's spend it well, starting with the tax one."
+    }
+   ]
+  },
+  {
+   "heading": "The free tax visit that isn't an audit",
+   "visuals": [
+    "ledger book",
+    "calculator",
+    "filing cabinet",
+    "receipt pile",
+    "coffee mug desk",
+    "office binder"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "The Canada Revenue Agency has something called the Liaison Officer service. Most owners have never heard of it."
+    },
+    {
+     "who": "host",
+     "text": "Here is what it is, as of November twenty twenty six. It's free, personalised help for small business owners, self employed people, and people who earn rental income.",
+     "card": {
+      "type": "rule",
+      "title": "CRA Liaison Officer service",
+      "text": "Free, personalised tax help for small business owners, self-employed people and landlords.",
+      "source": "Canada Revenue Agency",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "An officer can walk you through your tax obligations and the deductions you might be able to claim. They cover common errors, the C R A online tools, and general bookkeeping concepts."
+    },
+    {
+     "who": "host",
+     "text": "If you book a personalised visit, they can suggest ways to strengthen your bookkeeping system. You can do it in person, by phone, or online."
+    },
+    {
+     "who": "host",
+     "text": "Say you clean houses and you just bought a second vacuum, a car for the business, and a phone you also use for personal calls. Which parts can you claim, and what records should you be keeping? That's exactly the kind of question new owners get wrong, and exactly what this service is for."
+    },
+    {
+     "who": "host",
+     "text": "Now, the obvious worry. Is this a trap? The C R A says these visits are confidential, and the information isn't shared with other areas of the agency.",
+     "card": {
+      "type": "point",
+      "text": "Confidential, and not shared with other areas of the CRA."
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's the page's own wording. It's still the tax agency, so go in with honest books, but it's built as help, not enforcement."
+    },
+    {
+     "who": "host",
+     "text": "What school teaches here is accounting. Debits, credits, statements. What school doesn't teach is that the people who run the tax system will sit down with you for free and tell you what new owners usually get wrong."
+    },
+    {
+     "who": "host",
+     "text": "There's no certificate at the end. You get something better. Fewer mistakes before they cost you."
+    },
+    {
+     "who": "host",
+     "text": "This isn't legal or tax advice. It's a pointer to the people who can give you the real answer for your situation."
+    },
+    {
+     "who": "host",
+     "text": "Next, the training that Nova Scotia gives away by the stack. And for some businesses, one of these isn't optional at all."
+    }
+   ]
+  },
+  {
+   "heading": "The safety and food courses Nova Scotia gives away",
+   "visuals": [
+    "commercial kitchen",
+    "stainless steel counter",
+    "hard hat",
+    "safety glasses",
+    "storage shelves",
+    "fire extinguisher"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "If you run a café, a food truck, a bakery, anything that serves food, this one is for you."
+    },
+    {
+     "who": "host",
+     "text": "As of November twenty twenty six, Nova Scotia's food safety regulations require at least one person per shift who has completed a food hygiene course. And that training has to be renewed every five years.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia food establishments",
+      "text": "At least one person per shift must have completed a food hygiene (handling) course. Renew every 5 years.",
+      "source": "Government of Nova Scotia",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Public health officers can ask for proof. So this isn't a nice extra. It's a condition of doing business, and some places are exempt, so check the provincial list for your type of operation."
+    },
+    {
+     "who": "host",
+     "text": "Here's the free part, and it applies to almost every business, not just food. The Province lets Nova Scotians take up to eight online health and safety courses a year for free, through the Canadian Centre for Occupational Health and Safety.",
+     "card": {
+      "type": "stat",
+      "big": "8 free",
+      "label": "online health and safety courses a year for Nova Scotians",
+      "source": "Government of Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "On top of that, the Province's skills site lists free workplace hazardous materials training, the course most people know as W H M I S."
+    },
+    {
+     "who": "host",
+     "text": "Picture a two person landscaping company. Fuel, fertiliser, cleaning products in the truck. Knowing how to read those labels and store that stuff is exactly the kind of thing nobody teaches in a lecture hall."
+    },
+    {
+     "who": "host",
+     "text": "School teaches risk as a line in a spreadsheet. Running a business, risk is a jug in the back of a truck."
+    },
+    {
+     "who": "host",
+     "text": "This isn't legal advice. Rules vary by industry, so check what applies to your business."
+    },
+    {
+     "who": "host",
+     "text": "Now, the marketing certificates. That's where most people start, and it's where the word free gets slippery. One of the biggest names charges for the exam, and I'll tell you which one right after this."
+    }
+   ]
+  },
+  {
+   "heading": "A quick word from Waypoint (that's us)",
+   "promo": true,
+   "visuals": [
+    "harbour lighthouse",
+    "laptop desk",
+    "notebook pen"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "A quick word from Waypoint. That's us.",
+     "card": {
+      "type": "point",
+      "text": "A quick word from Waypoint (that's us)"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Waypoint Software is based here in Nova Scotia. We build websites for small service businesses in Atlantic Canada, plus the booking, quoting and invoicing tools that sit behind them."
+    },
+    {
+     "who": "host",
+     "text": "The idea is simple. Software built around how you already work, instead of you bending around the software. If that sounds useful, have a look at waypointns dot ca.",
+     "card": {
+      "type": "point",
+      "text": "Websites + booking, quoting and invoicing tools. waypointns.ca"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Okay. Back to that exam that isn't free."
+    }
+   ]
+  },
+  {
+   "heading": "Marketing certificates: which ones are actually free",
+   "visuals": [
+    "laptop keyboard",
+    "graph paper",
+    "notebook pen",
+    "coffee mug desk",
+    "sticky notes",
+    "smartphone"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Start with Google. On its Skillshop training site, Google says its foundational certifications are still available free of charge. It also says newer professional certifications will require a fee.",
+     "card": {
+      "type": "compare",
+      "left_title": "Google foundational",
+      "left": "Free of charge on Skillshop",
+      "right_title": "Google professional",
+      "right": "Will require a fee"
+     }
+    },
+    {
+     "who": "host",
+     "text": "The Google Analytics exam is a good example. Google says it's free, and the qualification stays current for twelve months from the day you pass.",
+     "card": {
+      "type": "stat",
+      "big": "12 months",
+      "label": "how long the free Google Analytics qualification stays current",
+      "source": "Google Analytics Help"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Twelve months matters. It means the certificate is a receipt that you learned the tool recently, not a badge for life."
+    },
+    {
+     "who": "host",
+     "text": "For a small business, the useful part isn't the badge at all. It's that the course walks you through the exact reports that tell you where your website visitors come from, which pages they leave from, and whether that flyer or that ad did anything."
+    },
+    {
+     "who": "host",
+     "text": "Next, HubSpot Academy, which describes itself as free, self paced training. Its marketing courses are popular with small business owners because they teach the whole funnel. How people find you, why they trust you, and how they end up paying."
+    },
+    {
+     "who": "host",
+     "text": "Two honest catches. HubSpot says certifications expire, one year for its software certifications and two years for the others. And its terms say it could choose to charge for certifications at any time.",
+     "card": {
+      "type": "list",
+      "title": "HubSpot Academy, the fine print",
+      "items": [
+       "Free, self-paced courses",
+       "Certificates expire: 1 to 2 years",
+       "Retake after 12 hours",
+       "Fees possible in future"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "You can retake an exam as many times as you want, twelve hours apart. So failing once costs you nothing but a bit of pride."
+    },
+    {
+     "who": "host",
+     "text": "Now, the one I promised. Meta, the company behind Facebook and Instagram. Its Blueprint courses are free to study. But the official Meta certification exam is paid. One recent guide lists the associate exam at ninety nine U S dollars, and says to check the live price before you pay.",
+     "card": {
+      "type": "compare",
+      "left_title": "Meta Blueprint courses",
+      "left": "Free to study",
+      "right_title": "Meta certification exam",
+      "right": "Paid (about US$99, check live price)"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So if a post tells you all the big marketing certificates are free, that's not quite right. The learning is free. The badge sometimes isn't."
+    },
+    {
+     "who": "host",
+     "text": "Here's the uncomfortable part, though. None of these certificates will get you a single customer by themselves."
+    }
+   ]
+  },
+  {
+   "heading": "Why a certificate alone does nothing",
+   "visuals": [
+    "picture frame wall",
+    "empty cafe",
+    "shop window",
+    "open sign",
+    "cash register"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "A certificate on your wall does nothing for a customer standing at your counter. What they notice is whether you showed up when you said, whether the invoice made sense, whether your shop shows up when they search."
+    },
+    {
+     "who": "host",
+     "text": "This is the gap between school and the real thing. School rewards proof that you learned. A business only rewards what you do with it."
+    },
+    {
+     "who": "host",
+     "text": "So the trick is to treat every free course like a job you're doing for your own business while you take it."
+    },
+    {
+     "who": "host",
+     "text": "Taking the Google Analytics course? Set it up on your own website the same night and look at where visitors actually came from last month.",
+     "card": {
+      "type": "point",
+      "text": "Learn it, then use it on your own business the same day."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Doing a HubSpot marketing course? Write the one page that answers the question customers ask you most, and put it on your site."
+    },
+    {
+     "who": "host",
+     "text": "Doing a safety course? Walk your shop or your truck that week and fix the one thing you'd be embarrassed for an inspector to see."
+    },
+    {
+     "who": "host",
+     "text": "That's the real difference between free training and an expensive degree. The degree has to pay off over a career. The free course can pay off by Friday."
+    }
+   ]
+  },
+  {
+   "heading": "What to actually do this week",
+   "visuals": [
+    "spiral notebook",
+    "checklist clipboard",
+    "pencil notebook",
+    "sunrise harbour",
+    "main street shops"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Here's the short version you can act on in the next ten minutes.",
+     "card": {
+      "type": "list",
+      "title": "This week",
+      "items": [
+       "Book a free CRA liaison visit",
+       "Check your food or safety training",
+       "Pick one free marketing course",
+       "Use it on your business that day"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "One. If you're in your first few years, look up the C R A Liaison Officer service and book a visit before tax season, not during it."
+    },
+    {
+     "who": "host",
+     "text": "Two. If you serve food in Nova Scotia, make sure someone on every shift has a current food hygiene course. Then use your free health and safety courses for whatever risks your business actually has."
+    },
+    {
+     "who": "host",
+     "text": "Three. Pick one free marketing course, not five. Google if you want to measure your website, HubSpot if you want to understand how customers find and trust you."
+    },
+    {
+     "who": "host",
+     "text": "Four. Whatever you learn, use it on your own business the same day. That's the part no certificate can do for you."
+    },
+    {
+     "who": "host",
+     "text": "And if anyone tells you a free certificate replaces a degree, they're overselling it. It doesn't. But for running a small business in year one, it might teach you more of what matters."
+    },
+    {
+     "who": "host",
+     "text": "Sources for everything are in the description. This is Waypoint Software, at waypointns dot ca."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "ISED: Key Small Business Statistics 2025",
+   "url": "https://ised-isde.canada.ca/site/sme-research-statistics/en/key-small-business-statistics-2025"
+  },
+  {
+   "label": "BDC: 10 things you (probably) didn't know about Canadian SMEs",
+   "url": "https://www.bdc.ca/en/articles-tools/business-strategy-planning/manage-business/10-things-didnt-know-canadian-sme"
+  },
+  {
+   "label": "CRA: Liaison Officer service, free tax help for small business owners",
+   "url": "https://www.canada.ca/en/revenue-agency/campaigns/small-business-tax-help.html"
+  },
+  {
+   "label": "Nova Scotia: Food hygiene (handling) courses",
+   "url": "https://www.novascotia.ca/documents/food-hygiene-handling-courses"
+  },
+  {
+   "label": "Nova Scotia: Online health and safety courses",
+   "url": "https://novascotia.ca/lae/healthandsafety/courses.asp"
+  },
+  {
+   "label": "Google Skillshop: Professional certifications",
+   "url": "https://support.google.com/skillshop/answer/14746215?hl=en"
+  },
+  {
+   "label": "Google Analytics Help: Analytics IQ FAQ",
+   "url": "https://support.google.com/analytics/answer/3424287/"
+  },
+  {
+   "label": "HubSpot Academy: Certifications & Programs FAQ",
+   "url": "https://academy.hubspot.com/hubspot-certification-faq"
+  },
+  {
+   "label": "HubSpot Knowledge Base: Academy certification FAQ",
+   "url": "https://knowledge.hubspot.com/help-and-resources/hubspot-academy-certification-frequently-asked-questions"
+  },
+  {
+   "label": "Markampus: Meta Blueprint certification cost 2026",
+   "url": "https://markampus.com/blog/meta-blueprint-certification-cost-2026/"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "The free CRA visit that isn't an audit",
+   "from": [
+    3,
+    0
+   ],
+   "to": [
+    3,
+    3
+   ],
+   "sfx": "ding",
+   "hook": "text + ding + photo zoom; Unexpected Truth",
+   "caption": "Most owners have never heard of the CRA's free Liaison Officer service. Free, personalised tax and bookkeeping help for small businesses. #smallbusiness #canada #taxes"
+  },
+  {
+   "title": "Service businesses close faster. Here's the number.",
+   "from": [
+    2,
+    4
+   ],
+   "to": [
+    2,
+    7
+   ],
+   "sfx": "pop",
+   "hook": "text + pop + photo zoom; Unexpected Truth",
+   "caption": "About half of goods-producing businesses are still open after 10 years. Service businesses: about 35%. (BDC) #smallbusiness #entrepreneur #canada"
+  },
+  {
+   "title": "Serve food in Nova Scotia? Read this.",
+   "from": [
+    4,
+    0
+   ],
+   "to": [
+    4,
+    3
+   ],
+   "sfx": "tick",
+   "hook": "text + tick + photo zoom; You vs Problem",
+   "caption": "Nova Scotia food businesses need at least one person per shift with a food hygiene course, renewed every 5 years. Plus 8 free safety courses a year. #novascotia #smallbusiness #foodbusiness"
+  }
+ ]
+}

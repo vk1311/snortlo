@@ -374,10 +374,26 @@ class Painter:
             cr = f"Photo: {credit['creator'][:38]} · {credit['license']}"
             d.text((DW - 64, 100), cr, font=font(B["ui"], 16), fill=hexrgb(B["on_dark_muted"], 170), anchor="rs")
 
+    def decor(self, im, d):
+        """Waypoint look: faint chart grid, two diagonal bearing lines, coordinates, mark bottom-left, site bottom-right."""
+        B = self.B
+        g = Image.new("RGBA", (DW, DH), (0, 0, 0, 0)); gd = ImageDraw.Draw(g)
+        for x in range(0, DW, 120): gd.line((x, 0, x, DH), fill=(255, 255, 255, 14), width=1)
+        for y in range(0, DH, 120): gd.line((0, y, DW, y), fill=(255, 255, 255, 14), width=1)
+        gd.line((-200, DH - 40, DW * .62, -260), fill=(255, 255, 255, 34), width=2)
+        gd.line((DW * .38, DH + 200, DW + 200, DH * .18), fill=(194, 24, 91, 46), width=2)
+        im.alpha_composite(g)
+        d.text((DW - 64, 128), B.get("coords", ""), font=font(B["ui"], 18), fill=hexrgb(B["on_dark_muted"], 190), anchor="rs")
+        mk = self.logo.resize((60, 60), Image.LANCZOS) if self.logo.width == self.logo.height else self.logo
+        im.alpha_composite(mk, (48, DH - 74))
+        d.text((116, DH - 34), B["show"], font=font(B["ui_bold"], 22), fill=hexrgb(B["on_dark"], 220), anchor="ls")
+        d.text((DW - 64, DH - 34), B["cta"], font=font(B["ui_bold"], 24), fill=hexrgb(B["on_dark"], 230), anchor="rs")
+
     def visual_frame(self, ev, path):
         B = self.B; im, d = self.canvas()
         self.scrim(im)
-        im.alpha_composite(self.logo, (64, 40))
+        if B.get("decor"): self.decor(im, d)
+        else: im.alpha_composite(self.logo, (64, 40))
         si = ev["seg"]; heading = self.ep["segments"][si]["heading"]
         kt, kf, hf = f"CHAPTER {si + 1}", font(B["ui_bold"], 22), font(B["ui"], 26)
         kw = tracked(d, (64, 140), kt, kf, self.c("accent"))
@@ -386,15 +402,17 @@ class Painter:
             while heading and d.textlength(heading + "…", font=hf) > room: heading = heading[:-1]
             heading = heading.rstrip(" ,:;") + "…"
         d.text((64 + kw + 18, 141), heading, font=hf, fill=self.c("on_dark"), anchor="ls")
+        if B.get("decor"): d.rectangle((64, 158, 64 + kw + 18 + min(d.textlength(heading, font=hf), room), 164), fill=self.c("accent"))
         self.corner(d, ev.get("credit"))
         if ev["card"]: self.panel_card(im, d, ev["card"])
         name = (B["host"] if ev["who"] == "host" else self.guest)["name"]
-        d.text((290, 866), name.upper(), font=font(B["ui_bold"], 28), fill=self.c("accent"), anchor="ls")
+        if not B.get("solo"):
+            d.text((290, 866), name.upper(), font=font(B["ui_bold"], 28), fill=self.c("accent"), anchor="ls")
         text = display_text(ev["text"])
         f, lh = font(B["caption"], 54), 64
         lines = wrap(d, text, f, 1790)
         if len(lines) > 2: f, lh = font(B["caption"], 46), 56; lines = wrap(d, text, f, 1790, 3)
-        y = {1: 970, 2: 940}.get(len(lines), 930)
+        y = {1: 970, 2: 940}.get(len(lines), 930) - (64 if B.get("decor") else 0)
         for i, l in enumerate(lines):
             d.text((67, y + i * lh + 3), l, font=f, fill=(0, 0, 0, 150), anchor="ls")
             d.text((64, y + i * lh), l, font=f, fill=self.c("on_dark"), anchor="ls")
@@ -417,17 +435,26 @@ class Painter:
         big = Image.open(B["logo"]).convert("RGBA"); h = 84
         big = big.resize((int(big.width * h / big.height), h), Image.LANCZOS)
         im.alpha_composite(big, ((DW - big.width) // 2, 250))
-        tracked(d, (DW / 2 - 210, 420), f"{B['show'].upper()} · EPISODE {self.ep.get('episode', 1)}", font(B["ui_bold"], 26), self.c("accent"))
+        tracked(d, (DW / 2 - (130 if B.get("solo") else 210), 420), (B.get("coords", "") if B.get("solo") else f"{B['show'].upper()} · EPISODE {self.ep.get('episode', 1)}"), font(B["ui_bold"], 26), self.c("accent"))
         lines = wrap(d, self.ep["card_title"], font(B["head"], 96), 1500)
         for i, l in enumerate(lines[:3]):
             d.text((DW / 2, 540 + i * 104), l, font=font(B["head"], 96), fill=self.c("on_dark"), anchor="mm")
-        d.text((DW / 2, 560 + len(lines[:3]) * 104), f"with {B['host']['name']} and {self.guest['name']}",
-               font=font(B["ui"], 32), fill=self.c("on_dark_muted"), anchor="mm")
+        sub = "A Waypoint Software explainer" if B.get("solo") else f"with {B['host']['name']} and {self.guest['name']}"
+        d.text((DW / 2, 560 + len(lines[:3]) * 104), sub, font=font(B["ui"], 32), fill=self.c("on_dark_muted"), anchor="mm")
         self.corner(d)
         self.out(im, path)
 
     def end_frame(self, path):
         B = self.B; im, d = self.canvas()
+        if B.get("solo"):           # Waypoint end card: mark + waypointns.ca
+            im.alpha_composite(Image.new("RGBA", (DW, DH), hexrgb(B["bg"][1], 235)))
+            self.decor(im, d)
+            mk = Image.open(B["logo"]).convert("RGBA").resize((340, 340), Image.LANCZOS)
+            im.alpha_composite(mk, ((DW - 340) // 2, 170))
+            d.text((DW / 2, 640), B["cta"], font=font(B["head"], 110), fill=self.c("on_dark"), anchor="mm")
+            d.rectangle((DW / 2 - 90, 715, DW / 2 + 90, 725), fill=self.c("accent"))
+            d.text((DW / 2, 790), "Sources and chapters are in the description.", font=font(B["ui"], 34), fill=self.c("on_dark_muted"), anchor="mm")
+            self.out(im, path); return
         im.alpha_composite(Image.new("RGBA", (DW, DH), hexrgb(B["bg"][1], 175)))
         big = Image.open(B["logo"]).convert("RGBA"); h = 96
         big = big.resize((int(big.width * h / big.height), h), Image.LANCZOS)
@@ -442,13 +469,16 @@ class Painter:
         B = self.B
         im = bg_frame.convert("RGBA").resize((DW, DH)); d = ImageDraw.Draw(im)
         im.alpha_composite(self.logo.resize((self.logo.width * 2, 100)) if False else self.logo, (80, 70))
-        tracked(d, (80, 230), f"EPISODE {self.ep.get('episode', 1)}", font(B["ui_bold"], 40), self.c("accent"))
+        if B.get("solo"):
+            im.alpha_composite(Image.open(B["logo"]).convert("RGBA").resize((150, 150), Image.LANCZOS), (DW - 230, 60))
+        else:
+            tracked(d, (80, 230), f"EPISODE {self.ep.get('episode', 1)}", font(B["ui_bold"], 40), self.c("accent"))
         fnt = font(B["head"], 150); lines = wrap(d, self.ep.get("thumb_title", self.ep["card_title"]), fnt, 1560)
         if len(lines) > 3: fnt = font(B["head"], 118); lines = wrap(d, self.ep.get("thumb_title", self.ep["card_title"]), fnt, 1600)
         for i, l in enumerate(lines[:4]):
             d.text((80, 300 + i * fnt.size * 1.04), l, font=fnt, fill=self.c("on_dark"), anchor="la")
         d.rectangle((80, DH - 120, 300, DH - 108), fill=self.c("accent"))
-        d.text((80, DH - 60), B["show"], font=font(B["ui_bold"], 44), fill=self.c("on_dark_muted"), anchor="ls")
+        d.text((80, DH - 60), B["cta"] if B.get("solo") else B["show"], font=font(B["ui_bold"], 44), fill=self.c("on_dark_muted"), anchor="ls")
         im.convert("RGB").resize((1280, 720), Image.LANCZOS).save(path)
 
 
@@ -538,9 +568,21 @@ def base_frames(shots, ow, oh, t0, t1, blank):
 
 # ====================================================================== YouTube description (YouTube caps it at 5,000 characters)
 YT_LIMIT = 4900
+def hook_sound(name, n, at, gain=0.5):
+    """Snortlo sound bank (engine/sfx.py) resampled to SR, placed at `at` seconds, as an n-sample track."""
+    import sfx
+    _, s = sfx.get(name, np.random.default_rng(7))
+    s = np.interp(np.arange(0, len(s), sfx.SR / SR), np.arange(len(s)), s).astype(np.float32)
+    s = s / (np.abs(s).max() + 1e-9) * gain
+    out = np.zeros(n, np.float32); o = int(at * SR); k = max(0, min(len(s), n - o))
+    out[o:o + k] = s[:k]
+    return out
+
+
 def make_description(ep, B, chap, credits):
     srcs = ep.get("sources", [])
-    repo = f"https://github.com/vk1311/snortlo/blob/main/podcasts/{ep['brand']}/{ep['slug']}.json"
+    repo = (f"https://github.com/vk1311/snortlo/blob/main/waypoint/{ep['slug']}.json" if B.get("solo") else
+            f"https://github.com/vk1311/snortlo/blob/main/podcasts/{ep['brand']}/{ep['slug']}.json")
     def build(level):
         out = [ep.get("description", "").strip(), "", "Chapters", *chap, "", "Sources"]
         if level < 2: out += [f"- {s['label']}: {s['url']}" for s in srcs]
@@ -548,7 +590,8 @@ def make_description(ep, B, chap, credits):
         if credits:
             if level == 0: out += ["", "Photos (CC0 / public domain)"] + [f"- {broll.credit_line(c)}" for c in credits]
             else: out += ["", "Photos: CC0 / public domain, credits at https://github.com/vk1311/snortlo/blob/main/podcasts/CREDITS.md"]
-        out += ["", f"{B['show']} uses AI voices; the guest is a fictional character. {B['cta']}."]
+        if B.get("solo"): out += ["", "Narrated with an AI voice. Every fact is sourced above. waypointns.ca"]
+        else: out += ["", f"{B['show']} uses AI voices; the guest is a fictional character. {B['cta']}."]
         return "\n".join(out) + "\n"
     for level in (0, 1, 2):
         txt = build(level)
@@ -567,6 +610,10 @@ def make_description(ep, B, chap, credits):
 def build(script_path, out_mp4, res=(1280, 720), test=None):
     ep = json.load(open(script_path))
     B = BRANDS[ep["brand"]]
+    if B.get("solo"):           # one narrator, no guest: every line is the host's
+        for seg in ep["segments"]:
+            for ln in seg["lines"]: ln["who"] = "host"
+        ep.setdefault("guest", {"name": "", "role": "", "voice": "none"})
     guest = ep["guest"]
     if B.get("guest_voice"):   # each show has a fixed second voice (Vatsal, Nov 11, 2026)
         guest = {**guest, "voice": B["guest_voice"]}
@@ -607,7 +654,7 @@ def build(script_path, out_mp4, res=(1280, 720), test=None):
         n = len(np.load(e["tts"], mmap_mode="r"))
         e["start"], e["end"] = t, t + n / SR; t = e["end"]; prev = e
     speech_end = t
-    total = speech_end + 0.9 + OUTRO_LEN
+    total = speech_end + 0.9 + B.get("outro_len", OUTRO_LEN)
     shown = {}                                  # card id -> first time on screen; hide cards after CARD_MAX
     for e in events:
         if e["card"] is not None:
@@ -620,6 +667,8 @@ def build(script_path, out_mp4, res=(1280, 720), test=None):
         s = np.load(e["tts"]); o = int(e["start"] * SR); trk[e["who"]][o:o + len(s)] += s
     seed = int(hashlib.sha1(ep["slug"].encode()).hexdigest(), 16)
     st = sting(seed); music[:len(st)] += st
+    if ep.get("hook_sfx"):      # HOOKS (Nov 12): a sound effect landing on the opening motion
+        music[:] += hook_sound(ep["hook_sfx"], N, 0.35)
     ch = chime()
     for si, ts in seg_starts.items():
         if si: o = int(max(ts, 0) * SR); music[o:o + len(ch)] += ch[:N - o]
@@ -680,7 +729,7 @@ def build(script_path, out_mp4, res=(1280, 720), test=None):
     blank = gradient_img(B, ow, oh, os.path.join(CACHE, f"grad-{ep['brand']}-{ow}x{oh}.png"))
     sc = ow / DW
     ww, wh = int(200 * sc) // 2 * 2, int(44 * sc) // 2 * 2
-    wx, wy = int(64 * sc), int(832 * sc)
+    wx, wy = (int(330 * sc), int(1022 * sc)) if B.get("decor") else (int(64 * sc), int(832 * sc))   # Waypoint: waveform in the footer strip, clear of the raised captions
     col = B["accent"].lstrip("#")
     kbps = int(min(1800, 88 * 8 * 1024 / total - 110))          # video bitrate cap so the file fits Postiz / GitHub
     fc = (f"[1:v]fps={FPS},format=rgba[ov];"
