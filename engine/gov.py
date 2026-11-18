@@ -238,4 +238,12 @@ if __name__ == "__main__":
     elif cmd == "find":
         day = sys.argv[2] if len(sys.argv) > 2 else session_days()[-1]
         for c in find(day, int(sys.argv[3]) if len(sys.argv) > 3 else 8): print(json.dumps(c)[:400])
+    elif cmd == "context":
+        # Captions around a candidate (caption clock), to pick start/end and see what follows the moment
+        # (e.g. a tribute or bad news right after it). Usage: gov.py context <day> <start> [<end>] [pad]
+        day, a = sys.argv[2], float(sys.argv[3]); b = float(sys.argv[4]) if len(sys.argv) > 4 else a + 30
+        pad = float(sys.argv[5]) if len(sys.argv) > 5 else 30
+        cues, _ = parse_vtt(get(media(day)[1]))
+        for c in cues:
+            if a - pad <= c["s"] <= b + pad: print(f'{c["s"]:.1f}{" *" if a <= c["s"] <= b else "  "} {c["t"]}')
     elif cmd == "render": render(sys.argv[2], sys.argv[3])

@@ -51,7 +51,7 @@ plus `.chapters.txt` and `-thumb.png`. About 2.5 MB per minute.
 ## Congress Moments (real public-domain footage)
 Rules first: read GOV_SOURCES.md (what footage is allowed, and the house rules for these clips).
 - `python3 engine/gov.py unused` lists unused session days newest first with cached candidate counts (0 = pro forma, None = not scanned); `python3 engine/gov.py days` lists House session days; `python3 engine/gov.py find <YYYYMMDD> 8` scores moments
-  (captions with gavels, "time has expired", "regular order", "out of order", laughter… plus loudness spikes) and writes gov/candidates-<day>.json.
+  (captions with gavels, "time has expired", "regular order", "out of order", laughter… plus loudness spikes) and writes gov/candidates-<day>.json. `python3 engine/gov.py context <day> <start> [<end>] [pad]` prints the captions around a candidate (marks the clip with *), so you can set start/end and check what follows the moment.
 - Write gov/<slug>.json: {"day", "start", "end" (caption clock, from the candidate), "end_on_word" (optional, e.g. "expired"),
   "top_text" (meme caption about the SITUATION, not the person's politics), "sfx": [{"at_word": "expired", "name": "recordscratch"}], "hold_end": 1.6}
 - `cd engine && python3 gov.py render ../gov/<slug>.json ../media/gov-<slug>.mp4`. Whisper lines the captions up with the real audio,
