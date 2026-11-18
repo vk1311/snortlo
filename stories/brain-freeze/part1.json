@@ -1,0 +1,246 @@
+{
+ "channel": "Snortlo",
+ "series": "Lo Explains #10",
+ "format": "concept",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "hook": {
+  "pillars": "headline text NOT YOUR BRAIN + recordscratch + slow zoom",
+  "formula": "Unexpected Truth"
+ },
+ "sources": [
+  "https://www.brainfacts.org/thinking-sensing-and-behaving/diet-and-lifestyle/2019/what-causes-brain-freeze-071819",
+  "https://www.houstonmethodist.org/blog/articles/2020/jun/what-causes-brain-freeze/"
+ ],
+ "end_card": {
+  "text": "SEND THIS TO|YOUR SNACK BUDDY",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NOT YOUR|BRAIN",
+    "bg1": "#EAF6FB",
+    "bg2": "#7CC0DA"
+   },
+   "text": "Why does ice cream make your head hurt? Most people think your brain is freezing. It isn't.",
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "fridge_open": true,
+    "fridge_contents": [
+     "cup"
+    ]
+   },
+   "text": "Lo takes one giant bite of ice cream. Three seconds later, he's holding his forehead.",
+   "sfx": "gulp",
+   "cast": [
+    {
+     "who": "me",
+     "x": 820,
+     "facing": -1,
+     "pose": "eat",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {},
+   "text": "Here's what's really going on.",
+   "sfx": "nooo",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     },
+     "act": "shake"
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "WARM|TO COLD",
+    "cooler": false
+   },
+   "text": "The roof of your mouth goes from warm to very cold, very fast.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 250,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "The blood vessels there squeeze, then open up, and blood rushes in to warm things back up. That sudden change in blood flow is what sets off the pain.",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "But here's the weird part. That pain travels on the trigeminal nerve, the one that handles feeling in your face.",
+   "sfx": "waitwhat",
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 460,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "So you feel it in your forehead, not your mouth. Doctors call that referred pain.",
+   "sfx": "vineboom",
+   "cards": [
+    "HEAD"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Its official name is sphenopalatine ganglioneuralgia. Which gives you a brain freeze just saying it.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {},
+   "text": "And it's not just humans. Cats can get it too.",
+   "sfx": "meow",
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {},
+   "text": "One trick people use: press your tongue to the roof of your mouth, so its warmth spreads. It usually fades in seconds.",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {},
+   "text": "So your brain isn't freezing. Your face is just panicking.",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  }
+ ]
+}

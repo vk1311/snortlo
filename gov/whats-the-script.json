@@ -1,0 +1,13 @@
+{
+ "day": "20261117",
+ "start": 25551.0,
+ "end": 25568.6,
+ "end_on_word": "script",
+ "tail": 0.6,
+ "top_text": "Me after I finally get everyone's|attention at the family dinner:",
+ "sfx": [
+  {"at_word": "script", "name": "recordscratch", "delay": 0.2, "gain": 0.7}
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-11-17, caption clock ~25551-25569; the chair calls 'the House will be in order' twice, then asks off-mic 'what's the script?'; clip ends before the next member's remarks; procedural only"
+}

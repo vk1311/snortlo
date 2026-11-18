@@ -1,0 +1,63 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #65",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "sleep",
+ "hook": {
+  "pillars": "caption text + slidedown sfx + bounce",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Me at 6: could fall asleep|in the car, on the floor, anywhere",
+   "set": "living",
+   "state": {},
+   "sfx": "slidedown",
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Me at 32: fan on, door shut|and my ONE specific pillow",
+   "set": "bedroom",
+   "state": {
+    "dark": true,
+    "clock": "11:48"
+   },
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    }
+   ]
+  }
+ ]
+}
