@@ -1,0 +1,4943 @@
+{
+"slug": "wp02-scams-new-businesses",
+"brand": "waypoint",
+"duration": 694.5912916666674,
+"res": [
+1280,
+720
+],
+"shots": [
+{
+"start": 0.0,
+"end": 7.103291666666666,
+"img": "/home/claude/snortlo/waypoint/assets/dd4c40e589-0.jpg",
+"credit": {
+"title": "NZ letter box 416",
+"creator": "sarang",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NZ_letter_box_416.jpg",
+"via": "Wikimedia Commons",
+"query": "mailbox"
+},
+"motion": 0,
+"seg": 0
+},
+{
+"start": 7.103291666666666,
+"end": 17.942083333333333,
+"img": "/home/claude/snortlo/waypoint/assets/dd4c40e589-1.jpg",
+"credit": {
+"title": "NZ letter box 27b",
+"creator": "Sarang",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NZ_letter_box_27b.jpg",
+"via": "Wikimedia Commons",
+"query": "mailbox"
+},
+"motion": 1,
+"seg": 0
+},
+{
+"start": 17.942083333333333,
+"end": 28.23358333333333,
+"img": "/home/claude/snortlo/waypoint/assets/dd4c40e589-2.jpg",
+"credit": {
+"title": "NZ letter box 63a",
+"creator": "Sarang",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NZ_letter_box_63a.jpg",
+"via": "Wikimedia Commons",
+"query": "mailbox"
+},
+"motion": 2,
+"seg": 0
+},
+{
+"start": 28.23358333333333,
+"end": 39.278708333333334,
+"img": "/home/claude/snortlo/waypoint/assets/bbb8b7292b-0.jpg",
+"credit": {
+"title": "Stack of Envelopes by Martin Vorel",
+"creator": "Martin Vorel",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stack_of_Envelopes_by_Martin_Vorel.jpeg",
+"via": "Wikimedia Commons",
+"query": "envelope stack"
+},
+"motion": 3,
+"seg": 0
+},
+{
+"start": 39.278708333333334,
+"end": 48.20920833333333,
+"img": "/home/claude/snortlo/waypoint/assets/bbb8b7292b-1.jpg",
+"credit": {
+"title": "Silver Pen and Envelopes in Office by Martin Vorel",
+"creator": "Martin Vorel",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Silver_Pen_and_Envelopes_in_Office_by_Martin_Vorel.jpeg",
+"via": "Wikimedia Commons",
+"query": "envelope stack"
+},
+"motion": 0,
+"seg": 0
+},
+{
+"start": 48.20920833333333,
+"end": 61.077124999999995,
+"img": "/home/claude/snortlo/waypoint/assets/65080ebdbe-0.jpg",
+"credit": {
+"title": "Museum flat file storage cabinet with art work",
+"creator": "Myotus",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Museum_flat_file_storage_cabinet_with_art_work.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+},
+"motion": 1,
+"seg": 1
+},
+{
+"start": 61.077124999999995,
+"end": 70.92325,
+"img": "/home/claude/snortlo/waypoint/assets/65080ebdbe-1.jpg",
+"credit": {
+"title": "Museum flat file storage cabinet",
+"creator": "Myotus",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Museum_flat_file_storage_cabinet.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+},
+"motion": 2,
+"seg": 1
+},
+{
+"start": 70.92325,
+"end": 79.44337500000002,
+"img": "/home/claude/snortlo/waypoint/assets/65080ebdbe-2.jpg",
+"credit": {
+"title": "Files,Pittsburgh City Hall,1892",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Files,Pittsburgh_City_Hall,1892.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+},
+"motion": 3,
+"seg": 1
+},
+{
+"start": 79.44337500000002,
+"end": 90.34929166666669,
+"img": "/home/claude/snortlo/waypoint/assets/3d4773cabd-0.jpg",
+"credit": {
+"title": "Wooden Card Catalog Furniture",
+"creator": "MarkBuckawicki",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Wooden_Card_Catalog_Furniture.jpg",
+"via": "Wikimedia Commons",
+"query": "library card catalog"
+},
+"motion": 0,
+"seg": 1
+},
+{
+"start": 90.34929166666669,
+"end": 104.6037916666667,
+"img": "/home/claude/snortlo/waypoint/assets/3d4773cabd-1.jpg",
+"credit": {
+"title": "Copyright Card Catalog Files",
+"creator": "Michael Holley Swtpc6800",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Copyright_Card_Catalog_Files.jpg",
+"via": "Wikimedia Commons",
+"query": "library card catalog"
+},
+"motion": 1,
+"seg": 1
+},
+{
+"start": 104.6037916666667,
+"end": 117.50670833333335,
+"img": "/home/claude/snortlo/waypoint/assets/adcba4b2dc-0.jpg",
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+},
+"motion": 2,
+"seg": 1
+},
+{
+"start": 117.50670833333335,
+"end": 123.07566666666668,
+"img": "/home/claude/snortlo/waypoint/assets/adcba4b2dc-1.jpg",
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+},
+"motion": 3,
+"seg": 1
+},
+{
+"start": 123.07566666666668,
+"end": 133.52504166666665,
+"img": "/home/claude/snortlo/waypoint/assets/6e79518057-1.jpg",
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+},
+"motion": 0,
+"seg": 2
+},
+{
+"start": 133.52504166666665,
+"end": 142.30929166666664,
+"img": "/home/claude/snortlo/waypoint/assets/b6c091bf8e-0.jpg",
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+},
+"motion": 1,
+"seg": 2
+},
+{
+"start": 142.30929166666664,
+"end": 152.9129583333333,
+"img": "/home/claude/snortlo/waypoint/assets/6e79518057-1.jpg",
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+},
+"motion": 2,
+"seg": 2
+},
+{
+"start": 152.9129583333333,
+"end": 163.40316666666666,
+"img": "/home/claude/snortlo/waypoint/assets/b6c091bf8e-0.jpg",
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+},
+"motion": 3,
+"seg": 2
+},
+{
+"start": 163.40316666666666,
+"end": 171.41029166666664,
+"img": "/home/claude/snortlo/waypoint/assets/6e79518057-1.jpg",
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+},
+"motion": 0,
+"seg": 2
+},
+{
+"start": 171.41029166666664,
+"end": 180.32170833333328,
+"img": "/home/claude/snortlo/waypoint/assets/b6c091bf8e-0.jpg",
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+},
+"motion": 1,
+"seg": 2
+},
+{
+"start": 180.32170833333328,
+"end": 191.65283333333326,
+"img": "/home/claude/snortlo/waypoint/assets/6e79518057-1.jpg",
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+},
+"motion": 2,
+"seg": 2
+},
+{
+"start": 191.65283333333326,
+"end": 201.3018749999999,
+"img": "/home/claude/snortlo/waypoint/assets/b6c091bf8e-0.jpg",
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+},
+"motion": 3,
+"seg": 2
+},
+{
+"start": 201.3018749999999,
+"end": 208.77329166666655,
+"img": "/home/claude/snortlo/waypoint/assets/6e79518057-1.jpg",
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+},
+"motion": 0,
+"seg": 2
+},
+{
+"start": 208.77329166666655,
+"end": 212.4347499999999,
+"img": "/home/claude/snortlo/waypoint/assets/b6c091bf8e-0.jpg",
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+},
+"motion": 1,
+"seg": 2
+},
+{
+"start": 212.4347499999999,
+"end": 219.80358333333325,
+"img": "/home/claude/snortlo/waypoint/assets/635e5ed71e-2.jpg",
+"credit": {
+"title": "Lithuanian postage stamps with overprints of Central Lithuania (Litwa Srodkowa), 1920",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Lithuanian_postage_stamps_with_overprints_of_Central_Lithuania_(Litwa_Srodkowa),_1920.jpg",
+"via": "Wikimedia Commons",
+"query": "postage stamps"
+},
+"motion": 2,
+"seg": 3
+},
+{
+"start": 219.80358333333325,
+"end": 230.54537499999992,
+"img": "/home/claude/snortlo/waypoint/assets/78d9ead266-1.jpg",
+"credit": {
+"title": "Par Avion (envelope Brazil)",
+"creator": "Moacir Ximenes",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Par_Avion_(envelope_Brazil).jpg",
+"via": "Wikimedia Commons",
+"query": "envelope"
+},
+"motion": 3,
+"seg": 3
+},
+{
+"start": 230.54537499999992,
+"end": 243.02008333333322,
+"img": "/home/claude/snortlo/waypoint/assets/168402d2fa-0.jpg",
+"credit": {
+"title": "Hourglass 1",
+"creator": "Suohros",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_1.jpg",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+},
+"motion": 0,
+"seg": 3
+},
+{
+"start": 243.02008333333322,
+"end": 256.6684999999999,
+"img": "/home/claude/snortlo/waypoint/assets/168402d2fa-2.jpg",
+"credit": {
+"title": "Hourglass Sand Ceremony",
+"creator": "HourglassSandCeremony",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_Sand_Ceremony.gif",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+},
+"motion": 1,
+"seg": 3
+},
+{
+"start": 256.6684999999999,
+"end": 264.19466666666654,
+"img": "/home/claude/snortlo/waypoint/assets/79c572d9e5-0.jpg",
+"credit": {
+"title": "The Fountain pen",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:The_Fountain_pen.jpeg",
+"via": "Wikimedia Commons",
+"query": "fountain pen"
+},
+"motion": 2,
+"seg": 3
+},
+{
+"start": 264.19466666666654,
+"end": 273.4785416666665,
+"img": "/home/claude/snortlo/waypoint/assets/79c572d9e5-1.jpg",
+"credit": {
+"title": "Kaweco Perkeo",
+"creator": "Mantelmoewe",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Kaweco_Perkeo.jpg",
+"via": "Wikimedia Commons",
+"query": "fountain pen"
+},
+"motion": 3,
+"seg": 3
+},
+{
+"start": 273.4785416666665,
+"end": 283.6707499999999,
+"img": "/home/claude/snortlo/waypoint/assets/79c572d9e5-2.jpg",
+"credit": {
+"title": "Sheaffer Giftie Set, 1922",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Sheaffer_Giftie_Set,_1922.png",
+"via": "Wikimedia Commons",
+"query": "fountain pen"
+},
+"motion": 0,
+"seg": 3
+},
+{
+"start": 283.6707499999999,
+"end": 294.1528333333332,
+"img": "/home/claude/snortlo/waypoint/assets/635e5ed71e-2.jpg",
+"credit": {
+"title": "Lithuanian postage stamps with overprints of Central Lithuania (Litwa Srodkowa), 1920",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Lithuanian_postage_stamps_with_overprints_of_Central_Lithuania_(Litwa_Srodkowa),_1920.jpg",
+"via": "Wikimedia Commons",
+"query": "postage stamps"
+},
+"motion": 1,
+"seg": 3
+},
+{
+"start": 294.1528333333332,
+"end": 302.7189583333332,
+"img": "/home/claude/snortlo/waypoint/assets/78d9ead266-1.jpg",
+"credit": {
+"title": "Par Avion (envelope Brazil)",
+"creator": "Moacir Ximenes",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Par_Avion_(envelope_Brazil).jpg",
+"via": "Wikimedia Commons",
+"query": "envelope"
+},
+"motion": 2,
+"seg": 3
+},
+{
+"start": 302.7189583333332,
+"end": 310.20416666666654,
+"img": "/home/claude/snortlo/waypoint/assets/168402d2fa-0.jpg",
+"credit": {
+"title": "Hourglass 1",
+"creator": "Suohros",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_1.jpg",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+},
+"motion": 3,
+"seg": 3
+},
+{
+"start": 310.20416666666654,
+"end": 317.2027083333332,
+"img": "/home/claude/snortlo/waypoint/assets/168402d2fa-2.jpg",
+"credit": {
+"title": "Hourglass Sand Ceremony",
+"creator": "HourglassSandCeremony",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_Sand_Ceremony.gif",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+},
+"motion": 0,
+"seg": 3
+},
+{
+"start": 317.2027083333332,
+"end": 324.99679166666647,
+"img": "/home/claude/snortlo/waypoint/assets/b300d1942a-0.jpg",
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+},
+"motion": 1,
+"seg": 4
+},
+{
+"start": 324.99679166666647,
+"end": 333.0318333333331,
+"img": "/home/claude/snortlo/waypoint/assets/b300d1942a-0.jpg",
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+},
+"motion": 2,
+"seg": 4
+},
+{
+"start": 333.0318333333331,
+"end": 340.13712499999974,
+"img": "/home/claude/snortlo/waypoint/assets/b300d1942a-0.jpg",
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+},
+"motion": 3,
+"seg": 4
+},
+{
+"start": 340.13712499999974,
+"end": 349.67599999999976,
+"img": "/home/claude/snortlo/waypoint/assets/b300d1942a-0.jpg",
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+},
+"motion": 0,
+"seg": 4
+},
+{
+"start": 349.67599999999976,
+"end": 363.0079999999998,
+"img": "/home/claude/snortlo/waypoint/assets/b300d1942a-0.jpg",
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+},
+"motion": 1,
+"seg": 4
+},
+{
+"start": 363.0079999999998,
+"end": 370.0632499999998,
+"img": "/home/claude/snortlo/waypoint/assets/b300d1942a-0.jpg",
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+},
+"motion": 2,
+"seg": 4
+},
+{
+"start": 370.0632499999998,
+"end": 379.17237499999976,
+"img": "/home/claude/snortlo/waypoint/assets/b300d1942a-0.jpg",
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+},
+"motion": 3,
+"seg": 4
+},
+{
+"start": 379.17237499999976,
+"end": 392.1499583333331,
+"img": "/home/claude/snortlo/waypoint/assets/35a6154b63-0.jpg",
+"credit": {
+"title": "Howth Harbour Lighthouse (24031171840)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Howth_Harbour_Lighthouse_(24031171840).jpg",
+"via": "Wikimedia Commons",
+"query": "harbour lighthouse"
+},
+"motion": 0,
+"seg": 5
+},
+{
+"start": 392.1499583333331,
+"end": 402.54949999999974,
+"img": "/home/claude/snortlo/waypoint/assets/35a6154b63-1.jpg",
+"credit": {
+"title": "New harbour, Saint-Jean-Cap-Ferrat, France",
+"creator": "Pierre Lannoy",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/2963208767/",
+"via": "Openverse / wordpress",
+"query": "harbour lighthouse"
+},
+"motion": 1,
+"seg": 5
+},
+{
+"start": 402.54949999999974,
+"end": 409.55420833333307,
+"img": "/home/claude/snortlo/waypoint/assets/424ef4a237-0.jpg",
+"credit": {
+"title": "Laptop on desk book stacks (Unsplash)",
+"creator": "freddie marriage fredmarriage",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Laptop_on_desk_book_stacks_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "laptop desk"
+},
+"motion": 2,
+"seg": 5
+},
+{
+"start": 409.55420833333307,
+"end": 418.50787499999973,
+"img": "/home/claude/snortlo/waypoint/assets/a7af84dfce-0.jpg",
+"credit": {
+"title": "Keyboard and pen",
+"creator": "Ala z (talk\u00a0\u00b7 contribs)",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Keyboard_and_pen.JPG",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+},
+"motion": 3,
+"seg": 6
+},
+{
+"start": 418.50787499999973,
+"end": 426.8185416666664,
+"img": "/home/claude/snortlo/waypoint/assets/a7af84dfce-1.jpg",
+"credit": {
+"title": "US keyboard on MacBook Pro 15-inch 2018",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:US_keyboard_on_MacBook_Pro_15-inch_2018.jpg",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+},
+"motion": 0,
+"seg": 6
+},
+{
+"start": 426.8185416666664,
+"end": 437.61554166666633,
+"img": "/home/claude/snortlo/waypoint/assets/a7af84dfce-2.jpg",
+"credit": {
+"title": "Keyboard of a laptop",
+"creator": "Sa'Adat-E-Zubaire",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Keyboard_of_a_laptop.jpg",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+},
+"motion": 1,
+"seg": 6
+},
+{
+"start": 437.61554166666633,
+"end": 445.5520833333329,
+"img": "/home/claude/snortlo/waypoint/assets/b61f7bd036-0.jpg",
+"credit": {
+"title": "Code on computer monitor (Unsplash)",
+"creator": "Markus Spiske markusspiske",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Code_on_computer_monitor_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+},
+"motion": 2,
+"seg": 6
+},
+{
+"start": 445.5520833333329,
+"end": 453.1574999999996,
+"img": "/home/claude/snortlo/waypoint/assets/b61f7bd036-1.jpg",
+"credit": {
+"title": "Monitor of mac",
+"creator": "Luke Chesser",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Monitor_of_mac.jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+},
+"motion": 3,
+"seg": 6
+},
+{
+"start": 453.1574999999996,
+"end": 464.0872499999996,
+"img": "/home/claude/snortlo/waypoint/assets/b61f7bd036-2.jpg",
+"credit": {
+"title": "CSS code on a screen (Unsplash)",
+"creator": "Sai Kiran Anagani _imkiran",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:CSS_code_on_a_screen_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+},
+"motion": 0,
+"seg": 6
+},
+{
+"start": 464.0872499999996,
+"end": 475.63429166666623,
+"img": "/home/claude/snortlo/waypoint/assets/b42072eeef-0.jpg",
+"credit": {
+"title": "Padlock Valimokatu Oulu 20250307 02",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_Valimokatu_Oulu_20250307_02.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+},
+"motion": 1,
+"seg": 6
+},
+{
+"start": 475.63429166666623,
+"end": 483.4362083333329,
+"img": "/home/claude/snortlo/waypoint/assets/b42072eeef-1.jpg",
+"credit": {
+"title": "Padlock and key - 17c - Ryazan Kremlin Museum",
+"creator": "\u041b\u0430\u043f\u043e\u0442\u044c",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_and_key_-_17c_-_Ryazan_Kremlin_Museum.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+},
+"motion": 2,
+"seg": 6
+},
+{
+"start": 483.4362083333329,
+"end": 492.4808333333329,
+"img": "/home/claude/snortlo/waypoint/assets/b42072eeef-2.jpg",
+"credit": {
+"title": "Love padlocks Paris pont archev\u00each\u00e9",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+},
+"motion": 3,
+"seg": 6
+},
+{
+"start": 492.4808333333329,
+"end": 501.38583333333287,
+"img": "/home/claude/snortlo/waypoint/assets/fbd1cab5ba-0.jpg",
+"credit": {
+"title": "Keys-unlock (24242899961)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Keys-unlock_(24242899961).jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+},
+"motion": 0,
+"seg": 6
+},
+{
+"start": 501.38583333333287,
+"end": 512.046083333333,
+"img": "/home/claude/snortlo/waypoint/assets/fbd1cab5ba-1.jpg",
+"credit": {
+"title": "Photo of a key",
+"creator": "Mikael H\u00e4ggstr\u00f6m",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Photo_of_a_key.jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+},
+"motion": 1,
+"seg": 6
+},
+{
+"start": 512.046083333333,
+"end": 524.1677083333329,
+"img": "/home/claude/snortlo/waypoint/assets/fbd1cab5ba-2.jpg",
+"credit": {
+"title": "Light bulb and keys on table",
+"creator": "Aphiwat chuangchoem",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Light_bulb_and_keys_on_table.jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+},
+"motion": 2,
+"seg": 6
+},
+{
+"start": 524.1677083333329,
+"end": 531.8379583333331,
+"img": "/home/claude/snortlo/waypoint/assets/dd5fce1240-2.jpg",
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+},
+"motion": 3,
+"seg": 7
+},
+{
+"start": 531.8379583333331,
+"end": 544.8664166666663,
+"img": "/home/claude/snortlo/waypoint/assets/4d5eea90dc-1.jpg",
+"credit": {
+"title": "Java, Majapahit Dynasty - Piggy Bank - 1980.16 - Cleveland Museum of Art",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Java,_Majapahit_Dynasty_-_Piggy_Bank_-_1980.16_-_Cleveland_Museum_of_Art.tif",
+"via": "Wikimedia Commons",
+"query": "piggy bank"
+},
+"motion": 0,
+"seg": 7
+},
+{
+"start": 544.8664166666663,
+"end": 553.490708333333,
+"img": "/home/claude/snortlo/waypoint/assets/2219370bf9-1.jpg",
+"credit": {
+"title": "Building from rear, Robert A. Young Federal Building, St. Louis, Missouri LCCN2010719792",
+"creator": "Carol M. Highsmith",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Building_from_rear,_Robert_A._Young_Federal_Building,_St._Louis,_Missouri_LCCN2010719792.tiff",
+"via": "Wikimedia Commons",
+"query": "government building"
+},
+"motion": 1,
+"seg": 7
+},
+{
+"start": 553.490708333333,
+"end": 561.0510416666665,
+"img": "/home/claude/snortlo/waypoint/assets/dd5fce1240-2.jpg",
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+},
+"motion": 2,
+"seg": 7
+},
+{
+"start": 561.0510416666665,
+"end": 574.4285833333332,
+"img": "/home/claude/snortlo/waypoint/assets/4d5eea90dc-1.jpg",
+"credit": {
+"title": "Java, Majapahit Dynasty - Piggy Bank - 1980.16 - Cleveland Museum of Art",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Java,_Majapahit_Dynasty_-_Piggy_Bank_-_1980.16_-_Cleveland_Museum_of_Art.tif",
+"via": "Wikimedia Commons",
+"query": "piggy bank"
+},
+"motion": 3,
+"seg": 7
+},
+{
+"start": 574.4285833333332,
+"end": 582.9885833333333,
+"img": "/home/claude/snortlo/waypoint/assets/2219370bf9-1.jpg",
+"credit": {
+"title": "Building from rear, Robert A. Young Federal Building, St. Louis, Missouri LCCN2010719792",
+"creator": "Carol M. Highsmith",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Building_from_rear,_Robert_A._Young_Federal_Building,_St._Louis,_Missouri_LCCN2010719792.tiff",
+"via": "Wikimedia Commons",
+"query": "government building"
+},
+"motion": 0,
+"seg": 7
+},
+{
+"start": 582.9885833333333,
+"end": 592.1085,
+"img": "/home/claude/snortlo/waypoint/assets/dd5fce1240-2.jpg",
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+},
+"motion": 1,
+"seg": 7
+},
+{
+"start": 592.1085,
+"end": 602.3528333333334,
+"img": "/home/claude/snortlo/waypoint/assets/4d5eea90dc-1.jpg",
+"credit": {
+"title": "Java, Majapahit Dynasty - Piggy Bank - 1980.16 - Cleveland Museum of Art",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Java,_Majapahit_Dynasty_-_Piggy_Bank_-_1980.16_-_Cleveland_Museum_of_Art.tif",
+"via": "Wikimedia Commons",
+"query": "piggy bank"
+},
+"motion": 2,
+"seg": 7
+},
+{
+"start": 602.3528333333334,
+"end": 611.4259583333335,
+"img": "/home/claude/snortlo/waypoint/assets/41de24a5e1-0.jpg",
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+},
+"motion": 3,
+"seg": 8
+},
+{
+"start": 611.4259583333335,
+"end": 621.9490833333335,
+"img": "/home/claude/snortlo/waypoint/assets/9149c6c85e-0.jpg",
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+},
+"motion": 0,
+"seg": 8
+},
+{
+"start": 621.9490833333335,
+"end": 631.0982083333337,
+"img": "/home/claude/snortlo/waypoint/assets/9149c6c85e-1.jpg",
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+},
+"motion": 1,
+"seg": 8
+},
+{
+"start": 631.0982083333337,
+"end": 638.9832083333337,
+"img": "/home/claude/snortlo/waypoint/assets/9149c6c85e-2.jpg",
+"credit": {
+"title": "Pencil tip closeup 2",
+"creator": "Juliancolton",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_tip_closeup_2.JPG",
+"via": "Wikimedia Commons",
+"query": "pencil"
+},
+"motion": 2,
+"seg": 8
+},
+{
+"start": 638.9832083333337,
+"end": 646.4710000000005,
+"img": "/home/claude/snortlo/waypoint/assets/786e5fd6f2-0.jpg",
+"credit": {
+"title": "Retro desk lamp",
+"creator": "WANGYIFAN2024",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Retro_desk_lamp.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+},
+"motion": 3,
+"seg": 8
+},
+{
+"start": 646.4710000000005,
+"end": 659.2852916666671,
+"img": "/home/claude/snortlo/waypoint/assets/786e5fd6f2-1.jpg",
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+},
+"motion": 0,
+"seg": 8
+},
+{
+"start": 659.2852916666671,
+"end": 666.6248333333339,
+"img": "/home/claude/snortlo/waypoint/assets/786e5fd6f2-2.jpg",
+"credit": {
+"title": "Staircase of the BGK Building (26620981474)",
+"creator": "Bart Lumber",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_BGK_Building_(26620981474).jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+},
+"motion": 1,
+"seg": 8
+},
+{
+"start": 666.6248333333339,
+"end": 676.2167500000006,
+"img": "/home/claude/snortlo/waypoint/assets/41de24a5e1-0.jpg",
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+},
+"motion": 2,
+"seg": 8
+},
+{
+"start": 676.2167500000006,
+"end": 683.271083333334,
+"img": "/home/claude/snortlo/waypoint/assets/9149c6c85e-0.jpg",
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+},
+"motion": 3,
+"seg": 8
+},
+{
+"start": 683.271083333334,
+"end": 694.5912916666674,
+"img": "/home/claude/snortlo/waypoint/assets/9149c6c85e-1.jpg",
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+},
+"motion": 0,
+"seg": 8
+}
+],
+"events": [
+{
+"seg": 0,
+"line": 0,
+"who": "host",
+"text": "Most people think scammers go after big companies, because that's where the money is.",
+"card": {
+"type": "point",
+"text": "You just registered a business. Now you're on a list."
+},
+"start": 2.6,
+"end": 6.903291666666666,
+"shot": 0,
+"credit": {
+"title": "NZ letter box 416",
+"creator": "sarang",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NZ_letter_box_416.jpg",
+"via": "Wikimedia Commons",
+"query": "mailbox"
+}
+},
+{
+"seg": 0,
+"line": 0,
+"who": "host",
+"text": "For brand new businesses in Canada, the opposite is often true.",
+"card": {
+"type": "point",
+"text": "You just registered a business. Now you're on a list."
+},
+"start": 7.103291666666666,
+"end": 10.982833333333334,
+"shot": 1,
+"credit": {
+"title": "NZ letter box 27b",
+"creator": "Sarang",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NZ_letter_box_27b.jpg",
+"via": "Wikimedia Commons",
+"query": "mailbox"
+}
+},
+{
+"seg": 0,
+"line": 1,
+"who": "host",
+"text": "The day you register a business, your name, your address and your business name start showing up in public records.",
+"card": {
+"type": "point",
+"text": "You just registered a business. Now you're on a list."
+},
+"start": 11.282833333333334,
+"end": 17.742083333333333,
+"shot": 1,
+"credit": {
+"title": "NZ letter box 27b",
+"creator": "Sarang",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NZ_letter_box_27b.jpg",
+"via": "Wikimedia Commons",
+"query": "mailbox"
+}
+},
+{
+"seg": 0,
+"line": 1,
+"who": "host",
+"text": "And some people read those records for a living.",
+"card": null,
+"start": 17.942083333333333,
+"end": 20.01395833333333,
+"shot": 2,
+"credit": {
+"title": "NZ letter box 63a",
+"creator": "Sarang",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NZ_letter_box_63a.jpg",
+"via": "Wikimedia Commons",
+"query": "mailbox"
+}
+},
+{
+"seg": 0,
+"line": 2,
+"who": "host",
+"text": "Within weeks, the letters start.",
+"card": null,
+"start": 20.313958333333332,
+"end": 21.843041666666664,
+"shot": 2,
+"credit": {
+"title": "NZ letter box 63a",
+"creator": "Sarang",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NZ_letter_box_63a.jpg",
+"via": "Wikimedia Commons",
+"query": "mailbox"
+}
+},
+{
+"seg": 0,
+"line": 2,
+"who": "host",
+"text": "An invoice for a listing you never ordered.",
+"card": null,
+"start": 22.043041666666664,
+"end": 24.60683333333333,
+"shot": 2,
+"credit": {
+"title": "NZ letter box 63a",
+"creator": "Sarang",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NZ_letter_box_63a.jpg",
+"via": "Wikimedia Commons",
+"query": "mailbox"
+}
+},
+{
+"seg": 0,
+"line": 2,
+"who": "host",
+"text": "A renewal notice for a trademark that isn't due for years.",
+"card": null,
+"start": 24.80683333333333,
+"end": 28.03358333333333,
+"shot": 2,
+"credit": {
+"title": "NZ letter box 63a",
+"creator": "Sarang",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NZ_letter_box_63a.jpg",
+"via": "Wikimedia Commons",
+"query": "mailbox"
+}
+},
+{
+"seg": 0,
+"line": 2,
+"who": "host",
+"text": "A call from someone who says they're with the tax people.",
+"card": null,
+"start": 28.23358333333333,
+"end": 31.019666666666662,
+"shot": 3,
+"credit": {
+"title": "Stack of Envelopes by Martin Vorel",
+"creator": "Martin Vorel",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stack_of_Envelopes_by_Martin_Vorel.jpeg",
+"via": "Wikimedia Commons",
+"query": "envelope stack"
+}
+},
+{
+"seg": 0,
+"line": 3,
+"who": "host",
+"text": "Most of them look official.",
+"card": null,
+"start": 31.319666666666663,
+"end": 32.61537499999999,
+"shot": 3,
+"credit": {
+"title": "Stack of Envelopes by Martin Vorel",
+"creator": "Martin Vorel",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stack_of_Envelopes_by_Martin_Vorel.jpeg",
+"via": "Wikimedia Commons",
+"query": "envelope stack"
+}
+},
+{
+"seg": 0,
+"line": 3,
+"who": "host",
+"text": "Some of them are technically legal.",
+"card": null,
+"start": 32.815374999999996,
+"end": 34.79208333333333,
+"shot": 3,
+"credit": {
+"title": "Stack of Envelopes by Martin Vorel",
+"creator": "Martin Vorel",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stack_of_Envelopes_by_Martin_Vorel.jpeg",
+"via": "Wikimedia Commons",
+"query": "envelope stack"
+}
+},
+{
+"seg": 0,
+"line": 3,
+"who": "host",
+"text": "And one of them, the most expensive one, doesn't come in the mail at all.",
+"card": null,
+"start": 34.99208333333333,
+"end": 39.07870833333333,
+"shot": 3,
+"credit": {
+"title": "Stack of Envelopes by Martin Vorel",
+"creator": "Martin Vorel",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stack_of_Envelopes_by_Martin_Vorel.jpeg",
+"via": "Wikimedia Commons",
+"query": "envelope stack"
+}
+},
+{
+"seg": 0,
+"line": 3,
+"who": "host",
+"text": "We'll get to that one.",
+"card": null,
+"start": 39.278708333333334,
+"end": 40.22541666666667,
+"shot": 4,
+"credit": {
+"title": "Silver Pen and Envelopes in Office by Martin Vorel",
+"creator": "Martin Vorel",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Silver_Pen_and_Envelopes_in_Office_by_Martin_Vorel.jpeg",
+"via": "Wikimedia Commons",
+"query": "envelope stack"
+}
+},
+{
+"seg": 0,
+"line": 4,
+"who": "host",
+"text": "Here are the scams that go after new Canadian businesses, how each one works, and the five habits that shut almost all of them down.",
+"card": null,
+"start": 40.525416666666665,
+"end": 47.70920833333333,
+"shot": 4,
+"credit": {
+"title": "Silver Pen and Envelopes in Office by Martin Vorel",
+"creator": "Martin Vorel",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Silver_Pen_and_Envelopes_in_Office_by_Martin_Vorel.jpeg",
+"via": "Wikimedia Commons",
+"query": "envelope stack"
+}
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "Start with the size of the problem.",
+"card": {
+"type": "stat",
+"big": "$704M",
+"label": "reported fraud losses in Canada in 2025, from 112,000+ reports",
+"source": "Canadian Anti-Fraud Centre, Mar 2026"
+},
+"start": 48.95920833333333,
+"end": 50.60937499999999,
+"shot": 5,
+"credit": {
+"title": "Museum flat file storage cabinet with art work",
+"creator": "Myotus",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Museum_flat_file_storage_cabinet_with_art_work.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+}
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "In twenty twenty five, the Canadian Anti Fraud Centre received over one hundred and twelve thousand fraud reports, with more than seven hundred and four million dollars in reported losses.",
+"card": {
+"type": "stat",
+"big": "$704M",
+"label": "reported fraud losses in Canada in 2025, from 112,000+ reports",
+"source": "Canadian Anti-Fraud Centre, Mar 2026"
+},
+"start": 50.809374999999996,
+"end": 60.777125,
+"shot": 5,
+"credit": {
+"title": "Museum flat file storage cabinet with art work",
+"creator": "Myotus",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Museum_flat_file_storage_cabinet_with_art_work.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+}
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "Now the part that matters.",
+"card": {
+"type": "stat",
+"big": "5 to 10%",
+"label": "of frauds are ever reported",
+"source": "Canadian Anti-Fraud Centre, Mar 2026"
+},
+"start": 61.077124999999995,
+"end": 62.297875,
+"shot": 6,
+"credit": {
+"title": "Museum flat file storage cabinet",
+"creator": "Myotus",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Museum_flat_file_storage_cabinet.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+}
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "The centre says only five to ten percent of frauds are reported.",
+"card": {
+"type": "stat",
+"big": "5 to 10%",
+"label": "of frauds are ever reported",
+"source": "Canadian Anti-Fraud Centre, Mar 2026"
+},
+"start": 62.497875,
+"end": 66.13091666666666,
+"shot": 6,
+"credit": {
+"title": "Museum flat file storage cabinet",
+"creator": "Myotus",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Museum_flat_file_storage_cabinet.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+}
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "So the real number is a lot bigger, and a lot of it never makes the news.",
+"card": {
+"type": "stat",
+"big": "5 to 10%",
+"label": "of frauds are ever reported",
+"source": "Canadian Anti-Fraud Centre, Mar 2026"
+},
+"start": 66.33091666666667,
+"end": 70.62325,
+"shot": 6,
+"credit": {
+"title": "Museum flat file storage cabinet",
+"creator": "Myotus",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Museum_flat_file_storage_cabinet.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+}
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Here's what school teaches you.",
+"card": {
+"type": "stat",
+"big": "5 to 10%",
+"label": "of frauds are ever reported",
+"source": "Canadian Anti-Fraud Centre, Mar 2026"
+},
+"start": 70.92325,
+"end": 72.60170833333333,
+"shot": 7,
+"credit": {
+"title": "Files,Pittsburgh City Hall,1892",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Files,Pittsburgh_City_Hall,1892.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+}
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Registering your business is a legal step.",
+"card": {
+"type": "stat",
+"big": "5 to 10%",
+"label": "of frauds are ever reported",
+"source": "Canadian Anti-Fraud Centre, Mar 2026"
+},
+"start": 72.80170833333334,
+"end": 75.149375,
+"shot": 7,
+"credit": {
+"title": "Files,Pittsburgh City Hall,1892",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Files,Pittsburgh_City_Hall,1892.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+}
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "You pick a structure, you file, you pay a fee, you get a number.",
+"card": null,
+"start": 75.34937500000001,
+"end": 79.24337500000001,
+"shot": 7,
+"credit": {
+"title": "Files,Pittsburgh City Hall,1892",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Files,Pittsburgh_City_Hall,1892.jpg",
+"via": "Wikimedia Commons",
+"query": "filing cabinet"
+}
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Done.",
+"card": null,
+"start": 79.44337500000002,
+"end": 79.95200000000001,
+"shot": 8,
+"credit": {
+"title": "Wooden Card Catalog Furniture",
+"creator": "MarkBuckawicki",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Wooden_Card_Catalog_Furniture.jpg",
+"via": "Wikimedia Commons",
+"query": "library card catalog"
+}
+},
+{
+"seg": 1,
+"line": 3,
+"who": "host",
+"text": "Here's what school doesn't teach you.",
+"card": null,
+"start": 80.25200000000001,
+"end": 81.88041666666668,
+"shot": 8,
+"credit": {
+"title": "Wooden Card Catalog Furniture",
+"creator": "MarkBuckawicki",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Wooden_Card_Catalog_Furniture.jpg",
+"via": "Wikimedia Commons",
+"query": "library card catalog"
+}
+},
+{
+"seg": 1,
+"line": 3,
+"who": "host",
+"text": "Registering is also publishing.",
+"card": null,
+"start": 82.08041666666668,
+"end": 83.69629166666668,
+"shot": 8,
+"credit": {
+"title": "Wooden Card Catalog Furniture",
+"creator": "MarkBuckawicki",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Wooden_Card_Catalog_Furniture.jpg",
+"via": "Wikimedia Commons",
+"query": "library card catalog"
+}
+},
+{
+"seg": 1,
+"line": 3,
+"who": "host",
+"text": "Business registries, the trademark database and the public records behind web addresses are all searchable, on purpose.",
+"card": null,
+"start": 83.89629166666668,
+"end": 90.14929166666668,
+"shot": 8,
+"credit": {
+"title": "Wooden Card Catalog Furniture",
+"creator": "MarkBuckawicki",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Wooden_Card_Catalog_Furniture.jpg",
+"via": "Wikimedia Commons",
+"query": "library card catalog"
+}
+},
+{
+"seg": 1,
+"line": 3,
+"who": "host",
+"text": "That openness is good.",
+"card": null,
+"start": 90.34929166666669,
+"end": 91.62583333333336,
+"shot": 9,
+"credit": {
+"title": "Copyright Card Catalog Files",
+"creator": "Michael Holley Swtpc6800",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Copyright_Card_Catalog_Files.jpg",
+"via": "Wikimedia Commons",
+"query": "library card catalog"
+}
+},
+{
+"seg": 1,
+"line": 3,
+"who": "host",
+"text": "It's how customers check you're real.",
+"card": null,
+"start": 91.82583333333336,
+"end": 93.68925000000003,
+"shot": 9,
+"credit": {
+"title": "Copyright Card Catalog Files",
+"creator": "Michael Holley Swtpc6800",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Copyright_Card_Catalog_Files.jpg",
+"via": "Wikimedia Commons",
+"query": "library card catalog"
+}
+},
+{
+"seg": 1,
+"line": 4,
+"who": "host",
+"text": "But the Competition Bureau says the companies behind fake renewal notices fill them with your trademark image, your contact details and your registration number, all pulled from public records.",
+"card": null,
+"start": 93.98925000000003,
+"end": 104.3037916666667,
+"shot": 9,
+"credit": {
+"title": "Copyright Card Catalog Files",
+"creator": "Michael Holley Swtpc6800",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Copyright_Card_Catalog_Files.jpg",
+"via": "Wikimedia Commons",
+"query": "library card catalog"
+}
+},
+{
+"seg": 1,
+"line": 5,
+"who": "host",
+"text": "And it says directory scammers often already have your details from public or online listings before they ever call you.",
+"card": null,
+"start": 104.6037916666667,
+"end": 110.71258333333336,
+"shot": 10,
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 1,
+"line": 6,
+"who": "host",
+"text": "So a new owner gets a letter with their real business name, their real address, and their real registration number on it.",
+"card": {
+"type": "compare",
+"left_title": "What's real",
+"left": "Your name, address, registration number",
+"right_title": "What's fake",
+"right": "The bill"
+},
+"start": 111.01258333333335,
+"end": 117.30670833333335,
+"shot": 10,
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 1,
+"line": 6,
+"who": "host",
+"text": "Of course it looks legit.",
+"card": {
+"type": "compare",
+"left_title": "What's real",
+"left": "Your name, address, registration number",
+"right_title": "What's fake",
+"right": "The bill"
+},
+"start": 117.50670833333335,
+"end": 118.70200000000001,
+"shot": 11,
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 1,
+"line": 6,
+"who": "host",
+"text": "Every detail on it is true.",
+"card": {
+"type": "compare",
+"left_title": "What's real",
+"left": "Your name, address, registration number",
+"right_title": "What's fake",
+"right": "The bill"
+},
+"start": 118.90200000000002,
+"end": 120.66591666666667,
+"shot": 11,
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 1,
+"line": 6,
+"who": "host",
+"text": "Except the part where you owe money.",
+"card": {
+"type": "compare",
+"left_title": "What's real",
+"left": "Your name, address, registration number",
+"right_title": "What's fake",
+"right": "The bill"
+},
+"start": 120.86591666666668,
+"end": 122.57566666666668,
+"shot": 11,
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 0,
+"who": "host",
+"text": "The centre calls the first one false billing.",
+"card": {
+"type": "point",
+"text": "False billing: an invoice for something nobody ordered"
+},
+"start": 123.82566666666668,
+"end": 126.515375,
+"shot": 12,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 0,
+"who": "host",
+"text": "Its definition is simple.",
+"card": {
+"type": "point",
+"text": "False billing: an invoice for something nobody ordered"
+},
+"start": 126.71537500000001,
+"end": 128.15304166666667,
+"shot": 12,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 0,
+"who": "host",
+"text": "You get an invoice and a demand for payment, for a product or service nobody asked for.",
+"card": {
+"type": "point",
+"text": "False billing: an invoice for something nobody ordered"
+},
+"start": 128.35304166666666,
+"end": 133.22504166666664,
+"shot": 12,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 1,
+"who": "host",
+"text": "The classic version is the business directory.",
+"card": {
+"type": "point",
+"text": "False billing: an invoice for something nobody ordered"
+},
+"start": 133.52504166666665,
+"end": 135.927,
+"shot": 13,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 1,
+"who": "host",
+"text": "Someone calls to confirm your address and phone number.",
+"card": null,
+"start": 136.12699999999998,
+"end": 138.95541666666665,
+"shot": 13,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 1,
+"who": "host",
+"text": "It sounds like admin.",
+"card": null,
+"start": 139.15541666666664,
+"end": 140.1799583333333,
+"shot": 13,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 1,
+"who": "host",
+"text": "Sure, that's correct, thanks.",
+"card": null,
+"start": 140.3799583333333,
+"end": 142.00929166666663,
+"shot": 13,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 2,
+"who": "host",
+"text": "Then an invoice shows up for an online directory listing, or a renewal of one.",
+"card": null,
+"start": 142.30929166666664,
+"end": 146.58262499999998,
+"shot": 14,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 2,
+"who": "host",
+"text": "When you push back, you're told there's a recording of you agreeing, and that the account goes to collections if you don't pay.",
+"card": null,
+"start": 146.78262499999997,
+"end": 152.6129583333333,
+"shot": 14,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 3,
+"who": "host",
+"text": "Both the Competition Bureau and the Anti Fraud Centre warn that they may record that first call and use it against you.",
+"card": {
+"type": "list",
+"title": "How a directory invoice works",
+"items": [
+"A friendly call to 'confirm details'",
+"The call may be recorded",
+"An invoice for a listing arrives",
+"Pay, or 'it goes to collections'"
+]
+},
+"start": 152.9129583333333,
+"end": 158.93979166666665,
+"shot": 15,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 3,
+"who": "host",
+"text": "A yes to is this your address can be edited into a yes to something else.",
+"card": {
+"type": "list",
+"title": "How a directory invoice works",
+"items": [
+"A friendly call to 'confirm details'",
+"The call may be recorded",
+"An invoice for a listing arrives",
+"Pay, or 'it goes to collections'"
+]
+},
+"start": 159.13979166666664,
+"end": 163.10316666666665,
+"shot": 15,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 4,
+"who": "host",
+"text": "And what do you get if you pay?",
+"card": {
+"type": "list",
+"title": "How a directory invoice works",
+"items": [
+"A friendly call to 'confirm details'",
+"The call may be recorded",
+"An invoice for a listing arrives",
+"Pay, or 'it goes to collections'"
+]
+},
+"start": 163.40316666666666,
+"end": 164.759875,
+"shot": 16,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 4,
+"who": "host",
+"text": "The Bureau put it plainly.",
+"card": null,
+"start": 164.95987499999998,
+"end": 166.33054166666665,
+"shot": 16,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 4,
+"who": "host",
+"text": "Chances are your company's name gets buried in a listing that no one will see.",
+"card": null,
+"start": 166.53054166666664,
+"end": 171.11029166666663,
+"shot": 16,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 5,
+"who": "host",
+"text": "The second version is office supplies.",
+"card": null,
+"start": 171.41029166666664,
+"end": 173.4428333333333,
+"shot": 17,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 5,
+"who": "host",
+"text": "Someone confirms your address, maybe pretending to be your usual supplier, maybe offering a discount.",
+"card": null,
+"start": 173.6428333333333,
+"end": 180.1217083333333,
+"shot": 17,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 5,
+"who": "host",
+"text": "Then boxes you never ordered arrive, with an invoice.",
+"card": null,
+"start": 180.32170833333328,
+"end": 183.2722916666666,
+"shot": 18,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 6,
+"who": "host",
+"text": "The centre's advice here is very specific.",
+"card": null,
+"start": 183.57229166666662,
+"end": 185.97487499999994,
+"shot": 18,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 6,
+"who": "host",
+"text": "Send a registered letter, with a return receipt, asking for proof that you ordered the goods.",
+"card": null,
+"start": 186.17487499999993,
+"end": 191.45283333333327,
+"shot": 18,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 6,
+"who": "host",
+"text": "If they can't show proof, tell them you're keeping the supplies as a gift.",
+"card": null,
+"start": 191.65283333333326,
+"end": 195.32433333333327,
+"shot": 19,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 6,
+"who": "host",
+"text": "The centre even publishes a sample letter.",
+"card": null,
+"start": 195.52433333333326,
+"end": 197.9857916666666,
+"shot": 19,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 7,
+"who": "host",
+"text": "Why does this work on small businesses in particular?",
+"card": null,
+"start": 198.2857916666666,
+"end": 201.10187499999992,
+"shot": 19,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 2,
+"line": 7,
+"who": "host",
+"text": "Because in a small business, the person who opens the mail is often the person who pays the bills.",
+"card": null,
+"start": 201.3018749999999,
+"end": 206.53970833333324,
+"shot": 20,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 7,
+"who": "host",
+"text": "There's no second set of eyes.",
+"card": null,
+"start": 206.73970833333323,
+"end": 208.57329166666656,
+"shot": 20,
+"credit": {
+"title": "Fax machine, Creed, undated - Faraday Museum of Technology - Napier, NZ - DSC05393",
+"creator": "Daderot",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Fax_machine,_Creed,_undated_-_Faraday_Museum_of_Technology_-_Napier,_NZ_-_DSC05393.jpg",
+"via": "Wikimedia Commons",
+"query": "fax machine"
+}
+},
+{
+"seg": 2,
+"line": 7,
+"who": "host",
+"text": "An invoice that looks like an invoice just gets paid.",
+"card": null,
+"start": 208.77329166666655,
+"end": 211.9347499999999,
+"shot": 21,
+"credit": {
+"title": "Stempelkarussel",
+"creator": "Carl Steinbeisser",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Stempelkarussel.JPG",
+"via": "Wikimedia Commons",
+"query": "rubber stamp"
+}
+},
+{
+"seg": 3,
+"line": 0,
+"who": "host",
+"text": "The second family of scams is the fake renewal.",
+"card": {
+"type": "point",
+"text": "Real deadline, wrong sender"
+},
+"start": 213.1847499999999,
+"end": 216.10166666666657,
+"shot": 22,
+"credit": {
+"title": "Lithuanian postage stamps with overprints of Central Lithuania (Litwa Srodkowa), 1920",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Lithuanian_postage_stamps_with_overprints_of_Central_Lithuania_(Litwa_Srodkowa),_1920.jpg",
+"via": "Wikimedia Commons",
+"query": "postage stamps"
+}
+},
+{
+"seg": 3,
+"line": 0,
+"who": "host",
+"text": "These are scary because they borrow the language of real deadlines.",
+"card": {
+"type": "point",
+"text": "Real deadline, wrong sender"
+},
+"start": 216.30166666666656,
+"end": 219.50358333333324,
+"shot": 22,
+"credit": {
+"title": "Lithuanian postage stamps with overprints of Central Lithuania (Litwa Srodkowa), 1920",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Lithuanian_postage_stamps_with_overprints_of_Central_Lithuania_(Litwa_Srodkowa),_1920.jpg",
+"via": "Wikimedia Commons",
+"query": "postage stamps"
+}
+},
+{
+"seg": 3,
+"line": 1,
+"who": "host",
+"text": "Take trademarks.",
+"card": {
+"type": "point",
+"text": "Real deadline, wrong sender"
+},
+"start": 219.80358333333325,
+"end": 220.7920416666666,
+"shot": 23,
+"credit": {
+"title": "Par Avion (envelope Brazil)",
+"creator": "Moacir Ximenes",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Par_Avion_(envelope_Brazil).jpg",
+"via": "Wikimedia Commons",
+"query": "envelope"
+}
+},
+{
+"seg": 3,
+"line": 1,
+"who": "host",
+"text": "The Competition Bureau has warned about official looking reminder notices for trademark and patent renewals, sent by private companies, not by the Canadian Intellectual Property Office.",
+"card": {
+"type": "point",
+"text": "Real deadline, wrong sender"
+},
+"start": 220.99204166666658,
+"end": 230.2453749999999,
+"shot": 23,
+"credit": {
+"title": "Par Avion (envelope Brazil)",
+"creator": "Moacir Ximenes",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Par_Avion_(envelope_Brazil).jpg",
+"via": "Wikimedia Commons",
+"query": "envelope"
+}
+},
+{
+"seg": 3,
+"line": 2,
+"who": "host",
+"text": "They often arrive many months before anything is due.",
+"card": {
+"type": "stat",
+"big": "15 years",
+"label": "between trademark renewals in Canada",
+"source": "Competition Bureau of Canada"
+},
+"start": 230.54537499999992,
+"end": 233.30679166666658,
+"shot": 24,
+"credit": {
+"title": "Hourglass 1",
+"creator": "Suohros",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_1.jpg",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+}
+},
+{
+"seg": 3,
+"line": 2,
+"who": "host",
+"text": "A registered trademark in Canada renews every fifteen years.",
+"card": {
+"type": "stat",
+"big": "15 years",
+"label": "between trademark renewals in Canada",
+"source": "Competition Bureau of Canada"
+},
+"start": 233.50679166666657,
+"end": 237.16520833333323,
+"shot": 24,
+"credit": {
+"title": "Hourglass 1",
+"creator": "Suohros",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_1.jpg",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+}
+},
+{
+"seg": 3,
+"line": 2,
+"who": "host",
+"text": "And the Bureau says the fees in these letters are usually much higher than the real office's fees.",
+"card": {
+"type": "stat",
+"big": "15 years",
+"label": "between trademark renewals in Canada",
+"source": "Competition Bureau of Canada"
+},
+"start": 237.36520833333321,
+"end": 242.7200833333332,
+"shot": 24,
+"credit": {
+"title": "Hourglass 1",
+"creator": "Suohros",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_1.jpg",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+}
+},
+{
+"seg": 3,
+"line": 3,
+"who": "host",
+"text": "A newer twist, flagged by a Canadian law firm this year: an email from someone posing as an intellectual property lawyer, saying another company is about to file for your business name, so you need to pay to file first, right now.",
+"card": null,
+"start": 243.02008333333322,
+"end": 256.4684999999999,
+"shot": 25,
+"credit": {
+"title": "Hourglass Sand Ceremony",
+"creator": "HourglassSandCeremony",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_Sand_Ceremony.gif",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+}
+},
+{
+"seg": 3,
+"line": 3,
+"who": "host",
+"text": "They even used a real lawyer's name.",
+"card": null,
+"start": 256.6684999999999,
+"end": 258.7416249999999,
+"shot": 26,
+"credit": {
+"title": "The Fountain pen",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:The_Fountain_pen.jpeg",
+"via": "Wikimedia Commons",
+"query": "fountain pen"
+}
+},
+{
+"seg": 3,
+"line": 3,
+"who": "host",
+"text": "The lawyer's office confirmed it wasn't them.",
+"card": null,
+"start": 258.9416249999999,
+"end": 261.40387499999986,
+"shot": 26,
+"credit": {
+"title": "The Fountain pen",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:The_Fountain_pen.jpeg",
+"via": "Wikimedia Commons",
+"query": "fountain pen"
+}
+},
+{
+"seg": 3,
+"line": 4,
+"who": "host",
+"text": "Web addresses get the same treatment.",
+"card": null,
+"start": 261.70387499999987,
+"end": 263.99466666666655,
+"shot": 26,
+"credit": {
+"title": "The Fountain pen",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:The_Fountain_pen.jpeg",
+"via": "Wikimedia Commons",
+"query": "fountain pen"
+}
+},
+{
+"seg": 3,
+"line": 4,
+"who": "host",
+"text": "A registrar in Canada describes letters titled domain expiration notice, from a company you've never dealt with, saying your website and email are about to stop working.",
+"card": null,
+"start": 264.19466666666654,
+"end": 273.2785416666665,
+"shot": 27,
+"credit": {
+"title": "Kaweco Perkeo",
+"creator": "Mantelmoewe",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Kaweco_Perkeo.jpg",
+"via": "Wikimedia Commons",
+"query": "fountain pen"
+}
+},
+{
+"seg": 3,
+"line": 4,
+"who": "host",
+"text": "The fine print quietly moves your domain to them.",
+"card": null,
+"start": 273.4785416666665,
+"end": 276.0617916666665,
+"shot": 28,
+"credit": {
+"title": "Sheaffer Giftie Set, 1922",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Sheaffer_Giftie_Set,_1922.png",
+"via": "Wikimedia Commons",
+"query": "fountain pen"
+}
+},
+{
+"seg": 3,
+"line": 5,
+"who": "host",
+"text": "The registrar's advice?",
+"card": null,
+"start": 276.36179166666653,
+"end": 277.7703333333332,
+"shot": 28,
+"credit": {
+"title": "Sheaffer Giftie Set, 1922",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Sheaffer_Giftie_Set,_1922.png",
+"via": "Wikimedia Commons",
+"query": "fountain pen"
+}
+},
+{
+"seg": 3,
+"line": 5,
+"who": "host",
+"text": "The safest thing to do is ignore it, and check with the company you actually registered your domain through.",
+"card": null,
+"start": 277.9703333333332,
+"end": 283.3707499999999,
+"shot": 28,
+"credit": {
+"title": "Sheaffer Giftie Set, 1922",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Sheaffer_Giftie_Set,_1922.png",
+"via": "Wikimedia Commons",
+"query": "fountain pen"
+}
+},
+{
+"seg": 3,
+"line": 6,
+"who": "host",
+"text": "Here's the part school doesn't teach.",
+"card": {
+"type": "stat",
+"big": "Every year",
+"label": "Nova Scotia business registrations renew in their anniversary month",
+"source": "Government of Nova Scotia"
+},
+"start": 283.6707499999999,
+"end": 285.3409583333332,
+"shot": 29,
+"credit": {
+"title": "Lithuanian postage stamps with overprints of Central Lithuania (Litwa Srodkowa), 1920",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Lithuanian_postage_stamps_with_overprints_of_Central_Lithuania_(Litwa_Srodkowa),_1920.jpg",
+"via": "Wikimedia Commons",
+"query": "postage stamps"
+}
+},
+{
+"seg": 3,
+"line": 6,
+"who": "host",
+"text": "Some renewals are real.",
+"card": {
+"type": "stat",
+"big": "Every year",
+"label": "Nova Scotia business registrations renew in their anniversary month",
+"source": "Government of Nova Scotia"
+},
+"start": 285.5409583333332,
+"end": 286.9642499999999,
+"shot": 29,
+"credit": {
+"title": "Lithuanian postage stamps with overprints of Central Lithuania (Litwa Srodkowa), 1920",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Lithuanian_postage_stamps_with_overprints_of_Central_Lithuania_(Litwa_Srodkowa),_1920.jpg",
+"via": "Wikimedia Commons",
+"query": "postage stamps"
+}
+},
+{
+"seg": 3,
+"line": 6,
+"who": "host",
+"text": "In Nova Scotia, businesses registered with the Registry of Joint Stock Companies renew every year, in the month they first registered.",
+"card": {
+"type": "stat",
+"big": "Every year",
+"label": "Nova Scotia business registrations renew in their anniversary month",
+"source": "Government of Nova Scotia"
+},
+"start": 287.16424999999987,
+"end": 293.8528333333332,
+"shot": 29,
+"credit": {
+"title": "Lithuanian postage stamps with overprints of Central Lithuania (Litwa Srodkowa), 1920",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Lithuanian_postage_stamps_with_overprints_of_Central_Lithuania_(Litwa_Srodkowa),_1920.jpg",
+"via": "Wikimedia Commons",
+"query": "postage stamps"
+}
+},
+{
+"seg": 3,
+"line": 7,
+"who": "host",
+"text": "The province says the registry sends a notice by mail or email about a month before the renewal date, and that renewing on time is your responsibility.",
+"card": {
+"type": "stat",
+"big": "Every year",
+"label": "Nova Scotia business registrations renew in their anniversary month",
+"source": "Government of Nova Scotia"
+},
+"start": 294.1528333333332,
+"end": 302.5189583333332,
+"shot": 30,
+"credit": {
+"title": "Par Avion (envelope Brazil)",
+"creator": "Moacir Ximenes",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Par_Avion_(envelope_Brazil).jpg",
+"via": "Wikimedia Commons",
+"query": "envelope"
+}
+},
+{
+"seg": 3,
+"line": 7,
+"who": "host",
+"text": "You renew through the registry itself, and payment goes to the Minister of Finance.",
+"card": null,
+"start": 302.7189583333332,
+"end": 307.14116666666655,
+"shot": 31,
+"credit": {
+"title": "Hourglass 1",
+"creator": "Suohros",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_1.jpg",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+}
+},
+{
+"seg": 3,
+"line": 8,
+"who": "host",
+"text": "So the rule isn't ignore every renewal.",
+"card": {
+"type": "list",
+"title": "Before you pay any renewal",
+"items": [
+"Who sent it, exactly?",
+"Is it due now, or years away?",
+"Renew only on the official site",
+"Never through the letter's link or form"
+]
+},
+"start": 307.44116666666656,
+"end": 310.00416666666655,
+"shot": 31,
+"credit": {
+"title": "Hourglass 1",
+"creator": "Suohros",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_1.jpg",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+}
+},
+{
+"seg": 3,
+"line": 8,
+"who": "host",
+"text": "The rule is, never renew through the letter.",
+"card": {
+"type": "list",
+"title": "Before you pay any renewal",
+"items": [
+"Who sent it, exactly?",
+"Is it due now, or years away?",
+"Renew only on the official site",
+"Never through the letter's link or form"
+]
+},
+"start": 310.20416666666654,
+"end": 312.6477083333332,
+"shot": 32,
+"credit": {
+"title": "Hourglass Sand Ceremony",
+"creator": "HourglassSandCeremony",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_Sand_Ceremony.gif",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+}
+},
+{
+"seg": 3,
+"line": 8,
+"who": "host",
+"text": "Go to the official site yourself, the one you bookmarked, and renew there.",
+"card": {
+"type": "list",
+"title": "Before you pay any renewal",
+"items": [
+"Who sent it, exactly?",
+"Is it due now, or years away?",
+"Renew only on the official site",
+"Never through the letter's link or form"
+]
+},
+"start": 312.8477083333332,
+"end": 316.7027083333332,
+"shot": 32,
+"credit": {
+"title": "Hourglass Sand Ceremony",
+"creator": "HourglassSandCeremony",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Hourglass_Sand_Ceremony.gif",
+"via": "Wikimedia Commons",
+"query": "hourglass"
+}
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "Then there's the phone call.",
+"card": null,
+"start": 317.9527083333332,
+"end": 319.08349999999984,
+"shot": 33,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "Someone says they're from the C R A.",
+"card": null,
+"start": 319.28349999999983,
+"end": 321.4424166666665,
+"shot": 33,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "There's a problem with your business account.",
+"card": null,
+"start": 321.64241666666646,
+"end": 323.66466666666645,
+"shot": 33,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "It's urgent.",
+"card": null,
+"start": 323.86466666666644,
+"end": 324.69679166666646,
+"shot": 33,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 1,
+"who": "host",
+"text": "The C R A does call people.",
+"card": null,
+"start": 324.99679166666647,
+"end": 326.9452499999998,
+"shot": 34,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 1,
+"who": "host",
+"text": "It might need missing information, want to talk about an amount owed, or tell you about a review.",
+"card": null,
+"start": 327.1452499999998,
+"end": 332.8318333333331,
+"shot": 34,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 1,
+"who": "host",
+"text": "So the call itself isn't proof of anything either way.",
+"card": null,
+"start": 333.0318333333331,
+"end": 335.8350833333331,
+"shot": 35,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 2,
+"who": "host",
+"text": "What the C R A's own guidance says to do is the useful part.",
+"card": null,
+"start": 336.1350833333331,
+"end": 339.93712499999975,
+"shot": 35,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 2,
+"who": "host",
+"text": "Don't share your information.",
+"card": null,
+"start": 340.13712499999974,
+"end": 341.56124999999975,
+"shot": 36,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 2,
+"who": "host",
+"text": "Don't trust the number on your caller I D, because it can be faked.",
+"card": null,
+"start": 341.76124999999973,
+"end": 345.63624999999973,
+"shot": 36,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 3,
+"who": "host",
+"text": "Ask for the caller's name, their office and a callback number.",
+"card": {
+"type": "list",
+"title": "When 'the CRA' calls",
+"items": [
+"Get name, office, callback number",
+"Hang up",
+"Verify with CRA's own phone number tool",
+"Business line: 1-800-959-5525"
+]
+},
+"start": 345.93624999999975,
+"end": 349.4759999999998,
+"shot": 36,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 3,
+"who": "host",
+"text": "Say you'll verify it.",
+"card": {
+"type": "list",
+"title": "When 'the CRA' calls",
+"items": [
+"Get name, office, callback number",
+"Hang up",
+"Verify with CRA's own phone number tool",
+"Business line: 1-800-959-5525"
+]
+},
+"start": 349.67599999999976,
+"end": 350.8149583333331,
+"shot": 37,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 3,
+"who": "host",
+"text": "Then hang up.",
+"card": {
+"type": "list",
+"title": "When 'the CRA' calls",
+"items": [
+"Get name, office, callback number",
+"Hang up",
+"Verify with CRA's own phone number tool",
+"Business line: 1-800-959-5525"
+]
+},
+"start": 351.0149583333331,
+"end": 351.76024999999976,
+"shot": 37,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 4,
+"who": "host",
+"text": "And never call back the number they gave you unless you've checked it yourself with the C R A.",
+"card": {
+"type": "list",
+"title": "When 'the CRA' calls",
+"items": [
+"Get name, office, callback number",
+"Hang up",
+"Verify with CRA's own phone number tool",
+"Business line: 1-800-959-5525"
+]
+},
+"start": 352.06024999999977,
+"end": 356.2464583333331,
+"shot": 37,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 4,
+"who": "host",
+"text": "The agency has a tool on its website to verify a phone number, and the business enquiries line is listed there too.",
+"card": {
+"type": "list",
+"title": "When 'the CRA' calls",
+"items": [
+"Get name, office, callback number",
+"Hang up",
+"Verify with CRA's own phone number tool",
+"Business line: 1-800-959-5525"
+]
+},
+"start": 356.4464583333331,
+"end": 362.7079999999998,
+"shot": 37,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 5,
+"who": "host",
+"text": "A real agent won't mind you hanging up to check.",
+"card": null,
+"start": 363.0079999999998,
+"end": 365.58083333333315,
+"shot": 38,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 5,
+"who": "host",
+"text": "A scammer will push hard to keep you on the line.",
+"card": null,
+"start": 365.78083333333313,
+"end": 368.19583333333316,
+"shot": 38,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 5,
+"who": "host",
+"text": "That pressure is the tell.",
+"card": null,
+"start": 368.39583333333314,
+"end": 369.7632499999998,
+"shot": 38,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 6,
+"who": "host",
+"text": "So that's the mail and the phone.",
+"card": null,
+"start": 370.0632499999998,
+"end": 371.63558333333316,
+"shot": 39,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 6,
+"who": "host",
+"text": "But I said the most expensive one doesn't come in the mail.",
+"card": null,
+"start": 371.83558333333315,
+"end": 374.5184999999998,
+"shot": 39,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 6,
+"who": "host",
+"text": "It comes in your inbox.",
+"card": null,
+"start": 374.7184999999998,
+"end": 376.0615833333331,
+"shot": 39,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 4,
+"line": 6,
+"who": "host",
+"text": "And it usually comes from someone you already trust.",
+"card": null,
+"start": 376.2615833333331,
+"end": 378.67237499999976,
+"shot": 39,
+"credit": {
+"title": "Desk chair (fauteuil de bureau) MET 5021",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Desk_chair_(fauteuil_de_bureau)_MET_5021.jpg",
+"via": "Wikimedia Commons",
+"query": "office chair"
+}
+},
+{
+"seg": 5,
+"line": 0,
+"who": "host",
+"text": "Quick pause.",
+"card": {
+"type": "point",
+"text": "A quick word from Waypoint (that's us)"
+},
+"start": 379.92237499999976,
+"end": 380.8749999999998,
+"shot": 40,
+"credit": {
+"title": "Howth Harbour Lighthouse (24031171840)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Howth_Harbour_Lighthouse_(24031171840).jpg",
+"via": "Wikimedia Commons",
+"query": "harbour lighthouse"
+}
+},
+{
+"seg": 5,
+"line": 0,
+"who": "host",
+"text": "This video is made by Waypoint Software.",
+"card": {
+"type": "point",
+"text": "A quick word from Waypoint (that's us)"
+},
+"start": 381.07499999999976,
+"end": 383.50749999999977,
+"shot": 40,
+"credit": {
+"title": "Howth Harbour Lighthouse (24031171840)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Howth_Harbour_Lighthouse_(24031171840).jpg",
+"via": "Wikimedia Commons",
+"query": "harbour lighthouse"
+}
+},
+{
+"seg": 5,
+"line": 0,
+"who": "host",
+"text": "We're in Atlantic Canada, and we build websites for small service businesses, plus the booking, quoting and invoicing tools that sit behind them.",
+"card": {
+"type": "point",
+"text": "A quick word from Waypoint (that's us)"
+},
+"start": 383.70749999999975,
+"end": 391.84995833333306,
+"shot": 40,
+"credit": {
+"title": "Howth Harbour Lighthouse (24031171840)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Howth_Harbour_Lighthouse_(24031171840).jpg",
+"via": "Wikimedia Commons",
+"query": "harbour lighthouse"
+}
+},
+{
+"seg": 5,
+"line": 1,
+"who": "host",
+"text": "The idea is simple.",
+"card": null,
+"start": 392.1499583333331,
+"end": 393.74299999999977,
+"shot": 41,
+"credit": {
+"title": "New harbour, Saint-Jean-Cap-Ferrat, France",
+"creator": "Pierre Lannoy",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/2963208767/",
+"via": "Openverse / wordpress",
+"query": "harbour lighthouse"
+}
+},
+{
+"seg": 5,
+"line": 1,
+"who": "host",
+"text": "Software built around how you already work, so quotes and invoices live in one place you control, not scattered across email threads.",
+"card": null,
+"start": 393.94299999999976,
+"end": 402.34949999999975,
+"shot": 41,
+"credit": {
+"title": "New harbour, Saint-Jean-Cap-Ferrat, France",
+"creator": "Pierre Lannoy",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/2963208767/",
+"via": "Openverse / wordpress",
+"query": "harbour lighthouse"
+}
+},
+{
+"seg": 5,
+"line": 1,
+"who": "host",
+"text": "If that sounds useful, have a look at waypointns dot ca.",
+"card": null,
+"start": 402.54949999999974,
+"end": 406.85312499999975,
+"shot": 42,
+"credit": {
+"title": "Laptop on desk book stacks (Unsplash)",
+"creator": "freddie marriage fredmarriage",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Laptop_on_desk_book_stacks_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "laptop desk"
+}
+},
+{
+"seg": 5,
+"line": 1,
+"who": "host",
+"text": "Okay.",
+"card": null,
+"start": 407.05312499999974,
+"end": 407.6617083333331,
+"shot": 42,
+"credit": {
+"title": "Laptop on desk book stacks (Unsplash)",
+"creator": "freddie marriage fredmarriage",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Laptop_on_desk_book_stacks_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "laptop desk"
+}
+},
+{
+"seg": 5,
+"line": 1,
+"who": "host",
+"text": "Back to the inbox.",
+"card": null,
+"start": 407.86170833333307,
+"end": 409.05420833333307,
+"shot": 42,
+"credit": {
+"title": "Laptop on desk book stacks (Unsplash)",
+"creator": "freddie marriage fredmarriage",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Laptop_on_desk_book_stacks_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "laptop desk"
+}
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "The Anti Fraud Centre calls it spear phishing.",
+"card": {
+"type": "point",
+"text": "Spear phishing: a fake email from someone you trust"
+},
+"start": 410.30420833333307,
+"end": 412.91524999999973,
+"shot": 43,
+"credit": {
+"title": "Keyboard and pen",
+"creator": "Ala z (talk\u00a0\u00b7 contribs)",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Keyboard_and_pen.JPG",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+}
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "A fraudster pretends to be someone you already deal with, and fakes their email address so it looks right.",
+"card": {
+"type": "point",
+"text": "Spear phishing: a fake email from someone you trust"
+},
+"start": 413.1152499999997,
+"end": 418.30787499999974,
+"shot": 43,
+"credit": {
+"title": "Keyboard and pen",
+"creator": "Ala z (talk\u00a0\u00b7 contribs)",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Keyboard_and_pen.JPG",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+}
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "That trick is called spoofing.",
+"card": {
+"type": "point",
+"text": "Spear phishing: a fake email from someone you trust"
+},
+"start": 418.50787499999973,
+"end": 419.9999166666664,
+"shot": 44,
+"credit": {
+"title": "US keyboard on MacBook Pro 15-inch 2018",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:US_keyboard_on_MacBook_Pro_15-inch_2018.jpg",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+}
+},
+{
+"seg": 6,
+"line": 1,
+"who": "host",
+"text": "By dollar loss, it was the second biggest fraud type in Canada last year.",
+"card": {
+"type": "stat",
+"big": "$67.9M",
+"label": "lost to spear phishing in Canada in 2025, from 813 reports",
+"source": "Canadian Anti-Fraud Centre, Top 10 frauds 2025"
+},
+"start": 420.29991666666643,
+"end": 424.6534999999998,
+"shot": 44,
+"credit": {
+"title": "US keyboard on MacBook Pro 15-inch 2018",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:US_keyboard_on_MacBook_Pro_15-inch_2018.jpg",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+}
+},
+{
+"seg": 6,
+"line": 1,
+"who": "host",
+"text": "Eight hundred and thirteen reports.",
+"card": {
+"type": "stat",
+"big": "$67.9M",
+"label": "lost to spear phishing in Canada in 2025, from 813 reports",
+"source": "Canadian Anti-Fraud Centre, Top 10 frauds 2025"
+},
+"start": 424.85349999999977,
+"end": 426.61854166666643,
+"shot": 44,
+"credit": {
+"title": "US keyboard on MacBook Pro 15-inch 2018",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:US_keyboard_on_MacBook_Pro_15-inch_2018.jpg",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+}
+},
+{
+"seg": 6,
+"line": 1,
+"who": "host",
+"text": "Five hundred and seventy one victims.",
+"card": {
+"type": "stat",
+"big": "$67.9M",
+"label": "lost to spear phishing in Canada in 2025, from 813 reports",
+"source": "Canadian Anti-Fraud Centre, Top 10 frauds 2025"
+},
+"start": 426.8185416666664,
+"end": 429.2619166666664,
+"shot": 45,
+"credit": {
+"title": "Keyboard of a laptop",
+"creator": "Sa'Adat-E-Zubaire",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Keyboard_of_a_laptop.jpg",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+}
+},
+{
+"seg": 6,
+"line": 1,
+"who": "host",
+"text": "Almost sixty eight million dollars.",
+"card": {
+"type": "stat",
+"big": "$67.9M",
+"label": "lost to spear phishing in Canada in 2025, from 813 reports",
+"source": "Canadian Anti-Fraud Centre, Top 10 frauds 2025"
+},
+"start": 429.4619166666664,
+"end": 431.38845833333306,
+"shot": 45,
+"credit": {
+"title": "Keyboard of a laptop",
+"creator": "Sa'Adat-E-Zubaire",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Keyboard_of_a_laptop.jpg",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+}
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "Compare that to how many people it hit.",
+"card": {
+"type": "stat",
+"big": "$67.9M",
+"label": "lost to spear phishing in Canada in 2025, from 813 reports",
+"source": "Canadian Anti-Fraud Centre, Top 10 frauds 2025"
+},
+"start": 431.6884583333331,
+"end": 433.5973749999997,
+"shot": 45,
+"credit": {
+"title": "Keyboard of a laptop",
+"creator": "Sa'Adat-E-Zubaire",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Keyboard_of_a_laptop.jpg",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+}
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "Fewer reports than a lot of other scams, but each one is huge.",
+"card": null,
+"start": 433.7973749999997,
+"end": 437.41554166666634,
+"shot": 45,
+"credit": {
+"title": "Keyboard of a laptop",
+"creator": "Sa'Adat-E-Zubaire",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Keyboard_of_a_laptop.jpg",
+"via": "Wikimedia Commons",
+"query": "laptop keyboard"
+}
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "Because the target isn't your personal wallet.",
+"card": null,
+"start": 437.61554166666633,
+"end": 440.03124999999966,
+"shot": 46,
+"credit": {
+"title": "Code on computer monitor (Unsplash)",
+"creator": "Markus Spiske markusspiske",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Code_on_computer_monitor_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+}
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "It's your business account.",
+"card": null,
+"start": 440.23124999999965,
+"end": 441.429333333333,
+"shot": 46,
+"credit": {
+"title": "Code on computer monitor (Unsplash)",
+"creator": "Markus Spiske markusspiske",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Code_on_computer_monitor_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+}
+},
+{
+"seg": 6,
+"line": 3,
+"who": "host",
+"text": "Here's how it shows up.",
+"card": null,
+"start": 441.729333333333,
+"end": 442.79533333333296,
+"shot": 46,
+"credit": {
+"title": "Code on computer monitor (Unsplash)",
+"creator": "Markus Spiske markusspiske",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Code_on_computer_monitor_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+}
+},
+{
+"seg": 6,
+"line": 3,
+"who": "host",
+"text": "An email from a supplier you pay every month.",
+"card": null,
+"start": 442.99533333333295,
+"end": 445.3520833333329,
+"shot": 46,
+"credit": {
+"title": "Code on computer monitor (Unsplash)",
+"creator": "Markus Spiske markusspiske",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Code_on_computer_monitor_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+}
+},
+{
+"seg": 6,
+"line": 3,
+"who": "host",
+"text": "They've changed banks.",
+"card": null,
+"start": 445.5520833333329,
+"end": 446.74383333333293,
+"shot": 47,
+"credit": {
+"title": "Monitor of mac",
+"creator": "Luke Chesser",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Monitor_of_mac.jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+}
+},
+{
+"seg": 6,
+"line": 3,
+"who": "host",
+"text": "Please send future payments to this new account.",
+"card": null,
+"start": 446.9438333333329,
+"end": 449.3249583333329,
+"shot": 47,
+"credit": {
+"title": "Monitor of mac",
+"creator": "Luke Chesser",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Monitor_of_mac.jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+}
+},
+{
+"seg": 6,
+"line": 3,
+"who": "host",
+"text": "Same logo, same tone, same signature.",
+"card": null,
+"start": 449.5249583333329,
+"end": 452.85749999999956,
+"shot": 47,
+"credit": {
+"title": "Monitor of mac",
+"creator": "Luke Chesser",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Monitor_of_mac.jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+}
+},
+{
+"seg": 6,
+"line": 4,
+"who": "host",
+"text": "Or an email that looks like it's from the owner, saying they're offsite and need gift cards bought for staff rewards.",
+"card": null,
+"start": 453.1574999999996,
+"end": 459.6660833333329,
+"shot": 48,
+"credit": {
+"title": "CSS code on a screen (Unsplash)",
+"creator": "Sai Kiran Anagani _imkiran",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:CSS_code_on_a_screen_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+}
+},
+{
+"seg": 6,
+"line": 4,
+"who": "host",
+"text": "Or one that looks like an employee, asking to change their direct deposit.",
+"card": null,
+"start": 459.8660833333329,
+"end": 463.7872499999996,
+"shot": 48,
+"credit": {
+"title": "CSS code on a screen (Unsplash)",
+"creator": "Sai Kiran Anagani _imkiran",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:CSS_code_on_a_screen_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "computer monitor"
+}
+},
+{
+"seg": 6,
+"line": 5,
+"who": "host",
+"text": "Franchises get their own version.",
+"card": null,
+"start": 464.0872499999996,
+"end": 466.19899999999956,
+"shot": 49,
+"credit": {
+"title": "Padlock Valimokatu Oulu 20250307 02",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_Valimokatu_Oulu_20250307_02.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 6,
+"line": 5,
+"who": "host",
+"text": "A caller says they're from head office, claims there's a problem with the gift cards or money transfers, and asks staff to activate prepaid cards and hand them over.",
+"card": null,
+"start": 466.39899999999955,
+"end": 475.3342916666662,
+"shot": 49,
+"credit": {
+"title": "Padlock Valimokatu Oulu 20250307 02",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_Valimokatu_Oulu_20250307_02.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 6,
+"line": 6,
+"who": "host",
+"text": "And if you rent your shop, watch for a landlord spoof, an email that looks like your landlord asking you to pay rent a different way than usual.",
+"card": null,
+"start": 475.63429166666623,
+"end": 483.2362083333329,
+"shot": 50,
+"credit": {
+"title": "Padlock and key - 17c - Ryazan Kremlin Museum",
+"creator": "\u041b\u0430\u043f\u043e\u0442\u044c",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_and_key_-_17c_-_Ryazan_Kremlin_Museum.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 6,
+"line": 6,
+"who": "host",
+"text": "The centre says it saw these reports rise in twenty twenty three.",
+"card": null,
+"start": 483.4362083333329,
+"end": 487.2233749999996,
+"shot": 51,
+"credit": {
+"title": "Love padlocks Paris pont archev\u00each\u00e9",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 6,
+"line": 6,
+"who": "host",
+"text": "The advice is the same.",
+"card": null,
+"start": 487.42337499999957,
+"end": 488.7625416666662,
+"shot": 51,
+"credit": {
+"title": "Love padlocks Paris pont archev\u00each\u00e9",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 6,
+"line": 6,
+"who": "host",
+"text": "Contact your landlord using the details you already have.",
+"card": null,
+"start": 488.9625416666662,
+"end": 492.1808333333329,
+"shot": 51,
+"credit": {
+"title": "Love padlocks Paris pont archev\u00each\u00e9",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 6,
+"line": 7,
+"who": "host",
+"text": "The centre's examples include urgent wire transfers of more than one hundred thousand dollars to foreign accounts.",
+"card": {
+"type": "list",
+"title": "Spoofed emails to watch for",
+"items": [
+"Supplier: 'we changed banks'",
+"Boss: 'buy gift cards for staff'",
+"Employee: 'change my direct deposit'",
+"Anyone: 'urgent wire today'"
+]
+},
+"start": 492.4808333333329,
+"end": 497.81924999999956,
+"shot": 52,
+"credit": {
+"title": "Keys-unlock (24242899961)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Keys-unlock_(24242899961).jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+}
+},
+{
+"seg": 6,
+"line": 7,
+"who": "host",
+"text": "For a small business, one of those is not a bad month.",
+"card": {
+"type": "list",
+"title": "Spoofed emails to watch for",
+"items": [
+"Supplier: 'we changed banks'",
+"Boss: 'buy gift cards for staff'",
+"Employee: 'change my direct deposit'",
+"Anyone: 'urgent wire today'"
+]
+},
+"start": 498.01924999999954,
+"end": 501.1858333333329,
+"shot": 52,
+"credit": {
+"title": "Keys-unlock (24242899961)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Keys-unlock_(24242899961).jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+}
+},
+{
+"seg": 6,
+"line": 7,
+"who": "host",
+"text": "It's the end.",
+"card": {
+"type": "list",
+"title": "Spoofed emails to watch for",
+"items": [
+"Supplier: 'we changed banks'",
+"Boss: 'buy gift cards for staff'",
+"Employee: 'change my direct deposit'",
+"Anyone: 'urgent wire today'"
+]
+},
+"start": 501.38583333333287,
+"end": 502.2229583333329,
+"shot": 53,
+"credit": {
+"title": "Photo of a key",
+"creator": "Mikael H\u00e4ggstr\u00f6m",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Photo_of_a_key.jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+}
+},
+{
+"seg": 6,
+"line": 8,
+"who": "host",
+"text": "The fix costs nothing.",
+"card": {
+"type": "list",
+"title": "Spoofed emails to watch for",
+"items": [
+"Supplier: 'we changed banks'",
+"Boss: 'buy gift cards for staff'",
+"Employee: 'change my direct deposit'",
+"Anyone: 'urgent wire today'"
+]
+},
+"start": 502.5229583333329,
+"end": 504.13541666666623,
+"shot": 53,
+"credit": {
+"title": "Photo of a key",
+"creator": "Mikael H\u00e4ggstr\u00f6m",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Photo_of_a_key.jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+}
+},
+{
+"seg": 6,
+"line": 8,
+"who": "host",
+"text": "The centre says to watch for unusual requests from people you work with, and to check with them using contact details you already have.",
+"card": {
+"type": "list",
+"title": "Spoofed emails to watch for",
+"items": [
+"Supplier: 'we changed banks'",
+"Boss: 'buy gift cards for staff'",
+"Employee: 'change my direct deposit'",
+"Anyone: 'urgent wire today'"
+]
+},
+"start": 504.3354166666662,
+"end": 511.8460833333329,
+"shot": 53,
+"credit": {
+"title": "Photo of a key",
+"creator": "Mikael H\u00e4ggstr\u00f6m",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Photo_of_a_key.jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+}
+},
+{
+"seg": 6,
+"line": 8,
+"who": "host",
+"text": "Not the phone number in the email.",
+"card": null,
+"start": 512.046083333333,
+"end": 513.5425416666662,
+"shot": 54,
+"credit": {
+"title": "Light bulb and keys on table",
+"creator": "Aphiwat chuangchoem",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Light_bulb_and_keys_on_table.jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+}
+},
+{
+"seg": 6,
+"line": 8,
+"who": "host",
+"text": "The one in your own records.",
+"card": null,
+"start": 513.7425416666663,
+"end": 515.143958333333,
+"shot": 54,
+"credit": {
+"title": "Light bulb and keys on table",
+"creator": "Aphiwat chuangchoem",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Light_bulb_and_keys_on_table.jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+}
+},
+{
+"seg": 6,
+"line": 9,
+"who": "host",
+"text": "A rule a lot of small businesses use: any change to banking details gets a phone call to a number you already had, before a single dollar moves.",
+"card": null,
+"start": 515.443958333333,
+"end": 523.6677083333329,
+"shot": 54,
+"credit": {
+"title": "Light bulb and keys on table",
+"creator": "Aphiwat chuangchoem",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Light_bulb_and_keys_on_table.jpg",
+"via": "Wikimedia Commons",
+"query": "keys"
+}
+},
+{
+"seg": 7,
+"line": 0,
+"who": "host",
+"text": "The last one preys on hope.",
+"card": {
+"type": "point",
+"text": "Free money... that costs money first"
+},
+"start": 524.9177083333329,
+"end": 526.662208333333,
+"shot": 55,
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+}
+},
+{
+"seg": 7,
+"line": 0,
+"who": "host",
+"text": "Every new owner wants to know about grants.",
+"card": {
+"type": "point",
+"text": "Free money... that costs money first"
+},
+"start": 526.862208333333,
+"end": 529.121083333333,
+"shot": 55,
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+}
+},
+{
+"seg": 7,
+"line": 0,
+"who": "host",
+"text": "And there are real government programs out there.",
+"card": {
+"type": "point",
+"text": "Free money... that costs money first"
+},
+"start": 529.321083333333,
+"end": 531.637958333333,
+"shot": 55,
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+}
+},
+{
+"seg": 7,
+"line": 0,
+"who": "host",
+"text": "That's exactly why this works.",
+"card": {
+"type": "point",
+"text": "Free money... that costs money first"
+},
+"start": 531.8379583333331,
+"end": 533.6755833333331,
+"shot": 56,
+"credit": {
+"title": "Java, Majapahit Dynasty - Piggy Bank - 1980.16 - Cleveland Museum of Art",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Java,_Majapahit_Dynasty_-_Piggy_Bank_-_1980.16_-_Cleveland_Museum_of_Art.tif",
+"via": "Wikimedia Commons",
+"query": "piggy bank"
+}
+},
+{
+"seg": 7,
+"line": 1,
+"who": "host",
+"text": "The Anti Fraud Centre describes websites that look official, sometimes using Government of Canada logos, claiming special access to grants or loans, and asking for an upfront fee.",
+"card": {
+"type": "point",
+"text": "Free money... that costs money first"
+},
+"start": 533.975583333333,
+"end": 544.5664166666663,
+"shot": 56,
+"credit": {
+"title": "Java, Majapahit Dynasty - Piggy Bank - 1980.16 - Cleveland Museum of Art",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Java,_Majapahit_Dynasty_-_Piggy_Bank_-_1980.16_-_Cleveland_Museum_of_Art.tif",
+"via": "Wikimedia Commons",
+"query": "piggy bank"
+}
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "Some ask you to open a new business bank account, which the centre warns may be used to launder money.",
+"card": null,
+"start": 544.8664166666663,
+"end": 549.9279999999997,
+"shot": 57,
+"credit": {
+"title": "Building from rear, Robert A. Young Federal Building, St. Louis, Missouri LCCN2010719792",
+"creator": "Carol M. Highsmith",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Building_from_rear,_Robert_A._Young_Federal_Building,_St._Louis,_Missouri_LCCN2010719792.tiff",
+"via": "Wikimedia Commons",
+"query": "government building"
+}
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "And its conclusion is blunt.",
+"card": null,
+"start": 550.1279999999997,
+"end": 551.6164583333331,
+"shot": 57,
+"credit": {
+"title": "Building from rear, Robert A. Young Federal Building, St. Louis, Missouri LCCN2010719792",
+"creator": "Carol M. Highsmith",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Building_from_rear,_Robert_A._Young_Federal_Building,_St._Louis,_Missouri_LCCN2010719792.tiff",
+"via": "Wikimedia Commons",
+"query": "government building"
+}
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "You never receive any money.",
+"card": null,
+"start": 551.8164583333331,
+"end": 553.1907083333331,
+"shot": 57,
+"credit": {
+"title": "Building from rear, Robert A. Young Federal Building, St. Louis, Missouri LCCN2010719792",
+"creator": "Carol M. Highsmith",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Building_from_rear,_Robert_A._Young_Federal_Building,_St._Louis,_Missouri_LCCN2010719792.tiff",
+"via": "Wikimedia Commons",
+"query": "government building"
+}
+},
+{
+"seg": 7,
+"line": 3,
+"who": "host",
+"text": "A newer version comes through a friend.",
+"card": null,
+"start": 553.490708333333,
+"end": 555.403708333333,
+"shot": 58,
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+}
+},
+{
+"seg": 7,
+"line": 3,
+"who": "host",
+"text": "Their account gets hacked, and the hacker messages you about this amazing grant they just got.",
+"card": null,
+"start": 555.6037083333331,
+"end": 560.8510416666664,
+"shot": 58,
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+}
+},
+{
+"seg": 7,
+"line": 3,
+"who": "host",
+"text": "You trust the friend, so you trust the grant.",
+"card": null,
+"start": 561.0510416666665,
+"end": 563.5019166666665,
+"shot": 59,
+"credit": {
+"title": "Java, Majapahit Dynasty - Piggy Bank - 1980.16 - Cleveland Museum of Art",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Java,_Majapahit_Dynasty_-_Piggy_Bank_-_1980.16_-_Cleveland_Museum_of_Art.tif",
+"via": "Wikimedia Commons",
+"query": "piggy bank"
+}
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "Here's the line to remember.",
+"card": {
+"type": "compare",
+"left_title": "Real government funding",
+"left": "Free to learn about and apply for",
+"right_title": "Grant scam",
+"right": "Fee first, 'guaranteed' approval"
+},
+"start": 563.8019166666664,
+"end": 565.2025416666664,
+"shot": 59,
+"credit": {
+"title": "Java, Majapahit Dynasty - Piggy Bank - 1980.16 - Cleveland Museum of Art",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Java,_Majapahit_Dynasty_-_Piggy_Bank_-_1980.16_-_Cleveland_Museum_of_Art.tif",
+"via": "Wikimedia Commons",
+"query": "piggy bank"
+}
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "The Competition Bureau says governments generally don't charge for information on their programs, and private companies play no role in approving government grants or loans.",
+"card": {
+"type": "compare",
+"left_title": "Real government funding",
+"left": "Free to learn about and apply for",
+"right_title": "Grant scam",
+"right": "Fee first, 'guaranteed' approval"
+},
+"start": 565.4025416666665,
+"end": 574.2285833333332,
+"shot": 59,
+"credit": {
+"title": "Java, Majapahit Dynasty - Piggy Bank - 1980.16 - Cleveland Museum of Art",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Java,_Majapahit_Dynasty_-_Piggy_Bank_-_1980.16_-_Cleveland_Museum_of_Art.tif",
+"via": "Wikimedia Commons",
+"query": "piggy bank"
+}
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "No one can guarantee you one.",
+"card": {
+"type": "compare",
+"left_title": "Real government funding",
+"left": "Free to learn about and apply for",
+"right_title": "Grant scam",
+"right": "Fee first, 'guaranteed' approval"
+},
+"start": 574.4285833333332,
+"end": 576.3076249999999,
+"shot": 60,
+"credit": {
+"title": "Building from rear, Robert A. Young Federal Building, St. Louis, Missouri LCCN2010719792",
+"creator": "Carol M. Highsmith",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Building_from_rear,_Robert_A._Young_Federal_Building,_St._Louis,_Missouri_LCCN2010719792.tiff",
+"via": "Wikimedia Commons",
+"query": "government building"
+}
+},
+{
+"seg": 7,
+"line": 5,
+"who": "host",
+"text": "The Bureau lists other signs too.",
+"card": null,
+"start": 576.6076249999999,
+"end": 578.6845416666665,
+"shot": 60,
+"credit": {
+"title": "Building from rear, Robert A. Young Federal Building, St. Louis, Missouri LCCN2010719792",
+"creator": "Carol M. Highsmith",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Building_from_rear,_Robert_A._Young_Federal_Building,_St._Louis,_Missouri_LCCN2010719792.tiff",
+"via": "Wikimedia Commons",
+"query": "government building"
+}
+},
+{
+"seg": 7,
+"line": 5,
+"who": "host",
+"text": "A name that sounds like a government department.",
+"card": null,
+"start": 578.8845416666666,
+"end": 580.9989166666666,
+"shot": 60,
+"credit": {
+"title": "Building from rear, Robert A. Young Federal Building, St. Louis, Missouri LCCN2010719792",
+"creator": "Carol M. Highsmith",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Building_from_rear,_Robert_A._Young_Federal_Building,_St._Louis,_Missouri_LCCN2010719792.tiff",
+"via": "Wikimedia Commons",
+"query": "government building"
+}
+},
+{
+"seg": 7,
+"line": 5,
+"who": "host",
+"text": "Claims of guaranteed funding.",
+"card": null,
+"start": 581.1989166666666,
+"end": 582.7885833333332,
+"shot": 60,
+"credit": {
+"title": "Building from rear, Robert A. Young Federal Building, St. Louis, Missouri LCCN2010719792",
+"creator": "Carol M. Highsmith",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Building_from_rear,_Robert_A._Young_Federal_Building,_St._Louis,_Missouri_LCCN2010719792.tiff",
+"via": "Wikimedia Commons",
+"query": "government building"
+}
+},
+{
+"seg": 7,
+"line": 5,
+"who": "host",
+"text": "And success stories from people who never actually used the service.",
+"card": null,
+"start": 582.9885833333333,
+"end": 586.3905416666666,
+"shot": 61,
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+}
+},
+{
+"seg": 7,
+"line": 5,
+"who": "host",
+"text": "If it seems too good to be true, it probably is.",
+"card": null,
+"start": 586.5905416666667,
+"end": 589.4127500000001,
+"shot": 61,
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+}
+},
+{
+"seg": 7,
+"line": 6,
+"who": "host",
+"text": "Loans have their own red flag.",
+"card": null,
+"start": 589.71275,
+"end": 591.9085,
+"shot": 61,
+"credit": {
+"title": "Chinese cash coins a",
+"creator": "5snake5",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chinese_cash_coins_a.jpg",
+"via": "Wikimedia Commons",
+"query": "coins"
+}
+},
+{
+"seg": 7,
+"line": 6,
+"who": "host",
+"text": "The centre says that in most provinces, it's illegal for a company to ask for an upfront fee before you get your loan.",
+"card": null,
+"start": 592.1085,
+"end": 598.2555416666667,
+"shot": 62,
+"credit": {
+"title": "Java, Majapahit Dynasty - Piggy Bank - 1980.16 - Cleveland Museum of Art",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Java,_Majapahit_Dynasty_-_Piggy_Bank_-_1980.16_-_Cleveland_Museum_of_Art.tif",
+"via": "Wikimedia Commons",
+"query": "piggy bank"
+}
+},
+{
+"seg": 7,
+"line": 6,
+"who": "host",
+"text": "If someone wants money before they give you money, walk away.",
+"card": null,
+"start": 598.4555416666667,
+"end": 601.8528333333334,
+"shot": 62,
+"credit": {
+"title": "Java, Majapahit Dynasty - Piggy Bank - 1980.16 - Cleveland Museum of Art",
+"creator": "unknown",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Java,_Majapahit_Dynasty_-_Piggy_Bank_-_1980.16_-_Cleveland_Museum_of_Art.tif",
+"via": "Wikimedia Commons",
+"query": "piggy bank"
+}
+},
+{
+"seg": 8,
+"line": 0,
+"who": "host",
+"text": "So here's what to actually do.",
+"card": {
+"type": "list",
+"title": "Five habits",
+"items": [
+"One or two people approve payments",
+"Keep a list of real vendors",
+"Verify on a number you already have",
+"Renew only on official sites",
+"Report it, even with no loss"
+]
+},
+"start": 603.1028333333334,
+"end": 604.695375,
+"shot": 63,
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+}
+},
+{
+"seg": 8,
+"line": 0,
+"who": "host",
+"text": "Five habits, and none of them cost anything.",
+"card": {
+"type": "list",
+"title": "Five habits",
+"items": [
+"One or two people approve payments",
+"Keep a list of real vendors",
+"Verify on a number you already have",
+"Renew only on official sites",
+"Report it, even with no loss"
+]
+},
+"start": 604.8953750000001,
+"end": 607.4062083333334,
+"shot": 63,
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+}
+},
+{
+"seg": 8,
+"line": 1,
+"who": "host",
+"text": "One.",
+"card": {
+"type": "list",
+"title": "Five habits",
+"items": [
+"One or two people approve payments",
+"Keep a list of real vendors",
+"Verify on a number you already have",
+"Renew only on official sites",
+"Report it, even with no loss"
+]
+},
+"start": 607.7062083333334,
+"end": 608.3702083333334,
+"shot": 63,
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+}
+},
+{
+"seg": 8,
+"line": 1,
+"who": "host",
+"text": "Only one or two people can approve payments.",
+"card": {
+"type": "list",
+"title": "Five habits",
+"items": [
+"One or two people approve payments",
+"Keep a list of real vendors",
+"Verify on a number you already have",
+"Renew only on official sites",
+"Report it, even with no loss"
+]
+},
+"start": 608.5702083333334,
+"end": 611.2259583333334,
+"shot": 63,
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+}
+},
+{
+"seg": 8,
+"line": 1,
+"who": "host",
+"text": "Both the Anti Fraud Centre and the Competition Bureau recommend limiting who can pay bills.",
+"card": {
+"type": "list",
+"title": "Five habits",
+"items": [
+"One or two people approve payments",
+"Keep a list of real vendors",
+"Verify on a number you already have",
+"Renew only on official sites",
+"Report it, even with no loss"
+]
+},
+"start": 611.4259583333335,
+"end": 616.1147500000002,
+"shot": 64,
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 8,
+"line": 1,
+"who": "host",
+"text": "If you're a team of one, that's you, and nothing gets paid on the same day it arrives.",
+"card": null,
+"start": 616.3147500000002,
+"end": 621.6490833333336,
+"shot": 64,
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 8,
+"line": 2,
+"who": "host",
+"text": "Two.",
+"card": null,
+"start": 621.9490833333335,
+"end": 622.4891250000002,
+"shot": 65,
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 8,
+"line": 2,
+"who": "host",
+"text": "Keep a short list of the vendors you actually use.",
+"card": null,
+"start": 622.6891250000002,
+"end": 625.1451250000002,
+"shot": 65,
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 8,
+"line": 2,
+"who": "host",
+"text": "If an invoice isn't from someone on the list, it doesn't get paid until someone can show you what was ordered.",
+"card": null,
+"start": 625.3451250000003,
+"end": 630.8982083333336,
+"shot": 65,
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 8,
+"line": 2,
+"who": "host",
+"text": "The Bureau's own advice is to examine every invoice carefully before paying, and to read anything before you confirm details on it.",
+"card": null,
+"start": 631.0982083333337,
+"end": 638.6832083333337,
+"shot": 66,
+"credit": {
+"title": "Pencil tip closeup 2",
+"creator": "Juliancolton",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_tip_closeup_2.JPG",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 8,
+"line": 3,
+"who": "host",
+"text": "Three.",
+"card": null,
+"start": 638.9832083333337,
+"end": 639.630916666667,
+"shot": 67,
+"credit": {
+"title": "Retro desk lamp",
+"creator": "WANGYIFAN2024",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Retro_desk_lamp.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 8,
+"line": 3,
+"who": "host",
+"text": "Verify on a number you already have.",
+"card": null,
+"start": 639.830916666667,
+"end": 642.2343750000003,
+"shot": 67,
+"credit": {
+"title": "Retro desk lamp",
+"creator": "WANGYIFAN2024",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Retro_desk_lamp.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 8,
+"line": 3,
+"who": "host",
+"text": "Not the one in the letter, the email, or the caller I D.",
+"card": null,
+"start": 642.4343750000004,
+"end": 646.2710000000004,
+"shot": 67,
+"credit": {
+"title": "Retro desk lamp",
+"creator": "WANGYIFAN2024",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Retro_desk_lamp.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 8,
+"line": 3,
+"who": "host",
+"text": "This one habit beats the tax call, the supplier email and the fake lawyer.",
+"card": null,
+"start": 646.4710000000005,
+"end": 651.4276250000005,
+"shot": 68,
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 8,
+"line": 4,
+"who": "host",
+"text": "Four.",
+"card": null,
+"start": 651.7276250000004,
+"end": 652.2604166666671,
+"shot": 68,
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 8,
+"line": 4,
+"who": "host",
+"text": "Bookmark your official sites, your business registry, the trademark office, your domain company, the C R A.",
+"card": null,
+"start": 652.4604166666671,
+"end": 659.0852916666671,
+"shot": 68,
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 8,
+"line": 4,
+"who": "host",
+"text": "Renew only there, never through a letter's link or form.",
+"card": null,
+"start": 659.2852916666671,
+"end": 662.9516666666672,
+"shot": 69,
+"credit": {
+"title": "Staircase of the BGK Building (26620981474)",
+"creator": "Bart Lumber",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_BGK_Building_(26620981474).jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 8,
+"line": 5,
+"who": "host",
+"text": "Five.",
+"card": null,
+"start": 663.2516666666671,
+"end": 664.0172083333338,
+"shot": 69,
+"credit": {
+"title": "Staircase of the BGK Building (26620981474)",
+"creator": "Bart Lumber",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_BGK_Building_(26620981474).jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 8,
+"line": 5,
+"who": "host",
+"text": "Report it, even if you didn't lose a cent.",
+"card": null,
+"start": 664.2172083333338,
+"end": 666.4248333333338,
+"shot": 69,
+"credit": {
+"title": "Staircase of the BGK Building (26620981474)",
+"creator": "Bart Lumber",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_BGK_Building_(26620981474).jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 8,
+"line": 5,
+"who": "host",
+"text": "The centre says you should still report with no financial loss.",
+"card": null,
+"start": 666.6248333333339,
+"end": 670.0613750000006,
+"shot": 70,
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+}
+},
+{
+"seg": 8,
+"line": 5,
+"who": "host",
+"text": "You can report online or by phone, and every report helps someone else spot the same letter.",
+"card": null,
+"start": 670.2613750000006,
+"end": 675.9167500000007,
+"shot": 70,
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+}
+},
+{
+"seg": 8,
+"line": 6,
+"who": "host",
+"text": "This is general information, as of November twenty twenty six.",
+"card": null,
+"start": 676.2167500000006,
+"end": 679.4126250000006,
+"shot": 71,
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 8,
+"line": 6,
+"who": "host",
+"text": "It isn't legal or tax advice.",
+"card": null,
+"start": 679.6126250000007,
+"end": 681.4870000000006,
+"shot": 71,
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 8,
+"line": 7,
+"who": "host",
+"text": "The letters will keep coming.",
+"card": null,
+"start": 681.7870000000006,
+"end": 683.071083333334,
+"shot": 71,
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 8,
+"line": 7,
+"who": "host",
+"text": "Now you know how to read them.",
+"card": null,
+"start": 683.271083333334,
+"end": 684.404708333334,
+"shot": 72,
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 8,
+"line": 7,
+"who": "host",
+"text": "This is Waypoint Software, at waypointns dot ca.",
+"card": null,
+"start": 684.6047083333341,
+"end": 688.6912916666674,
+"shot": 72,
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+}
+]
+}
