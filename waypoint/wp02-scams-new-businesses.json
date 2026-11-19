@@ -1,0 +1,607 @@
+{
+ "brand": "waypoint",
+ "format": "waypoint-explainer",
+ "episode": 2,
+ "slug": "wp02-scams-new-businesses",
+ "air_date": "2026-11-27",
+ "topic": 2,
+ "title": "The Scams That Target Brand New Canadian Businesses (and the 5 Habits That Stop Them)",
+ "card_title": "The scams that target brand new businesses",
+ "thumb_title": "YOU'RE ON A LIST",
+ "hook": {
+  "pillars": "headline card 'You just registered a business. Now you're on a list.' + scratch on the opening photo zoom + slow zoom",
+  "formula": "Unexpected Truth ('Most people think scammers go after big companies... the opposite is often true')"
+ },
+ "hook_sfx": "scratch",
+ "description": "Why brand new Canadian businesses get fake invoices, fake renewal notices, fake C.R.A. calls and fake grant offers, how each scam works, and the five free habits that stop almost all of them.\nFacts are from the Canadian Anti-Fraud Centre, the Competition Bureau of Canada, the CRA and the Government of Nova Scotia. Information is as of November 2026. This isn't legal or tax advice.\nReport fraud to the Canadian Anti-Fraud Centre: 1-888-495-8501 or reportcyberandfraud.canada.ca\nwaypointns.ca",
+ "tags": [
+  "business scams canada",
+  "scams targeting small business",
+  "fake invoice scam",
+  "business directory scam",
+  "trademark renewal scam",
+  "domain renewal scam",
+  "cra scam call",
+  "government grant scam canada",
+  "spear phishing small business",
+  "nova scotia small business",
+  "new business canada"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open: you're on a list now",
+   "visuals": [
+    "mailbox",
+    "envelope stack",
+    "office desk",
+    "rotary telephone",
+    "typewriter"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Most people think scammers go after big companies, because that's where the money is. For brand new businesses in Canada, the opposite is often true.",
+     "card": {
+      "type": "point",
+      "text": "You just registered a business. Now you're on a list."
+     }
+    },
+    {
+     "who": "host",
+     "text": "The day you register a business, your name, your address and your business name start showing up in public records. And some people read those records for a living."
+    },
+    {
+     "who": "host",
+     "text": "Within weeks, the letters start. An invoice for a listing you never ordered. A renewal notice for a trademark that isn't due for years. A call from someone who says they're with the tax people."
+    },
+    {
+     "who": "host",
+     "text": "Most of them look official. Some of them are technically legal. And one of them, the most expensive one, doesn't come in the mail at all. We'll get to that one."
+    },
+    {
+     "who": "host",
+     "text": "Here are the scams that go after new Canadian businesses, how each one works, and the five habits that shut almost all of them down."
+    }
+   ]
+  },
+  {
+   "heading": "Why new businesses get targeted first",
+   "visuals": [
+    "filing cabinet",
+    "library card catalog",
+    "ledger book",
+    "printing press",
+    "stack of paper"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Start with the size of the problem. In twenty twenty five, the Canadian Anti Fraud Centre received over one hundred and twelve thousand fraud reports, with more than seven hundred and four million dollars in reported losses.",
+     "card": {
+      "type": "stat",
+      "big": "$704M",
+      "label": "reported fraud losses in Canada in 2025, from 112,000+ reports",
+      "source": "Canadian Anti-Fraud Centre, Mar 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Now the part that matters. The centre says only five to ten percent of frauds are reported. So the real number is a lot bigger, and a lot of it never makes the news.",
+     "card": {
+      "type": "stat",
+      "big": "5 to 10%",
+      "label": "of frauds are ever reported",
+      "source": "Canadian Anti-Fraud Centre, Mar 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Here's what school teaches you. Registering your business is a legal step. You pick a structure, you file, you pay a fee, you get a number. Done."
+    },
+    {
+     "who": "host",
+     "text": "Here's what school doesn't teach you. Registering is also publishing. Business registries, the trademark database and the public records behind web addresses are all searchable, on purpose. That openness is good. It's how customers check you're real."
+    },
+    {
+     "who": "host",
+     "text": "But the Competition Bureau says the companies behind fake renewal notices fill them with your trademark image, your contact details and your registration number, all pulled from public records."
+    },
+    {
+     "who": "host",
+     "text": "And it says directory scammers often already have your details from public or online listings before they ever call you."
+    },
+    {
+     "who": "host",
+     "text": "So a new owner gets a letter with their real business name, their real address, and their real registration number on it. Of course it looks legit. Every detail on it is true. Except the part where you owe money.",
+     "card": {
+      "type": "compare",
+      "left_title": "What's real",
+      "left": "Your name, address, registration number",
+      "right_title": "What's fake",
+      "right": "The bill"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "The invoice for something you never ordered",
+   "visuals": [
+    "invoice paper",
+    "cheque book",
+    "fax machine",
+    "office telephone",
+    "rubber stamp",
+    "cardboard boxes"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "The centre calls the first one false billing. Its definition is simple. You get an invoice and a demand for payment, for a product or service nobody asked for.",
+     "card": {
+      "type": "point",
+      "text": "False billing: an invoice for something nobody ordered"
+     }
+    },
+    {
+     "who": "host",
+     "text": "The classic version is the business directory. Someone calls to confirm your address and phone number. It sounds like admin. Sure, that's correct, thanks."
+    },
+    {
+     "who": "host",
+     "text": "Then an invoice shows up for an online directory listing, or a renewal of one. When you push back, you're told there's a recording of you agreeing, and that the account goes to collections if you don't pay."
+    },
+    {
+     "who": "host",
+     "text": "Both the Competition Bureau and the Anti Fraud Centre warn that they may record that first call and use it against you. A yes to is this your address can be edited into a yes to something else.",
+     "card": {
+      "type": "list",
+      "title": "How a directory invoice works",
+      "items": [
+       "A friendly call to 'confirm details'",
+       "The call may be recorded",
+       "An invoice for a listing arrives",
+       "Pay, or 'it goes to collections'"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "And what do you get if you pay? The Bureau put it plainly. Chances are your company's name gets buried in a listing that no one will see."
+    },
+    {
+     "who": "host",
+     "text": "The second version is office supplies. Someone confirms your address, maybe pretending to be your usual supplier, maybe offering a discount. Then boxes you never ordered arrive, with an invoice."
+    },
+    {
+     "who": "host",
+     "text": "The centre's advice here is very specific. Send a registered letter, with a return receipt, asking for proof that you ordered the goods. If they can't show proof, tell them you're keeping the supplies as a gift. The centre even publishes a sample letter."
+    },
+    {
+     "who": "host",
+     "text": "Why does this work on small businesses in particular? Because in a small business, the person who opens the mail is often the person who pays the bills. There's no second set of eyes. An invoice that looks like an invoice just gets paid."
+    }
+   ]
+  },
+  {
+   "heading": "The renewal notice that isn't from the government",
+   "visuals": [
+    "wax seal",
+    "postage stamps",
+    "envelope",
+    "calendar page",
+    "hourglass",
+    "fountain pen"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "The second family of scams is the fake renewal. These are scary because they borrow the language of real deadlines.",
+     "card": {
+      "type": "point",
+      "text": "Real deadline, wrong sender"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Take trademarks. The Competition Bureau has warned about official looking reminder notices for trademark and patent renewals, sent by private companies, not by the Canadian Intellectual Property Office."
+    },
+    {
+     "who": "host",
+     "text": "They often arrive many months before anything is due. A registered trademark in Canada renews every fifteen years. And the Bureau says the fees in these letters are usually much higher than the real office's fees.",
+     "card": {
+      "type": "stat",
+      "big": "15 years",
+      "label": "between trademark renewals in Canada",
+      "source": "Competition Bureau of Canada"
+     }
+    },
+    {
+     "who": "host",
+     "text": "A newer twist, flagged by a Canadian law firm this year: an email from someone posing as an intellectual property lawyer, saying another company is about to file for your business name, so you need to pay to file first, right now. They even used a real lawyer's name. The lawyer's office confirmed it wasn't them."
+    },
+    {
+     "who": "host",
+     "text": "Web addresses get the same treatment. A registrar in Canada describes letters titled domain expiration notice, from a company you've never dealt with, saying your website and email are about to stop working. The fine print quietly moves your domain to them."
+    },
+    {
+     "who": "host",
+     "text": "The registrar's advice? The safest thing to do is ignore it, and check with the company you actually registered your domain through."
+    },
+    {
+     "who": "host",
+     "text": "Here's the part school doesn't teach. Some renewals are real. In Nova Scotia, businesses registered with the Registry of Joint Stock Companies renew every year, in the month they first registered.",
+     "card": {
+      "type": "stat",
+      "big": "Every year",
+      "label": "Nova Scotia business registrations renew in their anniversary month",
+      "source": "Government of Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "The province says the registry sends a notice by mail or email about a month before the renewal date, and that renewing on time is your responsibility. You renew through the registry itself, and payment goes to the Minister of Finance."
+    },
+    {
+     "who": "host",
+     "text": "So the rule isn't ignore every renewal. The rule is, never renew through the letter. Go to the official site yourself, the one you bookmarked, and renew there.",
+     "card": {
+      "type": "list",
+      "title": "Before you pay any renewal",
+      "items": [
+       "Who sent it, exactly?",
+       "Is it due now, or years away?",
+       "Renew only on the official site",
+       "Never through the letter's link or form"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "heading": "The call from the tax people",
+   "visuals": [
+    "telephone handset",
+    "rotary telephone",
+    "calculator",
+    "ledger book",
+    "office chair"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Then there's the phone call. Someone says they're from the C R A. There's a problem with your business account. It's urgent."
+    },
+    {
+     "who": "host",
+     "text": "The C R A does call people. It might need missing information, want to talk about an amount owed, or tell you about a review. So the call itself isn't proof of anything either way."
+    },
+    {
+     "who": "host",
+     "text": "What the C R A's own guidance says to do is the useful part. Don't share your information. Don't trust the number on your caller I D, because it can be faked."
+    },
+    {
+     "who": "host",
+     "text": "Ask for the caller's name, their office and a callback number. Say you'll verify it. Then hang up.",
+     "card": {
+      "type": "list",
+      "title": "When 'the CRA' calls",
+      "items": [
+       "Get name, office, callback number",
+       "Hang up",
+       "Verify with CRA's own phone number tool",
+       "Business line: 1-800-959-5525"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "And never call back the number they gave you unless you've checked it yourself with the C R A. The agency has a tool on its website to verify a phone number, and the business enquiries line is listed there too."
+    },
+    {
+     "who": "host",
+     "text": "A real agent won't mind you hanging up to check. A scammer will push hard to keep you on the line. That pressure is the tell."
+    },
+    {
+     "who": "host",
+     "text": "So that's the mail and the phone. But I said the most expensive one doesn't come in the mail. It comes in your inbox. And it usually comes from someone you already trust."
+    }
+   ]
+  },
+  {
+   "heading": "A quick word from Waypoint (that's us)",
+   "promo": true,
+   "visuals": [
+    "harbour lighthouse",
+    "laptop desk",
+    "notebook pen",
+    "coffee mug"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Quick pause. This video is made by Waypoint Software. We're in Atlantic Canada, and we build websites for small service businesses, plus the booking, quoting and invoicing tools that sit behind them.",
+     "card": {
+      "type": "point",
+      "text": "A quick word from Waypoint (that's us)"
+     }
+    },
+    {
+     "who": "host",
+     "text": "The idea is simple. Software built around how you already work, so quotes and invoices live in one place you control, not scattered across email threads. If that sounds useful, have a look at waypointns dot ca. Okay. Back to the inbox."
+    }
+   ]
+  },
+  {
+   "heading": "The email from someone you trust",
+   "visuals": [
+    "laptop keyboard",
+    "computer monitor",
+    "bank vault",
+    "padlock",
+    "keys"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "The Anti Fraud Centre calls it spear phishing. A fraudster pretends to be someone you already deal with, and fakes their email address so it looks right. That trick is called spoofing.",
+     "card": {
+      "type": "point",
+      "text": "Spear phishing: a fake email from someone you trust"
+     }
+    },
+    {
+     "who": "host",
+     "text": "By dollar loss, it was the second biggest fraud type in Canada last year. Eight hundred and thirteen reports. Five hundred and seventy one victims. Almost sixty eight million dollars.",
+     "card": {
+      "type": "stat",
+      "big": "$67.9M",
+      "label": "lost to spear phishing in Canada in 2025, from 813 reports",
+      "source": "Canadian Anti-Fraud Centre, Top 10 frauds 2025"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Compare that to how many people it hit. Fewer reports than a lot of other scams, but each one is huge. Because the target isn't your personal wallet. It's your business account."
+    },
+    {
+     "who": "host",
+     "text": "Here's how it shows up. An email from a supplier you pay every month. They've changed banks. Please send future payments to this new account. Same logo, same tone, same signature."
+    },
+    {
+     "who": "host",
+     "text": "Or an email that looks like it's from the owner, saying they're offsite and need gift cards bought for staff rewards. Or one that looks like an employee, asking to change their direct deposit."
+    },
+    {
+     "who": "host",
+     "text": "Franchises get their own version. A caller says they're from head office, claims there's a problem with the gift cards or money transfers, and asks staff to activate prepaid cards and hand them over."
+    },
+    {
+     "who": "host",
+     "text": "And if you rent your shop, watch for a landlord spoof, an email that looks like your landlord asking you to pay rent a different way than usual. The centre says it saw these reports rise in twenty twenty three. The advice is the same. Contact your landlord using the details you already have."
+    },
+    {
+     "who": "host",
+     "text": "The centre's examples include urgent wire transfers of more than one hundred thousand dollars to foreign accounts. For a small business, one of those is not a bad month. It's the end.",
+     "card": {
+      "type": "list",
+      "title": "Spoofed emails to watch for",
+      "items": [
+       "Supplier: 'we changed banks'",
+       "Boss: 'buy gift cards for staff'",
+       "Employee: 'change my direct deposit'",
+       "Anyone: 'urgent wire today'"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "The fix costs nothing. The centre says to watch for unusual requests from people you work with, and to check with them using contact details you already have. Not the phone number in the email. The one in your own records."
+    },
+    {
+     "who": "host",
+     "text": "A rule a lot of small businesses use: any change to banking details gets a phone call to a number you already had, before a single dollar moves."
+    }
+   ]
+  },
+  {
+   "heading": "Free money, for a fee",
+   "visuals": [
+    "coins",
+    "piggy bank",
+    "calculator",
+    "government building",
+    "stack of paper"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "The last one preys on hope. Every new owner wants to know about grants. And there are real government programs out there. That's exactly why this works.",
+     "card": {
+      "type": "point",
+      "text": "Free money... that costs money first"
+     }
+    },
+    {
+     "who": "host",
+     "text": "The Anti Fraud Centre describes websites that look official, sometimes using Government of Canada logos, claiming special access to grants or loans, and asking for an upfront fee."
+    },
+    {
+     "who": "host",
+     "text": "Some ask you to open a new business bank account, which the centre warns may be used to launder money. And its conclusion is blunt. You never receive any money."
+    },
+    {
+     "who": "host",
+     "text": "A newer version comes through a friend. Their account gets hacked, and the hacker messages you about this amazing grant they just got. You trust the friend, so you trust the grant."
+    },
+    {
+     "who": "host",
+     "text": "Here's the line to remember. The Competition Bureau says governments generally don't charge for information on their programs, and private companies play no role in approving government grants or loans. No one can guarantee you one.",
+     "card": {
+      "type": "compare",
+      "left_title": "Real government funding",
+      "left": "Free to learn about and apply for",
+      "right_title": "Grant scam",
+      "right": "Fee first, 'guaranteed' approval"
+     }
+    },
+    {
+     "who": "host",
+     "text": "The Bureau lists other signs too. A name that sounds like a government department. Claims of guaranteed funding. And success stories from people who never actually used the service. If it seems too good to be true, it probably is."
+    },
+    {
+     "who": "host",
+     "text": "Loans have their own red flag. The centre says that in most provinces, it's illegal for a company to ask for an upfront fee before you get your loan. If someone wants money before they give you money, walk away."
+    }
+   ]
+  },
+  {
+   "heading": "What to actually do this week",
+   "visuals": [
+    "checklist clipboard",
+    "spiral notebook",
+    "pencil",
+    "desk lamp",
+    "filing cabinet"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So here's what to actually do. Five habits, and none of them cost anything.",
+     "card": {
+      "type": "list",
+      "title": "Five habits",
+      "items": [
+       "One or two people approve payments",
+       "Keep a list of real vendors",
+       "Verify on a number you already have",
+       "Renew only on official sites",
+       "Report it, even with no loss"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "One. Only one or two people can approve payments. Both the Anti Fraud Centre and the Competition Bureau recommend limiting who can pay bills. If you're a team of one, that's you, and nothing gets paid on the same day it arrives."
+    },
+    {
+     "who": "host",
+     "text": "Two. Keep a short list of the vendors you actually use. If an invoice isn't from someone on the list, it doesn't get paid until someone can show you what was ordered. The Bureau's own advice is to examine every invoice carefully before paying, and to read anything before you confirm details on it."
+    },
+    {
+     "who": "host",
+     "text": "Three. Verify on a number you already have. Not the one in the letter, the email, or the caller I D. This one habit beats the tax call, the supplier email and the fake lawyer."
+    },
+    {
+     "who": "host",
+     "text": "Four. Bookmark your official sites, your business registry, the trademark office, your domain company, the C R A. Renew only there, never through a letter's link or form."
+    },
+    {
+     "who": "host",
+     "text": "Five. Report it, even if you didn't lose a cent. The centre says you should still report with no financial loss. You can report online or by phone, and every report helps someone else spot the same letter."
+    },
+    {
+     "who": "host",
+     "text": "This is general information, as of November twenty twenty six. It isn't legal or tax advice."
+    },
+    {
+     "who": "host",
+     "text": "The letters will keep coming. Now you know how to read them. This is Waypoint Software, at waypointns dot ca."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Canadian Anti-Fraud Centre: Fraud Prevention Month 2026 news release",
+   "url": "https://antifraudcentre-centreantifraude.ca/news-nouvelles/2026/2026-03-06-eng.htm"
+  },
+  {
+   "label": "Canadian Anti-Fraud Centre: Top 10 frauds in 2025",
+   "url": "https://antifraudcentre-centreantifraude.ca/features-vedette/2026/02/top-fraud-2025-fraudes-plus-courantes-eng.htm"
+  },
+  {
+   "label": "Canadian Anti-Fraud Centre: False billing",
+   "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/f-billing-facturation-eng.htm"
+  },
+  {
+   "label": "Canadian Anti-Fraud Centre: Grant and loan",
+   "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/loan-pret-eng.htm"
+  },
+  {
+   "label": "Canadian Anti-Fraud Centre: Spear phishing",
+   "url": "https://antifraudcentre-centreantifraude.ca/scams-fraudes/spear-phishing-harponnage-eng.htm"
+  },
+  {
+   "label": "Competition Bureau: Business directories, double-check before writing a cheque",
+   "url": "https://www.canada.ca/en/competition-bureau/news/2018/04/business-directories-double-check-before-writing-a-cheque.html"
+  },
+  {
+   "label": "Competition Bureau: Beware of emails and letters demanding payment to protect your IP",
+   "url": "https://www.canada.ca/en/competition-bureau/news/2017/03/beware_of_emailsandlettersdemandingpaymenttoprotectyourintellect.html"
+  },
+  {
+   "label": "Competition Bureau: Don't trust companies that promise government grants and loans",
+   "url": "https://www.canada.ca/en/competition-bureau/news/2016/03/don-t-trust-companies-that-promise-government-grants-and-loans.html"
+  },
+  {
+   "label": "CRA: Verify it's the CRA calling",
+   "url": "https://www.canada.ca/en/revenue-agency/corporate/scams-fraud/verify-cra-contact.html"
+  },
+  {
+   "label": "Government of Nova Scotia: Renew a registration with the Registry of Joint Stock Companies",
+   "url": "https://www.novascotia.ca/renew-business-or-non-profit-registration-registry-joint-stock-companies"
+  },
+  {
+   "label": "BLG: Trademark scams, how to spot them (2026)",
+   "url": "https://www.blg.com/en/insights/2026/06/trademark-scams-how-to-spot-them-avoid-them-and-protect-your-brand"
+  },
+  {
+   "label": "Webnames.ca: Domain expiration notices from 'Domain Registry'",
+   "url": "https://blog.webnames.ca/potential-scam-alert-domain-expiration-notices-from-domain-registry/"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "The invoice you never ordered",
+   "from": [
+    2,
+    0
+   ],
+   "to": [
+    2,
+    3
+   ],
+   "sfx": "whoosh",
+   "hook": "text + whoosh + photo zoom; Unexpected Truth",
+   "caption": "A friendly call to 'confirm your address', then an invoice for a listing nobody ordered. Here's how false billing works. #smallbusiness #canada #scams"
+  },
+  {
+   "title": "Hang up on 'the CRA'. Here's why.",
+   "from": [
+    4,
+    0
+   ],
+   "to": [
+    4,
+    3
+   ],
+   "sfx": "ding",
+   "hook": "text + ding + photo zoom; You vs Problem",
+   "caption": "The CRA's own advice: don't trust caller ID, get a name and callback number, hang up and verify. #smallbusiness #canada #cra"
+  },
+  {
+   "title": "Free money that costs money first",
+   "from": [
+    7,
+    0
+   ],
+   "to": [
+    7,
+    2
+   ],
+   "sfx": "pop",
+   "hook": "text + pop + photo zoom; Unexpected Truth",
+   "caption": "Real government funding is free to learn about. Fake grant sites want a fee first, and you never receive any money. #smallbusiness #canada #grants"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #66",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "sleep",
+ "hook": {
+  "pillars": "caption text + voiced teacher line + pop + bounce",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Okay class, heads down. Quiet time.",
+   "voice": "af_nicole",
+   "hold": 2.4,
+   "top_text": "Teacher: \"Heads down,|it's quiet time\"",
+   "set": "classroom",
+   "state": {
+    "board": "QUIET|TIME"
+   },
+   "speaker": "boss",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 260,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "bounce"
+    }
+   ],
+   "pause": 0.4
+  },
+  {
+   "text": "I'm not even tired.",
+   "hold": 1.8,
+   "top_text": "Me at 6, wide awake:",
+   "set": "classroom",
+   "state": {
+    "board": "QUIET|TIME"
+   },
+   "speaker": "me",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 520,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "wide",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "pause": 0.3
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Also me, 40 seconds later:",
+   "set": "classroom",
+   "state": {
+    "board": "QUIET|TIME",
+    "clock": "1:01"
+   },
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 520,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   }
+  }
+ ]
+}

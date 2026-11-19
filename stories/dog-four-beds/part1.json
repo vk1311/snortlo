@@ -1,0 +1,284 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "pets",
+ "hook": {
+  "pillars": "headline text 4 BEDS / 0 USED + whoosh + slow zoom",
+  "formula": "number_list hook (Unexpected Truth-style: the fancy beds lose to laundry)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR DOG PERSON",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "4 BEDS|0 USED",
+    "bg1": "#FFF1D6",
+    "bg2": "#E0A23A"
+   },
+   "text": "My dog Biscuit owns four beds. He has slept in exactly zero of them.",
+   "sfx": "whoosh",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "BED 1|$60"
+   },
+   "text": "Bed one. Memory foam. Sixty dollars. He sniffed it once and walked away like it owed him money.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "BED 2|HEATED"
+   },
+   "text": "Bed two is heated. He lay down right next to it. On the cold floor. Staring at me.",
+   "sfx": "crickets",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "BED 3: A CAVE",
+     "BED 4: A SOFA"
+    ],
+    "bg1": "#E8F1F8",
+    "bg2": "#7FA6C9"
+   },
+   "text": "Bed three is a little cave. Bed four is an actual tiny sofa. I own a sofa for my dog.",
+   "sfx": "oof"
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": ""
+   },
+   "speaker": "co2",
+   "text": "My wife goes, he doesn't want a bed, babe. He wants something that smells like you.",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 220,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 520,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "clock": "11:48",
+    "dark": true
+   },
+   "text": "And that's when I found him. Asleep on the one pile of clean laundry I never folded.",
+   "sfx": "busted",
+   "meme": "shake",
+   "slow": true,
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "clock": "11:49",
+    "dark": true
+   },
+   "text": "Warm towels. My work shirts. He turns around three times and sighs, like he pays rent.",
+   "sfx": "sadviolin",
+   "cast": [
+    {
+     "who": "me",
+     "x": 620,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "clock": "8:00"
+   },
+   "speaker": "me",
+   "text": "So I had a genius idea. I put the whole laundry pile inside bed number one.",
+   "sfx": "aura",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "HE TOOK",
+     "ONE SOCK"
+    ],
+    "bg1": "#FDE8E8",
+    "bg2": "#D96B6B"
+   },
+   "text": "He walked in, pulled out one sock, and carried it to the floor. Slept on the sock. Just the sock.",
+   "sfx": "metalpipe",
+   "meme": "shake"
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "4 BEDS|EMPTY"
+   },
+   "text": "So now there are four empty beds. And I got curious. I lay down on the memory foam one.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 320,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BEST BED|IN THE HOUSE",
+    "bg1": "#EAF7EE",
+    "bg2": "#5DAE7B"
+   },
+   "text": "Guys. It is the best bed in this entire house.",
+   "sfx": "angelchoir",
+   "slow": true,
+   "pause": 0.6
+  },
+  {
+   "set": "bedroom",
+   "state": {
+    "clock": "2:10",
+    "dark": true
+   },
+   "text": "So my wife has the big bed to herself, Biscuit sleeps on a sock, and I'm in the hallway on a sixty dollar dog bed.",
+   "sfx": "laughtrack",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "BED 5?"
+   },
+   "text": "I just ordered bed number five. It's for me.",
+   "sfx": "bonk",
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  }
+ ]
+}

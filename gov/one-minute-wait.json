@@ -1,0 +1,26 @@
+{
+ "day": "20260625",
+ "start": 12762.3,
+ "end": 12786.4,
+ "end_on_word": "minute",
+ "tail": 0.6,
+ "top_text": "Me waiting for the whole family|to stop talking so I can tell my story:",
+ "sfx": [
+  {
+   "at_word": "conversations",
+   "name": "bruh",
+   "delay": 0.2,
+   "gain": 0.7
+  },
+  {
+   "at_word": "minute",
+   "name": "crickets",
+   "delay": 0.3,
+   "gain": 0.6,
+   "last": true
+  }
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-06-25, caption clock ~12762-12786; a member asks to speak for one minute, the chair has to call the House to order twice and ask members to take their conversations off the floor before recognizing him; procedural only",
+ "end_on_last": true
+}

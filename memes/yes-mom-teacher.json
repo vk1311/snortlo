@@ -1,0 +1,106 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #68",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "sleep",
+ "hook": {
+  "pillars": "caption text + riser + zoom punch",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR CLASSMATE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Me, asleep in math class|for 20 minutes:",
+   "set": "classroom",
+   "state": {
+    "board": "2X + 4 = 10",
+    "clock": "2:40"
+   },
+   "sfx": "riser",
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 1.8,
+   "top_text": "Teacher: \"What's the answer?\"",
+   "set": "classroom",
+   "state": {
+    "board": "2X + 4 = 10",
+    "clock": "2:40"
+   },
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 260,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 640,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Me, fully awake:|\"Yes, mom?\"",
+   "set": "classroom",
+   "state": {
+    "board": "YES|MOM?",
+    "clock": "2:40"
+   },
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 520,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "red": 0.7
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.5,
+    "on": "me"
+   }
+  }
+ ]
+}

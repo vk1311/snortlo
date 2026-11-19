@@ -191,7 +191,10 @@ def render(clip_path, out):
     else: raise SystemExit("clip words not found in the video; pick another moment")
     a, b = s + delta - 0.4, e + delta + 1.0
     if clip.get("end_on_word"):              # end right after a given word (e.g. EXPIRED)
-        hit = next((w for w in words if w["s"] >= a and norm(w["w"]) == norm(clip["end_on_word"])), None)
+        hits = [w for w in words if w["s"] >= a and norm(w["w"]) == norm(clip["end_on_word"])]
+        if clip.get("end_on_last"):          # the word repeats inside the clip: take its last hit before end + 3 s
+            hits = [w for w in hits if w["s"] <= e + delta + 3][-1:]
+        hit = hits[0] if hits else None
         if hit: b = hit["e"] + clip.get("tail", 1.6)
     a = max(0, a); dur = b - a
     src = f"{work}/src.mp4"
@@ -207,7 +210,8 @@ def render(clip_path, out):
     for hit in clip.get("sfx", []):
         t0 = hit.get("t")
         if "at_word" in hit:
-            w = next((w for w in local if norm(w["w"]) == norm(hit["at_word"])), None)
+            ws = [w for w in local if norm(w["w"]) == norm(hit["at_word"])]
+            w = (ws[-1] if hit.get("last") else ws[0]) if ws else None  # "last": true = the word's final hit in the clip
             if not w: continue
             t0 = w["e"] + hit.get("delay", 0.05)
         _, x = sfx.get(hit["name"], rng); i = int(max(0, t0) * sfx.SR); fx[i:i + len(x)] += x[:len(fx) - i] * hit.get("gain", 0.8)
