@@ -1,0 +1,131 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #69",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "sleep",
+ "hook": {
+  "pillars": "caption text + pop + teacher pointing in",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Teacher: \"If you finish the test early,|you can put your head down\"",
+   "set": "classroom",
+   "state": {
+    "board": "TEST|NO TALKING"
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 260,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "me",
+     "x": 680,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me, done in 4 minutes|by answering C for everything:",
+   "set": "classroom",
+   "state": {
+    "board": "TEST|NO TALKING"
+   },
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Me 40 minutes later:",
+   "set": "classroom",
+   "state": {
+    "board": "TEST|NO TALKING",
+    "clock": "10:40"
+   },
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "When the bell rings and the test|is stuck to my face:",
+   "set": "classroom",
+   "state": {
+    "board": "",
+    "clock": "11:00"
+   },
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "hold": "paper"
+    }
+   ],
+   "cam": {
+    "zoom": 1.35,
+    "on": "me"
+   }
+  }
+ ]
+}

@@ -1,0 +1,394 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "seasonal",
+ "hook": {
+  "pillars": "headline text FIRST SNOW / NO TIRES + whoosh + slow zoom",
+  "formula": "question (You vs Problem-style curiosity)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR DAD",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "FIRST SNOW|NO TIRES",
+    "bg1": "#E3EEF7",
+    "bg2": "#4E7FA8"
+   },
+   "text": "Why does my dad refuse to put his winter tires on until it actually snows?",
+   "sfx": "whoosh",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "Every October, same speech. Real Nova Scotians don't rush it. We wait for the snow.",
+   "sfx": "pop",
+   "speaker": "boss",
+   "bubble": {
+    "text": "WE WAIT|FOR SNOW",
+    "x": 720,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 720,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "10 CM|OVERNIGHT",
+    "bg1": "#EEF3F8",
+    "bg2": "#8FA9C4"
+   },
+   "text": "Tuesday. Ten centimetres. Overnight.",
+   "sfx": "ding",
+   "pause": 0.4
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "SNOW|ALERT"
+   },
+   "text": "Dad calls the garage. Booked until December fifteenth. Calls another one. December twentieth.",
+   "sfx": "tick",
+   "cards": [
+    "DEC15",
+    "DEC20",
+    "JAN 3"
+   ],
+   "cast": [
+    {
+     "who": "boss",
+     "x": 480,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "SNOW|ALERT"
+   },
+   "text": "Nine garages later he hangs up and says, fine. I'll do it myself. How hard can it be?",
+   "sfx": "slideup",
+   "speaker": "boss",
+   "bubble": {
+    "text": "HOW HARD|CAN IT BE?",
+    "x": 480,
+    "y": 500,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "boss",
+     "x": 480,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "So he's in the driveway, in the snow, in slippers, holding a jack he bought in two thousand nine.",
+   "sfx": "crunch",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 540,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "me",
+     "x": 880,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     540,
+     820
+    ]
+   }
+  },
+  {
+   "set": "kitchen",
+   "state": {},
+   "text": "He goes down to the basement to grab the winter tires. And he's gone. For a long time.",
+   "sfx": "heartbeat",
+   "pause": 0.5,
+   "cast": [
+    {
+     "who": "me",
+     "x": 460,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {},
+   "text": "He comes back up very quiet. The winter tires are not in the basement.",
+   "sfx": "recordscratch",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 620,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.4,
+    "on": "boss"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SOLD IN JUNE|FOR $40",
+    "bg1": "#FFE0E0",
+    "bg2": "#F28F8F"
+   },
+   "text": "Because in June, he sold them at our yard sale. To make room. For forty dollars.",
+   "sfx": "busted",
+   "meme": "shake",
+   "pause": 0.4
+  },
+  {
+   "set": "kitchen",
+   "state": {},
+   "text": "Forty dollars, for four tires. In June he called it the deal of the century.",
+   "sfx": "sadtrombone",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 600,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "I ask, to who? He just points across the street.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 360,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 160,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "Our neighbour Doug, backing out of his driveway. On my dad's winter tires. Waving.",
+   "sfx": "clownhorn",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 780,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    },
+    {
+     "who": "boss",
+     "x": 320,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "co1"
+   }
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "Dad walks over, still in slippers, and buys them back. Two hundred dollars.",
+   "sfx": "cashregister",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 420,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "Doug says they handle great in the snow.",
+   "sfx": "oof",
+   "speaker": "co1",
+   "bubble": {
+    "text": "HANDLE|GREAT",
+    "x": 720,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co1",
+     "x": 720,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "boss",
+     "x": 400,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "YARD SALE",
+     "TIRES NOT",
+     "FOR SALE"
+    ]
+   },
+   "text": "This morning Dad put up next June's yard sale sign already. Tires not for sale. Especially to Doug.",
+   "sfx": "rimshot",
+   "pause": 0.6
+  }
+ ]
+}

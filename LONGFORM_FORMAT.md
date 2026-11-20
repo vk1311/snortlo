@@ -96,8 +96,9 @@ After scheduling, log it so it gets scored: `python3 engine/log_post.py sleep sl
 - Compilation 4: tea shop on a rainy afternoon (9); night nurse for newborn lambs (16); museum night watchman saying good night to the paintings (8); mending nets by lamplight as the boats come home (10); owl keeping watch over an orchard (24); girl and grandfather stargazing from the roof (20).
 - Compilation 5: overnight radio host (17); allotment pumpkin count (15); candle maker's last batch (14); bandstand after the last concert (11); cobbler's notes (23); post office on the last evening before the holiday (6).
 - Compilation 6: bookbinder mending a family cookbook (21); snowplow driver before dawn (new); piano tuner in an empty school hall before the winter concert (new); hedgehog making her winter bed in a woodpile (new); seaside station café waiting for the last train in fog (new); library knitting circle on a windy night (new).
+- Compilation 7 (theme rain, 8 stories): lock keeper (26); baker's cat (28); tailor hemming a winter coat (31); bringing the cows in (32); jam with grandmother (34); island ferry office tide chalkboard (35); toy mender's wind-up bear (37); night train attendant (38).
 
-## Story idea bank (25 + refill 26-40; numbers 1-25 are all used by compilation 6, start from 26)
+## Story idea bank (25 + refill 26-40; numbers 1-25 used by compilation 6; 26, 28, 31, 32, 34, 35, 37, 38 used by compilation 7; left: 27, 29, 30, 33, 36, 39, 40)
 
 1. A night-shift bus driver on the last route of the evening, with three regular passengers who never speak but always wave.
 2. An old woman who runs a tiny greenhouse and talks each plant through a frosty night.

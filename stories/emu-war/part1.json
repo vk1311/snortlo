@@ -1,0 +1,255 @@
+{
+ "channel": "Snortlo",
+ "series": "Lo Explains #11",
+ "format": "concept",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "hook": {
+  "pillars": "headline text AUSTRALIA VS EMUS + recordscratch + slow zoom",
+  "formula": "Unexpected Truth"
+ },
+ "sources": [
+  "https://www.britannica.com/topic/Emu-War",
+  "https://en.wikipedia.org/wiki/Emu_War",
+  "https://australiangeographic.com.au/?p=23036"
+ ],
+ "end_card": {
+  "text": "SEND THIS TO|YOUR HISTORY NERD",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "AUSTRALIA|VS EMUS",
+    "bg1": "#FFF1D9",
+    "bg2": "#E0A84E"
+   },
+   "text": "Did Australia really lose a war to birds? Most people think it's a joke. It isn't.",
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "Nineteen thirty two. Western Australia. About twenty thousand emus are eating the wheat farms around Campion.",
+   "sfx": "ding",
+   "cards": [
+    "20000"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "A lot of those farmers were ex soldiers. So they asked the government for machine guns.",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "The army sends Major Meredith, two gunners, two Lewis guns and ten thousand rounds of ammo.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 540,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "on": "boss"
+   }
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "November second. They spot about fifty emus. The birds split into tiny groups and scatter.",
+   "sfx": "slidedown",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 420,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "me",
+     "x": 800,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "1,000 EMUS|1 JAMMED GUN",
+    "bg1": "#FFE0E0",
+    "bg2": "#F28F8F"
+   },
+   "text": "Two days later, an ambush at a dam. More than a thousand emus. And the gun jams.",
+   "sfx": "metalpipe",
+   "meme": "shake",
+   "pause": 0.4
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "So they put a gun on a truck. The emus outran the truck, and the ride was too bumpy to aim.",
+   "sfx": "clownhorn",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "LIKE|TANKS",
+    "bg1": "#E3EEF7",
+    "bg2": "#4E7FA8"
+   },
+   "text": "Meredith said the emus could face machine guns with the invulnerability of tanks.",
+   "sfx": "vineboom"
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "Back home, one politician joked that the emus had won every round so far.",
+   "sfx": "laughtrack",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "laugh"
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "By December tenth, the army pulled out for good. Meredith claimed nine hundred and eighty six birds, a number historians still argue about.",
+   "sfx": "sadtrombone",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "state": {},
+   "text": "Farmers went back to bounties and fences. The army never came back, even when farmers asked again.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 360,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 760,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BIRDS|WIN",
+    "bg1": "#E7F7E9",
+    "bg2": "#5FB36B"
+   },
+   "text": "So yes. Australia brought machine guns to a bird fight. And the birds won.",
+   "sfx": "phonk",
+   "pause": 0.6
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #70",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "sleep",
+ "hook": {
+  "pillars": "caption text + ding + teacher leaning in",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Lo. Are you sleeping in my class?",
+   "voice": "af_nicole",
+   "speaker": "boss",
+   "pause": 0.6,
+   "top_text": "Teacher, catching me asleep|in first period:",
+   "set": "classroom",
+   "state": {
+    "board": "PERIOD 1"
+   },
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "No miss. I'm resting my eyes, so I can listen better.",
+   "speaker": "me",
+   "pause": 0.6,
+   "top_text": "Me, eyes still closed:",
+   "set": "classroom",
+   "state": {
+    "board": "PERIOD 1"
+   },
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "Oh really? Then what did I just say?",
+   "voice": "af_nicole",
+   "speaker": "boss",
+   "pause": 0.5,
+   "top_text": "Teacher:",
+   "set": "classroom",
+   "state": {
+    "board": "PERIOD 1"
+   },
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "relax",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.2,
+    "on": "boss"
+   }
+  },
+  {
+   "text": "Rest your eyes, so you can listen better?",
+   "speaker": "me",
+   "pause": 0.9,
+   "top_text": "Me, 100% confident:",
+   "set": "classroom",
+   "state": {
+    "board": "PERIOD 1"
+   },
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "boss",
+     "x": 300,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "me",
+     "x": 700,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "closed",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "text": "",
+   "hold": 1.8,
+   "top_text": "Detention, apparently,|is also for resting:",
+   "set": "classroom",
+   "state": {
+    "board": "DETENTION"
+   },
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    }
+   ]
+  }
+ ]
+}

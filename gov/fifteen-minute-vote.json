@@ -1,0 +1,14 @@
+{
+ "day": "20261118",
+ "start": 7755.9,
+ "end": 7767.6,
+ "end_on_word": "vote",
+ "end_on_last": true,
+ "tail": 0.5,
+ "top_text": "Me telling my wife the hardware|store run will take 15 minutes:",
+ "sfx": [
+  {"at_word": "vote", "name": "dundun", "delay": 0.2, "gain": 0.7, "last": true}
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-11-18, caption clock ~7756-7767; the chair puts the question on H.R. 9640 (Earth Mapping Resources Initiative) and announces 'this is a 15 minute vote'; procedural only"
+}

@@ -84,9 +84,12 @@ def run(cfg, out_dir):
                "machine_shape": "NvidiaTeslaT4",
                "dataset_sources": [], "competition_sources": [], "kernel_sources": []},
               open(os.path.join(work, "kernel-metadata.json"), "w"))
-    code, out = kaggle("kernels", "push", "-p", work)
-    if code != 0 or "error" in out.lower() and "successfully" not in out.lower():
-        return False, "push failed: " + out[-400:]
+    if cfg.get("mode") == "collect":  # re-attach to a kernel that is already running (Nov 20: the voices process was killed mid-run)
+        pass
+    else:
+        code, out = kaggle("kernels", "push", "-p", work)
+        if code != 0 or "error" in out.lower() and "successfully" not in out.lower():
+            return False, "push failed: " + out[-400:]
     # big nights (sleep story + podcast) take ~5 s per line on the T4; scale the wait so a slow run isn't logged as "Kaggle down"
     wait = max(MAX_WAIT, 900 + 8 * len(cfg.get("jobs", [])))
     t0, status = time.time(), ""
@@ -116,6 +119,11 @@ def run(cfg, out_dir):
 
 if __name__ == "__main__":
     mode, src, out_dir = sys.argv[1:4]
+    if mode == "collect":
+        # python3 kaggle_tts.py collect - <cache_dir>: wait for the running kernel, download its wavs into the voice cache,
+        # then rerun `nightly.py voices` (everything is cached, so no new Kaggle run). Use it if the voices process dies.
+        ok, msg = run({"mode": "collect", "jobs": []}, out_dir)
+        print(("OK " if ok else "FAILED ") + msg); sys.exit(0 if ok else 2)
     if mode == "design":
         d = json.load(open(src))
         cfg = {"mode": "design", "ref_text": d["ref_text"], "voices": d["voices"]}
