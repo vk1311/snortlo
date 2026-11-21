@@ -1,0 +1,15 @@
+{
+ "channel": "Snortlo", "format": "meme", "series": "Lo vs Life #71", "voice": "am_puck", "speed": 1.15, "music": false, "theme": "sleep",
+ "hook": {"pillars": "caption text + pop + Lo dropping into bed", "formula": "n/a (meme)"},
+ "end_card": {"text": "SEND THIS TO|YOUR BESTIE", "secs": 2},
+ "beats": [
+  {"text": "", "hold": 2.6, "top_text": "Nobody:", "set": "bedroom", "state": {"dark": true, "clock": "11:30"}, "sfx": "pop",
+   "cast": [{"who": "me", "x": 540, "facing": 1, "pose": "relax", "face": {"eyes": "closed", "mouth": "smile"}}]},
+  {"text": "", "hold": 3.4, "top_text": "My brain at 2 AM: remember waving|back at a stranger in 2014?", "set": "bedroom", "state": {"dark": true, "clock": "2:00"}, "sfx": "ding",
+   "cast": [{"who": "me", "x": 540, "facing": 1, "pose": "shocked", "face": {"eyes": "wide", "mouth": "o"}}], "cam": {"zoom": 1.15, "on": "me"}},
+  {"text": "", "hold": 3.0, "top_text": "Me, replaying it in 4K|from three different angles:", "set": "bedroom", "state": {"dark": true, "phone": true, "clock": "2:40"}, "sfx": "heartbeat",
+   "cast": [{"who": "me", "x": 540, "facing": 1, "pose": "facepalm", "face": {"eyes": "worried", "mouth": "wavy"}, "fx": {"sweat": true}}]},
+  {"text": "", "hold": 3.2, "top_text": "My brain at 2:41:|ok now do grade 7", "set": "bedroom", "state": {"dark": true, "clock": "2:41"}, "sfx": "vineboom", "meme": "shake",
+   "cast": [{"who": "me", "x": 540, "facing": 1, "pose": "slump", "face": {"eyes": "wide", "mouth": "frown"}}], "cam": {"zoom": 1.35, "on": "me"}}
+ ]
+}

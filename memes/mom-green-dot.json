@@ -1,0 +1,18 @@
+{
+ "channel": "Snortlo", "format": "meme", "series": "Lo vs Life #72", "voice": "am_puck", "speed": 1.15, "music": false, "theme": "sleep",
+ "hook": {"pillars": "caption text + voiced mom question + textbuzz + phone glow", "formula": "n/a (meme)"},
+ "end_card": {"text": "SEND THIS TO|YOUR MOM", "secs": 2},
+ "beats": [
+  {"text": "Are you getting enough sleep, sweetie?", "voice": "af_nicole", "speaker": "co2", "pause": 0.8, "top_text": "Mom, calling at 9 AM:", "set": "living", "state": {"tv": ""}, "sfx": "textbuzz",
+   "cast": [{"who": "co2", "x": 260, "facing": 1, "pose": "talk", "face": {"eyes": "worried", "mouth": "o"}, "act": "talk"},
+            {"who": "me", "x": 560, "facing": -1, "pose": "stand", "face": {"eyes": "flat", "mouth": "smile"}}]},
+  {"text": "Yes mom. Eight hours. In bed by ten, every night.", "speaker": "me", "pause": 0.9, "top_text": "Me, lying with my whole chest:", "set": "living", "state": {"tv": ""}, "sfx": "sparkle",
+   "cast": [{"who": "co2", "x": 260, "facing": 1, "pose": "cross", "face": {"eyes": "flat", "mouth": "flat"}},
+            {"who": "me", "x": 560, "facing": -1, "pose": "hips", "face": {"eyes": "smug", "mouth": "grin"}, "act": "talk"}]},
+  {"text": "Then why were you online at three forty seven?", "voice": "af_nicole", "speaker": "co2", "pause": 0.9, "top_text": "Mom, who has never once|used the app except to check that:", "set": "living", "state": {"tv": ""}, "sfx": "recordscratch",
+   "cast": [{"who": "co2", "x": 260, "facing": 1, "pose": "point", "face": {"eyes": "smug", "mouth": "grin"}, "act": "talk"},
+            {"who": "me", "x": 560, "facing": -1, "pose": "shocked", "face": {"eyes": "wide", "mouth": "o"}, "fx": {"sweat": true}}], "cam": {"zoom": 1.2, "on": "co2"}},
+  {"text": "", "hold": 2.2, "top_text": "Me, realizing the green dot|snitched on me:", "set": "living", "state": {"tv": ""}, "sfx": "bruh", "meme": "shake",
+   "cast": [{"who": "me", "x": 500, "facing": 1, "pose": "facepalm", "face": {"eyes": "closed", "mouth": "frown"}}], "cam": {"zoom": 1.3, "on": "me"}}
+ ]
+}

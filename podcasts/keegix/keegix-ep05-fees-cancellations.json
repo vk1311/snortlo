@@ -1,0 +1,1027 @@
+{
+ "brand": "keegix",
+ "episode": 5,
+ "slug": "keegix-ep05-fees-cancellations",
+ "air_date": "2026-12-01",
+ "title": "Airbnb Host Fees Explained: the 15.5% Fee, What Guests See & Flexible vs Strict Cancellations | Keegix Podcast",
+ "card_title": "Airbnb host fees and cancellation policies",
+ "guest": {
+  "name": "Theo",
+  "role": "Cottage host, Annapolis Valley",
+  "voice": "bm_daniel"
+ },
+ "hook": {
+  "pillars": "headline text ($100 -> $84.50 stat card) + ding sfx on the card + slow zoom on photo",
+  "formula": "Unexpected Truth"
+ },
+ "description": "Where every dollar of a short-term rental booking goes: Airbnb's single 15.5% host fee vs the old split fee, how to reprice so your payout holds, what guests see with total price display, cleaning, pet and extra guest fees, GST/HST and the Halifax marketing levy, and how to choose between Flexible, Moderate, Limited and Firm cancellation policies. Plus Vrbo's 12% commission and why its Firm policy isn't Airbnb's.\nIn the news: nearly all Airbnb hosts on the single fee (Nov 5, 2026) and Airbnb's Nov 20 house rules.\nHosts and guests on this show are AI voices. Facts are sourced below. Theo is a fictional character, not a real person.\nPlatform fees and policies are as of November 2026 and change often. Tax rules depend on your situation and vary by province and city. Not legal or tax advice.\nStart free for one property: keegix.com/start",
+ "tags": [
+  "airbnb host fees",
+  "airbnb service fee",
+  "airbnb 15.5 host fee",
+  "airbnb host only fee",
+  "airbnb cancellation policy",
+  "airbnb flexible vs strict",
+  "airbnb cleaning fee",
+  "airbnb total price display",
+  "vrbo commission 2026",
+  "vrbo cancellation policy",
+  "airbnb gst hst canada",
+  "halifax marketing levy",
+  "keegix podcast"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "visuals": [
+    "calculator",
+    "coins",
+    "price tag",
+    "cottage"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Most hosts think the price they type into Airbnb is the price they earn. For most hosts now, the opposite is true. Set one hundred dollars a night, and you take home eighty four dollars and fifty cents.",
+     "card": {
+      "type": "stat",
+      "big": "$100 → $84.50",
+      "label": "What a host keeps on a $100 night under the single 15.5% fee",
+      "source": "Airbnb Resource Centre"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And here's the twist. Guests don't see a separate service fee on those bookings anymore. So the guest might be paying less than last year, and the host might be earning less than last year, on the exact same night."
+    },
+    {
+     "who": "host",
+     "text": "So today, where every dollar of a booking goes. The single host fee, what guests actually see, the taxes on top, and how to pick between flexible and strict without guessing. And stick around for Vrbo, because one word means two very different things on the two platforms."
+    }
+   ]
+  },
+  {
+   "heading": "Intro",
+   "visuals": [
+    "lighthouse",
+    "apple orchard",
+    "cottage porch",
+    "guest book",
+    "front door"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Welcome to the Keegix Podcast, a weekly show about running a B and B, a cottage or a short term rental. I'm Nicole. Every fact we use is sourced in the description.",
+     "card": "clear"
+    },
+    {
+     "who": "host",
+     "text": "This is episode five. Airbnb host fees and cancellation policies, explained. The single host fee, how prices show up for guests, cleaning and pet fees, the G S T and H S T, the Halifax marketing levy, and the cancellation ladder from flexible to strict."
+    },
+    {
+     "who": "host",
+     "text": "My guest today is Theo. Theo plays a host with two cottages in the Annapolis Valley of Nova Scotia. Not a real person, and not a lawyer or an accountant. Welcome, Theo.",
+     "card": {
+      "type": "point",
+      "text": "Theo plays a cottage host. Not a real person."
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Nicole. One note before we start. Platform fees and policies today are as of November twenty twenty six. They change often, so check the current help page for your own listing. And tax rules depend on your situation, so this isn't tax advice."
+    },
+    {
+     "who": "host",
+     "text": "Good. Let's start with what happened in the last two weeks, because both of these stories are about fees."
+    }
+   ]
+  },
+  {
+   "heading": "In the news: the single fee is nearly everywhere, and the Nov 20 rules start",
+   "visuals": [
+    "newspaper",
+    "laptop keyboard",
+    "calendar",
+    "kitchen sink",
+    "clean towels"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Story one. On November fifth, Airbnb reported its third quarter results. A trade publication that covers the industry reported that, according to Airbnb, nearly all remaining hosts have now moved to the single fee of fifteen point five percent.",
+     "card": {
+      "type": "history",
+      "year": "Nov 5, 2026",
+      "text": "Airbnb reports nearly all remaining hosts now on the single 15.5% host fee"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "So if you haven't looked at your payouts in a while, this is the month. The old setup, where the host paid about three percent and the guest paid their own fee on top, is almost gone."
+    },
+    {
+     "who": "host",
+     "text": "Story two. Airbnb's new house rules policy started on November twentieth, for bookings made on or after that date. Global News covered it the same day. Hosts now pick from standard house rules, and can no longer require checkout chores like washing dishes, stripping beds, starting laundry or taking the trash off site.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb, from Nov 20, 2026",
+      "text": "No required checkout chores like dishes, stripping beds or laundry",
+      "source": "Global News",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And this one touches fees directly. Cleaning fees are still allowed. What you can't do is charge a guest for skipping a task. Airbnb's fee page says the same thing. No fees, charges or penalties for not doing cleaning or checkout tasks."
+    },
+    {
+     "who": "host",
+     "text": "Hosts can still ask guests to put dishes in the sink, gather the towels and sort the recycling. Airbnb is reviewing listings through March, and hosts get at least twenty days to fix a flagged rule or appeal. We covered the house rules side in episode four. Today we follow the money."
+    }
+   ]
+  },
+  {
+   "heading": "Airbnb service fees explained: split fee vs single host fee",
+   "visuals": [
+    "ledger book",
+    "calculator",
+    "receipt",
+    "pencil",
+    "spreadsheet"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So Theo, start at the beginning. What are the two fee setups?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb has had two. The first is the split fee. The host pays a small fee, three percent for most hosts. And the guest pays a separate service fee on top of the booking, between fourteen point one and sixteen point five percent of the subtotal.",
+     "card": {
+      "type": "compare",
+      "left_title": "Split fee",
+      "left": "Host about 3%. Guest pays 14.1% to 16.5% on top.",
+      "right_title": "Single fee",
+      "right": "Host pays it all. Most hosts 15.5%."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And the second?"
+    },
+    {
+     "who": "guest",
+     "text": "The single fee. The host pays the whole service fee, and the guest pays no separate Airbnb fee. Airbnb's help centre says most hosts on the single fee pay fifteen point five percent. Others typically pay between fourteen and sixteen percent."
+    },
+    {
+     "who": "host",
+     "text": "Can a host choose which one they're on?"
+    },
+    {
+     "who": "guest",
+     "text": "Not really, and that's the part people miss. Airbnb's help centre says the split fee is being phased out. The single fee is required for most hosts, including hotels, serviced apartments and anyone using property management software. And once you're switched to the single fee, you can't go back.",
+     "card": {
+      "type": "list",
+      "title": "Single fee, as of Nov 2026",
+      "items": [
+       "Required for most hosts",
+       "Being phased in for everyone",
+       "No switching back",
+       "Old bookings keep old fees"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "What about bookings people already made before a host switched?"
+    },
+    {
+     "who": "guest",
+     "text": "Those keep the old structure, even if the stay is months away. So for a while you might see both kinds of payouts in the same month. That confuses a lot of hosts. It looks like your earnings dropped on some stays and not others."
+    },
+    {
+     "who": "host",
+     "text": "So say a host opens their payout report in January, sees two different numbers for two identical weekends, and thinks something broke."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. Nothing broke. One weekend was booked under the old split fee, the other under the single fee. Check the booking date, not the stay date."
+    },
+    {
+     "who": "host",
+     "text": "Why did Airbnb do this at all?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb's own explanation is simple. Guests see the price the host sets, without a fee added at checkout. No extra fee appears at the last step. So the fee moved to the host's side of the ledger."
+    },
+    {
+     "who": "host",
+     "text": "Which means the next question is the one that actually costs hosts money. If the fee moved to you, did your price move with it?"
+    }
+   ]
+  },
+  {
+   "heading": "How to reprice for the 15.5% host fee",
+   "visuals": [
+    "calculator",
+    "notebook",
+    "coffee mug",
+    "desk lamp",
+    "price tag"
+   ],
+   "lines": [
+    {
+     "who": "guest",
+     "text": "Here's the math. On the single fee, the host keeps eighty four and a half percent of the price. So a one hundred dollar night pays out eighty four dollars and fifty cents. Airbnb's own example says that to keep roughly the same payout as before, a host would raise that price to about one hundred and fifteen dollars, which pays out about ninety seven.",
+     "card": {
+      "type": "stat",
+      "big": "$115",
+      "label": "Airbnb's example price to keep about the same payout as a $100 night under the old split",
+      "source": "Airbnb Resource Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Is there a quick way to work it out for my own price?"
+    },
+    {
+     "who": "guest",
+     "text": "Yes. Take the number you want to land in your bank, and divide it by zero point eight four five. Want two hundred dollars a night after the fee? Two hundred divided by zero point eight four five is about two hundred and thirty seven dollars.",
+     "card": {
+      "type": "point",
+      "text": "Price = what you want to keep ÷ 0.845"
+     }
+    },
+    {
+     "who": "host",
+     "text": "That sounds like a big jump. Won't guests notice?"
+    },
+    {
+     "who": "guest",
+     "text": "Here's the thing. Under the old split, the guest was already paying around fourteen percent on top of your price at checkout. So the guest's total doesn't have to go up. You're mostly moving a number guests always paid from their side of the screen to yours."
+    },
+    {
+     "who": "host",
+     "text": "So the fair comparison isn't your old price against your new price."
+    },
+    {
+     "who": "guest",
+     "text": "No. It's what the guest paid in total last year against what they pay now. If the totals match, guests haven't lost anything, and you've got your payout back."
+    },
+    {
+     "who": "host",
+     "text": "Does that apply to the cleaning fee and the pet fee too?"
+    },
+    {
+     "who": "guest",
+     "text": "It does, because the service fee is worked out on the booking, and that includes the fees you add. If your cleaning fee was set to exactly cover your cleaner, you're now short on every stay. Look at that number on its own."
+    },
+    {
+     "who": "host",
+     "text": "And what if a host simply doesn't reprice?"
+    },
+    {
+     "who": "guest",
+     "text": "Then they earn roughly thirteen percent less per night than before, on every new booking, and they might not notice until tax time. Picture a calendar that's fuller than ever, and a bank account that's thinner than ever. The cheaper total is doing its job. The host just never decided to pay for it."
+    },
+    {
+     "who": "host",
+     "text": "Here's my question. Should everyone raise prices fifteen percent tomorrow?"
+    },
+    {
+     "who": "guest",
+     "text": "No. In a slow season, a slightly lower total might be exactly what fills your calendar, and episode two covered that. The point is to choose it. Write down your payout per night before and after, and decide on purpose."
+    }
+   ]
+  },
+  {
+   "heading": "What guests see: total price display, cleaning fees and pet fees",
+   "visuals": [
+    "laptop",
+    "smartphone",
+    "dining table",
+    "mop bucket",
+    "dog bed",
+    "spare bedroom"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Now the guest's side of the screen. What does a guest actually see when they search?"
+    },
+    {
+     "who": "guest",
+     "text": "Since April twenty twenty five, Airbnb shows the total price by default for guests worldwide. TechCrunch reported it at the time. The price in search includes all fees, cleaning included, but not taxes. And the toggle that used to turn it on and off is gone.",
+     "card": {
+      "type": "history",
+      "year": "Apr 2025",
+      "text": "Airbnb shows the total price, all fees included, to guests worldwide"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And Canada was early for this, right?"
+    },
+    {
+     "who": "guest",
+     "text": "Canada was one of the test markets back in twenty nineteen. So Canadian guests have been comparing totals for a while."
+    },
+    {
+     "who": "host",
+     "text": "What fees can a host add on Airbnb?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb's help centre lists them. A cleaning fee, which is one flat amount per booking. A pet fee, charged per booking, per pet, per night, or per pet per night. And an extra guest fee, which kicks in above a guest count you choose. Professional hosts get a few more types, like linens or resort fees.",
+     "card": {
+      "type": "list",
+      "title": "Fees a home host can add",
+      "items": [
+       "Cleaning fee, flat per booking",
+       "Pet fee, four ways to charge",
+       "Extra guest fee",
+       "A few others for pros"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Any limits on the pet fee?"
+    },
+    {
+     "who": "guest",
+     "text": "Yes. You can't charge a pet fee for a service animal. And in some places you can't charge one for an emotional support animal either. If someone mentions an assistance animal, check the rule where you are before you add anything."
+    },
+    {
+     "who": "host",
+     "text": "Here's the part nobody tells you about cleaning fees. Why does a big one hurt short stays so much?"
+    },
+    {
+     "who": "guest",
+     "text": "Because it's flat. Say your night is one hundred and twenty dollars and your cleaning fee is ninety. On a one night stay, the guest sees two hundred and ten before tax. That's almost double your nightly price. On a five night stay, the same ninety dollars barely moves the total."
+    },
+    {
+     "who": "host",
+     "text": "So the cleaning fee decides who books."
+    },
+    {
+     "who": "guest",
+     "text": "Pretty much. A high cleaning fee quietly pushes you toward longer stays. If you want weekend guests, a lower cleaning fee with a slightly higher nightly price often looks better in search, because search now shows the total."
+    },
+    {
+     "who": "host",
+     "text": "And after November twentieth, you can't make up the difference with checkout chores."
+    },
+    {
+     "who": "guest",
+     "text": "Right. If the clean costs what it costs, it goes in the cleaning fee or the nightly price. Not in a list of jobs for the guest."
+    }
+   ]
+  },
+  {
+   "heading": "A word from Keegix",
+   "visuals": [
+    "front door",
+    "welcome mat",
+    "house keys",
+    "checklist clipboard"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "A quick word from the people who make this show. Keegix makes a digital welcome book for hosts. It's one page guests open from a sign by the door, with the check in steps, the wifi, the heat and your local picks. It's also a good place to explain, in plain words, what's already included, so the reasonable asks after November twentieth read as friendly requests.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "And you can start free for one property at keegix dot com slash start."
+    },
+    {
+     "who": "host",
+     "text": "Back to the money. Because the next thing on the bill isn't Airbnb's at all. It's the tax line."
+    }
+   ]
+  },
+  {
+   "heading": "GST, HST and the Halifax marketing levy on short-term rentals",
+   "visuals": [
+    "calculator",
+    "ledger book",
+    "Halifax waterfront",
+    "filing cabinet",
+    "padlock"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Theo, let's do taxes, carefully. What does the Canada Revenue Agency say about short stays?"
+    },
+    {
+     "who": "guest",
+     "text": "The C R A says the G S T and H S T apply to short term accommodation, which it describes as stays of less than one month. A host whose gross revenue goes over thirty thousand dollars in four calendar quarters has to register, collect and remit it.",
+     "card": {
+      "type": "rule",
+      "title": "Canada Revenue Agency",
+      "text": "GST/HST applies to short stays. Register once revenue tops $30,000 in four quarters.",
+      "source": "Canada.ca",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And what if a host is under that line?"
+    },
+    {
+     "who": "guest",
+     "text": "Since July first, twenty twenty one, there have been G S T and H S T rules for accommodation platform operators. In practice, Airbnb's help centre says that for hosts who aren't registered, Airbnb collects and remits the tax on the stay. Guests pay between five and fifteen percent, depending on the province, on the listing price and the cleaning fee, for stays of thirty nights or fewer."
+    },
+    {
+     "who": "host",
+     "text": "And here in Nova Scotia?"
+    },
+    {
+     "who": "guest",
+     "text": "The province lowered the H S T to fourteen percent, starting April first, twenty twenty five. So that's the rate on a Nova Scotia stay, as of now.",
+     "card": {
+      "type": "stat",
+      "big": "14%",
+      "label": "Nova Scotia HST since April 1, 2025",
+      "source": "Government of Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "What changes once a host does register?"
+    },
+    {
+     "who": "guest",
+     "text": "You give Airbnb your G S T or H S T number, and Airbnb stops collecting it on your listing price and cleaning fee. Then you handle it yourself. Airbnb warns about one trap. If you'd already built the tax into your nightly price, adding your number can push the guest's price up. So check your price the day you register."
+    },
+    {
+     "who": "host",
+     "text": "Then there's the Halifax one."
+    },
+    {
+     "who": "guest",
+     "text": "The Halifax marketing levy. It's three percent of the nightly revenue for stays of thirty days or less in the Halifax Regional Municipality. Hosts have had to collect it since October first, twenty twenty three. The good news is the platforms collect it now. Airbnb since September first, twenty twenty four, and the other big booking sites since October that year.",
+     "card": {
+      "type": "rule",
+      "title": "Halifax Marketing Levy",
+      "text": "3% on nightly revenue for stays of 30 days or less. Platforms collect it.",
+      "source": "Halifax.ca",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And direct bookings?"
+    },
+    {
+     "who": "guest",
+     "text": "On a direct booking, the host collects the levy and files it monthly, by the fifteenth. The city charges a late fee of twenty five dollars a day plus interest. So if you take any bookings by e mail or phone in Halifax, put a reminder in your calendar."
+    },
+    {
+     "who": "host",
+     "text": "And for income tax, the C R A points rental income to form T seven seven six, and business income, like when you provide meals or cleaning services, to form T twenty one twenty five. Which one fits you depends on what you offer. Rules vary by province and city. This isn't legal or tax advice. Talk to an accountant about your own setup."
+    },
+    {
+     "who": "guest",
+     "text": "And now the part every host has an opinion on. Flexible or strict."
+    }
+   ]
+  },
+  {
+   "heading": "Airbnb cancellation policies: flexible vs strict, and how to choose",
+   "visuals": [
+    "wall calendar",
+    "suitcase",
+    "airport",
+    "empty bedroom",
+    "snowy road",
+    "hourglass"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "We went through the cancellation horror stories in episode three. Today I want the quick ladder, and then how a host actually chooses."
+    },
+    {
+     "who": "guest",
+     "text": "Here's the ladder for stays under twenty eight nights, as of now. Flexible gives a full refund until twenty four hours before check in. Moderate, until five days before. Limited, which is new for bookings from October first, twenty twenty five, gives a full refund until fourteen days out, and half back between seven and fourteen days. Firm gives a full refund until thirty days out, and half back between seven and thirty days.",
+     "card": {
+      "type": "list",
+      "title": "Full refund until...",
+      "items": [
+       "Flexible: 24 hours before",
+       "Moderate: 5 days before",
+       "Limited: 14 days before",
+       "Firm: 30 days before"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And inside seven days on Limited or Firm?"
+    },
+    {
+     "who": "guest",
+     "text": "The host is paid in full. Strict and the super strict policies exist too, but they're invitation only. And every standard policy has a twenty four hour free cancellation window, as long as the booking was made at least seven days before check in."
+    },
+    {
+     "who": "host",
+     "text": "What about longer stays?"
+    },
+    {
+     "who": "guest",
+     "text": "Stays of twenty eight nights or more use a long term policy. On the firm version, the guest needs to cancel at least thirty days ahead for a full refund. After that, the host is paid for the nights spent plus thirty more nights.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb long stays, 28+ nights",
+      "text": "Firm: full refund 30 days ahead. After that, host paid nights spent plus 30.",
+      "source": "Airbnb Help Centre",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Here's a number that surprised me. That same trade publication reported Airbnb's finance chief saying the overall cancellation rate was about nineteen percent this summer, up from about sixteen percent a year earlier."
+    },
+    {
+     "who": "guest",
+     "text": "And part of the reason is Reserve Now, Pay Later, where guests can hold a booking and pay closer to the date. The report says it now covers every standard policy, including Limited and Firm. So more guests are booking early and changing plans. Your policy matters more than it used to."
+    },
+    {
+     "who": "host",
+     "text": "So how does a host actually choose?"
+    },
+    {
+     "who": "guest",
+     "text": "Start with how far ahead your guests book. If most of your bookings come in two or three weeks out, a thirty day Firm policy means almost every guest books inside the strict part. That can scare people off. If your summer weekends book in February, Firm protects dates you genuinely can't refill."
+    },
+    {
+     "who": "host",
+     "text": "So the policy should match your booking window."
+    },
+    {
+     "who": "guest",
+     "text": "That's the rule of thumb I'd use. Look at your last twenty bookings. How many days between booking and check in? If it's usually under two weeks, Flexible or Moderate costs you very little. If it's months, Limited or Firm starts to earn its keep."
+    },
+    {
+     "who": "host",
+     "text": "What about the non refundable option?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb lets you offer a discounted non refundable rate alongside your normal policy. The guest picks. Cheaper and locked in, or a bit more and flexible. The twenty four hour window still applies to it. For a winter cottage where a storm can wipe out a weekend, I'd rather offer both and let the guest decide."
+    },
+    {
+     "who": "host",
+     "text": "Give me the winter version of that choice."
+    },
+    {
+     "who": "guest",
+     "text": "Say it's a Valley cottage in February, and most bookings come in ten days ahead. On Firm, a guest who books ten days out is already past the full refund line the moment they book. That feels harsh to them, so some won't book. On Moderate, they can cancel up to five days out, which is usually when the forecast gets clear. For a place like that, Moderate plus a cheaper non refundable rate covers both kinds of guest."
+    },
+    {
+     "who": "host",
+     "text": "And in July?"
+    },
+    {
+     "who": "guest",
+     "text": "In July the same cottage might book months ahead, and an empty week is hard to refill. That's where Limited or Firm makes sense. Some hosts switch policies by season. Just remember the policy that applies is the one on the listing when the guest books."
+    },
+    {
+     "who": "host",
+     "text": "And who gets their service fee back when a guest cancels?"
+    },
+    {
+     "who": "guest",
+     "text": "On single fee bookings there usually isn't a guest service fee at all. Where there is one, Airbnb refunds it only if the guest cancels inside the free cancellation period. And remember, a major disruptive event, or Airbnb's rebooking and refund policy, can override whichever policy you picked."
+    },
+    {
+     "who": "host",
+     "text": "Okay. Now the trap I promised. Same word, two platforms."
+    }
+   ]
+  },
+  {
+   "heading": "Vrbo host fees and cancellation policies",
+   "visuals": [
+    "lake cabin",
+    "canoe",
+    "wooden dock",
+    "calendar",
+    "calculator"
+   ],
+   "lines": [
+    {
+     "who": "guest",
+     "text": "Lots of cottage hosts list on Vrbo too. As of October twenty ninth, twenty twenty six, Vrbo retired its yearly subscription. Hosts move to pay per booking when their current term ends. The commission is a flat twelve percent, and that includes payment processing. Depending on the region, it can run from twelve to fifteen percent.",
+     "card": {
+      "type": "stat",
+      "big": "12%",
+      "label": "Vrbo's flat commission from Oct 29, 2026 (12-15% by region), processing included",
+      "source": "Expedia Group newsroom"
+     }
+    },
+    {
+     "who": "host",
+     "text": "On what part of the booking?"
+    },
+    {
+     "who": "guest",
+     "text": "The rent plus fees the host adds, like cleaning and pet fees. Guests still pay a traveller service fee, which Vrbo says will typically be lower. And bookings made before the change keep the old rate."
+    },
+    {
+     "who": "host",
+     "text": "So the repricing math changes too."
+    },
+    {
+     "who": "guest",
+     "text": "It does, but with a different number. On a twelve percent commission, you keep eighty eight percent. So you'd divide what you want to keep by zero point eight eight. Which is why the same nightly price on two platforms doesn't pay the same."
+    },
+    {
+     "who": "host",
+     "text": "Now the trap. Vrbo has a policy called Firm too, right?"
+    },
+    {
+     "who": "guest",
+     "text": "It does, and it means something very different. On Airbnb, Firm gives a full refund until thirty days out. On Vrbo, Firm gives a full refund only until sixty days out, and half back between thirty and sixty days.",
+     "card": {
+      "type": "compare",
+      "left_title": "Airbnb Firm",
+      "left": "Full refund until 30 days out",
+      "right_title": "Vrbo Firm",
+      "right": "Full refund until 60 days out"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So a host who picks Firm on both thinks they have one policy."
+    },
+    {
+     "who": "guest",
+     "text": "And they actually have two. A guest who cancels forty five days out gets everything back on one platform and half on the other. Vrbo has seven options in all. Day before, Lenient, Relaxed, Moderate, Firm, Strict and No refund. Relaxed on Vrbo is the one that looks most like Airbnb's Limited, with a full refund until fourteen days out and half back between seven and fourteen.",
+     "card": {
+      "type": "list",
+      "title": "Vrbo's options",
+      "items": [
+       "Day-before, Lenient",
+       "Relaxed, Moderate",
+       "Firm, Strict",
+       "No refund"
+      ],
+      "source": "Vrbo Help"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Does it matter which one a guest sees first?"
+    },
+    {
+     "who": "guest",
+     "text": "It matters that your house rules and welcome book don't promise one policy while the platform enforces another. Write the cancellation terms in your own messages the way each platform actually applies them. Or just choose the closest match on each and say so."
+    }
+   ]
+  },
+  {
+   "heading": "A ten-minute fee check for this week",
+   "visuals": [
+    "notebook",
+    "pen",
+    "coffee mug",
+    "laptop",
+    "window light"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Theo, give us a check a host can do this week in about ten minutes."
+    },
+    {
+     "who": "guest",
+     "text": "Step one. Open one payout from before your switch and one from after. Write down what you actually kept per night on each.",
+     "card": {
+      "type": "list",
+      "title": "Ten-minute fee check",
+      "items": [
+       "Compare two payouts",
+       "Reprice on purpose",
+       "Rethink the cleaning fee",
+       "Match policy to lead time"
+      ]
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Step two. Decide on purpose. Either reprice with the divide by zero point eight four five trick, or keep the lower total because it fills your calendar. Both are fine. Drifting isn't."
+    },
+    {
+     "who": "guest",
+     "text": "Step three. Look at your cleaning fee next to your one night total. If one night costs nearly double your nightly price, and you want weekend guests, move some of that fee into the nightly price."
+    },
+    {
+     "who": "guest",
+     "text": "Step four. Pull your last twenty bookings and look at how many days ahead they came in. Then check your cancellation policy fits that window, and if you're on Vrbo too, check what the same policy name means there."
+    },
+    {
+     "who": "host",
+     "text": "And step five?"
+    },
+    {
+     "who": "guest",
+     "text": "Step five is the tax line. Know whether you're registered for G S T or H S T, know whether your price already had tax built in, and if you take direct bookings in Halifax, know your levy due date. If any of that is unclear, that's the question for your accountant."
+    },
+    {
+     "who": "host",
+     "text": "That's a good list, because none of it needs new software. It just needs a pen."
+    }
+   ]
+  },
+  {
+   "heading": "Host questions: payouts, the levy, long stays and the 24-hour window",
+   "visuals": [
+    "mailbox",
+    "letters",
+    "kitchen table",
+    "teapot",
+    "bookshelf",
+    "snowy porch"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's do a few quick host questions, because fees create a lot of them. First one. A guest messages, why is your place more expensive than last year? What does a host say?"
+    },
+    {
+     "who": "guest",
+     "text": "Something honest and short. Last year Airbnb added its own guest fee at checkout. Now that fee is part of the host's price, so the number you see up front is closer to the number you pay. Then point them to the total for their dates, because that's the fair comparison."
+    },
+    {
+     "who": "host",
+     "text": "Second question. I'm under thirty thousand dollars a year and not registered. So there's no tax on my stays?"
+    },
+    {
+     "who": "guest",
+     "text": "There usually is, it just isn't yours to collect on Airbnb. For hosts who aren't registered, Airbnb collects the G S T or H S T from the guest and sends it in. And your rental income still goes on your income tax return either way."
+    },
+    {
+     "who": "host",
+     "text": "Third. Does the Halifax levy apply to a guest staying five weeks?"
+    },
+    {
+     "who": "guest",
+     "text": "The levy is for stays of thirty days or less. So a five week stay is outside it. Same idea for the G S T and H S T on Airbnb. Its collection is for stays of thirty nights or fewer, and the C R A describes short term accommodation as less than a month.",
+     "card": {
+      "type": "rule",
+      "title": "Over a month",
+      "text": "Halifax levy is for 30 days or less. Airbnb collects GST/HST on stays of 30 nights or fewer.",
+      "source": "Halifax.ca, Airbnb",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Fourth. Someone books on Thursday for Saturday, then cancels an hour later. Do they get the twenty four hour free window?"
+    },
+    {
+     "who": "guest",
+     "text": "Not under Airbnb's standard policies. That window only applies when the booking was made at least seven days before check in. A last minute booking falls straight under your normal policy. So on Flexible they'd still get a full refund, but on Limited or Firm, inside seven days, the host is paid."
+    },
+    {
+     "who": "host",
+     "text": "Fifth. A traveller nurse wants six weeks, and the host is nervous about a late cancellation. What does the strict long stay policy actually say?"
+    },
+    {
+     "who": "guest",
+     "text": "On Airbnb's strict long term policy, the guest gets a full refund only if they cancel within forty eight hours of booking, and at least twenty eight days before check in. After that, the host is paid for the nights spent plus the next thirty nights. So a host isn't left with an empty month on short notice.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb Long-term Strict",
+      "text": "Full refund only within 48 hours of booking and 28+ days before check-in.",
+      "source": "Airbnb Help Centre",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Last one. I raised my cleaning fee to cover the new host fee. Is that the same thing?"
+    },
+    {
+     "who": "guest",
+     "text": "Not quite. The service fee is worked out on the cleaning fee too, so you pay fifteen point five percent on the increase as well. And a higher flat fee hits one night stays hardest. If the goal is to cover the fee, the nightly price is usually the cleaner place to do it."
+    }
+   ]
+  },
+  {
+   "heading": "Recap: five takeaways",
+   "visuals": [
+    "lighthouse",
+    "quiet harbour",
+    "cottage porch",
+    "calendar"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's recap. Number one. Most Airbnb hosts now pay a single fee of about fifteen point five percent, guests pay no separate service fee on those bookings, and there's no switching back.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Number two. To keep a payout, divide what you want to keep by zero point eight four five. But compare the guest's total, not just your price, and decide on purpose.",
+     "card": {
+      "type": "list",
+      "title": "Takeaways",
+      "items": [
+       "Single fee is the norm",
+       "Divide by 0.845",
+       "Search shows the total"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Number three. Guests see the total price with all fees before tax, so a big flat cleaning fee makes short stays look expensive. And since November twentieth, no charging for skipped chores."
+    },
+    {
+     "who": "guest",
+     "text": "Number four. The G S T and H S T apply to stays under a month, Nova Scotia's H S T is fourteen percent, and the platforms collect the Halifax levy, except on direct bookings.",
+     "card": {
+      "type": "list",
+      "title": "Takeaways",
+      "items": [
+       "HST on short stays",
+       "Levy on direct bookings is yours",
+       "Policy fits your lead time"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "And number five. Match your cancellation policy to how far ahead people book, and remember that Firm on Vrbo is sixty days, not thirty."
+    }
+   ]
+  },
+  {
+   "heading": "Outro",
+   "visuals": [
+    "porch chairs",
+    "lake sunset",
+    "front door",
+    "snowy cottage"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's episode five of the Keegix Podcast. Sources for every fee, rule and number are in the description. Thanks to Theo for the host's view."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Nicole. Open two payouts tonight. It takes five minutes."
+    },
+    {
+     "who": "host",
+     "text": "Next week, a question we get a lot since November twentieth. Can a host ask for a guest's I D? New episodes every Tuesday. See you next week."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Airbnb Help Centre: Airbnb service fees (split fee and single fee)",
+   "url": "https://www.airbnb.ca/help/article/1857"
+  },
+  {
+   "label": "Airbnb Resource Centre: Simplifying Airbnb service fees",
+   "url": "https://www.airbnb.com/resources/hosting-homes/a/simplifying-airbnb-service-fees-746"
+  },
+  {
+   "label": "Rental Scale-Up: Airbnb Q3 2026 results, what changes for hosts (Nov 6, 2026)",
+   "url": "https://www.rentalscaleup.com/airbnb-q3-2026-earnings/"
+  },
+  {
+   "label": "Airbnb Q3 2026 results notice (PR Newswire, Nov 5, 2026)",
+   "url": "https://www.morningstar.com/news/pr-newswire/20261105sf78241/airbnb-announces-third-quarter-2026-results"
+  },
+  {
+   "label": "Global News: Airbnb's new house rules (Nov 20, 2026)",
+   "url": "https://globalnews.ca/news/12160145/airbnb-new-house-rules/"
+  },
+  {
+   "label": "TechCrunch: Airbnb will automatically display total price to all users (Apr 21, 2025)",
+   "url": "https://techcrunch.com/2025/04/21/airbnb-will-automatically-display-total-price-to-all-users/"
+  },
+  {
+   "label": "Airbnb Help Centre: Add additional fees to home listings",
+   "url": "https://www.airbnb.ca/help/article/2385"
+  },
+  {
+   "label": "Airbnb Help Centre: Cancellation policies for your listing",
+   "url": "https://www.airbnb.ca/help/article/475"
+  },
+  {
+   "label": "Airbnb Help Centre: Is the Airbnb service fee refundable?",
+   "url": "https://www.airbnb.com/help/article/1345/is-the-airbnb-service-fee-refundable"
+  },
+  {
+   "label": "Vrbo Help: What are the cancellation policy options?",
+   "url": "https://help.vrbo.com/articles/What-are-the-cancellation-policy-options"
+  },
+  {
+   "label": "Expedia Group newsroom: Vrbo compensation model changes (Oct 1, 2026)",
+   "url": "https://www.expedia.com/newsroom/vrbo-compensation-model-changes/"
+  },
+  {
+   "label": "Canada Revenue Agency: The sharing economy and accommodation sharing",
+   "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/accommodation-sharing.html"
+  },
+  {
+   "label": "Canada Revenue Agency: GST/HST and the digital economy",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/digital-economy.html"
+  },
+  {
+   "label": "Airbnb Help Centre: GST/HST/QST collection in Canada",
+   "url": "https://www.airbnb.ca/help/article/2283"
+  },
+  {
+   "label": "Airbnb Help Centre: Adding your tax registration numbers",
+   "url": "https://www.airbnb.ca/help/article/3198"
+  },
+  {
+   "label": "Government of Nova Scotia: Province lowers HST (Mar 31, 2025)",
+   "url": "https://news.novascotia.ca/en/2025/03/31/province-lowers-hst-raises-income-thresholds-nova-scotians"
+  },
+  {
+   "label": "Halifax Regional Municipality: Marketing Levy",
+   "url": "https://www.halifax.ca/business/doing-business-halifax/marketing-levy"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Set $100 on Airbnb, keep $84.50",
+   "from": [
+    0,
+    0
+   ],
+   "to": [
+    0,
+    2
+   ],
+   "caption": "Most hosts think the price they set is what they earn. On the single 15.5% fee, it isn't. #airbnbhost #shorttermrental #bnbhost"
+  },
+  {
+   "title": "The repricing trick: divide by 0.845",
+   "from": [
+    4,
+    1
+   ],
+   "to": [
+    4,
+    6
+   ],
+   "caption": "Want $200 a night after Airbnb's fee? List at about $237. And compare the guest's total, not just your price. #airbnbhost #airbnbtips #hostingtips"
+  },
+  {
+   "title": "Why a big cleaning fee kills weekends",
+   "from": [
+    5,
+    8
+   ],
+   "to": [
+    5,
+    11
+   ],
+   "caption": "Airbnb search shows the total price now, so a flat cleaning fee nearly doubles a one-night stay. #airbnbhost #cleaningfee #shorttermrental"
+  },
+  {
+   "title": "Pick a cancellation policy by lead time",
+   "from": [
+    8,
+    8
+   ],
+   "to": [
+    8,
+    11
+   ],
+   "caption": "Most guests book 2 weeks out? A 30-day Firm policy puts almost all of them in the strict zone. #airbnbhost #cancellationpolicy #bnbhost"
+  },
+  {
+   "title": "Firm on Airbnb isn't Firm on Vrbo",
+   "from": [
+    9,
+    5
+   ],
+   "to": [
+    9,
+    8
+   ],
+   "caption": "Same policy name, two platforms: 30 days on Airbnb, 60 days on Vrbo. Check yours. #vrbohost #airbnbhost #shorttermrental"
+  }
+ ]
+}

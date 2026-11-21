@@ -1,0 +1,14 @@
+{
+ "day": "20261119",
+ "start": 2758.3,
+ "end": 2773.4,
+ "end_on_word": "recognized",
+ "tail": 0.6,
+ "top_text": "Me asking to skip my chores,|then 5 seconds later: why is this house a mess?",
+ "sfx": [
+  {"at_word": "not", "name": "recordscratch", "delay": 0.1, "gain": 0.7},
+  {"at_word": "recognized", "name": "bruh", "delay": 0.3, "gain": 0.6}
+ ],
+ "hold_end": 1.8,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-11-19, caption clock ~2758-2773; a member asks unanimous consent to 'speak out of order', then immediately tells the chair 'the House is not in order'; the chair restores order and recognizes him; clip ends before his remarks (a memorial tribute, not included); procedural only"
+}
