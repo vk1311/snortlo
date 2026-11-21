@@ -117,6 +117,28 @@ def layout_warnings(d):
     return warn
 
 
+# Photo searches that kept pulling people, foreign text, logos or off-topic frames (photo reviews Nov 7-21, 2026).
+RISKY_SEARCHES = {"coins", "price tag", "receipt", "cheque book", "postage stamps", "cardboard boxes", "bank vault",
+                  "government building", "newspaper", "canoe", "hourglass", "letters", "reviews stars", "gold trophy",
+                  "nurse station", "delivery truck", "front desk", "mop bucket", "dog bed", "suitcase", "snowy road", "clean towels"}
+
+
+def visuals_warnings(d):
+    """Flag risky photo searches in a podcast/Waypoint JSON before the ~30 min render (nightly.py check <json>)."""
+    out = []
+    for i, seg in enumerate(d.get("segments", [])):
+        for q in seg.get("visuals", []):
+            if q.lower().strip() in RISKY_SEARCHES:
+                out.append(f"segment {i} ({seg.get('heading', '')[:30]}): '{q}' often pulls people/foreign text/off-topic photos")
+    return out
+
+
+def cmd_check(args):
+    for a in args:
+        w = visuals_warnings(json.load(open(a)))
+        print(json.dumps({"src": a, "visuals_warnings": w}, indent=1))
+
+
 def cmd_render(pairs):
     env =dict(os.environ, VOICE_ENGINE=open(ENGINE_FILE).read().strip() if os.path.exists(ENGINE_FILE) else "auto")
     root = os.path.dirname(HERE); results = []
@@ -136,6 +158,9 @@ def cmd_render(pairs):
             if k == "short":
                 w = layout_warnings(json.load(open(src)))
                 if w: r["layout_warnings"] = w
+            elif k != "sleep":
+                w = visuals_warnings(json.load(open(src)))
+                if w: r["visuals_warnings"] = w
             results.append(r)
         except subprocess.CalledProcessError as e:
             results.append({"src": src, "out": out, "ok": False, "error": str(e)[:200]})
@@ -202,4 +227,4 @@ def cmd_block(args):
 
 if __name__ == "__main__":
     cmd, args = sys.argv[1], sys.argv[2:]
-    {"voices": cmd_voices, "render": cmd_render, "qc": cmd_qc, "photos": cmd_photos, "block": cmd_block}[cmd](args)
+    {"voices": cmd_voices, "render": cmd_render, "check": cmd_check, "qc": cmd_qc, "photos": cmd_photos, "block": cmd_block}[cmd](args)

@@ -28,7 +28,7 @@ Backups: imposter syndrome at work; people-pleasing at work; quiet quitting.
 ### Keegix Podcast (Tuesdays 10:00 Halifax)
 | Air date | Slug | Topic | Status |
 |---|---|---|---|
-| Dec 1 | keegix-ep05-fees-cancellations | Airbnb host fees and cancellation policies explained (the single host fee, what guests see, strict vs flexible) | to do |
+| Dec 1 | keegix-ep05-fees-cancellations | Airbnb host fees and cancellation policies explained (the single host fee, what guests see, strict vs flexible) | made Nov 21, scheduled |
 | Dec 8 | keegix-ep06-guest-id | Can a host ask for a guest's ID or passport? What the Nov 20 rules allow, and what to do instead | to do |
 | Dec 15 | keegix-ep07-winter-ready | Getting a cabin or cottage ready for winter guests (heat, pipes, snow, driveway, what to put in the welcome book) | to do |
 | Wed Dec 16 (bonus) | keegix-ep07b-cleaning | Vacation rental cleaning: the turnover checklist, timing between guests, hiring a cleaner vs doing it yourself, and what guests notice first. Owner asked for this bonus episode on Nov 17. Make it on Sat Dec 5 or Sat Dec 12 (whichever run has it 3-12 days out first). Episode YouTube 10:00. Its Shorts don't follow the usual 5 days in a row (every day Dec 17-20 already has 2 brand YouTube uploads): post them Dec 21, Dec 23, Dec 28, Dec 30 and Jan 4 (at 15:00 where a Keegix Short already holds 12:00; recheck the 2-a-day cap for Jan 4 once January is planned) | to do |
