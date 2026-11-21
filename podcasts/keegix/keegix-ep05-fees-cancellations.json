@@ -35,7 +35,7 @@
    "heading": "Cold open",
    "visuals": [
     "calculator",
-    "coins",
+    "piggy bank",
     "price tag",
     "cottage"
    ],
@@ -45,7 +45,7 @@
      "text": "Most hosts think the price they type into Airbnb is the price they earn. For most hosts now, the opposite is true. Set one hundred dollars a night, and you take home eighty four dollars and fifty cents.",
      "card": {
       "type": "stat",
-      "big": "$100 → $84.50",
+      "big": "$100 to $84.50",
       "label": "What a host keeps on a $100 night under the single 15.5% fee",
       "source": "Airbnb Resource Centre"
      }
@@ -104,7 +104,7 @@
     "laptop keyboard",
     "calendar",
     "kitchen sink",
-    "clean towels"
+    "folded towels"
    ],
    "lines": [
     {

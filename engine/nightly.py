@@ -130,6 +130,13 @@ def visuals_warnings(d):
         for q in seg.get("visuals", []):
             if q.lower().strip() in RISKY_SEARCHES:
                 out.append(f"segment {i} ({seg.get('heading', '')[:30]}): '{q}' often pulls people/foreign text/off-topic photos")
+        for line in seg.get("lines", []):
+            card = line.get("card")
+            if isinstance(card, dict):
+                txt = json.dumps(card, ensure_ascii=False)
+                bad = sorted({ch for ch in txt if ord(ch) > 0x2000 and ch not in "‘’“”–—…"})
+                if bad:  # the card fonts have no arrows/symbols: "$100 → $84.50" rendered as a box (Nov 21)
+                    out.append(f"segment {i}: card uses {''.join(bad)}, which the card font can't draw; write it in words")
     return out
 
 
