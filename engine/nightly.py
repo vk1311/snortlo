@@ -120,7 +120,8 @@ def layout_warnings(d):
 # Photo searches that kept pulling people, foreign text, logos or off-topic frames (photo reviews Nov 7-21, 2026).
 RISKY_SEARCHES = {"coins", "price tag", "receipt", "cheque book", "postage stamps", "cardboard boxes", "bank vault",
                   "government building", "newspaper", "canoe", "hourglass", "letters", "reviews stars", "gold trophy",
-                  "nurse station", "delivery truck", "front desk", "mop bucket", "dog bed", "suitcase", "snowy road", "clean towels"}
+                  "nurse station", "delivery truck", "front desk", "mop bucket", "dog bed", "suitcase", "snowy road", "clean towels",
+                  "medical chart", "dominoes", "desk nameplate", "phone on desk", "kitchen table", "desk telephone"}
 
 
 def visuals_warnings(d):
@@ -137,6 +138,20 @@ def visuals_warnings(d):
                 bad = sorted({ch for ch in txt if ord(ch) > 0x2000 and ch not in "‘’“”–—…"})
                 if bad:  # the card fonts have no arrows/symbols: "$100 → $84.50" rendered as a box (Nov 21)
                     out.append(f"segment {i}: card uses {''.join(bad)}, which the card font can't draw; write it in words")
+    # The spoken host name must match the on-screen name in podcast_brands (Staffkin eps 1-4 said "I'm Sam"
+    # while the screen showed "Eric"; caught Nov 23).
+    try:
+        from podcast_brands import BRANDS
+        host = BRANDS.get(d.get("brand"), {}).get("host", {}).get("name")
+    except Exception:
+        host = None
+    if host and not BRANDS[d["brand"]].get("solo"):
+        import re as _re
+        for i, seg in enumerate(d.get("segments", [])):
+            for line in seg.get("lines", []):
+                for m in _re.findall(r"\bI'm ([A-Z][a-z]+)\.", line.get("text", "") if line.get("who") == "host" else ""):
+                    if m != host:
+                        out.append(f"segment {i}: host says \"I'm {m}\" but the on-screen host name is {host}")
     return out
 
 

@@ -1,0 +1,1181 @@
+{
+ "brand": "staffkin",
+ "episode": 5,
+ "slug": "staffkin-ep05-toxic-boss",
+ "air_date": "2026-12-03",
+ "title": "The Toxic Boss: Signs, the Research on Abusive Supervision, and What a Team Can Do | Staffkin Podcast",
+ "card_title": "The toxic boss",
+ "thumb_title": "Tough boss or toxic?",
+ "guest": {
+  "name": "Ben",
+  "role": "Warehouse and retail operations manager, 20 years",
+  "voice": "am_adam"
+ },
+ "hook": {
+  "pillars": "stat card 'It goes home' + pop on card + slow zoom on office corridor",
+  "formula": "Unexpected Truth"
+ },
+ "description": "The toxic boss: how to tell a tough boss from an abusive one, what 25 years of research on abusive supervision found, and what employees, coworkers and owners can actually do.\nThe research: Tepper (2000), a 119-sample review, the trickle-down effect, the family spillover study, Gallup on managers, and a Swedish heart study.\nIn Nova Scotia: harassment prevention policy rules in force since Sept 1, 2025, plus the federal Canada Labour Code rules. In the news: the 2026 living wage and a rejected tentative deal.\nHosts and guests on this show are AI voices. Facts are sourced below. Not legal advice.\nIf you or someone you know is in crisis in Canada, call or text 9-8-8.",
+ "tags": [
+  "toxic boss",
+  "signs of a toxic boss",
+  "abusive supervision",
+  "bad boss",
+  "toxic manager",
+  "how to deal with a toxic boss",
+  "workplace bullying",
+  "nova scotia harassment policy",
+  "canada labour code harassment",
+  "small business management",
+  "manager tips",
+  "workplace psychology"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "visuals": [
+    "office corridor",
+    "empty desk",
+    "desk lamp",
+    "closed door"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Here's a number that should worry every manager. In one well known study, workers with an abusive boss didn't just feel worse at work. Their families at home reported being treated worse too.",
+     "card": {
+      "type": "stat",
+      "big": "It goes home",
+      "label": "Abused employees' families reported worse treatment at home",
+      "source": "Hoobler and Brass, 2006"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And here's the part that surprised me even more. The people who suffered the most were the ones who felt they couldn't leave. The ones with the fewest other job options."
+    },
+    {
+     "who": "host",
+     "text": "So today, the toxic boss. What it actually is, what the research says it does to a team, and what you can do about it, whether you work for one, work beside one, or worry you might be one."
+    }
+   ]
+  },
+  {
+   "heading": "Intro",
+   "visuals": [
+    "office building",
+    "coffee mug",
+    "notebook",
+    "meeting room"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Welcome to the Staffkin Podcast, the show about workplace psychology for people who manage people. I'm Eric. Every fact we use is sourced in the description."
+    },
+    {
+     "who": "host",
+     "text": "Today we're covering the difference between a tough boss and a toxic one, the research on what scientists call abusive supervision, how bad behaviour trickles down a company, what the rules in Canada and here in Nova Scotia expect, and what a team can actually do.",
+     "card": {
+      "type": "list",
+      "title": "Today",
+      "items": [
+       "Tough boss or toxic boss",
+       "What the research found",
+       "How it spreads",
+       "What a team can do"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "My guest is Ben. Ben plays an operations manager who has run warehouse and retail teams for twenty years. Ben isn't a real person, and every workplace story today is a made up example. Welcome, Ben."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Eric. And I'll say up front, I think most of us have worked for one of these bosses at some point. If you're listening because you're stuck with one right now, I hope by the end you've got a plan."
+    },
+    {
+     "who": "host",
+     "text": "And stick around for the section on how it spreads, because the research there changed how I think about the whole problem."
+    }
+   ]
+  },
+  {
+   "heading": "In the news: living wage and a rejected deal in Nova Scotia",
+   "visuals": [
+    "Halifax harbour",
+    "calculator",
+    "school hallway",
+    "school bus",
+    "notice board"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "First, a quick look at the news, as of November twenty third, twenty twenty six. On November ninth, the Canadian Centre for Policy Alternatives put out its new living wage numbers for this region.",
+     "card": {
+      "type": "stat",
+      "big": "$30/hr",
+      "label": "Halifax living wage, 2026, up from $29.40",
+      "source": "CCPA via Global News, Nov 9, 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "They put the living wage in Halifax at thirty dollars an hour, up from twenty nine forty. In northern Nova Scotia it's twenty eight. And the report says about half of Nova Scotia workers earn less than that."
+    },
+    {
+     "who": "guest",
+     "text": "Compare that with the minimum wage, which went to seventeen dollars on October first. That's a big gap for anyone budgeting a small team's payroll.",
+     "card": {
+      "type": "compare",
+      "left_title": "Minimum wage",
+      "left": "$17.00 since Oct 1, 2026",
+      "right_title": "Halifax living wage",
+      "right": "$30.00 per hour"
+     }
+    },
+    {
+     "who": "host",
+     "text": "The second story. On November sixteenth, the province's labour relations minister called it alarming that education support workers with C U P E voted down a tentative deal their own leadership had recommended. C T V reported that the vote opens the door to a possible strike."
+    },
+    {
+     "who": "guest",
+     "text": "Whatever side you're on, that's a good reminder for any manager. When people reject a deal their own leaders backed, something about how they feel heard isn't working. Which is close to today's topic."
+    },
+    {
+     "who": "host",
+     "text": "It is. Links to both stories are in the description."
+    }
+   ]
+  },
+  {
+   "heading": "Tough boss or toxic boss? What abusive supervision actually means",
+   "visuals": [
+    "office furniture",
+    "whiteboard",
+    "clipboard",
+    "filing cabinet",
+    "stopwatch",
+    "empty chairs"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So let's start with words. Toxic boss is what everyone says. What do researchers say?"
+    },
+    {
+     "who": "guest",
+     "text": "The term most researchers use is abusive supervision. It comes from a management professor named Bennett Tepper, who published a big paper on it in the year two thousand."
+    },
+    {
+     "who": "guest",
+     "text": "His definition has three parts I find really useful. It's about what employees perceive. It's sustained, so it's a pattern, not one bad day. And it's hostile behaviour, spoken or unspoken, but not physical contact.",
+     "card": {
+      "type": "point",
+      "text": "Abusive supervision: sustained hostile behaviour, verbal or nonverbal, not physical"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Give me examples of the unspoken part."
+    },
+    {
+     "who": "guest",
+     "text": "The silent treatment. Eye rolling when you talk in a meeting. Being left off the email everyone else got. Nothing you could put in a police report, but you feel it every single day."
+    },
+    {
+     "who": "host",
+     "text": "And the spoken part is what we picture. The yelling, the put downs in front of the team."
+    },
+    {
+     "who": "guest",
+     "text": "Right. Ridicule, blaming people for the boss's own mistakes, threatening someone's job for no real reason. And there's an older idea that goes with it, called petty tyranny. A researcher named Blake Ashforth wrote about it in a Canadian journal, the Canadian Journal of Administrative Sciences, in nineteen ninety seven.",
+     "card": {
+      "type": "history",
+      "year": "1997",
+      "text": "Ashforth's petty tyranny study: managers who lord their power over others"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Petty tyranny. That's a great phrase."
+    },
+    {
+     "who": "guest",
+     "text": "He described it as the tendency to lord your power over the people below you. Small power, used in a small way, over and over."
+    },
+    {
+     "who": "host",
+     "text": "Now here's the question everyone gets stuck on. Where's the line between a demanding boss and an abusive one? Because some of the best managers I can think of were tough."
+    },
+    {
+     "who": "guest",
+     "text": "And that's the part nobody tells you. The law here actually draws that line for you. Nova Scotia's harassment rules specifically leave out normal actions a supervisor takes to manage and direct people.",
+     "card": {
+      "type": "compare",
+      "left_title": "Tough",
+      "left": "High standards, clear feedback, about the work",
+      "right_title": "Toxic",
+      "right": "Ridicule, blame, silence, about the person"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "So a boss who says this report isn't good enough, here's what I need by Friday, that's management. A boss who says that in front of everyone, calls you useless, and then ignores you for a week, that's a pattern of something else."
+    },
+    {
+     "who": "host",
+     "text": "So the test is about the work versus about the person."
+    },
+    {
+     "who": "guest",
+     "text": "That's how I'd put it. Tough bosses are hard on the work. Toxic bosses are hard on the person."
+    },
+    {
+     "who": "guest",
+     "text": "And the Canadian Centre for Occupational Health and Safety adds one more thing. Bullying is usually a pattern, but they say a single incident can count too, if it has a lasting effect on the person."
+    },
+    {
+     "who": "host",
+     "text": "So the pattern test isn't a loophole for one really bad blow up."
+    },
+    {
+     "who": "guest",
+     "text": "No. One public humiliation that someone is still thinking about months later can be enough."
+    },
+    {
+     "who": "host",
+     "text": "Okay. So what does a boss like that actually do to people? Because the research on this is bigger than I expected."
+    }
+   ]
+  },
+  {
+   "heading": "What the research found: quitting, stress and the damage that goes home",
+   "visuals": [
+    "office window",
+    "stethoscope",
+    "first aid kit",
+    "dining table",
+    "front door",
+    "kitchen"
+   ],
+   "lines": [
+    {
+     "who": "guest",
+     "text": "Let's start with Tepper's original study. He found that people who saw their supervisor as more abusive were more likely to quit. And the ones who stayed had lower job satisfaction, lower life satisfaction, more conflict between work and family, and more psychological distress."
+    },
+    {
+     "who": "host",
+     "text": "Life satisfaction. Not just job satisfaction."
+    },
+    {
+     "who": "guest",
+     "text": "Not just job satisfaction. And here's the part I mentioned at the top. The damage was worse for people with less job mobility. People who felt they had fewer options to leave got hit harder.",
+     "card": {
+      "type": "point",
+      "text": "Abusive bosses hit hardest when people feel they can't leave"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Which in a small town is a lot of people."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. If you're in a small community with two employers in your field, you can't just walk across the street. That's real in a lot of Nova Scotia."
+    },
+    {
+     "who": "host",
+     "text": "Has the research held up since two thousand?"
+    },
+    {
+     "who": "guest",
+     "text": "It's grown a lot. One review in twenty fifteen pulled together one hundred and nineteen separate samples, more than thirty five thousand people. Abusive supervision was linked with worse attitudes, worse wellbeing, worse performance, and worse family outcomes.",
+     "card": {
+      "type": "stat",
+      "big": "35,239",
+      "label": "people across 119 samples in one 2015 review of abusive supervision",
+      "source": "Zhang and Liao, 2015"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And other reviews agree?"
+    },
+    {
+     "who": "guest",
+     "text": "A twenty seventeen review in the Journal of Management came to the same place. The links between abusive supervision and bad outcomes were consistently negative. How strong they looked depended on how each study was designed, but the direction didn't change."
+    },
+    {
+     "who": "host",
+     "text": "Tell me about the family part. That's the one from the cold open."
+    },
+    {
+     "who": "guest",
+     "text": "A study published in two thousand six looked at supervisors, their employees, and the employees' family members. Employees who were mistreated at work took it home. Their family members reported being treated worse. The researchers called it displaced aggression."
+    },
+    {
+     "who": "host",
+     "text": "So the boss yells at you, and you snap at your kids."
+    },
+    {
+     "who": "guest",
+     "text": "That's the pattern. Nobody decides to do it. It just leaks."
+    },
+    {
+     "who": "host",
+     "text": "And what happens at work? Do people fight back?"
+    },
+    {
+     "who": "guest",
+     "text": "Usually quietly. An American Psychological Association summary of one study described it as low intensity revenge. People simply stop doing the extra things. They stop helping coworkers, stop covering a shift, stop going beyond the job description.",
+     "card": {
+      "type": "point",
+      "text": "Quiet revenge: people stop doing the extra things"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Which is often the stuff that keeps a small business running."
+    },
+    {
+     "who": "guest",
+     "text": "All of it. Nobody writes overtime help or covering for a sick coworker into a job description. That's goodwill. And an abusive boss burns through it."
+    },
+    {
+     "who": "host",
+     "text": "Is there anything on physical health?"
+    },
+    {
+     "who": "guest",
+     "text": "There's a Swedish study I find striking. It followed more than three thousand men at work for close to ten years. Men who rated their managers' leadership as better had a lower risk of serious heart disease. And the longer they'd been in that workplace, the stronger the link."
+    },
+    {
+     "who": "guest",
+     "text": "The authors were careful. They said if the link is causal. So it's not proof. But it's a hint that a bad manager might be more than a bad mood.",
+     "card": {
+      "type": "stat",
+      "big": "3,122",
+      "label": "Swedish men followed about 10 years: better leadership, lower heart disease risk",
+      "source": "Nyberg et al., 2009"
+     }
+    },
+    {
+     "who": "host",
+     "text": "How common is all this?"
+    },
+    {
+     "who": "guest",
+     "text": "An encyclopedia of workplace psychology from two thousand seven says about one in seven employees reports that their current supervisor is abusive, and about half will have one at some point. And it put the cost in the United States at more than twenty three billion dollars a year.",
+     "card": {
+      "type": "stat",
+      "big": "1 in 7",
+      "label": "employees say their current supervisor is abusive",
+      "source": "SAGE Encyclopedia of I/O Psychology, 2007"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Okay, that's the damage to one person. But you told me before we started that the scariest part is how it spreads."
+    },
+    {
+     "who": "guest",
+     "text": "It is. Let's get there."
+    }
+   ]
+  },
+  {
+   "heading": "Brand break",
+   "visuals": [
+    "notebook",
+    "desk lamp",
+    "pen and paper"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Quick word from the show. Staffkin is the people tool behind this podcast. It helps small teams keep track of check ins, feedback and the small conversations that keep problems from growing, so a pattern shows up early instead of at an exit interview."
+    },
+    {
+     "who": "host",
+     "text": "You can try it free at staffkin dot com. Okay, back to the spread."
+    }
+   ]
+  },
+  {
+   "heading": "How bad bosses spread: the trickle down effect",
+   "visuals": [
+    "staircase",
+    "water drops",
+    "stacked blocks",
+    "warehouse shelves",
+    "forklift",
+    "office stairs"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So how does one bad boss spread?"
+    },
+    {
+     "who": "guest",
+     "text": "There's a study on what researchers call the trickle down effect. They looked at two hundred and eighty eight work groups, more than fourteen hundred employees. When a senior manager was abusive, the supervisors under them were more likely to be abusive too. And then the employees under those supervisors were more likely to mistreat each other.",
+     "card": {
+      "type": "stat",
+      "big": "2 levels",
+      "label": "abuse at the top predicted abuse two levels down",
+      "source": "Mawritz et al., Personnel Psychology"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Two levels down. So the person at the bottom might never meet the boss who started it."
+    },
+    {
+     "who": "guest",
+     "text": "That's exactly it. They just know the warehouse floor feels mean. And the effect was stronger in places that already had a hostile climate."
+    },
+    {
+     "who": "host",
+     "text": "What about people who aren't being targeted? The ones who just watch it?"
+    },
+    {
+     "who": "guest",
+     "text": "Another study looked at eight hundred and eighty two employees in two hundred and twenty two units. In units with what they called an abusive supervision climate, the whole group cooperated less and performed worse. And even people who weren't personally abused had more exhaustion and more thoughts of quitting.",
+     "card": {
+      "type": "point",
+      "text": "Watching abuse wears people down too, even if it's not aimed at them"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So you can't say, well, he's only hard on Kevin."
+    },
+    {
+     "who": "guest",
+     "text": "No. Everybody watching Kevin is doing the math. Am I next?"
+    },
+    {
+     "who": "host",
+     "text": "And then there's the line everyone's heard. People don't leave companies, they leave managers. Is that real?"
+    },
+    {
+     "who": "guest",
+     "text": "Gallup has some numbers on it. In a twenty fifteen survey of more than seven thousand American adults, about one in two said they had left a job at some point to get away from a manager. And Gallup's research says managers account for at least seventy percent of the difference in engagement between teams.",
+     "card": {
+      "type": "stat",
+      "big": "1 in 2",
+      "label": "US adults who left a job to get away from a manager",
+      "source": "Gallup, 2015"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Seventy percent. So the manager isn't one factor. The manager is most of it."
+    },
+    {
+     "who": "guest",
+     "text": "For how engaged a team is, by Gallup's numbers, yes. Which is a lot of pressure. And it means promoting the wrong person is expensive."
+    },
+    {
+     "who": "host",
+     "text": "So if the manager is most of it, how do the wrong people end up in charge in the first place?"
+    },
+    {
+     "who": "guest",
+     "text": "That's the next question, and the answer is a bit uncomfortable."
+    }
+   ]
+  },
+  {
+   "heading": "Why toxic bosses get promoted",
+   "visuals": [
+    "ladder",
+    "office chair",
+    "briefcase",
+    "office chair",
+    "staircase",
+    "corner office"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So Ben, why do these people keep getting promoted?"
+    },
+    {
+     "who": "guest",
+     "text": "Part of it is that managing well is rare. The same Gallup research I mentioned says only about one in ten people has a high natural talent for managing others. And it says companies miss on that talent in about eighty two percent of their manager hiring decisions.",
+     "card": {
+      "type": "stat",
+      "big": "82%",
+      "label": "of manager hiring decisions miss on high management talent, per Gallup",
+      "source": "Gallup, 2015"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Eighty two percent. So most of the time we're guessing."
+    },
+    {
+     "who": "guest",
+     "text": "Most of the time we promote whoever was best at the job below. Your best forklift driver becomes the shift lead. Your best salesperson becomes the sales manager. Being great at the work and being great with people are different skills."
+    },
+    {
+     "who": "host",
+     "text": "And some of them turn out to be the petty tyrant."
+    },
+    {
+     "who": "guest",
+     "text": "Some do. Usually not because they're bad people. Nobody trained them, nobody checked in on them, and the only model they had was the boss who yelled at them."
+    },
+    {
+     "who": "host",
+     "text": "Which is the trickle down effect again."
+    },
+    {
+     "who": "host",
+     "text": "Is there anything on what kind of person becomes this boss?"
+    },
+    {
+     "who": "guest",
+     "text": "There's a big review of what psychologists call the dark triad. That's narcissism, manipulation, and a lack of empathy. Across more than forty thousand people, all three were linked with more harmful behaviour at work. Narcissism had the strongest link. And here's the twist. Those traits barely predicted actual job performance."
+    },
+    {
+     "who": "host",
+     "text": "So the person who seems confident and gets promoted isn't necessarily doing better work."
+    },
+    {
+     "who": "guest",
+     "text": "That's how I read it. Confidence gets noticed. It doesn't mean results. Which brings us to what this actually looks like on a Tuesday afternoon."
+    },
+    {
+     "who": "host",
+     "text": "So for an owner, the lesson is to look past confidence when you promote."
+    },
+    {
+     "who": "guest",
+     "text": "Look at how someone treats the people who can't do anything for them. The new hire, the cleaner, the delivery driver. That tells you more than how they act in front of you. And that's what it looks like before they're the boss. Here's what it looks like after."
+    }
+   ]
+  },
+  {
+   "heading": "Four toxic boss situations, and the signs to watch for",
+   "visuals": [
+    "loading dock",
+    "cash register",
+    "vending machine",
+    "schedule calendar",
+    "clock on wall"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's do some made up situations. Ben, give me the first one."
+    },
+    {
+     "who": "guest",
+     "text": "Situation one. A shift supervisor at a grocery store. Every morning meeting, she picks one person and goes through their mistakes in front of everybody. Always a different person, always in public. She calls it accountability."
+    },
+    {
+     "who": "host",
+     "text": "And what's the sign?"
+    },
+    {
+     "who": "guest",
+     "text": "The sign is that nobody talks in those meetings anymore. Nobody asks questions. And mistakes start getting hidden instead of fixed. Public shaming doesn't make people more careful. It makes them more secretive.",
+     "card": {
+      "type": "list",
+      "title": "Warning signs",
+      "items": [
+       "Meetings go silent",
+       "Mistakes get hidden",
+       "Good people ask for transfers",
+       "Sick days creep up"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Situation two."
+    },
+    {
+     "who": "guest",
+     "text": "A warehouse lead who doesn't yell at all. He just goes cold. If you disagree with him, you stop getting overtime. You're left off the group chat about schedule changes. Nothing you can prove."
+    },
+    {
+     "who": "host",
+     "text": "That one's harder."
+    },
+    {
+     "who": "guest",
+     "text": "It's the hardest, because the person feels crazy. They start doubting themselves. The sign here is the pattern. Write down dates. Overtime offered, to who. Who was on the message and who wasn't. Patterns show up on paper when they don't show up in the moment."
+    },
+    {
+     "who": "host",
+     "text": "Situation three."
+    },
+    {
+     "who": "guest",
+     "text": "The moving target. A restaurant manager changes what she wants every day. Monday the tables are set one way, Tuesday you're yelled at for doing it that way. The goalposts move, and somehow it's always your fault."
+    },
+    {
+     "who": "host",
+     "text": "I think everyone listening has met that one."
+    },
+    {
+     "who": "guest",
+     "text": "The sign is that the best people start asking for everything in writing. When a team starts saying, can you just text me that, they've stopped trusting what's said out loud."
+    },
+    {
+     "who": "host",
+     "text": "And situation four?"
+    },
+    {
+     "who": "guest",
+     "text": "The joker. A boss who puts people down, but always as a joke. You're slow today, grandma. Nice of you to show up. And if anyone objects, he says, relax, it's just banter."
+    },
+    {
+     "who": "guest",
+     "text": "The sign is who laughs. If the boss is laughing and the person on the receiving end isn't, it's not a joke. And remember the definition. It's sustained. One bad joke is a bad day. Every day is a pattern.",
+     "card": {
+      "type": "point",
+      "text": "If only the boss is laughing, it isn't a joke"
+     }
+    },
+    {
+     "who": "host",
+     "text": "One more. I think there's a fifth one we have to mention."
+    },
+    {
+     "who": "guest",
+     "text": "The credit taker. A sales manager presents your idea to the owner as his own. When something goes wrong, it was your project. When it goes right, it was his. Do that for a year and your best people stop bringing ideas at all."
+    },
+    {
+     "who": "guest",
+     "text": "The sign is in the meeting notes. Whose name is on the good news and whose name is on the bad news? If it's always the same split, that's not an accident."
+    },
+    {
+     "who": "host",
+     "text": "Now, before you go home and diagnose your manager, I want to be careful. We're describing behaviour here, not labelling anyone's mental health."
+    },
+    {
+     "who": "guest",
+     "text": "Absolutely. We're not diagnosing anybody. You don't need to know why someone acts this way. You just need to see the pattern and decide what to do about it. And that's where the rules come in."
+    }
+   ]
+  },
+  {
+   "heading": "What the rules say in Nova Scotia and Canada",
+   "visuals": [
+    "courthouse columns",
+    "law books",
+    "binder",
+    "safety sign",
+    "hard hat",
+    "filing cabinet"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "This next part is general information, as of November twenty twenty six. Rules vary by province and by type of workplace."
+    },
+    {
+     "who": "guest",
+     "text": "In Nova Scotia, new harassment in the workplace rules took effect on September first, twenty twenty five. They apply to all provincially regulated workplaces. So most small businesses here.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia",
+      "text": "Written harassment prevention policy, training, review at least every 3 years",
+      "source": "NS Workplace Health and Safety Regulations, Part 27",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Employers need a written policy to prevent harassment. It has to cover how to report, how complaints get investigated, confidentiality, and protection from retaliation. Staff need training on it, and the policy has to be reviewed at least every three years."
+    },
+    {
+     "who": "host",
+     "text": "What counts as harassment under those rules?"
+    },
+    {
+     "who": "guest",
+     "text": "The regulation includes bullying. It can be one serious incident or a pattern of repeated ones, conduct that degrades, intimidates or threatens someone, whether it was intended or not. And as we said, normal management and direction of employees is left out."
+    },
+    {
+     "who": "host",
+     "text": "Whether it was intended or not. That's important for the joker."
+    },
+    {
+     "who": "guest",
+     "text": "Very. It's just banter isn't a defence. And here's the detail I think matters most for today. The policy has to give people a way to complain to someone other than their supervisor when the supervisor is the problem.",
+     "card": {
+      "type": "point",
+      "text": "NS rules: a way to complain that skips the supervisor"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Because otherwise you're reporting the boss to the boss."
+    },
+    {
+     "who": "guest",
+     "text": "Which never works. And the province said why it acted. The Workers' Compensation Board recorded one hundred and ninety four psychological workplace injuries in twenty twenty four, up from one hundred and fifty three years earlier.",
+     "card": {
+      "type": "stat",
+      "big": "194",
+      "label": "psychological workplace injuries recorded by WCB Nova Scotia in 2024, up from 150",
+      "source": "Government of Nova Scotia, Aug 2025"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And how common is harassment at work in Canada right now?"
+    },
+    {
+     "who": "guest",
+     "text": "A national survey this past summer, from Western University and the Canadian Labour Congress, asked more than fifty six hundred workers. Sixty two percent said they'd experienced harassment and violence at work in the past two years.",
+     "card": {
+      "type": "stat",
+      "big": "62%",
+      "label": "of 5,600+ Canadian workers experienced harassment and violence at work in 2 years",
+      "source": "Western University and CLC, July 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's well over half. So this isn't a rare problem."
+    },
+    {
+     "who": "host",
+     "text": "And for federally regulated workplaces? Banks, airlines, trucking across borders?"
+    },
+    {
+     "who": "guest",
+     "text": "Those fall under the Canada Labour Code, which has had harassment and violence prevention rules since January first, twenty twenty one. Employers have to assess risks, have a prevention policy, train people, and try to resolve every incident that's reported."
+    },
+    {
+     "who": "host",
+     "text": "And if you're not sure which rules apply to your workplace, the Nova Scotia government and the Canadian Centre for Occupational Health and Safety both have plain language pages. They're linked below. This isn't legal advice."
+    }
+   ]
+  },
+  {
+   "heading": "What a team can actually do",
+   "visuals": [
+    "notebook and pen",
+    "folder",
+    "open door",
+    "checklist",
+    "two coffee mugs",
+    "sunrise window"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So let's get practical. Ben, if you're the one working for this boss, what do you do?"
+    },
+    {
+     "who": "guest",
+     "text": "The Canadian Centre for Occupational Health and Safety has good advice here. If you feel safe doing it, tell the person to stop, or bring a trusted supervisor or a union rep with you. And keep a factual record. Date, time, what happened, who saw it, what came of it.",
+     "card": {
+      "type": "list",
+      "title": "If it's happening to you",
+      "items": [
+       "Say stop, if it's safe",
+       "Keep a factual record",
+       "Save emails and messages",
+       "Report to the person your policy names"
+      ]
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Save emails and messages. And report it to the person your workplace policy names, which in Nova Scotia should include someone other than your boss."
+    },
+    {
+     "who": "host",
+     "text": "Facts, not feelings, in that record?"
+    },
+    {
+     "who": "guest",
+     "text": "Facts first. Feelings are real, but a record that says on March third, in the morning meeting, in front of six people, he called my work garbage, that's something an investigator can use."
+    },
+    {
+     "who": "host",
+     "text": "What if you're a coworker? You're watching it happen to someone else."
+    },
+    {
+     "who": "guest",
+     "text": "Don't leave them alone in it. Check in afterwards. Offer to be a witness. Remember the research. If you're watching, it's affecting you too. And people who stand together get taken seriously faster."
+    },
+    {
+     "who": "host",
+     "text": "And if you're the manager above this person? The owner, say, of a small business."
+    },
+    {
+     "who": "guest",
+     "text": "Then the trickle down research is your warning. You might be the senior manager whose habits are rolling downhill. So look at how you treat your supervisors first."
+    },
+    {
+     "who": "guest",
+     "text": "Then go find out what's happening. Talk to people one level down, without the supervisor in the room. Coach the supervisor, and be clear about what has to change. Researchers who study this point to supervisor coaching and actually listening to employee feedback.",
+     "card": {
+      "type": "point",
+      "text": "Owners: talk to the team without the supervisor in the room"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And on the policy side, what should an owner actually have in place?"
+    },
+    {
+     "who": "guest",
+     "text": "The same safety centre lists it out. A written policy that's developed with workers, not just handed to them. A confidential way to report. Protection from reprisal. Clear steps for investigating. Support, including an employee assistance program if you have one. Training at every level, including the managers. And a regular review.",
+     "card": {
+      "type": "list",
+      "title": "An owner's checklist",
+      "items": [
+       "Written policy, made with workers",
+       "Confidential reporting",
+       "No reprisal",
+       "Training at every level"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Training at every level. Including the owner."
+    },
+    {
+     "who": "guest",
+     "text": "Especially the owner. Remember, it trickles down."
+    },
+    {
+     "who": "host",
+     "text": "And the hardest one. What if you're listening to this and you're worried that you're the toxic boss?"
+    },
+    {
+     "who": "guest",
+     "text": "Honestly, the fact that you're worried is a good sign. Petty tyrants don't usually ask. Ask yourself the tough versus toxic question. Was I hard on the work, or hard on the person? And then ask someone you trust to tell you the truth."
+    },
+    {
+     "who": "host",
+     "text": "And if you're the one being targeted and it's really getting to you, please talk to someone. Your doctor, your employee assistance program if your workplace has one, or someone you trust."
+    },
+    {
+     "who": "guest",
+     "text": "And if it ever feels like too much, in Canada you can call or text nine eight eight, any time of day, for free. You don't have to be in a crisis to reach out.",
+     "card": {
+      "type": "point",
+      "text": "In Canada, call or text 9-8-8 any time, free"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "How to talk to a difficult boss without making it worse",
+   "visuals": [
+    "quiet room",
+    "table and chairs",
+    "park bench",
+    "window light",
+    "coffee cups",
+    "calendar"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Ben, a lot of people listening won't report anything, at least not yet. They just want it to get better. Is there a way to talk to the boss directly?"
+    },
+    {
+     "who": "guest",
+     "text": "Sometimes, yes. Not always. If you feel unsafe, or it's already a serious pattern, skip this and go to the policy. But if it's early, a calm private conversation can work more often than people think."
+    },
+    {
+     "who": "host",
+     "text": "Walk me through it."
+    },
+    {
+     "who": "guest",
+     "text": "Pick a private moment, not right after a blow up. Then name one specific thing, the effect it had, and what you'd like instead. Something like, in yesterday's meeting, when my numbers were read out in front of everyone, I shut down for the rest of the day. If there's a problem with my work, can we talk about it one on one?",
+     "card": {
+      "type": "list",
+      "title": "The conversation",
+      "items": [
+       "Private, and not after a blow up",
+       "One specific moment",
+       "The effect on you",
+       "What you'd like instead"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "So one moment, not a list of everything since twenty nineteen."
+    },
+    {
+     "who": "guest",
+     "text": "One moment. A list feels like an ambush, and people defend themselves against ambushes. One moment gives them a way to say, fair enough."
+    },
+    {
+     "who": "host",
+     "text": "And if they react badly?"
+    },
+    {
+     "who": "guest",
+     "text": "Then you've learned something, and you've got one more fact for your record. Write down the date and what they said. And now you go around them, to whoever your policy names."
+    },
+    {
+     "who": "host",
+     "text": "What about the owner side? If an employee comes to you about one of your supervisors."
+    },
+    {
+     "who": "guest",
+     "text": "Thank them. That took nerve. Don't promise an outcome you can't promise, but do promise you'll look into it, and then actually do it. And protect them from retaliation. If the person who spoke up loses their shifts a week later, your whole team learns never to speak up again."
+    },
+    {
+     "who": "host",
+     "text": "That's the part that decides whether anyone ever tells you the truth again."
+    },
+    {
+     "who": "guest",
+     "text": "It is. And it costs you nothing to get right."
+    }
+   ]
+  },
+  {
+   "heading": "Recap: five things to remember about toxic bosses",
+   "visuals": [
+    "notebook",
+    "sticky notes",
+    "checklist",
+    "sunrise"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Let's recap. Ben, five things."
+    },
+    {
+     "who": "guest",
+     "text": "One. Tough bosses are hard on the work. Toxic bosses are hard on the person. Two. Abusive supervision is a sustained pattern, and it hurts most when people feel they can't leave.",
+     "card": {
+      "type": "list",
+      "title": "Remember",
+      "items": [
+       "Hard on work, not the person",
+       "A pattern, not a bad day",
+       "It spreads down and goes home",
+       "Write it down, report around"
+      ]
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Three. It doesn't stay put. It trickles down levels, it wears down the people watching, and it goes home with people. Four. Write things down. Dates, facts, witnesses."
+    },
+    {
+     "who": "guest",
+     "text": "Five. In Nova Scotia, your employer's policy has to give you a way to report that goes around your boss. Use it."
+    },
+    {
+     "who": "host",
+     "text": "And one bonus for the owners listening."
+    },
+    {
+     "who": "guest",
+     "text": "When you promote, look at how someone treats the people who can't help their career. And when someone tells you about a bad supervisor, protect them. That one decision teaches your whole team whether speaking up is safe."
+    },
+    {
+     "who": "host",
+     "text": "Great list. Thanks, Ben."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks for having me, Eric."
+    }
+   ]
+  },
+  {
+   "heading": "Outro",
+   "visuals": [
+    "sunset",
+    "city lights night"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's the Staffkin Podcast for this week. Every study and rule we mentioned is linked in the description."
+    },
+    {
+     "who": "host",
+     "text": "Next week, workplace bullying and harassment in Canada. What counts, what the rules say, and what a manager should do first. If this episode helped, share it with someone who manages people. Try Staffkin free at staffkin dot com. See you next week."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Priesemuth et al., Abusive supervision climate (AMJ manuscript; quotes Tepper 2000 definition)",
+   "url": "https://leeds-faculty.colorado.edu/dahe7472/Priesemuth%202014%20AMJ.pdf"
+  },
+  {
+   "label": "Tepper (2000), Consequences of abusive supervision, abstract",
+   "url": "https://academicnewsletter.sufe.edu.cn/info/363396"
+  },
+  {
+   "label": "Zhang and Liao (2015), meta-analysis of abusive supervision, Asia Pacific Journal of Management",
+   "url": "https://ideas.repec.org/a/kap/asiapa/v32y2015i4p959-987.html"
+  },
+  {
+   "label": "Mackey et al. (2017), Abusive supervision: a meta-analysis, Journal of Management",
+   "url": "https://experts.nau.edu/en/publications/abusive-supervision-a-meta-analysis-and-empirical-review/"
+  },
+  {
+   "label": "Hoobler and Brass (2006), abusive supervision and family undermining, abstract",
+   "url": "https://academicnewsletter.sufe.edu.cn/info/372339"
+  },
+  {
+   "label": "APA press release (2002): abusive supervisors and low-intensity revenge",
+   "url": "https://www.apa.org/news/press/releases/2002/12/supervisors"
+  },
+  {
+   "label": "Nyberg et al. (2009), managerial leadership and ischaemic heart disease, OEM",
+   "url": "https://oem.bmj.com/content/early/2008/11/27/oem.2008.039362.full.pdf"
+  },
+  {
+   "label": "SAGE Encyclopedia of Industrial and Organizational Psychology (2007): Abusive supervision",
+   "url": "https://sk.sagepub.com/ency/edvol/embed/organizationalpsychology/chpt/abusive-supervision"
+  },
+  {
+   "label": "UT Dallas (2018): abusive supervision meta-analysis release",
+   "url": "https://news.utdallas.edu/?p=12621"
+  },
+  {
+   "label": "Ashforth (1997), Petty tyranny in organizations, Canadian Journal of Administrative Sciences",
+   "url": "https://ca.vlex.com/vid/petty-tyranny-in-organizations-900923429"
+  },
+  {
+   "label": "Mawritz et al., trickle-down model of abusive supervision, Personnel Psychology",
+   "url": "https://leeds-faculty.colorado.edu/dahe7472/Mawritz,%20Mayer,%20Hoobler,%20Wayne,%20&%20Marinova,%20in%20press%20(PPsych).pdf"
+  },
+  {
+   "label": "Gallup (2015): Managers account for 70% of variance in employee engagement",
+   "url": "https://news.gallup.com/businessjournal/182792/managers-account-variance-employee-engagement.aspx"
+  },
+  {
+   "label": "Gallup (2015): Employees want a lot more from their managers",
+   "url": "https://www.gallup.com/workplace/236570/employees-lot-managers.aspx"
+  },
+  {
+   "label": "O'Boyle et al. (2012), Dark Triad and work behaviour meta-analysis, JAP",
+   "url": "https://www.people.vcu.edu/~mamcdani/Publications/O'Boyle%20et%20al%20(2012%20JAP%20-%20Dark%20Triad%29.pdf"
+  },
+  {
+   "label": "Government of Nova Scotia (Aug 12, 2025): New workplace harassment regulations effective Sept 1",
+   "url": "https://news.novascotia.ca/en/2025/08/12/new-workplace-harassment-regulations-effective-september-1"
+  },
+  {
+   "label": "Nova Scotia Workplace Health and Safety Regulations, Part 27",
+   "url": "https://novascotia.ca/just/regulations/regs/ohsworkplace.htm"
+  },
+  {
+   "label": "Government of Canada: Harassment and violence prevention (Canada Labour Code)",
+   "url": "https://www.canada.ca/en/employment-social-development/programs/workplace-health-safety/harassment-violence-prevention.html"
+  },
+  {
+   "label": "CCOHS: Bullying in the workplace",
+   "url": "https://www.ccohs.ca/oshanswers/psychosocial/bullying.html"
+  },
+  {
+   "label": "CRTC: 9-8-8 Suicide Crisis Helpline",
+   "url": "https://crtc.gc.ca/eng/phone/988.htm"
+  },
+  {
+   "label": "Global News (Nov 9, 2026): living wage in New Brunswick and Nova Scotia",
+   "url": "https://globalnews.ca/news/12142784/living-wage-new-brunswick-nova-scotia/"
+  },
+  {
+   "label": "Government of Nova Scotia: minimum wage increases in 2026",
+   "url": "https://news.novascotia.ca/en/2025/12/02/minimum-wage-increase-twice-2026-reaching-17-october"
+  },
+  {
+   "label": "Government of Nova Scotia (Nov 16, 2026): statement on vote by CUPE members",
+   "url": "https://news.novascotia.ca/en/2026/11/16/statement-vote-cupe-members"
+  },
+  {
+   "label": "CTV News Atlantic (Nov 18, 2026): N.S. school support workers reject tentative deal",
+   "url": "https://www.ctvnews.ca/atlantic/nova-scotia/article/ns-school-support-workers-reject-tentative-deal-open-door-for-potential-strike/"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "People don't leave jobs. They leave this.",
+   "from": [
+    6,
+    8
+   ],
+   "to": [
+    6,
+    11
+   ],
+   "hook": "Unexpected Truth",
+   "caption": "1 in 2 people say they've left a job to get away from a manager. #toxicboss #management #leadership"
+  },
+  {
+   "title": "Tough boss or toxic boss? The real line",
+   "from": [
+    3,
+    9
+   ],
+   "to": [
+    3,
+    13
+   ],
+   "hook": "You vs Problem",
+   "caption": "Tough bosses are hard on the work. Toxic bosses are hard on the person. #toxicboss #badboss #workplace"
+  },
+  {
+   "title": "How teams quietly get revenge on bad bosses",
+   "from": [
+    4,
+    13
+   ],
+   "to": [
+    4,
+    16
+   ],
+   "hook": "Unexpected Truth",
+   "caption": "Nobody quits loudly. They just stop doing the extra things. #toxicboss #management #smallbusiness"
+  },
+  {
+   "title": "Say this to a difficult boss",
+   "from": [
+    11,
+    3
+   ],
+   "to": [
+    11,
+    7
+   ],
+   "hook": "Fast Reward",
+   "caption": "One moment, the effect, what you'd like instead. A calm way to raise it. #toxicboss #workadvice #management"
+  },
+  {
+   "title": "A bad boss at the top spreads 2 levels down",
+   "from": [
+    6,
+    0
+   ],
+   "to": [
+    6,
+    3
+   ],
+   "hook": "Unexpected Truth",
+   "caption": "Abuse at the top predicted abuse two levels down. #leadership #toxicboss #workplace"
+  }
+ ]
+}

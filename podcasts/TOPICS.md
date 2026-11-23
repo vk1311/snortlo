@@ -38,7 +38,7 @@ Backups: short-term rental insurance; Airbnb hosting for beginners in Canada. (V
 ### Staffkin Podcast (Thursdays 10:00 Halifax)
 | Air date | Slug | Topic | Status |
 |---|---|---|---|
-| Dec 3 | staffkin-ep05-toxic-boss | The toxic boss: the signs, the research on abusive supervision, and what a team can do | to do |
+| Dec 3 | staffkin-ep05-toxic-boss | The toxic boss: the signs, the research on abusive supervision, and what a team can do | made Nov 23, scheduled |
 | Dec 10 | staffkin-ep06-bullying | Workplace bullying and harassment in Canada: what counts, what the rules say, what a manager does first | to do |
 | Dec 17 | staffkin-ep07-work-stress | Work stress: where it comes from, the early signs, and what actually helps (kind, no diagnosing, 9-8-8 when relevant) | to do |
 | Dec 24 | staffkin-ep08-motivation | What actually motivates employees (Herzberg's hygiene factors, self-determination theory, the bonus myth) | to do |
