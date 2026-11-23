@@ -1,0 +1,228 @@
+{
+ "channel": "Snortlo",
+ "series": "Lo Explains #12",
+ "format": "concept",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "hook": {
+  "pillars": "headline text MOST TIME|ZONES? + recordscratch + slow zoom",
+  "formula": "Unexpected Truth"
+ },
+ "sources": [
+  "https://www.timeanddate.com/time/country-with-the-most-time-zones.html",
+  "https://www.guinnessworldrecords.com/world-records/584626-country-with-the-most-time-zones",
+  "https://thecanadianencyclopedia.ca/en/article/saint-pierre-and-miquelon"
+ ],
+ "end_card": {
+  "text": "SEND THIS TO|YOUR TRAVEL FRIEND",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "MOST TIME|ZONES?",
+    "bg1": "#E3EEFA",
+    "bg2": "#5F8FC9"
+   },
+   "text": "Which country has the most time zones? Not Russia. Not the U S. It's France.",
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "FRANCE|?!"
+   },
+   "text": "Yes. France. The one with the croissants.",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "12|TIME ZONES",
+    "bg1": "#FFF1DC",
+    "bg2": "#E2A65B"
+   },
+   "text": "France has twelve time zones. Russia and the United States have eleven each.",
+   "sfx": "ding"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "MAINLAND|1 ZONE",
+    "cooler": false
+   },
+   "text": "Here's the trick. Mainland France only uses one time zone.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 820,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "TAHITI",
+     "REUNION",
+     "NEW CALEDONIA"
+    ],
+    "bg1": "#E3F6E8",
+    "bg2": "#7BC49A"
+   },
+   "text": "The other eleven come from French territories all over the planet. French Polynesia in the Pacific. Reunion in the Indian Ocean. New Caledonia. French Guiana.",
+   "sfx": "pop"
+  },
+  {
+   "set": "street",
+   "text": "And one of them is basically our neighbour.",
+   "sfx": "waitwhat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "ST PIERRE|& MIQUELON",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "text": "Saint Pierre and Miquelon. Little French islands about twenty kilometres off Newfoundland. Actual France. Next to Canada.",
+   "sfx": "busted",
+   "meme": "shake",
+   "slow": true
+  },
+  {
+   "set": "street",
+   "text": "And when Saint Pierre switches to daylight time, France picks up a thirteenth time zone.",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "-10 TO +12",
+    "cooler": false
+   },
+   "text": "So France's clocks run from minus ten hours in French Polynesia to plus twelve in Wallis and Futuna.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 820,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "dot",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "CHINA|1 ZONE",
+    "bg1": "#FBE3E0",
+    "bg2": "#D9675B"
+   },
+   "text": "Meanwhile China, almost as wide as the continental U S, uses one single time zone.",
+   "sfx": "vineboom"
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "CANADA|6 ZONES"
+   },
+   "text": "Canada has six. And I still never know when to call my mom in Vancouver.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living",
+   "state": {
+    "tv": "FRANCE|12"
+   },
+   "text": "So, the country with the most time zones? The one with the croissants.",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "pause": 0.5
+  }
+ ]
+}

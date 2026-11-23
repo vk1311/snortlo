@@ -1,0 +1,104 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #75",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "money",
+ "hook": {
+  "pillars": "caption text + whoosh + cards popping in",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR WIFE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "The \"we're saving money|this month\" starter pack:",
+   "set": "kitchen",
+   "state": {
+    "sign": "",
+    "clock": "6:00"
+   },
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 800,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cards": [
+    "RICE",
+    "BEANS",
+    "HOPE"
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "The meal plan:",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "day 1: rice",
+     "day 2: rice",
+     "day 3: rice"
+    ],
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "sfx": "ding"
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Day 4, \"just this once\":",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$46|TAKEOUT",
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "sfx": "payding"
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me explaining it still counts as|saving because it had a coupon:",
+   "set": "living",
+   "state": {
+    "tv": "COUPON|$5 OFF"
+   },
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  }
+ ]
+}

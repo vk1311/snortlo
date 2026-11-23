@@ -1,0 +1,15 @@
+{
+ "day": "20260610",
+ "start": 19938.0,
+ "end": 19966.0,
+ "end_on_word": "you",
+ "end_on_last": true,
+ "tail": 1.2,
+ "top_text": "Me when I know everyone only|came to the meeting for the pizza:",
+ "sfx": [
+  {"at_word": "game", "name": "rizz", "delay": 0.0, "gain": 0.6},
+  {"at_word": "ball", "name": "aura", "delay": 0.0, "gain": 0.7, "last": true}
+ ],
+ "hold_end": 1.6,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-06-10, caption clock ~19938-19966; a newly sworn-in member closes his first floor remarks noting 'there's a big game tonight' (the annual baseball game), says he played baseball and his dad played in the minors, ends 'play ball, thank you' to applause; no views, party ?"
+}

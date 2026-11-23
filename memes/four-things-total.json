@@ -1,0 +1,101 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #74",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "money",
+ "hook": {
+  "pillars": "caption text + pop + Lo sliding in with the basket",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Nobody:",
+   "set": "street",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 540,
+     "hold": "lunch"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Me at the grocery store,|buying just 4 things:",
+   "set": "street",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "lunch"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "The total:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$87.40",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "sfx": "gasp",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.6,
+   "top_text": "Me in the parking lot, trying to figure|out which of the 4 things was $80:",
+   "set": "street",
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  }
+ ]
+}

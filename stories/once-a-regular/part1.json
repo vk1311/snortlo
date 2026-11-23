@@ -1,0 +1,450 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "customers",
+ "hook": {
+  "pillars": "headline text REGULAR|SINCE 2019? + whoosh + slow zoom",
+  "formula": "shock_statement (Unexpected Truth-style)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BARISTA",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "REGULAR|SINCE 2019?",
+    "bg1": "#FFF1DC",
+    "bg2": "#E2A65B"
+   },
+   "text": "A woman just asked for the regulars discount. She has been here exactly once. In twenty nineteen.",
+   "sfx": "whoosh",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "COFFEE $4|REGULARS 10%",
+    "cooler": false
+   },
+   "text": "I run the counter at a tiny coffee shop. Regulars get ten percent off. Regulars are people I see every day.",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "co2",
+   "text": "I'm basically a regular. I came here before it was cool.",
+   "sfx": "huh",
+   "bubble": {
+    "text": "I'M A REGULAR!",
+    "x": 300,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "me",
+   "text": "Before it was cool? We opened in twenty eighteen. It was never cool.",
+   "sfx": "rimshot",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "me",
+   "text": "Ma'am, I have worked here six years. I have never seen your face.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "So she pulls out her wallet and unfolds a receipt. An actual paper receipt.",
+   "sfx": "scratch",
+   "cam": {
+    "zoom": 1.4,
+    "on": "co2"
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "MARCH 2019",
+     "1 LATTE",
+     "$4.25"
+    ],
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "text": "March twenty nineteen. One latte. Four twenty five. She kept it like a birth certificate.",
+   "sfx": "ding"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "And something about that date felt familiar. So I checked our old reviews.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "smug",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "1 STAR",
+     "never coming",
+     "back. EVER."
+    ],
+    "bg1": "#FFE3E0",
+    "bg2": "#E8958A"
+   },
+   "text": "There it was. March twenty nineteen. One star. Never coming back. Ever.",
+   "sfx": "busted",
+   "meme": "shake",
+   "slow": true
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "me",
+   "text": "Ma'am. You left us one star.",
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "co2",
+   "text": "And I kept my word for six whole years. If that's not loyalty, what is?",
+   "sfx": "waitwhat",
+   "bubble": {
+    "text": "LOYALTY!",
+    "x": 300,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Honestly? I respected it. So I gave her the regulars discount. Ten percent off a four dollar coffee.",
+   "sfx": "payding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ],
+   "cards": [
+    "40",
+    "CENTS"
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "She was thrilled. She put the new receipt in her wallet, right next to the old one.",
+   "sfx": "sparkle",
+   "cast": [
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "5 STARS",
+     "they remember",
+     "me!!"
+    ],
+    "bg1": "#E3F6E8",
+    "bg2": "#7BC49A"
+   },
+   "text": "Two hours later, a brand new review. Five stars. They remember me.",
+   "sfx": "ding"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "And now she comes in every single day. She is a real regular now. I created this.",
+   "sfx": "sadtrombone",
+   "pause": 0.6,
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 300,
+     "facing": 1,
+     "pose": "drink",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ]
+  }
+ ]
+}
