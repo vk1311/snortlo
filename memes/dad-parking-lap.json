@@ -1,0 +1,128 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #78",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "family",
+ "hook": {
+  "pillars": "caption text + voiced dad line + tire screech + Lo in the street",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR DAD",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "There's one. No. Too far.",
+   "voice": "am_adam",
+   "speaker": "co1",
+   "pause": 1.0,
+   "top_text": "POV: your dad is looking for|the \"good\" parking spot:",
+   "set": "street",
+   "sfx": "tirescreech",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 680,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Dad, that one was right by the door.",
+   "speaker": "me",
+   "pause": 1.0,
+   "top_text": "Me:",
+   "set": "street",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "me",
+     "x": 680,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "worried",
+      "mouth": "o"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "text": "We'll do one more lap.",
+   "voice": "am_adam",
+   "speaker": "co1",
+   "pause": 1.2,
+   "top_text": "Dad, on lap eleven:",
+   "set": "street",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "me",
+     "x": 680,
+     "facing": -1,
+     "pose": "slump",
+     "face": {
+      "eyes": "closed",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.3,
+   "top_text": "The spot he finally got:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "22 MIN|4 FT CLOSER",
+    "bg1": "#E8F4FF",
+    "bg2": "#5B9BD5"
+   },
+   "sfx": "bruh",
+   "meme": "deepfry"
+  }
+ ]
+}

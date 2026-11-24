@@ -1,0 +1,579 @@
+{
+ "brand": "waypoint",
+ "format": "waypoint-explainer",
+ "episode": 3,
+ "slug": "wp03-side-hustle-business",
+ "air_date": "2026-11-30",
+ "topic": 3,
+ "title": "Your Side Hustle Isn't a Business (Probably). Here's How Canada Decides.",
+ "card_title": "Your side hustle isn't a business (probably)",
+ "thumb_title": "NOT A BUSINESS?",
+ "hook": {
+  "pillars": "headline card 'Your first sale doesn't make it a business' + pop on the opening photo zoom + slow zoom",
+  "formula": "Unexpected Truth ('Most people think a side hustle turns into a business the moment somebody pays you... the tax rules look at it almost the other way around')"
+ },
+ "hook_sfx": "pop",
+ "description": "How the CRA tells a business from a hobby (the Supreme Court's Stewart test), why the label matters in both directions, the three money lines side hustlers miss (the $30,000 GST/HST small supplier limit, both halves of CPP, and instalments), the insurance gap on home-based work, Nova Scotia business name registration, and a simple test for whether yours is a business or a second job.\nFacts are from the CRA, the Government of Nova Scotia, the Insurance Bureau of Canada and Statistics Canada. Information is as of November 2026. This isn't legal or tax advice; talk to an accountant about your own situation.\nwaypointns.ca",
+ "tags": [
+  "side hustle canada",
+  "side hustle taxes canada",
+  "is my side hustle a business",
+  "business or hobby cra",
+  "t2125",
+  "gst hst small supplier",
+  "cpp self employed",
+  "side hustle nova scotia",
+  "register business name nova scotia",
+  "home business insurance canada",
+  "small business canada"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open: your first sale isn't the finish line",
+   "visuals": [
+    "market stall",
+    "handmade candles",
+    "cash register",
+    "handmade soap",
+    "laptop desk"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Most people think a side hustle turns into a business the moment somebody pays you. In Canada, the tax rules look at it almost the other way around.",
+     "card": {
+      "type": "point",
+      "text": "Your first sale doesn't make it a business"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Getting paid is the easy part. What the C R A actually asks is how you run the thing. Whether you're chasing a profit, or doing something you enjoy that happens to bring in some cash."
+    },
+    {
+     "who": "host",
+     "text": "And that one question decides a lot. Whether you can write off your costs. Whether a bad year lowers the tax on your day job. Whether you owe pension contributions you didn't plan for."
+    },
+    {
+     "who": "host",
+     "text": "And by the end, you'll have a simple test for whether yours is a business yet. Here's a hint. It has nothing to do with how much you make."
+    },
+    {
+     "who": "host",
+     "text": "Quick note first. This is general information as of November twenty twenty six. This isn't legal or tax advice. If real money is on the line, talk to an accountant."
+    }
+   ]
+  },
+  {
+   "heading": "How the CRA tells a business from a hobby",
+   "visuals": [
+    "magnifying glass",
+    "ledger book",
+    "filing cabinet",
+    "desk lamp",
+    "courthouse columns",
+    "old typewriter"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Here's what school teaches. A business is an activity you do to earn a profit. Simple. Sell something for more than it costs you."
+    },
+    {
+     "who": "host",
+     "text": "Here's what school doesn't teach. In Canada, the test comes from a Supreme Court case from twenty oh two called Stewart. And the C R A's own audit manual still uses it today.",
+     "card": {
+      "type": "stat",
+      "big": "2002",
+      "label": "Stewart v. Canada: the Supreme Court test the CRA still uses",
+      "source": "Supreme Court of Canada; CRA Income Tax Audit Manual"
+     }
+    },
+    {
+     "who": "host",
+     "text": "It works in two steps. Step one. Is this something you do to make a profit, or is it a personal pursuit? If there's no personal side to it at all, like a plumbing company, the question ends there. It's a business."
+    },
+    {
+     "who": "host",
+     "text": "Step two only kicks in when there is a personal side. Things like baking, photography, crafts, music, collecting. Then the question becomes whether you run it in a way that's commercial enough."
+    },
+    {
+     "who": "host",
+     "text": "And the court made one point that surprises people. Losing money doesn't automatically make it a hobby. Plenty of real businesses lose money for years. Losses are a clue, not the verdict.",
+     "card": {
+      "type": "point",
+      "text": "Losses are a clue, not the verdict"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So what clues does the C R A look for? Its manual lists signs of a personal element. How long you've been doing it, and whether it started as a hobby. Customers who are mostly relatives or neighbours. Irregular hours. No plan. Prices below what the thing is worth. Running it out of your home."
+    },
+    {
+     "who": "host",
+     "text": "Then it lists signs of a commercial manner. That you actually intend to profit. How you set your prices. Whether your costs make sense next to your sales. Whether you're trying to grow. Your training, how you financed it, and what you've put into it.",
+     "card": {
+      "type": "list",
+      "title": "What the CRA weighs",
+      "items": [
+       "Intent to profit",
+       "How you set prices",
+       "Costs vs. sales",
+       "Efforts to grow",
+       "Training and capital"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "And the manual is clear that no single factor wins. It's the whole picture. Appearances alone aren't enough either. Business cards and a logo don't make it a business if you're not really trying to make money."
+    },
+    {
+     "who": "host",
+     "text": "Notice what's on that list. Selling to your aunt. Charging less than it's worth. No plan. That's most side hustles in their first year. Which is why the title says probably."
+    }
+   ]
+  },
+  {
+   "heading": "Why the label matters, in both directions",
+   "visuals": [
+    "calculator",
+    "receipt paper",
+    "paper forms",
+    "pencil",
+    "desk calendar",
+    "envelope"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So why should you care which side of the line you land on? Because the label cuts both ways, and most people only think about one of them."
+    },
+    {
+     "who": "host",
+     "text": "If it's a business, you report the income on a form called the T twenty one twenty five, one for each business. You report what came in, then subtract the costs of earning it.",
+     "card": {
+      "type": "point",
+      "text": "Business income goes on Form T2125"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And here's the upside. If a real business has a bad year, that loss can come off your other income, like your paycheque. A business loss you can't use right away can go back three years, or forward up to twenty.",
+     "card": {
+      "type": "stat",
+      "big": "3 back / 20 forward",
+      "label": "years a business loss can be carried",
+      "source": "CRA, line 25200"
+     }
+    },
+    {
+     "who": "host",
+     "text": "If it's not a business, that door closes. The C R A's manual says an activity run mainly to create tax losses isn't a source of income at all. So you can't treat your expensive hobby as a write off."
+    },
+    {
+     "who": "host",
+     "text": "Now the part a lot of side hustlers miss. Not keeping track doesn't make the income invisible. Since the twenty twenty four tax year, digital platforms in Canada report what they paid sellers to the C R A every year, by January thirty first.",
+     "card": {
+      "type": "stat",
+      "big": "Jan 31",
+      "label": "yearly deadline for platforms to report sellers' income to the CRA",
+      "source": "CRA, digital platform reporting rules"
+     }
+    },
+    {
+     "who": "host",
+     "text": "That covers platforms for things like ridesharing, delivery, selling goods and renting out space. The seller gets a copy too. And the C R A's advice is simple. Make sure what you report matches."
+    },
+    {
+     "who": "host",
+     "text": "The C R A's own tax tips this year also say gifts, tips and donations through online platforms are generally taxable income. So yes, that includes what fans send you on a stream."
+    },
+    {
+     "who": "host",
+     "text": "So you can't really stay a hobby by staying quiet. The question is only whether you'll be ready when the numbers line up."
+    }
+   ]
+  },
+  {
+   "heading": "The money lines nobody mentions",
+   "visuals": [
+    "coin jar",
+    "calculator",
+    "wall calendar",
+    "ledger book",
+    "alarm clock",
+    "stack of paper"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Here's what school teaches about tax. You earn money, you pay income tax on it. Here's what it leaves out. When you work for yourself, there are three more lines to watch."
+    },
+    {
+     "who": "host",
+     "text": "Line one is sales tax. In Canada, you're a small supplier while your taxable sales stay at thirty thousand dollars or less in any single quarter and over the last four quarters in a row.",
+     "card": {
+      "type": "stat",
+      "big": "$30,000",
+      "label": "small supplier limit for GST/HST, per quarter and over 4 quarters",
+      "source": "CRA, RC4022"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Cross it over four quarters, and you have until the end of the following month to register. Cross it in one single quarter, and the sale that pushed you over is already taxable. You have twenty nine days to register."
+    },
+    {
+     "who": "host",
+     "text": "There's one big exception. If you drive for a rideshare app, there's no threshold at all. You register the moment you start earning. And in Nova Scotia, the H S T rate is fourteen percent since April twenty twenty five, down from fifteen.",
+     "card": {
+      "type": "stat",
+      "big": "14%",
+      "label": "HST in Nova Scotia since April 1, 2025",
+      "source": "CRA"
+     }
+    },
+    {
+     "who": "host",
+     "text": "The second line is the one that surprises people most. The pension plan. When you have a job, your employer pays half of your C P P contributions. When you work for yourself, you're the employer. So you pay both halves."
+    },
+    {
+     "who": "host",
+     "text": "Each half is five point nine five percent for twenty twenty six, on earnings above a three thousand five hundred dollar exemption. Together that's almost twelve percent, up to a maximum of eight thousand four hundred and sixty dollars and ninety cents for a self employed person this year.",
+     "card": {
+      "type": "stat",
+      "big": "$8,460.90",
+      "label": "2026 maximum CPP contribution for the self-employed (both halves)",
+      "source": "CRA"
+     }
+    },
+    {
+     "who": "host",
+     "text": "If you also have a day job, that job already counts toward the same yearly maximum. But on the side hustle profit, you're paying both shares. That's the bill that catches people in April."
+    },
+    {
+     "who": "host",
+     "text": "Line three is instalments. If your tax owing on filing day is more than three thousand dollars this year, and it was also more than three thousand in either of the last two years, the C R A expects you to pay ahead, four times a year.",
+     "card": {
+      "type": "stat",
+      "big": "$3,000",
+      "label": "net tax owing that triggers quarterly instalments",
+      "source": "CRA"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Those are due in March, June, September and December. Skip them, and interest can build up."
+    },
+    {
+     "who": "host",
+     "text": "And there's one cost that catches more side hustlers than any of these. It isn't a tax at all. It's the thing you assumed you already had. We'll get to it in a second."
+    }
+   ]
+  },
+  {
+   "heading": "A quick word from Waypoint (that's us)",
+   "promo": true,
+   "visuals": [
+    "harbour lighthouse",
+    "laptop desk",
+    "notebook pen",
+    "coffee mug"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Quick pause. Waypoint Software made this video. We're based in Atlantic Canada, and we build websites for small service businesses, along with the booking, quoting and invoicing tools that run behind them.",
+     "card": {
+      "type": "point",
+      "text": "A quick word from Waypoint (that's us)"
+     }
+    },
+    {
+     "who": "host",
+     "text": "The idea is software that fits the way you already work, so a quote, a booking and the invoice that follows are all in one place, instead of in your texts and your head. If that sounds like your week, waypointns dot ca. Now, that cost nobody plans for."
+    }
+   ]
+  },
+  {
+   "heading": "The risk that isn't a tax",
+   "visuals": [
+    "house front door",
+    "garage workbench",
+    "toolbox",
+    "umbrella",
+    "padlock",
+    "kitchen counter"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "It's insurance. Most side hustles run out of a home, a car or a garage. And the home insurance you already pay for usually wasn't written with a business in mind."
+    },
+    {
+     "who": "host",
+     "text": "The Insurance Bureau of Canada says you must tell your home insurer about a business on your premises. And it says most home policies only give a small amount of coverage for books, tools and equipment used for a business.",
+     "card": {
+      "type": "point",
+      "text": "Tell your home insurer about the business"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Equipment you take out of the house to a job may not be covered at all. So the camera bag in your trunk, or the tools in the back of the truck, might be on their own."
+    },
+    {
+     "who": "host",
+     "text": "But the bureau says the biggest risk is liability. A customer slips on your step, or your product hurts someone. The personal liability on a home policy typically would not cover that, because it happened in the course of business."
+    },
+    {
+     "who": "host",
+     "text": "And if you sell advice or services, like bookkeeping, design or coaching, the bureau says you likely need errors and omissions coverage, in case a mistake costs your client money."
+    },
+    {
+     "who": "host",
+     "text": "One more thing that isn't tax. In Nova Scotia, if you run your hustle under a name that isn't your own legal name, you generally have to register that name with the Registry of Joint Stock Companies."
+    },
+    {
+     "who": "host",
+     "text": "The province's own example is John Smith and Associates. That needs to be registered. It costs sixty eight dollars and fifty five cents, with the same fee to renew every year, and it takes about one to two weeks.",
+     "card": {
+      "type": "stat",
+      "big": "$68.55",
+      "label": "to register a sole proprietorship name in Nova Scotia (same yearly renewal)",
+      "source": "Government of Nova Scotia"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And your registration becomes public record. Which is a good reminder that the moment you look like a business, people start treating you like one."
+    }
+   ]
+  },
+  {
+   "heading": "Is yours a business, or a second job?",
+   "visuals": [
+    "wristwatch",
+    "pocket watch",
+    "road sign",
+    "mountain trail",
+    "compass",
+    "coffee cup"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So here's the honest test. Forget the tax rules for a minute. Is what you have a business, or a second job you made for yourself?"
+    },
+    {
+     "who": "host",
+     "text": "You'd be in good company either way. Statistics Canada says that in twenty twenty three, about one point one million Canadians held more than one job. That's five point six percent of everyone working.",
+     "card": {
+      "type": "stat",
+      "big": "1.1 million",
+      "label": "Canadians holding more than one job in 2023 (5.6% of workers)",
+      "source": "Statistics Canada"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And app based work is mostly a side thing. In late twenty twenty three, four hundred and sixty eight thousand people had done paid platform work in the past year. For only seventy nine thousand of them was it their main job or business.",
+     "card": {
+      "type": "stat",
+      "big": "79,000 of 468,000",
+      "label": "platform workers for whom it was the main job (Dec 2023)",
+      "source": "Statistics Canada"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Even among people who are fully self employed, Statistics Canada found almost seventy two percent have no employees. And the top reason people give for working for themselves isn't money. It's independence."
+    },
+    {
+     "who": "host",
+     "text": "That's the textbook gap. School shows a business as something with customers, prices and a profit. What it doesn't say is that a lot of self employment is really a job where you're also the boss, the bookkeeper and the delivery driver."
+    },
+    {
+     "who": "host",
+     "text": "Try this with your own numbers. Take what you made last month, subtract every cost, including supplies, fees, gas and the platform's cut. Then divide by every hour you spent, including messages, packing and driving."
+    },
+    {
+     "who": "host",
+     "text": "If that hourly number is lower than you'd accept from an employer, it's not a failure. It just tells you what you have. Either a hobby that pays for itself, or a business that needs better prices or fewer hours per sale."
+    },
+    {
+     "who": "host",
+     "text": "And here's the line that matters most. If your activity only earns money while you're physically doing it, it's closer to a job. If you're building something that sells, books or repeats with less of you each time, that's when it starts to look like a business."
+    }
+   ]
+  },
+  {
+   "heading": "What to actually do this week",
+   "visuals": [
+    "checklist clipboard",
+    "spiral notebook",
+    "pencil",
+    "bank vault door",
+    "desk lamp",
+    "filing cabinet"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So here's what to actually do. Six steps, and most of them take an evening.",
+     "card": {
+      "type": "list",
+      "title": "Six steps this week",
+      "items": [
+       "Separate bank account",
+       "Track every dollar",
+       "Write down your plan",
+       "Set money aside for tax and CPP",
+       "Watch the $30,000 line",
+       "Call your insurer"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "One. Open a separate account for the side hustle, even a free one. It makes the clues the C R A looks for visible, and it makes tax time a lot shorter."
+    },
+    {
+     "who": "host",
+     "text": "Two. Track every dollar in and out, and keep the receipts. The C R A says keep records for six years from the end of the tax year they relate to."
+    },
+    {
+     "who": "host",
+     "text": "Three. Write down a one page plan. What you sell, what you charge and why, and how you'll make a profit. That's not paperwork for its own sake. Intent to profit and a plan are both on the C R A's list."
+    },
+    {
+     "who": "host",
+     "text": "Four. Every time you get paid, move a share into a separate pot for income tax and both halves of C P P. Ask an accountant what share fits your numbers."
+    },
+    {
+     "who": "host",
+     "text": "Five. Watch your sales over every rolling four quarters. If you're getting close to thirty thousand dollars, sort out sales tax registration before you cross the line, not after."
+    },
+    {
+     "who": "host",
+     "text": "Six. Call your home or auto insurer and tell them what you do. Ask what's covered and what isn't. It's one phone call, and it's the cheapest one on this list."
+    },
+    {
+     "who": "host",
+     "text": "Do those six things, and whichever side of the line you're on, you'll know where you stand. This is Waypoint Software, at waypointns dot ca."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "CRA Income Tax Audit Manual, chapter 27 (source of income, Stewart test, personal element and commercial manner factors)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/technical-information/income-tax-audit-manual-domestic-compliance-programs-branch-dcpb-27.html"
+  },
+  {
+   "label": "Stewart v. Canada, 2002 SCC 46 (summary)",
+   "url": "https://ca.vlex.com/vid/stewart-v-mnr-681421873"
+  },
+  {
+   "label": "CRA T4002, reporting business income (Form T2125)",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4002/t4002-4.html"
+  },
+  {
+   "label": "CRA line 25200, non-capital losses of other years",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-25200-non-capital-losses-other-years.html"
+  },
+  {
+   "label": "CRA tax tips 2026: self-employed filing tips (platform income, tips, rideshare GST/HST, instalment dates)",
+   "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/self-employed-make-filing-easier-with-these-tips-from-the-cra.html"
+  },
+  {
+   "label": "CRA reporting rules for digital platform operators: filing information returns",
+   "url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-rules-digital-platforms/filing-information-returns.html"
+  },
+  {
+   "label": "CRA tax tip: using an app or website to earn income",
+   "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2024/using-app-website-earn-income.html"
+  },
+  {
+   "label": "CRA RC4022, GST/HST small supplier and Nova Scotia HST rate",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4022/general-information-gst-hst-registrants.html"
+  },
+  {
+   "label": "CRA CPP contribution rates, maximums and exemptions",
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html"
+  },
+  {
+   "label": "CRA: who pays instalments",
+   "url": "https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/who-pays-instalments.html"
+  },
+  {
+   "label": "CRA RC188: keeping records",
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc188/keeping-records.html"
+  },
+  {
+   "label": "Insurance Bureau of Canada: types of business insurance coverage",
+   "url": "https://www.ibc.ca/insurance-basics/business/types-of-business-insurance-coverage"
+  },
+  {
+   "label": "Government of Nova Scotia: register a sole proprietorship",
+   "url": "https://www.novascotia.ca/register-sole-proprietorship"
+  },
+  {
+   "label": "Statistics Canada: multiple jobholders, 2023",
+   "url": "https://www150.statcan.gc.ca/n1/pub/14-28-0001/2024001/article/00002-eng.htm"
+  },
+  {
+   "label": "Statistics Canada, The Daily, Mar 4 2024: platform and gig work",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/240304/dq240304b-eng.htm"
+  },
+  {
+   "label": "Statistics Canada: Labour Market Review / self-employment (71-222-X)",
+   "url": "https://www150.statcan.gc.ca/n1/pub/71-222-x/71-222-x2024001-eng.htm"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Losing money doesn't make it a hobby",
+   "from": [
+    1,
+    4
+   ],
+   "to": [
+    1,
+    6
+   ],
+   "sfx": "whoosh",
+   "hook": "text + whoosh + photo zoom; Unexpected Truth",
+   "caption": "Most people think a business that loses money is just a hobby. The Supreme Court said losses are a clue, not the verdict. Here's the test the CRA uses. #sidehustle #canada #smallbusiness"
+  },
+  {
+   "title": "The side hustle bill nobody plans for",
+   "from": [
+    3,
+    4
+   ],
+   "to": [
+    3,
+    6
+   ],
+   "sfx": "ding",
+   "hook": "text + ding + photo zoom; You vs Problem",
+   "caption": "If you work for yourself, you're the employer too, so you pay both halves of CPP. Here's what that means in 2026. Not tax advice. #sidehustle #canada #cpp"
+  },
+  {
+   "title": "Your home insurance probably skips this",
+   "from": [
+    5,
+    0
+   ],
+   "to": [
+    5,
+    3
+   ],
+   "sfx": "scratch",
+   "hook": "text + scratch + photo zoom; Unexpected Truth",
+   "caption": "Running a side hustle from home? The Insurance Bureau of Canada says to tell your insurer, and home policies usually cover very little business equipment or liability. #sidehustle #canada #smallbusiness"
+  }
+ ]
+}

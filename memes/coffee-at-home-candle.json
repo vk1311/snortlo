@@ -1,0 +1,95 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #76",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "money",
+ "hook": {
+  "pillars": "caption text + pop + Lo sliding in with the latte",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "Me, buying one $6 latte:",
+   "set": "street",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 540,
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Mom, every single time:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WE HAVE|COFFEE|AT HOME",
+    "bg1": "#F3E6D8",
+    "bg2": "#A9743F"
+   },
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Also mom, the same day, buying a|\"Morning Latte\" candle:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$38",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "sfx": "gasp",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Me, realizing that's six|real lattes that smell like nothing:",
+   "set": "street",
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  }
+ ]
+}
