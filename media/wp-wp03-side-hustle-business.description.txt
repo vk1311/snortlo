@@ -1,0 +1,35 @@
+How the CRA tells a business from a hobby (the Supreme Court's Stewart test), why the label matters in both directions, the three money lines side hustlers miss (the $30,000 GST/HST small supplier limit, both halves of CPP, and instalments), the insurance gap on home-based work, Nova Scotia business name registration, and a simple test for whether yours is a business or a second job.
+Facts are from the CRA, the Government of Nova Scotia, the Insurance Bureau of Canada and Statistics Canada. Information is as of November 2026. This isn't legal or tax advice; talk to an accountant about your own situation.
+waypointns.ca
+
+Chapters
+0:00 Cold open: your first sale isn't the finish line
+0:50 How the CRA tells a business from a hobby
+2:41 Why the label matters, in both directions
+4:07 The money lines nobody mentions
+6:01 A quick word from Waypoint (that's us)
+6:29 The risk that isn't a tax
+7:51 Is yours a business, or a second job?
+9:28 What to actually do this week
+
+Sources
+- CRA Income Tax Audit Manual, chapter 27 (source of income, Stewart test, personal element and commercial manner factors): https://www.canada.ca/en/revenue-agency/services/tax/technical-information/income-tax-audit-manual-domestic-compliance-programs-branch-dcpb-27.html
+- Stewart v. Canada, 2002 SCC 46 (summary): https://ca.vlex.com/vid/stewart-v-mnr-681421873
+- CRA T4002, reporting business income (Form T2125): https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4002/t4002-4.html
+- CRA line 25200, non-capital losses of other years: https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/deductions-credits-expenses/line-25200-non-capital-losses-other-years.html
+- CRA tax tips 2026: self-employed filing tips (platform income, tips, rideshare GST/HST, instalment dates): https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/self-employed-make-filing-easier-with-these-tips-from-the-cra.html
+- CRA reporting rules for digital platform operators: filing information returns: https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-rules-digital-platforms/filing-information-returns.html
+- CRA tax tip: using an app or website to earn income: https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2024/using-app-website-earn-income.html
+- CRA RC4022, GST/HST small supplier and Nova Scotia HST rate: https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc4022/general-information-gst-hst-registrants.html
+- CRA CPP contribution rates, maximums and exemptions: https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/payroll/payroll-deductions-contributions/canada-pension-plan-cpp/cpp-contribution-rates-maximums-exemptions.html
+- CRA: who pays instalments: https://www.canada.ca/en/revenue-agency/services/payments/payments-cra/individual-payments/income-tax-instalments/who-pays-instalments.html
+- CRA RC188: keeping records: https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc188/keeping-records.html
+- Insurance Bureau of Canada: types of business insurance coverage: https://www.ibc.ca/insurance-basics/business/types-of-business-insurance-coverage
+- Government of Nova Scotia: register a sole proprietorship: https://www.novascotia.ca/register-sole-proprietorship
+- Statistics Canada: multiple jobholders, 2023: https://www150.statcan.gc.ca/n1/pub/14-28-0001/2024001/article/00002-eng.htm
+- Statistics Canada, The Daily, Mar 4 2024: platform and gig work: https://www150.statcan.gc.ca/n1/daily-quotidien/240304/dq240304b-eng.htm
+- Statistics Canada: Labour Market Review / self-employment (71-222-X): https://www150.statcan.gc.ca/n1/pub/71-222-x/71-222-x2024001-eng.htm
+
+Photos: CC0 / public domain, credits at https://github.com/vk1311/snortlo/blob/main/podcasts/CREDITS.md
+
+Narrated with an AI voice. Every fact is sourced above. waypointns.ca

@@ -121,7 +121,9 @@ def layout_warnings(d):
 RISKY_SEARCHES = {"coins", "price tag", "receipt", "cheque book", "postage stamps", "cardboard boxes", "bank vault",
                   "government building", "newspaper", "canoe", "hourglass", "letters", "reviews stars", "gold trophy",
                   "nurse station", "delivery truck", "front desk", "mop bucket", "dog bed", "suitcase", "snowy road", "clean towels",
-                  "medical chart", "dominoes", "desk nameplate", "phone on desk", "kitchen table", "desk telephone"}
+                  "medical chart", "dominoes", "desk nameplate", "phone on desk", "kitchen table", "desk telephone",
+                  "coin jar", "paper forms", "stack of paper", "kitchen counter", "road sign", "handmade candles", "courthouse columns",
+                  "adding machine", "steel safe", "signpost"}
 
 
 def visuals_warnings(d):
@@ -129,7 +131,7 @@ def visuals_warnings(d):
     out = []
     for i, seg in enumerate(d.get("segments", [])):
         for q in seg.get("visuals", []):
-            if q.lower().strip() in RISKY_SEARCHES:
+            if any(r == q.lower().strip() or r in q.lower() for r in RISKY_SEARCHES):  # substring too: "bank vault door" hit "bank vault" (Nov 24)
                 out.append(f"segment {i} ({seg.get('heading', '')[:30]}): '{q}' often pulls people/foreign text/off-topic photos")
         for line in seg.get("lines", []):
             card = line.get("card")

@@ -32,7 +32,7 @@
    "heading": "Cold open: your first sale isn't the finish line",
    "visuals": [
     "market stall",
-    "handmade candles",
+    "candle",
     "cash register",
     "handmade soap",
     "laptop desk"
@@ -71,7 +71,7 @@
     "ledger book",
     "filing cabinet",
     "desk lamp",
-    "courthouse columns",
+    "law books",
     "old typewriter"
    ],
    "lines": [
@@ -138,8 +138,8 @@
    "heading": "Why the label matters, in both directions",
    "visuals": [
     "calculator",
-    "receipt paper",
-    "paper forms",
+    "calculator",
+    "clipboard",
     "pencil",
     "desk calendar",
     "envelope"
@@ -198,12 +198,12 @@
   {
    "heading": "The money lines nobody mentions",
    "visuals": [
-    "coin jar",
+    "piggy bank",
     "calculator",
     "wall calendar",
     "ledger book",
     "alarm clock",
-    "stack of paper"
+    "manila folder"
    ],
    "lines": [
     {
@@ -304,7 +304,7 @@
     "toolbox",
     "umbrella",
     "padlock",
-    "kitchen counter"
+    "garden shed"
    ],
    "lines": [
     {
@@ -356,7 +356,7 @@
    "visuals": [
     "wristwatch",
     "pocket watch",
-    "road sign",
+    "gravel road",
     "mountain trail",
     "compass",
     "coffee cup"
@@ -414,7 +414,7 @@
     "checklist clipboard",
     "spiral notebook",
     "pencil",
-    "bank vault door",
+    "house key",
     "desk lamp",
     "filing cabinet"
    ],
