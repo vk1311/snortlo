@@ -36,6 +36,7 @@ SAY = [
     (r"\bAirbnb Luxe\b", lambda m: "Air bee en bee Lux"),
     (r"\bAirbnb('s)?\b", lambda m: "Air bee en bee" + ("'s" if m.group(1) else "")),
     (r"\bVrbo('s)?\b", lambda m: "Verbo" + ("'s" if m.group(1) else "")),
+    (r"\bEa-nasir('s)?\b", lambda m: "Ay-ah nah-seer" + ("'s" if m.group(1) else "")),
     (r"\bKeegix('s)?\b", lambda m: "Keegix" + ("'s" if m.group(1) else "")),
 ]
 

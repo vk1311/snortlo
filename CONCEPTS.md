@@ -13,7 +13,7 @@ Short animated explainers starring Lo, our teal-cap guy, in the normal Snortlo s
   - **Dreams:** why we forget dreams; why you can't read in dreams; falling dreams; lucid dreaming basics; do animals dream
   - **Your body explained:** how sleep works; why we yawn; hiccups; ~~brain freeze~~ (Lo Explains #10, Nov 18); ~~why onions make you cry~~ (Lo Explains #4, Nov 4); ~~goosebumps~~ (Lo Explains #9, Nov 16); why your stomach growls; ~~why your foot "falls asleep"~~ (Lo Explains #8, Nov 13)
   - **Geography:** ~~the country with the most time zones~~ (Lo Explains #12, Nov 23); a town split by a border; the coldest inhabited place; why Canada has so many lakes; places with weird names
-  - **Ancient times:** the oldest written complaint; ancient Roman fast food; who invented the toothbrush; ancient board games
+  - **Ancient times:** ~~the oldest written complaint~~ (Lo Explains #13, Nov 25); ancient Roman fast food; who invented the toothbrush; ancient board games
   - **History stories:** ~~how the sandwich got its name~~ (Lo Explains #1, Oct 28); ~~the first speeding ticket~~ (Lo Explains #3, Nov 2); ~~the Great Emu War~~ (Lo Explains #11, Nov 20); ~~why we say "OK"~~ (Lo Explains #6, Nov 9); the man who sold the Eiffel Tower (fraud story, keep it light); ~~why Americans vote on a Tuesday~~ (Lo Explains #5, Nov 6)
   - **Business explained:** ~~why everything ends in .99~~ (Lo Explains #2, Oct 30); how free apps make money; why airlines overbook; what a franchise really is; ~~why stores put milk at the back~~ (Lo Explains #7, Nov 11)
   - **Meme trend reviews:** where a currently trending meme format came from and why it spreads. Talk about the format; never reuse anyone's clip.

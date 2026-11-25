@@ -1,0 +1,90 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #80",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "money",
+ "hook": {
+  "pillars": "caption text + pop + Lo sneaking in",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "Me, leaving my bedroom light|on for four minutes:",
+   "set": "bedroom",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     },
+     "to": 480
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Mom, from the other|end of the house:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WHO'S|PAYING|FOR THAT?",
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Also mom, leaving the TV on|all day in an empty room:",
+   "set": "living",
+   "state": {
+    "tv": "COOKING|SHOW"
+   },
+   "sfx": "ding",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "Mom: \"It's for the dog.\"|We don't have a dog.",
+   "set": "living",
+   "state": {
+    "tv": "COOKING|SHOW"
+   },
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 380,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  }
+ ]
+}

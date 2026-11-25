@@ -1,0 +1,94 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #79",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "money",
+ "hook": {
+  "pillars": "caption text + pop + Lo sliding in",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "Me: \"Mom, what do you|want for Christmas?\"",
+   "set": "street",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 520
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Mom, every single year:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NOTHING.|DON'T YOU|DARE",
+    "bg1": "#EAF7EE",
+    "bg2": "#5DAE7B"
+   },
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.2,
+   "top_text": "Also mom, two days later,|texting me a link:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$149|AIR FRYER",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "sfx": "textbuzz",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.4,
+   "top_text": "\"Just in case you were wondering\"|Me, who was not wondering:",
+   "set": "street",
+   "sfx": "bruh",
+   "meme": "shake",
+   "cast": [
+    {
+     "who": "me",
+     "x": 520,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ],
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   }
+  }
+ ]
+}

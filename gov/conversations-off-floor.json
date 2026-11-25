@@ -1,0 +1,14 @@
+{
+ "day": "20260611",
+ "start": 6345.0,
+ "end": 6361.0,
+ "end_on_word": "floor",
+ "tail": 0.5,
+ "top_text": "Mom at Thanksgiving when the|kids' table gets too loud:",
+ "sfx": [
+  {"at_word": "order", "name": "ding", "delay": 0.05, "gain": 0.5},
+  {"at_word": "floor", "name": "vineboom", "delay": 0.1, "gain": 0.8}
+ ],
+ "hold_end": 2.2,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-06-11, caption clock ~6345-6361; after a resolution passes, the floor gets noisy and the presiding officer says 'the House will be in order. Members, please take your conversations from the floor'; clip ends there, no policy content, party ?"
+}

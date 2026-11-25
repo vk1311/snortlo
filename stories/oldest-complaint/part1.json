@@ -1,0 +1,247 @@
+{
+ "channel": "Snortlo",
+ "series": "Lo Explains #13",
+ "format": "concept",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "hook": {
+  "pillars": "headline text OLDEST|COMPLAINT? + recordscratch + slow zoom",
+  "formula": "Unexpected Truth"
+ },
+ "sources": [
+  "https://en.wikipedia.org/wiki/Complaint_tablet_to_Ea-n%C4%81%E1%B9%A3ir",
+  "https://guinnessworldrecords.com/world-records/537889-oldest-written-customer-complaint",
+  "https://www.nationalgeographic.com/history/article/ea-nasir-copper-merchant-ur"
+ ],
+ "end_card": {
+  "text": "SEND THIS TO|YOUR PICKY FRIEND",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "OLDEST|COMPLAINT?",
+    "bg1": "#FFF1DC",
+    "bg2": "#E2A65B"
+   },
+   "text": "You think angry reviews are a modern thing? The oldest customer complaint ever written is almost four thousand years old.",
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "street",
+   "text": "Around seventeen fifty B C, in the city of Ur, in what's now southern Iraq, a man named Nanni bought copper.",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 420
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "From a merchant named Ea-nasir. The copper showed up. And it was the wrong grade.",
+   "sfx": "bruh",
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "flat",
+      "mouth": "frown"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co1",
+     "x": 800,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "speaker": "co1",
+   "text": "Nanni sent his messenger to sort it out. The merchant said, if you want them, take them.",
+   "sfx": "oof",
+   "bubble": {
+    "text": "TAKE THEM|OR DON'T",
+    "x": 800,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 800,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "desk",
+   "text": "So Nanni did what any of us would do. He wrote a complaint. On a palm sized clay tablet. In cuneiform.",
+   "sfx": "scratch",
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     },
+     "fx": {
+      "steam": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "WHAT DO YOU",
+     "TAKE ME FOR?"
+    ],
+    "bg1": "#F3E6D8",
+    "bg2": "#A9743F"
+   },
+   "text": "What do you take me for, that you treat somebody like me with such contempt?",
+   "sfx": "dundun",
+   "meme": "slowzoom",
+   "slow": true
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "FINE QUALITY",
+     "OR NOTHING"
+    ],
+    "bg1": "#F3E6D8",
+    "bg2": "#A9743F"
+   },
+   "text": "Then the line every customer dreams of. I will not accept any copper from you that is not of fine quality.",
+   "sfx": "roast",
+   "meme": "shake"
+  },
+  {
+   "set": "desk",
+   "text": "But here's the wait, what part. Archaeologists found the tablet in the ruins of Ea-nasir's own house.",
+   "sfx": "waitwhat",
+   "meme": "shake",
+   "cam": {
+    "zoom": 1.4,
+    "on": "me"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "desk",
+   "text": "Right next to complaints from other unhappy customers. About more bad copper.",
+   "sfx": "gasp",
+   "cards": [
+    "BAD",
+    "BAD",
+    "BAD"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "GUINNESS|RECORD",
+    "bg1": "#E8F4FF",
+    "bg2": "#5B9BD5"
+   },
+   "text": "Today it holds a Guinness World Record. And since twenty fifteen, it's been an internet meme.",
+   "sfx": "ding"
+  },
+  {
+   "set": "street",
+   "text": "So next time you leave a one star review, remember. You're keeping a four thousand year old tradition alive.",
+   "sfx": "sparkle",
+   "cast": [
+    {
+     "who": "me",
+     "x": 420,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  }
+ ]
+}
