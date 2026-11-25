@@ -156,6 +156,16 @@ def align(cues, start, end, words):
     if len(deltas) < max(4, 0.3 * inside): raise SystemExit(f"could not line up captions with the audio ({len(deltas)}/{inside} clip words found)")
     return float(np.median(deltas))
 
+def heard_check(cues, start, end, words):
+    """Nov 25: an off-mic aside can be in the captions but too quiet for Whisper (and viewers). Warn when much of the clip's caption text isn't audible."""
+    cap = [norm(x) for c in cues if start - 1 <= c["s"] <= end for x in c["t"].split() if norm(x) and norm(x) not in ("unidentified", "speaker")]
+    heard = {norm(w["w"]) for w in words}
+    if cap:
+        pct = sum(1 for x in cap if x in heard) / len(cap)
+        print(f"heard: {pct:.0%} of the clip's caption words are audible")
+        if pct < 0.6: print("WARNING: much of this moment isn't audible (off-mic?); check the words in <out>.json before using it")
+    return cap
+
 def ass_from_words(words, path):
     def t(x): x = max(0, x); return f"{int(x // 3600)}:{int(x % 3600 // 60):02d}:{x % 60:05.2f}"
     head = ("[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\n\n[V4+ Styles]\n"
@@ -197,6 +207,7 @@ def render(clip_path, out):
         hit = hits[0] if hits else None
         if hit: b = hit["e"] + clip.get("tail", 1.6)
     a = max(0, a); dur = b - a
+    heard_check(cues, s, e, [w for w in words if a <= w["s"] <= b])
     src = f"{work}/src.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{a:.3f}", "-i", raw, "-t", f"{dur:.3f}", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", src], check=True)
     local = [dict(w, s=w["s"] - a, e=w["e"] - a) for w in words if a <= w["s"] < b]
