@@ -1,0 +1,112 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #83",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "money",
+ "hook": {
+  "pillars": "caption text + pop + Lo sliding in with the paper",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "Me, buying a $6 roll|of wrapping paper:",
+   "set": "street",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 540,
+     "hold": "paper"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "Mom:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WE HAVE|PAPER AT|HOME",
+    "bg1": "#F3E6D8",
+    "bg2": "#A9743F"
+   },
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "The paper at home:",
+   "set": "closeup",
+   "state": {
+    "show": "notebig",
+    "note_lines": [
+     "LAST YEAR'S",
+     "ironed flat",
+     "tape scars"
+    ],
+    "bg1": "#FFF4D6",
+    "bg2": "#E8758A"
+   },
+   "sfx": "tick"
+  },
+  {
+   "text": "",
+   "hold": 2.8,
+   "top_text": "Plus the gift bag that's been|in the family since 2009:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SINCE|2009",
+    "bg1": "#E8F4FF",
+    "bg2": "#5B9BD5"
+   },
+   "sfx": "gasp",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Me, getting my own gift|back in it this year:",
+   "set": "street",
+   "sfx": "vineboom",
+   "meme": "shake",
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 540,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,426 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "seasonal",
+ "hook": {
+  "pillars": "headline text POV: YOU JUST SHOVELLED + whoosh + slow zoom",
+  "formula": "pov (You vs Problem-style)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR NEIGHBOUR",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "POV: YOU|JUST|SHOVELLED",
+    "bg1": "#E8F4FF",
+    "bg2": "#5B9BD5"
+   },
+   "text": "POV. You just finished shovelling the whole driveway. Six in the morning. And then you hear it.",
+   "sfx": "whoosh",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BEEP|BEEP|BEEP",
+    "bg1": "#FFF4D6",
+    "bg2": "#E8A33D"
+   },
+   "text": "Beep. Beep. Beep. The plow.",
+   "sfx": "alarm",
+   "meme": "shake"
+  },
+  {
+   "set": "street",
+   "text": "It goes by once. A perfect wall of snow, right across the end of my driveway. Up to my knees.",
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "So I shovel it again. Twenty minutes. My back is gone. My coffee is cold.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BEEP|BEEP",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "text": "And then. He comes back the other way.",
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "street",
+   "text": "Second wall. Bigger. With a chunk of ice in it the size of a microwave.",
+   "sfx": "vineboom",
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "speaker": "co2",
+   "text": "Babe. Maybe he's doing it on purpose.",
+   "sfx": "hmm",
+   "bubble": {
+    "text": "ON PURPOSE?",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "speaker": "me",
+   "text": "Nobody does that on purpose. Plows are just plows.",
+   "sfx": "boing",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co2",
+     "x": 760,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "So the next morning, I'm out there at five. Waiting. With a coffee. For him.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "The plow comes around the corner. I wave the coffee. He stops. The window comes down.",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "speaker": "co1",
+   "text": "Is that for me?",
+   "sfx": "ding",
+   "bubble": {
+    "text": "FOR ME?",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "And that's when I saw his face. It was Kevin. From across the street. The guy whose recycling bin I backed over in August.",
+   "sfx": "busted",
+   "meme": "shake",
+   "slow": true,
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     600,
+     1050
+    ]
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "speaker": "co1",
+   "text": "Oh. Hey, neighbour. How's the bin I had to replace?",
+   "sfx": "ayo",
+   "bubble": {
+    "text": "HEY NEIGHBOUR",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "worried",
+      "mouth": "frown"
+     },
+     "fx": {
+      "red": 0.6
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "hips",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SINCE|AUGUST",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "text": "Three weeks. Two walls a morning. He'd been planning this since August.",
+   "sfx": "dundun",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "street",
+   "speaker": "me",
+   "text": "Kevin. I'm so sorry about the bin. I'll buy you a new one. And a coffee every snow day.",
+   "sfx": "aww",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "worried",
+      "mouth": "wavy"
+     },
+     "hold": "cup",
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "speaker": "co1",
+   "text": "Deal.",
+   "sfx": "success",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "street",
+   "text": "The next storm, he plowed my driveway clean. Right down to the pavement. Beautiful.",
+   "sfx": "angelchoir",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "ONTO|MY CAR",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "text": "And then he plowed all of it. Onto my car.",
+   "sfx": "sadtrombone",
+   "pause": 0.6,
+   "meme": "slowzoom"
+  }
+ ]
+}

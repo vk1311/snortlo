@@ -1,0 +1,108 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "series": "Lo vs Life #82",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "money",
+ "hook": {
+  "pillars": "caption text + voiced line + fanfare + Lo bouncing in",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BESTIE",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "Babe! I saved three hundred dollars today!",
+   "speaker": "me",
+   "pause": 0.9,
+   "top_text": "Expectation: me after|Black Friday",
+   "set": "living",
+   "state": {
+    "tv": "SALE|70% OFF"
+   },
+   "sfx": "fanfare",
+   "cast": [
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "bounce"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 1.4,
+   "top_text": "Reality:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "REALITY",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "sfx": "whoosh"
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "What I actually spent:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$740",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "sfx": "cashregister",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "On things I needed:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$0",
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "sfx": "ding"
+  },
+  {
+   "text": "But I saved three hundred.",
+   "speaker": "me",
+   "pause": 1.0,
+   "top_text": "Me, holding a third air fryer:",
+   "set": "living",
+   "state": {
+    "tv": "SALE|70% OFF"
+   },
+   "sfx": "bruh",
+   "meme": "deepfry",
+   "cast": [
+    {
+     "who": "me",
+     "x": 360,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    }
+   ]
+  }
+ ]
+}

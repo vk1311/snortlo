@@ -1,0 +1,15 @@
+{
+ "day": "20260210",
+ "start": 42974.0,
+ "end": 43013.0,
+ "end_on_word": "objection",
+ "tail": 0.4,
+ "top_text": "Me reading the terms and conditions|out loud before I click 'I agree':",
+ "sfx": [
+  {"at_word": "waived", "name": "huh", "delay": 0.1, "gain": 0.45},
+  {"at_word": "objection", "name": "vineboom", "delay": 0.1, "gain": 0.8},
+  {"at_word": "objection", "name": "laughtrack", "delay": 0.8, "gain": 0.5}
+ ],
+ "hold_end": 2.2,
+ "source": "House floor feed via engine/gov.py (houselive), 2026-02-10, caption clock ~42974-43012; a member reads a long unanimous consent request (points of order waived, considered as read, previous question ordered, one hour of debate...) in one breath, and the chair answers 'Without objection.' Procedure only, no policy views, party ?"
+}

@@ -1,0 +1,682 @@
+{
+ "brand": "waypoint",
+ "format": "waypoint-explainer",
+ "episode": 4,
+ "slug": "wp04-rent-shops",
+ "air_date": "2026-12-04",
+ "topic": 4,
+ "title": "If Nobody Can Afford Rent, Who's Opening All These Shops?",
+ "card_title": "If nobody can afford rent, who's opening shops?",
+ "thumb_title": "WHO PAYS THIS RENT?",
+ "hook": {
+  "pillars": "headline card 'Rent's too high. So who's opening shops?' + whoosh on the opening photo zoom + slow zoom",
+  "formula": "Unexpected Truth ('Most people think that if rent is this high, nobody is opening shops anymore... the numbers say almost the opposite')"
+ },
+ "hook_sfx": "whoosh",
+ "description": "Shops in Nova Scotia open almost as fast as they close, and Halifax retail space is scarce. So who's signing the leases, and why do some windows stay empty for years? We look at Statistics Canada's openings and closures, how gross, net and triple net leases really work, Halifax's commercial tax rate, who's opening (Dollarama, franchise owners, quick service food), the cap rate math that keeps some storefronts empty, the Competition Bureau's grocery property controls case, where everyone else went, and five things to check before you sign a shop lease.\nGeneral information as of November 2026. This isn't legal or tax advice.\nwaypointns.ca",
+ "tags": [
+  "commercial rent canada",
+  "why are storefronts empty",
+  "triple net lease explained",
+  "commercial lease canada",
+  "small business rent nova scotia",
+  "halifax retail",
+  "who is opening stores",
+  "cap rate explained",
+  "franchise canada",
+  "small business canada",
+  "waypoint software"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open: the empty window paradox",
+   "visuals": [
+    "shop window display",
+    "brick building",
+    "wooden door",
+    "street lamp",
+    "chalkboard sign"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Most people think that if rent is this high, nobody is opening shops anymore. In Nova Scotia, the numbers say almost the opposite.",
+     "card": {
+      "type": "point",
+      "text": "Rent's too high. So who's opening shops?"
+     }
+    },
+    {
+     "who": "host",
+     "text": "In July of this year, about four point six out of every hundred businesses in the province were brand new that month. About four point eight closed. That's thousands of doors opening and closing, every single month.",
+     "card": {
+      "type": "stat",
+      "big": "4.6% vs 4.8%",
+      "label": "Nova Scotia businesses opened vs closed, July 2026",
+      "source": "Statistics Canada via NS Finance, Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And in Halifax and East Hants, the number of active businesses was up two and a half percent from a year earlier. So shops aren't disappearing. They're being swapped."
+    },
+    {
+     "who": "host",
+     "text": "The real question is who's doing the swapping. Because it's usually not who you'd guess. And by the end, you'll know the one piece of math that keeps some windows empty for years, even when someone wants in."
+    },
+    {
+     "who": "host",
+     "text": "Quick note. This is general information as of November twenty twenty six. This isn't legal or tax advice. Before you sign anything, talk to a lawyer."
+    }
+   ]
+  },
+  {
+   "heading": "Are shops actually dying?",
+   "visuals": [
+    "shop window display",
+    "shopping basket",
+    "shelves",
+    "cash register",
+    "light bulb",
+    "wooden crate"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Start with the thing everyone says. Main street is dying. So let's check.",
+     "card": {
+      "type": "point",
+      "text": "Is main street dying?"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Statistics Canada tracks business openings and closures every month. In January, the national closure rate hit five percent, a bit above the normal level from before the pandemic. And retail was a big part of that. More than two hundred extra retail closures in one month.",
+     "card": {
+      "type": "stat",
+      "big": "5.0%",
+      "label": "Canada's business closure rate, January 2026",
+      "source": "Statistics Canada, The Daily, Apr 29, 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "But look at where the new businesses came from in February. Professional services. Construction. Health care. Other services, like repair shops and salons. Those four made up almost two thirds of the growth."
+    },
+    {
+     "who": "host",
+     "text": "Notice what's missing. Shops that sell things. A lot of the new businesses don't need a front window at all."
+    },
+    {
+     "who": "host",
+     "text": "Now here's the strange part. If retail is struggling, you'd expect empty stores everywhere. But the real estate firm J L L puts national retail vacancy at about two and a half percent this fall. That's tight.",
+     "card": {
+      "type": "stat",
+      "big": "2.5%",
+      "label": "National retail vacancy rate, fall 2026",
+      "source": "JLL via Retail Insider, Oct 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And Halifax is one of the tightest. C B R E calls it one of the strongest markets in Atlantic Canada, with good space leasing quickly. Most of that activity? Quick service restaurants."
+    },
+    {
+     "who": "host",
+     "text": "And not much new space is coming. J L L says retail construction starts fell more than forty percent in the first half of this year. When new space barely gets built, the space that exists stays expensive."
+    },
+    {
+     "who": "host",
+     "text": "Some big tenants are also leaving. The Canadian Bankers Association counted about six thousand two hundred bank branches in Canada in twenty twelve, and about five thousand four hundred sixty in twenty twenty four. Those were often the best corners on the street.",
+     "card": {
+      "type": "stat",
+      "big": "6,205 to 5,460",
+      "label": "Bank branches in Canada, 2012 vs 2024",
+      "source": "Canadian Bankers Association"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Halifax ReTales, a site that counts local openings, logged one hundred ninety three openings and one hundred four closures in the municipality in twenty twenty four. Almost two openings for every closure.",
+     "card": {
+      "type": "stat",
+      "big": "193 vs 104",
+      "label": "Openings vs closures in HRM in 2024 (Halifax ReTales)",
+      "source": "CBC News, Dec 31, 2024"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So space is scarce, and someone keeps filling it. Which means the empty windows you walk past every day are a different problem. We'll get to that. First, what a shop lease really costs."
+    }
+   ]
+  },
+  {
+   "heading": "What rent really means on a shop",
+   "visuals": [
+    "calculator",
+    "ledger book",
+    "measuring tape",
+    "snow shovel",
+    "electric meter",
+    "key ring"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "In school, rent is simple. A price per square foot, times the size of the space. Done.",
+     "card": {
+      "type": "point",
+      "text": "What school teaches: rent = price \u00d7 space"
+     }
+    },
+    {
+     "who": "host",
+     "text": "On a real shop lease, that number is often just the base rent. Then comes what landlords call additional rent."
+    },
+    {
+     "who": "host",
+     "text": "The Business Development Bank of Canada lays out the main types. A gross lease is one payment that covers everything. A net lease adds property tax on top. And a triple net lease adds property tax, the building's insurance, utilities and the upkeep. The landlord pays for little more than the structure itself.",
+     "card": {
+      "type": "list",
+      "title": "Lease types (BDC)",
+      "items": [
+       "Gross: one all-in payment",
+       "Net: + property tax",
+       "Double net: + tax, insurance",
+       "Triple net: + tax, insurance, utilities, upkeep"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Upkeep can mean snow removal, cleaning, landscaping and property management, split among the tenants. In Nova Scotia, that snow line is not a small number."
+    },
+    {
+     "who": "host",
+     "text": "How common is this? A Statistics Canada survey found about half of Canadian businesses rent their space. Of those, about half had gross leases. Roughly one in four were on triple net.",
+     "card": {
+      "type": "stat",
+      "big": "24.6%",
+      "label": "Renting businesses on a triple net lease",
+      "source": "Statistics Canada, CSBC Q2 2024"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Now the part nobody tells you about property tax. In Halifax, the city's own rate page shows the commercial rate on smaller properties at about four times the residential rate per hundred dollars of value. On a net lease, that bill lands on the tenant.",
+     "card": {
+      "type": "stat",
+      "big": "~4\u00d7",
+      "label": "HRM commercial vs urban residential general tax rate, 2024/25",
+      "source": "Halifax Regional Municipality, tax rates"
+     }
+    },
+    {
+     "who": "host",
+     "text": "One more surprise. The money you spend fitting out the space, the counters, the shelving, the lighting, usually becomes the landlord's property when you leave. B D C says so plainly."
+    },
+    {
+     "who": "host",
+     "text": "And renewal is where it can really bite. In a C F I B survey, about half of small businesses that rent had an increase of six percent or more in a year. Twelve percent saw increases of thirty percent or more.",
+     "card": {
+      "type": "stat",
+      "big": "51%",
+      "label": "Renting small firms with rent hikes of 6%+ in a year",
+      "source": "CFIB, Sep 2023 survey"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Why don't they just move? In the same survey, about a third of the businesses hit with a big increase thought about moving. Only seven percent actually did. Moving a shop means new fit out costs, new signs, and the risk your regulars don't follow you."
+    },
+    {
+     "who": "host",
+     "text": "Nova Scotia has no cap on commercial rent. A bill to cap it for small businesses was introduced in October twenty twenty five, and as far as the legislature's page shows, it hasn't passed."
+    }
+   ]
+  },
+  {
+   "heading": "Who's actually signing the leases",
+   "visuals": [
+    "shopping bags",
+    "coffee cup",
+    "neon sign",
+    "glass door",
+    "shelves",
+    "paper bag"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So who can afford all that? Look at who keeps opening.",
+     "card": {
+      "type": "point",
+      "text": "Who's actually signing the leases?"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Dollarama had one thousand seven hundred thirty four stores in Canada this August. That's sixty nine more than a year earlier. More than one new store a week.",
+     "card": {
+      "type": "stat",
+      "big": "+69",
+      "label": "New Dollarama stores in Canada in one year (to Aug 2026)",
+      "source": "Dollarama Q2 fiscal 2027 results"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Franchises are the other big one. The Canadian Franchise Association counts more than seventy thousand franchise locations in the country. And here's the twist. Ninety three percent of them are owned by individual operators.",
+     "card": {
+      "type": "stat",
+      "big": "93%",
+      "label": "Franchise locations owned by individual operators",
+      "source": "Canadian Franchise Association via Retail Insider"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So a lot of the new shops are still small business owners. They just walk in with a brand a landlord already trusts."
+    },
+    {
+     "who": "host",
+     "text": "On Spring Garden Road, the new ground floor retail at The Mills was about eighty percent leased in twenty twenty five, mostly to national outdoor and athletic brands."
+    },
+    {
+     "who": "host",
+     "text": "Here's the pattern. A landlord isn't only renting space. They're picking who's most likely to pay for the next ten years. A national chain with a big balance sheet looks safer on paper than someone opening their first bakery."
+    },
+    {
+     "who": "host",
+     "text": "Which brings us to the windows that stay dark. If someone is ready to rent, why would a landlord leave a space empty for a year instead of dropping the price? There's a reason, and it's a bit of math most tenants never see."
+    }
+   ]
+  },
+  {
+   "heading": "A quick word from Waypoint (that's us)",
+   "promo": true,
+   "visuals": [
+    "harbour lighthouse",
+    "laptop desk",
+    "notebook pen",
+    "coffee mug"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Before that, a quick word. This video comes from Waypoint Software, here in Atlantic Canada. We build websites for small service businesses, and the booking, quoting and invoicing tools that sit behind them.",
+     "card": {
+      "type": "point",
+      "text": "A quick word from Waypoint (that's us)"
+     }
+    },
+    {
+     "who": "host",
+     "text": "A lot of the businesses opening now never need a storefront, so the website does the work a front window used to. We try to build it around how you already work. That's waypointns dot ca. Okay. The math that keeps windows empty."
+    }
+   ]
+  },
+  {
+   "heading": "Why empty windows stay empty",
+   "visuals": [
+    "padlock",
+    "calculator",
+    "old brick wall",
+    "ledger book",
+    "door lock",
+    "window blinds"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Here's the math. Commercial buildings are usually valued on the rent they bring in.",
+     "card": {
+      "type": "point",
+      "text": "Why do empty windows stay empty?"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Investors divide the yearly net rent by something called a cap rate. Take a made up example. A shop that pays forty thousand dollars a year, at a six percent cap rate, makes the space worth about six hundred sixty seven thousand.",
+     "card": {
+      "type": "list",
+      "title": "Illustration (made-up numbers)",
+      "items": [
+       "$40,000 rent \u00f7 6% = ~$667,000",
+       "$30,000 rent \u00f7 6% = $500,000",
+       "Lower rent = lower building value"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Now drop the rent to thirty thousand. On paper, the same space is suddenly worth five hundred thousand. If the owner's loan was based on the higher number, cutting the rent can make the bank nervous."
+    },
+    {
+     "who": "host",
+     "text": "So some owners would rather wait. An empty unit at the old asking rent can look better on paper than a full unit at a lower one. U S writers call this extend and pretend. Fortune described Montreal owners who set the price high and wait it out for a big tenant on a long lease."
+    },
+    {
+     "who": "host",
+     "text": "Cities have noticed. Toronto has been studying a tax on vacant storefronts, and Vancouver asked the province to look at one. As of the sources we checked, neither has actually brought one in."
+    },
+    {
+     "who": "host",
+     "text": "Sometimes it's not even about rent. The Competition Bureau has been looking at grocery property controls in Halifax. C B C found lease clauses that stop other food sellers near certain grocery stores, and a deed that bars a grocery store at a former site in Dartmouth for twenty years. That building was mostly empty in October twenty twenty five.",
+     "card": {
+      "type": "stat",
+      "big": "20 years",
+      "label": "Deed restriction on grocery use at a former Dartmouth store",
+      "source": "CBC News, Nov 12, 2025"
+     }
+    },
+    {
+     "who": "host",
+     "text": "In September, Sobeys' parent company Empire signed an agreement with the Bureau to stop enforcing those restrictive covenants and limit exclusivity clauses. So that empty window was a legal document, not a lack of interest."
+    },
+    {
+     "who": "host",
+     "text": "Halifax has tried to tilt the field too. Since April twenty twenty three, the municipality splits commercial property into five tax areas. The goal council voted for was lower taxes on main streets like Spring Garden Road and Quinpool Road, and higher taxes in big box parks like Bayers Lake.",
+     "card": {
+      "type": "point",
+      "text": "HRM: 5 commercial tax areas since April 2023"
+     }
+    },
+    {
+     "who": "host",
+     "text": "It also lets big jumps in a property's assessment phase in over up to ten years, so one hot year doesn't hit tenants all at once."
+    },
+    {
+     "who": "host",
+     "text": "But tax isn't the whole story. A consultant study for the city found that even cutting commercial tax in half would barely change new building investment. Under two percent. Rent is set by what tenants will pay, not just by what the tax bill is."
+    },
+    {
+     "who": "host",
+     "text": "And downtown has its own math. The Downtown Halifax Business Commission found downtown's total assessed value stayed flat since twenty twenty, while the municipality as a whole rose twenty one percent. Its target for this year is ground floor vacancy under ten percent downtown.",
+     "card": {
+      "type": "stat",
+      "big": "Flat vs +21%",
+      "label": "Downtown Halifax assessment vs all of HRM since 2020",
+      "source": "Downtown Halifax Business Commission, State of the Downtown 2024"
+     }
+    }
+   ]
+  },
+  {
+   "heading": "Where everyone else went",
+   "visuals": [
+    "laptop desk",
+    "garage workbench",
+    "toolbox",
+    "home office",
+    "van",
+    "coffee cup"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So if chains and franchises get the good corners, where did everyone else go? Mostly, they never left home.",
+     "card": {
+      "type": "point",
+      "text": "Where did everyone else go?"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Statistics Canada found that sixty nine percent of self employed Canadians don't own or lease any business space outside their home. That's out of more than two and a half million people working for themselves.",
+     "card": {
+      "type": "stat",
+      "big": "69%",
+      "label": "Self-employed Canadians with no business space outside the home (Q4 2023)",
+      "source": "Statistics Canada"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Think about who opened in February. A bookkeeper. An electrician. A massage therapist. A contractor with a van. None of them need a window on Spring Garden Road."
+    },
+    {
+     "who": "host",
+     "text": "And costs push that way. In C F I B's October survey, fifty three percent of Nova Scotia small businesses named occupancy costs, meaning rent, property tax and upkeep, as a major limit on growth. Nationally it was forty eight percent.",
+     "card": {
+      "type": "stat",
+      "big": "53%",
+      "label": "NS small firms naming occupancy costs a major constraint, Oct 2026",
+      "source": "CFIB Business Barometer"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Meanwhile retail rents across Canada are about eighteen percent above their twenty twenty low, according to Statistics Canada. And online sales were about eight percent of all retail in twenty twenty four."
+    },
+    {
+     "who": "host",
+     "text": "Compare that with warehouses. Over the same years, industrial rents rose about twenty six percent. The money followed the delivery van, not the front window."
+    },
+    {
+     "who": "host",
+     "text": "So that's the answer to the title. The people opening shops are chains, franchise owners and food. Everyone else moved into the spare room, the van and the website."
+    }
+   ]
+  },
+  {
+   "heading": "If you want a storefront anyway",
+   "visuals": [
+    "checklist clipboard",
+    "spiral notebook",
+    "pencil",
+    "house key",
+    "measuring tape",
+    "desk lamp"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "If you still want a real storefront, and sometimes you should, here's what to do before you sign.",
+     "card": {
+      "type": "list",
+      "title": "Before you sign a shop lease",
+      "items": [
+       "Gross or net? Get the extras in writing",
+       "Ask for free months",
+       "Shorter first term",
+       "Read the use clause",
+       "Test it first"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "One. Ask whether the lease is gross or net, and ask for the last two years of additional rent per square foot in writing. That's how you find the real number."
+    },
+    {
+     "who": "host",
+     "text": "Two. Ask for free rent. B D C says it's common for landlords to offer two or three months rent free, often while you fit out the space. A unit that's sat empty for a year gives you more room to ask."
+    },
+    {
+     "who": "host",
+     "text": "Three. Keep the first term short if you're not sure. B D C suggests two to three years. Statistics Canada found most of the smallest renters already sign for less than five."
+    },
+    {
+     "who": "host",
+     "text": "Four. Read the use clause and any exclusivity terms, so you know exactly what you're allowed to sell, and who else can move in next door."
+    },
+    {
+     "who": "host",
+     "text": "Five. Test before you commit. A market table, a pop up, a shared space or a good website can tell you whether people will actually show up."
+    },
+    {
+     "who": "host",
+     "text": "And have a lawyer read it. That's cheaper than a ten year mistake."
+    },
+    {
+     "who": "host",
+     "text": "This is Waypoint Software, at waypointns dot ca."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "NS Finance, Business Opening and Closing, July 2026",
+   "url": "https://novascotia.ca/finance/statistics/archive_news.asp?dti=6&dto=0&id=22456"
+  },
+  {
+   "label": "Statistics Canada, The Daily, Apr 29, 2026 (January 2026 openings and closures)",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260429/dq260429e-eng.htm"
+  },
+  {
+   "label": "Statistics Canada, The Daily, May 26, 2026 (February 2026 openings and closures)",
+   "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260526/dq260526b-eng.htm"
+  },
+  {
+   "label": "Retail Insider, JLL Fall 2026 retail market (national vacancy 2.5%)",
+   "url": "https://retail-insider.com/retail-insider/2026/10/canadian-retail-construction-decade-low/"
+  },
+  {
+   "label": "CBRE Canada Retail Rent Survey H1 2026",
+   "url": "https://www.cbre.com/insights/reports/canada-retail-rent-survey-h1-2026"
+  },
+  {
+   "label": "CBC News, Halifax openings and closures in 2024 (Halifax ReTales)",
+   "url": "https://www.cbc.ca/lite/story/1.7419769"
+  },
+  {
+   "label": "BDC, 13 terms to understand before signing a commercial lease",
+   "url": "https://www.bdc.ca/en/articles-tools/money-finance/buy-lease-commercial-real-estate/13-terms-you-need-to-understand-before-signing-your-commercial-real-estate-lease"
+  },
+  {
+   "label": "BDC, How to negotiate a commercial lease",
+   "url": "https://bdc.ca/en/articles-tools/money-finance/buy-lease-commercial-real-estate/how-to-negotiate-commercial-lease-effectively"
+  },
+  {
+   "label": "Statistics Canada, For many Canadian businesses, the time to move has come (or not)",
+   "url": "https://www.statcan.gc.ca/o1/en/plus/6514-many-canadian-businesses-time-move-has-come-or-not"
+  },
+  {
+   "label": "Halifax Regional Municipality, property tax rates",
+   "url": "https://www.halifax.ca/home-property/property-taxes/tax-rates"
+  },
+  {
+   "label": "CFIB, MSQ Q3 2023 InFocus (commercial rent increases)",
+   "url": "https://www.cfib-fcei.ca/hubfs/research/msq/CFIB_MSQ_Q3_2023_InFocus.pdf"
+  },
+  {
+   "label": "Nova Scotia Legislature, Bill 177, Commercial Rent Cap Act",
+   "url": "https://nslegislature.ca/node/131245"
+  },
+  {
+   "label": "Dollarama Q2 fiscal 2027 results",
+   "url": "https://www.newswire.ca/news-releases/dollarama-reports-fiscal-2027-second-quarter-results-863412551.html"
+  },
+  {
+   "label": "Retail Insider, Canadian Franchise Association figures",
+   "url": "https://retail-insider.com/?p=209798"
+  },
+  {
+   "label": "CBRE, Strategic leasing on Spring Garden Road",
+   "url": "https://www.cbre.com/insights/articles/strategic-leasing-by-cbre-revitalizes-halifaxs-spring-garden-road"
+  },
+  {
+   "label": "Strong Towns, Why do commercial spaces sit vacant?",
+   "url": "https://www.strongtowns.org/journal/2025/5/21/why-do-commercial-spaces-sit-vacant"
+  },
+  {
+   "label": "Fortune, Montreal's empty storefronts (Mar 5, 2020)",
+   "url": "https://fortune.com/2020/03/05/montreal-empty-storefronts-business/"
+  },
+  {
+   "label": "City of Toronto, MM28.36 vacant storefronts",
+   "url": "https://www.toronto.ca/legdocs/mmis/2025/mm/bgrd/backgroundfile-253886.pdf"
+  },
+  {
+   "label": "CTV News, Vancouver empty storefront tax idea",
+   "url": "https://bc.ctvnews.ca/rate-of-vacant-storefronts-is-just-atrocious-vancouver-mayor-says-of-idea-for-new-tax-1.5880384"
+  },
+  {
+   "label": "CBC News, Halifax grocery lease restrictions (Nov 12, 2025)",
+   "url": "https://www.cbc.ca/lite/story/9.6971278"
+  },
+  {
+   "label": "Competition Bureau, agreement with Empire on grocery property controls (Sep 22, 2026)",
+   "url": "https://www.canada.ca/en/competition-bureau/news/2026/09/competition-bureau-reaches-agreement-with-sobeys-parent-company-empire-to-address-grocery-property-controls.html"
+  },
+  {
+   "label": "Statistics Canada, Labour Statistics at a Glance: self-employment",
+   "url": "https://www150.statcan.gc.ca/n1/pub/71-222-x/71-222-x2024001-eng.htm"
+  },
+  {
+   "label": "CFIB Business Barometer, October 2026 (provinces)",
+   "url": "https://www.cfib-fcei.ca/hubfs/research/mbb/2026/Oct2026/Business-Barometer-provinces-2026-10.pdf"
+  },
+  {
+   "label": "Canadian Bankers Association, bank branches in Canada",
+   "url": "https://cba.ca/article/bank-branches-in-canada"
+  },
+  {
+   "label": "Halifax Regional Municipality, commercial tax policy",
+   "url": "https://www.halifax.ca/home-property/property-taxes/commercial-tax-policy"
+  },
+  {
+   "label": "Huddle, Halifax council votes for commercial tax zones (Feb 2022)",
+   "url": "https://huddle.today/?p=163615"
+  },
+  {
+   "label": "Downtown Halifax Business Commission, State of the Downtown 2024",
+   "url": "https://downtownhalifax.ca/sotd"
+  },
+  {
+   "label": "DHBC Annual Report 2024-25",
+   "url": "https://downtownhalifax.ca/sites/default/files/2025-06/DHBC_Annual_Report_2024-2025_WEB_LR_.pdf"
+  },
+  {
+   "label": "Statistics Canada, Commercial properties, that other rental market (Oct 29, 2026)",
+   "url": "https://www.statcan.gc.ca/o1/en/plus/9364-commercial-properties-other-rental-market"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Your shop rent isn't the real rent",
+   "from": [
+    2,
+    1
+   ],
+   "to": [
+    2,
+    3
+   ],
+   "sfx": "ding",
+   "hook": "text + ding + photo zoom; Unexpected Truth",
+   "caption": "On a lot of shop leases, the rent is just the start. Gross, net and triple net leases explained, plus Halifax's commercial tax rate. Not legal advice. #smallbusiness #canada #commercialrent"
+  },
+  {
+   "title": "Why landlords leave shops empty",
+   "from": [
+    5,
+    0
+   ],
+   "to": [
+    5,
+    3
+   ],
+   "sfx": "recordscratch",
+   "hook": "text + recordscratch + photo zoom; Unexpected Truth",
+   "caption": "Why would a landlord leave a shop empty instead of lowering the rent? It's the cap rate math. Made-up numbers, real mechanism. #smallbusiness #realestate #canada"
+  },
+  {
+   "title": "Most self-employed people have no shop",
+   "from": [
+    6,
+    0
+   ],
+   "to": [
+    6,
+    3
+   ],
+   "sfx": "pop",
+   "hook": "text + pop + photo zoom; You vs Problem",
+   "caption": "69% of self-employed Canadians don't rent or own any business space outside their home (Statistics Canada). Here's where everyone went. #smallbusiness #canada #selfemployed"
+  }
+ ]
+}
