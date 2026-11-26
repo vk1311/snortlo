@@ -74,8 +74,8 @@
    "heading": "Are shops actually dying?",
    "visuals": [
     "shop window display",
-    "shopping basket",
-    "shelves",
+    "counter bell",
+    "wooden shelves",
     "cash register",
     "light bulb",
     "wooden crate"
@@ -157,7 +157,7 @@
     "calculator",
     "ledger book",
     "measuring tape",
-    "snow shovel",
+    "snowbank",
     "electric meter",
     "key ring"
    ],
@@ -241,10 +241,10 @@
    "visuals": [
     "shopping bags",
     "coffee cup",
-    "neon sign",
+    "display window",
     "glass door",
-    "shelves",
-    "paper bag"
+    "wooden shelves",
+    "gift box"
    ],
    "lines": [
     {
@@ -324,8 +324,8 @@
     "calculator",
     "old brick wall",
     "ledger book",
-    "door lock",
-    "window blinds"
+    "door handle",
+    "empty room"
    ],
    "lines": [
     {
@@ -409,8 +409,8 @@
     "laptop desk",
     "garage workbench",
     "toolbox",
-    "home office",
-    "van",
+    "desk lamp",
+    "claw hammer",
     "coffee cup"
    ],
    "lines": [

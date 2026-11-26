@@ -123,7 +123,10 @@ RISKY_SEARCHES = {"coins", "price tag", "receipt", "cheque book", "postage stamp
                   "nurse station", "delivery truck", "front desk", "mop bucket", "dog bed", "suitcase", "snowy road", "clean towels",
                   "medical chart", "dominoes", "desk nameplate", "phone on desk", "kitchen table", "desk telephone",
                   "coin jar", "paper forms", "stack of paper", "kitchen counter", "road sign", "handmade candles", "courthouse columns",
-                  "adding machine", "steel safe", "signpost"}
+                  "adding machine", "steel safe", "signpost",
+                  "neon sign", "van", "home office", "door lock", "snow shovel", "paper bag", "shopping basket", "window blinds",
+                  "shop awning", "tool belt", "kraft paper", "wicker basket",
+                  "striped awning", "ball of twine", "wooden counter"}
 
 
 def visuals_warnings(d):
@@ -227,6 +230,11 @@ def cmd_photos(args):
     """Numbered contact sheet of every photo an episode used, to spot people / off-topic shots fast."""
     from PIL import Image, ImageDraw, ImageFont
     t = json.load(open(args[0])); seen = []
+    if "shots" not in t and t.get("slug"):  # given the episode JSON (Nov 26): use its rendered timeline instead
+        for pre in ("wp-", "pod-"):
+            tl = os.path.join(HERE, "..", "media", f"{pre}{t['slug']}.timeline.json")
+            if os.path.exists(tl): args[0] = tl; t = json.load(open(tl)); break
+    if not t.get("shots"): sys.exit(f"no shots in {args[0]}: pass media/<wp-|pod-><slug>.timeline.json after rendering")
     for sh in t.get("shots", []):
         if sh["img"] and sh["img"] not in [s["img"] for s in seen]: seen.append(sh)
     f = ImageFont.truetype(os.path.join(HERE, "fonts", "Archivo.ttf"), 20); cols, tw, th = 10, 220, 138
@@ -241,6 +249,11 @@ def cmd_photos(args):
 
 def cmd_block(args):
     t = json.load(open(args[0])); seen = []
+    if "shots" not in t and t.get("slug"):  # given the episode JSON (Nov 26): use its rendered timeline instead
+        for pre in ("wp-", "pod-"):
+            tl = os.path.join(HERE, "..", "media", f"{pre}{t['slug']}.timeline.json")
+            if os.path.exists(tl): args[0] = tl; t = json.load(open(tl)); break
+    if not t.get("shots"): sys.exit(f"no shots in {args[0]}: pass media/<wp-|pod-><slug>.timeline.json after rendering")
     for sh in t.get("shots", []):
         if sh["img"] and sh["img"] not in [s["img"] for s in seen]: seen.append(sh)
     new = [seen[int(i)]["credit"]["source"] for i in args[1:] if seen[int(i)].get("credit")]

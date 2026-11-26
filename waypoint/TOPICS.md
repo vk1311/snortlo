@@ -14,7 +14,7 @@ unapproved topic.
 | 1 | Mon 2026-11-23 | Free Certifications Worth More Than an MBA (honest angle: which free certificates actually help you run a business; never claim one literally replaces a degree) | made 2026-11-17, scheduled |
 | 2 | Fri 2026-11-27 | Scams Targeting New Canadian Businesses (fake CRA calls, directory and "listing renewal" invoices, fake grant offers, domain renewal letters) | made 2026-11-19, scheduled |
 | 3 | Mon 2026-11-30 | Your Side Hustle Isn't a Business (probably) | made 2026-11-24, scheduled |
-| 4 | Fri 2026-12-04 | If Nobody Can Afford Rent, Who's Opening Shops? | to do |
+| 4 | Fri 2026-12-04 | If Nobody Can Afford Rent, Who's Opening Shops? | made 2026-11-26, scheduled |
 | 5 | Mon 2026-12-07 | The Squeeze on Nova Scotia's Airbnb Hosts | to do |
 | 6 | Fri 2026-12-11 | Everyone's Quitting the 9-5. Most Will Fail. | to do |
 | 7 | Mon 2026-12-14 | How Big Companies Legally Pay Less Tax Than You | to do |

@@ -1,0 +1,4760 @@
+{
+"slug": "wp04-rent-shops",
+"brand": "waypoint",
+"duration": 668.5428750000004,
+"res": [
+1280,
+720
+],
+"shots": [
+{
+"start": 0.0,
+"end": 9.779708333333334,
+"img": "/home/claude/snortlo/waypoint/assets/cc7d93c50b-1.jpg",
+"credit": {
+"title": "Shop window of Lanskroon 2024-12-04",
+"creator": "Andy Li",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Shop_window_of_Lanskroon_2024-12-04.jpg",
+"via": "Wikimedia Commons",
+"query": "shop window display"
+},
+"motion": 0,
+"seg": 0
+},
+{
+"start": 9.779708333333334,
+"end": 18.237916666666663,
+"img": "/home/claude/snortlo/waypoint/assets/cc7d93c50b-2.jpg",
+"credit": {
+"title": "Greaves jams in a shop display, 57 Queen Street, Niagara-on-the-Lake, 2007",
+"creator": "DimiTalen",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Greaves_jams_in_a_shop_display,_57_Queen_Street,_Niagara-on-the-Lake,_2007.jpg",
+"via": "Wikimedia Commons",
+"query": "shop window display"
+},
+"motion": 1,
+"seg": 0
+},
+{
+"start": 18.237916666666663,
+"end": 28.516541666666665,
+"img": "/home/claude/snortlo/waypoint/assets/25aeda9370-0.jpg",
+"credit": {
+"title": "Brick Wall Building",
+"creator": "Bango Textures",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Brick_Wall_Building.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+},
+"motion": 2,
+"seg": 0
+},
+{
+"start": 28.516541666666665,
+"end": 36.36925000000001,
+"img": "/home/claude/snortlo/waypoint/assets/25aeda9370-1.jpg",
+"credit": {
+"title": "Red-brick buildings on \u304f\u3059\u306e\u6728\u901a\u308a",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Red-brick_buildings_on_%E3%81%8F%E3%81%99%E3%81%AE%E6%9C%A8%E9%80%9A%E3%82%8A.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+},
+"motion": 3,
+"seg": 0
+},
+{
+"start": 36.36925000000001,
+"end": 43.72387500000001,
+"img": "/home/claude/snortlo/waypoint/assets/25aeda9370-2.jpg",
+"credit": {
+"title": "Brick",
+"creator": "Andrewlister",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Brick.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+},
+"motion": 0,
+"seg": 0
+},
+{
+"start": 43.72387500000001,
+"end": 51.677916666666675,
+"img": "/home/claude/snortlo/waypoint/assets/f0775f6143-0.jpg",
+"credit": {
+"title": "Detail lion head wooden door Vienna",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Detail_lion_head_wooden_door_Vienna.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden door"
+},
+"motion": 1,
+"seg": 0
+},
+{
+"start": 51.677916666666675,
+"end": 61.47337500000002,
+"img": "/home/claude/snortlo/waypoint/assets/cf91f4156d-0.jpg",
+"credit": {
+"title": "Calling bell",
+"creator": "n.raveender",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Calling_bell.jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+},
+"motion": 2,
+"seg": 1
+},
+{
+"start": 61.47337500000002,
+"end": 68.52983333333336,
+"img": "/home/claude/snortlo/waypoint/assets/cf91f4156d-1.jpg",
+"credit": {
+"title": "Jewel exhibition, Hermitage Amsterdam pic02",
+"creator": "Alf van Beem",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Jewel_exhibition,_Hermitage_Amsterdam_pic02.JPG",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+},
+"motion": 3,
+"seg": 1
+},
+{
+"start": 68.52983333333336,
+"end": 77.22658333333335,
+"img": "/home/claude/snortlo/waypoint/assets/cf91f4156d-2.jpg",
+"credit": {
+"title": "StBalmainCoffee(byCarliJeen)",
+"creator": "Carli Jean Miller",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:StBalmainCoffee(byCarliJeen).jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+},
+"motion": 0,
+"seg": 1
+},
+{
+"start": 77.22658333333335,
+"end": 86.88270833333335,
+"img": "/home/claude/snortlo/waypoint/assets/21858da8ce-0.jpg",
+"credit": {
+"title": "USVI IMG 5210 - Wooden shelves hold a projector and three seashells on the lower shelf",
+"creator": "Category:Government of the United States Virgin Islands",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:USVI_IMG_5210_-_Wooden_shelves_hold_a_projector_and_three_seashells_on_the_lower_shelf.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+},
+"motion": 1,
+"seg": 1
+},
+{
+"start": 86.88270833333335,
+"end": 94.5574166666667,
+"img": "/home/claude/snortlo/waypoint/assets/21858da8ce-1.jpg",
+"credit": {
+"title": "Trompe l'oeil still life of bottles, fruit, plates and other objects along two wooden shelves)",
+"creator": "Jean Valette-Penot",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_still_life_of_bottles,_fruit,_plates_and_other_objects_along_two_wooden_shelves).webp",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+},
+"motion": 2,
+"seg": 1
+},
+{
+"start": 94.5574166666667,
+"end": 104.87620833333338,
+"img": "/home/claude/snortlo/waypoint/assets/5ef0fb517f-0.jpg",
+"credit": {
+"title": "Kassa PRIM 07K",
+"creator": "MSDN.WhiteKnight",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Kassa_PRIM_07K.jpg",
+"via": "Wikimedia Commons",
+"query": "cash register"
+},
+"motion": 3,
+"seg": 1
+},
+{
+"start": 104.87620833333338,
+"end": 114.55329166666671,
+"img": "/home/claude/snortlo/waypoint/assets/c68d0db190-0.jpg",
+"credit": {
+"title": "Wooden crates for supermarkets",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Wooden_crates_for_supermarkets.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden crate"
+},
+"motion": 0,
+"seg": 1
+},
+{
+"start": 114.55329166666671,
+"end": 125.06375000000004,
+"img": "/home/claude/snortlo/waypoint/assets/cf91f4156d-0.jpg",
+"credit": {
+"title": "Calling bell",
+"creator": "n.raveender",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Calling_bell.jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+},
+"motion": 1,
+"seg": 1
+},
+{
+"start": 125.06375000000004,
+"end": 132.6429166666667,
+"img": "/home/claude/snortlo/waypoint/assets/cf91f4156d-1.jpg",
+"credit": {
+"title": "Jewel exhibition, Hermitage Amsterdam pic02",
+"creator": "Alf van Beem",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Jewel_exhibition,_Hermitage_Amsterdam_pic02.JPG",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+},
+"motion": 2,
+"seg": 1
+},
+{
+"start": 132.6429166666667,
+"end": 141.84395833333338,
+"img": "/home/claude/snortlo/waypoint/assets/cf91f4156d-2.jpg",
+"credit": {
+"title": "StBalmainCoffee(byCarliJeen)",
+"creator": "Carli Jean Miller",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:StBalmainCoffee(byCarliJeen).jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+},
+"motion": 3,
+"seg": 1
+},
+{
+"start": 141.84395833333338,
+"end": 154.4087916666667,
+"img": "/home/claude/snortlo/waypoint/assets/21858da8ce-0.jpg",
+"credit": {
+"title": "USVI IMG 5210 - Wooden shelves hold a projector and three seashells on the lower shelf",
+"creator": "Category:Government of the United States Virgin Islands",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:USVI_IMG_5210_-_Wooden_shelves_hold_a_projector_and_three_seashells_on_the_lower_shelf.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+},
+"motion": 0,
+"seg": 1
+},
+{
+"start": 154.4087916666667,
+"end": 164.33816666666667,
+"img": "/home/claude/snortlo/waypoint/assets/21858da8ce-1.jpg",
+"credit": {
+"title": "Trompe l'oeil still life of bottles, fruit, plates and other objects along two wooden shelves)",
+"creator": "Jean Valette-Penot",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_still_life_of_bottles,_fruit,_plates_and_other_objects_along_two_wooden_shelves).webp",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+},
+"motion": 1,
+"seg": 1
+},
+{
+"start": 164.33816666666667,
+"end": 168.06266666666664,
+"img": "/home/claude/snortlo/waypoint/assets/5ef0fb517f-0.jpg",
+"credit": {
+"title": "Kassa PRIM 07K",
+"creator": "MSDN.WhiteKnight",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Kassa_PRIM_07K.jpg",
+"via": "Wikimedia Commons",
+"query": "cash register"
+},
+"motion": 2,
+"seg": 1
+},
+{
+"start": 168.06266666666664,
+"end": 179.03658333333328,
+"img": "/home/claude/snortlo/waypoint/assets/adcba4b2dc-0.jpg",
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+},
+"motion": 3,
+"seg": 2
+},
+{
+"start": 179.03658333333328,
+"end": 188.52216666666664,
+"img": "/home/claude/snortlo/waypoint/assets/adcba4b2dc-1.jpg",
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+},
+"motion": 0,
+"seg": 2
+},
+{
+"start": 188.52216666666664,
+"end": 196.99729166666663,
+"img": "/home/claude/snortlo/waypoint/assets/adcba4b2dc-2.jpg",
+"credit": {
+"title": "Tiffany Studios Lamp Department Ledger Book MET DP114246",
+"creator": "Tiffany Studios",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Tiffany_Studios_Lamp_Department_Ledger_Book_MET_DP114246.jpg",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+},
+"motion": 1,
+"seg": 2
+},
+{
+"start": 196.99729166666663,
+"end": 206.67404166666662,
+"img": "/home/claude/snortlo/waypoint/assets/70911a2aab-0.jpg",
+"credit": {
+"title": "Tape measure end",
+"creator": "Douglas Perkins",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Tape_measure_end.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+},
+"motion": 2,
+"seg": 2
+},
+{
+"start": 206.67404166666662,
+"end": 216.5269166666666,
+"img": "/home/claude/snortlo/waypoint/assets/70911a2aab-1.jpg",
+"credit": {
+"title": "Tape measure diagonal 2",
+"creator": "Douglas Perkins",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Tape_measure_diagonal_2.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+},
+"motion": 3,
+"seg": 2
+},
+{
+"start": 216.5269166666666,
+"end": 225.03912499999993,
+"img": "/home/claude/snortlo/waypoint/assets/70911a2aab-2.jpg",
+"credit": {
+"title": "Chesterman Tape Measure",
+"creator": "James Chesterman",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chesterman_Tape_Measure.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+},
+"motion": 0,
+"seg": 2
+},
+{
+"start": 225.03912499999993,
+"end": 232.74083333333326,
+"img": "/home/claude/snortlo/waypoint/assets/a54bdbfa44-0.jpg",
+"credit": {
+"title": "Snowbank Oulu Market Square 20210225",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Snowbank_Oulu_Market_Square_20210225.jpg",
+"via": "Wikimedia Commons",
+"query": "snowbank"
+},
+"motion": 1,
+"seg": 2
+},
+{
+"start": 232.74083333333326,
+"end": 244.9984166666666,
+"img": "/home/claude/snortlo/waypoint/assets/a54bdbfa44-1.jpg",
+"credit": {
+"title": "Streetcar passes large snowbanks in Port Arthur, February 9, 1939",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Streetcar_passes_large_snowbanks_in_Port_Arthur,_February_9,_1939.jpg",
+"via": "Wikimedia Commons",
+"query": "snowbank"
+},
+"motion": 2,
+"seg": 2
+},
+{
+"start": 244.9984166666666,
+"end": 257.1649999999999,
+"img": "/home/claude/snortlo/waypoint/assets/a54bdbfa44-2.jpg",
+"credit": {
+"title": "Car driving on Northeast Entrance Road lined with tall snowbanks (13784611423)",
+"creator": "Jim Peaco, Yellowstone National Park",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Car_driving_on_Northeast_Entrance_Road_lined_with_tall_snowbanks_(13784611423).jpg",
+"via": "Wikimedia Commons",
+"query": "snowbank"
+},
+"motion": 3,
+"seg": 2
+},
+{
+"start": 257.1649999999999,
+"end": 267.4200833333332,
+"img": "/home/claude/snortlo/waypoint/assets/2e2e0eede7-0.jpg",
+"credit": {
+"title": "Partially torn-down energy meter, load discs and a counter",
+"creator": "JenXOfficial",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Partially_torn-down_energy_meter,_load_discs_and_a_counter.jpg",
+"via": "Wikimedia Commons",
+"query": "electric meter"
+},
+"motion": 0,
+"seg": 2
+},
+{
+"start": 267.4200833333332,
+"end": 276.1807499999999,
+"img": "/home/claude/snortlo/waypoint/assets/adcba4b2dc-0.jpg",
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+},
+"motion": 1,
+"seg": 2
+},
+{
+"start": 276.1807499999999,
+"end": 287.5586249999999,
+"img": "/home/claude/snortlo/waypoint/assets/adcba4b2dc-1.jpg",
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+},
+"motion": 2,
+"seg": 2
+},
+{
+"start": 287.5586249999999,
+"end": 296.1605416666666,
+"img": "/home/claude/snortlo/waypoint/assets/fcdf590124-0.jpg",
+"credit": {
+"title": "Coffee in cup amenable to easy cup colour changes such that it still looks like an unaltered coffee-in-cup photo",
+"creator": "MarkJFernandes",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_in_cup_amenable_to_easy_cup_colour_changes_such_that_it_still_looks_like_an_unaltered_coffee-in-cup_photo.xcf",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+},
+"motion": 3,
+"seg": 3
+},
+{
+"start": 296.1605416666666,
+"end": 308.11304166666656,
+"img": "/home/claude/snortlo/waypoint/assets/fcdf590124-1.jpg",
+"credit": {
+"title": "Coffee cup and coffee bean",
+"creator": "mcfoodie",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_cup_and_coffee_bean.jpg",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+},
+"motion": 0,
+"seg": 3
+},
+{
+"start": 308.11304166666656,
+"end": 315.7544999999999,
+"img": "/home/claude/snortlo/waypoint/assets/2a55aac7b6-0.jpg",
+"credit": {
+"title": "2025 - free download photo of an old shop window with a illuseum or illusion - a floating human figure behind the reflecting window glass. It is in the street Witte de Withstraat, Amsterdam - street photography in free image",
+"creator": "Fons Heijnsbroek",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:2025_-_free_download_photo_of_an_old_shop_window_with_a_illuseum_or_illusion_-_a_floating_human_figure_behind_the_reflecting_window_glass._It_is_in_the_street_Witte_de_Withstraat,_Amsterdam_-_street_photography_in_free_image.tif",
+"via": "Wikimedia Commons",
+"query": "display window"
+},
+"motion": 1,
+"seg": 3
+},
+{
+"start": 315.7544999999999,
+"end": 327.87283333333323,
+"img": "/home/claude/snortlo/waypoint/assets/2a55aac7b6-2.jpg",
+"credit": {
+"title": "Photo of flowering hollyhocks in front of the shop window of a laundry on the street Weteringschans in Amsterdam downtown, in Summer of 2009 - photo of Dutch photographer Fons Heijnsbroek - free download",
+"creator": "Fons Heijnsbroek",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Photo_of_flowering_hollyhocks_in_front_of_the_shop_window_of_a_laundry_on_the_street_Weteringschans_in_Amsterdam_downtown,_in_Summer_of_2009_-_photo_of_Dutch_photographer_Fons_Heijnsbroek_-_free_download.jpg",
+"via": "Wikimedia Commons",
+"query": "display window"
+},
+"motion": 2,
+"seg": 3
+},
+{
+"start": 327.87283333333323,
+"end": 340.2098749999999,
+"img": "/home/claude/snortlo/waypoint/assets/2d9394bc35-1.jpg",
+"credit": {
+"title": "Starbucks xingqing mooncake gift box",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Starbucks_xingqing_mooncake_gift_box.jpg",
+"via": "Wikimedia Commons",
+"query": "gift box"
+},
+"motion": 3,
+"seg": 3
+},
+{
+"start": 340.2098749999999,
+"end": 348.4795833333332,
+"img": "/home/claude/snortlo/waypoint/assets/2d9394bc35-2.jpg",
+"credit": {
+"title": "Starbucks xingyue mooncake gift box",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Starbucks_xingyue_mooncake_gift_box.jpg",
+"via": "Wikimedia Commons",
+"query": "gift box"
+},
+"motion": 0,
+"seg": 3
+},
+{
+"start": 348.4795833333332,
+"end": 352.0767499999999,
+"img": "/home/claude/snortlo/waypoint/assets/fcdf590124-0.jpg",
+"credit": {
+"title": "Coffee in cup amenable to easy cup colour changes such that it still looks like an unaltered coffee-in-cup photo",
+"creator": "MarkJFernandes",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_in_cup_amenable_to_easy_cup_colour_changes_such_that_it_still_looks_like_an_unaltered_coffee-in-cup_photo.xcf",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+},
+"motion": 1,
+"seg": 3
+},
+{
+"start": 352.0767499999999,
+"end": 365.4533749999999,
+"img": "/home/claude/snortlo/waypoint/assets/35a6154b63-0.jpg",
+"credit": {
+"title": "Howth Harbour Lighthouse (24031171840)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Howth_Harbour_Lighthouse_(24031171840).jpg",
+"via": "Wikimedia Commons",
+"query": "harbour lighthouse"
+},
+"motion": 2,
+"seg": 4
+},
+{
+"start": 365.4533749999999,
+"end": 374.8172916666665,
+"img": "/home/claude/snortlo/waypoint/assets/35a6154b63-1.jpg",
+"credit": {
+"title": "New harbour, Saint-Jean-Cap-Ferrat, France",
+"creator": "Pierre Lannoy",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/2963208767/",
+"via": "Openverse / wordpress",
+"query": "harbour lighthouse"
+},
+"motion": 3,
+"seg": 4
+},
+{
+"start": 374.8172916666665,
+"end": 380.86704166666647,
+"img": "/home/claude/snortlo/waypoint/assets/424ef4a237-0.jpg",
+"credit": {
+"title": "Laptop on desk book stacks (Unsplash)",
+"creator": "freddie marriage fredmarriage",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Laptop_on_desk_book_stacks_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "laptop desk"
+},
+"motion": 0,
+"seg": 4
+},
+{
+"start": 380.86704166666647,
+"end": 390.19270833333314,
+"img": "/home/claude/snortlo/waypoint/assets/b42072eeef-0.jpg",
+"credit": {
+"title": "Padlock Valimokatu Oulu 20250307 02",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_Valimokatu_Oulu_20250307_02.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+},
+"motion": 1,
+"seg": 5
+},
+{
+"start": 390.19270833333314,
+"end": 399.1039999999998,
+"img": "/home/claude/snortlo/waypoint/assets/b42072eeef-1.jpg",
+"credit": {
+"title": "Padlock and key - 17c - Ryazan Kremlin Museum",
+"creator": "\u041b\u0430\u043f\u043e\u0442\u044c",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_and_key_-_17c_-_Ryazan_Kremlin_Museum.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+},
+"motion": 2,
+"seg": 5
+},
+{
+"start": 399.1039999999998,
+"end": 410.3313749999998,
+"img": "/home/claude/snortlo/waypoint/assets/b42072eeef-2.jpg",
+"credit": {
+"title": "Love padlocks Paris pont archev\u00each\u00e9",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+},
+"motion": 3,
+"seg": 5
+},
+{
+"start": 410.3313749999998,
+"end": 417.50591666666645,
+"img": "/home/claude/snortlo/waypoint/assets/473b3cd8d3-0.jpg",
+"credit": {
+"title": "Door handles, Royal Greenhouses, Laeken, 2026",
+"creator": "DimiTalen",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Door_handles,_Royal_Greenhouses,_Laeken,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+},
+"motion": 0,
+"seg": 5
+},
+{
+"start": 417.50591666666645,
+"end": 427.1293749999998,
+"img": "/home/claude/snortlo/waypoint/assets/473b3cd8d3-1.jpg",
+"credit": {
+"title": "Safe toilet door handle in \u5922\u5eb5 \u9017\u5b50\u5e97 restaurant",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Safe_toilet_door_handle_in_%E5%A4%A2%E5%BA%B5_%E9%80%97%E5%AD%90%E5%BA%97_restaurant.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+},
+"motion": 1,
+"seg": 5
+},
+{
+"start": 427.1293749999998,
+"end": 434.34808333333314,
+"img": "/home/claude/snortlo/waypoint/assets/c417506c51-0.jpg",
+"credit": {
+"title": "Empty class room",
+"creator": "Saral Shots",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Empty_class_room.jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+},
+"motion": 2,
+"seg": 5
+},
+{
+"start": 434.34808333333314,
+"end": 444.3604166666665,
+"img": "/home/claude/snortlo/waypoint/assets/c417506c51-1.jpg",
+"credit": {
+"title": "23 0067430 Convair Negative Image - Empty room (54158113310)",
+"creator": "San Diego Air &amp; Space Museum Archives",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:23_0067430_Convair_Negative_Image_-_Empty_room_(54158113310).jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+},
+"motion": 3,
+"seg": 5
+},
+{
+"start": 444.3604166666665,
+"end": 453.87945833333316,
+"img": "/home/claude/snortlo/waypoint/assets/c417506c51-2.jpg",
+"credit": {
+"title": "23 0067419 Convair Negative Image - Empty room (54158113485)",
+"creator": "San Diego Air &amp; Space Museum Archives",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:23_0067419_Convair_Negative_Image_-_Empty_room_(54158113485).jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+},
+"motion": 0,
+"seg": 5
+},
+{
+"start": 453.87945833333316,
+"end": 465.89774999999986,
+"img": "/home/claude/snortlo/waypoint/assets/b42072eeef-0.jpg",
+"credit": {
+"title": "Padlock Valimokatu Oulu 20250307 02",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_Valimokatu_Oulu_20250307_02.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+},
+"motion": 1,
+"seg": 5
+},
+{
+"start": 465.89774999999986,
+"end": 479.11558333333323,
+"img": "/home/claude/snortlo/waypoint/assets/b42072eeef-1.jpg",
+"credit": {
+"title": "Padlock and key - 17c - Ryazan Kremlin Museum",
+"creator": "\u041b\u0430\u043f\u043e\u0442\u044c",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_and_key_-_17c_-_Ryazan_Kremlin_Museum.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+},
+"motion": 2,
+"seg": 5
+},
+{
+"start": 479.11558333333323,
+"end": 488.34399999999994,
+"img": "/home/claude/snortlo/waypoint/assets/b42072eeef-2.jpg",
+"credit": {
+"title": "Love padlocks Paris pont archev\u00each\u00e9",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+},
+"motion": 3,
+"seg": 5
+},
+{
+"start": 488.34399999999994,
+"end": 495.64799999999997,
+"img": "/home/claude/snortlo/waypoint/assets/473b3cd8d3-0.jpg",
+"credit": {
+"title": "Door handles, Royal Greenhouses, Laeken, 2026",
+"creator": "DimiTalen",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Door_handles,_Royal_Greenhouses,_Laeken,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+},
+"motion": 0,
+"seg": 5
+},
+{
+"start": 495.64799999999997,
+"end": 503.8493333333333,
+"img": "/home/claude/snortlo/waypoint/assets/473b3cd8d3-1.jpg",
+"credit": {
+"title": "Safe toilet door handle in \u5922\u5eb5 \u9017\u5b50\u5e97 restaurant",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Safe_toilet_door_handle_in_%E5%A4%A2%E5%BA%B5_%E9%80%97%E5%AD%90%E5%BA%97_restaurant.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+},
+"motion": 1,
+"seg": 5
+},
+{
+"start": 503.8493333333333,
+"end": 511.8767916666666,
+"img": "/home/claude/snortlo/waypoint/assets/c417506c51-0.jpg",
+"credit": {
+"title": "Empty class room",
+"creator": "Saral Shots",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Empty_class_room.jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+},
+"motion": 2,
+"seg": 5
+},
+{
+"start": 511.8767916666666,
+"end": 521.1012499999999,
+"img": "/home/claude/snortlo/waypoint/assets/c417506c51-1.jpg",
+"credit": {
+"title": "23 0067430 Convair Negative Image - Empty room (54158113310)",
+"creator": "San Diego Air &amp; Space Museum Archives",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:23_0067430_Convair_Negative_Image_-_Empty_room_(54158113310).jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+},
+"motion": 3,
+"seg": 5
+},
+{
+"start": 521.1012499999999,
+"end": 526.0202916666666,
+"img": "/home/claude/snortlo/waypoint/assets/c417506c51-2.jpg",
+"credit": {
+"title": "23 0067419 Convair Negative Image - Empty room (54158113485)",
+"creator": "San Diego Air &amp; Space Museum Archives",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:23_0067419_Convair_Negative_Image_-_Empty_room_(54158113485).jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+},
+"motion": 0,
+"seg": 5
+},
+{
+"start": 526.0202916666666,
+"end": 533.0240833333332,
+"img": "/home/claude/snortlo/waypoint/assets/2f1d391876-1.jpg",
+"credit": {
+"title": "Train Mechanic Wrenches And Tools",
+"creator": "Jennifer Bourn",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/395634db9b/",
+"via": "Openverse / wordpress",
+"query": "toolbox"
+},
+"motion": 1,
+"seg": 6
+},
+{
+"start": 533.0240833333332,
+"end": 540.0810833333333,
+"img": "/home/claude/snortlo/waypoint/assets/786e5fd6f2-0.jpg",
+"credit": {
+"title": "Retro desk lamp",
+"creator": "WANGYIFAN2024",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Retro_desk_lamp.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+},
+"motion": 2,
+"seg": 6
+},
+{
+"start": 540.0810833333333,
+"end": 547.7694583333333,
+"img": "/home/claude/snortlo/waypoint/assets/786e5fd6f2-1.jpg",
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+},
+"motion": 3,
+"seg": 6
+},
+{
+"start": 547.7694583333333,
+"end": 555.8323333333334,
+"img": "/home/claude/snortlo/waypoint/assets/786e5fd6f2-2.jpg",
+"credit": {
+"title": "Staircase of the BGK Building (26620981474)",
+"creator": "Bart Lumber",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_BGK_Building_(26620981474).jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+},
+"motion": 0,
+"seg": 6
+},
+{
+"start": 555.8323333333334,
+"end": 566.6608750000001,
+"img": "/home/claude/snortlo/waypoint/assets/2c2da1c5f4-0.jpg",
+"credit": {
+"title": "Hammer-1629587",
+"creator": "Grieslightnin",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Hammer-1629587.jpg",
+"via": "Wikimedia Commons",
+"query": "claw hammer"
+},
+"motion": 1,
+"seg": 6
+},
+{
+"start": 566.6608750000001,
+"end": 576.2592500000002,
+"img": "/home/claude/snortlo/waypoint/assets/2c2da1c5f4-1.jpg",
+"credit": {
+"title": "Hultafors HHSH 16",
+"creator": "Dmitry G",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Hultafors_HHSH_16.JPG",
+"via": "Wikimedia Commons",
+"query": "claw hammer"
+},
+"motion": 2,
+"seg": 6
+},
+{
+"start": 576.2592500000002,
+"end": 586.1835416666668,
+"img": "/home/claude/snortlo/waypoint/assets/2f1d391876-1.jpg",
+"credit": {
+"title": "Train Mechanic Wrenches And Tools",
+"creator": "Jennifer Bourn",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/395634db9b/",
+"via": "Openverse / wordpress",
+"query": "toolbox"
+},
+"motion": 3,
+"seg": 6
+},
+{
+"start": 586.1835416666668,
+"end": 595.7399166666668,
+"img": "/home/claude/snortlo/waypoint/assets/786e5fd6f2-0.jpg",
+"credit": {
+"title": "Retro desk lamp",
+"creator": "WANGYIFAN2024",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Retro_desk_lamp.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+},
+"motion": 0,
+"seg": 6
+},
+{
+"start": 595.7399166666668,
+"end": 600.1670000000001,
+"img": "/home/claude/snortlo/waypoint/assets/786e5fd6f2-1.jpg",
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+},
+"motion": 1,
+"seg": 6
+},
+{
+"start": 600.1670000000001,
+"end": 613.2013750000002,
+"img": "/home/claude/snortlo/waypoint/assets/41de24a5e1-0.jpg",
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+},
+"motion": 2,
+"seg": 7
+},
+{
+"start": 613.2013750000002,
+"end": 623.9503750000002,
+"img": "/home/claude/snortlo/waypoint/assets/9149c6c85e-0.jpg",
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+},
+"motion": 3,
+"seg": 7
+},
+{
+"start": 623.9503750000002,
+"end": 631.536666666667,
+"img": "/home/claude/snortlo/waypoint/assets/9149c6c85e-1.jpg",
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+},
+"motion": 0,
+"seg": 7
+},
+{
+"start": 631.536666666667,
+"end": 639.3051250000003,
+"img": "/home/claude/snortlo/waypoint/assets/9149c6c85e-2.jpg",
+"credit": {
+"title": "Pencil tip closeup 2",
+"creator": "Juliancolton",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_tip_closeup_2.JPG",
+"via": "Wikimedia Commons",
+"query": "pencil"
+},
+"motion": 1,
+"seg": 7
+},
+{
+"start": 639.3051250000003,
+"end": 646.775541666667,
+"img": "/home/claude/snortlo/waypoint/assets/aabd702a6e-0.jpg",
+"credit": {
+"title": "NORTHWEST (FRONT) ELEVATION - Captain John Lowe Jr. House, 620 Southard Street, Key West, Monroe County, FL HABS FLA,44-KEY-21-1",
+"creator": "unknown",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NORTHWEST_(FRONT)_ELEVATION_-_Captain_John_Lowe_Jr._House,_620_Southard_Street,_Key_West,_Monroe_County,_FL_HABS_FLA,44-KEY-21-1.tif",
+"via": "Wikimedia Commons",
+"query": "house key"
+},
+"motion": 2,
+"seg": 7
+},
+{
+"start": 646.775541666667,
+"end": 655.4942500000004,
+"img": "/home/claude/snortlo/waypoint/assets/aabd702a6e-1.jpg",
+"credit": {
+"title": "House in Key West, Florida",
+"creator": "Julian Lupyan",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:House_in_Key_West,_Florida.jpg",
+"via": "Wikimedia Commons",
+"query": "house key"
+},
+"motion": 3,
+"seg": 7
+},
+{
+"start": 655.4942500000004,
+"end": 668.5428750000004,
+"img": "/home/claude/snortlo/waypoint/assets/aabd702a6e-2.jpg",
+"credit": {
+"title": "Pink and Blue House in Key West, Florida",
+"creator": "Julian Lupyan",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pink_and_Blue_House_in_Key_West,_Florida.jpg",
+"via": "Wikimedia Commons",
+"query": "house key"
+},
+"motion": 0,
+"seg": 7
+}
+],
+"events": [
+{
+"seg": 0,
+"line": 0,
+"who": "host",
+"text": "Most people think that if rent is this high, nobody is opening shops anymore.",
+"card": {
+"type": "point",
+"text": "Rent's too high. So who's opening shops?"
+},
+"start": 2.6,
+"end": 6.335083333333333,
+"shot": 0,
+"credit": {
+"title": "Shop window of Lanskroon 2024-12-04",
+"creator": "Andy Li",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Shop_window_of_Lanskroon_2024-12-04.jpg",
+"via": "Wikimedia Commons",
+"query": "shop window display"
+}
+},
+{
+"seg": 0,
+"line": 0,
+"who": "host",
+"text": "In Nova Scotia, the numbers say almost the opposite.",
+"card": {
+"type": "point",
+"text": "Rent's too high. So who's opening shops?"
+},
+"start": 6.535083333333334,
+"end": 9.479708333333333,
+"shot": 0,
+"credit": {
+"title": "Shop window of Lanskroon 2024-12-04",
+"creator": "Andy Li",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Shop_window_of_Lanskroon_2024-12-04.jpg",
+"via": "Wikimedia Commons",
+"query": "shop window display"
+}
+},
+{
+"seg": 0,
+"line": 1,
+"who": "host",
+"text": "In July of this year, about four point six out of every hundred businesses in the province were brand new that month.",
+"card": {
+"type": "stat",
+"big": "4.6% vs 4.8%",
+"label": "Nova Scotia businesses opened vs closed, July 2026",
+"source": "Statistics Canada via NS Finance, Oct 2026"
+},
+"start": 9.779708333333334,
+"end": 16.176333333333332,
+"shot": 1,
+"credit": {
+"title": "Greaves jams in a shop display, 57 Queen Street, Niagara-on-the-Lake, 2007",
+"creator": "DimiTalen",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Greaves_jams_in_a_shop_display,_57_Queen_Street,_Niagara-on-the-Lake,_2007.jpg",
+"via": "Wikimedia Commons",
+"query": "shop window display"
+}
+},
+{
+"seg": 0,
+"line": 1,
+"who": "host",
+"text": "About four point eight closed.",
+"card": {
+"type": "stat",
+"big": "4.6% vs 4.8%",
+"label": "Nova Scotia businesses opened vs closed, July 2026",
+"source": "Statistics Canada via NS Finance, Oct 2026"
+},
+"start": 16.37633333333333,
+"end": 18.037916666666664,
+"shot": 1,
+"credit": {
+"title": "Greaves jams in a shop display, 57 Queen Street, Niagara-on-the-Lake, 2007",
+"creator": "DimiTalen",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Greaves_jams_in_a_shop_display,_57_Queen_Street,_Niagara-on-the-Lake,_2007.jpg",
+"via": "Wikimedia Commons",
+"query": "shop window display"
+}
+},
+{
+"seg": 0,
+"line": 1,
+"who": "host",
+"text": "That's thousands of doors opening and closing, every single month.",
+"card": {
+"type": "stat",
+"big": "4.6% vs 4.8%",
+"label": "Nova Scotia businesses opened vs closed, July 2026",
+"source": "Statistics Canada via NS Finance, Oct 2026"
+},
+"start": 18.237916666666663,
+"end": 21.72158333333333,
+"shot": 2,
+"credit": {
+"title": "Brick Wall Building",
+"creator": "Bango Textures",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Brick_Wall_Building.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+}
+},
+{
+"seg": 0,
+"line": 2,
+"who": "host",
+"text": "And in Halifax and East Hants, the number of active businesses was up two and a half percent from a year earlier.",
+"card": null,
+"start": 22.021583333333332,
+"end": 28.316541666666666,
+"shot": 2,
+"credit": {
+"title": "Brick Wall Building",
+"creator": "Bango Textures",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Brick_Wall_Building.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+}
+},
+{
+"seg": 0,
+"line": 2,
+"who": "host",
+"text": "So shops aren't disappearing.",
+"card": null,
+"start": 28.516541666666665,
+"end": 30.012208333333334,
+"shot": 3,
+"credit": {
+"title": "Red-brick buildings on \u304f\u3059\u306e\u6728\u901a\u308a",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Red-brick_buildings_on_%E3%81%8F%E3%81%99%E3%81%AE%E6%9C%A8%E9%80%9A%E3%82%8A.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+}
+},
+{
+"seg": 0,
+"line": 2,
+"who": "host",
+"text": "They're being swapped.",
+"card": null,
+"start": 30.212208333333333,
+"end": 31.310416666666665,
+"shot": 3,
+"credit": {
+"title": "Red-brick buildings on \u304f\u3059\u306e\u6728\u901a\u308a",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Red-brick_buildings_on_%E3%81%8F%E3%81%99%E3%81%AE%E6%9C%A8%E9%80%9A%E3%82%8A.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+}
+},
+{
+"seg": 0,
+"line": 3,
+"who": "host",
+"text": "The real question is who's doing the swapping.",
+"card": null,
+"start": 31.610416666666666,
+"end": 34.051,
+"shot": 3,
+"credit": {
+"title": "Red-brick buildings on \u304f\u3059\u306e\u6728\u901a\u308a",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Red-brick_buildings_on_%E3%81%8F%E3%81%99%E3%81%AE%E6%9C%A8%E9%80%9A%E3%82%8A.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+}
+},
+{
+"seg": 0,
+"line": 3,
+"who": "host",
+"text": "Because it's usually not who you'd guess.",
+"card": null,
+"start": 34.251000000000005,
+"end": 36.169250000000005,
+"shot": 3,
+"credit": {
+"title": "Red-brick buildings on \u304f\u3059\u306e\u6728\u901a\u308a",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Red-brick_buildings_on_%E3%81%8F%E3%81%99%E3%81%AE%E6%9C%A8%E9%80%9A%E3%82%8A.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+}
+},
+{
+"seg": 0,
+"line": 3,
+"who": "host",
+"text": "And by the end, you'll know the one piece of math that keeps some windows empty for years, even when someone wants in.",
+"card": null,
+"start": 36.36925000000001,
+"end": 42.540041666666674,
+"shot": 4,
+"credit": {
+"title": "Brick",
+"creator": "Andrewlister",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Brick.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+}
+},
+{
+"seg": 0,
+"line": 4,
+"who": "host",
+"text": "Quick note.",
+"card": null,
+"start": 42.84004166666667,
+"end": 43.523875000000004,
+"shot": 4,
+"credit": {
+"title": "Brick",
+"creator": "Andrewlister",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Brick.jpg",
+"via": "Wikimedia Commons",
+"query": "brick building"
+}
+},
+{
+"seg": 0,
+"line": 4,
+"who": "host",
+"text": "This is general information as of November twenty twenty six.",
+"card": null,
+"start": 43.72387500000001,
+"end": 46.837208333333336,
+"shot": 5,
+"credit": {
+"title": "Detail lion head wooden door Vienna",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Detail_lion_head_wooden_door_Vienna.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden door"
+}
+},
+{
+"seg": 0,
+"line": 4,
+"who": "host",
+"text": "This isn't legal or tax advice.",
+"card": null,
+"start": 47.03720833333334,
+"end": 48.97591666666667,
+"shot": 5,
+"credit": {
+"title": "Detail lion head wooden door Vienna",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Detail_lion_head_wooden_door_Vienna.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden door"
+}
+},
+{
+"seg": 0,
+"line": 4,
+"who": "host",
+"text": "Before you sign anything, talk to a lawyer.",
+"card": null,
+"start": 49.17591666666667,
+"end": 51.177916666666675,
+"shot": 5,
+"credit": {
+"title": "Detail lion head wooden door Vienna",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Detail_lion_head_wooden_door_Vienna.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden door"
+}
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "Start with the thing everyone says.",
+"card": {
+"type": "point",
+"text": "Is main street dying?"
+},
+"start": 52.427916666666675,
+"end": 54.10354166666667,
+"shot": 6,
+"credit": {
+"title": "Calling bell",
+"creator": "n.raveender",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Calling_bell.jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "Main street is dying.",
+"card": {
+"type": "point",
+"text": "Is main street dying?"
+},
+"start": 54.303541666666675,
+"end": 55.638583333333344,
+"shot": 6,
+"credit": {
+"title": "Calling bell",
+"creator": "n.raveender",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Calling_bell.jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 0,
+"who": "host",
+"text": "So let's check.",
+"card": {
+"type": "point",
+"text": "Is main street dying?"
+},
+"start": 55.83858333333335,
+"end": 56.74445833333335,
+"shot": 6,
+"credit": {
+"title": "Calling bell",
+"creator": "n.raveender",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Calling_bell.jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "Statistics Canada tracks business openings and closures every month.",
+"card": {
+"type": "stat",
+"big": "5.0%",
+"label": "Canada's business closure rate, January 2026",
+"source": "Statistics Canada, The Daily, Apr 29, 2026"
+},
+"start": 57.044458333333345,
+"end": 61.273375000000016,
+"shot": 6,
+"credit": {
+"title": "Calling bell",
+"creator": "n.raveender",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Calling_bell.jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "In January, the national closure rate hit five percent, a bit above the normal level from before the pandemic.",
+"card": {
+"type": "stat",
+"big": "5.0%",
+"label": "Canada's business closure rate, January 2026",
+"source": "Statistics Canada, The Daily, Apr 29, 2026"
+},
+"start": 61.47337500000002,
+"end": 68.32983333333335,
+"shot": 7,
+"credit": {
+"title": "Jewel exhibition, Hermitage Amsterdam pic02",
+"creator": "Alf van Beem",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Jewel_exhibition,_Hermitage_Amsterdam_pic02.JPG",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "And retail was a big part of that.",
+"card": {
+"type": "stat",
+"big": "5.0%",
+"label": "Canada's business closure rate, January 2026",
+"source": "Statistics Canada, The Daily, Apr 29, 2026"
+},
+"start": 68.52983333333336,
+"end": 70.17470833333336,
+"shot": 8,
+"credit": {
+"title": "StBalmainCoffee(byCarliJeen)",
+"creator": "Carli Jean Miller",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:StBalmainCoffee(byCarliJeen).jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 1,
+"who": "host",
+"text": "More than two hundred extra retail closures in one month.",
+"card": null,
+"start": 70.37470833333336,
+"end": 73.72166666666669,
+"shot": 8,
+"credit": {
+"title": "StBalmainCoffee(byCarliJeen)",
+"creator": "Carli Jean Miller",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:StBalmainCoffee(byCarliJeen).jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "But look at where the new businesses came from in February.",
+"card": null,
+"start": 74.02166666666669,
+"end": 77.02658333333335,
+"shot": 8,
+"credit": {
+"title": "StBalmainCoffee(byCarliJeen)",
+"creator": "Carli Jean Miller",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:StBalmainCoffee(byCarliJeen).jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Professional services.",
+"card": null,
+"start": 77.22658333333335,
+"end": 78.62541666666668,
+"shot": 9,
+"credit": {
+"title": "USVI IMG 5210 - Wooden shelves hold a projector and three seashells on the lower shelf",
+"creator": "Category:Government of the United States Virgin Islands",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:USVI_IMG_5210_-_Wooden_shelves_hold_a_projector_and_three_seashells_on_the_lower_shelf.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Construction.",
+"card": null,
+"start": 78.82541666666668,
+"end": 79.61754166666668,
+"shot": 9,
+"credit": {
+"title": "USVI IMG 5210 - Wooden shelves hold a projector and three seashells on the lower shelf",
+"creator": "Category:Government of the United States Virgin Islands",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:USVI_IMG_5210_-_Wooden_shelves_hold_a_projector_and_three_seashells_on_the_lower_shelf.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Health care.",
+"card": null,
+"start": 79.81754166666668,
+"end": 80.62075000000002,
+"shot": 9,
+"credit": {
+"title": "USVI IMG 5210 - Wooden shelves hold a projector and three seashells on the lower shelf",
+"creator": "Category:Government of the United States Virgin Islands",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:USVI_IMG_5210_-_Wooden_shelves_hold_a_projector_and_three_seashells_on_the_lower_shelf.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Other services, like repair shops and salons.",
+"card": null,
+"start": 80.82075000000002,
+"end": 83.50558333333335,
+"shot": 9,
+"credit": {
+"title": "USVI IMG 5210 - Wooden shelves hold a projector and three seashells on the lower shelf",
+"creator": "Category:Government of the United States Virgin Islands",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:USVI_IMG_5210_-_Wooden_shelves_hold_a_projector_and_three_seashells_on_the_lower_shelf.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 2,
+"who": "host",
+"text": "Those four made up almost two thirds of the growth.",
+"card": null,
+"start": 83.70558333333335,
+"end": 86.58270833333336,
+"shot": 9,
+"credit": {
+"title": "USVI IMG 5210 - Wooden shelves hold a projector and three seashells on the lower shelf",
+"creator": "Category:Government of the United States Virgin Islands",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:USVI_IMG_5210_-_Wooden_shelves_hold_a_projector_and_three_seashells_on_the_lower_shelf.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 3,
+"who": "host",
+"text": "Notice what's missing.",
+"card": null,
+"start": 86.88270833333335,
+"end": 88.06329166666669,
+"shot": 10,
+"credit": {
+"title": "Trompe l'oeil still life of bottles, fruit, plates and other objects along two wooden shelves)",
+"creator": "Jean Valette-Penot",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_still_life_of_bottles,_fruit,_plates_and_other_objects_along_two_wooden_shelves).webp",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 3,
+"who": "host",
+"text": "Shops that sell things.",
+"card": null,
+"start": 88.26329166666669,
+"end": 89.7491666666667,
+"shot": 10,
+"credit": {
+"title": "Trompe l'oeil still life of bottles, fruit, plates and other objects along two wooden shelves)",
+"creator": "Jean Valette-Penot",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_still_life_of_bottles,_fruit,_plates_and_other_objects_along_two_wooden_shelves).webp",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 3,
+"who": "host",
+"text": "A lot of the new businesses don't need a front window at all.",
+"card": null,
+"start": 89.9491666666667,
+"end": 92.8261666666667,
+"shot": 10,
+"credit": {
+"title": "Trompe l'oeil still life of bottles, fruit, plates and other objects along two wooden shelves)",
+"creator": "Jean Valette-Penot",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_still_life_of_bottles,_fruit,_plates_and_other_objects_along_two_wooden_shelves).webp",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 4,
+"who": "host",
+"text": "Now here's the strange part.",
+"card": {
+"type": "stat",
+"big": "2.5%",
+"label": "National retail vacancy rate, fall 2026",
+"source": "JLL via Retail Insider, Oct 2026"
+},
+"start": 93.12616666666669,
+"end": 94.3574166666667,
+"shot": 10,
+"credit": {
+"title": "Trompe l'oeil still life of bottles, fruit, plates and other objects along two wooden shelves)",
+"creator": "Jean Valette-Penot",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_still_life_of_bottles,_fruit,_plates_and_other_objects_along_two_wooden_shelves).webp",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 4,
+"who": "host",
+"text": "If retail is struggling, you'd expect empty stores everywhere.",
+"card": {
+"type": "stat",
+"big": "2.5%",
+"label": "National retail vacancy rate, fall 2026",
+"source": "JLL via Retail Insider, Oct 2026"
+},
+"start": 94.5574166666667,
+"end": 98.50687500000004,
+"shot": 11,
+"credit": {
+"title": "Kassa PRIM 07K",
+"creator": "MSDN.WhiteKnight",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Kassa_PRIM_07K.jpg",
+"via": "Wikimedia Commons",
+"query": "cash register"
+}
+},
+{
+"seg": 1,
+"line": 4,
+"who": "host",
+"text": "But the real estate firm J L L puts national retail vacancy at about two and a half percent this fall.",
+"card": {
+"type": "stat",
+"big": "2.5%",
+"label": "National retail vacancy rate, fall 2026",
+"source": "JLL via Retail Insider, Oct 2026"
+},
+"start": 98.70687500000004,
+"end": 104.67620833333338,
+"shot": 11,
+"credit": {
+"title": "Kassa PRIM 07K",
+"creator": "MSDN.WhiteKnight",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Kassa_PRIM_07K.jpg",
+"via": "Wikimedia Commons",
+"query": "cash register"
+}
+},
+{
+"seg": 1,
+"line": 4,
+"who": "host",
+"text": "That's tight.",
+"card": {
+"type": "stat",
+"big": "2.5%",
+"label": "National retail vacancy rate, fall 2026",
+"source": "JLL via Retail Insider, Oct 2026"
+},
+"start": 104.87620833333338,
+"end": 105.63308333333337,
+"shot": 12,
+"credit": {
+"title": "Wooden crates for supermarkets",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Wooden_crates_for_supermarkets.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden crate"
+}
+},
+{
+"seg": 1,
+"line": 5,
+"who": "host",
+"text": "And Halifax is one of the tightest.",
+"card": null,
+"start": 105.93308333333337,
+"end": 107.83145833333337,
+"shot": 12,
+"credit": {
+"title": "Wooden crates for supermarkets",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Wooden_crates_for_supermarkets.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden crate"
+}
+},
+{
+"seg": 1,
+"line": 5,
+"who": "host",
+"text": "C B R E calls it one of the strongest markets in Atlantic Canada, with good space leasing quickly.",
+"card": null,
+"start": 108.03145833333338,
+"end": 114.3532916666667,
+"shot": 12,
+"credit": {
+"title": "Wooden crates for supermarkets",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Wooden_crates_for_supermarkets.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden crate"
+}
+},
+{
+"seg": 1,
+"line": 5,
+"who": "host",
+"text": "Most of that activity?",
+"card": null,
+"start": 114.55329166666671,
+"end": 115.72920833333337,
+"shot": 13,
+"credit": {
+"title": "Calling bell",
+"creator": "n.raveender",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Calling_bell.jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 5,
+"who": "host",
+"text": "Quick service restaurants.",
+"card": null,
+"start": 115.92920833333338,
+"end": 117.29333333333338,
+"shot": 13,
+"credit": {
+"title": "Calling bell",
+"creator": "n.raveender",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Calling_bell.jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 6,
+"who": "host",
+"text": "And not much new space is coming.",
+"card": null,
+"start": 117.59333333333338,
+"end": 119.52162500000004,
+"shot": 13,
+"credit": {
+"title": "Calling bell",
+"creator": "n.raveender",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Calling_bell.jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 6,
+"who": "host",
+"text": "J L L says retail construction starts fell more than forty percent in the first half of this year.",
+"card": null,
+"start": 119.72162500000005,
+"end": 124.86375000000004,
+"shot": 13,
+"credit": {
+"title": "Calling bell",
+"creator": "n.raveender",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Calling_bell.jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 6,
+"who": "host",
+"text": "When new space barely gets built, the space that exists stays expensive.",
+"card": null,
+"start": 125.06375000000004,
+"end": 129.86700000000005,
+"shot": 14,
+"credit": {
+"title": "Jewel exhibition, Hermitage Amsterdam pic02",
+"creator": "Alf van Beem",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Jewel_exhibition,_Hermitage_Amsterdam_pic02.JPG",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 7,
+"who": "host",
+"text": "Some big tenants are also leaving.",
+"card": {
+"type": "stat",
+"big": "6,205 to 5,460",
+"label": "Bank branches in Canada, 2012 vs 2024",
+"source": "Canadian Bankers Association"
+},
+"start": 130.16700000000006,
+"end": 132.44291666666672,
+"shot": 14,
+"credit": {
+"title": "Jewel exhibition, Hermitage Amsterdam pic02",
+"creator": "Alf van Beem",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Jewel_exhibition,_Hermitage_Amsterdam_pic02.JPG",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 7,
+"who": "host",
+"text": "The Canadian Bankers Association counted about six thousand two hundred bank branches in Canada in twenty twelve, and about five thousand four hundred sixty in twenty twenty four.",
+"card": {
+"type": "stat",
+"big": "6,205 to 5,460",
+"label": "Bank branches in Canada, 2012 vs 2024",
+"source": "Canadian Bankers Association"
+},
+"start": 132.6429166666667,
+"end": 141.6439583333334,
+"shot": 15,
+"credit": {
+"title": "StBalmainCoffee(byCarliJeen)",
+"creator": "Carli Jean Miller",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:StBalmainCoffee(byCarliJeen).jpg",
+"via": "Wikimedia Commons",
+"query": "counter bell"
+}
+},
+{
+"seg": 1,
+"line": 7,
+"who": "host",
+"text": "Those were often the best corners on the street.",
+"card": {
+"type": "stat",
+"big": "6,205 to 5,460",
+"label": "Bank branches in Canada, 2012 vs 2024",
+"source": "Canadian Bankers Association"
+},
+"start": 141.84395833333338,
+"end": 144.09687500000004,
+"shot": 16,
+"credit": {
+"title": "USVI IMG 5210 - Wooden shelves hold a projector and three seashells on the lower shelf",
+"creator": "Category:Government of the United States Virgin Islands",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:USVI_IMG_5210_-_Wooden_shelves_hold_a_projector_and_three_seashells_on_the_lower_shelf.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 8,
+"who": "host",
+"text": "Halifax ReTales, a site that counts local openings, logged one hundred ninety three openings and one hundred four closures in the municipality in twenty twenty four.",
+"card": {
+"type": "stat",
+"big": "193 vs 104",
+"label": "Openings vs closures in HRM in 2024 (Halifax ReTales)",
+"source": "CBC News, Dec 31, 2024"
+},
+"start": 144.39687500000005,
+"end": 154.2087916666667,
+"shot": 16,
+"credit": {
+"title": "USVI IMG 5210 - Wooden shelves hold a projector and three seashells on the lower shelf",
+"creator": "Category:Government of the United States Virgin Islands",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:USVI_IMG_5210_-_Wooden_shelves_hold_a_projector_and_three_seashells_on_the_lower_shelf.jpg",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 8,
+"who": "host",
+"text": "Almost two openings for every closure.",
+"card": {
+"type": "stat",
+"big": "193 vs 104",
+"label": "Openings vs closures in HRM in 2024 (Halifax ReTales)",
+"source": "CBC News, Dec 31, 2024"
+},
+"start": 154.4087916666667,
+"end": 156.92100000000002,
+"shot": 17,
+"credit": {
+"title": "Trompe l'oeil still life of bottles, fruit, plates and other objects along two wooden shelves)",
+"creator": "Jean Valette-Penot",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_still_life_of_bottles,_fruit,_plates_and_other_objects_along_two_wooden_shelves).webp",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 9,
+"who": "host",
+"text": "So space is scarce, and someone keeps filling it.",
+"card": null,
+"start": 157.22100000000003,
+"end": 160.03720833333335,
+"shot": 17,
+"credit": {
+"title": "Trompe l'oeil still life of bottles, fruit, plates and other objects along two wooden shelves)",
+"creator": "Jean Valette-Penot",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_still_life_of_bottles,_fruit,_plates_and_other_objects_along_two_wooden_shelves).webp",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 9,
+"who": "host",
+"text": "Which means the empty windows you walk past every day are a different problem.",
+"card": null,
+"start": 160.23720833333334,
+"end": 164.13816666666668,
+"shot": 17,
+"credit": {
+"title": "Trompe l'oeil still life of bottles, fruit, plates and other objects along two wooden shelves)",
+"creator": "Jean Valette-Penot",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Trompe_l%27oeil_still_life_of_bottles,_fruit,_plates_and_other_objects_along_two_wooden_shelves).webp",
+"via": "Wikimedia Commons",
+"query": "wooden shelves"
+}
+},
+{
+"seg": 1,
+"line": 9,
+"who": "host",
+"text": "We'll get to that.",
+"card": null,
+"start": 164.33816666666667,
+"end": 165.09995833333332,
+"shot": 18,
+"credit": {
+"title": "Kassa PRIM 07K",
+"creator": "MSDN.WhiteKnight",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Kassa_PRIM_07K.jpg",
+"via": "Wikimedia Commons",
+"query": "cash register"
+}
+},
+{
+"seg": 1,
+"line": 9,
+"who": "host",
+"text": "First, what a shop lease really costs.",
+"card": null,
+"start": 165.2999583333333,
+"end": 167.56266666666664,
+"shot": 18,
+"credit": {
+"title": "Kassa PRIM 07K",
+"creator": "MSDN.WhiteKnight",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Kassa_PRIM_07K.jpg",
+"via": "Wikimedia Commons",
+"query": "cash register"
+}
+},
+{
+"seg": 2,
+"line": 0,
+"who": "host",
+"text": "In school, rent is simple.",
+"card": {
+"type": "point",
+"text": "What school teaches: rent = price \u00d7 space"
+},
+"start": 168.81266666666664,
+"end": 170.44562499999998,
+"shot": 19,
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 0,
+"who": "host",
+"text": "A price per square foot, times the size of the space.",
+"card": {
+"type": "point",
+"text": "What school teaches: rent = price \u00d7 space"
+},
+"start": 170.64562499999997,
+"end": 173.81354166666662,
+"shot": 19,
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 0,
+"who": "host",
+"text": "Done.",
+"card": {
+"type": "point",
+"text": "What school teaches: rent = price \u00d7 space"
+},
+"start": 174.0135416666666,
+"end": 174.44774999999996,
+"shot": 19,
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 1,
+"who": "host",
+"text": "On a real shop lease, that number is often just the base rent.",
+"card": {
+"type": "point",
+"text": "What school teaches: rent = price \u00d7 space"
+},
+"start": 174.74774999999997,
+"end": 178.8365833333333,
+"shot": 19,
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 1,
+"who": "host",
+"text": "Then comes what landlords call additional rent.",
+"card": {
+"type": "point",
+"text": "What school teaches: rent = price \u00d7 space"
+},
+"start": 179.03658333333328,
+"end": 181.75887499999996,
+"shot": 20,
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 2,
+"who": "host",
+"text": "The Business Development Bank of Canada lays out the main types.",
+"card": {
+"type": "list",
+"title": "Lease types (BDC)",
+"items": [
+"Gross: one all-in payment",
+"Net: + property tax",
+"Double net: + tax, insurance",
+"Triple net: + tax, insurance, utilities, upkeep"
+]
+},
+"start": 182.05887499999997,
+"end": 185.35312499999998,
+"shot": 20,
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 2,
+"who": "host",
+"text": "A gross lease is one payment that covers everything.",
+"card": {
+"type": "list",
+"title": "Lease types (BDC)",
+"items": [
+"Gross: one all-in payment",
+"Net: + property tax",
+"Double net: + tax, insurance",
+"Triple net: + tax, insurance, utilities, upkeep"
+]
+},
+"start": 185.55312499999997,
+"end": 188.32216666666665,
+"shot": 20,
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 2,
+"who": "host",
+"text": "A net lease adds property tax on top.",
+"card": {
+"type": "list",
+"title": "Lease types (BDC)",
+"items": [
+"Gross: one all-in payment",
+"Net: + property tax",
+"Double net: + tax, insurance",
+"Triple net: + tax, insurance, utilities, upkeep"
+]
+},
+"start": 188.52216666666664,
+"end": 190.9454583333333,
+"shot": 21,
+"credit": {
+"title": "Tiffany Studios Lamp Department Ledger Book MET DP114246",
+"creator": "Tiffany Studios",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Tiffany_Studios_Lamp_Department_Ledger_Book_MET_DP114246.jpg",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 2,
+"who": "host",
+"text": "And a triple net lease adds property tax, the building's insurance, utilities and the upkeep.",
+"card": {
+"type": "list",
+"title": "Lease types (BDC)",
+"items": [
+"Gross: one all-in payment",
+"Net: + property tax",
+"Double net: + tax, insurance",
+"Triple net: + tax, insurance, utilities, upkeep"
+]
+},
+"start": 191.1454583333333,
+"end": 196.79729166666664,
+"shot": 21,
+"credit": {
+"title": "Tiffany Studios Lamp Department Ledger Book MET DP114246",
+"creator": "Tiffany Studios",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Tiffany_Studios_Lamp_Department_Ledger_Book_MET_DP114246.jpg",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 2,
+"who": "host",
+"text": "The landlord pays for little more than the structure itself.",
+"card": null,
+"start": 196.99729166666663,
+"end": 200.11987499999995,
+"shot": 22,
+"credit": {
+"title": "Tape measure end",
+"creator": "Douglas Perkins",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Tape_measure_end.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+}
+},
+{
+"seg": 2,
+"line": 3,
+"who": "host",
+"text": "Upkeep can mean snow removal, cleaning, landscaping and property management, split among the tenants.",
+"card": null,
+"start": 200.41987499999996,
+"end": 206.47404166666664,
+"shot": 22,
+"credit": {
+"title": "Tape measure end",
+"creator": "Douglas Perkins",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Tape_measure_end.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+}
+},
+{
+"seg": 2,
+"line": 3,
+"who": "host",
+"text": "In Nova Scotia, that snow line is not a small number.",
+"card": null,
+"start": 206.67404166666662,
+"end": 210.13062499999995,
+"shot": 23,
+"credit": {
+"title": "Tape measure diagonal 2",
+"creator": "Douglas Perkins",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Tape_measure_diagonal_2.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+}
+},
+{
+"seg": 2,
+"line": 4,
+"who": "host",
+"text": "How common is this?",
+"card": {
+"type": "stat",
+"big": "24.6%",
+"label": "Renting businesses on a triple net lease",
+"source": "Statistics Canada, CSBC Q2 2024"
+},
+"start": 210.43062499999996,
+"end": 211.6897083333333,
+"shot": 23,
+"credit": {
+"title": "Tape measure diagonal 2",
+"creator": "Douglas Perkins",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Tape_measure_diagonal_2.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+}
+},
+{
+"seg": 2,
+"line": 4,
+"who": "host",
+"text": "A Statistics Canada survey found about half of Canadian businesses rent their space.",
+"card": {
+"type": "stat",
+"big": "24.6%",
+"label": "Renting businesses on a triple net lease",
+"source": "Statistics Canada, CSBC Q2 2024"
+},
+"start": 211.8897083333333,
+"end": 216.32691666666662,
+"shot": 23,
+"credit": {
+"title": "Tape measure diagonal 2",
+"creator": "Douglas Perkins",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Tape_measure_diagonal_2.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+}
+},
+{
+"seg": 2,
+"line": 4,
+"who": "host",
+"text": "Of those, about half had gross leases.",
+"card": {
+"type": "stat",
+"big": "24.6%",
+"label": "Renting businesses on a triple net lease",
+"source": "Statistics Canada, CSBC Q2 2024"
+},
+"start": 216.5269166666666,
+"end": 218.86395833333327,
+"shot": 24,
+"credit": {
+"title": "Chesterman Tape Measure",
+"creator": "James Chesterman",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chesterman_Tape_Measure.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+}
+},
+{
+"seg": 2,
+"line": 4,
+"who": "host",
+"text": "Roughly one in four were on triple net.",
+"card": {
+"type": "stat",
+"big": "24.6%",
+"label": "Renting businesses on a triple net lease",
+"source": "Statistics Canada, CSBC Q2 2024"
+},
+"start": 219.06395833333326,
+"end": 221.96012499999992,
+"shot": 24,
+"credit": {
+"title": "Chesterman Tape Measure",
+"creator": "James Chesterman",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chesterman_Tape_Measure.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+}
+},
+{
+"seg": 2,
+"line": 5,
+"who": "host",
+"text": "Now the part nobody tells you about property tax.",
+"card": {
+"type": "stat",
+"big": "~4\u00d7",
+"label": "HRM commercial vs urban residential general tax rate, 2024/25",
+"source": "Halifax Regional Municipality, tax rates"
+},
+"start": 222.26012499999993,
+"end": 224.83912499999994,
+"shot": 24,
+"credit": {
+"title": "Chesterman Tape Measure",
+"creator": "James Chesterman",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Chesterman_Tape_Measure.jpg",
+"via": "Wikimedia Commons",
+"query": "measuring tape"
+}
+},
+{
+"seg": 2,
+"line": 5,
+"who": "host",
+"text": "In Halifax, the city's own rate page shows the commercial rate on smaller properties at about four times the residential rate per hundred dollars of value.",
+"card": {
+"type": "stat",
+"big": "~4\u00d7",
+"label": "HRM commercial vs urban residential general tax rate, 2024/25",
+"source": "Halifax Regional Municipality, tax rates"
+},
+"start": 225.03912499999993,
+"end": 232.54083333333327,
+"shot": 25,
+"credit": {
+"title": "Snowbank Oulu Market Square 20210225",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Snowbank_Oulu_Market_Square_20210225.jpg",
+"via": "Wikimedia Commons",
+"query": "snowbank"
+}
+},
+{
+"seg": 2,
+"line": 5,
+"who": "host",
+"text": "On a net lease, that bill lands on the tenant.",
+"card": {
+"type": "stat",
+"big": "~4\u00d7",
+"label": "HRM commercial vs urban residential general tax rate, 2024/25",
+"source": "Halifax Regional Municipality, tax rates"
+},
+"start": 232.74083333333326,
+"end": 235.2776666666666,
+"shot": 26,
+"credit": {
+"title": "Streetcar passes large snowbanks in Port Arthur, February 9, 1939",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Streetcar_passes_large_snowbanks_in_Port_Arthur,_February_9,_1939.jpg",
+"via": "Wikimedia Commons",
+"query": "snowbank"
+}
+},
+{
+"seg": 2,
+"line": 6,
+"who": "host",
+"text": "One more surprise.",
+"card": null,
+"start": 235.5776666666666,
+"end": 236.97070833333328,
+"shot": 26,
+"credit": {
+"title": "Streetcar passes large snowbanks in Port Arthur, February 9, 1939",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Streetcar_passes_large_snowbanks_in_Port_Arthur,_February_9,_1939.jpg",
+"via": "Wikimedia Commons",
+"query": "snowbank"
+}
+},
+{
+"seg": 2,
+"line": 6,
+"who": "host",
+"text": "The money you spend fitting out the space, the counters, the shelving, the lighting, usually becomes the landlord's property when you leave.",
+"card": null,
+"start": 237.17070833333327,
+"end": 244.7984166666666,
+"shot": 26,
+"credit": {
+"title": "Streetcar passes large snowbanks in Port Arthur, February 9, 1939",
+"creator": "Unknown authorUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Streetcar_passes_large_snowbanks_in_Port_Arthur,_February_9,_1939.jpg",
+"via": "Wikimedia Commons",
+"query": "snowbank"
+}
+},
+{
+"seg": 2,
+"line": 6,
+"who": "host",
+"text": "B D C says so plainly.",
+"card": null,
+"start": 244.9984166666666,
+"end": 247.2785416666666,
+"shot": 27,
+"credit": {
+"title": "Car driving on Northeast Entrance Road lined with tall snowbanks (13784611423)",
+"creator": "Jim Peaco, Yellowstone National Park",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Car_driving_on_Northeast_Entrance_Road_lined_with_tall_snowbanks_(13784611423).jpg",
+"via": "Wikimedia Commons",
+"query": "snowbank"
+}
+},
+{
+"seg": 2,
+"line": 7,
+"who": "host",
+"text": "And renewal is where it can really bite.",
+"card": {
+"type": "stat",
+"big": "51%",
+"label": "Renting small firms with rent hikes of 6%+ in a year",
+"source": "CFIB, Sep 2023 survey"
+},
+"start": 247.5785416666666,
+"end": 249.9645416666666,
+"shot": 27,
+"credit": {
+"title": "Car driving on Northeast Entrance Road lined with tall snowbanks (13784611423)",
+"creator": "Jim Peaco, Yellowstone National Park",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Car_driving_on_Northeast_Entrance_Road_lined_with_tall_snowbanks_(13784611423).jpg",
+"via": "Wikimedia Commons",
+"query": "snowbank"
+}
+},
+{
+"seg": 2,
+"line": 7,
+"who": "host",
+"text": "In a C F I B survey, about half of small businesses that rent had an increase of six percent or more in a year.",
+"card": {
+"type": "stat",
+"big": "51%",
+"label": "Renting small firms with rent hikes of 6%+ in a year",
+"source": "CFIB, Sep 2023 survey"
+},
+"start": 250.1645416666666,
+"end": 256.9649999999999,
+"shot": 27,
+"credit": {
+"title": "Car driving on Northeast Entrance Road lined with tall snowbanks (13784611423)",
+"creator": "Jim Peaco, Yellowstone National Park",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Car_driving_on_Northeast_Entrance_Road_lined_with_tall_snowbanks_(13784611423).jpg",
+"via": "Wikimedia Commons",
+"query": "snowbank"
+}
+},
+{
+"seg": 2,
+"line": 7,
+"who": "host",
+"text": "Twelve percent saw increases of thirty percent or more.",
+"card": {
+"type": "stat",
+"big": "51%",
+"label": "Renting small firms with rent hikes of 6%+ in a year",
+"source": "CFIB, Sep 2023 survey"
+},
+"start": 257.1649999999999,
+"end": 260.2880416666666,
+"shot": 28,
+"credit": {
+"title": "Partially torn-down energy meter, load discs and a counter",
+"creator": "JenXOfficial",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Partially_torn-down_energy_meter,_load_discs_and_a_counter.jpg",
+"via": "Wikimedia Commons",
+"query": "electric meter"
+}
+},
+{
+"seg": 2,
+"line": 8,
+"who": "host",
+"text": "Why don't they just move?",
+"card": null,
+"start": 260.5880416666666,
+"end": 262.0703749999999,
+"shot": 28,
+"credit": {
+"title": "Partially torn-down energy meter, load discs and a counter",
+"creator": "JenXOfficial",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Partially_torn-down_energy_meter,_load_discs_and_a_counter.jpg",
+"via": "Wikimedia Commons",
+"query": "electric meter"
+}
+},
+{
+"seg": 2,
+"line": 8,
+"who": "host",
+"text": "In the same survey, about a third of the businesses hit with a big increase thought about moving.",
+"card": null,
+"start": 262.2703749999999,
+"end": 267.2200833333332,
+"shot": 28,
+"credit": {
+"title": "Partially torn-down energy meter, load discs and a counter",
+"creator": "JenXOfficial",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Partially_torn-down_energy_meter,_load_discs_and_a_counter.jpg",
+"via": "Wikimedia Commons",
+"query": "electric meter"
+}
+},
+{
+"seg": 2,
+"line": 8,
+"who": "host",
+"text": "Only seven percent actually did.",
+"card": null,
+"start": 267.4200833333332,
+"end": 269.9635833333332,
+"shot": 29,
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 8,
+"who": "host",
+"text": "Moving a shop means new fit out costs, new signs, and the risk your regulars don't follow you.",
+"card": null,
+"start": 270.1635833333332,
+"end": 275.88074999999986,
+"shot": 29,
+"credit": {
+"title": "Luckett Ledger",
+"creator": "AnonymousUnknown author",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Luckett_Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 9,
+"who": "host",
+"text": "Nova Scotia has no cap on commercial rent.",
+"card": null,
+"start": 276.1807499999999,
+"end": 278.88454166666656,
+"shot": 30,
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 2,
+"line": 9,
+"who": "host",
+"text": "A bill to cap it for small businesses was introduced in October twenty twenty five, and as far as the legislature's page shows, it hasn't passed.",
+"card": null,
+"start": 279.08454166666655,
+"end": 287.0586249999999,
+"shot": 30,
+"credit": {
+"title": "Ledger",
+"creator": "RaphaelQS",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+"via": "Wikimedia Commons",
+"query": "ledger book"
+}
+},
+{
+"seg": 3,
+"line": 0,
+"who": "host",
+"text": "So who can afford all that?",
+"card": {
+"type": "point",
+"text": "Who's actually signing the leases?"
+},
+"start": 288.3086249999999,
+"end": 289.5411666666666,
+"shot": 31,
+"credit": {
+"title": "Coffee in cup amenable to easy cup colour changes such that it still looks like an unaltered coffee-in-cup photo",
+"creator": "MarkJFernandes",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_in_cup_amenable_to_easy_cup_colour_changes_such_that_it_still_looks_like_an_unaltered_coffee-in-cup_photo.xcf",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+}
+},
+{
+"seg": 3,
+"line": 0,
+"who": "host",
+"text": "Look at who keeps opening.",
+"card": {
+"type": "point",
+"text": "Who's actually signing the leases?"
+},
+"start": 289.7411666666666,
+"end": 291.0248749999999,
+"shot": 31,
+"credit": {
+"title": "Coffee in cup amenable to easy cup colour changes such that it still looks like an unaltered coffee-in-cup photo",
+"creator": "MarkJFernandes",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_in_cup_amenable_to_easy_cup_colour_changes_such_that_it_still_looks_like_an_unaltered_coffee-in-cup_photo.xcf",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+}
+},
+{
+"seg": 3,
+"line": 1,
+"who": "host",
+"text": "Dollarama had one thousand seven hundred thirty four stores in Canada this August.",
+"card": {
+"type": "stat",
+"big": "+69",
+"label": "New Dollarama stores in Canada in one year (to Aug 2026)",
+"source": "Dollarama Q2 fiscal 2027 results"
+},
+"start": 291.3248749999999,
+"end": 295.9605416666666,
+"shot": 31,
+"credit": {
+"title": "Coffee in cup amenable to easy cup colour changes such that it still looks like an unaltered coffee-in-cup photo",
+"creator": "MarkJFernandes",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_in_cup_amenable_to_easy_cup_colour_changes_such_that_it_still_looks_like_an_unaltered_coffee-in-cup_photo.xcf",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+}
+},
+{
+"seg": 3,
+"line": 1,
+"who": "host",
+"text": "That's sixty nine more than a year earlier.",
+"card": {
+"type": "stat",
+"big": "+69",
+"label": "New Dollarama stores in Canada in one year (to Aug 2026)",
+"source": "Dollarama Q2 fiscal 2027 results"
+},
+"start": 296.1605416666666,
+"end": 298.35970833333323,
+"shot": 32,
+"credit": {
+"title": "Coffee cup and coffee bean",
+"creator": "mcfoodie",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_cup_and_coffee_bean.jpg",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+}
+},
+{
+"seg": 3,
+"line": 1,
+"who": "host",
+"text": "More than one new store a week.",
+"card": {
+"type": "stat",
+"big": "+69",
+"label": "New Dollarama stores in Canada in one year (to Aug 2026)",
+"source": "Dollarama Q2 fiscal 2027 results"
+},
+"start": 298.5597083333332,
+"end": 300.3756666666666,
+"shot": 32,
+"credit": {
+"title": "Coffee cup and coffee bean",
+"creator": "mcfoodie",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_cup_and_coffee_bean.jpg",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+}
+},
+{
+"seg": 3,
+"line": 2,
+"who": "host",
+"text": "Franchises are the other big one.",
+"card": {
+"type": "stat",
+"big": "93%",
+"label": "Franchise locations owned by individual operators",
+"source": "Canadian Franchise Association via Retail Insider"
+},
+"start": 300.6756666666666,
+"end": 302.3309166666666,
+"shot": 32,
+"credit": {
+"title": "Coffee cup and coffee bean",
+"creator": "mcfoodie",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_cup_and_coffee_bean.jpg",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+}
+},
+{
+"seg": 3,
+"line": 2,
+"who": "host",
+"text": "The Canadian Franchise Association counts more than seventy thousand franchise locations in the country.",
+"card": {
+"type": "stat",
+"big": "93%",
+"label": "Franchise locations owned by individual operators",
+"source": "Canadian Franchise Association via Retail Insider"
+},
+"start": 302.5309166666666,
+"end": 307.9130416666666,
+"shot": 32,
+"credit": {
+"title": "Coffee cup and coffee bean",
+"creator": "mcfoodie",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_cup_and_coffee_bean.jpg",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+}
+},
+{
+"seg": 3,
+"line": 2,
+"who": "host",
+"text": "And here's the twist.",
+"card": {
+"type": "stat",
+"big": "93%",
+"label": "Franchise locations owned by individual operators",
+"source": "Canadian Franchise Association via Retail Insider"
+},
+"start": 308.11304166666656,
+"end": 309.1181249999999,
+"shot": 33,
+"credit": {
+"title": "2025 - free download photo of an old shop window with a illuseum or illusion - a floating human figure behind the reflecting window glass. It is in the street Witte de Withstraat, Amsterdam - street photography in free image",
+"creator": "Fons Heijnsbroek",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:2025_-_free_download_photo_of_an_old_shop_window_with_a_illuseum_or_illusion_-_a_floating_human_figure_behind_the_reflecting_window_glass._It_is_in_the_street_Witte_de_Withstraat,_Amsterdam_-_street_photography_in_free_image.tif",
+"via": "Wikimedia Commons",
+"query": "display window"
+}
+},
+{
+"seg": 3,
+"line": 2,
+"who": "host",
+"text": "Ninety three percent of them are owned by individual operators.",
+"card": {
+"type": "stat",
+"big": "93%",
+"label": "Franchise locations owned by individual operators",
+"source": "Canadian Franchise Association via Retail Insider"
+},
+"start": 309.3181249999999,
+"end": 312.3632083333332,
+"shot": 33,
+"credit": {
+"title": "2025 - free download photo of an old shop window with a illuseum or illusion - a floating human figure behind the reflecting window glass. It is in the street Witte de Withstraat, Amsterdam - street photography in free image",
+"creator": "Fons Heijnsbroek",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:2025_-_free_download_photo_of_an_old_shop_window_with_a_illuseum_or_illusion_-_a_floating_human_figure_behind_the_reflecting_window_glass._It_is_in_the_street_Witte_de_Withstraat,_Amsterdam_-_street_photography_in_free_image.tif",
+"via": "Wikimedia Commons",
+"query": "display window"
+}
+},
+{
+"seg": 3,
+"line": 3,
+"who": "host",
+"text": "So a lot of the new shops are still small business owners.",
+"card": {
+"type": "stat",
+"big": "93%",
+"label": "Franchise locations owned by individual operators",
+"source": "Canadian Franchise Association via Retail Insider"
+},
+"start": 312.6632083333332,
+"end": 315.5544999999999,
+"shot": 33,
+"credit": {
+"title": "2025 - free download photo of an old shop window with a illuseum or illusion - a floating human figure behind the reflecting window glass. It is in the street Witte de Withstraat, Amsterdam - street photography in free image",
+"creator": "Fons Heijnsbroek",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:2025_-_free_download_photo_of_an_old_shop_window_with_a_illuseum_or_illusion_-_a_floating_human_figure_behind_the_reflecting_window_glass._It_is_in_the_street_Witte_de_Withstraat,_Amsterdam_-_street_photography_in_free_image.tif",
+"via": "Wikimedia Commons",
+"query": "display window"
+}
+},
+{
+"seg": 3,
+"line": 3,
+"who": "host",
+"text": "They just walk in with a brand a landlord already trusts.",
+"card": null,
+"start": 315.7544999999999,
+"end": 319.07591666666656,
+"shot": 34,
+"credit": {
+"title": "Photo of flowering hollyhocks in front of the shop window of a laundry on the street Weteringschans in Amsterdam downtown, in Summer of 2009 - photo of Dutch photographer Fons Heijnsbroek - free download",
+"creator": "Fons Heijnsbroek",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Photo_of_flowering_hollyhocks_in_front_of_the_shop_window_of_a_laundry_on_the_street_Weteringschans_in_Amsterdam_downtown,_in_Summer_of_2009_-_photo_of_Dutch_photographer_Fons_Heijnsbroek_-_free_download.jpg",
+"via": "Wikimedia Commons",
+"query": "display window"
+}
+},
+{
+"seg": 3,
+"line": 4,
+"who": "host",
+"text": "On Spring Garden Road, the new ground floor retail at The Mills was about eighty percent leased in twenty twenty five, mostly to national outdoor and athletic brands.",
+"card": null,
+"start": 319.37591666666657,
+"end": 327.5728333333332,
+"shot": 34,
+"credit": {
+"title": "Photo of flowering hollyhocks in front of the shop window of a laundry on the street Weteringschans in Amsterdam downtown, in Summer of 2009 - photo of Dutch photographer Fons Heijnsbroek - free download",
+"creator": "Fons Heijnsbroek",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Photo_of_flowering_hollyhocks_in_front_of_the_shop_window_of_a_laundry_on_the_street_Weteringschans_in_Amsterdam_downtown,_in_Summer_of_2009_-_photo_of_Dutch_photographer_Fons_Heijnsbroek_-_free_download.jpg",
+"via": "Wikimedia Commons",
+"query": "display window"
+}
+},
+{
+"seg": 3,
+"line": 5,
+"who": "host",
+"text": "Here's the pattern.",
+"card": null,
+"start": 327.87283333333323,
+"end": 328.6781249999999,
+"shot": 35,
+"credit": {
+"title": "Starbucks xingqing mooncake gift box",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Starbucks_xingqing_mooncake_gift_box.jpg",
+"via": "Wikimedia Commons",
+"query": "gift box"
+}
+},
+{
+"seg": 3,
+"line": 5,
+"who": "host",
+"text": "A landlord isn't only renting space.",
+"card": null,
+"start": 328.8781249999999,
+"end": 331.1494166666666,
+"shot": 35,
+"credit": {
+"title": "Starbucks xingqing mooncake gift box",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Starbucks_xingqing_mooncake_gift_box.jpg",
+"via": "Wikimedia Commons",
+"query": "gift box"
+}
+},
+{
+"seg": 3,
+"line": 5,
+"who": "host",
+"text": "They're picking who's most likely to pay for the next ten years.",
+"card": null,
+"start": 331.34941666666657,
+"end": 334.1561249999999,
+"shot": 35,
+"credit": {
+"title": "Starbucks xingqing mooncake gift box",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Starbucks_xingqing_mooncake_gift_box.jpg",
+"via": "Wikimedia Commons",
+"query": "gift box"
+}
+},
+{
+"seg": 3,
+"line": 5,
+"who": "host",
+"text": "A national chain with a big balance sheet looks safer on paper than someone opening their first bakery.",
+"card": null,
+"start": 334.3561249999999,
+"end": 339.9098749999999,
+"shot": 35,
+"credit": {
+"title": "Starbucks xingqing mooncake gift box",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Starbucks_xingqing_mooncake_gift_box.jpg",
+"via": "Wikimedia Commons",
+"query": "gift box"
+}
+},
+{
+"seg": 3,
+"line": 6,
+"who": "host",
+"text": "Which brings us to the windows that stay dark.",
+"card": null,
+"start": 340.2098749999999,
+"end": 342.2091666666666,
+"shot": 36,
+"credit": {
+"title": "Starbucks xingyue mooncake gift box",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Starbucks_xingyue_mooncake_gift_box.jpg",
+"via": "Wikimedia Commons",
+"query": "gift box"
+}
+},
+{
+"seg": 3,
+"line": 6,
+"who": "host",
+"text": "If someone is ready to rent, why would a landlord leave a space empty for a year instead of dropping the price?",
+"card": null,
+"start": 342.4091666666666,
+"end": 348.2795833333332,
+"shot": 36,
+"credit": {
+"title": "Starbucks xingyue mooncake gift box",
+"creator": "Fumikas Sagisavas",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Starbucks_xingyue_mooncake_gift_box.jpg",
+"via": "Wikimedia Commons",
+"query": "gift box"
+}
+},
+{
+"seg": 3,
+"line": 6,
+"who": "host",
+"text": "There's a reason, and it's a bit of math most tenants never see.",
+"card": null,
+"start": 348.4795833333332,
+"end": 351.5767499999999,
+"shot": 37,
+"credit": {
+"title": "Coffee in cup amenable to easy cup colour changes such that it still looks like an unaltered coffee-in-cup photo",
+"creator": "MarkJFernandes",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Coffee_in_cup_amenable_to_easy_cup_colour_changes_such_that_it_still_looks_like_an_unaltered_coffee-in-cup_photo.xcf",
+"via": "Wikimedia Commons",
+"query": "coffee cup"
+}
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "Before that, a quick word.",
+"card": {
+"type": "point",
+"text": "A quick word from Waypoint (that's us)"
+},
+"start": 352.8267499999999,
+"end": 354.6097916666666,
+"shot": 38,
+"credit": {
+"title": "Howth Harbour Lighthouse (24031171840)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Howth_Harbour_Lighthouse_(24031171840).jpg",
+"via": "Wikimedia Commons",
+"query": "harbour lighthouse"
+}
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "This video comes from Waypoint Software, here in Atlantic Canada.",
+"card": {
+"type": "point",
+"text": "A quick word from Waypoint (that's us)"
+},
+"start": 354.80979166666657,
+"end": 358.68166666666656,
+"shot": 38,
+"credit": {
+"title": "Howth Harbour Lighthouse (24031171840)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Howth_Harbour_Lighthouse_(24031171840).jpg",
+"via": "Wikimedia Commons",
+"query": "harbour lighthouse"
+}
+},
+{
+"seg": 4,
+"line": 0,
+"who": "host",
+"text": "We build websites for small service businesses, and the booking, quoting and invoicing tools that sit behind them.",
+"card": {
+"type": "point",
+"text": "A quick word from Waypoint (that's us)"
+},
+"start": 358.88166666666655,
+"end": 365.15337499999987,
+"shot": 38,
+"credit": {
+"title": "Howth Harbour Lighthouse (24031171840)",
+"creator": "www.Pixel.la Free Stock Photos",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Howth_Harbour_Lighthouse_(24031171840).jpg",
+"via": "Wikimedia Commons",
+"query": "harbour lighthouse"
+}
+},
+{
+"seg": 4,
+"line": 1,
+"who": "host",
+"text": "A lot of the businesses opening now never need a storefront, so the website does the work a front window used to.",
+"card": null,
+"start": 365.4533749999999,
+"end": 371.7393333333332,
+"shot": 39,
+"credit": {
+"title": "New harbour, Saint-Jean-Cap-Ferrat, France",
+"creator": "Pierre Lannoy",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/2963208767/",
+"via": "Openverse / wordpress",
+"query": "harbour lighthouse"
+}
+},
+{
+"seg": 4,
+"line": 1,
+"who": "host",
+"text": "We try to build it around how you already work.",
+"card": null,
+"start": 371.9393333333332,
+"end": 374.6172916666665,
+"shot": 39,
+"credit": {
+"title": "New harbour, Saint-Jean-Cap-Ferrat, France",
+"creator": "Pierre Lannoy",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/2963208767/",
+"via": "Openverse / wordpress",
+"query": "harbour lighthouse"
+}
+},
+{
+"seg": 4,
+"line": 1,
+"who": "host",
+"text": "That's waypointns dot ca.",
+"card": null,
+"start": 374.8172916666665,
+"end": 377.33037499999983,
+"shot": 40,
+"credit": {
+"title": "Laptop on desk book stacks (Unsplash)",
+"creator": "freddie marriage fredmarriage",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Laptop_on_desk_book_stacks_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "laptop desk"
+}
+},
+{
+"seg": 4,
+"line": 1,
+"who": "host",
+"text": "Okay.",
+"card": null,
+"start": 377.5303749999998,
+"end": 378.0816249999998,
+"shot": 40,
+"credit": {
+"title": "Laptop on desk book stacks (Unsplash)",
+"creator": "freddie marriage fredmarriage",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Laptop_on_desk_book_stacks_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "laptop desk"
+}
+},
+{
+"seg": 4,
+"line": 1,
+"who": "host",
+"text": "The math that keeps windows empty.",
+"card": null,
+"start": 378.2816249999998,
+"end": 380.36704166666647,
+"shot": 40,
+"credit": {
+"title": "Laptop on desk book stacks (Unsplash)",
+"creator": "freddie marriage fredmarriage",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Laptop_on_desk_book_stacks_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "laptop desk"
+}
+},
+{
+"seg": 5,
+"line": 0,
+"who": "host",
+"text": "Here's the math.",
+"card": {
+"type": "point",
+"text": "Why do empty windows stay empty?"
+},
+"start": 381.61704166666647,
+"end": 382.3991249999998,
+"shot": 41,
+"credit": {
+"title": "Padlock Valimokatu Oulu 20250307 02",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_Valimokatu_Oulu_20250307_02.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 0,
+"who": "host",
+"text": "Commercial buildings are usually valued on the rent they bring in.",
+"card": {
+"type": "point",
+"text": "Why do empty windows stay empty?"
+},
+"start": 382.5991249999998,
+"end": 385.58879166666645,
+"shot": 41,
+"credit": {
+"title": "Padlock Valimokatu Oulu 20250307 02",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_Valimokatu_Oulu_20250307_02.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 1,
+"who": "host",
+"text": "Investors divide the yearly net rent by something called a cap rate.",
+"card": {
+"type": "list",
+"title": "Illustration (made-up numbers)",
+"items": [
+"$40,000 rent \u00f7 6% = ~$667,000",
+"$30,000 rent \u00f7 6% = $500,000",
+"Lower rent = lower building value"
+]
+},
+"start": 385.88879166666646,
+"end": 389.99270833333316,
+"shot": 41,
+"credit": {
+"title": "Padlock Valimokatu Oulu 20250307 02",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_Valimokatu_Oulu_20250307_02.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 1,
+"who": "host",
+"text": "Take a made up example.",
+"card": {
+"type": "list",
+"title": "Illustration (made-up numbers)",
+"items": [
+"$40,000 rent \u00f7 6% = ~$667,000",
+"$30,000 rent \u00f7 6% = $500,000",
+"Lower rent = lower building value"
+]
+},
+"start": 390.19270833333314,
+"end": 391.53466666666645,
+"shot": 42,
+"credit": {
+"title": "Padlock and key - 17c - Ryazan Kremlin Museum",
+"creator": "\u041b\u0430\u043f\u043e\u0442\u044c",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_and_key_-_17c_-_Ryazan_Kremlin_Museum.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 1,
+"who": "host",
+"text": "A shop that pays forty thousand dollars a year, at a six percent cap rate, makes the space worth about six hundred sixty seven thousand.",
+"card": {
+"type": "list",
+"title": "Illustration (made-up numbers)",
+"items": [
+"$40,000 rent \u00f7 6% = ~$667,000",
+"$30,000 rent \u00f7 6% = $500,000",
+"Lower rent = lower building value"
+]
+},
+"start": 391.73466666666644,
+"end": 398.8039999999998,
+"shot": 42,
+"credit": {
+"title": "Padlock and key - 17c - Ryazan Kremlin Museum",
+"creator": "\u041b\u0430\u043f\u043e\u0442\u044c",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_and_key_-_17c_-_Ryazan_Kremlin_Museum.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 2,
+"who": "host",
+"text": "Now drop the rent to thirty thousand.",
+"card": null,
+"start": 399.1039999999998,
+"end": 401.06924999999984,
+"shot": 43,
+"credit": {
+"title": "Love padlocks Paris pont archev\u00each\u00e9",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 2,
+"who": "host",
+"text": "On paper, the same space is suddenly worth five hundred thousand.",
+"card": null,
+"start": 401.26924999999983,
+"end": 405.04495833333317,
+"shot": 43,
+"credit": {
+"title": "Love padlocks Paris pont archev\u00each\u00e9",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 2,
+"who": "host",
+"text": "If the owner's loan was based on the higher number, cutting the rent can make the bank nervous.",
+"card": null,
+"start": 405.24495833333316,
+"end": 410.0313749999998,
+"shot": 43,
+"credit": {
+"title": "Love padlocks Paris pont archev\u00each\u00e9",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 3,
+"who": "host",
+"text": "So some owners would rather wait.",
+"card": null,
+"start": 410.3313749999998,
+"end": 412.09033333333315,
+"shot": 44,
+"credit": {
+"title": "Door handles, Royal Greenhouses, Laeken, 2026",
+"creator": "DimiTalen",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Door_handles,_Royal_Greenhouses,_Laeken,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+}
+},
+{
+"seg": 5,
+"line": 3,
+"who": "host",
+"text": "An empty unit at the old asking rent can look better on paper than a full unit at a lower one.",
+"card": null,
+"start": 412.29033333333314,
+"end": 417.30591666666646,
+"shot": 44,
+"credit": {
+"title": "Door handles, Royal Greenhouses, Laeken, 2026",
+"creator": "DimiTalen",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Door_handles,_Royal_Greenhouses,_Laeken,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+}
+},
+{
+"seg": 5,
+"line": 3,
+"who": "host",
+"text": "U S writers call this extend and pretend.",
+"card": null,
+"start": 417.50591666666645,
+"end": 420.5109583333331,
+"shot": 45,
+"credit": {
+"title": "Safe toilet door handle in \u5922\u5eb5 \u9017\u5b50\u5e97 restaurant",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Safe_toilet_door_handle_in_%E5%A4%A2%E5%BA%B5_%E9%80%97%E5%AD%90%E5%BA%97_restaurant.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+}
+},
+{
+"seg": 5,
+"line": 3,
+"who": "host",
+"text": "Fortune described Montreal owners who set the price high and wait it out for a big tenant on a long lease.",
+"card": null,
+"start": 420.7109583333331,
+"end": 426.8293749999998,
+"shot": 45,
+"credit": {
+"title": "Safe toilet door handle in \u5922\u5eb5 \u9017\u5b50\u5e97 restaurant",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Safe_toilet_door_handle_in_%E5%A4%A2%E5%BA%B5_%E9%80%97%E5%AD%90%E5%BA%97_restaurant.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+}
+},
+{
+"seg": 5,
+"line": 4,
+"who": "host",
+"text": "Cities have noticed.",
+"card": null,
+"start": 427.1293749999998,
+"end": 428.2512499999998,
+"shot": 46,
+"credit": {
+"title": "Empty class room",
+"creator": "Saral Shots",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Empty_class_room.jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 5,
+"line": 4,
+"who": "host",
+"text": "Toronto has been studying a tax on vacant storefronts, and Vancouver asked the province to look at one.",
+"card": null,
+"start": 428.4512499999998,
+"end": 434.14808333333315,
+"shot": 46,
+"credit": {
+"title": "Empty class room",
+"creator": "Saral Shots",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Empty_class_room.jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 5,
+"line": 4,
+"who": "host",
+"text": "As of the sources we checked, neither has actually brought one in.",
+"card": null,
+"start": 434.34808333333314,
+"end": 437.79941666666645,
+"shot": 47,
+"credit": {
+"title": "23 0067430 Convair Negative Image - Empty room (54158113310)",
+"creator": "San Diego Air &amp; Space Museum Archives",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:23_0067430_Convair_Negative_Image_-_Empty_room_(54158113310).jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 5,
+"line": 5,
+"who": "host",
+"text": "Sometimes it's not even about rent.",
+"card": {
+"type": "stat",
+"big": "20 years",
+"label": "Deed restriction on grocery use at a former Dartmouth store",
+"source": "CBC News, Nov 12, 2025"
+},
+"start": 438.09941666666646,
+"end": 439.84145833333315,
+"shot": 47,
+"credit": {
+"title": "23 0067430 Convair Negative Image - Empty room (54158113310)",
+"creator": "San Diego Air &amp; Space Museum Archives",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:23_0067430_Convair_Negative_Image_-_Empty_room_(54158113310).jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 5,
+"line": 5,
+"who": "host",
+"text": "The Competition Bureau has been looking at grocery property controls in Halifax.",
+"card": {
+"type": "stat",
+"big": "20 years",
+"label": "Deed restriction on grocery use at a former Dartmouth store",
+"source": "CBC News, Nov 12, 2025"
+},
+"start": 440.04145833333314,
+"end": 444.1604166666665,
+"shot": 47,
+"credit": {
+"title": "23 0067430 Convair Negative Image - Empty room (54158113310)",
+"creator": "San Diego Air &amp; Space Museum Archives",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:23_0067430_Convair_Negative_Image_-_Empty_room_(54158113310).jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 5,
+"line": 5,
+"who": "host",
+"text": "C B C found lease clauses that stop other food sellers near certain grocery stores, and a deed that bars a grocery store at a former site in Dartmouth for twenty years.",
+"card": {
+"type": "stat",
+"big": "20 years",
+"label": "Deed restriction on grocery use at a former Dartmouth store",
+"source": "CBC News, Nov 12, 2025"
+},
+"start": 444.3604166666665,
+"end": 453.6794583333332,
+"shot": 48,
+"credit": {
+"title": "23 0067419 Convair Negative Image - Empty room (54158113485)",
+"creator": "San Diego Air &amp; Space Museum Archives",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:23_0067419_Convair_Negative_Image_-_Empty_room_(54158113485).jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 5,
+"line": 5,
+"who": "host",
+"text": "That building was mostly empty in October twenty twenty five.",
+"card": null,
+"start": 453.87945833333316,
+"end": 457.1580416666665,
+"shot": 49,
+"credit": {
+"title": "Padlock Valimokatu Oulu 20250307 02",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_Valimokatu_Oulu_20250307_02.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 6,
+"who": "host",
+"text": "In September, Sobeys' parent company Empire signed an agreement with the Bureau to stop enforcing those restrictive covenants and limit exclusivity clauses.",
+"card": null,
+"start": 457.45804166666653,
+"end": 465.69774999999987,
+"shot": 49,
+"credit": {
+"title": "Padlock Valimokatu Oulu 20250307 02",
+"creator": "Estormiz",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_Valimokatu_Oulu_20250307_02.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 6,
+"who": "host",
+"text": "So that empty window was a legal document, not a lack of interest.",
+"card": null,
+"start": 465.89774999999986,
+"end": 469.7100833333332,
+"shot": 50,
+"credit": {
+"title": "Padlock and key - 17c - Ryazan Kremlin Museum",
+"creator": "\u041b\u0430\u043f\u043e\u0442\u044c",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_and_key_-_17c_-_Ryazan_Kremlin_Museum.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 7,
+"who": "host",
+"text": "Halifax has tried to tilt the field too.",
+"card": {
+"type": "point",
+"text": "HRM: 5 commercial tax areas since April 2023"
+},
+"start": 470.0100833333332,
+"end": 472.63183333333325,
+"shot": 50,
+"credit": {
+"title": "Padlock and key - 17c - Ryazan Kremlin Museum",
+"creator": "\u041b\u0430\u043f\u043e\u0442\u044c",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_and_key_-_17c_-_Ryazan_Kremlin_Museum.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 7,
+"who": "host",
+"text": "Since April twenty twenty three, the municipality splits commercial property into five tax areas.",
+"card": {
+"type": "point",
+"text": "HRM: 5 commercial tax areas since April 2023"
+},
+"start": 472.83183333333324,
+"end": 478.91558333333325,
+"shot": 50,
+"credit": {
+"title": "Padlock and key - 17c - Ryazan Kremlin Museum",
+"creator": "\u041b\u0430\u043f\u043e\u0442\u044c",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Padlock_and_key_-_17c_-_Ryazan_Kremlin_Museum.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 7,
+"who": "host",
+"text": "The goal council voted for was lower taxes on main streets like Spring Garden Road and Quinpool Road, and higher taxes in big box parks like Bayers Lake.",
+"card": {
+"type": "point",
+"text": "HRM: 5 commercial tax areas since April 2023"
+},
+"start": 479.11558333333323,
+"end": 488.0439999999999,
+"shot": 51,
+"credit": {
+"title": "Love padlocks Paris pont archev\u00each\u00e9",
+"creator": "Jebulon",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Love_padlocks_Paris_pont_archev%C3%AAch%C3%A9.jpg",
+"via": "Wikimedia Commons",
+"query": "padlock"
+}
+},
+{
+"seg": 5,
+"line": 8,
+"who": "host",
+"text": "It also lets big jumps in a property's assessment phase in over up to ten years, so one hot year doesn't hit tenants all at once.",
+"card": null,
+"start": 488.34399999999994,
+"end": 495.34799999999996,
+"shot": 52,
+"credit": {
+"title": "Door handles, Royal Greenhouses, Laeken, 2026",
+"creator": "DimiTalen",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Door_handles,_Royal_Greenhouses,_Laeken,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+}
+},
+{
+"seg": 5,
+"line": 9,
+"who": "host",
+"text": "But tax isn't the whole story.",
+"card": null,
+"start": 495.64799999999997,
+"end": 497.67425,
+"shot": 53,
+"credit": {
+"title": "Safe toilet door handle in \u5922\u5eb5 \u9017\u5b50\u5e97 restaurant",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Safe_toilet_door_handle_in_%E5%A4%A2%E5%BA%B5_%E9%80%97%E5%AD%90%E5%BA%97_restaurant.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+}
+},
+{
+"seg": 5,
+"line": 9,
+"who": "host",
+"text": "A consultant study for the city found that even cutting commercial tax in half would barely change new building investment.",
+"card": null,
+"start": 497.87424999999996,
+"end": 503.6493333333333,
+"shot": 53,
+"credit": {
+"title": "Safe toilet door handle in \u5922\u5eb5 \u9017\u5b50\u5e97 restaurant",
+"creator": "Syced",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Safe_toilet_door_handle_in_%E5%A4%A2%E5%BA%B5_%E9%80%97%E5%AD%90%E5%BA%97_restaurant.jpg",
+"via": "Wikimedia Commons",
+"query": "door handle"
+}
+},
+{
+"seg": 5,
+"line": 9,
+"who": "host",
+"text": "Under two percent.",
+"card": null,
+"start": 503.8493333333333,
+"end": 504.95445833333326,
+"shot": 54,
+"credit": {
+"title": "Empty class room",
+"creator": "Saral Shots",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Empty_class_room.jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 5,
+"line": 9,
+"who": "host",
+"text": "Rent is set by what tenants will pay, not just by what the tax bill is.",
+"card": null,
+"start": 505.15445833333325,
+"end": 509.62645833333323,
+"shot": 54,
+"credit": {
+"title": "Empty class room",
+"creator": "Saral Shots",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Empty_class_room.jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 5,
+"line": 10,
+"who": "host",
+"text": "And downtown has its own math.",
+"card": {
+"type": "stat",
+"big": "Flat vs +21%",
+"label": "Downtown Halifax assessment vs all of HRM since 2020",
+"source": "Downtown Halifax Business Commission, State of the Downtown 2024"
+},
+"start": 509.92645833333324,
+"end": 511.6767916666666,
+"shot": 54,
+"credit": {
+"title": "Empty class room",
+"creator": "Saral Shots",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Empty_class_room.jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 5,
+"line": 10,
+"who": "host",
+"text": "The Downtown Halifax Business Commission found downtown's total assessed value stayed flat since twenty twenty, while the municipality as a whole rose twenty one percent.",
+"card": {
+"type": "stat",
+"big": "Flat vs +21%",
+"label": "Downtown Halifax assessment vs all of HRM since 2020",
+"source": "Downtown Halifax Business Commission, State of the Downtown 2024"
+},
+"start": 511.8767916666666,
+"end": 520.9012499999999,
+"shot": 55,
+"credit": {
+"title": "23 0067430 Convair Negative Image - Empty room (54158113310)",
+"creator": "San Diego Air &amp; Space Museum Archives",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:23_0067430_Convair_Negative_Image_-_Empty_room_(54158113310).jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 5,
+"line": 10,
+"who": "host",
+"text": "Its target for this year is ground floor vacancy under ten percent downtown.",
+"card": {
+"type": "stat",
+"big": "Flat vs +21%",
+"label": "Downtown Halifax assessment vs all of HRM since 2020",
+"source": "Downtown Halifax Business Commission, State of the Downtown 2024"
+},
+"start": 521.1012499999999,
+"end": 525.5202916666666,
+"shot": 56,
+"credit": {
+"title": "23 0067419 Convair Negative Image - Empty room (54158113485)",
+"creator": "San Diego Air &amp; Space Museum Archives",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:23_0067419_Convair_Negative_Image_-_Empty_room_(54158113485).jpg",
+"via": "Wikimedia Commons",
+"query": "empty room"
+}
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "So if chains and franchises get the good corners, where did everyone else go?",
+"card": {
+"type": "point",
+"text": "Where did everyone else go?"
+},
+"start": 526.7702916666666,
+"end": 530.8468333333333,
+"shot": 57,
+"credit": {
+"title": "Train Mechanic Wrenches And Tools",
+"creator": "Jennifer Bourn",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/395634db9b/",
+"via": "Openverse / wordpress",
+"query": "toolbox"
+}
+},
+{
+"seg": 6,
+"line": 0,
+"who": "host",
+"text": "Mostly, they never left home.",
+"card": {
+"type": "point",
+"text": "Where did everyone else go?"
+},
+"start": 531.0468333333333,
+"end": 532.7240833333333,
+"shot": 57,
+"credit": {
+"title": "Train Mechanic Wrenches And Tools",
+"creator": "Jennifer Bourn",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/395634db9b/",
+"via": "Openverse / wordpress",
+"query": "toolbox"
+}
+},
+{
+"seg": 6,
+"line": 1,
+"who": "host",
+"text": "Statistics Canada found that sixty nine percent of self employed Canadians don't own or lease any business space outside their home.",
+"card": {
+"type": "stat",
+"big": "69%",
+"label": "Self-employed Canadians with no business space outside the home (Q4 2023)",
+"source": "Statistics Canada"
+},
+"start": 533.0240833333332,
+"end": 539.8810833333332,
+"shot": 58,
+"credit": {
+"title": "Retro desk lamp",
+"creator": "WANGYIFAN2024",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Retro_desk_lamp.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 1,
+"who": "host",
+"text": "That's out of more than two and a half million people working for themselves.",
+"card": {
+"type": "stat",
+"big": "69%",
+"label": "Self-employed Canadians with no business space outside the home (Q4 2023)",
+"source": "Statistics Canada"
+},
+"start": 540.0810833333333,
+"end": 543.4643749999999,
+"shot": 59,
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "Think about who opened in February.",
+"card": {
+"type": "stat",
+"big": "69%",
+"label": "Self-employed Canadians with no business space outside the home (Q4 2023)",
+"source": "Statistics Canada"
+},
+"start": 543.7643749999999,
+"end": 545.6020416666665,
+"shot": 59,
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "A bookkeeper.",
+"card": null,
+"start": 545.8020416666666,
+"end": 546.5487499999999,
+"shot": 59,
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "An electrician.",
+"card": null,
+"start": 546.74875,
+"end": 547.5694583333333,
+"shot": 59,
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "A massage therapist.",
+"card": null,
+"start": 547.7694583333333,
+"end": 549.1462916666667,
+"shot": 60,
+"credit": {
+"title": "Staircase of the BGK Building (26620981474)",
+"creator": "Bart Lumber",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_BGK_Building_(26620981474).jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "A contractor with a van.",
+"card": null,
+"start": 549.3462916666667,
+"end": 550.945,
+"shot": 60,
+"credit": {
+"title": "Staircase of the BGK Building (26620981474)",
+"creator": "Bart Lumber",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_BGK_Building_(26620981474).jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 2,
+"who": "host",
+"text": "None of them need a window on Spring Garden Road.",
+"card": null,
+"start": 551.1450000000001,
+"end": 553.7402083333334,
+"shot": 60,
+"credit": {
+"title": "Staircase of the BGK Building (26620981474)",
+"creator": "Bart Lumber",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_BGK_Building_(26620981474).jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 3,
+"who": "host",
+"text": "And costs push that way.",
+"card": {
+"type": "stat",
+"big": "53%",
+"label": "NS small firms naming occupancy costs a major constraint, Oct 2026",
+"source": "CFIB Business Barometer"
+},
+"start": 554.0402083333333,
+"end": 555.6323333333333,
+"shot": 60,
+"credit": {
+"title": "Staircase of the BGK Building (26620981474)",
+"creator": "Bart Lumber",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Staircase_of_the_BGK_Building_(26620981474).jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 3,
+"who": "host",
+"text": "In C F I B's October survey, fifty three percent of Nova Scotia small businesses named occupancy costs, meaning rent, property tax and upkeep, as a major limit on growth.",
+"card": {
+"type": "stat",
+"big": "53%",
+"label": "NS small firms naming occupancy costs a major constraint, Oct 2026",
+"source": "CFIB Business Barometer"
+},
+"start": 555.8323333333334,
+"end": 566.4608750000001,
+"shot": 61,
+"credit": {
+"title": "Hammer-1629587",
+"creator": "Grieslightnin",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Hammer-1629587.jpg",
+"via": "Wikimedia Commons",
+"query": "claw hammer"
+}
+},
+{
+"seg": 6,
+"line": 3,
+"who": "host",
+"text": "Nationally it was forty eight percent.",
+"card": null,
+"start": 566.6608750000001,
+"end": 568.7626250000002,
+"shot": 62,
+"credit": {
+"title": "Hultafors HHSH 16",
+"creator": "Dmitry G",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Hultafors_HHSH_16.JPG",
+"via": "Wikimedia Commons",
+"query": "claw hammer"
+}
+},
+{
+"seg": 6,
+"line": 4,
+"who": "host",
+"text": "Meanwhile retail rents across Canada are about eighteen percent above their twenty twenty low, according to Statistics Canada.",
+"card": null,
+"start": 569.0626250000001,
+"end": 576.0592500000001,
+"shot": 62,
+"credit": {
+"title": "Hultafors HHSH 16",
+"creator": "Dmitry G",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Hultafors_HHSH_16.JPG",
+"via": "Wikimedia Commons",
+"query": "claw hammer"
+}
+},
+{
+"seg": 6,
+"line": 4,
+"who": "host",
+"text": "And online sales were about eight percent of all retail in twenty twenty four.",
+"card": null,
+"start": 576.2592500000002,
+"end": 580.3176666666668,
+"shot": 63,
+"credit": {
+"title": "Train Mechanic Wrenches And Tools",
+"creator": "Jennifer Bourn",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/395634db9b/",
+"via": "Openverse / wordpress",
+"query": "toolbox"
+}
+},
+{
+"seg": 6,
+"line": 5,
+"who": "host",
+"text": "Compare that with warehouses.",
+"card": null,
+"start": 580.6176666666668,
+"end": 582.1793333333334,
+"shot": 63,
+"credit": {
+"title": "Train Mechanic Wrenches And Tools",
+"creator": "Jennifer Bourn",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/395634db9b/",
+"via": "Openverse / wordpress",
+"query": "toolbox"
+}
+},
+{
+"seg": 6,
+"line": 5,
+"who": "host",
+"text": "Over the same years, industrial rents rose about twenty six percent.",
+"card": null,
+"start": 582.3793333333334,
+"end": 585.9835416666667,
+"shot": 63,
+"credit": {
+"title": "Train Mechanic Wrenches And Tools",
+"creator": "Jennifer Bourn",
+"license": "CC0",
+"source": "https://wordpress.org/photos/photo/395634db9b/",
+"via": "Openverse / wordpress",
+"query": "toolbox"
+}
+},
+{
+"seg": 6,
+"line": 5,
+"who": "host",
+"text": "The money followed the delivery van, not the front window.",
+"card": null,
+"start": 586.1835416666668,
+"end": 589.3256250000001,
+"shot": 64,
+"credit": {
+"title": "Retro desk lamp",
+"creator": "WANGYIFAN2024",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Retro_desk_lamp.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 6,
+"who": "host",
+"text": "So that's the answer to the title.",
+"card": null,
+"start": 589.625625,
+"end": 591.6369166666667,
+"shot": 64,
+"credit": {
+"title": "Retro desk lamp",
+"creator": "WANGYIFAN2024",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Retro_desk_lamp.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 6,
+"who": "host",
+"text": "The people opening shops are chains, franchise owners and food.",
+"card": null,
+"start": 591.8369166666668,
+"end": 595.5399166666667,
+"shot": 64,
+"credit": {
+"title": "Retro desk lamp",
+"creator": "WANGYIFAN2024",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Retro_desk_lamp.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 6,
+"line": 6,
+"who": "host",
+"text": "Everyone else moved into the spare room, the van and the website.",
+"card": null,
+"start": 595.7399166666668,
+"end": 599.6670000000001,
+"shot": 65,
+"credit": {
+"title": "Babcock Theatre Building, Corner Apartment Light, Billings MT, 2026",
+"creator": "Chevsapher",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Babcock_Theatre_Building,_Corner_Apartment_Light,_Billings_MT,_2026.jpg",
+"via": "Wikimedia Commons",
+"query": "desk lamp"
+}
+},
+{
+"seg": 7,
+"line": 0,
+"who": "host",
+"text": "If you still want a real storefront, and sometimes you should, here's what to do before you sign.",
+"card": {
+"type": "list",
+"title": "Before you sign a shop lease",
+"items": [
+"Gross or net? Get the extras in writing",
+"Ask for free months",
+"Shorter first term",
+"Read the use clause",
+"Test it first"
+]
+},
+"start": 600.9170000000001,
+"end": 605.7887916666668,
+"shot": 66,
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+}
+},
+{
+"seg": 7,
+"line": 1,
+"who": "host",
+"text": "One.",
+"card": {
+"type": "list",
+"title": "Before you sign a shop lease",
+"items": [
+"Gross or net? Get the extras in writing",
+"Ask for free months",
+"Shorter first term",
+"Read the use clause",
+"Test it first"
+]
+},
+"start": 606.0887916666668,
+"end": 606.6175000000002,
+"shot": 66,
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+}
+},
+{
+"seg": 7,
+"line": 1,
+"who": "host",
+"text": "Ask whether the lease is gross or net, and ask for the last two years of additional rent per square foot in writing.",
+"card": {
+"type": "list",
+"title": "Before you sign a shop lease",
+"items": [
+"Gross or net? Get the extras in writing",
+"Ask for free months",
+"Shorter first term",
+"Read the use clause",
+"Test it first"
+]
+},
+"start": 606.8175000000002,
+"end": 613.0013750000002,
+"shot": 66,
+"credit": {
+"title": "Camera keys notebook coffee (Unsplash)",
+"creator": "Melinda Pack melindapack",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Camera_keys_notebook_coffee_(Unsplash).jpg",
+"via": "Wikimedia Commons",
+"query": "spiral notebook"
+}
+},
+{
+"seg": 7,
+"line": 1,
+"who": "host",
+"text": "That's how you find the real number.",
+"card": null,
+"start": 613.2013750000002,
+"end": 614.8364583333336,
+"shot": 67,
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "Two.",
+"card": null,
+"start": 615.1364583333335,
+"end": 615.6981250000001,
+"shot": 67,
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "Ask for free rent.",
+"card": null,
+"start": 615.8981250000002,
+"end": 617.1246666666668,
+"shot": 67,
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "B D C says it's common for landlords to offer two or three months rent free, often while you fit out the space.",
+"card": null,
+"start": 617.3246666666669,
+"end": 623.7503750000002,
+"shot": 67,
+"credit": {
+"title": "Pencil Macro",
+"creator": "Drummyfish",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_Macro.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 7,
+"line": 2,
+"who": "host",
+"text": "A unit that's sat empty for a year gives you more room to ask.",
+"card": null,
+"start": 623.9503750000002,
+"end": 627.7648750000002,
+"shot": 68,
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 7,
+"line": 3,
+"who": "host",
+"text": "Three.",
+"card": null,
+"start": 628.0648750000001,
+"end": 628.7736666666668,
+"shot": 68,
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 7,
+"line": 3,
+"who": "host",
+"text": "Keep the first term short if you're not sure.",
+"card": null,
+"start": 628.9736666666669,
+"end": 631.3366666666669,
+"shot": 68,
+"credit": {
+"title": "Pencil sharpened",
+"creator": "Thomas Wydra",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_sharpened.jpg",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 7,
+"line": 3,
+"who": "host",
+"text": "B D C suggests two to three years.",
+"card": null,
+"start": 631.536666666667,
+"end": 634.0272083333336,
+"shot": 69,
+"credit": {
+"title": "Pencil tip closeup 2",
+"creator": "Juliancolton",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_tip_closeup_2.JPG",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 7,
+"line": 3,
+"who": "host",
+"text": "Statistics Canada found most of the smallest renters already sign for less than five.",
+"card": null,
+"start": 634.2272083333337,
+"end": 639.0051250000004,
+"shot": 69,
+"credit": {
+"title": "Pencil tip closeup 2",
+"creator": "Juliancolton",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:Pencil_tip_closeup_2.JPG",
+"via": "Wikimedia Commons",
+"query": "pencil"
+}
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "Four.",
+"card": null,
+"start": 639.3051250000003,
+"end": 639.9483750000003,
+"shot": 70,
+"credit": {
+"title": "NORTHWEST (FRONT) ELEVATION - Captain John Lowe Jr. House, 620 Southard Street, Key West, Monroe County, FL HABS FLA,44-KEY-21-1",
+"creator": "unknown",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NORTHWEST_(FRONT)_ELEVATION_-_Captain_John_Lowe_Jr._House,_620_Southard_Street,_Key_West,_Monroe_County,_FL_HABS_FLA,44-KEY-21-1.tif",
+"via": "Wikimedia Commons",
+"query": "house key"
+}
+},
+{
+"seg": 7,
+"line": 4,
+"who": "host",
+"text": "Read the use clause and any exclusivity terms, so you know exactly what you're allowed to sell, and who else can move in next door.",
+"card": null,
+"start": 640.1483750000003,
+"end": 646.475541666667,
+"shot": 70,
+"credit": {
+"title": "NORTHWEST (FRONT) ELEVATION - Captain John Lowe Jr. House, 620 Southard Street, Key West, Monroe County, FL HABS FLA,44-KEY-21-1",
+"creator": "unknown",
+"license": "Public domain",
+"source": "https://commons.wikimedia.org/wiki/File:NORTHWEST_(FRONT)_ELEVATION_-_Captain_John_Lowe_Jr._House,_620_Southard_Street,_Key_West,_Monroe_County,_FL_HABS_FLA,44-KEY-21-1.tif",
+"via": "Wikimedia Commons",
+"query": "house key"
+}
+},
+{
+"seg": 7,
+"line": 5,
+"who": "host",
+"text": "Five.",
+"card": null,
+"start": 646.775541666667,
+"end": 647.4127083333336,
+"shot": 71,
+"credit": {
+"title": "House in Key West, Florida",
+"creator": "Julian Lupyan",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:House_in_Key_West,_Florida.jpg",
+"via": "Wikimedia Commons",
+"query": "house key"
+}
+},
+{
+"seg": 7,
+"line": 5,
+"who": "host",
+"text": "Test before you commit.",
+"card": null,
+"start": 647.6127083333337,
+"end": 648.906416666667,
+"shot": 71,
+"credit": {
+"title": "House in Key West, Florida",
+"creator": "Julian Lupyan",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:House_in_Key_West,_Florida.jpg",
+"via": "Wikimedia Commons",
+"query": "house key"
+}
+},
+{
+"seg": 7,
+"line": 5,
+"who": "host",
+"text": "A market table, a pop up, a shared space or a good website can tell you whether people will actually show up.",
+"card": null,
+"start": 649.1064166666671,
+"end": 655.1942500000005,
+"shot": 71,
+"credit": {
+"title": "House in Key West, Florida",
+"creator": "Julian Lupyan",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:House_in_Key_West,_Florida.jpg",
+"via": "Wikimedia Commons",
+"query": "house key"
+}
+},
+{
+"seg": 7,
+"line": 6,
+"who": "host",
+"text": "And have a lawyer read it.",
+"card": null,
+"start": 655.4942500000004,
+"end": 656.7606666666671,
+"shot": 72,
+"credit": {
+"title": "Pink and Blue House in Key West, Florida",
+"creator": "Julian Lupyan",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pink_and_Blue_House_in_Key_West,_Florida.jpg",
+"via": "Wikimedia Commons",
+"query": "house key"
+}
+},
+{
+"seg": 7,
+"line": 6,
+"who": "host",
+"text": "That's cheaper than a ten year mistake.",
+"card": null,
+"start": 656.9606666666672,
+"end": 658.6759166666671,
+"shot": 72,
+"credit": {
+"title": "Pink and Blue House in Key West, Florida",
+"creator": "Julian Lupyan",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pink_and_Blue_House_in_Key_West,_Florida.jpg",
+"via": "Wikimedia Commons",
+"query": "house key"
+}
+},
+{
+"seg": 7,
+"line": 7,
+"who": "host",
+"text": "This is Waypoint Software, at waypointns dot ca.",
+"card": null,
+"start": 658.9759166666671,
+"end": 662.6428750000005,
+"shot": 72,
+"credit": {
+"title": "Pink and Blue House in Key West, Florida",
+"creator": "Julian Lupyan",
+"license": "CC0",
+"source": "https://commons.wikimedia.org/wiki/File:Pink_and_Blue_House_in_Key_West,_Florida.jpg",
+"via": "Wikimedia Commons",
+"query": "house key"
+}
+}
+]
+}
