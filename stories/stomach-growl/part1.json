@@ -1,0 +1,229 @@
+{
+ "channel": "Snortlo",
+ "series": "Lo Explains #14",
+ "format": "concept",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 45,
+ "hook": {
+  "pillars": "headline text NOT HUNGER? + recordscratch + shake",
+  "formula": "Unexpected Truth"
+ },
+ "sources": [
+  "https://scientificamerican.com/article/why-does-your-stomach-gro/",
+  "https://www.health.harvard.edu/digestive-health/stomach-growling-and-other-digestive-noise",
+  "https://www.livescience.com/health/food-diet/why-do-our-stomachs-growl"
+ ],
+ "end_card": {
+  "text": "SEND THIS TO|YOUR LOUD FRIEND",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NOT|HUNGER?",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "text": "Most people think a growling stomach means you're hungry. Not exactly.",
+   "sfx": "recordscratch",
+   "meme": "shake"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Silent meeting. Total quiet. And then my stomach goes. Grrrrrooowl.",
+   "sfx": "metalpipe",
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "angry",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "me",
+   "text": "Sorry. I skipped breakfast.",
+   "sfx": "oof",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "SQUEEZE",
+    "bg1": "#E8F4FF",
+    "bg2": "#5B9BD5"
+   },
+   "text": "Here's the real reason. The walls of your stomach and your intestines are muscles. They squeeze, all day long, to push stuff along.",
+   "sfx": "whoosh",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "GAS +|LIQUID",
+    "bg1": "#FFF4D6",
+    "bg2": "#E8A33D"
+   },
+   "text": "When they squeeze gas and liquid through, it rumbles. Food or no food.",
+   "sfx": "pop",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "FULL OR|EMPTY",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "text": "It can happen on a full stomach too. But food muffles the sound. When you're empty, there's nothing to soften it. So it's way louder.",
+   "sfx": "ding",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "desk",
+   "text": "And when you haven't eaten for about two hours, your gut starts a cleanup wave. It sweeps out leftover food, mucus and bacteria.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 400,
+     "facing": 1,
+     "pose": "relax",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BORBO|RYGMI",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "text": "The ancient Greeks even named the sound. Borborygmi. Say it out loud. It sounds like a stomach.",
+   "sfx": "huh",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "ALSO YOUR|INTESTINES",
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "text": "And the wait, what part? A lot of the time, it's not even your stomach. The growl comes just as often from your small intestine.",
+   "sfx": "busted",
+   "meme": "shake",
+   "slow": true
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "FEEL|HUNGRY?",
+    "bg1": "#E8F4FF",
+    "bg2": "#5B9BD5"
+   },
+   "text": "So the noise isn't the real hunger signal. Doctors say the better sign is just feeling hungry.",
+   "sfx": "sparkle",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "So next meeting, when it growls, tell them. That might not even be my stomach. Could be my small intestine, cleaning up.",
+   "sfx": "roast",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "boss",
+     "x": 760,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "flat"
+     }
+    }
+   ],
+   "pause": 0.5
+  }
+ ]
+}
