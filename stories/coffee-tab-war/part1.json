@@ -1,0 +1,412 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "customers",
+ "hook": {
+  "pillars": "headline text $94 FOR ONE COFFEE + ding + shake (movement)",
+  "formula": "in_media_res (Unexpected Truth-style)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR BROTHER",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "$94 FOR|ONE|COFFEE",
+    "bg1": "#FFF4D6",
+    "bg2": "#E8A33D"
+   },
+   "text": "The guy in the red truck just handed me ninety four dollars. For one small coffee.",
+   "sfx": "ding",
+   "meme": "shake"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "text": "I work the drive thru window. Six in the morning. Same guy every day.",
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "speaker": "co1",
+   "text": "And put the car behind me on my tab.",
+   "sfx": "pop",
+   "bubble": {
+    "text": "MY TAB",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "text": "Every single morning. He pays for the car behind him. I thought it was the most beautiful thing I'd ever seen.",
+   "sfx": "angelchoir",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "text": "Then I noticed something. The car behind him. Always the same blue minivan.",
+   "sfx": "hmm",
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "text": "And the next morning, the minivan is first in line. And she pays for the red truck.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "speaker": "me",
+   "text": "Do you two know each other?",
+   "sfx": "huh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "speaker": "co3",
+   "text": "He's my brother. And I will never owe him anything.",
+   "sfx": "busted",
+   "meme": "shake",
+   "slow": true,
+   "bubble": {
+    "text": "NEVER",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   },
+   "cam": {
+    "zoom": 1.4,
+    "at": [
+     600,
+     1050
+    ]
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co3",
+     "x": 760,
+     "facing": -1,
+     "pose": "evil",
+     "face": {
+      "eyes": "angry",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "DAY|41",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "text": "It had been going on for forty one days.",
+   "sfx": "dundun",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "text": "And it was getting worse. He'd order a coffee for himself. And six muffins. For her.",
+   "sfx": "cashregister",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "hold": "paper"
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "text": "So she'd order a coffee. And a whole box of donuts. For him.",
+   "sfx": "bruh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "12 LATTES|1 TRUCK",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "text": "Monday, he paid for twelve lattes. He was alone in the truck.",
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "text": "So I did the only thing I could. I taped a sign to the window. No paying for the car behind you.",
+   "sfx": "slap",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "hips",
+     "face": {
+      "eyes": "angry",
+      "mouth": "frown"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "text": "Next morning. Red truck. He reads the sign. He smiles at me.",
+   "sfx": "rizz",
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "laugh",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "state": {
+    "sign": "DRIVE|THRU"
+   },
+   "speaker": "co1",
+   "text": "Fine. Then I'm paying for the guy in the window.",
+   "sfx": "ooh",
+   "bubble": {
+    "text": "THE WINDOW GUY",
+    "x": 760,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 300,
+     "facing": 1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 760,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "FREE|COFFEE|DAY 19",
+    "bg1": "#E8F4FF",
+    "bg2": "#5B9BD5"
+   },
+   "text": "She paid for me the next day. I haven't bought a coffee in three weeks. And I'm not telling them.",
+   "sfx": "sparkle",
+   "meme": "slowzoom",
+   "pause": 0.6
+  }
+ ]
+}

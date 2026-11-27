@@ -1,0 +1,108 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "friends",
+ "series": "Lo vs Life #84",
+ "hook": {
+  "pillars": "caption text + pop + Lo sliding in to the door",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Me: 'Mom, I'm going to my|friend's place for an hour'",
+   "set": "living",
+   "sfx": "pop",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 480
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "Mom:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "WHICH|FRIEND?",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "sfx": "recordscratch",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Also mom:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "HIS MOM'S|NAME? HER|NUMBER?",
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "sfx": "ding",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 2.4,
+   "top_text": "Mom, two minutes into the call|with his mom:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "BEST|FRIENDS|NOW",
+    "bg1": "#E8E1F7",
+    "bg2": "#9C8BC4"
+   },
+   "sfx": "gasp",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "Me, still at the door with my coat on,|2 hours later:",
+   "set": "living",
+   "state": {
+    "tv": "9:47 PM"
+   },
+   "sfx": "bruh",
+   "meme": "shake",
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 480,
+     "facing": 1,
+     "pose": "slump",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  }
+ ]
+}

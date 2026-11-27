@@ -97,8 +97,9 @@ After scheduling, log it so it gets scored: `python3 engine/log_post.py sleep sl
 - Compilation 5: overnight radio host (17); allotment pumpkin count (15); candle maker's last batch (14); bandstand after the last concert (11); cobbler's notes (23); post office on the last evening before the holiday (6).
 - Compilation 6: bookbinder mending a family cookbook (21); snowplow driver before dawn (new); piano tuner in an empty school hall before the winter concert (new); hedgehog making her winter bed in a woodpile (new); seaside station café waiting for the last train in fog (new); library knitting circle on a windy night (new).
 - Compilation 7 (theme rain, 8 stories): lock keeper (26); baker's cat (28); tailor hemming a winter coat (31); bringing the cows in (32); jam with grandmother (34); island ferry office tide chalkboard (35); toy mender's wind-up bear (37); night train attendant (38).
+- Compilation 8 (mixed, 8 stories): mountain weather station by torchlight (27); beach hut closing for winter (39); florist's wreaths before the frost market (33); sheepdog who counts the flock twice (36); greenhouse of winter oranges wrapped in straw (30); park skating pond keeper smoothing the ice after the last skaters (new); village bell ringer practising softly in the snow (29); map maker drawing a quiet valley by candlelight (40).
 
-## Story idea bank (25 + refill 26-40; numbers 1-25 used by compilation 6; 26, 28, 31, 32, 34, 35, 37, 38 used by compilation 7; left: 27, 29, 30, 33, 36, 39, 40)
+## Story idea bank (25 + refill 26-40 + refill 41-55; numbers 1-25 used by compilation 6; 26, 28, 31, 32, 34, 35, 37, 38 used by compilation 7; 27, 29, 30, 33, 36, 39, 40 used by compilation 8, so all of 1-40 are used; left: 41-55)
 
 1. A night-shift bus driver on the last route of the evening, with three regular passengers who never speak but always wave.
 2. An old woman who runs a tiny greenhouse and talks each plant through a frosty night.
@@ -140,4 +141,19 @@ After scheduling, log it so it gets scored: `python3 engine/log_post.py sleep sl
 38. A night train attendant turning down the berths and handing out blankets.
 39. A beach hut owner closing up for winter, stacking deckchairs.
 40. A map maker drawing a quiet valley by candlelight.
+41. A window cleaner finishing the last row of shop windows on a frosty evening, leaving each one sparkling.
+42. A woman who runs a tiny lending library from a wooden box on her garden wall, sorting the books on a breezy evening.
+43. A goat on a hillside farm who insists on being tucked in last.
+44. An old man raking autumn leaves into a big soft pile in the park after the gates close.
+45. A village shop owner restocking the shelves on a snowy night, one tin and one jar at a time.
+46. A family of ducks settling down on a mill pond as the miller stops the wheel for the night.
+47. A seamstress sewing a patchwork quilt from old shirts on a rainy weekend.
+48. A lantern maker hanging paper lanterns along a riverside path for a small autumn festival.
+49. A kite maker on a windy beach, testing one last kite before the sun goes down.
+50. A pony who pulls a little book cart around a small seaside town every Saturday morning.
+51. A chimney sweep's last cottage of the day, and the cup of tea that always waits for him there.
+52. A potter glazing a row of mugs late at night, with the kiln humming softly in the corner.
+53. A barge selling apples and cheese, drifting slowly from village to village along a canal.
+54. A sleepy fox who watches over a snowy allotment and keeps an eye on the scarecrow.
+55. A watchmaker's apprentice learning to set the tiny gears of a pocket watch by lamplight.
 

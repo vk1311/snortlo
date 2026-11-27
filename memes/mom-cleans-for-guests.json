@@ -1,0 +1,133 @@
+{
+ "channel": "Snortlo",
+ "format": "meme",
+ "voice": "am_puck",
+ "speed": 1.15,
+ "music": false,
+ "theme": "friends",
+ "series": "Lo vs Life #85",
+ "hook": {
+  "pillars": "caption text + whoosh + Lo walking in with his phone",
+  "formula": "n/a (meme)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR MOM",
+  "secs": 2
+ },
+ "beats": [
+  {
+   "text": "",
+   "hold": 2.6,
+   "top_text": "Me: 'Mom, two friends are coming|over to watch the game'",
+   "set": "living",
+   "state": {
+    "tv": "GAME|TONIGHT"
+   },
+   "sfx": "whoosh",
+   "cast": [
+    {
+     "who": "me",
+     "x": 200,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "to": 480,
+     "hold": "paper"
+    }
+   ]
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "Mom:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "THE HOUSE|IS A|MESS",
+    "bg1": "#FFE3E3",
+    "bg2": "#D9534F"
+   },
+   "sfx": "alarm",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "Mom, 4 hours later:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "NEW|TOWELS",
+    "bg1": "#E8F4FF",
+    "bg2": "#5B9BD5"
+   },
+   "sfx": "sparkle",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 2.2,
+   "top_text": "Also:",
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "3 KINDS|OF|COOKIES",
+    "bg1": "#FFF4D6",
+    "bg2": "#E8C877"
+   },
+   "sfx": "ding",
+   "meme": "slowzoom"
+  },
+  {
+   "text": "",
+   "hold": 3.0,
+   "top_text": "My friends, 34 years old,|who came for chips and the TV:",
+   "set": "living",
+   "sfx": "bruh",
+   "meme": "shake",
+   "cam": {
+    "zoom": 1.2,
+    "at": [
+     360,
+     1000
+    ]
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 140,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 350,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co2",
+     "x": 560,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "cup"
+    }
+   ]
+  }
+ ]
+}
