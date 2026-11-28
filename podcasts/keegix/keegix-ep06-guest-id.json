@@ -1,0 +1,1033 @@
+{
+ "brand": "keegix",
+ "episode": 6,
+ "slug": "keegix-ep06-guest-id",
+ "air_date": "2026-12-08",
+ "title": "Can Airbnb Hosts Ask for Guest ID? The Nov 20 Rules & What to Do Instead | Keegix Podcast",
+ "card_title": "Can a host ask for a guest's ID?",
+ "guest": {
+  "name": "Neil",
+  "role": "B&B host, Cape Breton",
+  "voice": "bm_daniel"
+ },
+ "hook": {
+  "pillars": "headline text (\"Since Nov 20, 2026: Airbnb hosts generally can't collect guest ID\" point card) + pop sfx on the card + slow zoom on passport photo",
+  "formula": "Unexpected Truth"
+ },
+ "description": "Can a host ask for a guest's ID or passport? What Airbnb's policy for bookings from Nov 20, 2026 says about guest ID, contact details and rental agreements (including the insurer exception), what Airbnb already verifies, Canadian privacy guidance on copying driver's licences, Ontario's 2026 guest register, how Vrbo handles it, and safer ways to protect your place: damage protection, keypads, noise monitors and camera rules.\nIn the news: Airbnb's Nov 20 rules under review through March 2027, and a Nova Scotia registration reminder.\nHosts and guests on this show are AI voices. Facts are sourced below. Neil is a fictional character, not a real person.\nPlatform rules are as of November 2026 and change often. Privacy and registration rules vary by province and city. Not legal advice.\nFree house rules tool: keegix.com/airbnb-house-rules · Start free for one property: keegix.com/start",
+ "tags": [
+  "can airbnb host ask for id",
+  "airbnb guest id policy",
+  "airbnb host passport copy",
+  "airbnb november 20 2026 rules",
+  "airbnb rental agreement policy",
+  "airbnb identity verification",
+  "airbnb good track record",
+  "pipeda driver's licence",
+  "guest privacy short term rental canada",
+  "ontario guest register 2026",
+  "airbnb security camera rules",
+  "aircover for hosts",
+  "vrbo identity verification",
+  "keegix podcast"
+ ],
+ "segments": [
+  {
+   "heading": "Cold open",
+   "visuals": [
+    "passport",
+    "padlock",
+    "cottage",
+    "filing cabinet"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Most hosts think a photo of the guest's passport is the safest thing they can keep. As of November twenty twenty six, the opposite is closer to the truth. On Airbnb, for bookings made since November twentieth, hosts generally can't collect a guest's I D at all.",
+     "card": {
+      "type": "point",
+      "text": "Since Nov 20, 2026: Airbnb hosts generally can't collect guest ID"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And Canada's privacy commissioners got there years earlier. Their guidance says photocopying or scanning a driver's licence generally goes too far. Their short version is six words. If you can't protect, don't collect.",
+     "card": {
+      "type": "point",
+      "text": "\"If you can't protect, don't collect!\" Privacy Commissioner of Canada"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So today, can a host ask for a guest's I D or passport? What the new rules allow, what Canadian privacy law says, and what actually protects your place instead. And stay for the one exception that lets you look at a guest's I D, within the rules, on the day they arrive."
+    }
+   ]
+  },
+  {
+   "heading": "Intro",
+   "visuals": [
+    "lighthouse",
+    "cottage porch",
+    "harbour boats",
+    "guest book",
+    "front door"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Welcome to the Keegix Podcast, a weekly show about running a B and B, a cottage or a short term rental. I'm Nicole. Every fact we use is sourced in the description.",
+     "card": "clear"
+    },
+    {
+     "who": "host",
+     "text": "This is episode six. Guest I D, passports and privacy. Airbnb's new rule on personal details, what Airbnb already checks before a guest ever reaches you, Canadian privacy law, the places where the law does ask for guest details, and the safer ways to protect your home."
+    },
+    {
+     "who": "host",
+     "text": "My guest today is Neil. Neil plays a host with a three room B and B in Cape Breton. Not a real person, and not a lawyer. Welcome, Neil.",
+     "card": {
+      "type": "point",
+      "text": "Neil plays a B&B host. Not a real person."
+     }
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Nicole. Quick note first. Everything about platform rules today is as of November twenty twenty six. Rules change, and privacy and registration rules vary by province and city. So check the current pages for your own listing. This isn't legal advice."
+    },
+    {
+     "who": "host",
+     "text": "Good. And let's start with the news, because the rule we're talking about is only a few weeks old."
+    }
+   ]
+  },
+  {
+   "heading": "In the news: Airbnb's Nov 20 rules under review, and a Nova Scotia registration reminder",
+   "visuals": [
+    "calendar",
+    "laptop keyboard",
+    "kitchen sink",
+    "Nova Scotia coast",
+    "registration form"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Story one. Airbnb's new rules for hosts are now live. They apply to reservations booked on or after November twentieth, twenty twenty six. Most of the coverage was about checkout chores, like washing dishes and stripping beds. But the same package has a second policy that's about personal information, and that's today's topic.",
+     "card": {
+      "type": "history",
+      "year": "Nov 20, 2026",
+      "text": "Airbnb's new house rules and guest data limits apply to new bookings"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And the review is still going. A trade publication that covers the industry reported that Airbnb's listing reviews run from November twentieth through March twenty twenty seven. If a rule gets flagged, the host gets at least twenty days to fix it or appeal, and the appeal can only be sent once."
+    },
+    {
+     "who": "host",
+     "text": "A news report on November twenty seventh added that Airbnb will review the additional rules hosts set on washing, laundry, rubbish and utilities. Airbnb's reason, as that report put it, is that users found house rules confusing, onerous and hard to manage."
+    },
+    {
+     "who": "host",
+     "text": "Story two is closer to home. No new Nova Scotia rule this month, but it's a good time for a reminder. Any place rented for twenty eight days in a row or less has to be registered with the province before it operates, and you need that registration number to advertise.",
+     "card": {
+      "type": "rule",
+      "title": "Nova Scotia",
+      "text": "Register stays of 28 days or less before operating. Renew by April 1 each year.",
+      "source": "Province of Nova Scotia",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "guest",
+     "text": "And the renewal is due every year by April first. The province says the fine can reach one hundred thousand dollars for each year you're not registered. So if winter is your quiet season, it's a good season to check your number is on every listing."
+    },
+    {
+     "who": "host",
+     "text": "Okay, Neil. The big question. Can a host ask for a guest's I D?"
+    }
+   ]
+  },
+  {
+   "heading": "Can an Airbnb host ask for a guest's ID? The Nov 20 rule in plain words",
+   "visuals": [
+    "passport",
+    "smartphone",
+    "laptop",
+    "clipboard",
+    "front door",
+    "porch light"
+   ],
+   "lines": [
+    {
+     "who": "guest",
+     "text": "Short answer, mostly no. Airbnb has a policy called limiting host imposed contracts and other requirements. For bookings made on or after November twentieth, hosts may not ask guests for personal data during the booking or the stay.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb, bookings from Nov 20, 2026",
+      "text": "Hosts may not ask guests for ID documents, contact details or background checks",
+      "source": "Airbnb Help Centre",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "What counts as personal data?"
+    },
+    {
+     "who": "guest",
+     "text": "The list is broad. Contact details, like a phone number, home address or email. Identification documents, like a passport, a driver's licence or a photo. Financial information. Background checks or credit history. And biometric or health data.",
+     "card": {
+      "type": "list",
+      "title": "Hosts can't ask for",
+      "items": [
+       "Contact details",
+       "ID documents or photos",
+       "Financial info, credit checks",
+       "Biometric or health data"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the classic message, please send a photo of your licence before arrival, is out."
+    },
+    {
+     "who": "guest",
+     "text": "That one was already against the older policy, which said hosts couldn't ask for a photo of a government I D before arrival unless the law required it. What's new is how wide the list is, and that it covers the whole stay, not just the time before check in."
+    },
+    {
+     "who": "host",
+     "text": "Now, I promised an exception at the top. Is there any way a host can look at an I D?"
+    },
+    {
+     "who": "guest",
+     "text": "There is, and it's the part that surprises hosts. You can physically check a guest's I D in person at check in, as long as you've said so in your house rules. What you can't do is keep a copy, digital or paper, unless one of the exceptions applies.",
+     "card": {
+      "type": "point",
+      "text": "Look, don't copy: in-person ID checks are allowed if house rules say so"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So look, don't photograph."
+    },
+    {
+     "who": "guest",
+     "text": "Exactly. Picture a guest arriving at my front door. I can glance at the licence, see that the name matches the booking, hand it straight back, and that's it. No phone camera, no photocopy in a drawer."
+    },
+    {
+     "who": "host",
+     "text": "And if a host forgot to put it in the house rules?"
+    },
+    {
+     "who": "guest",
+     "text": "Then don't spring it on people at the door. Airbnb's house rules page says rules have to be in the listing when the guest books. Hosts can't add new ones later by message, by a sign in the home, or in person. So if you want to check I D, it goes in the listing first."
+    },
+    {
+     "who": "host",
+     "text": "What are the exceptions?"
+    },
+    {
+     "who": "guest",
+     "text": "Two main ones. If a law or a documented community rule, like a condo building's security rule, requires the information. Or if it's needed to sign one of the contracts Airbnb still allows. And even then, the host has to disclose it clearly in the house rules, collect only what the law or rule requires, store it securely and get rid of it properly. Airbnb may ask for evidence."
+    },
+    {
+     "who": "host",
+     "text": "Which contracts are still allowed? Because a lot of hosts used to send a rental agreement with every booking, and one of the exceptions was only added a few weeks ago."
+    },
+    {
+     "who": "guest",
+     "text": "Generally, a separate contract or rental agreement isn't allowed anymore. The exceptions are contracts required by law, by a community association, or by the host's insurance company. Plus contracts for an optional extra, and Airbnb's example is a golf cart rental. And contracts for monthly stays of twenty eight nights or more, and for Luxe listings.",
+     "card": {
+      "type": "list",
+      "title": "Contracts still allowed",
+      "items": [
+       "Required by law or building",
+       "Required by your insurer",
+       "Optional extras, monthly stays",
+       "Luxe listings"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And the insurer one was added late, right?"
+    },
+    {
+     "who": "guest",
+     "text": "That trade publication reported it was part of an update on November third, when Airbnb also renamed requests to additional rules. So if your insurer truly requires a signed agreement, that's a real exception. Airbnb also says those contracts are publicly visible, so don't put personal information in them, and Airbnb won't enforce them for you. Rules vary by city and province. This isn't legal advice."
+    },
+    {
+     "who": "host",
+     "text": "Here's what I think a lot of hosts will ask next. If I can't check who's coming, how do I know who's coming? And the answer is that Airbnb has already done more checking than most hosts realize."
+    }
+   ]
+  },
+  {
+   "heading": "What Airbnb already checks: identity verification, the badge and guest requirements",
+   "visuals": [
+    "laptop desk",
+    "smartphone",
+    "magnifying glass",
+    "keyhole",
+    "wall calendar",
+    "house keys"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "So Neil, what does Airbnb check before a guest even reaches my inbox?"
+    },
+    {
+     "who": "guest",
+     "text": "To book at all, Airbnb needs a full name, an email address, a confirmed phone number and payment information. And Airbnb's help centre says every host, new co host and booking guest must be identity verified to use the platform.",
+     "card": {
+      "type": "stat",
+      "big": "Every guest",
+      "label": "Airbnb: every booking guest must be identity verified",
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Verified how?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb checks a person's details against trusted third party sources, or against a government I D. Depending on the booking, it can ask for a photo of a driver's licence, passport or national identity card, and a selfie. The selfie isn't shown on the profile."
+    },
+    {
+     "who": "host",
+     "text": "And the host never sees that I D?"
+    },
+    {
+     "who": "guest",
+     "text": "No. Airbnb says it doesn't share a guest's government I D with the host at booking. What the host sees is a badge, a red badge with a checkmark next to the profile photo. Tap it, and it shows the month and year the person was first verified."
+    },
+    {
+     "who": "host",
+     "text": "What if a guest books last minute and hasn't verified yet?"
+    },
+    {
+     "who": "guest",
+     "text": "The reservation stays pending until they finish. And if check in is within twelve hours, the guest gets just one hour to complete it. If they miss the deadline, the booking isn't confirmed.",
+     "card": {
+      "type": "point",
+      "text": "Check-in within 12 hours? Guests get 1 hour to verify."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Now be honest. Does verification mean the person is who they say they are?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb is upfront about this itself. Its help page says the process has safeguards, but doesn't guarantee that someone is who they say they are. That's fair. No check is perfect. But here's the thing. A photo of a licence on your phone doesn't guarantee it either. You can't check it against anything."
+    },
+    {
+     "who": "host",
+     "text": "What can a host add on top?"
+    },
+    {
+     "who": "guest",
+     "text": "If you use Instant Book, you can add a guest requirement called good track record. That means the guest has completed a stay without incidents or bad reviews. You can also set a pre reservation message with questions the guest answers when they book. And some hosts require a profile photo, which the host only sees once the booking is confirmed.",
+     "card": {
+      "type": "list",
+      "title": "What a host can add",
+      "items": [
+       "Good track record",
+       "Pre-booking questions",
+       "Profile photo"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And there's screening the host never sees at all, right?"
+    },
+    {
+     "who": "guest",
+     "text": "Right. Airbnb calls it reservation screening. Its AirCover page says it uses machine learning to flag bookings with a higher risk of parties and property damage, and it's offered in the U S, Canada and Australia. When Airbnb brought it to Canada in August twenty twenty two, it said the system looks at things like whether the guest has positive reviews, how long they've been on Airbnb, the length of the trip, how far the listing is from where they live, and whether it's a weekend.",
+     "card": {
+      "type": "history",
+      "year": "Aug 2022",
+      "text": "Airbnb brings anti-party booking screening to the US and Canada"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Did it work?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb said that in its Australian pilot, unauthorized parties dropped by thirty five percent in the areas where it ran. That's Airbnb's own number, so take it as their claim. But it's a reminder that the platform is already looking at the booking.",
+     "card": {
+      "type": "stat",
+      "big": "35%",
+      "label": "Drop in unauthorized parties Airbnb reported in its Australia pilot areas",
+      "source": "Airbnb Newsroom, Aug 2022"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the platform checks identity, and the host doesn't hold the paper. Which leads to the question I really wanted to ask. Why would a host not want that paper? Isn't more information always safer?"
+    }
+   ]
+  },
+  {
+   "heading": "Canadian privacy law: why copying a driver's licence goes too far",
+   "visuals": [
+    "filing cabinet",
+    "paper shredder",
+    "padlock",
+    "laptop",
+    "fountain pen",
+    "maple tree"
+   ],
+   "lines": [
+    {
+     "who": "guest",
+     "text": "Here's the part nobody tells you. Holding guest I D is a liability, not a safety blanket. Canada's federal private sector privacy law is called Pipeda. It applies to organizations that collect personal information in the course of commercial activity. Alberta, British Columbia and Quebec have their own private sector laws that are considered substantially similar.",
+     "card": {
+      "type": "rule",
+      "title": "Canada: PIPEDA",
+      "text": "Covers private-sector organizations that collect personal information in commercial activity",
+      "source": "Privacy Commissioner of Canada",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Does that cover a host with one cottage?"
+    },
+    {
+     "who": "guest",
+     "text": "That's a question for a lawyer about your own setup. But the principles are a good guide either way. The first one I'd tape to the fridge is called limiting collection. The Privacy Commissioner's wording is, collect only the personal information your organization needs to fulfil a legitimate identified purpose.",
+     "card": {
+      "type": "point",
+      "text": "Collect only what you need for a clear, stated purpose."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And on driver's licences specifically?"
+    },
+    {
+     "who": "guest",
+     "text": "There's a guide from the federal Privacy Commissioner together with the commissioners of Alberta and British Columbia. It was written for stores, but the logic fits hosts well. It treats looking at a licence, writing down the number, and copying the card as different levels of collection."
+    },
+    {
+     "who": "host",
+     "text": "Walk me through them."
+    },
+    {
+     "who": "guest",
+     "text": "Looking at it, and noting the name, and the address if you need it, meets most purposes. Writing down the licence number is generally excessive. And photocopying or scanning the card generally goes too far, because it captures a photo, a physical description and a signature the business rarely needs.",
+     "card": {
+      "type": "list",
+      "title": "Driver's licence: three levels",
+      "items": [
+       "Look at it: usually enough",
+       "Record the number: excessive",
+       "Copy or scan: too far"
+      ],
+      "source": "Privacy Commissioners of Canada, AB, BC"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Why is the number such a big deal?"
+    },
+    {
+     "who": "guest",
+     "text": "Because it barely changes. The guide says many provincial licence numbers are permanent, retired only when the person dies. So if it leaks, the guest can't just cancel it like a credit card. The commissioners also point out the number may encode a birth date. That's why it's valuable to identity thieves."
+    },
+    {
+     "who": "host",
+     "text": "So picture a host with a phone full of passport photos from three summers of guests."
+    },
+    {
+     "who": "guest",
+     "text": "And that phone gets lost on a ferry. Now the host is holding a problem, not protection. Under Pipeda, a breach that creates a real risk of significant harm has to be reported to the Privacy Commissioner, and the people affected have to be told as soon as feasible. And organizations have to keep a record of every breach for two years, even the small ones.",
+     "card": {
+      "type": "rule",
+      "title": "PIPEDA breach rules",
+      "text": "Report breaches with real risk of significant harm. Keep records of all breaches for 2 years.",
+      "source": "Privacy Commissioner of Canada",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "That's the bit that changes the math for me."
+    },
+    {
+     "who": "guest",
+     "text": "It's why I like those six words. If you can't protect, don't collect. Most small hosts don't have a locked filing cabinet and an encrypted drive. And they don't need one if they never collect the copy."
+    },
+    {
+     "who": "host",
+     "text": "What did the guide suggest instead, for a business that wants proof it checked?"
+    },
+    {
+     "who": "guest",
+     "text": "Something very low tech. Have the person who checks the I D initial a form or tick a box saying they looked at it. For a host, that could be one line in your own notes. I D seen at check in, name matched, nothing kept. Rules vary by province and city. This isn't legal advice.",
+     "card": {
+      "type": "point",
+      "text": "Proof you checked: a tick box, not a photocopy."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Okay. Quick break, and then the places where the law actually does ask for guest details. Because Ontario changed its rules this year, and what's missing from the list might surprise you."
+    }
+   ]
+  },
+  {
+   "heading": "A word from Keegix",
+   "visuals": [
+    "front door",
+    "welcome mat",
+    "house keys",
+    "checklist clipboard"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "A quick word from the people who make this show. Keegix makes a digital welcome book for hosts. It's one page guests open from a sign by the door, with the check in steps, the wifi, the heat, the house rules and your local picks.",
+     "card": "clear"
+    },
+    {
+     "who": "host",
+     "text": "And if you're tidying up your house rules after the November changes, there's a free house rules tool at keegix dot com slash airbnb house rules."
+    }
+   ]
+  },
+  {
+   "heading": "When the law asks for guest details: Ontario's guest register, travel abroad and Vrbo",
+   "visuals": [
+    "Toronto skyline",
+    "ledger book",
+    "parking lot",
+    "car keys",
+    "world map",
+    "lake cabin"
+   ],
+   "lines": [
+    {
+     "who": "guest",
+     "text": "Ontario changed its guest register rules this year. Since January first, twenty twenty six, a new regulation under Ontario's Accommodation Sector Registration of Guests Act replaced the old Hotel Registration of Guests Act. Hotels and online accommodation platforms keep a guest register.",
+     "card": {
+      "type": "history",
+      "year": "Jan 1, 2026",
+      "text": "Ontario's new guest register rules replace the old Hotel Registration of Guests Act"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And for a short term rental booked through a platform, who keeps it?"
+    },
+    {
+     "who": "guest",
+     "text": "The platform does. For each short term reservation, the platform records the name, billing address and main phone number of the person making the booking. Plus the make, model and plate of any guest car parked at the property, unless that isn't known when they book.",
+     "card": {
+      "type": "list",
+      "title": "Ontario platform register",
+      "items": [
+       "Name",
+       "Billing address",
+       "Main phone number",
+       "Car make, model, plate"
+      ],
+      "source": "Ontario Reg. 292/25"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And what's not on that list?"
+    },
+    {
+     "who": "guest",
+     "text": "That's the surprise. No passport. No photo of a licence. Even a register the province requires asks for contact details, not a copy of an I D."
+    },
+    {
+     "who": "host",
+     "text": "So the law that most looks like a guest register still doesn't ask anyone to copy an I D."
+    },
+    {
+     "who": "guest",
+     "text": "Not in the regulation's list. The records are kept for six years, and police access is limited to identifying or locating people who may be victims of human trafficking. And notice who holds it. The platform, not the host with the phone. If you take your own direct bookings in Ontario, read the regulation carefully, or ask someone who knows it, because whether it touches you depends on how you operate."
+    },
+    {
+     "who": "host",
+     "text": "What about other countries? Lots of hosts travel too, and they've been asked for a passport abroad."
+    },
+    {
+     "who": "guest",
+     "text": "That happens, and it's often the law there. Vrbo's help page, for example, says I D is a legal requirement when booking in Spain, and that hosts in Italy may ask for it. Airbnb's own page says some regions require guests to register with local authorities, and the host may handle that for them. That's exactly the kind of exception Airbnb's policy leaves room for.",
+     "card": {
+      "type": "compare",
+      "left_title": "Required by law",
+      "left": "Collect only what the law asks. Disclose it. Store it safely.",
+      "right_title": "Not required",
+      "right": "Look at ID in person if your rules say so. Keep no copy."
+     }
+    },
+    {
+     "who": "host",
+     "text": "And speaking of Vrbo, how does it handle verification?"
+    },
+    {
+     "who": "guest",
+     "text": "Differently. Vrbo's help page says verification isn't currently required to book, but verified guests are more likely to be accepted. And hosts only see that a guest is verified, not the documents. Vrbo also lets hosts upload a rental agreement guests can read before booking, though it says house rules take priority over the agreement."
+    },
+    {
+     "who": "host",
+     "text": "So the same host might use a rental agreement on one platform and not the other."
+    },
+    {
+     "who": "guest",
+     "text": "Right, and that's fine, as long as each listing matches its own platform's rules. Rules vary by country, province and city, as of November twenty twenty six. This isn't legal advice."
+    },
+    {
+     "who": "host",
+     "text": "Okay. So if I'm not holding a passport photo, what actually protects my place? Neil, give me the toolkit. And I want the camera rules, because hosts get those wrong all the time."
+    }
+   ]
+  },
+  {
+   "heading": "Safer than an ID copy: damage protection, keypads, noise monitors and camera rules",
+   "visuals": [
+    "door keypad",
+    "doorbell",
+    "living room",
+    "toolbox",
+    "porch light",
+    "padlock"
+   ],
+   "lines": [
+    {
+     "who": "guest",
+     "text": "Start with money, because that's usually what the passport photo was meant to protect. On Airbnb, most hosts aren't allowed to charge a security deposit, on or off the platform. Some hosts connected through property management software can, if it's shown in the right fee field.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb security deposits",
+      "text": "Most hosts can't charge one, on or off Airbnb",
+      "source": "Airbnb Help Centre",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "So what replaces it?"
+    },
+    {
+     "who": "guest",
+     "text": "Airbnb's host damage protection, part of AirCover for hosts. It reimburses hosts up to three million U S dollars for damage guests cause during a stay. That can include extra cleaning for things like stains or smoke odour, and lost income if you have to cancel bookings because of the damage. It doesn't cover normal wear and tear.",
+     "card": {
+      "type": "stat",
+      "big": "Up to $3M USD",
+      "label": "Airbnb host damage protection for guest-caused damage",
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And the catch?"
+    },
+    {
+     "who": "guest",
+     "text": "Timing. You file a request in the Resolution Centre within fourteen days of the guest's checkout, with photos, estimates or receipts. The guest gets twenty four hours to respond, and if they don't pay, you can send it to Airbnb. And Airbnb says plainly that host damage protection is not insurance. So check what your own insurer covers too.",
+     "card": {
+      "type": "list",
+      "title": "After damage",
+      "items": [
+       "Photos, estimates, receipts",
+       "Resolution Centre within 14 days",
+       "Guest has 24 hours",
+       "Then ask Airbnb"
+      ],
+      "source": "Airbnb Help Centre"
+     }
+    },
+    {
+     "who": "host",
+     "text": "Here's what strikes me. A licence photo wouldn't have helped with any of that."
+    },
+    {
+     "who": "guest",
+     "text": "It really wouldn't. Airbnb already knows who booked. What you need is evidence of the damage, and a fast claim. So my real habit is a quick photo walk through after every checkout. Of the rooms, not the guest."
+    },
+    {
+     "who": "host",
+     "text": "Next tool. Keypads and smart locks."
+    },
+    {
+     "who": "guest",
+     "text": "A door keypad with a fresh code for each stay is one of the best things a small host can do. You're not handing out keys that get copied, and the code stops working after checkout. One note from the new policy. Keyless entry apps are allowed, but if a guest asks, the host has to offer another way in. So don't make an app account the only door.",
+     "card": {
+      "type": "point",
+      "text": "Keyless apps are fine. Offer another way in if a guest asks."
+     }
+    },
+    {
+     "who": "host",
+     "text": "Now cameras. What are the rules?"
+    },
+    {
+     "who": "guest",
+     "text": "Since April thirtieth, twenty twenty four, Airbnb bans security cameras that watch any part of the inside of a home. That includes shared spaces in private room listings, and it applies even if the camera is switched off. Hidden cameras are strictly prohibited.",
+     "card": {
+      "type": "rule",
+      "title": "Airbnb cameras, since Apr 30, 2024",
+      "text": "No indoor cameras, even switched off. Outdoor and doorbell cameras must be disclosed.",
+      "source": "Airbnb Help Centre",
+      "as_of": "Nov 2026"
+     }
+    },
+    {
+     "who": "host",
+     "text": "And outside?"
+    },
+    {
+     "who": "guest",
+     "text": "Outdoor cameras and doorbell cameras are allowed, as long as their locations are disclosed, and they can't cover places where guests expect more privacy, like an enclosed outdoor shower or a sauna. You describe each device in the listing, under guest safety."
+    },
+    {
+     "who": "host",
+     "text": "What about noise monitors? Because a party is what most hosts are really scared of."
+    },
+    {
+     "who": "guest",
+     "text": "Noise decibel monitors are allowed indoors, because they measure how loud it is and for how long, without recording any audio. They have to be disclosed, and they can't be in bedrooms, bathrooms or sleeping areas. A monitor in the living room tells you a party is starting, without listening to anyone's conversation.",
+     "card": {
+      "type": "point",
+      "text": "Noise monitors: allowed indoors if disclosed, never in bedrooms or bathrooms."
+     }
+    },
+    {
+     "who": "host",
+     "text": "So the toolkit is a keypad, a noise monitor, a doorbell camera that's disclosed, and the damage claim process. None of it needs a passport."
+    },
+    {
+     "who": "guest",
+     "text": "And the good track record setting, if you use Instant Book. Put those together and you've covered more real risk than a drawer full of photocopies ever did. Rules vary by city and province. This isn't legal advice."
+    },
+    {
+     "who": "host",
+     "text": "Let's do some host questions. And the first one is the one I hear the most. What about the guest who isn't the person who booked?"
+    }
+   ]
+  },
+  {
+   "heading": "Host questions: self check-in, insurers, and the guest who offers their passport",
+   "visuals": [
+    "mailbox",
+    "teapot",
+    "bookshelf",
+    "snowy porch",
+    "kitchen",
+    "wood stove"
+   ],
+   "lines": [
+    {
+     "who": "guest",
+     "text": "That's a good one. The booker is verified, and the friend they sent isn't on the account. I'd message the booking guest through Airbnb and ask them to confirm who's arriving. If something doesn't add up, Airbnb support is there for that. What you can't do under the new policy is ask that friend for an I D document or their contact details."
+    },
+    {
+     "who": "host",
+     "text": "Second. I do self check in, so there's no one there to look at an I D. Am I stuck?"
+    },
+    {
+     "who": "guest",
+     "text": "The in person check is allowed, not required. Most self check in hosts lean on what Airbnb already did, the verification and the badge, plus a keypad code that only goes to the booking guest. Asking for a photo of the I D instead, because no one is at the door, isn't one of the exceptions in the policy."
+    },
+    {
+     "who": "host",
+     "text": "Third. My insurer says I need a signed agreement with every guest."
+    },
+    {
+     "who": "guest",
+     "text": "Then that's one of the allowed contracts, since the November third update. Disclose it in your listing, keep it relevant to the stay, and don't put personal information in the contract itself. And ask your insurer to put exactly what they require in writing, so you can show Airbnb if it asks."
+    },
+    {
+     "who": "host",
+     "text": "Fourth. This one's from the guest side. A guest on the Airbnb Community forum described booking for four people, and the host asked for a driver's licence from everyone before confirming. The guest had never been asked that before and wanted to know if it was legit."
+    },
+    {
+     "who": "guest",
+     "text": "And the replies split, which is the honest picture. Some hosts said they ask to deter parties and to know who's staying. Others said some countries require guest registration by law. And others pointed out that asking for copies before arrival broke Airbnb's rules, and that storing those photos makes the host responsible for protecting them."
+    },
+    {
+     "who": "host",
+     "text": "Under the new policy, how would that play out?"
+    },
+    {
+     "who": "guest",
+     "text": "Unless a law or a documented rule requires it, asking four guests for licence photos before booking is exactly what the policy lists. And from a guest's point of view, it's a reason to book somewhere else. Write the reasonable version into your house rules instead. I D may be checked in person at check in, and nothing is kept."
+    },
+    {
+     "who": "host",
+     "text": "Last one. A guest offers to send their passport anyway, to be helpful."
+    },
+    {
+     "who": "guest",
+     "text": "Thank them and say no. The privacy commissioners' guidance says the duty to collect as little as possible applies even when people consent. So a guest offering it doesn't change the answer."
+    },
+    {
+     "who": "host",
+     "text": "Bonus question, because it's sneaky. My wifi has a login page that asks for an email address. Is that okay?"
+    },
+    {
+     "who": "guest",
+     "text": "For most hosts, probably not anymore. The new policy says wifi portals that ask for personal information are generally not allowed, except for hotels and resorts or where one of the exceptions applies. The same goes for asking guests to fill out a survey or leave a review on your own website, unless the listing is a hotel. So check the boring stuff too, like the router and any sign up page."
+    },
+    {
+     "who": "host",
+     "text": "And if a host isn't sure whether something they collect crosses the line?"
+    },
+    {
+     "who": "guest",
+     "text": "Ask yourself the questions a careful guest would ask. The Privacy Commissioner suggests people ask why the information is needed, whether it will be recorded, and whether a name and address would do instead. If your honest answers are, I'm not sure, yes, and probably, then you've got your answer."
+    },
+    {
+     "who": "host",
+     "text": "That's a nice clean test. Let's recap."
+    }
+   ]
+  },
+  {
+   "heading": "Recap: five takeaways",
+   "visuals": [
+    "lighthouse",
+    "quiet harbour",
+    "cottage porch",
+    "calendar"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "Number one. For Airbnb bookings made on or after November twentieth, twenty twenty six, hosts generally can't ask guests for I D documents, contact details or background checks, during the booking or the stay.",
+     "card": "clear"
+    },
+    {
+     "who": "guest",
+     "text": "Number two. You can look at an I D in person at check in if your house rules say so. Look, don't copy, unless a law or a documented rule requires it.",
+     "card": {
+      "type": "list",
+      "title": "Takeaways",
+      "items": [
+       "No ID collection on Airbnb",
+       "Look, don't copy",
+       "Airbnb verifies every guest"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "Number three. Airbnb already verifies every booking guest, and you can add good track record on Instant Book. Verification isn't a guarantee, but neither is a photo on your phone."
+    },
+    {
+     "who": "guest",
+     "text": "Number four. Canadian privacy guidance says recording a licence number is generally excessive, and copying the card generally goes too far. If you can't protect, don't collect.",
+     "card": {
+      "type": "list",
+      "title": "Takeaways",
+      "items": [
+       "Copying a licence goes too far",
+       "Damage claims within 14 days",
+       "Keypad, noise monitor, outdoor camera"
+      ]
+     }
+    },
+    {
+     "who": "host",
+     "text": "And number five. Protect your place with tools that work. A damage claim within fourteen days, a fresh keypad code, a disclosed noise monitor, outdoor cameras only, and the good track record setting."
+    }
+   ]
+  },
+  {
+   "heading": "Outro",
+   "visuals": [
+    "porch chairs",
+    "lake sunset",
+    "front door",
+    "snowy cottage"
+   ],
+   "lines": [
+    {
+     "who": "host",
+     "text": "That's episode six of the Keegix Podcast. If you want your check in steps, house rules and local picks on one page guests open on their phone, you can start free for one property at keegix dot com slash start. Sources for every rule and number are in the description."
+    },
+    {
+     "who": "guest",
+     "text": "Thanks, Nicole. And tonight, search your saved messages for the word licence."
+    },
+    {
+     "who": "host",
+     "text": "Thanks to Neil for the host's view. Next week, getting a cabin or cottage ready for winter guests. Heat, pipes, snow, the driveway, and what goes in the welcome book. New episodes every Tuesday. See you next week."
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Airbnb Help Centre: Limiting host-imposed contracts and other requirements (bookings from Nov 20, 2026)",
+   "url": "https://www.airbnb.ca/help/article/4169"
+  },
+  {
+   "label": "Airbnb Help Centre: Reasonable house rules and requests (bookings from Nov 20, 2026)",
+   "url": "https://www.airbnb.com/help/article/4168"
+  },
+  {
+   "label": "Rental Scale-Up: Airbnb's new house rules policy (Oct 21, 2026, updated Nov 11, 2026)",
+   "url": "https://www.rentalscaleup.com/airbnb-new-house-rules-policy/"
+  },
+  {
+   "label": "Wisevoter: Airbnb limits host requests for guest check-out chores (Nov 27, 2026)",
+   "url": "https://wisevoter.com/world/2026/11/27/airbnb-limits-host-checkout-chore-requests"
+  },
+  {
+   "label": "Province of Nova Scotia: Register your short-term accommodation",
+   "url": "https://www.novascotia.ca/register-your-short-term-accommodation"
+  },
+  {
+   "label": "Airbnb Help Centre: Booking requirements for reservations",
+   "url": "https://www.airbnb.ca/help/article/1170"
+  },
+  {
+   "label": "Airbnb Help Centre: Verifying your identity on Airbnb",
+   "url": "https://www.airbnb.ca/help/article/336"
+  },
+  {
+   "label": "Airbnb Help Centre: Customize booking settings (Instant Book guest requirements)",
+   "url": "https://www.airbnb.ca/help/article/484"
+  },
+  {
+   "label": "Airbnb Help Centre: AirCover for Hosts (reservation screening)",
+   "url": "https://www.airbnb.ca/help/article/3733"
+  },
+  {
+   "label": "Airbnb Newsroom: New anti-party technology in the US and Canada (Aug 16, 2022)",
+   "url": "https://news.airbnb.com/en-ca/airbnb-introduces-new-anti-party-technology-in-us-and-canada"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: PIPEDA in brief",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/pipeda_brief/"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: PIPEDA fair information principles, limiting collection",
+   "url": "https://priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/principles/p_collection"
+  },
+  {
+   "label": "Privacy Commissioners of Canada, Alberta and BC: Collection of driver's licence numbers under private sector privacy legislation",
+   "url": "https://priv.gc.ca/en/privacy-topics/sins-and-drivers-licences/driver-s-licences/guide_edl"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: Protecting your driver's licence",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/sins-and-drivers-licences/drivers-licences/protecting-your-drivers-licence/"
+  },
+  {
+   "label": "Office of the Privacy Commissioner of Canada: Mandatory reporting of breaches of security safeguards",
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-breaches/respond-to-a-privacy-breach-at-your-business/gd_pb_201810/"
+  },
+  {
+   "label": "Government of Ontario: New 2026 requirements for accommodation providers and platforms",
+   "url": "https://www.ontario.ca/page/new-2026-requirements-accommodation-providers-and-platforms"
+  },
+  {
+   "label": "Ontario Regulation 292/25 (Accommodation Sector Registration of Guests Act, 2021)",
+   "url": "https://www.ontario.ca/laws/regulation/250292"
+  },
+  {
+   "label": "Vrbo Help: About identity verification",
+   "url": "https://help.vrbo.com/articles/About-identity-verification"
+  },
+  {
+   "label": "Vrbo Help: About rental agreements",
+   "url": "https://help.vrbo.com/articles/Why-should-I-have-a-Rental-Agreement"
+  },
+  {
+   "label": "Airbnb Help Centre: Security deposits",
+   "url": "https://www.airbnb.ca/help/article/140"
+  },
+  {
+   "label": "Airbnb Help Centre: Host damage protection",
+   "url": "https://www.airbnb.ca/help/article/279"
+  },
+  {
+   "label": "Airbnb Help Centre: Restrictions on security cameras and other devices in homes",
+   "url": "https://www.airbnb.ca/help/article/3061"
+  },
+  {
+   "label": "Airbnb Community: Host asking for ID for my entire party (guest thread, retold)",
+   "url": "https://community.withairbnb.com/t5/Support-with-your-bookings/Host-asking-for-ID-driver-s-license-for-my-entire-party/m-p/1446148"
+  }
+ ],
+ "shorts": [
+  {
+   "title": "Your guest's passport photo isn't protection",
+   "from": [
+    0,
+    0
+   ],
+   "to": [
+    0,
+    2
+   ],
+   "caption": "Most hosts think a copy of the guest's ID keeps them safe. Since Nov 20 on Airbnb, you generally can't collect it. #airbnbhost #shorttermrental #bnbhost"
+  },
+  {
+   "title": "The one allowed way to see guest ID",
+   "from": [
+    3,
+    5
+   ],
+   "to": [
+    3,
+    8
+   ],
+   "caption": "Look, don't copy: Airbnb allows an in-person ID check at check-in if your house rules say so. No photos kept. #airbnbhost #airbnbrules #hostingtips"
+  },
+  {
+   "title": "A lost phone full of guest passports",
+   "from": [
+    5,
+    9
+   ],
+   "to": [
+    5,
+    12
+   ],
+   "caption": "Holding guest ID is a liability. Canada's privacy rule of thumb: if you can't protect, don't collect. #airbnbhost #privacy #shorttermrental"
+  },
+  {
+   "title": "Ontario's guest register skips the passport",
+   "from": [
+    7,
+    0
+   ],
+   "to": [
+    7,
+    4
+   ],
+   "caption": "Ontario's 2026 guest register asks platforms for name, billing address, phone and car plate. Not a copy of your ID. #ontario #airbnbhost #shorttermrental"
+  },
+  {
+   "title": "Noise monitors: the party check that's allowed",
+   "from": [
+    8,
+    13
+   ],
+   "to": [
+    8,
+    15
+   ],
+   "caption": "Airbnb allows noise decibel monitors indoors if disclosed, never in bedrooms or bathrooms. No audio recorded. #airbnbhost #bnbhost #hostingtips"
+  }
+ ]
+}

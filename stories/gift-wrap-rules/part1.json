@@ -1,0 +1,484 @@
+{
+ "channel": "Snortlo",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "music": true,
+ "min_seconds": 61,
+ "theme": "customers",
+ "hook": {
+  "pillars": "headline text 3 RULES|1 MAN|4 MINUTES + whoosh + slow zoom",
+  "formula": "number_list (Unexpected Truth-style)"
+ },
+ "end_card": {
+  "text": "SEND THIS TO|YOUR WIFE",
+  "secs": 2.5
+ },
+ "beats": [
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "3 RULES|1 MAN|4 MINUTES",
+    "bg1": "#E8F7EE",
+    "bg2": "#3C9D6B"
+   },
+   "text": "Three rules at the mall gift wrap table. One man broke all three in four minutes.",
+   "sfx": "whoosh",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Rule one. Never ask what's in the box.",
+   "sfx": "pop",
+   "cards": [
+    "RULE",
+    "1"
+   ],
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "GIFT|WRAP",
+    "cooler": false
+   },
+   "text": "Rule two. Never wrap anything that's breathing. Rule three. Never tell anyone what somebody else bought.",
+   "sfx": "ding",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "point",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "So a man in a red scarf walks up with a huge box. It has holes in it.",
+   "sfx": "slideup",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 120,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "to": 300
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "me",
+   "text": "Sir. What's in the box?",
+   "sfx": "hmm",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "talk",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     },
+     "act": "talk"
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Rule one. Gone. And the box answered for him.",
+   "sfx": "bark",
+   "cam": {
+    "zoom": 1.3,
+    "on": "co1"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "co1",
+   "text": "It's a puppy for my wife. Big surprise. Please make it pretty.",
+   "sfx": "aww",
+   "bubble": {
+    "text": "SURPRISE!",
+    "x": 300,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "I don't wrap breathing things. So I put one giant bow on top and called it art. He tipped me twenty bucks.",
+   "sfx": "cashregister",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     },
+     "hold": "paper"
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "celebrate",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "co1",
+   "text": "Then he leans in and whispers. Don't tell her. She thinks I'm out buying socks.",
+   "sfx": "rizz",
+   "bubble": {
+    "text": "SHH",
+    "x": 300,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co1",
+     "x": 300,
+     "facing": 1,
+     "pose": "sneak",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Ten minutes later, a woman walks up. Smaller box. Also has holes.",
+   "sfx": "heartbeat",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "stand",
+     "face": {
+      "eyes": "worried",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 300,
+     "facing": 1,
+     "pose": "hold",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "co3",
+   "text": "Did a man in a red scarf come by? What did he get me?",
+   "sfx": "waitwhat",
+   "bubble": {
+    "text": "WHAT DID HE GET ME?",
+    "x": 300,
+    "y": 520,
+    "tail": 30
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 300,
+     "facing": 1,
+     "pose": "point",
+     "face": {
+      "eyes": "smug",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Rule three. I said nothing. I just stood very still. And then her box meowed.",
+   "sfx": "busted",
+   "meme": "shake",
+   "slow": true,
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "shocked",
+     "face": {
+      "eyes": "wide",
+      "mouth": "o"
+     },
+     "fx": {
+      "sweat": true
+     }
+    },
+    {
+     "who": "co3",
+     "x": 300,
+     "facing": 1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "happy",
+      "mouth": "smile"
+     }
+    }
+   ]
+  },
+  {
+   "set": "closeup",
+   "state": {
+    "show": "text",
+    "big": "PUPPY|VS|KITTEN",
+    "bg1": "#FFF4D6",
+    "bg2": "#E8A33D"
+   },
+   "text": "They bought each other pets. Surprise pets. On the same day. At the same mall.",
+   "sfx": "dundun",
+   "meme": "slowzoom"
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "speaker": "co3",
+   "text": "Don't tell him. He's going to cry.",
+   "sfx": "tick",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "cross",
+     "face": {
+      "eyes": "flat",
+      "mouth": "flat"
+     }
+    },
+    {
+     "who": "co3",
+     "x": 300,
+     "facing": 1,
+     "pose": "talk",
+     "face": {
+      "eyes": "happy",
+      "mouth": "grin"
+     },
+     "act": "talk"
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Oh, he's going to cry. Christmas morning, a puppy and a kitten meet for the first time. Under one tree.",
+   "sfx": "sadviolin",
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "facepalm",
+     "face": {
+      "eyes": "closed",
+      "mouth": "wavy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "office",
+   "state": {
+    "whiteboard": "",
+    "cooler": false
+   },
+   "text": "Both covered in bows. I picked the paper. It says peace on earth.",
+   "sfx": "vineboom",
+   "pause": 0.6,
+   "cam": {
+    "zoom": 1.3,
+    "on": "me"
+   },
+   "cast": [
+    {
+     "who": "me",
+     "x": 660,
+     "facing": -1,
+     "pose": "shrug",
+     "face": {
+      "eyes": "flat",
+      "mouth": "smile"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "day": "20260212",
+ "start": 6739.0,
+ "end": 6752.0,
+ "tail": 7.6,
+ "top_text": "Mom trying to start grace at Christmas dinner|while the cousins are still yelling:",
+ "sfx": [
+  {
+   "at_word": "order",
+   "name": "ding",
+   "delay": 0.0
+  },
+  {
+   "at_word": "order",
+   "name": "hmm",
+   "delay": 2.5,
+   "gain": 0.8
+  },
+  {
+   "at_word": "order",
+   "name": "laughtrack",
+   "delay": 6.0,
+   "gain": 0.55
+  }
+ ],
+ "hold_end": 2.0,
+ "end_on_word": "order"
+}
