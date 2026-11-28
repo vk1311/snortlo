@@ -118,7 +118,7 @@ def layout_warnings(d):
 
 
 # Photo searches that kept pulling people, foreign text, logos or off-topic frames (photo reviews Nov 7-21, 2026).
-RISKY_SEARCHES = {"coins", "price tag", "receipt", "cheque book", "postage stamps", "cardboard boxes", "bank vault",
+RISKY_SEARCHES = {"keyhole", "wall calendar", "maple tree", "car keys", "lake sunset", "fountain pen", "coins", "price tag", "receipt", "cheque book", "postage stamps", "cardboard boxes", "bank vault",
                   "government building", "newspaper", "canoe", "hourglass", "letters", "reviews stars", "gold trophy",
                   "nurse station", "delivery truck", "front desk", "mop bucket", "dog bed", "suitcase", "snowy road", "clean towels",
                   "medical chart", "dominoes", "desk nameplate", "phone on desk", "kitchen table", "desk telephone",

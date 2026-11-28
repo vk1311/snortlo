@@ -272,8 +272,8 @@
     "laptop desk",
     "smartphone",
     "magnifying glass",
-    "keyhole",
-    "wall calendar",
+    "door knob",
+    "desk calendar",
     "house keys"
    ],
    "lines": [
@@ -385,8 +385,8 @@
     "paper shredder",
     "padlock",
     "laptop",
-    "fountain pen",
-    "maple tree"
+    "notebook",
+    "autumn leaves"
    ],
    "lines": [
     {
@@ -513,7 +513,7 @@
     "Toronto skyline",
     "ledger book",
     "parking lot",
-    "car keys",
+    "key ring",
     "world map",
     "lake cabin"
    ],
@@ -854,7 +854,7 @@
    "heading": "Outro",
    "visuals": [
     "porch chairs",
-    "lake sunset",
+    "calm lake",
     "front door",
     "snowy cottage"
    ],

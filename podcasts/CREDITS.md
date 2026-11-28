@@ -1062,3 +1062,23 @@ Prisbrey, Tressa, owner/builder, Public domain, https://commons.wikimedia.org/wi
 - "Rana oil gift box" by Fumikas Sagisavas, CC0, https://commons.wikimedia.org/wiki/File:Rana_oil_gift_box.jpg (via Wikimedia Commons; search: gift box)
 - "Starbucks xingqing mooncake gift box" by Fumikas Sagisavas, CC0, https://commons.wikimedia.org/wiki/File:Starbucks_xingqing_mooncake_gift_box.jpg (via Wikimedia Commons; search: gift box)
 - "Starbucks xingyue mooncake gift box" by Fumikas Sagisavas, CC0, https://commons.wikimedia.org/wiki/File:Starbucks_xingyue_mooncake_gift_box.jpg (via Wikimedia Commons; search: gift box)
+- "Four Different Passports" by Horizon206, CC0, https://commons.wikimedia.org/wiki/File:Four_Different_Passports.jpg (via Wikimedia Commons; search: passport)
+- "Photomontage Listenbourg passport - derivative work" by Various
+Original:  Cytis
+Derivative work:  unknown
+New version:  Tukp, Public domain, https://commons.wikimedia.org/wiki/File:Photomontage_Listenbourg_passport_-_derivative_work.jpg (via Wikimedia Commons; search: passport)
+- "Keyhole Nebula - Hubble 1999" by NASA, The Hubble Heritage Team (AURA/STScI), Public domain, https://commons.wikimedia.org/wiki/File:Keyhole_Nebula_-_Hubble_1999.jpg (via Wikimedia Commons; search: keyhole)
+- "Largest Maple Tree In Ohio (53985477339)" by Ashtabula Archive, Public domain, https://commons.wikimedia.org/wiki/File:Largest_Maple_Tree_In_Ohio_(53985477339).jpg (via Wikimedia Commons; search: maple tree)
+- "Maple leaf on trail in sunlight, Willow Tree Farm 2026-10-03" by Peter Cooper Jr., CC0, https://commons.wikimedia.org/wiki/File:Maple_leaf_on_trail_in_sunlight,_Willow_Tree_Farm_2026-10-03.jpg (via Wikimedia Commons; search: maple tree)
+- "Moscow, maple trees, Oct 2026 11" by Retired electrician, CC0, https://commons.wikimedia.org/wiki/File:Moscow,_maple_trees,_Oct_2026_11.jpg (via Wikimedia Commons; search: maple tree)
+- "Kippenheim vehicles logistics giant parking lot 4" by Syced, CC0, https://commons.wikimedia.org/wiki/File:Kippenheim_vehicles_logistics_giant_parking_lot_4.jpg (via Wikimedia Commons; search: parking lot)
+- "Parking Lot in sual" by Hynsly Jade Delos Santos Tormis, CC0, https://commons.wikimedia.org/wiki/File:Parking_Lot_in_sual.jpg (via Wikimedia Commons; search: parking lot)
+- "Parking lot (53626308300)" by BLMUtah, Public domain, https://commons.wikimedia.org/wiki/File:Parking_lot_(53626308300).jpg (via Wikimedia Commons; search: parking lot)
+- "Someone handing a key over" by @kaboompics, CC0, https://commons.wikimedia.org/wiki/File:Someone_handing_a_key_over.jpg (via Wikimedia Commons; search: car keys)
+- "Intelligent key" by TTTNIS, Public domain, https://commons.wikimedia.org/wiki/File:Intelligent_key.JPG (via Wikimedia Commons; search: car keys)
+- "Moxon A Map of the Earth 1681 Cornell CUL PJM 1012 01" by Joseph Moxon, Public domain, https://commons.wikimedia.org/wiki/File:Moxon_A_Map_of_the_Earth_1681_Cornell_CUL_PJM_1012_01.jpg (via Wikimedia Commons; search: world map)
+- "A New Map of the World 1721" by John Senex, Public domain, https://commons.wikimedia.org/wiki/File:A_New_Map_of_the_World_1721.jpg (via Wikimedia Commons; search: world map)
+- "Blank world map" by NihoniumMapping1868, CC0, https://commons.wikimedia.org/wiki/File:Blank_world_map.png (via Wikimedia Commons; search: world map)
+- "Calm Morning at Diana Lake" by Extemporalist, CC0, https://commons.wikimedia.org/wiki/File:Calm_Morning_at_Diana_Lake.webp (via Wikimedia Commons; search: calm lake)
+- "A Calm Rainy Morning in Late Autumn at Browne Lake Provincial Park" by Extemporalist, CC0, https://commons.wikimedia.org/wiki/File:A_Calm_Rainy_Morning_in_Late_Autumn_at_Browne_Lake_Provincial_Park.JPG (via Wikimedia Commons; search: calm lake)
+- "Calm Lake Matheson with mist at sunrise" by Pseudopanax at English Wikipedia, Public domain, https://commons.wikimedia.org/wiki/File:Calm_Lake_Matheson_with_mist_at_sunrise.jpg (via Wikimedia Commons; search: calm lake)
